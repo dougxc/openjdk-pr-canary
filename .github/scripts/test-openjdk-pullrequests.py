@@ -113,7 +113,7 @@ def main():
         repo = pr["head"]["repo"]["full_name"]
         head_sha = pr["head"]["sha"]
 
-        print(f"pull request: {pr['html_url']} ({head_sha})")
+        print(f"pull request: {pr['html_url']} - {pr['title']}")
 
         # Skip testing if the head commit has already been tested
         log_path = Path("logs").joinpath(repo, f"{head_sha}.json")
@@ -226,9 +226,10 @@ def main():
 
     print(f"===================================================")
     print(f"Building and testing libgraal executed for {len(log_paths)} pull requests.")
-    print(f"Failures for these pull requests:")
-    for pr in failed_pull_requests:
-        print(f"  {pr['html_url']} - \"{pr['title']}\"")
+    if failed_pull_requests:
+        print(f"Failures for these pull requests:")
+        for pr in failed_pull_requests:
+            print(f"  {pr['html_url']} - \"{pr['title']}\"")
     print(f"===================================================")
 
     # Exit with an error if there were any failures. This ensures
