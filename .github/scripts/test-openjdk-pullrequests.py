@@ -183,7 +183,14 @@ def main():
                     print("building libgraal passed")
 
                     # Test libgraal
-                    subprocess.run(["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", "LibGraal Compiler:Basic"], check=True)
+                    tasks = [
+                        "LibGraal Compiler:Basic",
+                        "LibGraal Compiler:FatalErrorHandling",
+                        "LibGraal Compiler:SystemicFailureDetection",
+                        "LibGraal Compiler:CTW",
+                        "LibGraal Compiler:DaCapo"
+                    ]
+                    subprocess.run(["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)], check=True)
                     print("testing libgraal passed")
                 except subprocess.CalledProcessError as e:
                     artifact_log["error"] = str(e)
