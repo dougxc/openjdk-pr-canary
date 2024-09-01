@@ -48,4 +48,4 @@ jobs:
     - name: Test LibGraal
       env:
         GH_TOKEN: ${{ github.token }}
-      run: python -u .github/scripts/test-openjdk-pullrequests.py -v
+      run: python -u .github/scripts/test-openjdk-pullrequests.py
