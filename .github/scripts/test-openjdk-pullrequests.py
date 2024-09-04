@@ -40,6 +40,9 @@ _gh_api_headers = ["-H", "Accept: application/vnd.github+json", "-H", "X-GitHub-
 _repo_root = Path(subprocess.run("git rev-parse --show-toplevel".split(), capture_output=True, text=True, check=True).stdout.strip())
 _starttime = time.time()
 
+#: Name of OpenJDK artifact to test
+_artifact_to_test = "bundles-linux-x64"
+
 def timestamp():
     duration = timedelta(seconds=time.time() - _starttime)
     # Strip microseconds and convert to a string
@@ -99,7 +102,10 @@ the `expect` variable accordingly:
 def main():
     check_bundle_naming_assumptions()
 
-    # JSON files for each tested commit
+    # Map from reason for not testing to listed of untested PRs
+    untested_prs = {}
+
+    # JSON files for each tested PR
     tested_pr_paths = []
 
     # URL for the current GitHub Action workflow run
@@ -112,6 +118,7 @@ def main():
     for pr in prs:
         # Ignore pull requests in draft state
         if pr["draft"] is True:
+            untested_prs.setdefault("they are in draft state", []).append(pr)
             continue
 
         repo = pr["head"]["repo"]["full_name"]
@@ -121,6 +128,7 @@ def main():
         tested_pr_path = Path("tested-prs").joinpath(str(pr["number"]), f"{head_sha}.json")
         logs_dir = Path("results").joinpath("logs", str(pr["number"]), f"{head_sha}")
         if tested_pr_path.exists():
+            untested_prs.setdefault("they have previously been tested", []).append(pr)
             continue
 
         # Pull request test summary
@@ -129,13 +137,12 @@ def main():
         # Get workflow runs for head commit in pull request
         runs = gh_api([f"/repos/{repo}/actions/runs?head_sha={head_sha}"])
 
-        # Search runs for non-expired "bundles-linux-x64" artifact
+        # Search runs for non-expired artifact
         for run in runs["workflow_runs"]:
             run_id = run["id"]
-            artifacts_obj = gh_api(["--paginate", f"/repos/{repo}/actions/runs/{run_id}/artifacts?name=bundles-linux-x64"])
+            artifacts_obj = gh_api(["--paginate", f"/repos/{repo}/actions/runs/{run_id}/artifacts?name={_artifact_to_test}"])
             for artifact in artifacts_obj["artifacts"]:
                 if artifact["expired"]:
-                    info(f"{artifact['name']} expired")
                     continue
 
                 artifact_id = artifact["id"]
@@ -237,6 +244,8 @@ def main():
             tested_pr_path.parent.mkdir(parents=True, exist_ok=True)
             tested_pr_path.write_text(tested_pr)
             tested_pr_paths.append(tested_pr_path)
+        else:
+            untested_prs.setdefault(f"they have no {_artifact_to_test} artifact", []).append(pr)
 
     # Push a commit for logs of pull request commits that were tested
     if tested_pr_paths:
@@ -249,14 +258,16 @@ def main():
         git(["commit", "--quiet", "-m", f"added {len(tested_pr_paths)} records"])
         
         try:
-        git(["push", "--quiet"])
+            git(["push", "--quiet"])
         except Exception as e:
             # Can fail if other commits were pushed in between
             info("pushing tested PR records failed")
 
     with Path("failure_logs").open("w") as fp:
         print(f"===================================================")
-        print(f"Building and testing libgraal executed for {len(tested_pr_paths)} pull requests.")
+        if tested_pr_paths:
+            print(f"Building and testing libgraal executed for {len(tested_pr_paths)} pull requests.")
+            print(f"Logs for all steps are in the 'logs' artifact at {run_url}")
         if failed_pull_requests:
             print(f"Failures for these pull requests:")
             for pr in failed_pull_requests:
@@ -265,10 +276,9 @@ def main():
                 print(f"  {pr['html_url']} - \"{pr['title']}\"")
                 print(f"  log: {failed_step_log}")
                 print()
-        if tested_pr_paths:
-            print(f"Logs for all steps are in the 'logs' artifact at {run_url}")
-        if failed_pull_requests:
             print(f"Logs for failed steps are shown below in \"Tail logs\".")
+        for reason, untested in untested_prs.items():
+            print(f"{len(untested)} pull requests not tested because {reason}.")
         print(f"===================================================")
 
     # Exit with an error if there were any failures. This ensures
