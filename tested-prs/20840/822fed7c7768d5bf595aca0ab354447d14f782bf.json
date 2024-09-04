@@ -1,0 +1,10 @@
+{
+  "artifact_1891978348": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-822fed7c7768d5bf595aca0ab354447d14f782bf)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-822fed7c7768d5bf595aca0ab354447d14f782bf, mixed mode, sharing)"
+  },
+  "url": "https://github.com/openjdk/jdk/pull/20840",
+  "title": "ClassFile built-in ByteBuffer speed up startup",
+  "head_sha": "822fed7c7768d5bf595aca0ab354447d14f782bf",
+  "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10704940607"
+}
