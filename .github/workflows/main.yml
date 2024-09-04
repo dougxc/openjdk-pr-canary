@@ -49,3 +49,10 @@ jobs:
       env:
         GH_TOKEN: ${{ github.token }}
       run: python -u .github/scripts/test-openjdk-pullrequests.py
+
+    - name: 'Upload build and test results'
+      uses: actions/upload-artifact@v4
+      with:
+        path: results
+        name: results
+      if: always()

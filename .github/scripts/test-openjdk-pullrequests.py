@@ -30,13 +30,28 @@ import shlex
 import shutil
 import zipfile
 import tarfile
+import time
 import glob
 from argparse import ArgumentParser
 from pathlib import Path
+from datetime import timedelta
 
 _gh_api_headers = ["-H", "Accept: application/vnd.github+json", "-H", "X-GitHub-Api-Version: 2022-11-28"]
 _verbose = False
 _repo_root = Path(subprocess.run("git rev-parse --show-toplevel".split(), capture_output=True, text=True, check=True).stdout.strip())
+_starttime = time.time()
+
+def timestamp():
+    duration = timedelta(seconds=time.time() - _starttime)
+    # Strip microseconds and convert to a string
+    duration = str(duration - timedelta(microseconds=duration.microseconds))
+    # Strip hours if 0
+    if duration.startswith('0:'):
+        duration = duration[2:]
+    return time.strftime('%Y-%m-%d %H:%M:%S') + '(+{})'.format(duration)
+
+def info(msg):
+    print(f"{timestamp()} {msg}")
 
 def gh_api(args, stdout=None, raw=False):
     cmd = ["gh", "api"] + _gh_api_headers + args
@@ -44,7 +59,7 @@ def gh_api(args, stdout=None, raw=False):
     if stdout:
         quoted_cmd += f" >{stdout.name}"
     if _verbose:
-      print(quoted_cmd)
+      info(quoted_cmd)
     text = stdout is None or 'b' not in stdout.mode
     p = subprocess.run(cmd, text=text, capture_output=stdout is None, check=False, stdout=stdout)
     if p.returncode != 0:
@@ -60,7 +75,7 @@ def git(args):
     cmd = ["git", "-C", str(_repo_root)] + args
     if _verbose:
         quoted_cmd = ' '.join(map(shlex.quote, cmd))
-        print(quoted_cmd)
+        info(quoted_cmd)
     subprocess.run(cmd, check=True)
 
 def check_bundle_naming_assumptions():
@@ -113,12 +128,13 @@ def main():
         repo = pr["head"]["repo"]["full_name"]
         head_sha = pr["head"]["sha"]
 
-        print(f"pull request: {pr['html_url']} - {pr['title']}")
+        info(f"pull request: {pr['html_url']} - {pr['title']}")
 
         # Skip testing if the head commit has already been tested
         log_path = Path("logs").joinpath(repo, f"{head_sha}.json")
+        results_dir = Path("results").joinpath(repo, f"{head_sha}")
         if log_path.exists():
-            print(f"{log_path} exists - skipping")
+            info(f"{log_path} exists - skipping")
             continue
 
         log = {}
@@ -126,13 +142,28 @@ def main():
         # Get workflow runs for head commit in pull request
         runs = gh_api([f"/repos/{repo}/actions/runs?head_sha={head_sha}"])
 
+        def run_step(name, label, cmd, **kwargs):
+            assert "capture_output" not in kwargs
+            assert "stdout" not in kwargs
+            assert "stderr" not in kwargs
+            results_path = results_dir.joinpath(f"{name}.log")
+            results_path.parent.mkdir(parents=True, exist_ok=True)
+            info(f"{label} [output is in {results_path}]")
+            with results_path.open("w") as fp:
+                kwargs["stdout"] = fp
+                kwargs["stderr"] = subprocess.STDOUT
+                if _verbose:
+                    quoted_cmd = ' '.join(map(shlex.quote, cmd))
+                    info(quoted_cmd)
+                return subprocess.run(cmd, **kwargs)
+
         # Search runs for non-expired "bundles-linux-x64" artifact
         for run in runs["workflow_runs"]:
             run_id = run["id"]
             artifacts_obj = gh_api(["--paginate", f"/repos/{repo}/actions/runs/{run_id}/artifacts?name=bundles-linux-x64"])
             for artifact in artifacts_obj["artifacts"]:
                 if artifact["expired"]:
-                    print(f"{artifact['name']} expired")
+                    info(f"{artifact['name']} expired")
                     continue
             
                 artifact_id = artifact["id"]
@@ -149,11 +180,11 @@ def main():
                 with zipfile.ZipFile(archive, 'r') as zf:
                     for zi in zf.infolist():
                         filename = zi.filename
-                        print(f"{archive}!{filename} ({zi.file_size} bytes)")
+                        info(f"{archive}!{filename} ({zi.file_size} bytes)")
                         if filename.endswith(".tar.gz") and (filename.startswith("jdk-") or filename.startswith("static-libs")):
                             zf.extract(filename)
                             with tarfile.open(filename, "r:gz") as tf:
-                                print(f"unpacking {filename}...")
+                                info(f"unpacking {filename}...")
                                 tf.extractall(path="extracted", filter="fully_trusted")
                             Path(filename).unlink()
                 archive.unlink()
@@ -175,12 +206,11 @@ def main():
                     subprocess.run(["gh", "repo", "clone", "graalvm/mx", "--", "--quiet", "--branch", "galahad", "--depth", "1"], check=True)
                 else:
                     # Clean
-                    subprocess.run(["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"], check=True)
+                    run_step("clean", "cleaning build", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"], check=True)
 
                 try:
                     # Build libgraal
-                    subprocess.run(["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"], check=True)
-                    print("building libgraal passed")
+                    run_step("build", "building libgraal", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"], check=True)
 
                     # Test libgraal
                     tasks = [
@@ -190,11 +220,10 @@ def main():
                         "LibGraal Compiler:CTW",
                         "LibGraal Compiler:DaCapo"
                     ]
-                    subprocess.run(["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)], check=True)
-                    print("testing libgraal passed")
+                    run_step("test", "testing libgraal", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)], check=True)
                 except subprocess.CalledProcessError as e:
                     artifact_log["error"] = str(e)
-                    print(e)
+                    info(e)
                     failed_pull_requests.append(pr)
 
                 # Remove JDK
@@ -207,7 +236,7 @@ def main():
 
             log = json.dumps(log, indent=2)
             if _verbose:
-                print(log)
+                info(log)
 
             log_path.parent.mkdir(parents=True, exist_ok=True)
             log_path.write_text(log)
