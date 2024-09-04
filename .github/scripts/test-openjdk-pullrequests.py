@@ -60,7 +60,7 @@ def gh_api(args, stdout=None, raw=False):
     text = stdout is None or 'b' not in stdout.mode
     p = subprocess.run(cmd, text=text, capture_output=stdout is None, check=False, stdout=stdout)
     if p.returncode != 0:
-        raise SystemExit(f"Command returned {p.returncode}: {quoted_cmd}{os.linesep}stdout: {p.stdout}{os.linesep}stderr: {p.stderr}")
+        raise Exception(f"Command returned {p.returncode}: {quoted_cmd}{os.linesep}stdout: {p.stdout}{os.linesep}stderr: {p.stderr}")
     if raw or stdout:
         return p.stdout
     return json.loads(p.stdout)
@@ -73,7 +73,7 @@ def git(args):
     p = subprocess.run(cmd)
     if p.returncode != 0:
         quoted_cmd = ' '.join(map(shlex.quote, cmd))
-        raise SystemExit(f"non-zero exit code {p.returncode}: {quoted_cmd}")
+        raise Exception(f"non-zero exit code {p.returncode}: {quoted_cmd}")
 
 def check_bundle_naming_assumptions():
     """
@@ -246,8 +246,13 @@ def main():
         for tested_pr_path in tested_pr_paths:
             git(["add", str(tested_pr_path)])
 
-        git(["commit", "--quiet", "-m", f"added {len(tested_pr_paths)} logs"])
+        git(["commit", "--quiet", "-m", f"added {len(tested_pr_paths)} records"])
+        
+        try:
         git(["push", "--quiet"])
+        except Exception as e:
+            # Can fail if other commits were pushed in between
+            info("pushing tested PR records failed")
 
     with Path("failure_logs").open("w") as fp:
         print(f"===================================================")
@@ -269,7 +274,7 @@ def main():
     # Exit with an error if there were any failures. This ensures
     # the repository owner is notified of the failure.
     if failed_pull_requests:
-        raise SystemExit(len(failed_pull_requests))
+        raise Exception(len(failed_pull_requests))
 
 if __name__ == "__main__":
     main()
