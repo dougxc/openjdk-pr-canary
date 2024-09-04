@@ -1,0 +1,11 @@
+{
+  "artifact_1889955635": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-21f0a229d025415c95d04ee296ed563590a1e5b6)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-21f0a229d025415c95d04ee296ed563590a1e5b6, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "url": "https://github.com/openjdk/jdk/pull/20780",
+  "title": "8339317: Optimize ClassFile writeBuffer",
+  "head_sha": "21f0a229d025415c95d04ee296ed563590a1e5b6",
+  "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10709291736"
+}
