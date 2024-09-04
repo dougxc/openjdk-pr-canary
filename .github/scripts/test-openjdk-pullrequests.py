@@ -284,7 +284,7 @@ def main():
     # Exit with an error if there were any failures. This ensures
     # the repository owner is notified of the failure.
     if failed_pull_requests:
-        raise Exception(len(failed_pull_requests))
+        raise SystemExit(f"failed testing of {len(failed_pull_requests)} pull request")
 
 if __name__ == "__main__":
     main()
