@@ -128,32 +128,6 @@ def main():
         # Get workflow runs for head commit in pull request
         runs = gh_api([f"/repos/{repo}/actions/runs?head_sha={head_sha}"])
 
-        def run_step(name, cmd, **kwargs):
-            assert "capture_output" not in kwargs
-            assert "stdout" not in kwargs
-            assert "stderr" not in kwargs
-
-            # Convert all command line args to string
-            cmd = [str(e) for e in cmd]
-
-            results_path = results_dir.joinpath(f"{name}.log")
-            results_path.parent.mkdir(parents=True, exist_ok=True)
-            info(f"begin: {name}")
-            with results_path.open("w") as fp:
-                kwargs["stdout"] = fp
-                kwargs["stderr"] = subprocess.STDOUT
-                kwargs["check"] = True
-                try:
-                    subprocess.run(cmd, **kwargs)
-                except subprocess.CalledProcessError as e:
-                    quoted_cmd = ' '.join(map(shlex.quote, cmd))
-                    info(f"non-zero exit code {e.returncode} for step '{name}': " + quoted_cmd)
-                    info(f"see {results_path} in uploaded artifacts for details")
-                    e.step = name
-                    raise e
-                finally:
-                    info(f"  end: {name}")
-
         # Search runs for non-expired "bundles-linux-x64" artifact
         for run in runs["workflow_runs"]:
             run_id = run["id"]
@@ -162,7 +136,7 @@ def main():
                 if artifact["expired"]:
                     info(f"{artifact['name']} expired")
                     continue
-            
+
                 artifact_id = artifact["id"]
                 artifact_log = log.setdefault(f"artifact_{artifact_id}", {})
 
@@ -193,6 +167,36 @@ def main():
                 artifact_log["java_home"] = str(java_home)
                 artifact_log["java_version_output"] = subprocess.run([str(java_exe), "--version"], capture_output=True, text=True).stdout.strip()
 
+                def run_step(name, cmd, **kwargs):
+                    assert "capture_output" not in kwargs
+                    assert "stdout" not in kwargs
+                    assert "stderr" not in kwargs
+
+                    # Convert all command line args to string
+                    cmd = [str(e) for e in cmd]
+
+                    results_path = results_dir.joinpath(f"{name}.log")
+                    results_path.parent.mkdir(parents=True, exist_ok=True)
+                    info(f"begin: {name}")
+                    with results_path.open("w") as fp:
+                        kwargs["stdout"] = fp
+                        kwargs["stderr"] = subprocess.STDOUT
+                        kwargs["check"] = True
+                        try:
+                            subprocess.run(cmd, **kwargs)
+
+                            # Delete log of successful step
+                            results_path.unlink()
+                        except subprocess.CalledProcessError as e:
+                            quoted_cmd = ' '.join(map(shlex.quote, cmd))
+                            info(f"non-zero exit code {e.returncode} for step '{name}': " + quoted_cmd)
+                            artifact_log["failed_step"] = name
+                            pr["failed_step_results_path"] = str(results_path)
+                            failed_pull_requests.append(pr)
+                            raise e
+                        finally:
+                            info(f"  end: {name}")
+
                 try:
                     if not Path("graal").exists():
                         # Clone graal
@@ -217,9 +221,7 @@ def main():
                     ]
                     run_step("test", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)])
                 except subprocess.CalledProcessError as e:
-                    if hasattr(e, "step"):
-                        artifact_log["failed_step"] = str(e.step)
-                    failed_pull_requests.append(pr)
+                    continue
 
                 # Remove JDK
                 shutil.rmtree(java_home)
@@ -244,7 +246,7 @@ def main():
             git(["add", str(log_path)])
 
         git(["commit", "--quiet", "-m", f"added {len(log_paths)} logs"])
-        git(["push"])
+        git(["push", "--quiet"])
 
     print(f"===================================================")
     print(f"Building and testing libgraal executed for {len(log_paths)} pull requests.")
@@ -252,7 +254,9 @@ def main():
         print(f"Failures for these pull requests:")
         for pr in failed_pull_requests:
             print(f"  {pr['html_url']} - \"{pr['title']}\"")
-        print(f"See logs in 'results' artifact at {run_url}")
+            print(f"  log: {pr['failed_step_results_path']}")
+            print()
+        print(f"Above logs are in the 'results' artifact at {run_url}")
     print(f"===================================================")
 
     # Exit with an error if there were any failures. This ensures
