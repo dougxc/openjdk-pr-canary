@@ -1,0 +1,12 @@
+{
+  "artifact_1888845415": {
+    "archive_name": "jdk_1888845415.zip",
+    "archive_size": 839487432,
+    "java_home": "extracted/jdk-24",
+    "java_version": "openjdk 11.0.24 2024-07-16\nOpenJDK Runtime Environment Temurin-11.0.24+8 (build 11.0.24+8)\nOpenJDK 64-Bit Server VM Temurin-11.0.24+8 (build 11.0.24+8, mixed mode)",
+    "error": "Command '['mx/mx', '-p', 'graal/vm', '--java-home', PosixPath('extracted/jdk-24'), '--env', 'libgraal', 'build']' returned non-zero exit status 1."
+  },
+  "url": "https://github.com/openjdk/jdk/pull/20845",
+  "head_sha": "0cc3caf2b49426bb6738a9792c88275c0cc7774a",
+  "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10693302076"
+}
