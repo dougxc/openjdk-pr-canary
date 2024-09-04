@@ -260,7 +260,10 @@ def main():
                 print(f"  {pr['html_url']} - \"{pr['title']}\"")
                 print(f"  log: {failed_step_log}")
                 print()
-            print(f"Above logs are in the 'results' artifact at {run_url}")
+        if tested_pr_paths:
+            print(f"Logs for all steps are in the 'logs' artifact at {run_url}")
+        if failed_pull_requests:
+            print(f"Logs for failed steps are shown below in \"Tail logs\".")
         print(f"===================================================")
 
     # Exit with an error if there were any failures. This ensures
