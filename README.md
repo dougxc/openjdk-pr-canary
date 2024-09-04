@@ -19,5 +19,5 @@ pull requests at https://github.com/openjdk/jdk/pulls. For each pull request:
 * Build and test libgraal.
 
 If any of the above steps fail, the workflow fails and the owner of this repo is notified.
-To avoid repeated testing of a pull request commit, a test record is committed under
-[logs/](logs) for each tested commit.
+To avoid repeated testing of a pull request, a test record is committed under
+[tested-prs/](tested-prs) for each tested pull request.

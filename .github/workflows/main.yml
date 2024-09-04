@@ -53,6 +53,6 @@ jobs:
     - name: 'Upload build and test results'
       uses: actions/upload-artifact@v4
       with:
-        path: results
-        name: results
+        path: results/
+        name: logs
       if: always()

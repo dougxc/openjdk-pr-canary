@@ -99,8 +99,8 @@ the `expect` variable accordingly:
 def main():
     check_bundle_naming_assumptions()
 
-    # Paths of written log files
-    log_paths = []
+    # JSON files for each tested commit
+    tested_pr_paths = []
 
     # URL for the current GitHub Action workflow run
     run_url = f"https://github.com/{os.environ.get('GITHUB_REPOSITORY')}/actions/runs/{os.environ.get('GITHUB_RUN_ID')}"
@@ -118,12 +118,13 @@ def main():
         head_sha = pr["head"]["sha"]
 
         # Skip testing if the head commit has already been tested
-        log_path = Path("logs").joinpath(repo, f"{head_sha}.json")
-        results_dir = Path("results").joinpath(repo, f"{head_sha}")
-        if log_path.exists():
+        tested_pr_path = Path("tested-prs").joinpath(str(pr["number"]), f"{head_sha}.json")
+        logs_dir = Path("results").joinpath("logs", str(pr["number"]), f"{head_sha}")
+        if tested_pr_path.exists():
             continue
 
-        log = {}
+        # Pull request test summary
+        tested_pr = {}
 
         # Get workflow runs for head commit in pull request
         runs = gh_api([f"/repos/{repo}/actions/runs?head_sha={head_sha}"])
@@ -138,7 +139,9 @@ def main():
                     continue
 
                 artifact_id = artifact["id"]
-                artifact_log = log.setdefault(f"artifact_{artifact_id}", {})
+
+                # Artifact test summary
+                tested_artifact = tested_pr.setdefault(f"artifact_{artifact_id}", {})
 
                 # Download artifact
                 archive = Path(f"jdk_{artifact_id}.zip")
@@ -164,8 +167,8 @@ def main():
 
                 java_exe = Path(java_exes[0])
                 java_home = java_exe.parent.parent
-                artifact_log["java_home"] = str(java_home)
-                artifact_log["java_version_output"] = subprocess.run([str(java_exe), "--version"], capture_output=True, text=True).stdout.strip()
+                tested_artifact["java_home"] = str(java_home)
+                tested_artifact["java_version_output"] = subprocess.run([str(java_exe), "--version"], capture_output=True, text=True).stdout.strip()
 
                 def run_step(name, cmd, **kwargs):
                     assert "capture_output" not in kwargs
@@ -175,10 +178,10 @@ def main():
                     # Convert all command line args to string
                     cmd = [str(e) for e in cmd]
 
-                    results_path = results_dir.joinpath(f"{name}.log")
-                    results_path.parent.mkdir(parents=True, exist_ok=True)
+                    log_path = logs_dir.joinpath(f"{name}.log")
+                    log_path.parent.mkdir(parents=True, exist_ok=True)
                     info(f"begin: {name}")
-                    with results_path.open("w") as fp:
+                    with log_path.open("w") as fp:
                         kwargs["stdout"] = fp
                         kwargs["stderr"] = subprocess.STDOUT
                         kwargs["check"] = True
@@ -186,12 +189,12 @@ def main():
                             subprocess.run(cmd, **kwargs)
 
                             # Delete log of successful step
-                            results_path.unlink()
+                            log_path.unlink()
                         except subprocess.CalledProcessError as e:
                             quoted_cmd = ' '.join(map(shlex.quote, cmd))
                             info(f"non-zero exit code {e.returncode} for step '{name}': " + quoted_cmd)
-                            artifact_log["failed_step"] = name
-                            pr["failed_step_results_path"] = str(results_path)
+                            tested_artifact["failed_step"] = name
+                            pr["failed_step_log"] = str(log_path)
                             failed_pull_requests.append(pr)
                             raise e
                         finally:
@@ -226,35 +229,35 @@ def main():
                 # Remove JDK
                 shutil.rmtree(java_home)
 
-        if log:
-            log["url"] = pr["html_url"]
-            log["head_sha"] = head_sha
-            log["run_url"] = run_url
+        if tested_pr:
+            tested_pr["url"] = pr["html_url"]
+            tested_pr["head_sha"] = head_sha
+            tested_pr["run_url"] = run_url
 
-            log = json.dumps(log, indent=2)
+            tested_pr = json.dumps(tested_pr, indent=2)
 
-            log_path.parent.mkdir(parents=True, exist_ok=True)
-            log_path.write_text(log)
-            log_paths.append(log_path)
+            tested_pr_path.parent.mkdir(parents=True, exist_ok=True)
+            tested_pr_path.write_text(tested_pr)
+            tested_pr_paths.append(tested_pr_path)
 
     # Push a commit for logs of pull request commits that were tested
-    if log_paths:
+    if tested_pr_paths:
         git(["config", "user.name", "Doug Simon"])
         git(["config", "user.email", "doug.simon@oracle.com"])
 
-        for log_path in log_paths:
-            git(["add", str(log_path)])
+        for tested_pr_path in tested_pr_paths:
+            git(["add", str(tested_pr_path)])
 
-        git(["commit", "--quiet", "-m", f"added {len(log_paths)} logs"])
+        git(["commit", "--quiet", "-m", f"added {len(tested_pr_paths)} logs"])
         git(["push", "--quiet"])
 
     print(f"===================================================")
-    print(f"Building and testing libgraal executed for {len(log_paths)} pull requests.")
+    print(f"Building and testing libgraal executed for {len(tested_pr_paths)} pull requests.")
     if failed_pull_requests:
         print(f"Failures for these pull requests:")
         for pr in failed_pull_requests:
             print(f"  {pr['html_url']} - \"{pr['title']}\"")
-            print(f"  log: {pr['failed_step_results_path']}")
+            print(f"  log: {pr['failed_step_log']}")
             print()
         print(f"Above logs are in the 'results' artifact at {run_url}")
     print(f"===================================================")
