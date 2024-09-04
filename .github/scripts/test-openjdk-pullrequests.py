@@ -187,9 +187,6 @@ def main():
                         kwargs["check"] = True
                         try:
                             subprocess.run(cmd, **kwargs)
-
-                            # Delete log of successful step
-                            log_path.unlink()
                         except subprocess.CalledProcessError as e:
                             quoted_cmd = ' '.join(map(shlex.quote, cmd))
                             info(f"non-zero exit code {e.returncode} for step '{name}': " + quoted_cmd)
@@ -251,16 +248,19 @@ def main():
         git(["commit", "--quiet", "-m", f"added {len(tested_pr_paths)} logs"])
         git(["push", "--quiet"])
 
-    print(f"===================================================")
-    print(f"Building and testing libgraal executed for {len(tested_pr_paths)} pull requests.")
-    if failed_pull_requests:
-        print(f"Failures for these pull requests:")
-        for pr in failed_pull_requests:
-            print(f"  {pr['html_url']} - \"{pr['title']}\"")
-            print(f"  log: {pr['failed_step_log']}")
-            print()
-        print(f"Above logs are in the 'results' artifact at {run_url}")
-    print(f"===================================================")
+    with Path("failure_logs").open("w") as fp:
+        print(f"===================================================")
+        print(f"Building and testing libgraal executed for {len(tested_pr_paths)} pull requests.")
+        if failed_pull_requests:
+            print(f"Failures for these pull requests:")
+            for pr in failed_pull_requests:
+                failed_step_log = pr['failed_step_log']
+                print(failed_step_log, file=fp)
+                print(f"  {pr['html_url']} - \"{pr['title']}\"")
+                print(f"  log: {failed_step_log}")
+                print()
+            print(f"Above logs are in the 'results' artifact at {run_url}")
+        print(f"===================================================")
 
     # Exit with an error if there were any failures. This ensures
     # the repository owner is notified of the failure.

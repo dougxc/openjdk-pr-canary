@@ -50,6 +50,14 @@ jobs:
         GH_TOKEN: ${{ github.token }}
       run: python -u .github/scripts/test-openjdk-pullrequests.py
 
+    - name: Tail logs
+      run: |
+        for name in $(<failure_logs); do
+          echo "::group::${name} (last 500 lines)"
+          tail -500 ${name}
+          echo "::endgroup::"
+        done
+
     - name: 'Upload build and test results'
       uses: actions/upload-artifact@v4
       with:
