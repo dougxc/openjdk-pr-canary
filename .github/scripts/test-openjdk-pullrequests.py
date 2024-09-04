@@ -255,36 +255,36 @@ def main():
         for tested_pr_path in tested_pr_paths:
             git(["add", str(tested_pr_path)])
 
-        git(["commit", "--quiet", "-m", f"added {len(tested_pr_paths)} records"])
+        git(["commit", "--quiet", "-m", f"added {len(tested_pr_paths)} pull request test records"])
         
         try:
             git(["push", "--quiet"])
         except Exception as e:
             # Can fail if other commits were pushed in between
-            info("pushing tested PR records failed")
+            info("pushing pull request test records failed")
 
-    with Path("failure_logs").open("w") as fp:
-        print(f"===================================================")
-        if tested_pr_paths:
-            print(f"Building and testing libgraal executed for {len(tested_pr_paths)} pull requests.")
-            print(f"Logs for all steps are in the 'logs' artifact at {run_url}")
-        if failed_pull_requests:
-            print(f"Failures for these pull requests:")
+    print(f"===================================================")
+    if tested_pr_paths:
+        print(f"Building and testing libgraal executed for {len(tested_pr_paths)} pull requests.")
+        print(f"Logs for all steps are in the 'logs' artifact at {run_url}")
+    if failed_pull_requests:
+        print(f"Failures for these pull requests:")
+        with Path("failure_logs").open("w") as fp:
             for pr in failed_pull_requests:
                 failed_step_log = pr['failed_step_log']
                 print(failed_step_log, file=fp)
                 print(f"  {pr['html_url']} - \"{pr['title']}\"")
                 print(f"  log: {failed_step_log}")
                 print()
-            print(f"Logs for failed steps are shown below in \"Tail logs\".")
-        for reason, untested in untested_prs.items():
-            print(f"{len(untested)} pull requests not tested because {reason}.")
-        print(f"===================================================")
+        print(f"Logs for failed steps are shown below in \"Tail logs\".")
+    for reason, untested in untested_prs.items():
+        print(f"{len(untested)} pull requests not tested because {reason}.")
+    print(f"===================================================")
 
     # Exit with an error if there were any failures. This ensures
     # the repository owner is notified of the failure.
     if failed_pull_requests:
-        raise SystemExit(f"failed testing of {len(failed_pull_requests)} pull request")
+        raise SystemExit(f"failed testing of {len(failed_pull_requests)} pull requests")
 
 if __name__ == "__main__":
     main()
