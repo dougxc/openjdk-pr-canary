@@ -228,6 +228,7 @@ def main():
 
         if tested_pr:
             tested_pr["url"] = pr["html_url"]
+            tested_pr["title"] = pr["title"]
             tested_pr["head_sha"] = head_sha
             tested_pr["run_url"] = run_url
 
