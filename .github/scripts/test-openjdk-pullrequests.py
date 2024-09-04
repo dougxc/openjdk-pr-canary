@@ -114,7 +114,7 @@ def main():
     # Pull requests for which libgraal building or testing failed
     failed_pull_requests = []
 
-    prs = gh_api(["/repos/openjdk/jdk/pulls?state=open"])
+    prs = gh_api(["--paginate", "/repos/openjdk/jdk/pulls?state=open"])
     for pr in prs:
         # Ignore pull requests in draft state
         if pr["draft"] is True:
