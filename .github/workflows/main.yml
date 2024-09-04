@@ -31,6 +31,10 @@ on:
     - cron: '*/10 * * * *'
   workflow_dispatch:
 
+# Only run one instance of this workflow per branch at a time
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+    
 jobs:
   main:
     runs-on: ubuntu-22.04
