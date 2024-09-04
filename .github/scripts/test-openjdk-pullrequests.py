@@ -221,7 +221,7 @@ def main():
                     ]
                     run_step("test", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)])
                 except subprocess.CalledProcessError as e:
-                    continue
+                    pass
 
                 # Remove JDK
                 shutil.rmtree(java_home)

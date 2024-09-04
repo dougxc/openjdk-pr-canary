@@ -56,11 +56,16 @@ jobs:
 
     - name: Tail logs
       run: |
-        for name in $(<failure_logs); do
-          echo "::group::${name} (last 500 lines)"
-          tail -500 ${name}
-          echo "::endgroup::"
-        done
+        if [ -f failure_logs ]; then
+          for name in $(<failure_logs); do
+            echo "::group::${name} (last 500 lines)"
+            tail -500 ${name}
+            echo "::endgroup::"
+          done
+        else
+          echo "No failure logs to dump."
+        fi
+      if: always()
 
     - name: 'Upload build and test results'
       uses: actions/upload-artifact@v4
