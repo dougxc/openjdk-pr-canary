@@ -37,7 +37,6 @@ from pathlib import Path
 from datetime import timedelta
 
 _gh_api_headers = ["-H", "Accept: application/vnd.github+json", "-H", "X-GitHub-Api-Version: 2022-11-28"]
-_verbose = False
 _repo_root = Path(subprocess.run("git rev-parse --show-toplevel".split(), capture_output=True, text=True, check=True).stdout.strip())
 _starttime = time.time()
 
@@ -58,12 +57,10 @@ def gh_api(args, stdout=None, raw=False):
     quoted_cmd = ' '.join(map(shlex.quote, cmd))
     if stdout:
         quoted_cmd += f" >{stdout.name}"
-    if _verbose:
-      info(quoted_cmd)
     text = stdout is None or 'b' not in stdout.mode
     p = subprocess.run(cmd, text=text, capture_output=stdout is None, check=False, stdout=stdout)
     if p.returncode != 0:
-        raise SystemExit(f"Command returned {p.returncode}: {quoted_cmd}{os.linesep}Stdout: {p.stdout}{os.linesep}Stderr: {p.stderr}")
+        raise SystemExit(f"Command returned {p.returncode}: {quoted_cmd}{os.linesep}stdout: {p.stdout}{os.linesep}stderr: {p.stderr}")
     if raw or stdout:
         return p.stdout
     return json.loads(p.stdout)
@@ -73,10 +70,10 @@ def git(args):
     Runs a git command
     """
     cmd = ["git", "-C", str(_repo_root)] + args
-    if _verbose:
+    p = subprocess.run(cmd)
+    if p.returncode != 0:
         quoted_cmd = ' '.join(map(shlex.quote, cmd))
-        info(quoted_cmd)
-    subprocess.run(cmd, check=True)
+        raise SystemExit(f"non-zero exit code {p.returncode}: {quoted_cmd}")
 
 def check_bundle_naming_assumptions():
     """
@@ -100,14 +97,6 @@ the `expect` variable accordingly:
 """
 
 def main():
-    parser = ArgumentParser()
-    parser.add_argument("--verbose", "-v", action="store_true", help="verbose mode")
-    
-    args = parser.parse_args()
-
-    global _verbose
-    _verbose = args.verbose
-
     check_bundle_naming_assumptions()
 
     # Paths of written log files
@@ -128,13 +117,10 @@ def main():
         repo = pr["head"]["repo"]["full_name"]
         head_sha = pr["head"]["sha"]
 
-        info(f"pull request: {pr['html_url']} - {pr['title']}")
-
         # Skip testing if the head commit has already been tested
         log_path = Path("logs").joinpath(repo, f"{head_sha}.json")
         results_dir = Path("results").joinpath(repo, f"{head_sha}")
         if log_path.exists():
-            info(f"{log_path} exists - skipping")
             continue
 
         log = {}
@@ -142,20 +128,31 @@ def main():
         # Get workflow runs for head commit in pull request
         runs = gh_api([f"/repos/{repo}/actions/runs?head_sha={head_sha}"])
 
-        def run_step(name, label, cmd, **kwargs):
+        def run_step(name, cmd, **kwargs):
             assert "capture_output" not in kwargs
             assert "stdout" not in kwargs
             assert "stderr" not in kwargs
+
+            # Convert all command line args to string
+            cmd = [str(e) for e in cmd]
+
             results_path = results_dir.joinpath(f"{name}.log")
             results_path.parent.mkdir(parents=True, exist_ok=True)
-            info(f"{label} [output is in {results_path}]")
+            info(f"begin: {name}")
             with results_path.open("w") as fp:
                 kwargs["stdout"] = fp
                 kwargs["stderr"] = subprocess.STDOUT
-                if _verbose:
+                kwargs["check"] = True
+                try:
+                    subprocess.run(cmd, **kwargs)
+                except subprocess.CalledProcessError as e:
                     quoted_cmd = ' '.join(map(shlex.quote, cmd))
-                    info(quoted_cmd)
-                return subprocess.run(cmd, **kwargs)
+                    info(f"non-zero exit code {e.returncode} for step '{name}': " + quoted_cmd)
+                    info(f"see {results_path} in uploaded artifacts for details")
+                    e.step = name
+                    raise e
+                finally:
+                    info(f"  end: {name}")
 
         # Search runs for non-expired "bundles-linux-x64" artifact
         for run in runs["workflow_runs"]:
@@ -173,44 +170,42 @@ def main():
                 archive = Path(f"jdk_{artifact_id}.zip")
                 with open(archive, 'wb') as fp:
                     gh_api([f"/repos/{repo}/actions/artifacts/{artifact_id}/zip"], stdout=fp)
-                artifact_log["archive_name"] = str(archive)
-                artifact_log["archive_size"] = archive.stat().st_size
 
                 # Extract JDK and static-libs bundles
                 with zipfile.ZipFile(archive, 'r') as zf:
                     for zi in zf.infolist():
                         filename = zi.filename
-                        info(f"{archive}!{filename} ({zi.file_size} bytes)")
                         if filename.endswith(".tar.gz") and (filename.startswith("jdk-") or filename.startswith("static-libs")):
                             zf.extract(filename)
                             with tarfile.open(filename, "r:gz") as tf:
-                                info(f"unpacking {filename}...")
                                 tf.extractall(path="extracted", filter="fully_trusted")
                             Path(filename).unlink()
                 archive.unlink()
 
+                info(f"processing {pr['html_url']} - {pr['title']}")
+
                 # Find java executable
-                javas = glob.glob("extracted/jdk*/bin/java")
-                assert len(javas) == 1, javas
+                java_exes = glob.glob("extracted/jdk*/bin/java")
+                assert len(java_exes) == 1, java_exes
 
-                java = Path(javas[0])
-                java_home = java.parent.parent
+                java_exe = Path(java_exes[0])
+                java_home = java_exe.parent.parent
                 artifact_log["java_home"] = str(java_home)
-                artifact_log["java_version"] = subprocess.run(["java", "--version"], capture_output=True, text=True).stdout.strip()
-
-                if not Path("graal").exists():
-                    # Clone graal
-                    subprocess.run(["gh", "repo", "clone", "oracle/graal", "--", "--quiet", "--branch", "galahad", "--depth", "1"], check=True)
-
-                    # Clone mx
-                    subprocess.run(["gh", "repo", "clone", "graalvm/mx", "--", "--quiet", "--branch", "galahad", "--depth", "1"], check=True)
-                else:
-                    # Clean
-                    run_step("clean", "cleaning build", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"], check=True)
+                artifact_log["java_version_output"] = subprocess.run([str(java_exe), "--version"], capture_output=True, text=True).stdout.strip()
 
                 try:
+                    if not Path("graal").exists():
+                        # Clone graal
+                        run_step("clone_graal", ["gh", "repo", "clone", "oracle/graal", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
+
+                        # Clone mx
+                        run_step("clone_mx", ["gh", "repo", "clone", "graalvm/mx", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
+                    else:
+                        # Clean
+                        run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
+
                     # Build libgraal
-                    run_step("build", "building libgraal", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"], check=True)
+                    run_step("build", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"])
 
                     # Test libgraal
                     tasks = [
@@ -220,10 +215,10 @@ def main():
                         "LibGraal Compiler:CTW",
                         "LibGraal Compiler:DaCapo"
                     ]
-                    run_step("test", "testing libgraal", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)], check=True)
+                    run_step("test", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)])
                 except subprocess.CalledProcessError as e:
-                    artifact_log["error"] = str(e)
-                    info(e)
+                    if hasattr(e, "step"):
+                        artifact_log["failed_step"] = str(e.step)
                     failed_pull_requests.append(pr)
 
                 # Remove JDK
@@ -235,8 +230,6 @@ def main():
             log["run_url"] = run_url
 
             log = json.dumps(log, indent=2)
-            if _verbose:
-                info(log)
 
             log_path.parent.mkdir(parents=True, exist_ok=True)
             log_path.write_text(log)
@@ -250,7 +243,7 @@ def main():
         for log_path in log_paths:
             git(["add", str(log_path)])
 
-        git(["commit", "-m", f"added {len(log_paths)} logs"])
+        git(["commit", "--quiet", "-m", f"added {len(log_paths)} logs"])
         git(["push"])
 
     print(f"===================================================")
@@ -259,6 +252,7 @@ def main():
         print(f"Failures for these pull requests:")
         for pr in failed_pull_requests:
             print(f"  {pr['html_url']} - \"{pr['title']}\"")
+        print(f"See logs in 'results' artifact at {run_url}")
     print(f"===================================================")
 
     # Exit with an error if there were any failures. This ensures
