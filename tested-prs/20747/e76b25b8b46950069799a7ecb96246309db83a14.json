@@ -1,0 +1,10 @@
+{
+  "artifact_1894611050": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-e76b25b8b46950069799a7ecb96246309db83a14)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-e76b25b8b46950069799a7ecb96246309db83a14, mixed mode, sharing)"
+  },
+  "url": "https://github.com/openjdk/jdk/pull/20747",
+  "title": "8339168: Optimize ClassFile Util slotSize",
+  "head_sha": "e76b25b8b46950069799a7ecb96246309db83a14",
+  "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10714363075"
+}
