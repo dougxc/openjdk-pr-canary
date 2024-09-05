@@ -157,6 +157,10 @@ def main(context):
                 # Extract JDK and static-libs bundles
                 has_static_libs = False
                 with zipfile.ZipFile(archive, 'r') as zf:
+                    if not any((zi.filename.startswith("static-libs") for zi in zf.infolist())):
+                        untested_prs.setdefault("they are missing the static-libs bundle (added by JDK-8337265)", []).append(pr)
+                        continue
+
                     for zi in zf.infolist():
                         filename = zi.filename
                         if filename.endswith(".tar.gz") and (filename.startswith("jdk-") or filename.startswith("static-libs")):
@@ -164,13 +168,7 @@ def main(context):
                             with tarfile.open(filename, "r:gz") as tf:
                                 tf.extractall(path="extracted", filter="fully_trusted")
                             Path(filename).unlink()
-                        if not has_static_libs and filename.startswith("static-libs"):
-                            has_static_libs = True
                 archive.unlink()
-
-                if not has_static_libs:
-                    untested_prs.setdefault("they are missing the static-libs bundle (added by JDK-8337265)", []).append(pr)
-                    continue
 
                 info(f"processing {pr['html_url']} - {pr['title']}")
 
