@@ -52,6 +52,7 @@ jobs:
     - name: Test LibGraal
       env:
         GH_TOKEN: ${{ github.token }}
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       run: python -u .github/scripts/test-openjdk-pullrequests.py
 
     - name: Tail logs

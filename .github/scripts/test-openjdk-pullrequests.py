@@ -147,9 +147,6 @@ def main():
 
                 artifact_id = artifact["id"]
 
-                # Artifact test summary
-                tested_artifact = tested_pr.setdefault(f"artifact_{artifact_id}", {})
-
                 # Download artifact
                 archive = Path(f"jdk_{artifact_id}.zip")
                 with open(archive, 'wb') as fp:
@@ -181,6 +178,10 @@ def main():
 
                 java_exe = Path(java_exes[0])
                 java_home = java_exe.parent.parent
+
+                # Artifact test summary
+                tested_artifact = tested_pr.setdefault(f"artifact_{artifact_id}", {})
+
                 tested_artifact["java_home"] = str(java_home)
                 tested_artifact["java_version_output"] = subprocess.run([str(java_exe), "--version"], capture_output=True, text=True).stdout.strip()
 
@@ -205,6 +206,7 @@ def main():
                             quoted_cmd = ' '.join(map(shlex.quote, cmd))
                             info(f"non-zero exit code {e.returncode} for step '{name}': " + quoted_cmd)
                             tested_artifact["failed_step"] = name
+                            tested_pr["status"] = "failed"
                             pr["failed_step_log"] = str(log_path)
                             failed_pull_requests.append(pr)
                             raise e
@@ -234,6 +236,8 @@ def main():
                         "LibGraal Compiler:DaCapo"
                     ]
                     run_step("test", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)])
+
+                    tested_pr["status"] = "passed"
                 except subprocess.CalledProcessError as e:
                     pass
 
@@ -245,6 +249,9 @@ def main():
             tested_pr["title"] = pr["title"]
             tested_pr["head_sha"] = head_sha
             tested_pr["run_url"] = run_url
+
+            if tested_pr["status"] == "failed":
+                post_failure_to_slack(tested_pr)
 
             tested_pr = json.dumps(tested_pr, indent=2)
 
@@ -261,11 +268,11 @@ def main():
 
         for tested_pr_path in tested_pr_paths:
             git(["add", str(tested_pr_path)])
+            tested_pr = json.loads(tested_pr_path.read_text())
+            git(["commit", "--quiet", "-m", f"test record for {tested_pr['url']}\n{tested_pr['title']}"])
 
-        git(["commit", "--quiet", "-m", f"added {len(tested_pr_paths)} pull request test records"])
-        
         try:
-            git(["push", "--quiet"])
+            git(["push", "--quiet"])         
         except Exception as e:
             # Can fail if other commits were pushed in between
             info("pushing pull request test records failed")
@@ -288,10 +295,84 @@ def main():
         print(f"{len(untested)} pull requests not tested because {reason}.")
     print(f"===================================================")
 
-    # Exit with an error if there were any failures. This ensures
-    # the repository owner is notified of the failure.
-    if failed_pull_requests:
-        raise SystemExit(f"failed testing of {len(failed_pull_requests)} pull requests")
+def post_failure_to_slack(tested_pr):
+    """
+    Posts a message to the #openjdk-pr-testing (https://graalvm.slack.com/archives/C07KMA7HFE3)
+    Slack channel for the failure in `tested_pr`.
+    """
+
+    message = f"""
+{{
+	"blocks": [
+		{{
+			"type": "rich_text",
+			"elements": [
+				{{
+					"type": "rich_text_section",
+					"elements": [
+						{{
+							"type": "text",
+							"text": "Testing "
+						}},
+						{{
+							"type": "link",
+							"url": "{tested_pr['url']}"
+						}},
+						{{
+							"type": "text",
+							"text": " against libgraal failed.\n\nSee the "
+						}},
+						{{
+							"type": "text",
+							"text": "Test LibGraal",
+							"style": {{
+								"code": true
+							}}
+						}},
+						{{
+							"type": "text",
+							"text": " and "
+						}},
+						{{
+							"type": "text",
+							"text": "Failure Logs",
+							"style": {{
+								"code": true
+							}}
+						}},
+						{{
+							"type": "text",
+							"text": " sections in the log for the "
+						}},
+						{{
+							"type": "text",
+							"text": "main",
+							"style": {{
+								"code": true
+							}}
+						}},
+						{{
+							"type": "text",
+							"text": " job at "
+						}},
+						{{
+							"type": "link",
+							"url": "{tested_pr['run_url']}"
+						}},
+						{{
+							"type": "text",
+							"text": "\n\nCoordinate on this channel in terms of adapting to the changes in the pull request. If adaption is non-trivial, it may be worth communicating with the PR author to request a delay in merging the PR until the adaption is ready."
+						}}
+					]
+				}}
+			]
+		}}
+	]
+}}
+"""
+    message_path = Path("message.json")
+    message_path.write_text(message)
+    subprocess.run(["curl", "-X", "POST", "-H", "Content-type: application/json", "--data-binary", message_path])
 
 if __name__ == "__main__":
     main()
