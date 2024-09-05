@@ -99,7 +99,7 @@ the `expect` variable accordingly:
         {expect}
 """
 
-def main():
+def main(context):
     check_bundle_naming_assumptions()
 
     # Map from reason for not testing to listed of untested PRs
@@ -116,6 +116,7 @@ def main():
 
     prs = gh_api(["--paginate", "/repos/openjdk/jdk/pulls?state=open"])
     for pr in prs:
+        context["pr"] = pr
         # Ignore pull requests in draft state
         if pr["draft"] is True:
             untested_prs.setdefault("they are in draft state", []).append(pr)
@@ -142,6 +143,7 @@ def main():
             run_id = run["id"]
             artifacts_obj = gh_api(["--paginate", f"/repos/{repo}/actions/runs/{run_id}/artifacts?name={_artifact_to_test}"])
             for artifact in artifacts_obj["artifacts"]:
+                context["artifact"] = artifact
                 if artifact["expired"]:
                     continue
 
@@ -244,6 +246,8 @@ def main():
                 # Remove JDK
                 shutil.rmtree(java_home)
 
+                context["artifact"] = None
+
         if tested_pr:
             tested_pr["url"] = pr["html_url"]
             tested_pr["title"] = pr["title"]
@@ -260,6 +264,8 @@ def main():
             tested_pr_paths.append(tested_pr_path)
         else:
             untested_prs.setdefault(f"they have no {_artifact_to_test} artifact", []).append(pr)
+
+        context["pr"] = None
 
     # Push a commit for logs of pull request commits that were tested
     if tested_pr_paths:
@@ -375,4 +381,9 @@ def post_failure_to_slack(tested_pr):
     subprocess.run(["curl", "-X", "POST", "-H", "Content-type: application/json", "--data-binary", message_path])
 
 if __name__ == "__main__":
-    main()
+    context = {}
+    try:
+        main(context)
+    except Exception as e:
+        raise Exception(f"Context for exception in main: {json.dumps(context, indent=2)}") from e
+
