@@ -310,78 +310,84 @@ def post_failure_to_slack(tested_pr):
     Slack channel for the failure in `tested_pr`.
     """
 
-    message = f"""
-{{
-	"blocks": [
-		{{
-			"type": "rich_text",
-			"elements": [
-				{{
-					"type": "rich_text_section",
-					"elements": [
-						{{
-							"type": "text",
-							"text": "Testing "
-						}},
-						{{
-							"type": "link",
-							"url": "{tested_pr['url']}"
-						}},
-						{{
-							"type": "text",
-							"text": " against libgraal failed.\n\nSee the "
-						}},
-						{{
-							"type": "text",
-							"text": "Test LibGraal",
-							"style": {{
-								"code": true
-							}}
-						}},
-						{{
-							"type": "text",
-							"text": " and "
-						}},
-						{{
-							"type": "text",
-							"text": "Failure Logs",
-							"style": {{
-								"code": true
-							}}
-						}},
-						{{
-							"type": "text",
-							"text": " sections in the log for the "
-						}},
-						{{
-							"type": "text",
-							"text": "main",
-							"style": {{
-								"code": true
-							}}
-						}},
-						{{
-							"type": "text",
-							"text": " job at "
-						}},
-						{{
-							"type": "link",
-							"url": "{tested_pr['run_url']}"
-						}},
-						{{
-							"type": "text",
-							"text": "\n\nCoordinate on this channel in terms of adapting to the changes in the pull request. If adaption is non-trivial, it may be worth communicating with the PR author to request a delay in merging the PR until the adaption is ready."
-						}}
-					]
-				}}
-			]
-		}}
-	]
-}}
-"""
+    message = json.dumps({
+	    "blocks": [
+            {
+                "type": "divider"
+            },
+		    {
+			    "type": "rich_text",
+			    "elements": [
+				    {
+					    "type": "rich_text_section",
+					    "elements": [
+						    {
+							    "type": "text",
+							    "text": "Testing "
+						    },
+						    {
+							    "type": "link",
+							    "url": tested_pr["url"]
+						    },
+                            {
+                                "type": "text",
+                                "text": " against libgraal failed.\n\nSee the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Test LibGraal",
+                                "style": {
+                                    "code": True
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " and "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Failure Logs",
+                                "style": {
+                                    "code": True
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " sections in the log for the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "main",
+                                "style": {
+                                    "code": True
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " job at "
+                            },
+                            {
+                                "type": "link",
+                                "url": tested_pr["run_url"]
+                            },
+                            {
+                                "type": "text",
+                                "text": ".\n\nCoordinate on this channel to adapt to the changes in the pull request. If adaption is non-trivial, consider communicating with the pull request author to request a delay in merging the pull request until the adaption is ready."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "divider"
+            }
+        ]
+    })
+    
     message_path = Path("message.json")
     message_path.write_text(message)
-    subprocess.run(["curl", "-X", "POST", "-H", "Content-type: application/json", "--data-binary", message_path])
+    cmd = ["curl", "--fail", "--silent", "-X", "POST", "-H", "Content-type: application/json", "--data-binary", f"@{message_path}", os.environ.get('SLACK_WEBHOOK_URL')]
+    subprocess.run(cmd, check=True)
 
 if __name__ == "__main__":
     context = {}
