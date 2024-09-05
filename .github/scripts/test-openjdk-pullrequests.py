@@ -156,6 +156,7 @@ def main():
                     gh_api([f"/repos/{repo}/actions/artifacts/{artifact_id}/zip"], stdout=fp)
 
                 # Extract JDK and static-libs bundles
+                has_static_libs = False
                 with zipfile.ZipFile(archive, 'r') as zf:
                     for zi in zf.infolist():
                         filename = zi.filename
@@ -164,7 +165,13 @@ def main():
                             with tarfile.open(filename, "r:gz") as tf:
                                 tf.extractall(path="extracted", filter="fully_trusted")
                             Path(filename).unlink()
+                        if not has_static_libs and filename.startswith("static-libs"):
+                            has_static_libs = True
                 archive.unlink()
+
+                if not has_static_libs:
+                    untested_prs.setdefault("they are missing the static-libs bundle (added by JDK-8337265)", []).append(pr)
+                    continue
 
                 info(f"processing {pr['html_url']} - {pr['title']}")
 
