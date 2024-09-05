@@ -122,6 +122,11 @@ def main(context):
             untested_prs.setdefault("they are in draft state", []).append(pr)
             continue
 
+        # Ignore pull requests whose OCA signatory status is yet to be verified
+        if any((l["name"] == "oca" for l in pr["labels"])):
+            untested_prs.setdefault("they have unverified OCA signatory status", []).append(pr)
+            continue
+
         repo = pr["head"]["repo"]["full_name"]
         head_sha = pr["head"]["sha"]
 
