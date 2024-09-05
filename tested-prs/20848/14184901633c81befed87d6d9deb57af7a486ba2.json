@@ -1,0 +1,10 @@
+{
+  "artifact_1895284941": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-14184901633c81befed87d6d9deb57af7a486ba2)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-14184901633c81befed87d6d9deb57af7a486ba2, mixed mode, sharing)"
+  },
+  "url": "https://github.com/openjdk/jdk/pull/20848",
+  "title": "8339531: Improve performance of MemorySegment::mismatch",
+  "head_sha": "14184901633c81befed87d6d9deb57af7a486ba2",
+  "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10717499422"
+}
