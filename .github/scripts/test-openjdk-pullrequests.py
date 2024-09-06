@@ -275,6 +275,13 @@ def main(context):
         git(["config", "user.name", "Doug Simon"])
         git(["config", "user.email", "doug.simon@oracle.com"])
 
+        # Before making new commits, pull in any upstream changes so
+        # that pushing below has a better chance of succeeding.
+        try:
+            git(["pull", "--quiet"])
+        except Exception as e:
+            info("pulling upstream changes failed")
+
         for tested_pr_path in tested_pr_paths:
             git(["add", str(tested_pr_path)])
             tested_pr = json.loads(tested_pr_path.read_text())
