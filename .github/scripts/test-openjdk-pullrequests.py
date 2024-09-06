@@ -278,13 +278,16 @@ def main(context):
         # Before making new commits, pull in any upstream changes so
         # that `git push` below has a better chance of succeeding.
         try:
-            git(["pull", "--quiet"])
+            git(["pull"])
         except Exception as e:
             info("pulling upstream changes failed")
 
         for test_record in test_records:
             test_record_path = get_test_record_path(test_record)
-            test_record_path.parent.mkdir(parents=True, exist_ok=True)
+            if test_record_path.exists():
+                info(f"overwriting previous test record in {test_record_path}")
+            else:
+                test_record_path.parent.mkdir(parents=True, exist_ok=True)
             test_record_path.write_text(json.dumps(test_record, indent=2))
 
             git(["add", str(test_record_path)])
