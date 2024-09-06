@@ -1,0 +1,12 @@
+{
+  "artifact_1901835451": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-olivergillespie-9382a708b3196fedb2465b11129e0a9963d41305)\nOpenJDK 64-Bit Server VM (build 24-internal-olivergillespie-9382a708b3196fedb2465b11129e0a9963d41305, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "url": "https://github.com/openjdk/jdk/pull/20889",
+  "number": 20889,
+  "title": "8339488: Extended NPE message doesn't handle CONSTANT_Dynamic",
+  "head_sha": "9382a708b3196fedb2465b11129e0a9963d41305",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10741130597"
+}
