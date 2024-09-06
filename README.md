@@ -1,7 +1,7 @@
 Overview
 ========
 
-[GraalVM Native Image](https://www.graalvm.org/) is closely coupled JDK internals, mostly via substitutions.
+[GraalVM Native Image](https://www.graalvm.org/) is closely coupled to JDK internals, mostly via substitutions.
 As a result, an OpenJDK pull request can break Native Image.
 This repository contains a GitHub Actions job that periodically builds and smoke tests
 [libgraal](https://medium.com/graalvm/libgraal-graalvm-compiler-as-a-precompiled-graalvm-native-image-26e354bee5c)
