@@ -287,10 +287,10 @@ def main(context):
             info("pushing pull request test records failed")
 
     with Path(os.environ["GITHUB_STEP_SUMMARY"]).open("w") as summary:
-        print(f"===================================================", file=summary)
+        print(f"## Summary of testing OpenJDK pull requests on libgraal", file=summary)
         if tested_pr_paths:
             print(f"Building and testing libgraal executed for {len(tested_pr_paths)} pull requests.", file=summary)
-            print(f"Logs for all steps are in the 'logs' artifact at {run_url}", file=summary)
+            print(f"Logs for all steps are in the `logs` artifact [here]({run_url}).", file=summary)
         if failed_pull_requests:
             print(f"Failures for these pull requests:", file=summary)
             with Path("failure_logs").open("w") as fp:
@@ -302,7 +302,6 @@ def main(context):
             print(f"Logs for failed steps are shown in the `Failure Logs` section of the `test-pull-requests` job.", file=summary)
         for reason, untested in untested_prs.items():
             print(f"{len(untested)} pull requests not tested because {reason}.", file=summary)
-        print(f"===================================================", file=summary)
 
 def post_failure_to_slack(tested_pr):
     """
@@ -331,43 +330,11 @@ def post_failure_to_slack(tested_pr):
 						    },
                             {
                                 "type": "text",
-                                "text": " against libgraal failed.\n\nSee the "
-                            },
-                            {
-                                "type": "text",
-                                "text": "Test LibGraal",
-                                "style": {
-                                    "code": True
-                                }
-                            },
-                            {
-                                "type": "text",
-                                "text": " and "
-                            },
-                            {
-                                "type": "text",
-                                "text": "Failure Logs",
-                                "style": {
-                                    "code": True
-                                }
-                            },
-                            {
-                                "type": "text",
-                                "text": " sections in the log for the "
-                            },
-                            {
-                                "type": "text",
-                                "text": "test-pull-requests",
-                                "style": {
-                                    "code": True
-                                }
-                            },
-                            {
-                                "type": "text",
-                                "text": " job at "
+                                "text": " against libgraal failed. See "
                             },
                             {
                                 "type": "link",
+                                "text": "this summary",
                                 "url": tested_pr["run_url"]
                             },
                             {
@@ -395,4 +362,3 @@ if __name__ == "__main__":
         main(context)
     except Exception as e:
         raise Exception(f"Context for exception: {json.dumps(context, indent=2)}") from e
-
