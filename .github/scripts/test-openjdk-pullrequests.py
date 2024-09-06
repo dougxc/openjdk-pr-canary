@@ -300,7 +300,7 @@ def main(context):
         print(f"## Summary of testing OpenJDK pull requests on libgraal", file=summary)
         if test_records:
             print(f"Building and testing libgraal executed for {len(test_records)} pull requests.", file=summary)
-            print(f"Logs for all steps are in the `logs` artifact [here]({run_url}).", file=summary)
+            print(f"Logs for all steps are in the `logs` artifact below.", file=summary)
         if failed_pull_requests:
             print(f"Failures for these pull requests:", file=summary)
             with Path("failure_logs").open("w") as fp:
