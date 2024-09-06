@@ -8,5 +8,5 @@
   "number": 20675,
   "title": "8338930: StringConcatFactory hardCoded string concatenation strategy",
   "head_sha": "c47376258c2923086580abeabd85cd67bc7a3c6d",
-  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10744335114"
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10744905353"
 }
