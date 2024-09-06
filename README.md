@@ -1,9 +1,11 @@
 Overview
 ========
 
-Libgraal is built with SVM and SVM is closely tied to JDK internals. As a result, an OpenJDK pull request can break building libgraal.
-This repository contains a GitHub Actions job that periodically tests libgraal against open OpenJDK pull requests to provide an
-early warning system for such breakage. It gives the Graal team time to prepare changes that adapt to the OpenJDK change.
+[GraalVM Native Image](https://www.graalvm.org/) is closely coupled JDK internals, mostly via substitutions.
+As a result, an OpenJDK pull request can break Native Image.
+This repository contains a GitHub Actions job that periodically builds and smoke tests
+[libgraal](https://medium.com/graalvm/libgraal-graalvm-compiler-as-a-precompiled-graalvm-native-image-26e354bee5c)
+against OpenJDK pull requests to provide an early warning system for such breakage.
 
 Details
 =======
@@ -16,8 +18,7 @@ pull requests at https://github.com/openjdk/jdk/pulls. For each pull request:
 * Set `JAVA_HOME` to the base directory of the extracted bundles.
 * Clone [graal](https://github.com/oracle/graal) and [mx](https://github.com/graalvm/mx).
 * Checkout the `galahad` branch in `graal` and `mx`.
-* Build and test libgraal.
+* Build and test libgraal. If the build or testing fails, a message is sent to [#openjdk-pr-canary](https://graalvm.slack.com/archives/C07KMA7HFE3)
 
-If any of the above steps fail, the workflow fails and the owner of this repo is notified.
 To avoid repeated testing of a pull request, a test record is committed under
-[tested-prs/](tested-prs) for each tested pull request.
+[tested-prs/](tested-prs) for each tested commit of a pull request.

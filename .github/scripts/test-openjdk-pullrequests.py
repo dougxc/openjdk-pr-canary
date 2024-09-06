@@ -286,27 +286,27 @@ def main(context):
             # Can fail if other commits were pushed in between
             info("pushing pull request test records failed")
 
-    print(f"===================================================")
-    if tested_pr_paths:
-        print(f"Building and testing libgraal executed for {len(tested_pr_paths)} pull requests.")
-        print(f"Logs for all steps are in the 'logs' artifact at {run_url}")
-    if failed_pull_requests:
-        print(f"Failures for these pull requests:")
-        with Path("failure_logs").open("w") as fp:
-            for pr in failed_pull_requests:
-                failed_step_log = pr['failed_step_log']
-                print(failed_step_log, file=fp)
-                print(f"  {pr['html_url']} - \"{pr['title']}\"")
-                print(f"  log: {failed_step_log}")
-                print()
-        print(f"Logs for failed steps are shown below in \"Tail logs\".")
-    for reason, untested in untested_prs.items():
-        print(f"{len(untested)} pull requests not tested because {reason}.")
-    print(f"===================================================")
+    with Path(os.environ["GITHUB_STEP_SUMMARY"]).open("w") as summary:
+        print(f"===================================================", file=summary)
+        if tested_pr_paths:
+            print(f"Building and testing libgraal executed for {len(tested_pr_paths)} pull requests.", file=summary)
+            print(f"Logs for all steps are in the 'logs' artifact at {run_url}", file=summary)
+        if failed_pull_requests:
+            print(f"Failures for these pull requests:", file=summary)
+            with Path("failure_logs").open("w") as fp:
+                for pr in failed_pull_requests:
+                    failed_step_log = pr['failed_step_log']
+                    print(failed_step_log, file=fp)
+                    print(f"* [{pr['title']}]({pr['html_url']})", file=summary)
+                    print(f"  log: {failed_step_log}", file=summary)
+            print(f"Logs for failed steps are shown in the `Failure Logs` section of the `test-pull-requests` job.", file=summary)
+        for reason, untested in untested_prs.items():
+            print(f"{len(untested)} pull requests not tested because {reason}.", file=summary)
+        print(f"===================================================", file=summary)
 
 def post_failure_to_slack(tested_pr):
     """
-    Posts a message to the #openjdk-pr-testing (https://graalvm.slack.com/archives/C07KMA7HFE3)
+    Posts a message to the #openjdk-pr-canary (https://graalvm.slack.com/archives/C07KMA7HFE3)
     Slack channel for the failure in `tested_pr`.
     """
 
@@ -357,7 +357,7 @@ def post_failure_to_slack(tested_pr):
                             },
                             {
                                 "type": "text",
-                                "text": "main",
+                                "text": "test-pull-requests",
                                 "style": {
                                     "code": True
                                 }
@@ -394,5 +394,5 @@ if __name__ == "__main__":
     try:
         main(context)
     except Exception as e:
-        raise Exception(f"Context for exception in main: {json.dumps(context, indent=2)}") from e
+        raise Exception(f"Context for exception: {json.dumps(context, indent=2)}") from e
 

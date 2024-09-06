@@ -36,7 +36,7 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
     
 jobs:
-  main:
+  test-pull-requests:
     runs-on: ubuntu-22.04
     permissions:
       contents: write
@@ -55,7 +55,7 @@ jobs:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       run: python -u .github/scripts/test-openjdk-pullrequests.py
 
-    - name: Tail logs
+    - name: Failure Logs
       run: |
         if [ -f failure_logs ]; then
           for name in $(<failure_logs); do
