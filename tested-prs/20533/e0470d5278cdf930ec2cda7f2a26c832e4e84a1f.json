@@ -8,5 +8,5 @@
   "number": 20533,
   "title": "8337980: Javac allows invocation of an inherited instance method from a static method",
   "head_sha": "e0470d5278cdf930ec2cda7f2a26c832e4e84a1f",
-  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10742444927"
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10742628079"
 }
