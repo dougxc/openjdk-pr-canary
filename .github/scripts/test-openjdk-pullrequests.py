@@ -286,7 +286,7 @@ def main(context):
         for tested_pr_path in tested_pr_paths:
             git(["add", str(tested_pr_path)])
             tested_pr = json.loads(tested_pr_path.read_text())
-            git(["commit", "--quiet", "-m", f"test record for {tested_pr['number']}\n{tested_pr['title']}"])
+            git(["commit", "--quiet", "-m", f"test record for pull request {tested_pr['number']} ({tested_pr['head_sha']})\n{tested_pr['title']}"])
 
         try:
             git(["push", "--quiet"])         
