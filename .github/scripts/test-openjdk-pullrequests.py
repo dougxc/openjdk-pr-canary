@@ -160,7 +160,6 @@ def main(context):
                     gh_api([f"/repos/{repo}/actions/artifacts/{artifact_id}/zip"], stdout=fp)
 
                 # Extract JDK and static-libs bundles
-                has_static_libs = False
                 with zipfile.ZipFile(archive, 'r') as zf:
                     if not any((zi.filename.startswith("static-libs") for zi in zf.infolist())):
                         untested_prs.setdefault("they are missing the static-libs bundle (added by JDK-8337265)", []).append(pr)
@@ -175,7 +174,7 @@ def main(context):
                             Path(filename).unlink()
                 archive.unlink()
 
-                info(f"processing {pr['html_url']} - {pr['title']}")
+                info(f"processing {pr['html_url']} ({head_sha}) - {pr['title']}")
 
                 # Find java executable
                 java_exes = glob.glob("extracted/jdk*/bin/java")
