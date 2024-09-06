@@ -99,14 +99,18 @@ the `expect` variable accordingly:
         {expect}
 """
 
+def get_test_record_path(pr):
+    head_sha = pr.get("head_sha") if "head_sha" in pr else pr["head"]["sha"]
+    return Path("tested-prs").joinpath(str(pr["number"]), f"{head_sha}.json")
+
 def main(context):
     check_bundle_naming_assumptions()
 
     # Map from reason for not testing to listed of untested PRs
     untested_prs = {}
 
-    # JSON files for each tested PR
-    tested_pr_paths = []
+    # List of dicts capturing details of pull requests that were tested
+    test_records = []
 
     # URL for the current GitHub Action workflow run
     run_url = f"https://github.com/{os.environ.get('GITHUB_REPOSITORY')}/actions/runs/{os.environ.get('GITHUB_RUN_ID')}"
@@ -131,14 +135,14 @@ def main(context):
         head_sha = pr["head"]["sha"]
 
         # Skip testing if the head commit has already been tested
-        tested_pr_path = Path("tested-prs").joinpath(str(pr["number"]), f"{head_sha}.json")
+        test_record_path = get_test_record_path(pr)
         logs_dir = Path("results").joinpath("logs", str(pr["number"]), f"{head_sha}")
-        if tested_pr_path.exists():
+        if test_record_path.exists():
             untested_prs.setdefault("they have previously been tested", []).append(pr)
             continue
 
-        # Pull request test summary
-        tested_pr = {}
+        # Pull request test record
+        test_record = {}
 
         # Get workflow runs for head commit in pull request
         runs = gh_api([f"/repos/{repo}/actions/runs?head_sha={head_sha}"])
@@ -183,11 +187,11 @@ def main(context):
                 java_exe = Path(java_exes[0])
                 java_home = java_exe.parent.parent
 
-                # Artifact test summary
-                tested_artifact = tested_pr.setdefault(f"artifact_{artifact_id}", {})
+                # Artifact test record
+                artifact_test_record = test_record.setdefault(f"artifact_{artifact_id}", {})
 
-                tested_artifact["java_home"] = str(java_home)
-                tested_artifact["java_version_output"] = subprocess.run([str(java_exe), "--version"], capture_output=True, text=True).stdout.strip()
+                artifact_test_record["java_home"] = str(java_home)
+                artifact_test_record["java_version_output"] = subprocess.run([str(java_exe), "--version"], capture_output=True, text=True).stdout.strip()
 
                 def run_step(name, cmd, **kwargs):
                     assert "capture_output" not in kwargs
@@ -209,8 +213,8 @@ def main(context):
                         except subprocess.CalledProcessError as e:
                             quoted_cmd = ' '.join(map(shlex.quote, cmd))
                             info(f"non-zero exit code {e.returncode} for step '{name}': " + quoted_cmd)
-                            tested_artifact["failed_step"] = name
-                            tested_pr["status"] = "failed"
+                            artifact_test_record["failed_step"] = name
+                            test_record["status"] = "failed"
                             pr["failed_step_log"] = str(log_path)
                             failed_pull_requests.append(pr)
                             raise e
@@ -241,7 +245,7 @@ def main(context):
                     ]
                     run_step("test", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)])
 
-                    tested_pr["status"] = "passed"
+                    test_record["status"] = "passed"
                 except subprocess.CalledProcessError as e:
                     pass
 
@@ -250,42 +254,41 @@ def main(context):
 
                 context["artifact"] = None
 
-        if tested_pr:
-            tested_pr["url"] = pr["html_url"]
-            tested_pr["number"] = pr["number"]
-            tested_pr["title"] = pr["title"]
-            tested_pr["head_sha"] = head_sha
-            tested_pr["run_url"] = run_url
+        if test_record:
+            test_record["url"] = pr["html_url"]
+            test_record["number"] = pr["number"]
+            test_record["title"] = pr["title"]
+            test_record["head_sha"] = head_sha
+            test_record["run_url"] = run_url
 
-            if tested_pr["status"] == "failed":
-                post_failure_to_slack(tested_pr)
+            if test_record["status"] == "failed":
+                post_failure_to_slack(test_record)
 
-            tested_pr = json.dumps(tested_pr, indent=2)
-
-            tested_pr_path.parent.mkdir(parents=True, exist_ok=True)
-            tested_pr_path.write_text(tested_pr)
-            tested_pr_paths.append(tested_pr_path)
+            test_records.append(test_record)
         else:
             untested_prs.setdefault(f"they have no {_artifact_to_test} artifact", []).append(pr)
 
         context["pr"] = None
 
     # Push a commit for logs of pull request commits that were tested
-    if tested_pr_paths:
+    if test_records:
         git(["config", "user.name", "Doug Simon"])
         git(["config", "user.email", "doug.simon@oracle.com"])
 
         # Before making new commits, pull in any upstream changes so
-        # that pushing below has a better chance of succeeding.
+        # that `git push` below has a better chance of succeeding.
         try:
             git(["pull", "--quiet"])
         except Exception as e:
             info("pulling upstream changes failed")
 
-        for tested_pr_path in tested_pr_paths:
-            git(["add", str(tested_pr_path)])
-            tested_pr = json.loads(tested_pr_path.read_text())
-            git(["commit", "--quiet", "-m", f"test record for pull request {tested_pr['number']} ({tested_pr['head_sha']})\n{tested_pr['title']}"])
+        for test_record in test_records:
+            test_record_path = get_test_record_path(test_record)
+            test_record_path.parent.mkdir(parents=True, exist_ok=True)
+            test_record_path.write_text(json.dumps(test_record, indent=2))
+
+            git(["add", str(test_record_path)])
+            git(["commit", "--quiet", "-m", f"test record for pull request {test_record['number']} ({test_record['head_sha']})\n{test_record['title']}"])
 
         try:
             git(["push", "--quiet"])         
@@ -295,8 +298,8 @@ def main(context):
 
     with Path(os.environ["GITHUB_STEP_SUMMARY"]).open("w") as summary:
         print(f"## Summary of testing OpenJDK pull requests on libgraal", file=summary)
-        if tested_pr_paths:
-            print(f"Building and testing libgraal executed for {len(tested_pr_paths)} pull requests.", file=summary)
+        if test_records:
+            print(f"Building and testing libgraal executed for {len(test_records)} pull requests.", file=summary)
             print(f"Logs for all steps are in the `logs` artifact [here]({run_url}).", file=summary)
         if failed_pull_requests:
             print(f"Failures for these pull requests:", file=summary)
@@ -310,10 +313,10 @@ def main(context):
         for reason, untested in untested_prs.items():
             print(f"{len(untested)} pull requests not tested because {reason}.", file=summary)
 
-def post_failure_to_slack(tested_pr):
+def post_failure_to_slack(test_record):
     """
     Posts a message to the #openjdk-pr-canary (https://graalvm.slack.com/archives/C07KMA7HFE3)
-    Slack channel for the failure in `tested_pr`.
+    Slack channel for the failure in `test_record`.
     """
 
     message = json.dumps({
@@ -333,7 +336,7 @@ def post_failure_to_slack(tested_pr):
 						    },
 						    {
 							    "type": "link",
-							    "url": tested_pr["url"]
+							    "url": test_record["url"]
 						    },
                             {
                                 "type": "text",
@@ -342,7 +345,7 @@ def post_failure_to_slack(tested_pr):
                             {
                                 "type": "link",
                                 "text": "this summary",
-                                "url": tested_pr["run_url"]
+                                "url": test_record["run_url"]
                             },
                             {
                                 "type": "text",
