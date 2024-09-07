@@ -68,15 +68,17 @@ def gh_api(args, stdout=None, raw=False):
         return p.stdout
     return json.loads(p.stdout)
 
-def git(args):
+def git(args, capture_output=False):
     """
     Runs a git command
     """
     cmd = ["git", "-C", str(_repo_root)] + args
-    p = subprocess.run(cmd)
+    p = subprocess.run(cmd, capture_output=capture_output, text=True)
     if p.returncode != 0:
         quoted_cmd = ' '.join(map(shlex.quote, cmd))
-        raise Exception(f"non-zero exit code {p.returncode}: {quoted_cmd}")
+        stdout = f"\nstdout: {p.stdout}" if capture_output else ""
+        raise Exception(f"non-zero exit code {p.returncode}: {quoted_cmd}{stdout}")
+    return p.stdout
 
 def check_bundle_naming_assumptions():
     """
@@ -104,6 +106,15 @@ def get_test_record_path(pr):
     return Path("tested-prs").joinpath(str(pr["number"]), f"{head_sha}.json")
 
 def main(context):
+
+    # Before starting, fetch commits that may have been pushed between scheduling
+    # this job and running it. This reduces the chance of testing the same pull
+    # request commit twice.
+    try:
+        git(["fetch"])
+    except Exception as e:
+        info("fetching upstream changes failed")
+
     check_bundle_naming_assumptions()
 
     # Map from reason for not testing to listed of untested PRs
@@ -134,13 +145,14 @@ def main(context):
         repo = pr["head"]["repo"]["full_name"]
         head_sha = pr["head"]["sha"]
 
-        # Skip testing if the head commit has already been tested
+        # Skip testing if the head commit has already been tested by looking
+        # for the test record in the remote
         test_record_path = get_test_record_path(pr)
-        logs_dir = Path("results").joinpath("logs", str(pr["number"]), f"{head_sha}")
-        if test_record_path.exists():
+        if git(["log", "--pretty=", "--name-only", "--", str(test_record_path)], capture_output=True).strip():
             untested_prs.setdefault("they have previously been tested", []).append(pr)
             continue
 
+        logs_dir = Path("results").joinpath("logs", str(pr["number"]), f"{head_sha}")
         # Pull request test record
         test_record = {}
 
