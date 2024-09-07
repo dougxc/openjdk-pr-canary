@@ -26,9 +26,9 @@
 name: 'Test OpenJDK pull requests on LibGraal'
 
 on:
-  # Runs every ten minutes
+  # Runs every 20 minutes
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/20 * * * *'
   workflow_dispatch:
 
 # Only run one instance of this workflow per branch at a time
