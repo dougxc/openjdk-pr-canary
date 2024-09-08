@@ -1,0 +1,12 @@
+{
+  "artifact_1906065345": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-cl4es-fc90e83d56fcfb9e192e0603a1a1371068e2dcd8)\nOpenJDK 64-Bit Server VM (build 24-internal-cl4es-fc90e83d56fcfb9e192e0603a1a1371068e2dcd8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "url": "https://github.com/openjdk/jdk/pull/20904",
+  "number": 20904,
+  "title": "8339710: Avoid initializing AccessFlag related classes in write-only cases",
+  "head_sha": "fc90e83d56fcfb9e192e0603a1a1371068e2dcd8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10760447792"
+}
