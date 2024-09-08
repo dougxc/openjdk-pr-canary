@@ -8,5 +8,5 @@
   "number": 20904,
   "title": "8339710: Avoid initializing AccessFlag related classes in write-only cases",
   "head_sha": "df6e8e89ba915689c1d0108e8884e43e26e0a5a0",
-  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10761858432"
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10761927992"
 }
