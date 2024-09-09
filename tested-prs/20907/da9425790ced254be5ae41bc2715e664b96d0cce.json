@@ -8,5 +8,5 @@
   "number": 20907,
   "title": "8339725: Concurrent GC crashed due to GetMethodDeclaringClass",
   "head_sha": "da9425790ced254be5ae41bc2715e664b96d0cce",
-  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10768036383"
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10768443888"
 }
