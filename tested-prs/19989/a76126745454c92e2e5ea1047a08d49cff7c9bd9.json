@@ -9,5 +9,5 @@
   "number": 19989,
   "title": "8331341: secondary_super_cache does not scale well: C1 and interpreter",
   "head_sha": "a76126745454c92e2e5ea1047a08d49cff7c9bd9",
-  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10775181971"
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10775645470"
 }
