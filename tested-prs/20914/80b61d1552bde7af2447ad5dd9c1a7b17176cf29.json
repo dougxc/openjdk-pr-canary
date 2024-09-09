@@ -8,5 +8,5 @@
   "number": 20914,
   "title": "8339686: java/foreign/TestMappedHandshake.java fails with assert(depth < max_critical_stack_depth) failed: can't have more than 10 critical frames",
   "head_sha": "80b61d1552bde7af2447ad5dd9c1a7b17176cf29",
-  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10781457545"
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10781805180"
 }
