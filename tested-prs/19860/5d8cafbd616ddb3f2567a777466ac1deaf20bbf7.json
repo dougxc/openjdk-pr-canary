@@ -8,5 +8,5 @@
   "number": 19860,
   "title": "8334870: javac does not accept classfiles with certain permitted RuntimeVisibleParameterAnnotations and RuntimeInvisibleParameterAnnotations attributes",
   "head_sha": "5d8cafbd616ddb3f2567a777466ac1deaf20bbf7",
-  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10775181971"
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10775645470"
 }
