@@ -324,6 +324,8 @@ def main(context):
                     print(failed_step_log, file=fp)
                     print(f"* [{pr['title']}]({pr['html_url']})", file=summary)
                     print(f"  log: {failed_step_log}", file=summary)
+                print(file=summary)
+
             print(f"Logs for failed steps are shown in the `Failure Logs` section of the `test-pull-requests` job.", file=summary)
         for reason, untested in untested_prs.items():
             print(f"{len(untested)} pull requests not tested because {reason}.", file=summary)
