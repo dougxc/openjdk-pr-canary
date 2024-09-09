@@ -349,10 +349,11 @@ def post_failure_to_slack(test_record):
 					    "elements": [
 						    {
 							    "type": "text",
-							    "text": "Testing "
+							    "text": f"Testing commit {test_record['head_sha'][:14]} in "
 						    },
 						    {
 							    "type": "link",
+                                "text": f"#{test_record['number']}",
 							    "url": test_record["url"]
 						    },
                             {
@@ -366,7 +367,7 @@ def post_failure_to_slack(test_record):
                             },
                             {
                                 "type": "text",
-                                "text": ".\n\nCoordinate on this channel to adapt to the changes in the pull request. If adaption is non-trivial, consider communicating with the pull request author to request a delay in merging the pull request until the adaption is ready."
+                                "text": ".\n\nCoordinate Graal adaption to the PR here. If adaption is non-trivial, maybe ask the PR author to request a delay in merging."
                             }
                         ]
                     }
