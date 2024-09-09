@@ -8,5 +8,5 @@
   "number": 20861,
   "title": "8339561: The test/jdk/java/awt/Paint/ListRepaint.java may fail after JDK-8327401",
   "head_sha": "4c88385193fc958d87ae1d13a110c382bf6bf895",
-  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10768842518"
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10769471572"
 }
