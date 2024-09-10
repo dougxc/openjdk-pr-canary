@@ -8,5 +8,5 @@
   "number": 20935,
   "title": "8339684: ResizeObserver callback interrupts smooth scrolling on Chrome",
   "head_sha": "f2f10495a1e9d034a438cb19aca66d258c3e3c53",
-  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10794454769"
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10795599622"
 }
