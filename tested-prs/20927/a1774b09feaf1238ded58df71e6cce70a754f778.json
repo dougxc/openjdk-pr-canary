@@ -1,0 +1,12 @@
+{
+  "artifact_1911931703": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-plummercj-a1774b09feaf1238ded58df71e6cce70a754f778)\nOpenJDK 64-Bit Server VM (build 24-internal-plummercj-a1774b09feaf1238ded58df71e6cce70a754f778, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "url": "https://github.com/openjdk/jdk/pull/20927",
+  "number": 20927,
+  "title": "8339801: Add better test failure diagnostics to vmTestbase/nsk/jdi/EventRequestManager/threadStartRequests/thrstartreq002",
+  "head_sha": "a1774b09feaf1238ded58df71e6cce70a754f778",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10784229162"
+}
