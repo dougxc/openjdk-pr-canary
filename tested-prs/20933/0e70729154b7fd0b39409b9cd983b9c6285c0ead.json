@@ -1,0 +1,12 @@
+{
+  "artifact_1913616708": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-hns-0e70729154b7fd0b39409b9cd983b9c6285c0ead)\nOpenJDK 64-Bit Server VM (build 24-internal-hns-0e70729154b7fd0b39409b9cd983b9c6285c0ead, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "url": "https://github.com/openjdk/jdk/pull/20933",
+  "number": 20933,
+  "title": "8339541: CSS rule is not specific enough",
+  "head_sha": "0e70729154b7fd0b39409b9cd983b9c6285c0ead",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10791549249"
+}
