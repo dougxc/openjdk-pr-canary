@@ -1,0 +1,12 @@
+{
+  "artifact_1914566581": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-afaadf3d4314831759c177fe6f2fe08175c144ee)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-afaadf3d4314831759c177fe6f2fe08175c144ee, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "url": "https://github.com/openjdk/jdk/pull/20934",
+  "number": 20934,
+  "title": "8225049: Bad -Xlog example in -Xlog:help, online documentation, JEP",
+  "head_sha": "afaadf3d4314831759c177fe6f2fe08175c144ee",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10794454769"
+}
