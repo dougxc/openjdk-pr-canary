@@ -1,0 +1,12 @@
+{
+  "artifact_1916367687": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-4f47d5a62522d3e777445a13507d673ea59a20d6)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-4f47d5a62522d3e777445a13507d673ea59a20d6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "url": "https://github.com/openjdk/jdk/pull/20317",
+  "number": 20317,
+  "title": "8337143: (fc, fs) Move filesystem-related native objects from libnio to libjava",
+  "head_sha": "4f47d5a62522d3e777445a13507d673ea59a20d6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10800021394"
+}
