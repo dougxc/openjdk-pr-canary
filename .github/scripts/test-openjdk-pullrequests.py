@@ -322,7 +322,7 @@ def main(context):
                 for pr in failed_pull_requests:
                     failed_step_log = pr['failed_step_log']
                     print(failed_step_log, file=fp)
-                    print(f"* [{pr['title']}]({pr['html_url']})", file=summary)
+                    print(f"* [#{pr['number']} - \"{pr['title']}\"]({pr['html_url']})", file=summary)
                     print(f"  log: {failed_step_log}", file=summary)
                 print(file=summary)
 
