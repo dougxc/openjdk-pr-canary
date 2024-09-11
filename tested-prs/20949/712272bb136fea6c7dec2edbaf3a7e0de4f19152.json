@@ -1,0 +1,13 @@
+{
+  "artifact_1919761750": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-mur47x111-712272bb136fea6c7dec2edbaf3a7e0de4f19152)\nOpenJDK 64-Bit Server VM (build 24-internal-mur47x111-712272bb136fea6c7dec2edbaf3a7e0de4f19152, mixed mode, sharing)",
+    "failed_step": "test"
+  },
+  "status": "failed",
+  "url": "https://github.com/openjdk/jdk/pull/20949",
+  "number": 20949,
+  "title": "8339939: [JVMCI] Don't compress abstract and interface Klasses",
+  "head_sha": "712272bb136fea6c7dec2edbaf3a7e0de4f19152",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10813580983"
+}
