@@ -1,0 +1,12 @@
+{
+  "artifact_1916985672": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-liach-70f4f07ee251e02665daeba1a7fbd39001975c18)\nOpenJDK 64-Bit Server VM (build 24-internal-liach-70f4f07ee251e02665daeba1a7fbd39001975c18, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "url": "https://github.com/openjdk/jdk/pull/20942",
+  "number": 20942,
+  "title": "8339875: MethodTypeDesc to reuse descriptor string from MethodType",
+  "head_sha": "70f4f07ee251e02665daeba1a7fbd39001975c18",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10802339542"
+}
