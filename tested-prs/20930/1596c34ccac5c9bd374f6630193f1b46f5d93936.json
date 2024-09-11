@@ -1,0 +1,13 @@
+{
+  "artifact_1918718351": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-1596c34ccac5c9bd374f6630193f1b46f5d93936)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-1596c34ccac5c9bd374f6630193f1b46f5d93936, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "url": "https://github.com/openjdk/jdk/pull/20930",
+  "number": 20930,
+  "title": "8339834: Replace usages of -mx and -ms in some tests",
+  "head_sha": "1596c34ccac5c9bd374f6630193f1b46f5d93936",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10809740130"
+}
