@@ -1,0 +1,12 @@
+{
+  "artifact_1920471042": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TheRealMDoerr-6dc7d495a9f1ff3172f952375f1f7b5c71afb36d)\nOpenJDK 64-Bit Server VM (build 24-internal-TheRealMDoerr-6dc7d495a9f1ff3172f952375f1f7b5c71afb36d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "url": "https://github.com/openjdk/jdk/pull/20922",
+  "number": 20922,
+  "title": "8338995: New Object to ObjectMonitor mapping: PPC64 implementation",
+  "head_sha": "6dc7d495a9f1ff3172f952375f1f7b5c71afb36d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10815709108"
+}
