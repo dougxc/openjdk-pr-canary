@@ -1,0 +1,14 @@
+{
+  "artifact_1925953943": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-alexeysemenyukoracle-76793aef89f49235d569edf914a9abb2066ca246)\nOpenJDK 64-Bit Server VM (build 24-internal-alexeysemenyukoracle-76793aef89f49235d569edf914a9abb2066ca246, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-12T17:42:52.420015",
+  "url": "https://github.com/openjdk/jdk/pull/20969",
+  "number": 20969,
+  "title": "8334301: Errors in jpackage man page",
+  "head_sha": "76793aef89f49235d569edf914a9abb2066ca246",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10835618154"
+}
