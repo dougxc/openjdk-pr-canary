@@ -1,0 +1,12 @@
+{
+  "artifact_1923546433": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-turbanoff-618d8705a9190e3833d162d892419be2c876bbe0)\nOpenJDK 64-Bit Server VM (build 24-internal-turbanoff-618d8705a9190e3833d162d892419be2c876bbe0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "url": "https://github.com/openjdk/jdk/pull/20962",
+  "number": 20962,
+  "title": "[PATCH] Unnecessary Vector usage in AquaFileSystemModel",
+  "head_sha": "618d8705a9190e3833d162d892419be2c876bbe0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10827058859"
+}
