@@ -230,6 +230,7 @@ def main(context):
                             test_record["status"] = "failed"
                             pr["failed_step_log"] = str(log_path)
                             failed_pull_requests.append(pr)
+                            pr["__test_record"] = test_record
                             raise e
                         finally:
                             info(f"  end: {name}")
@@ -333,6 +334,12 @@ def main(context):
                     print(failed_step_log, file=fp)
                     print(f"* [#{pr['number']} - \"{pr['title']}\"]({pr['html_url']})", file=summary)
                     print(f"  log: {failed_step_log}", file=summary)
+                    history = pr["__test_record"]["history"]
+                    if history:
+                        failures = [e["run_url"] for e in history if e["status"] == "failed"]
+                        failures = [f" [{i}]({url})" for i, url in enumerate(failures)]
+                        print(f"  previous failures: {failures}", file=summary)
+
                 print(file=summary)
 
             print(f"Logs for failed steps are shown in the `Failure Logs` section of the `test-pull-requests` job.", file=summary)
