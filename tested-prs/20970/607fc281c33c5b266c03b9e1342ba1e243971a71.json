@@ -1,0 +1,14 @@
+{
+  "artifact_1926040714": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-cushon-607fc281c33c5b266c03b9e1342ba1e243971a71)\nOpenJDK 64-Bit Server VM (build 24-internal-cushon-607fc281c33c5b266c03b9e1342ba1e243971a71, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-12T17:31:30.100534",
+  "url": "https://github.com/openjdk/jdk/pull/20970",
+  "number": 20970,
+  "title": "8340024: In ClassReader, extract a constant for the superclass supertype_index",
+  "head_sha": "607fc281c33c5b266c03b9e1342ba1e243971a71",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10835618154"
+}
