@@ -107,14 +107,6 @@ def get_test_record_path(pr):
 
 def main(context):
 
-    # Before starting, fetch commits that may have been pushed between scheduling
-    # this job and running it. This reduces the chance of testing the same pull
-    # request commit twice.
-    try:
-        git(["fetch"])
-    except Exception as e:
-        info("fetching upstream changes failed")
-
     check_bundle_naming_assumptions()
 
     # Map from reason for not testing to listed of untested PRs
@@ -144,6 +136,14 @@ def main(context):
 
         repo = pr["head"]["repo"]["full_name"]
         head_sha = pr["head"]["sha"]
+
+        # Before starting, fetch commits that may have been pushed between scheduling
+        # this job and testing `pr`. This reduces the chance of testing the same pull
+        # request commit twice.
+        try:
+            git(["fetch"])
+        except Exception as e:
+            info("fetching upstream changes failed")
 
         # Skip testing if the head commit has already been tested by looking
         # for the test record in the remote
