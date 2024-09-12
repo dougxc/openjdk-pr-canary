@@ -148,7 +148,7 @@ def main(context):
         # Skip testing if the head commit has already been tested by looking
         # for the test record in the remote
         test_record_path = get_test_record_path(pr)
-        if git(["log", "--pretty=", "--name-only", "--", str(test_record_path)], capture_output=True).strip():
+        if git(["log", "--pretty=", "--name-only", "origin/master", "--", str(test_record_path)], capture_output=True).strip():
             untested_prs.setdefault("they have previously been tested", []).append(pr)
             continue
 
