@@ -34,7 +34,7 @@ import time
 import glob
 from argparse import ArgumentParser
 from pathlib import Path
-from datetime import timedelta
+from datetime import timedelta, datetime
 
 _gh_api_headers = ["-H", "Accept: application/vnd.github+json", "-H", "X-GitHub-Api-Version: 2022-11-28"]
 _repo_root = Path(subprocess.run("git rev-parse --show-toplevel".split(), capture_output=True, text=True, check=True).stdout.strip())
@@ -154,7 +154,15 @@ def main(context):
 
         logs_dir = Path("results").joinpath("logs", str(pr["number"]), f"{head_sha}")
         # Pull request test record
-        test_record = {}
+        test_record = {
+            "datetime": datetime.now().isoformat(),
+            "history": []
+        }
+
+        # Add test history for PR
+        history = git(["log", "--pretty=", "--diff-filter=A", "--name-only", "origin/master", "--", str(test_record_path.parent)], capture_output=True).strip().split()
+        if history:
+            test_record["history"] = [json.loads(git(["log", "cat-file", "-p", f"origin/master:{e}"], capture_output=True).strip()) for e in history]
 
         # Get workflow runs for head commit in pull request
         runs = gh_api([f"/repos/{repo}/actions/runs?head_sha={head_sha}"])
