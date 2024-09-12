@@ -153,16 +153,9 @@ def main(context):
             continue
 
         logs_dir = Path("results").joinpath("logs", str(pr["number"]), f"{head_sha}")
-        # Pull request test record
-        test_record = {
-            "datetime": datetime.now().isoformat(),
-            "history": []
-        }
 
-        # Add test history for PR
-        history = git(["log", "--pretty=", "--diff-filter=A", "--name-only", "origin/master", "--", str(test_record_path.parent)], capture_output=True).strip().split()
-        if history:
-            test_record["history"] = [json.loads(git(["log", "cat-file", "-p", f"origin/master:{e}"], capture_output=True).strip()) for e in history]
+        # Pull request test record
+        test_record = {}
 
         # Get workflow runs for head commit in pull request
         runs = gh_api([f"/repos/{repo}/actions/runs?head_sha={head_sha}"])
@@ -275,6 +268,14 @@ def main(context):
                 context["artifact"] = None
 
         if test_record:
+            # Add test history
+            history = git(["log", "--pretty=", "--diff-filter=A", "--name-only", "origin/master", "--", str(test_record_path.parent)], capture_output=True).strip().split()
+            if history:
+                test_record["history"] = [json.loads(git(["cat-file", "-p", f"origin/master:{e}"], capture_output=True).strip()) for e in history]
+            else:
+                test_record["history"] = []
+
+            test_record["datetime"] = datetime.now().isoformat()
             test_record["url"] = pr["html_url"]
             test_record["number"] = pr["number"]
             test_record["title"] = pr["title"]
