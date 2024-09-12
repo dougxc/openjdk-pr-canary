@@ -1,0 +1,14 @@
+{
+  "artifact_1926216216": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TheRealMDoerr-a6a0bdf70ce2b1dbc8420b89076926c3582a217e)\nOpenJDK 64-Bit Server VM (build 24-internal-TheRealMDoerr-a6a0bdf70ce2b1dbc8420b89076926c3582a217e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-12T18:35:18.277850",
+  "url": "https://github.com/openjdk/jdk/pull/20971",
+  "number": 20971,
+  "title": "8340012: [C2] assert(KlassEncodingMetaspaceMax > pd) failed: change encoding max if new encoding after 8338526",
+  "head_sha": "a6a0bdf70ce2b1dbc8420b89076926c3582a217e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10836041575"
+}
