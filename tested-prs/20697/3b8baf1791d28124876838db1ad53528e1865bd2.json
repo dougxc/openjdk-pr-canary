@@ -1,0 +1,14 @@
+{
+  "artifact_1931468417": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-calvinccheung-3b8baf1791d28124876838db1ad53528e1865bd2)\nOpenJDK 64-Bit Server VM (build 24-internal-calvinccheung-3b8baf1791d28124876838db1ad53528e1865bd2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-13T20:01:57.697177",
+  "url": "https://github.com/openjdk/jdk/pull/20697",
+  "number": 20697,
+  "title": "8338686: App classpath mismatch if a jar from the Class-Path attribute is on the classpath",
+  "head_sha": "3b8baf1791d28124876838db1ad53528e1865bd2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10854852570"
+}
