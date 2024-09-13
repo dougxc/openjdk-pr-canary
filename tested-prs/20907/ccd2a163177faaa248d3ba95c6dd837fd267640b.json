@@ -1,0 +1,99 @@
+{
+  "artifact_1927748800": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-D-D-H-ccd2a163177faaa248d3ba95c6dd837fd267640b)\nOpenJDK 64-Bit Server VM (build 24-internal-D-D-H-ccd2a163177faaa248d3ba95c6dd837fd267640b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1907411834": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-mmyxym-276bec668dd8b00714d9e5cb3bd8cbf5f4afc370)\nOpenJDK 64-Bit Server VM (build 24-internal-mmyxym-276bec668dd8b00714d9e5cb3bd8cbf5f4afc370, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "url": "https://github.com/openjdk/jdk/pull/20907",
+      "number": 20907,
+      "title": "8339725: Concurrent GC crashed due to GetMethodDeclaringClass",
+      "head_sha": "276bec668dd8b00714d9e5cb3bd8cbf5f4afc370",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10767310134"
+    },
+    {
+      "artifact_1918603895": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-D-D-H-989fdb18754ea31b3b3f6e03b1e6d5af3625a57b)\nOpenJDK 64-Bit Server VM (build 24-internal-D-D-H-989fdb18754ea31b3b3f6e03b1e6d5af3625a57b, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "url": "https://github.com/openjdk/jdk/pull/20907",
+      "number": 20907,
+      "title": "8339725: Concurrent GC crashed due to GetMethodDeclaringClass",
+      "head_sha": "989fdb18754ea31b3b3f6e03b1e6d5af3625a57b",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10809206000"
+    },
+    {
+      "artifact_1923387070": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-D-D-H-acf91c94bfd8fd735cbb9d8d567219dc2b4f5f84)\nOpenJDK 64-Bit Server VM (build 24-internal-D-D-H-acf91c94bfd8fd735cbb9d8d567219dc2b4f5f84, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "url": "https://github.com/openjdk/jdk/pull/20907",
+      "number": 20907,
+      "title": "8339725: Concurrent GC crashed due to GetMethodDeclaringClass",
+      "head_sha": "acf91c94bfd8fd735cbb9d8d567219dc2b4f5f84",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10826260866"
+    },
+    {
+      "artifact_1913682986": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-mmyxym-d08bdeb03ec3527c4cea177d7598c8dd2b67fc46)\nOpenJDK 64-Bit Server VM (build 24-internal-mmyxym-d08bdeb03ec3527c4cea177d7598c8dd2b67fc46, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "url": "https://github.com/openjdk/jdk/pull/20907",
+      "number": 20907,
+      "title": "8339725: Concurrent GC crashed due to GetMethodDeclaringClass",
+      "head_sha": "d08bdeb03ec3527c4cea177d7598c8dd2b67fc46",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10790924437"
+    },
+    {
+      "artifact_1918995307": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-D-D-H-d6c6559be7d28bc54eb19c19c0a075a2047a3a44)\nOpenJDK 64-Bit Server VM (build 24-internal-D-D-H-d6c6559be7d28bc54eb19c19c0a075a2047a3a44, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "url": "https://github.com/openjdk/jdk/pull/20907",
+      "number": 20907,
+      "title": "8339725: Concurrent GC crashed due to GetMethodDeclaringClass",
+      "head_sha": "d6c6559be7d28bc54eb19c19c0a075a2047a3a44",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10810565952"
+    },
+    {
+      "artifact_1907543267": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-mmyxym-da9425790ced254be5ae41bc2715e664b96d0cce)\nOpenJDK 64-Bit Server VM (build 24-internal-mmyxym-da9425790ced254be5ae41bc2715e664b96d0cce, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "url": "https://github.com/openjdk/jdk/pull/20907",
+      "number": 20907,
+      "title": "8339725: Concurrent GC crashed due to GetMethodDeclaringClass",
+      "head_sha": "da9425790ced254be5ae41bc2715e664b96d0cce",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10768443888"
+    },
+    {
+      "artifact_1922903415": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-mmyxym-eba5b1305501dc906dc1a08940499f54ef087fc8)\nOpenJDK 64-Bit Server VM (build 24-internal-mmyxym-eba5b1305501dc906dc1a08940499f54ef087fc8, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "url": "https://github.com/openjdk/jdk/pull/20907",
+      "number": 20907,
+      "title": "8339725: Concurrent GC crashed due to GetMethodDeclaringClass",
+      "head_sha": "eba5b1305501dc906dc1a08940499f54ef087fc8",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10824144927"
+    }
+  ],
+  "datetime": "2024-09-13T01:52:46.677629",
+  "url": "https://github.com/openjdk/jdk/pull/20907",
+  "number": 20907,
+  "title": "8339725: Concurrent GC crashed due to GetMethodDeclaringClass",
+  "head_sha": "ccd2a163177faaa248d3ba95c6dd837fd267640b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10841553530"
+}
