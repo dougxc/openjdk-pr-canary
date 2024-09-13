@@ -1,0 +1,14 @@
+{
+  "artifact_1928618815": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-xpbob-0a2059086c76ab419dfc76eddf93c86eaa2dd6e1)\nOpenJDK 64-Bit Server VM (build 24-internal-xpbob-0a2059086c76ab419dfc76eddf93c86eaa2dd6e1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-13T08:22:37.010944",
+  "url": "https://github.com/openjdk/jdk/pull/20984",
+  "number": 20984,
+  "title": "8340087: (fs) Files.copy include symbolic link detailed message for NoSuchFileException",
+  "head_sha": "0a2059086c76ab419dfc76eddf93c86eaa2dd6e1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10845182719"
+}
