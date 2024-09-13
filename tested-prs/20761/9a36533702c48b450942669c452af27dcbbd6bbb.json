@@ -1,0 +1,14 @@
+{
+  "artifact_1931062544": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-9a36533702c48b450942669c452af27dcbbd6bbb)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-9a36533702c48b450942669c452af27dcbbd6bbb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-13T18:02:11.865025",
+  "url": "https://github.com/openjdk/jdk/pull/20761",
+  "number": 20761,
+  "title": "8339217: Optimize ClassFile API loadConstant",
+  "head_sha": "9a36533702c48b450942669c452af27dcbbd6bbb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10853741501"
+}
