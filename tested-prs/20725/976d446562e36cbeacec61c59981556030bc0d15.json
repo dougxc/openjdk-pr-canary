@@ -1,0 +1,14 @@
+{
+  "artifact_1929367099": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-976d446562e36cbeacec61c59981556030bc0d15)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-976d446562e36cbeacec61c59981556030bc0d15, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-13T11:41:01.569961",
+  "url": "https://github.com/openjdk/jdk/pull/20725",
+  "number": 20725,
+  "title": "8333843: Provide guidelines on MemorySegment to read strings with known lengths",
+  "head_sha": "976d446562e36cbeacec61c59981556030bc0d15",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10847748449"
+}
