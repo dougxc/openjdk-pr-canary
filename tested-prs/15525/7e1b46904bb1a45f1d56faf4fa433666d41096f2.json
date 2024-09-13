@@ -1,0 +1,14 @@
+{
+  "artifact_1931610935": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-7e1b46904bb1a45f1d56faf4fa433666d41096f2)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-7e1b46904bb1a45f1d56faf4fa433666d41096f2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-13T20:57:23.700617",
+  "url": "https://github.com/openjdk/jdk/pull/15525",
+  "number": 15525,
+  "title": "8315273: (fs) Path.toRealPath(LinkOption.NOFOLLOW_LINKS) fails when \"../../\" follows a link (win)",
+  "head_sha": "7e1b46904bb1a45f1d56faf4fa433666d41096f2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10855615289"
+}
