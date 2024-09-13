@@ -1,0 +1,14 @@
+{
+  "artifact_1927513400": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-naotoj-142a2f3c21ee421f3393ed0e9bd908065a0845e0)\nOpenJDK 64-Bit Server VM (build 24-internal-naotoj-142a2f3c21ee421f3393ed0e9bd908065a0845e0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-13T00:54:10.343861",
+  "url": "https://github.com/openjdk/jdk/pull/20979",
+  "number": 20979,
+  "title": "8340073: Support \"%z\" time zone abbreviation format in TZ files",
+  "head_sha": "142a2f3c21ee421f3393ed0e9bd908065a0845e0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10840443161"
+}
