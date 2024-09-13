@@ -1,0 +1,29 @@
+{
+  "artifact_1930433655": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-gredler-a608198145c976b750dbbd932868fbbd127a97c4)\nOpenJDK 64-Bit Server VM (build 24-internal-gredler-a608198145c976b750dbbd932868fbbd127a97c4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1929267257": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-gredler-20e970a6210eaef69dc1241290f714b78955ea7d)\nOpenJDK 64-Bit Server VM (build 24-internal-gredler-20e970a6210eaef69dc1241290f714b78955ea7d, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-13T11:02:49.361310",
+      "url": "https://github.com/openjdk/jdk/pull/20993",
+      "number": 20993,
+      "title": "8339974: Graphics2D.drawString doesn't always work with Font derived from AffineTransform",
+      "head_sha": "20e970a6210eaef69dc1241290f714b78955ea7d",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10847748449"
+    }
+  ],
+  "datetime": "2024-09-13T15:35:15.387238",
+  "url": "https://github.com/openjdk/jdk/pull/20993",
+  "number": 20993,
+  "title": "8339974: Graphics2D.drawString doesn't always work with Font derived from AffineTransform",
+  "head_sha": "a608198145c976b750dbbd932868fbbd127a97c4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10851808324"
+}
