@@ -1,0 +1,14 @@
+{
+  "artifact_1933933031": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-D-D-H-cb1ff832ec5a84dc30889d8e80ff4b262288d25a)\nOpenJDK 64-Bit Server VM (build 24-internal-D-D-H-cb1ff832ec5a84dc30889d8e80ff4b262288d25a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-15T03:06:10.724103",
+  "url": "https://github.com/openjdk/jdk/pull/21007",
+  "number": 21007,
+  "title": "8340144: C1: remove unused Compilation::_max_spills",
+  "head_sha": "cb1ff832ec5a84dc30889d8e80ff4b262288d25a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10867560960"
+}
