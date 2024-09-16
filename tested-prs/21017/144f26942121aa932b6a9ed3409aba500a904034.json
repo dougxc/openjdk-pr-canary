@@ -1,0 +1,14 @@
+{
+  "artifact_1937319865": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-144f26942121aa932b6a9ed3409aba500a904034)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-144f26942121aa932b6a9ed3409aba500a904034, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-16T12:54:34.696085",
+  "url": "https://github.com/openjdk/jdk/pull/21017",
+  "number": 21017,
+  "title": "8340194: Replace usage of -ms with -Xms in LauncherCommon.gmk make file",
+  "head_sha": "144f26942121aa932b6a9ed3409aba500a904034",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10884052198"
+}
