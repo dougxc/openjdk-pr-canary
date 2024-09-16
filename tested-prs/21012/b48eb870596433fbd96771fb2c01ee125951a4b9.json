@@ -1,0 +1,14 @@
+{
+  "artifact_1936801482": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-b48eb870596433fbd96771fb2c01ee125951a4b9)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-b48eb870596433fbd96771fb2c01ee125951a4b9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-16T10:46:00.923864",
+  "url": "https://github.com/openjdk/jdk/pull/21012",
+  "number": 21012,
+  "title": "8340176: Replace usage of -noclassgc with -Xnoclassgc in test/jdk/java/lang/management/MemoryMXBean/LowMemoryTest2.java",
+  "head_sha": "b48eb870596433fbd96771fb2c01ee125951a4b9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10881928398"
+}
