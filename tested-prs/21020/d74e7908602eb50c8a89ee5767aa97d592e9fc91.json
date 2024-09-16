@@ -1,0 +1,14 @@
+{
+  "artifact_1937668555": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dmlloyd-d74e7908602eb50c8a89ee5767aa97d592e9fc91)\nOpenJDK 64-Bit Server VM (build 24-internal-dmlloyd-d74e7908602eb50c8a89ee5767aa97d592e9fc91, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-16T13:44:17.967449",
+  "url": "https://github.com/openjdk/jdk/pull/21020",
+  "number": 21020,
+  "title": "8340200: Misspelled constant `AttributesProcessingOption.DROP_UNSTABLE_ATRIBUTES`",
+  "head_sha": "d74e7908602eb50c8a89ee5767aa97d592e9fc91",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10884846784"
+}
