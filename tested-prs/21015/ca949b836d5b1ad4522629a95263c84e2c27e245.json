@@ -1,0 +1,29 @@
+{
+  "artifact_1938200706": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tstuefe-ca949b836d5b1ad4522629a95263c84e2c27e245)\nOpenJDK 64-Bit Server VM (build 24-internal-tstuefe-ca949b836d5b1ad4522629a95263c84e2c27e245, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1937478939": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tstuefe-ab82126d3da097054245fd740d468438c1b6059d)\nOpenJDK 64-Bit Server VM (build 24-internal-tstuefe-ab82126d3da097054245fd740d468438c1b6059d, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-16T13:04:59.925257",
+      "url": "https://github.com/openjdk/jdk/pull/21015",
+      "number": 21015,
+      "title": "8340184: Bug in CompressedKlassPointers::is_in_encodable_range",
+      "head_sha": "ab82126d3da097054245fd740d468438c1b6059d",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10884052198"
+    }
+  ],
+  "datetime": "2024-09-16T15:35:07.439498",
+  "url": "https://github.com/openjdk/jdk/pull/21015",
+  "number": 21015,
+  "title": "8340184: Bug in CompressedKlassPointers::is_in_encodable_range",
+  "head_sha": "ca949b836d5b1ad4522629a95263c84e2c27e245",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10886936817"
+}
