@@ -1,0 +1,116 @@
+{
+  "artifact_1942818605": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-7f1403227257e92b4de70b175e57ad1c7737bec6)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-7f1403227257e92b4de70b175e57ad1c7737bec6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1928930564": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-1dee24ab7a689f0a907a5de5ea24159435cc68bc)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-1dee24ab7a689f0a907a5de5ea24159435cc68bc, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1926376696": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-87d7a477fe03d3f4e71216537101c0570212cb91)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-87d7a477fe03d3f4e71216537101c0570212cb91, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-12T18:52:17.381077",
+          "url": "https://github.com/openjdk/jdk/pull/20972",
+          "number": 20972,
+          "title": "8325949: Create an internal utility method for creating VarHandle instances",
+          "head_sha": "87d7a477fe03d3f4e71216537101c0570212cb91",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10836623027"
+        }
+      ],
+      "datetime": "2024-09-13T09:34:42.241538",
+      "url": "https://github.com/openjdk/jdk/pull/20972",
+      "number": 20972,
+      "title": "8325949: Create an internal utility method for creating VarHandle instances",
+      "head_sha": "1dee24ab7a689f0a907a5de5ea24159435cc68bc",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10846544411"
+    },
+    {
+      "artifact_1926376696": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-87d7a477fe03d3f4e71216537101c0570212cb91)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-87d7a477fe03d3f4e71216537101c0570212cb91, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-12T18:52:17.381077",
+      "url": "https://github.com/openjdk/jdk/pull/20972",
+      "number": 20972,
+      "title": "8325949: Create an internal utility method for creating VarHandle instances",
+      "head_sha": "87d7a477fe03d3f4e71216537101c0570212cb91",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10836623027"
+    },
+    {
+      "artifact_1937424921": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-e2e935b2d5545d1b8819c93551a522d144edc90a)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-e2e935b2d5545d1b8819c93551a522d144edc90a, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1928930564": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-1dee24ab7a689f0a907a5de5ea24159435cc68bc)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-1dee24ab7a689f0a907a5de5ea24159435cc68bc, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [
+            {
+              "artifact_1926376696": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-87d7a477fe03d3f4e71216537101c0570212cb91)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-87d7a477fe03d3f4e71216537101c0570212cb91, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [],
+              "datetime": "2024-09-12T18:52:17.381077",
+              "url": "https://github.com/openjdk/jdk/pull/20972",
+              "number": 20972,
+              "title": "8325949: Create an internal utility method for creating VarHandle instances",
+              "head_sha": "87d7a477fe03d3f4e71216537101c0570212cb91",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10836623027"
+            }
+          ],
+          "datetime": "2024-09-13T09:34:42.241538",
+          "url": "https://github.com/openjdk/jdk/pull/20972",
+          "number": 20972,
+          "title": "8325949: Create an internal utility method for creating VarHandle instances",
+          "head_sha": "1dee24ab7a689f0a907a5de5ea24159435cc68bc",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10846544411"
+        },
+        {
+          "artifact_1926376696": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-87d7a477fe03d3f4e71216537101c0570212cb91)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-87d7a477fe03d3f4e71216537101c0570212cb91, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-12T18:52:17.381077",
+          "url": "https://github.com/openjdk/jdk/pull/20972",
+          "number": 20972,
+          "title": "8325949: Create an internal utility method for creating VarHandle instances",
+          "head_sha": "87d7a477fe03d3f4e71216537101c0570212cb91",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10836623027"
+        }
+      ],
+      "datetime": "2024-09-16T13:15:30.898463",
+      "url": "https://github.com/openjdk/jdk/pull/20972",
+      "number": 20972,
+      "title": "8325949: Create an internal utility method for creating VarHandle instances",
+      "head_sha": "e2e935b2d5545d1b8819c93551a522d144edc90a",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10884052198"
+    }
+  ],
+  "datetime": "2024-09-17T14:01:22.585930",
+  "url": "https://github.com/openjdk/jdk/pull/20972",
+  "number": 20972,
+  "title": "8325949: Create an internal utility method for creating VarHandle instances",
+  "head_sha": "7f1403227257e92b4de70b175e57ad1c7737bec6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10904423397"
+}
