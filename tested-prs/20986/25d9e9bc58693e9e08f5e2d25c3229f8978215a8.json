@@ -1,0 +1,58 @@
+{
+  "artifact_1941784634": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-25d9e9bc58693e9e08f5e2d25c3229f8978215a8)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-25d9e9bc58693e9e08f5e2d25c3229f8978215a8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1935964059": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-95a832e475f09efac753c38c6f559b7998b47b03)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-95a832e475f09efac753c38c6f559b7998b47b03, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1928576365": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-fa36e66b91d998014584a79f19755f75714c9a4a)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-fa36e66b91d998014584a79f19755f75714c9a4a, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-13T07:59:28.984317",
+          "url": "https://github.com/openjdk/jdk/pull/20986",
+          "number": 20986,
+          "title": "8339416: [s390x] Provide implementation for resolve_global_jobject",
+          "head_sha": "fa36e66b91d998014584a79f19755f75714c9a4a",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10845182719"
+        }
+      ],
+      "datetime": "2024-09-16T05:46:25.462457",
+      "url": "https://github.com/openjdk/jdk/pull/20986",
+      "number": 20986,
+      "title": "8339416: [s390x] Provide implementation for resolve_global_jobject",
+      "head_sha": "95a832e475f09efac753c38c6f559b7998b47b03",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10878014083"
+    },
+    {
+      "artifact_1928576365": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-fa36e66b91d998014584a79f19755f75714c9a4a)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-fa36e66b91d998014584a79f19755f75714c9a4a, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-13T07:59:28.984317",
+      "url": "https://github.com/openjdk/jdk/pull/20986",
+      "number": 20986,
+      "title": "8339416: [s390x] Provide implementation for resolve_global_jobject",
+      "head_sha": "fa36e66b91d998014584a79f19755f75714c9a4a",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10845182719"
+    }
+  ],
+  "datetime": "2024-09-17T11:28:48.430750",
+  "url": "https://github.com/openjdk/jdk/pull/20986",
+  "number": 20986,
+  "title": "8339416: [s390x] Provide implementation for resolve_global_jobject",
+  "head_sha": "25d9e9bc58693e9e08f5e2d25c3229f8978215a8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10901954936"
+}
