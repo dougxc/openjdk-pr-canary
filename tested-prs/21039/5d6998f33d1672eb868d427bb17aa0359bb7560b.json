@@ -1,0 +1,14 @@
+{
+  "artifact_1943023717": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-aivanov-jdk-5d6998f33d1672eb868d427bb17aa0359bb7560b)\nOpenJDK 64-Bit Server VM (build 24-internal-aivanov-jdk-5d6998f33d1672eb868d427bb17aa0359bb7560b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-17T14:30:47.638635",
+  "url": "https://github.com/openjdk/jdk/pull/21039",
+  "number": 21039,
+  "title": "8340308: PassFailJFrame: Make rows default to number of lines in instructions",
+  "head_sha": "5d6998f33d1672eb868d427bb17aa0359bb7560b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10904984795"
+}
