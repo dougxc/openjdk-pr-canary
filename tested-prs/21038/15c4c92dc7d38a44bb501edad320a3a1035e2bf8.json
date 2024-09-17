@@ -1,0 +1,14 @@
+{
+  "artifact_1942690733": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-aivanov-jdk-15c4c92dc7d38a44bb501edad320a3a1035e2bf8)\nOpenJDK 64-Bit Server VM (build 24-internal-aivanov-jdk-15c4c92dc7d38a44bb501edad320a3a1035e2bf8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-17T13:38:04.649602",
+  "url": "https://github.com/openjdk/jdk/pull/21038",
+  "number": 21038,
+  "title": "8340306: Add border around instructions in PassFailJFrame",
+  "head_sha": "15c4c92dc7d38a44bb501edad320a3a1035e2bf8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10904049986"
+}
