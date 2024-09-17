@@ -352,6 +352,10 @@ def post_failure_to_slack(test_record):
     Slack channel for the failure in `test_record`.
     """
 
+    pr_num = test_record['number']
+    pr_commit = test_record['head_sha']
+    pr_url = test_record["url"]
+    run_url = test_record["run_url"]
     message = json.dumps({
 	    "blocks": [
             {
@@ -365,12 +369,21 @@ def post_failure_to_slack(test_record):
 					    "elements": [
 						    {
 							    "type": "text",
-							    "text": f"Testing commit {test_record['head_sha'][:14]} in "
+							    "text": f"Testing commit "
 						    },
 						    {
 							    "type": "link",
-                                "text": f"#{test_record['number']}",
-							    "url": test_record["url"]
+                                "text": f"{pr_commit[:14]}",
+							    "url": f"{pr_url}/commits/{pr_commit}"
+						    },
+						    {
+							    "type": "text",
+							    "text": f" in "
+						    },
+						    {
+							    "type": "link",
+                                "text": f"#{pr_num}",
+							    "url": pr_url
 						    },
                             {
                                 "type": "text",
@@ -379,11 +392,11 @@ def post_failure_to_slack(test_record):
                             {
                                 "type": "link",
                                 "text": "this summary",
-                                "url": test_record["run_url"]
+                                "url": run_url
                             },
                             {
                                 "type": "text",
-                                "text": ".\n\nCoordinate Graal adaption to the PR here. If adaption is non-trivial, maybe ask the PR author to request a delay in merging."
+                                "text": "."
                             }
                         ]
                     }
