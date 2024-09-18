@@ -1,0 +1,58 @@
+{
+  "artifact_1949666886": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-abb8caf53a16fee18504ec8e650755e3d77b7f55)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-abb8caf53a16fee18504ec8e650755e3d77b7f55, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1949433469": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-2bf854f222b4a55e25d4109c5adfe9b68a69f0f1)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-2bf854f222b4a55e25d4109c5adfe9b68a69f0f1, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1944383588": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-92a846e5aef6d28c4d185a00d3e343fa11607c5b)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-92a846e5aef6d28c4d185a00d3e343fa11607c5b, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-17T19:27:45.868692",
+          "url": "https://github.com/openjdk/jdk/pull/21045",
+          "number": 21045,
+          "title": "8340078: Open source several 2D tests",
+          "head_sha": "92a846e5aef6d28c4d185a00d3e343fa11607c5b",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10909578175"
+        }
+      ],
+      "datetime": "2024-09-18T18:40:20.560712",
+      "url": "https://github.com/openjdk/jdk/pull/21045",
+      "number": 21045,
+      "title": "8340078: Open source several 2D tests",
+      "head_sha": "2bf854f222b4a55e25d4109c5adfe9b68a69f0f1",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10928018021"
+    },
+    {
+      "artifact_1944383588": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-92a846e5aef6d28c4d185a00d3e343fa11607c5b)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-92a846e5aef6d28c4d185a00d3e343fa11607c5b, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-17T19:27:45.868692",
+      "url": "https://github.com/openjdk/jdk/pull/21045",
+      "number": 21045,
+      "title": "8340078: Open source several 2D tests",
+      "head_sha": "92a846e5aef6d28c4d185a00d3e343fa11607c5b",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10909578175"
+    }
+  ],
+  "datetime": "2024-09-18T19:42:23.546907",
+  "url": "https://github.com/openjdk/jdk/pull/21045",
+  "number": 21045,
+  "title": "8340078: Open source several 2D tests",
+  "head_sha": "abb8caf53a16fee18504ec8e650755e3d77b7f55",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10928302758"
+}
