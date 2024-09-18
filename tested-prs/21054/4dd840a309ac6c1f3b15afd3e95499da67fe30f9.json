@@ -1,0 +1,14 @@
+{
+  "artifact_1947335676": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-4dd840a309ac6c1f3b15afd3e95499da67fe30f9)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-4dd840a309ac6c1f3b15afd3e95499da67fe30f9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-18T11:40:06.273933",
+  "url": "https://github.com/openjdk/jdk/pull/21054",
+  "number": 21054,
+  "title": "8340364: JFR: Fix up Class mirror after event retransformation",
+  "head_sha": "4dd840a309ac6c1f3b15afd3e95499da67fe30f9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10921045500"
+}
