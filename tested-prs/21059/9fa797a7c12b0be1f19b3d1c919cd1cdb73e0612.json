@@ -1,0 +1,14 @@
+{
+  "artifact_1947980215": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-Hamlin-Li-9fa797a7c12b0be1f19b3d1c919cd1cdb73e0612)\nOpenJDK 64-Bit Server VM (build 24-internal-Hamlin-Li-9fa797a7c12b0be1f19b3d1c919cd1cdb73e0612, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-18T14:02:18.710738",
+  "url": "https://github.com/openjdk/jdk/pull/21059",
+  "number": 21059,
+  "title": "8339992: RISC-V: some minor improvements of base64_vector_decode_round",
+  "head_sha": "9fa797a7c12b0be1f19b3d1c919cd1cdb73e0612",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10923517645"
+}
