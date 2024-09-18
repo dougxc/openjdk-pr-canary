@@ -1,0 +1,14 @@
+{
+  "artifact_1947462813": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kevinjwalls-e06fe2944d02c787badf4345e89747f8796a51c6)\nOpenJDK 64-Bit Server VM (build 24-internal-kevinjwalls-e06fe2944d02c787badf4345e89747f8796a51c6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-18T12:29:33.430137",
+  "url": "https://github.com/openjdk/jdk/pull/21056",
+  "number": 21056,
+  "title": "8340276: Test java/lang/management/ThreadMXBean/Locks.java failed with NullPointerException",
+  "head_sha": "e06fe2944d02c787badf4345e89747f8796a51c6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10921482338"
+}
