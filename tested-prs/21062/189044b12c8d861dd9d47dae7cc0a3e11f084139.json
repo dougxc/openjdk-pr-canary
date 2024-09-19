@@ -1,0 +1,116 @@
+{
+  "artifact_1952297577": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-189044b12c8d861dd9d47dae7cc0a3e11f084139)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-189044b12c8d861dd9d47dae7cc0a3e11f084139, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1948130379": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-14afd0d064edf0a3db7038223e9a3757b11e9871)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-14afd0d064edf0a3db7038223e9a3757b11e9871, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-18T14:31:59.909686",
+      "url": "https://github.com/openjdk/jdk/pull/21062",
+      "number": 21062,
+      "title": "8340271: Open source several AWT Robot tests",
+      "head_sha": "14afd0d064edf0a3db7038223e9a3757b11e9871",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10924111462"
+    },
+    {
+      "artifact_1951263419": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-1eeb6826975ef8aa39cb2ba7256fad4109f0b77d)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-1eeb6826975ef8aa39cb2ba7256fad4109f0b77d, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1948130379": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-14afd0d064edf0a3db7038223e9a3757b11e9871)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-14afd0d064edf0a3db7038223e9a3757b11e9871, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-18T14:31:59.909686",
+          "url": "https://github.com/openjdk/jdk/pull/21062",
+          "number": 21062,
+          "title": "8340271: Open source several AWT Robot tests",
+          "head_sha": "14afd0d064edf0a3db7038223e9a3757b11e9871",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10924111462"
+        }
+      ],
+      "datetime": "2024-09-19T04:59:24.983110",
+      "url": "https://github.com/openjdk/jdk/pull/21062",
+      "number": 21062,
+      "title": "8340271: Open source several AWT Robot tests",
+      "head_sha": "1eeb6826975ef8aa39cb2ba7256fad4109f0b77d",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10934619057"
+    },
+    {
+      "artifact_1951558316": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-e5111877b0363c7e8b9703a3c5f394f2ace18c11)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-e5111877b0363c7e8b9703a3c5f394f2ace18c11, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1948130379": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-14afd0d064edf0a3db7038223e9a3757b11e9871)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-14afd0d064edf0a3db7038223e9a3757b11e9871, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-18T14:31:59.909686",
+          "url": "https://github.com/openjdk/jdk/pull/21062",
+          "number": 21062,
+          "title": "8340271: Open source several AWT Robot tests",
+          "head_sha": "14afd0d064edf0a3db7038223e9a3757b11e9871",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10924111462"
+        },
+        {
+          "artifact_1951263419": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-1eeb6826975ef8aa39cb2ba7256fad4109f0b77d)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-1eeb6826975ef8aa39cb2ba7256fad4109f0b77d, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [
+            {
+              "artifact_1948130379": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-14afd0d064edf0a3db7038223e9a3757b11e9871)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-14afd0d064edf0a3db7038223e9a3757b11e9871, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [],
+              "datetime": "2024-09-18T14:31:59.909686",
+              "url": "https://github.com/openjdk/jdk/pull/21062",
+              "number": 21062,
+              "title": "8340271: Open source several AWT Robot tests",
+              "head_sha": "14afd0d064edf0a3db7038223e9a3757b11e9871",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10924111462"
+            }
+          ],
+          "datetime": "2024-09-19T04:59:24.983110",
+          "url": "https://github.com/openjdk/jdk/pull/21062",
+          "number": 21062,
+          "title": "8340271: Open source several AWT Robot tests",
+          "head_sha": "1eeb6826975ef8aa39cb2ba7256fad4109f0b77d",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10934619057"
+        }
+      ],
+      "datetime": "2024-09-19T07:13:54.291580",
+      "url": "https://github.com/openjdk/jdk/pull/21062",
+      "number": 21062,
+      "title": "8340271: Open source several AWT Robot tests",
+      "head_sha": "e5111877b0363c7e8b9703a3c5f394f2ace18c11",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10935665498"
+    }
+  ],
+  "datetime": "2024-09-19T10:44:54.375418",
+  "url": "https://github.com/openjdk/jdk/pull/21062",
+  "number": 21062,
+  "title": "8340271: Open source several AWT Robot tests",
+  "head_sha": "189044b12c8d861dd9d47dae7cc0a3e11f084139",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10939094465"
+}
