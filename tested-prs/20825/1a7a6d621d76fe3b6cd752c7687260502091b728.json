@@ -1,0 +1,53 @@
+{
+  "artifact_1952944046": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-YaaZ-1a7a6d621d76fe3b6cd752c7687260502091b728)\nOpenJDK 64-Bit Server VM (build 24-internal-YaaZ-1a7a6d621d76fe3b6cd752c7687260502091b728, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    {
+      "artifact_1896134716": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-YaaZ-3203ea9e2b9a5647aed2628dcee6504167b2ac91)\nOpenJDK 64-Bit Server VM (build 24-internal-YaaZ-3203ea9e2b9a5647aed2628dcee6504167b2ac91, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "url": "https://github.com/openjdk/jdk/pull/20825",
+      "title": "8339341: SurfaceManager cacheMap retains strong references",
+      "head_sha": "3203ea9e2b9a5647aed2628dcee6504167b2ac91",
+      "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10720683408"
+    },
+    {
+      "artifact_1944996634": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-YaaZ-8786645352d79c813f10c42e4a69c663425a8ea5)\nOpenJDK 64-Bit Server VM (build 24-internal-YaaZ-8786645352d79c813f10c42e4a69c663425a8ea5, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1896134716": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-YaaZ-3203ea9e2b9a5647aed2628dcee6504167b2ac91)\nOpenJDK 64-Bit Server VM (build 24-internal-YaaZ-3203ea9e2b9a5647aed2628dcee6504167b2ac91, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "url": "https://github.com/openjdk/jdk/pull/20825",
+          "title": "8339341: SurfaceManager cacheMap retains strong references",
+          "head_sha": "3203ea9e2b9a5647aed2628dcee6504167b2ac91",
+          "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10720683408"
+        }
+      ],
+      "datetime": "2024-09-17T22:00:54.665296",
+      "url": "https://github.com/openjdk/jdk/pull/20825",
+      "number": 20825,
+      "title": "8339341: SurfaceManager cacheMap retains strong references",
+      "head_sha": "8786645352d79c813f10c42e4a69c663425a8ea5",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10911635123"
+    }
+  ],
+  "datetime": "2024-09-19T12:45:53.579202",
+  "url": "https://github.com/openjdk/jdk/pull/20825",
+  "number": 20825,
+  "title": "8339341: SurfaceManager cacheMap retains strong references",
+  "head_sha": "1a7a6d621d76fe3b6cd752c7687260502091b728",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10941185813"
+}
