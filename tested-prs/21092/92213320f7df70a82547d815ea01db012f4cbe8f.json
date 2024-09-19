@@ -1,0 +1,14 @@
+{
+  "artifact_1953873728": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TheRealMDoerr-92213320f7df70a82547d815ea01db012f4cbe8f)\nOpenJDK 64-Bit Server VM (build 24-internal-TheRealMDoerr-92213320f7df70a82547d815ea01db012f4cbe8f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-19T15:58:58.038131",
+  "url": "https://github.com/openjdk/jdk/pull/21092",
+  "number": 21092,
+  "title": "8339772: serviceability/sa/TestJhsdbJstackUpcall.java fails on Linux ppc64le",
+  "head_sha": "92213320f7df70a82547d815ea01db012f4cbe8f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10944445598"
+}
