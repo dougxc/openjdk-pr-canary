@@ -1,0 +1,14 @@
+{
+  "artifact_1951897287": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-MBaesken-ce740a563603aafba1fbfc80cb8cb1497f6393fe)\nOpenJDK 64-Bit Server VM (build 24-internal-MBaesken-ce740a563603aafba1fbfc80cb8cb1497f6393fe, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-19T08:39:30.034244",
+  "url": "https://github.com/openjdk/jdk/pull/21082",
+  "number": 21082,
+  "title": "8340387: Update OS detection code to recognize Windows Server 2025",
+  "head_sha": "ce740a563603aafba1fbfc80cb8cb1497f6393fe",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10937286573"
+}
