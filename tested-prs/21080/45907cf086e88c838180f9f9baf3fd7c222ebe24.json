@@ -1,0 +1,14 @@
+{
+  "artifact_1951533283": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-45907cf086e88c838180f9f9baf3fd7c222ebe24)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-45907cf086e88c838180f9f9baf3fd7c222ebe24, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-19T06:41:39.396710",
+  "url": "https://github.com/openjdk/jdk/pull/21080",
+  "number": 21080,
+  "title": "8340418: GHA: MacOS AArch64 bundles can be removed prematurely",
+  "head_sha": "45907cf086e88c838180f9f9baf3fd7c222ebe24",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10935665498"
+}
