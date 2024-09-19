@@ -1,0 +1,14 @@
+{
+  "artifact_1955804912": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-azuev-java-f30cca9635bbf56c62a5b01eef9da7219aaa92b8)\nOpenJDK 64-Bit Server VM (build 24-internal-azuev-java-f30cca9635bbf56c62a5b01eef9da7219aaa92b8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-19T23:32:27.563237",
+  "url": "https://github.com/openjdk/jdk/pull/21097",
+  "number": 21097,
+  "title": "8340228: Open source couple more miscellaneous AWT tests",
+  "head_sha": "f30cca9635bbf56c62a5b01eef9da7219aaa92b8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10950369853"
+}
