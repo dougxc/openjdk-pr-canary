@@ -1,0 +1,29 @@
+{
+  "artifact_1956396382": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-alexeysemenyukoracle-9562086c0bc26afe22dd7146674583d4dda2b970)\nOpenJDK 64-Bit Server VM (build 24-internal-alexeysemenyukoracle-9562086c0bc26afe22dd7146674583d4dda2b970, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1955954580": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-alexeysemenyukoracle-9b3c1a59d48ec9e87bd1d4c37c9789ff1656a02c)\nOpenJDK 64-Bit Server VM (build 24-internal-alexeysemenyukoracle-9b3c1a59d48ec9e87bd1d4c37c9789ff1656a02c, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-20T01:54:37.448246",
+      "url": "https://github.com/openjdk/jdk/pull/21100",
+      "number": 21100,
+      "title": "8338918: Remove non translated file name from WinResources resource bundle",
+      "head_sha": "9b3c1a59d48ec9e87bd1d4c37c9789ff1656a02c",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10951702817"
+    }
+  ],
+  "datetime": "2024-09-20T04:00:19.324316",
+  "url": "https://github.com/openjdk/jdk/pull/21100",
+  "number": 21100,
+  "title": "8338918: Remove non translated file name from WinResources resource bundle",
+  "head_sha": "9562086c0bc26afe22dd7146674583d4dda2b970",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10952842163"
+}
