@@ -1,0 +1,14 @@
+{
+  "artifact_1957633277": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-azvegint-067c7c3841a2f3649f5d9ba6f068e93f6378da0d)\nOpenJDK 64-Bit Server VM (build 24-internal-azvegint-067c7c3841a2f3649f5d9ba6f068e93f6378da0d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-20T10:59:05.655667",
+  "url": "https://github.com/openjdk/jdk/pull/21107",
+  "number": 21107,
+  "title": "8340433: Open source closed choice tests #3",
+  "head_sha": "067c7c3841a2f3649f5d9ba6f068e93f6378da0d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10957886042"
+}
