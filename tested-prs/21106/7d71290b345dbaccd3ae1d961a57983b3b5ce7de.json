@@ -1,0 +1,29 @@
+{
+  "artifact_1959327197": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-7d71290b345dbaccd3ae1d961a57983b3b5ce7de)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-7d71290b345dbaccd3ae1d961a57983b3b5ce7de, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1957230359": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-9d554f11644c218ba89e61e76656fbc76f64b799)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-9d554f11644c218ba89e61e76656fbc76f64b799, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-20T15:02:55.839538",
+      "url": "https://github.com/openjdk/jdk/pull/21106",
+      "number": 21106,
+      "title": "8340544: Optimize setLocalsFromArg",
+      "head_sha": "9d554f11644c218ba89e61e76656fbc76f64b799",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10961419244"
+    }
+  ],
+  "datetime": "2024-09-20T17:24:35.181602",
+  "url": "https://github.com/openjdk/jdk/pull/21106",
+  "number": 21106,
+  "title": "8340544: Optimize setLocalsFromArg",
+  "head_sha": "7d71290b345dbaccd3ae1d961a57983b3b5ce7de",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10963158968"
+}
