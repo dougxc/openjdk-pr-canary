@@ -1,0 +1,14 @@
+{
+  "artifact_1959825430": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-pengxiaolong-58196a4f6f9f509525667dba1bd1fb2c2afa3e8e)\nOpenJDK 64-Bit Server VM (build 24-internal-pengxiaolong-58196a4f6f9f509525667dba1bd1fb2c2afa3e8e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-20T19:43:06.756415",
+  "url": "https://github.com/openjdk/jdk/pull/21099",
+  "number": 21099,
+  "title": "8340490: Shenandoah: Optimize ShenandoahPacer",
+  "head_sha": "58196a4f6f9f509525667dba1bd1fb2c2afa3e8e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10965182739"
+}
