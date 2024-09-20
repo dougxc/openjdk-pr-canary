@@ -1,0 +1,29 @@
+{
+  "artifact_1956431814": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-c1a3daf694b7b0b983fd5fc33944768d540f393f)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-c1a3daf694b7b0b983fd5fc33944768d540f393f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1946188827": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-509ccf6553db51df72403be533d4e0bbce529d11)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-509ccf6553db51df72403be533d4e0bbce529d11, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-18T06:42:42.473101",
+      "url": "https://github.com/openjdk/jdk/pull/21051",
+      "number": 21051,
+      "title": "8339906: Open source several AWT focus tests - series 4",
+      "head_sha": "509ccf6553db51df72403be533d4e0bbce529d11",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10916790792"
+    }
+  ],
+  "datetime": "2024-09-20T04:12:16.095011",
+  "url": "https://github.com/openjdk/jdk/pull/21051",
+  "number": 21051,
+  "title": "8339906: Open source several AWT focus tests - series 4",
+  "head_sha": "c1a3daf694b7b0b983fd5fc33944768d540f393f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10952842163"
+}
