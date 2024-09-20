@@ -1,0 +1,14 @@
+{
+  "artifact_1956591913": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-131b22f4b35455862e59a7dbd1c1e401b78c0b1e)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-131b22f4b35455862e59a7dbd1c1e401b78c0b1e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-20T05:32:42.368312",
+  "url": "https://github.com/openjdk/jdk/pull/21104",
+  "number": 21104,
+  "title": "8340367: Opensource few AWT image tests",
+  "head_sha": "131b22f4b35455862e59a7dbd1c1e401b78c0b1e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10953652955"
+}
