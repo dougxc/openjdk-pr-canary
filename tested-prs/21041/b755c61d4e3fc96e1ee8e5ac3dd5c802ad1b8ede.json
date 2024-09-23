@@ -1,0 +1,116 @@
+{
+  "artifact_1967466906": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-b755c61d4e3fc96e1ee8e5ac3dd5c802ad1b8ede)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-b755c61d4e3fc96e1ee8e5ac3dd5c802ad1b8ede, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1965593755": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-78d38efa402ce65468650479ae0a8ba0498e4c9e)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-78d38efa402ce65468650479ae0a8ba0498e4c9e, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1957242475": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-c1d3b655274661e870ac5550f4471b16dddefed9)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-c1d3b655274661e870ac5550f4471b16dddefed9, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-20T09:00:58.796986",
+          "url": "https://github.com/openjdk/jdk/pull/21041",
+          "number": 21041,
+          "title": "8340205: Native linker allows MemoryLayout consisting of only PaddindLayout",
+          "head_sha": "c1d3b655274661e870ac5550f4471b16dddefed9",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10955879358"
+        }
+      ],
+      "datetime": "2024-09-23T11:21:02.458667",
+      "url": "https://github.com/openjdk/jdk/pull/21041",
+      "number": 21041,
+      "title": "8340205: Native linker allows MemoryLayout consisting of only PaddingLayout",
+      "head_sha": "78d38efa402ce65468650479ae0a8ba0498e4c9e",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10992371489"
+    },
+    {
+      "artifact_1966666842": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-bba0b7847f3d369df49093f2aedf00da9f58b968)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-bba0b7847f3d369df49093f2aedf00da9f58b968, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1965593755": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-78d38efa402ce65468650479ae0a8ba0498e4c9e)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-78d38efa402ce65468650479ae0a8ba0498e4c9e, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [
+            {
+              "artifact_1957242475": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-c1d3b655274661e870ac5550f4471b16dddefed9)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-c1d3b655274661e870ac5550f4471b16dddefed9, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [],
+              "datetime": "2024-09-20T09:00:58.796986",
+              "url": "https://github.com/openjdk/jdk/pull/21041",
+              "number": 21041,
+              "title": "8340205: Native linker allows MemoryLayout consisting of only PaddindLayout",
+              "head_sha": "c1d3b655274661e870ac5550f4471b16dddefed9",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10955879358"
+            }
+          ],
+          "datetime": "2024-09-23T11:21:02.458667",
+          "url": "https://github.com/openjdk/jdk/pull/21041",
+          "number": 21041,
+          "title": "8340205: Native linker allows MemoryLayout consisting of only PaddingLayout",
+          "head_sha": "78d38efa402ce65468650479ae0a8ba0498e4c9e",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10992371489"
+        },
+        {
+          "artifact_1957242475": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-c1d3b655274661e870ac5550f4471b16dddefed9)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-c1d3b655274661e870ac5550f4471b16dddefed9, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-20T09:00:58.796986",
+          "url": "https://github.com/openjdk/jdk/pull/21041",
+          "number": 21041,
+          "title": "8340205: Native linker allows MemoryLayout consisting of only PaddindLayout",
+          "head_sha": "c1d3b655274661e870ac5550f4471b16dddefed9",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10955879358"
+        }
+      ],
+      "datetime": "2024-09-23T14:44:04.211149",
+      "url": "https://github.com/openjdk/jdk/pull/21041",
+      "number": 21041,
+      "title": "8340205: Native linker allows MemoryLayout consisting of only PaddingLayout",
+      "head_sha": "bba0b7847f3d369df49093f2aedf00da9f58b968",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10996268240"
+    },
+    {
+      "artifact_1957242475": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-c1d3b655274661e870ac5550f4471b16dddefed9)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-c1d3b655274661e870ac5550f4471b16dddefed9, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-20T09:00:58.796986",
+      "url": "https://github.com/openjdk/jdk/pull/21041",
+      "number": 21041,
+      "title": "8340205: Native linker allows MemoryLayout consisting of only PaddindLayout",
+      "head_sha": "c1d3b655274661e870ac5550f4471b16dddefed9",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10955879358"
+    }
+  ],
+  "datetime": "2024-09-23T17:26:59.678365",
+  "url": "https://github.com/openjdk/jdk/pull/21041",
+  "number": 21041,
+  "title": "8340205: Native linker allows MemoryLayout consisting of only PaddingLayout",
+  "head_sha": "b755c61d4e3fc96e1ee8e5ac3dd5c802ad1b8ede",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10998799413"
+}
