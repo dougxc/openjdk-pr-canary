@@ -1,0 +1,14 @@
+{
+  "artifact_1965502377": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-5d636f0866a7e8b6b54681cb0b88eab4fea82274)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-5d636f0866a7e8b6b54681cb0b88eab4fea82274, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-23T14:32:20.126516",
+  "url": "https://github.com/openjdk/jdk/pull/21137",
+  "number": 21137,
+  "title": "Optimize processMethod",
+  "head_sha": "5d636f0866a7e8b6b54681cb0b88eab4fea82274",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10996268240"
+}
