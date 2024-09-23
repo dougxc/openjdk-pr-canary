@@ -1,0 +1,14 @@
+{
+  "artifact_1964615399": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-cb1133d85cdf6842cba85335b39f11cf3d7bf255)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-cb1133d85cdf6842cba85335b39f11cf3d7bf255, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-23T06:00:48.132670",
+  "url": "https://github.com/openjdk/jdk/pull/21125",
+  "number": 21125,
+  "title": "8340596: Remove dead code from RequiresSetenv function in java.base/unix/native/libjli/java_md.c",
+  "head_sha": "cb1133d85cdf6842cba85335b39f11cf3d7bf255",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10988404454"
+}
