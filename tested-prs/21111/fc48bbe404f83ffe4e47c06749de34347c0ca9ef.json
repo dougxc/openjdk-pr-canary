@@ -1,0 +1,29 @@
+{
+  "artifact_1965946718": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-olivergillespie-fc48bbe404f83ffe4e47c06749de34347c0ca9ef)\nOpenJDK 64-Bit Server VM (build 24-internal-olivergillespie-fc48bbe404f83ffe4e47c06749de34347c0ca9ef, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1959183963": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-olivergillespie-b9550f68b0a78e307fee268b3a02b1fa9faa6f15)\nOpenJDK 64-Bit Server VM (build 24-internal-olivergillespie-b9550f68b0a78e307fee268b3a02b1fa9faa6f15, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-20T17:13:07.686476",
+      "url": "https://github.com/openjdk/jdk/pull/21111",
+      "number": 21111,
+      "title": "8340547: Starting many threads can delay safepoints",
+      "head_sha": "b9550f68b0a78e307fee268b3a02b1fa9faa6f15",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10963158968"
+    }
+  ],
+  "datetime": "2024-09-23T12:30:44.477491",
+  "url": "https://github.com/openjdk/jdk/pull/21111",
+  "number": 21111,
+  "title": "8340547: Starting many threads can delay safepoints",
+  "head_sha": "fc48bbe404f83ffe4e47c06749de34347c0ca9ef",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10993617164"
+}
