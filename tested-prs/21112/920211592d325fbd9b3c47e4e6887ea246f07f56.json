@@ -1,0 +1,29 @@
+{
+  "artifact_1967160009": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-fweimer-rh-920211592d325fbd9b3c47e4e6887ea246f07f56)\nOpenJDK 64-Bit Server VM (build 24-internal-fweimer-rh-920211592d325fbd9b3c47e4e6887ea246f07f56, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1959236654": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-fweimer-rh-04e2e2e0dec6701d6ba64e194b30d589ddcf33b3)\nOpenJDK 64-Bit Server VM (build 24-internal-fweimer-rh-04e2e2e0dec6701d6ba64e194b30d589ddcf33b3, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-20T17:01:36.468973",
+      "url": "https://github.com/openjdk/jdk/pull/21112",
+      "number": 21112,
+      "title": "8340552: Harden TzdbZoneRulesCompiler against missing zone names",
+      "head_sha": "04e2e2e0dec6701d6ba64e194b30d589ddcf33b3",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10963158968"
+    }
+  ],
+  "datetime": "2024-09-23T16:49:16.628133",
+  "url": "https://github.com/openjdk/jdk/pull/21112",
+  "number": 21112,
+  "title": "8340552: Harden TzdbZoneRulesCompiler against missing zone names",
+  "head_sha": "920211592d325fbd9b3c47e4e6887ea246f07f56",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10998437719"
+}
