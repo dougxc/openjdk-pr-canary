@@ -1,0 +1,14 @@
+{
+  "artifact_1965149475": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-MBaesken-3415143747c35b3d9fc9da115f55eb8e5e4a0ea2)\nOpenJDK 64-Bit Server VM (build 24-internal-MBaesken-3415143747c35b3d9fc9da115f55eb8e5e4a0ea2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-23T09:02:28.245280",
+  "url": "https://github.com/openjdk/jdk/pull/21130",
+  "number": 21130,
+  "title": "8340623: remove outdated PROCESSOR_ARCHITECTURE_IA64 from Windows coding",
+  "head_sha": "3415143747c35b3d9fc9da115f55eb8e5e4a0ea2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10990500741"
+}
