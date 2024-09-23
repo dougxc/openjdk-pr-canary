@@ -1,0 +1,232 @@
+{
+  "artifact_1966635113": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-ad3865bbd2120beace1dc18e238adc267af47f00)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-ad3865bbd2120beace1dc18e238adc267af47f00, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1936867449": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-16T10:58:12.391761",
+      "url": "https://github.com/openjdk/jdk/pull/20184",
+      "number": 20184,
+      "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+      "head_sha": "09dc029fc2b5a0b0d921a154676b54bf3fbe91c3",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10881928398"
+    },
+    {
+      "artifact_1946459552": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-237ce2ed82ceaf3e66032e79fccc36cc5df60f1a)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-237ce2ed82ceaf3e66032e79fccc36cc5df60f1a, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1936867449": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-16T10:58:12.391761",
+          "url": "https://github.com/openjdk/jdk/pull/20184",
+          "number": 20184,
+          "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+          "head_sha": "09dc029fc2b5a0b0d921a154676b54bf3fbe91c3",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10881928398"
+        },
+        {
+          "artifact_1938411579": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-45abaed4713092e81479f1f86d9c67ad77c3d8c5)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-45abaed4713092e81479f1f86d9c67ad77c3d8c5, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [
+            {
+              "artifact_1936867449": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [],
+              "datetime": "2024-09-16T10:58:12.391761",
+              "url": "https://github.com/openjdk/jdk/pull/20184",
+              "number": 20184,
+              "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+              "head_sha": "09dc029fc2b5a0b0d921a154676b54bf3fbe91c3",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10881928398"
+            }
+          ],
+          "datetime": "2024-09-16T16:34:50.282224",
+          "url": "https://github.com/openjdk/jdk/pull/20184",
+          "number": 20184,
+          "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+          "head_sha": "45abaed4713092e81479f1f86d9c67ad77c3d8c5",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10887372271"
+        },
+        {
+          "artifact_1944131501": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-fb57e2860aaf09d940065a5c75fa577a1fab19fd)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-fb57e2860aaf09d940065a5c75fa577a1fab19fd, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [
+            {
+              "artifact_1936867449": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [],
+              "datetime": "2024-09-16T10:58:12.391761",
+              "url": "https://github.com/openjdk/jdk/pull/20184",
+              "number": 20184,
+              "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+              "head_sha": "09dc029fc2b5a0b0d921a154676b54bf3fbe91c3",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10881928398"
+            },
+            {
+              "artifact_1938411579": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-45abaed4713092e81479f1f86d9c67ad77c3d8c5)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-45abaed4713092e81479f1f86d9c67ad77c3d8c5, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [
+                {
+                  "artifact_1936867449": {
+                    "java_home": "extracted/jdk-24",
+                    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3, mixed mode, sharing)"
+                  },
+                  "status": "passed",
+                  "history": [],
+                  "datetime": "2024-09-16T10:58:12.391761",
+                  "url": "https://github.com/openjdk/jdk/pull/20184",
+                  "number": 20184,
+                  "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+                  "head_sha": "09dc029fc2b5a0b0d921a154676b54bf3fbe91c3",
+                  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10881928398"
+                }
+              ],
+              "datetime": "2024-09-16T16:34:50.282224",
+              "url": "https://github.com/openjdk/jdk/pull/20184",
+              "number": 20184,
+              "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+              "head_sha": "45abaed4713092e81479f1f86d9c67ad77c3d8c5",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10887372271"
+            }
+          ],
+          "datetime": "2024-09-17T18:52:25.593169",
+          "url": "https://github.com/openjdk/jdk/pull/20184",
+          "number": 20184,
+          "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+          "head_sha": "fb57e2860aaf09d940065a5c75fa577a1fab19fd",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10908892048"
+        }
+      ],
+      "datetime": "2024-09-18T07:43:35.886870",
+      "url": "https://github.com/openjdk/jdk/pull/20184",
+      "number": 20184,
+      "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+      "head_sha": "237ce2ed82ceaf3e66032e79fccc36cc5df60f1a",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10917429494"
+    },
+    {
+      "artifact_1938411579": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-45abaed4713092e81479f1f86d9c67ad77c3d8c5)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-45abaed4713092e81479f1f86d9c67ad77c3d8c5, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1936867449": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-16T10:58:12.391761",
+          "url": "https://github.com/openjdk/jdk/pull/20184",
+          "number": 20184,
+          "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+          "head_sha": "09dc029fc2b5a0b0d921a154676b54bf3fbe91c3",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10881928398"
+        }
+      ],
+      "datetime": "2024-09-16T16:34:50.282224",
+      "url": "https://github.com/openjdk/jdk/pull/20184",
+      "number": 20184,
+      "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+      "head_sha": "45abaed4713092e81479f1f86d9c67ad77c3d8c5",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10887372271"
+    },
+    {
+      "artifact_1944131501": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-fb57e2860aaf09d940065a5c75fa577a1fab19fd)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-fb57e2860aaf09d940065a5c75fa577a1fab19fd, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1936867449": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-16T10:58:12.391761",
+          "url": "https://github.com/openjdk/jdk/pull/20184",
+          "number": 20184,
+          "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+          "head_sha": "09dc029fc2b5a0b0d921a154676b54bf3fbe91c3",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10881928398"
+        },
+        {
+          "artifact_1938411579": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-45abaed4713092e81479f1f86d9c67ad77c3d8c5)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-45abaed4713092e81479f1f86d9c67ad77c3d8c5, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [
+            {
+              "artifact_1936867449": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-09dc029fc2b5a0b0d921a154676b54bf3fbe91c3, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [],
+              "datetime": "2024-09-16T10:58:12.391761",
+              "url": "https://github.com/openjdk/jdk/pull/20184",
+              "number": 20184,
+              "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+              "head_sha": "09dc029fc2b5a0b0d921a154676b54bf3fbe91c3",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10881928398"
+            }
+          ],
+          "datetime": "2024-09-16T16:34:50.282224",
+          "url": "https://github.com/openjdk/jdk/pull/20184",
+          "number": 20184,
+          "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+          "head_sha": "45abaed4713092e81479f1f86d9c67ad77c3d8c5",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10887372271"
+        }
+      ],
+      "datetime": "2024-09-17T18:52:25.593169",
+      "url": "https://github.com/openjdk/jdk/pull/20184",
+      "number": 20184,
+      "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+      "head_sha": "fb57e2860aaf09d940065a5c75fa577a1fab19fd",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10908892048"
+    }
+  ],
+  "datetime": "2024-09-23T14:57:17.156838",
+  "url": "https://github.com/openjdk/jdk/pull/20184",
+  "number": 20184,
+  "title": "8337221: CompileFramework: test library to conveniently compile java and jasm sources for fuzzing",
+  "head_sha": "ad3865bbd2120beace1dc18e238adc267af47f00",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10996268240"
+}
