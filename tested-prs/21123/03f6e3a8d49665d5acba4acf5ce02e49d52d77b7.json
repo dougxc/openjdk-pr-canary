@@ -1,0 +1,29 @@
+{
+  "artifact_1964936932": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-zifeihan-03f6e3a8d49665d5acba4acf5ce02e49d52d77b7)\nOpenJDK 64-Bit Server VM (build 24-internal-zifeihan-03f6e3a8d49665d5acba4acf5ce02e49d52d77b7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1964368349": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-zifeihan-7f1cb3ecce0418044bf44cc5c0a4ff1c9bc7835c)\nOpenJDK 64-Bit Server VM (build 24-internal-zifeihan-7f1cb3ecce0418044bf44cc5c0a4ff1c9bc7835c, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-23T03:59:20.723074",
+      "url": "https://github.com/openjdk/jdk/pull/21123",
+      "number": 21123,
+      "title": "8340590: RISC-V: C2: Small improvement to vector gather load and scattter store",
+      "head_sha": "7f1cb3ecce0418044bf44cc5c0a4ff1c9bc7835c",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10987357100"
+    }
+  ],
+  "datetime": "2024-09-23T08:00:30.787152",
+  "url": "https://github.com/openjdk/jdk/pull/21123",
+  "number": 21123,
+  "title": "8340590: RISC-V: C2: Small improvement to vector gather load and scattter store",
+  "head_sha": "03f6e3a8d49665d5acba4acf5ce02e49d52d77b7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10989867244"
+}
