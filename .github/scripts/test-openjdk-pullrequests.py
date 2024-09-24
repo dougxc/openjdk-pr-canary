@@ -60,10 +60,23 @@ def gh_api(args, stdout=None, raw=False):
     quoted_cmd = ' '.join(map(shlex.quote, cmd))
     if stdout:
         quoted_cmd += f" >{stdout.name}"
+        # Only attempt a command that redirects to a file once
+        remaining_attempts = 1
+    else:
+        remaining_attempts = 3
     text = stdout is None or 'b' not in stdout.mode
-    p = subprocess.run(cmd, text=text, capture_output=stdout is None, check=False, stdout=stdout)
-    if p.returncode != 0:
-        raise Exception(f"Command returned {p.returncode}: {quoted_cmd}{os.linesep}stdout: {p.stdout}{os.linesep}stderr: {p.stderr}")
+    while True:
+        p = subprocess.run(cmd, text=text, capture_output=stdout is None, check=False, stdout=stdout)
+        remaining_attempts -= 1
+        if p.returncode != 0:
+            err_msg = f"Command returned {p.returncode}: {quoted_cmd}{os.linesep}stdout: {p.stdout}{os.linesep}stderr: {p.stderr}"
+            if remaining_attempts == 0:
+                raise Exception(err_msg)
+            else:
+                info(f"warning: {err_msg}")
+        else:
+            break
+
     if raw or stdout:
         return p.stdout
     return json.loads(p.stdout)
