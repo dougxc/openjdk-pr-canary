@@ -1,0 +1,14 @@
+{
+  "artifact_1973820820": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TheRealMDoerr-676e2700b9b49b2d7a98fdd0d27ad6793abb5095)\nOpenJDK 64-Bit Server VM (build 24-internal-TheRealMDoerr-676e2700b9b49b2d7a98fdd0d27ad6793abb5095, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-24T21:19:57.633511",
+  "url": "https://github.com/openjdk/jdk/pull/21168",
+  "number": 21168,
+  "title": "8340843: [PPC64] Error: ShouldNotReachHere() in TemplateInterpreterGenerator::generate_math_entry after 8338694",
+  "head_sha": "676e2700b9b49b2d7a98fdd0d27ad6793abb5095",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11021684261"
+}
