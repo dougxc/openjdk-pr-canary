@@ -1,0 +1,14 @@
+{
+  "artifact_1969741458": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-43390e3cb35f25f94e26f61bcf162930620093cc)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-43390e3cb35f25f94e26f61bcf162930620093cc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-24T05:32:54.261750",
+  "url": "https://github.com/openjdk/jdk/pull/21149",
+  "number": 21149,
+  "title": "8340717: Remove unused function declarations from java.c/java.h of the launcher",
+  "head_sha": "43390e3cb35f25f94e26f61bcf162930620093cc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11007523888"
+}
