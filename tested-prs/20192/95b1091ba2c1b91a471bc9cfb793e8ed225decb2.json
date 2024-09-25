@@ -1,0 +1,14 @@
+{
+  "artifact_1975918400": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-95b1091ba2c1b91a471bc9cfb793e8ed225decb2)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-95b1091ba2c1b91a471bc9cfb793e8ed225decb2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-25T09:44:42.887496",
+  "url": "https://github.com/openjdk/jdk/pull/20192",
+  "number": 20192,
+  "title": "8336468: Reflection and MethodHandles should use more precise initializer checks",
+  "head_sha": "95b1091ba2c1b91a471bc9cfb793e8ed225decb2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11029637482"
+}
