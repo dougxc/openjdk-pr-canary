@@ -1,0 +1,29 @@
+{
+  "artifact_1976320578": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-cl4es-d8c06f07b2285eded8efd0cdc8dc31d3943a0f61)\nOpenJDK 64-Bit Server VM (build 24-internal-cl4es-d8c06f07b2285eded8efd0cdc8dc31d3943a0f61, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1976024938": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-cl4es-9edd65e2523a6de2d5d16a3c45e1d933363abc06)\nOpenJDK 64-Bit Server VM (build 24-internal-cl4es-9edd65e2523a6de2d5d16a3c45e1d933363abc06, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-25T09:56:43.512479",
+      "url": "https://github.com/openjdk/jdk/pull/21176",
+      "number": 21176,
+      "title": "8340885: Desugar ZipCoder.Comparison",
+      "head_sha": "9edd65e2523a6de2d5d16a3c45e1d933363abc06",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11030175484"
+    }
+  ],
+  "datetime": "2024-09-25T10:59:37.033752",
+  "url": "https://github.com/openjdk/jdk/pull/21176",
+  "number": 21176,
+  "title": "8340885: Desugar ZipCoder.Comparison",
+  "head_sha": "d8c06f07b2285eded8efd0cdc8dc31d3943a0f61",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11031479324"
+}
