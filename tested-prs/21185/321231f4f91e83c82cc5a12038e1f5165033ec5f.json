@@ -1,0 +1,14 @@
+{
+  "artifact_1977666790": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jdksjolen-321231f4f91e83c82cc5a12038e1f5165033ec5f)\nOpenJDK 64-Bit Server VM (build 24-internal-jdksjolen-321231f4f91e83c82cc5a12038e1f5165033ec5f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-25T16:11:19.650704",
+  "url": "https://github.com/openjdk/jdk/pull/21185",
+  "number": 21185,
+  "title": "8340923: The class LogSelection copies uninitialized memory",
+  "head_sha": "321231f4f91e83c82cc5a12038e1f5165033ec5f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11036575289"
+}
