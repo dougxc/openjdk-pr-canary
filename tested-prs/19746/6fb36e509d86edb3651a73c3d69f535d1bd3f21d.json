@@ -1,0 +1,29 @@
+{
+  "artifact_1975081872": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-robcasloz-6fb36e509d86edb3651a73c3d69f535d1bd3f21d)\nOpenJDK 64-Bit Server VM (build 24-internal-robcasloz-6fb36e509d86edb3651a73c3d69f535d1bd3f21d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1965067394": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-robcasloz-47c982baa4091180424f49d43301ff523e80e515)\nOpenJDK 64-Bit Server VM (build 24-internal-robcasloz-47c982baa4091180424f49d43301ff523e80e515, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-23T08:50:35.162879",
+      "url": "https://github.com/openjdk/jdk/pull/19746",
+      "number": 19746,
+      "title": "8334060: Implementation of Late Barrier Expansion for G1",
+      "head_sha": "47c982baa4091180424f49d43301ff523e80e515",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10989867244"
+    }
+  ],
+  "datetime": "2024-09-25T05:37:34.729855",
+  "url": "https://github.com/openjdk/jdk/pull/19746",
+  "number": 19746,
+  "title": "8334060: Implementation of Late Barrier Expansion for G1",
+  "head_sha": "6fb36e509d86edb3651a73c3d69f535d1bd3f21d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11026813486"
+}
