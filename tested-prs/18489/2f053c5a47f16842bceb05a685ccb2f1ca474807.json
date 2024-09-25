@@ -1,0 +1,29 @@
+{
+  "artifact_1977698962": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-2f053c5a47f16842bceb05a685ccb2f1ca474807)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-2f053c5a47f16842bceb05a685ccb2f1ca474807, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1967557461": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-64bf036e67d1d4090f5c6b3fe717afb8a5d1e9b0)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-64bf036e67d1d4090f5c6b3fe717afb8a5d1e9b0, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-23T17:51:59.639409",
+      "url": "https://github.com/openjdk/jdk/pull/18489",
+      "number": 18489,
+      "title": "8328528: C2 should optimize long-typed parallel iv in an int counted loop",
+      "head_sha": "64bf036e67d1d4090f5c6b3fe717afb8a5d1e9b0",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10998799413"
+    }
+  ],
+  "datetime": "2024-09-25T15:59:37.981655",
+  "url": "https://github.com/openjdk/jdk/pull/18489",
+  "number": 18489,
+  "title": "8328528: C2 should optimize long-typed parallel iv in an int counted loop",
+  "head_sha": "2f053c5a47f16842bceb05a685ccb2f1ca474807",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11036163900"
+}
