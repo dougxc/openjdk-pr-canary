@@ -1,0 +1,15 @@
+{
+  "artifact_1978311334": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-iklam-f10809af56a8e68a3087db4e9d0afd5601c7da85)\nOpenJDK 64-Bit Server VM (build 24-internal-iklam-f10809af56a8e68a3087db4e9d0afd5601c7da85, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-09-25T17:53:29.132113",
+  "url": "https://github.com/openjdk/jdk/pull/21143",
+  "number": 21143,
+  "title": "8293336: AOT-linking of invokedynamic for lambda expression and string concat",
+  "head_sha": "f10809af56a8e68a3087db4e9d0afd5601c7da85",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11038202058"
+}
