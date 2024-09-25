@@ -1,0 +1,29 @@
+{
+  "artifact_1976393809": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dougxc-e26e68d9a70ee27b4e71da86ecb42dca11e9a24f)\nOpenJDK 64-Bit Server VM (build 24-internal-dougxc-e26e68d9a70ee27b4e71da86ecb42dca11e9a24f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1971368111": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dougxc-fcc3ece03ec9db7d54157c4e0a2d4fab6ffe9503)\nOpenJDK 64-Bit Server VM (build 24-internal-dougxc-fcc3ece03ec9db7d54157c4e0a2d4fab6ffe9503, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-24T13:19:36.552287",
+      "url": "https://github.com/openjdk/jdk/pull/21120",
+      "number": 21120,
+      "title": "8340576: Some JVMCI flags are inconsistent",
+      "head_sha": "fcc3ece03ec9db7d54157c4e0a2d4fab6ffe9503",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11014036189"
+    }
+  ],
+  "datetime": "2024-09-25T11:21:33.374431",
+  "url": "https://github.com/openjdk/jdk/pull/21120",
+  "number": 21120,
+  "title": "8340576: Some JVMCI flags are inconsistent",
+  "head_sha": "e26e68d9a70ee27b4e71da86ecb42dca11e9a24f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11031479324"
+}
