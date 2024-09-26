@@ -369,38 +369,64 @@ def post_failure_to_slack(test_record):
     pr_commit = test_record['head_sha']
     pr_url = test_record["url"]
     run_url = test_record["run_url"]
+
+    history = test_record["history"]
+    failures = [e for e in history if e["status"] == "failed"]
+    if failures:
+        previous_failures = [
+            {
+                "type": "text",
+                "text": f" ({len(failures)} previous failures"
+            },
+            {
+                "type": "emoji",
+                "name": "point_up"
+            },
+            {
+                "type": "text",
+                "text": ")"
+            }
+        ]
+    else:
+        previous_failures = []
+
     message = json.dumps({
-	    "blocks": [
+        "blocks": [
             {
                 "type": "divider"
             },
-		    {
-			    "type": "rich_text",
-			    "elements": [
-				    {
-					    "type": "rich_text_section",
-					    "elements": [
-						    {
-							    "type": "text",
-							    "text": f"Testing commit "
-						    },
-						    {
-							    "type": "link",
-                                "text": f"{pr_commit[:14]}",
-							    "url": f"{pr_url}/commits/{pr_commit}"
-						    },
-						    {
-							    "type": "text",
-							    "text": f" in "
-						    },
-						    {
-							    "type": "link",
-                                "text": f"#{pr_num}",
-							    "url": pr_url
-						    },
+            {
+                "type": "rich_text",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
                             {
                                 "type": "text",
-                                "text": " against libgraal failed. See "
+                                "text": f"Testing commit "
+                            },
+                            {
+                                "type": "link",
+                                "text": f"{pr_commit[:14]}",
+                                "url": f"{pr_url}/commits/{pr_commit}"
+                            },
+                            {
+                                "type": "text",
+                                "text": f" in "
+                            },
+                            {
+                                "type": "link",
+                                "text": f"#{pr_num}",
+                                "url": pr_url
+                            },
+                            {
+                                "type": "text",
+                                "text": " against libgraal failed"
+                            }
+                        ] + previous_failures + [
+                            {
+                                "type": "text",
+                                "text": ". See "
                             },
                             {
                                 "type": "link",
