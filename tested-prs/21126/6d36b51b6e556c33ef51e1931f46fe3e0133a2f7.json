@@ -1,0 +1,116 @@
+{
+  "artifact_1980899423": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TejeshR13-6d36b51b6e556c33ef51e1931f46fe3e0133a2f7)\nOpenJDK 64-Bit Server VM (build 24-internal-TejeshR13-6d36b51b6e556c33ef51e1931f46fe3e0133a2f7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1964845114": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TejeshR13-0f491e0c7951e3ca1a39e01ca305c844ba9175e7)\nOpenJDK 64-Bit Server VM (build 24-internal-TejeshR13-0f491e0c7951e3ca1a39e01ca305c844ba9175e7, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-23T07:33:39.356975",
+      "url": "https://github.com/openjdk/jdk/pull/21126",
+      "number": 21126,
+      "title": "8339982: Open source several AWT Mouse tests - Batch 2",
+      "head_sha": "0f491e0c7951e3ca1a39e01ca305c844ba9175e7",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10989482895"
+    },
+    {
+      "artifact_1970027963": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TejeshR13-1c8c5efbf703cbeebeb91b274ae7ec37aed1a1e7)\nOpenJDK 64-Bit Server VM (build 24-internal-TejeshR13-1c8c5efbf703cbeebeb91b274ae7ec37aed1a1e7, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1964845114": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TejeshR13-0f491e0c7951e3ca1a39e01ca305c844ba9175e7)\nOpenJDK 64-Bit Server VM (build 24-internal-TejeshR13-0f491e0c7951e3ca1a39e01ca305c844ba9175e7, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-23T07:33:39.356975",
+          "url": "https://github.com/openjdk/jdk/pull/21126",
+          "number": 21126,
+          "title": "8339982: Open source several AWT Mouse tests - Batch 2",
+          "head_sha": "0f491e0c7951e3ca1a39e01ca305c844ba9175e7",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10989482895"
+        },
+        {
+          "artifact_1969751808": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TejeshR13-6c274e31df8651b13e2671e5c94cb3ebfc51949a)\nOpenJDK 64-Bit Server VM (build 24-internal-TejeshR13-6c274e31df8651b13e2671e5c94cb3ebfc51949a, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [
+            {
+              "artifact_1964845114": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TejeshR13-0f491e0c7951e3ca1a39e01ca305c844ba9175e7)\nOpenJDK 64-Bit Server VM (build 24-internal-TejeshR13-0f491e0c7951e3ca1a39e01ca305c844ba9175e7, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [],
+              "datetime": "2024-09-23T07:33:39.356975",
+              "url": "https://github.com/openjdk/jdk/pull/21126",
+              "number": 21126,
+              "title": "8339982: Open source several AWT Mouse tests - Batch 2",
+              "head_sha": "0f491e0c7951e3ca1a39e01ca305c844ba9175e7",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10989482895"
+            }
+          ],
+          "datetime": "2024-09-24T05:43:39.718583",
+          "url": "https://github.com/openjdk/jdk/pull/21126",
+          "number": 21126,
+          "title": "8339982: Open source several AWT Mouse tests - Batch 2",
+          "head_sha": "6c274e31df8651b13e2671e5c94cb3ebfc51949a",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11007523888"
+        }
+      ],
+      "datetime": "2024-09-24T07:25:47.286454",
+      "url": "https://github.com/openjdk/jdk/pull/21126",
+      "number": 21126,
+      "title": "8339982: Open source several AWT Mouse tests - Batch 2",
+      "head_sha": "1c8c5efbf703cbeebeb91b274ae7ec37aed1a1e7",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11008536569"
+    },
+    {
+      "artifact_1969751808": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TejeshR13-6c274e31df8651b13e2671e5c94cb3ebfc51949a)\nOpenJDK 64-Bit Server VM (build 24-internal-TejeshR13-6c274e31df8651b13e2671e5c94cb3ebfc51949a, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1964845114": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TejeshR13-0f491e0c7951e3ca1a39e01ca305c844ba9175e7)\nOpenJDK 64-Bit Server VM (build 24-internal-TejeshR13-0f491e0c7951e3ca1a39e01ca305c844ba9175e7, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-23T07:33:39.356975",
+          "url": "https://github.com/openjdk/jdk/pull/21126",
+          "number": 21126,
+          "title": "8339982: Open source several AWT Mouse tests - Batch 2",
+          "head_sha": "0f491e0c7951e3ca1a39e01ca305c844ba9175e7",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10989482895"
+        }
+      ],
+      "datetime": "2024-09-24T05:43:39.718583",
+      "url": "https://github.com/openjdk/jdk/pull/21126",
+      "number": 21126,
+      "title": "8339982: Open source several AWT Mouse tests - Batch 2",
+      "head_sha": "6c274e31df8651b13e2671e5c94cb3ebfc51949a",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11007523888"
+    }
+  ],
+  "datetime": "2024-09-26T08:10:27.220411",
+  "url": "https://github.com/openjdk/jdk/pull/21126",
+  "number": 21126,
+  "title": "8339982: Open source several AWT Mouse tests - Batch 2",
+  "head_sha": "6d36b51b6e556c33ef51e1931f46fe3e0133a2f7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11047874044"
+}
