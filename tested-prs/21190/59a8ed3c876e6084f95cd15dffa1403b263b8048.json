@@ -1,0 +1,29 @@
+{
+  "artifact_1983926365": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-toddjonker-59a8ed3c876e6084f95cd15dffa1403b263b8048)\nOpenJDK 64-Bit Server VM (build 24-internal-toddjonker-59a8ed3c876e6084f95cd15dffa1403b263b8048, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1978944241": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-toddjonker-386150d439e0109c5291a6d31fe7bec5cc1585ed)\nOpenJDK 64-Bit Server VM (build 24-internal-toddjonker-386150d439e0109c5291a6d31fe7bec5cc1585ed, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-25T22:00:39.192484",
+      "url": "https://github.com/openjdk/jdk/pull/21190",
+      "number": 21190,
+      "title": "8340974: Ambiguous name of jtreg property vm.libgraal.enabled",
+      "head_sha": "386150d439e0109c5291a6d31fe7bec5cc1585ed",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11041635327"
+    }
+  ],
+  "datetime": "2024-09-26T18:39:42.085760",
+  "url": "https://github.com/openjdk/jdk/pull/21190",
+  "number": 21190,
+  "title": "8340974: Ambiguous name of jtreg property vm.libgraal.enabled",
+  "head_sha": "59a8ed3c876e6084f95cd15dffa1403b263b8048",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11058112669"
+}
