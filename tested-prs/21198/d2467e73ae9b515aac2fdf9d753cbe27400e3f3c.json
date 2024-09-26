@@ -1,0 +1,29 @@
+{
+  "artifact_1981719632": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-d2467e73ae9b515aac2fdf9d753cbe27400e3f3c)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-d2467e73ae9b515aac2fdf9d753cbe27400e3f3c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1980752352": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-162932fae5f0170adc42d940ab79cb4ef12e06cf)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-162932fae5f0170adc42d940ab79cb4ef12e06cf, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-26T09:02:26.165142",
+      "url": "https://github.com/openjdk/jdk/pull/21198",
+      "number": 21198,
+      "title": "8339220: [s390x] TestIfMinMax.java failure",
+      "head_sha": "162932fae5f0170adc42d940ab79cb4ef12e06cf",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11048852880"
+    }
+  ],
+  "datetime": "2024-09-26T10:57:01.505182",
+  "url": "https://github.com/openjdk/jdk/pull/21198",
+  "number": 21198,
+  "title": "8339220: [s390x] TestIfMinMax.java failure",
+  "head_sha": "d2467e73ae9b515aac2fdf9d753cbe27400e3f3c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11050339173"
+}
