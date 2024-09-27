@@ -1,0 +1,14 @@
+{
+  "artifact_1986534227": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kstefanj-1fe872d44516ba8f40923fc6af7b1a7581c3d04e)\nOpenJDK 64-Bit Server VM (build 24-internal-kstefanj-1fe872d44516ba8f40923fc6af7b1a7581c3d04e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-27T09:35:34.976144",
+  "url": "https://github.com/openjdk/jdk/pull/21191",
+  "number": 21191,
+  "title": "8340426: ZGC: Move defragment out of the allocation path",
+  "head_sha": "1fe872d44516ba8f40923fc6af7b1a7581c3d04e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11068057150"
+}
