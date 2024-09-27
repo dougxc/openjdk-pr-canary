@@ -1,0 +1,14 @@
+{
+  "artifact_1988717979": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bulasevich-b67491f315e0964aa21424f3a9ece1d995ee471e)\nOpenJDK 64-Bit Server VM (build 24-internal-bulasevich-b67491f315e0964aa21424f3a9ece1d995ee471e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-27T18:40:58.999700",
+  "url": "https://github.com/openjdk/jdk/pull/21228",
+  "number": 21228,
+  "title": "8341101: [ARM32] Error: ShouldNotReachHere() in TemplateInterpreterGenerator::generate_math_entry after 8338694",
+  "head_sha": "b67491f315e0964aa21424f3a9ece1d995ee471e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11075853369"
+}
