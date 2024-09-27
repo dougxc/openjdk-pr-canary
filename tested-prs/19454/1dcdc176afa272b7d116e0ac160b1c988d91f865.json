@@ -1,0 +1,29 @@
+{
+  "artifact_1986337295": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-fbredber-1dcdc176afa272b7d116e0ac160b1c988d91f865)\nOpenJDK 64-Bit Server VM (build 24-internal-fbredber-1dcdc176afa272b7d116e0ac160b1c988d91f865, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1977364799": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-fbredber-8140570fe12c875df6c8e0c2f7a6e98b7215a45a)\nOpenJDK 64-Bit Server VM (build 24-internal-fbredber-8140570fe12c875df6c8e0c2f7a6e98b7215a45a, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-25T14:56:49.970402",
+      "url": "https://github.com/openjdk/jdk/pull/19454",
+      "number": 19454,
+      "title": "8320318: ObjectMonitor Responsible thread",
+      "head_sha": "8140570fe12c875df6c8e0c2f7a6e98b7215a45a",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11035028092"
+    }
+  ],
+  "datetime": "2024-09-27T08:42:36.456998",
+  "url": "https://github.com/openjdk/jdk/pull/19454",
+  "number": 19454,
+  "title": "8320318: ObjectMonitor Responsible thread",
+  "head_sha": "1dcdc176afa272b7d116e0ac160b1c988d91f865",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11067228376"
+}
