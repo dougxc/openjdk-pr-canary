@@ -449,7 +449,10 @@ def post_failure_to_slack(test_record):
     
     message_path = Path("message.json")
     message_path.write_text(message)
-    cmd = ["curl", "--fail", "--silent", "-X", "POST", "-H", "Content-type: application/json", "--data-binary", f"@{message_path}", os.environ.get('SLACK_WEBHOOK_URL')]
+    cmd = ["curl", "--fail", "--silent", "-X", "POST",
+               "-H", "Content-type: application/json",
+               "--data-binary", f"@{message_path}",
+               os.environ.get('SLACK_WEBHOOK_URL')]
     subprocess.run(cmd, check=True)
 
 if __name__ == "__main__":
