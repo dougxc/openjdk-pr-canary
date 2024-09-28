@@ -1,0 +1,14 @@
+{
+  "artifact_1990169344": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-lmesnik-60a7d8f4a8205f16fea348cad6429dedf949ad45)\nOpenJDK 64-Bit Server VM (build 24-internal-lmesnik-60a7d8f4a8205f16fea348cad6429dedf949ad45, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-28T04:36:40.172991",
+  "url": "https://github.com/openjdk/jdk/pull/21239",
+  "number": 21239,
+  "title": "8341131: Some jdk/jfr/event/compiler tests shouldn't be executed with Xcomp",
+  "head_sha": "60a7d8f4a8205f16fea348cad6429dedf949ad45",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11081054203"
+}
