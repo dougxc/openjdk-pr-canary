@@ -1,0 +1,14 @@
+{
+  "artifact_1992264168": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-feilongjiang-42c458c32c1d45372cf26e116e2446a7e6fac599)\nOpenJDK 64-Bit Server VM (build 24-internal-feilongjiang-42c458c32c1d45372cf26e116e2446a7e6fac599, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-29T11:41:27.852242",
+  "url": "https://github.com/openjdk/jdk/pull/21248",
+  "number": 21248,
+  "title": "8341146: RISC-V: Unnecessary fences used for load-acquire in template interpreter",
+  "head_sha": "42c458c32c1d45372cf26e116e2446a7e6fac599",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11092280377"
+}
