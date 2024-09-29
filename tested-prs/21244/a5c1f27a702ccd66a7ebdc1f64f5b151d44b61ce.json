@@ -1,0 +1,14 @@
+{
+  "artifact_1991742637": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jatin-bhateja-a5c1f27a702ccd66a7ebdc1f64f5b151d44b61ce)\nOpenJDK 64-Bit Server VM (build 24-internal-jatin-bhateja-a5c1f27a702ccd66a7ebdc1f64f5b151d44b61ce, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-29T04:37:29.030342",
+  "url": "https://github.com/openjdk/jdk/pull/21244",
+  "number": 21244,
+  "title": "8341137: Optimize long vector multiplication using x86 VPMULUDQ instruction",
+  "head_sha": "a5c1f27a702ccd66a7ebdc1f64f5b151d44b61ce",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11089662527"
+}
