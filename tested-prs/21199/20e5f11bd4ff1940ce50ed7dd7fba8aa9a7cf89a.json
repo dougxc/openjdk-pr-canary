@@ -1,0 +1,14 @@
+{
+  "artifact_1993990914": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kumarabhi006-20e5f11bd4ff1940ce50ed7dd7fba8aa9a7cf89a)\nOpenJDK 64-Bit Server VM (build 24-internal-kumarabhi006-20e5f11bd4ff1940ce50ed7dd7fba8aa9a7cf89a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-30T07:03:33.677506",
+  "url": "https://github.com/openjdk/jdk/pull/21199",
+  "number": 21199,
+  "title": "8340437: Open source few more AWT Frame related tests ",
+  "head_sha": "20e5f11bd4ff1940ce50ed7dd7fba8aa9a7cf89a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11100906843"
+}
