@@ -1,0 +1,14 @@
+{
+  "artifact_1995307350": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-nizarbenalla-438cde7c77760077a8750db4a64e64397170ac62)\nOpenJDK 64-Bit Server VM (build 24-internal-nizarbenalla-438cde7c77760077a8750db4a64e64397170ac62, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-30T13:00:36.396576",
+  "url": "https://github.com/openjdk/jdk/pull/21263",
+  "number": 21263,
+  "title": "8341201: Broken link in AbstractAnnotationValueVisitor7 due to extra quotation mark",
+  "head_sha": "438cde7c77760077a8750db4a64e64397170ac62",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11106392357"
+}
