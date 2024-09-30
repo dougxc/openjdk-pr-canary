@@ -1,0 +1,29 @@
+{
+  "artifact_1998114129": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-azuev-java-86b367004416871c1d203f02ff9fe184df3622aa)\nOpenJDK 64-Bit Server VM (build 24-internal-azuev-java-86b367004416871c1d203f02ff9fe184df3622aa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1989420908": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-azuev-java-e236df12db37b8e5842cab82ea9f2444ac41cdcb)\nOpenJDK 64-Bit Server VM (build 24-internal-azuev-java-e236df12db37b8e5842cab82ea9f2444ac41cdcb, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-27T21:46:08.097032",
+      "url": "https://github.com/openjdk/jdk/pull/21235",
+      "number": 21235,
+      "title": "8340458: Open source additional Component tests (part 2)",
+      "head_sha": "e236df12db37b8e5842cab82ea9f2444ac41cdcb",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11078001252"
+    }
+  ],
+  "datetime": "2024-09-30T23:33:36.219132",
+  "url": "https://github.com/openjdk/jdk/pull/21235",
+  "number": 21235,
+  "title": "8340458: Open source additional Component tests (part 2)",
+  "head_sha": "86b367004416871c1d203f02ff9fe184df3622aa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11115662880"
+}
