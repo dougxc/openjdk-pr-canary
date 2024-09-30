@@ -1,0 +1,14 @@
+{
+  "artifact_1994359011": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-xmas92-e4ac12ed6272096cd2d8e5d88e9f816b34c74e5d)\nOpenJDK 64-Bit Server VM (build 24-internal-xmas92-e4ac12ed6272096cd2d8e5d88e9f816b34c74e5d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-30T08:41:39.105201",
+  "url": "https://github.com/openjdk/jdk/pull/21254",
+  "number": 21254,
+  "title": "8340420: ZGC: Should call `vm_shutdown_during_initialization` if initialization fails",
+  "head_sha": "e4ac12ed6272096cd2d8e5d88e9f816b34c74e5d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11102356468"
+}
