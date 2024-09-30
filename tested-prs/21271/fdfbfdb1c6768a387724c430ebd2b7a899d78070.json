@@ -1,0 +1,14 @@
+{
+  "artifact_1996806967": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-honkar-jdk-fdfbfdb1c6768a387724c430ebd2b7a899d78070)\nOpenJDK 64-Bit Server VM (build 24-internal-honkar-jdk-fdfbfdb1c6768a387724c430ebd2b7a899d78070, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-09-30T17:47:34.343806",
+  "url": "https://github.com/openjdk/jdk/pull/21271",
+  "number": 21271,
+  "title": "JDK-8340332 : Open source mixed AWT tests - Set3 ",
+  "head_sha": "fdfbfdb1c6768a387724c430ebd2b7a899d78070",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11111257422"
+}
