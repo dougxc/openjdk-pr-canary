@@ -1,0 +1,29 @@
+{
+  "artifact_2001743511": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sendaoYan-015d17cbba8d0f53fad4eb12bde2409adbff5ae6)\nOpenJDK 64-Bit Server VM (build 24-internal-sendaoYan-015d17cbba8d0f53fad4eb12bde2409adbff5ae6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_1996633376": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sendaoYan-f241371e90dd855d2c3d1bdd3695c326996ac50d)\nOpenJDK 64-Bit Server VM (build 24-internal-sendaoYan-f241371e90dd855d2c3d1bdd3695c326996ac50d, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-30T17:04:49.831924",
+      "url": "https://github.com/openjdk/jdk/pull/21269",
+      "number": 21269,
+      "title": "8341246: Test com/sun/tools/attach/PermissionTest.java fails access denied",
+      "head_sha": "f241371e90dd855d2c3d1bdd3695c326996ac50d",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11110618826"
+    }
+  ],
+  "datetime": "2024-10-01T17:03:15.954188",
+  "url": "https://github.com/openjdk/jdk/pull/21269",
+  "number": 21269,
+  "title": "8341246: Test com/sun/tools/attach/PermissionTest.java fails access denied after JDK-8327114",
+  "head_sha": "015d17cbba8d0f53fad4eb12bde2409adbff5ae6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11129539034"
+}
