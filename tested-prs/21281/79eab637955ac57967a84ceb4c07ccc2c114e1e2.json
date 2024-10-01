@@ -1,0 +1,14 @@
+{
+  "artifact_2000139952": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jayathirthrao-79eab637955ac57967a84ceb4c07ccc2c114e1e2)\nOpenJDK 64-Bit Server VM (build 24-internal-jayathirthrao-79eab637955ac57967a84ceb4c07ccc2c114e1e2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-01T11:00:20.765526",
+  "url": "https://github.com/openjdk/jdk/pull/21281",
+  "number": 21281,
+  "title": "8341000: Open source some of the AWT Window tests",
+  "head_sha": "79eab637955ac57967a84ceb4c07ccc2c114e1e2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11123784529"
+}
