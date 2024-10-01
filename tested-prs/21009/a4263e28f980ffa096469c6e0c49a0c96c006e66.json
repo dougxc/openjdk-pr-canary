@@ -1,0 +1,14 @@
+{
+  "artifact_2000990693": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-rwestrel-a4263e28f980ffa096469c6e0c49a0c96c006e66)\nOpenJDK 64-Bit Server VM (build 24-internal-rwestrel-a4263e28f980ffa096469c6e0c49a0c96c006e66, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-01T14:14:18.022114",
+  "url": "https://github.com/openjdk/jdk/pull/21009",
+  "number": 21009,
+  "title": "8336702: C2 compilation fails with \"all memory state should have been processed\" assert",
+  "head_sha": "a4263e28f980ffa096469c6e0c49a0c96c006e66",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11126722755"
+}
