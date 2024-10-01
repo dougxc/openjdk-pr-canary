@@ -1,0 +1,14 @@
+{
+  "artifact_1998340928": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-earthling-amzn-8b25abe003a78d620102841256de973d87b5d0cc)\nOpenJDK 64-Bit Server VM (build 24-internal-earthling-amzn-8b25abe003a78d620102841256de973d87b5d0cc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-01T02:05:32.744056",
+  "url": "https://github.com/openjdk/jdk/pull/21273",
+  "number": 21273,
+  "title": "8337511: Implement JEP-404: Generational Shenandoah (Experimental)",
+  "head_sha": "8b25abe003a78d620102841256de973d87b5d0cc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11117196425"
+}
