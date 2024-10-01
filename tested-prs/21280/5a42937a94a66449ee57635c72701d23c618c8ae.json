@@ -1,0 +1,14 @@
+{
+  "artifact_2001438830": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-fguallini-5a42937a94a66449ee57635c72701d23c618c8ae)\nOpenJDK 64-Bit Server VM (build 24-internal-fguallini-5a42937a94a66449ee57635c72701d23c618c8ae, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-01T15:35:43.470109",
+  "url": "https://github.com/openjdk/jdk/pull/21280",
+  "number": 21280,
+  "title": "8340116: test/jdk/sun/security/tools/jarsigner/PreserveRawManifestEntryAndDigest.java can fail due to regex",
+  "head_sha": "5a42937a94a66449ee57635c72701d23c618c8ae",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11128469614"
+}
