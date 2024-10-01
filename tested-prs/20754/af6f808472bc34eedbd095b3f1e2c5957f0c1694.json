@@ -1,0 +1,465 @@
+{
+  "artifact_2003269919": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-af6f808472bc34eedbd095b3f1e2c5957f0c1694)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-af6f808472bc34eedbd095b3f1e2c5957f0c1694, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    {
+      "artifact_1994029597": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-0de4feea73a058ab9b334dbca2c2071bc5fcc9ea)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-0de4feea73a058ab9b334dbca2c2071bc5fcc9ea, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1960058113": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [
+            {
+              "artifact_1939810608": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [],
+              "datetime": "2024-09-16T22:20:09.124587",
+              "url": "https://github.com/openjdk/jdk/pull/20754",
+              "number": 20754,
+              "title": "8325495: C2: implement optimization for series of Add of unique value",
+              "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+            }
+          ],
+          "datetime": "2024-09-20T21:02:42.158090",
+          "url": "https://github.com/openjdk/jdk/pull/20754",
+          "number": 20754,
+          "title": "8325495: C2: implement optimization for series of Add of unique value",
+          "head_sha": "30f119c553e08603cc7d509b068062f624d95ceb",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10966074076"
+        },
+        {
+          "artifact_1939810608": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-16T22:20:09.124587",
+          "url": "https://github.com/openjdk/jdk/pull/20754",
+          "number": 20754,
+          "title": "8325495: C2: implement optimization for series of Add of unique value",
+          "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+        },
+        {
+          "artifact_1967622425": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-f9ca1124ac523a2fd30f830409bd8c72268e6ca9)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-f9ca1124ac523a2fd30f830409bd8c72268e6ca9, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [
+            {
+              "artifact_1960058113": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [
+                {
+                  "artifact_1939810608": {
+                    "java_home": "extracted/jdk-24",
+                    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+                  },
+                  "status": "passed",
+                  "history": [],
+                  "datetime": "2024-09-16T22:20:09.124587",
+                  "url": "https://github.com/openjdk/jdk/pull/20754",
+                  "number": 20754,
+                  "title": "8325495: C2: implement optimization for series of Add of unique value",
+                  "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+                  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+                }
+              ],
+              "datetime": "2024-09-20T21:02:42.158090",
+              "url": "https://github.com/openjdk/jdk/pull/20754",
+              "number": 20754,
+              "title": "8325495: C2: implement optimization for series of Add of unique value",
+              "head_sha": "30f119c553e08603cc7d509b068062f624d95ceb",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10966074076"
+            },
+            {
+              "artifact_1939810608": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [],
+              "datetime": "2024-09-16T22:20:09.124587",
+              "url": "https://github.com/openjdk/jdk/pull/20754",
+              "number": 20754,
+              "title": "8325495: C2: implement optimization for series of Add of unique value",
+              "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+            }
+          ],
+          "datetime": "2024-09-23T18:27:40.821732",
+          "url": "https://github.com/openjdk/jdk/pull/20754",
+          "number": 20754,
+          "title": "8325495: C2: implement optimization for series of Add of unique value",
+          "head_sha": "f9ca1124ac523a2fd30f830409bd8c72268e6ca9",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10999643261"
+        }
+      ],
+      "datetime": "2024-09-30T07:26:31.415438",
+      "url": "https://github.com/openjdk/jdk/pull/20754",
+      "number": 20754,
+      "title": "8325495: C2: implement optimization for series of Add of unique value",
+      "head_sha": "0de4feea73a058ab9b334dbca2c2071bc5fcc9ea",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11100906843"
+    },
+    {
+      "artifact_1960058113": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1939810608": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-16T22:20:09.124587",
+          "url": "https://github.com/openjdk/jdk/pull/20754",
+          "number": 20754,
+          "title": "8325495: C2: implement optimization for series of Add of unique value",
+          "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+        }
+      ],
+      "datetime": "2024-09-20T21:02:42.158090",
+      "url": "https://github.com/openjdk/jdk/pull/20754",
+      "number": 20754,
+      "title": "8325495: C2: implement optimization for series of Add of unique value",
+      "head_sha": "30f119c553e08603cc7d509b068062f624d95ceb",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10966074076"
+    },
+    {
+      "artifact_1998641580": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-6e65e13f27e1eaa96d6a4eb0169048ec3d13a273)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-6e65e13f27e1eaa96d6a4eb0169048ec3d13a273, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1994029597": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-0de4feea73a058ab9b334dbca2c2071bc5fcc9ea)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-0de4feea73a058ab9b334dbca2c2071bc5fcc9ea, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [
+            {
+              "artifact_1960058113": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [
+                {
+                  "artifact_1939810608": {
+                    "java_home": "extracted/jdk-24",
+                    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+                  },
+                  "status": "passed",
+                  "history": [],
+                  "datetime": "2024-09-16T22:20:09.124587",
+                  "url": "https://github.com/openjdk/jdk/pull/20754",
+                  "number": 20754,
+                  "title": "8325495: C2: implement optimization for series of Add of unique value",
+                  "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+                  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+                }
+              ],
+              "datetime": "2024-09-20T21:02:42.158090",
+              "url": "https://github.com/openjdk/jdk/pull/20754",
+              "number": 20754,
+              "title": "8325495: C2: implement optimization for series of Add of unique value",
+              "head_sha": "30f119c553e08603cc7d509b068062f624d95ceb",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10966074076"
+            },
+            {
+              "artifact_1939810608": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [],
+              "datetime": "2024-09-16T22:20:09.124587",
+              "url": "https://github.com/openjdk/jdk/pull/20754",
+              "number": 20754,
+              "title": "8325495: C2: implement optimization for series of Add of unique value",
+              "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+            },
+            {
+              "artifact_1967622425": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-f9ca1124ac523a2fd30f830409bd8c72268e6ca9)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-f9ca1124ac523a2fd30f830409bd8c72268e6ca9, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [
+                {
+                  "artifact_1960058113": {
+                    "java_home": "extracted/jdk-24",
+                    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb, mixed mode, sharing)"
+                  },
+                  "status": "passed",
+                  "history": [
+                    {
+                      "artifact_1939810608": {
+                        "java_home": "extracted/jdk-24",
+                        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+                      },
+                      "status": "passed",
+                      "history": [],
+                      "datetime": "2024-09-16T22:20:09.124587",
+                      "url": "https://github.com/openjdk/jdk/pull/20754",
+                      "number": 20754,
+                      "title": "8325495: C2: implement optimization for series of Add of unique value",
+                      "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+                      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+                    }
+                  ],
+                  "datetime": "2024-09-20T21:02:42.158090",
+                  "url": "https://github.com/openjdk/jdk/pull/20754",
+                  "number": 20754,
+                  "title": "8325495: C2: implement optimization for series of Add of unique value",
+                  "head_sha": "30f119c553e08603cc7d509b068062f624d95ceb",
+                  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10966074076"
+                },
+                {
+                  "artifact_1939810608": {
+                    "java_home": "extracted/jdk-24",
+                    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+                  },
+                  "status": "passed",
+                  "history": [],
+                  "datetime": "2024-09-16T22:20:09.124587",
+                  "url": "https://github.com/openjdk/jdk/pull/20754",
+                  "number": 20754,
+                  "title": "8325495: C2: implement optimization for series of Add of unique value",
+                  "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+                  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+                }
+              ],
+              "datetime": "2024-09-23T18:27:40.821732",
+              "url": "https://github.com/openjdk/jdk/pull/20754",
+              "number": 20754,
+              "title": "8325495: C2: implement optimization for series of Add of unique value",
+              "head_sha": "f9ca1124ac523a2fd30f830409bd8c72268e6ca9",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10999643261"
+            }
+          ],
+          "datetime": "2024-09-30T07:26:31.415438",
+          "url": "https://github.com/openjdk/jdk/pull/20754",
+          "number": 20754,
+          "title": "8325495: C2: implement optimization for series of Add of unique value",
+          "head_sha": "0de4feea73a058ab9b334dbca2c2071bc5fcc9ea",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11100906843"
+        },
+        {
+          "artifact_1960058113": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [
+            {
+              "artifact_1939810608": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [],
+              "datetime": "2024-09-16T22:20:09.124587",
+              "url": "https://github.com/openjdk/jdk/pull/20754",
+              "number": 20754,
+              "title": "8325495: C2: implement optimization for series of Add of unique value",
+              "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+            }
+          ],
+          "datetime": "2024-09-20T21:02:42.158090",
+          "url": "https://github.com/openjdk/jdk/pull/20754",
+          "number": 20754,
+          "title": "8325495: C2: implement optimization for series of Add of unique value",
+          "head_sha": "30f119c553e08603cc7d509b068062f624d95ceb",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10966074076"
+        },
+        {
+          "artifact_1939810608": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-16T22:20:09.124587",
+          "url": "https://github.com/openjdk/jdk/pull/20754",
+          "number": 20754,
+          "title": "8325495: C2: implement optimization for series of Add of unique value",
+          "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+        },
+        {
+          "artifact_1967622425": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-f9ca1124ac523a2fd30f830409bd8c72268e6ca9)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-f9ca1124ac523a2fd30f830409bd8c72268e6ca9, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [
+            {
+              "artifact_1960058113": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [
+                {
+                  "artifact_1939810608": {
+                    "java_home": "extracted/jdk-24",
+                    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+                  },
+                  "status": "passed",
+                  "history": [],
+                  "datetime": "2024-09-16T22:20:09.124587",
+                  "url": "https://github.com/openjdk/jdk/pull/20754",
+                  "number": 20754,
+                  "title": "8325495: C2: implement optimization for series of Add of unique value",
+                  "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+                  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+                }
+              ],
+              "datetime": "2024-09-20T21:02:42.158090",
+              "url": "https://github.com/openjdk/jdk/pull/20754",
+              "number": 20754,
+              "title": "8325495: C2: implement optimization for series of Add of unique value",
+              "head_sha": "30f119c553e08603cc7d509b068062f624d95ceb",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10966074076"
+            },
+            {
+              "artifact_1939810608": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [],
+              "datetime": "2024-09-16T22:20:09.124587",
+              "url": "https://github.com/openjdk/jdk/pull/20754",
+              "number": 20754,
+              "title": "8325495: C2: implement optimization for series of Add of unique value",
+              "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+            }
+          ],
+          "datetime": "2024-09-23T18:27:40.821732",
+          "url": "https://github.com/openjdk/jdk/pull/20754",
+          "number": 20754,
+          "title": "8325495: C2: implement optimization for series of Add of unique value",
+          "head_sha": "f9ca1124ac523a2fd30f830409bd8c72268e6ca9",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10999643261"
+        }
+      ],
+      "datetime": "2024-10-01T03:26:34.995452",
+      "url": "https://github.com/openjdk/jdk/pull/20754",
+      "number": 20754,
+      "title": "8325495: C2: implement optimization for series of Add of unique value",
+      "head_sha": "6e65e13f27e1eaa96d6a4eb0169048ec3d13a273",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11117827541"
+    },
+    {
+      "artifact_1939810608": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-16T22:20:09.124587",
+      "url": "https://github.com/openjdk/jdk/pull/20754",
+      "number": 20754,
+      "title": "8325495: C2: implement optimization for series of Add of unique value",
+      "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+    },
+    {
+      "artifact_1967622425": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-f9ca1124ac523a2fd30f830409bd8c72268e6ca9)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-f9ca1124ac523a2fd30f830409bd8c72268e6ca9, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1960058113": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-30f119c553e08603cc7d509b068062f624d95ceb, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [
+            {
+              "artifact_1939810608": {
+                "java_home": "extracted/jdk-24",
+                "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+              },
+              "status": "passed",
+              "history": [],
+              "datetime": "2024-09-16T22:20:09.124587",
+              "url": "https://github.com/openjdk/jdk/pull/20754",
+              "number": 20754,
+              "title": "8325495: C2: implement optimization for series of Add of unique value",
+              "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+              "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+            }
+          ],
+          "datetime": "2024-09-20T21:02:42.158090",
+          "url": "https://github.com/openjdk/jdk/pull/20754",
+          "number": 20754,
+          "title": "8325495: C2: implement optimization for series of Add of unique value",
+          "head_sha": "30f119c553e08603cc7d509b068062f624d95ceb",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10966074076"
+        },
+        {
+          "artifact_1939810608": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-c8fdb74cb7c308cbf8e55585eb46c3214168b417, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-16T22:20:09.124587",
+          "url": "https://github.com/openjdk/jdk/pull/20754",
+          "number": 20754,
+          "title": "8325495: C2: implement optimization for series of Add of unique value",
+          "head_sha": "c8fdb74cb7c308cbf8e55585eb46c3214168b417",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10892539246"
+        }
+      ],
+      "datetime": "2024-09-23T18:27:40.821732",
+      "url": "https://github.com/openjdk/jdk/pull/20754",
+      "number": 20754,
+      "title": "8325495: C2: implement optimization for series of Add of unique value",
+      "head_sha": "f9ca1124ac523a2fd30f830409bd8c72268e6ca9",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10999643261"
+    }
+  ],
+  "datetime": "2024-10-01T22:44:29.564839",
+  "url": "https://github.com/openjdk/jdk/pull/20754",
+  "number": 20754,
+  "title": "8325495: C2: implement optimization for series of Add of unique value",
+  "head_sha": "af6f808472bc34eedbd095b3f1e2c5957f0c1694",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11134371515"
+}
