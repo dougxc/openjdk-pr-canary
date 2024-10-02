@@ -1,0 +1,30 @@
+{
+  "artifact_2005040516": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-lahodaj-4ef410fe72a2c06211f9b9a262c5af86280b9896)\nOpenJDK 64-Bit Server VM (build 24-internal-lahodaj-4ef410fe72a2c06211f9b9a262c5af86280b9896, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    {
+      "artifact_1928809618": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-lahodaj-71942f9d11beb5db63e255e436833e37a701f8e1)\nOpenJDK 64-Bit Server VM (build 24-internal-lahodaj-71942f9d11beb5db63e255e436833e37a701f8e1, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-13T10:14:48.803732",
+      "url": "https://github.com/openjdk/jdk/pull/20990",
+      "number": 20990,
+      "title": "8339296: Record deconstruction pattern in switch fails to compile",
+      "head_sha": "71942f9d11beb5db63e255e436833e37a701f8e1",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10846912095"
+    }
+  ],
+  "datetime": "2024-10-02T09:38:12.025645",
+  "url": "https://github.com/openjdk/jdk/pull/20990",
+  "number": 20990,
+  "title": "8339296: Record deconstruction pattern in switch fails to compile",
+  "head_sha": "4ef410fe72a2c06211f9b9a262c5af86280b9896",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11141238308"
+}
