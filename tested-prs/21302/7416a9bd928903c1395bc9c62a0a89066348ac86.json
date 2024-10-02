@@ -1,0 +1,29 @@
+{
+  "artifact_2007482798": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-7416a9bd928903c1395bc9c62a0a89066348ac86)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-7416a9bd928903c1395bc9c62a0a89066348ac86, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_2006454708": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-594bc2e3329801d8f9f5774622b9c65c348ae5a5)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-594bc2e3329801d8f9f5774622b9c65c348ae5a5, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-10-02T15:17:19.377124",
+      "url": "https://github.com/openjdk/jdk/pull/21302",
+      "number": 21302,
+      "title": "8341334: CDS: Parallel pretouch and relocation",
+      "head_sha": "594bc2e3329801d8f9f5774622b9c65c348ae5a5",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11146136213"
+    }
+  ],
+  "datetime": "2024-10-02T19:01:51.050018",
+  "url": "https://github.com/openjdk/jdk/pull/21302",
+  "number": 21302,
+  "title": "8341334: CDS: Parallel pretouch and relocation",
+  "head_sha": "7416a9bd928903c1395bc9c62a0a89066348ac86",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11149798649"
+}
