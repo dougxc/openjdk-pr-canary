@@ -1,0 +1,14 @@
+{
+  "artifact_2006588296": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-db5b13c097c01f9653391a1806151b089596d8f7)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-db5b13c097c01f9653391a1806151b089596d8f7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-02T15:36:26.647998",
+  "url": "https://github.com/openjdk/jdk/pull/21308",
+  "number": 21308,
+  "title": "8341424: GHA: Collect hs_errs from build time failures",
+  "head_sha": "db5b13c097c01f9653391a1806151b089596d8f7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11146731828"
+}
