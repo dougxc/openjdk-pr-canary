@@ -1,0 +1,15 @@
+{
+  "artifact_2005594720": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-rwestrel-09f2e987503608997c51322164a6236b90326a5c)\nOpenJDK 64-Bit Server VM (build 24-internal-rwestrel-09f2e987503608997c51322164a6236b90326a5c, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-10-02T12:58:40.152200",
+  "url": "https://github.com/openjdk/jdk/pull/21303",
+  "number": 21303,
+  "title": "8340214: C2 compilation asserts with \"no node with a side effect\" in PhaseIdealLoop::try_sink_out_of_loop",
+  "head_sha": "09f2e987503608997c51322164a6236b90326a5c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11144010247"
+}
