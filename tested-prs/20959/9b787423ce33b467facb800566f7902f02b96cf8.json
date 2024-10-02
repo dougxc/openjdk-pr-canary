@@ -1,0 +1,59 @@
+{
+  "artifact_2003865945": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-iklam-9b787423ce33b467facb800566f7902f02b96cf8)\nOpenJDK 64-Bit Server VM (build 24-internal-iklam-9b787423ce33b467facb800566f7902f02b96cf8, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    {
+      "artifact_2001791505": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-iklam-180375ac3b6120d8abdd1f75d6cc390ebf17138a)\nOpenJDK 64-Bit Server VM (build 24-internal-iklam-180375ac3b6120d8abdd1f75d6cc390ebf17138a, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1969242238": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-iklam-59dd8879038fed3acf80653d398ac55db5f82c7d)\nOpenJDK 64-Bit Server VM (build 24-internal-iklam-59dd8879038fed3acf80653d398ac55db5f82c7d, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-24T04:31:04.438002",
+          "url": "https://github.com/openjdk/jdk/pull/20959",
+          "number": 20959,
+          "title": "8293337: Store method handle intrinsics in AOT cache",
+          "head_sha": "59dd8879038fed3acf80653d398ac55db5f82c7d",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11006634841"
+        }
+      ],
+      "datetime": "2024-10-01T17:26:42.951202",
+      "url": "https://github.com/openjdk/jdk/pull/20959",
+      "number": 20959,
+      "title": "8293337: Store method handle intrinsics in AOT cache",
+      "head_sha": "180375ac3b6120d8abdd1f75d6cc390ebf17138a",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11129539034"
+    },
+    {
+      "artifact_1969242238": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-iklam-59dd8879038fed3acf80653d398ac55db5f82c7d)\nOpenJDK 64-Bit Server VM (build 24-internal-iklam-59dd8879038fed3acf80653d398ac55db5f82c7d, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-24T04:31:04.438002",
+      "url": "https://github.com/openjdk/jdk/pull/20959",
+      "number": 20959,
+      "title": "8293337: Store method handle intrinsics in AOT cache",
+      "head_sha": "59dd8879038fed3acf80653d398ac55db5f82c7d",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11006634841"
+    }
+  ],
+  "datetime": "2024-10-02T03:04:20.646312",
+  "url": "https://github.com/openjdk/jdk/pull/20959",
+  "number": 20959,
+  "title": "8293337: Store method handle intrinsics in AOT cache",
+  "head_sha": "9b787423ce33b467facb800566f7902f02b96cf8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11136995842"
+}
