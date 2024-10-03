@@ -1,0 +1,30 @@
+{
+  "artifact_2012720221": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jatin-bhateja-1cca8e24977c8dbdb7910eb8be5f40b01def8014)\nOpenJDK 64-Bit Server VM (build 24-internal-jatin-bhateja-1cca8e24977c8dbdb7910eb8be5f40b01def8014, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    {
+      "artifact_2009380018": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jatin-bhateja-6215ab9134b4d075b7a9460609391041e0337632)\nOpenJDK 64-Bit Server VM (build 24-internal-jatin-bhateja-6215ab9134b4d075b7a9460609391041e0337632, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-10-03T06:11:53.316043",
+      "url": "https://github.com/openjdk/jdk/pull/20508",
+      "number": 20508,
+      "title": "8338023: Support two vector selectFrom API",
+      "head_sha": "6215ab9134b4d075b7a9460609391041e0337632",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11156599530"
+    }
+  ],
+  "datetime": "2024-10-03T19:55:11.595664",
+  "url": "https://github.com/openjdk/jdk/pull/20508",
+  "number": 20508,
+  "title": "8338023: Support two vector selectFrom API",
+  "head_sha": "1cca8e24977c8dbdb7910eb8be5f40b01def8014",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11168706856"
+}
