@@ -1,0 +1,59 @@
+{
+  "artifact_2010707806": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-Karm-bba9a3ca04c52eab1351d893347e42ba45eeb7ce)\nOpenJDK 64-Bit Server VM (build 24-internal-Karm-bba9a3ca04c52eab1351d893347e42ba45eeb7ce, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    {
+      "artifact_1991411839": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-Karm-0cd0ab424ce7fca0478d6f57a36449d64378fd27)\nOpenJDK 64-Bit Server VM (build 24-internal-Karm-0cd0ab424ce7fca0478d6f57a36449d64378fd27, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-09-29T00:02:15.035381",
+      "url": "https://github.com/openjdk/jdk/pull/20169",
+      "number": 20169,
+      "title": "8336382: Fixes error reporting in loading AWT and fonts",
+      "head_sha": "0cd0ab424ce7fca0478d6f57a36449d64378fd27",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11087906349"
+    },
+    {
+      "artifact_1993009301": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-Karm-aa47484d842743a0010c552a7c55e5814467c568)\nOpenJDK 64-Bit Server VM (build 24-internal-Karm-aa47484d842743a0010c552a7c55e5814467c568, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_1991411839": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-Karm-0cd0ab424ce7fca0478d6f57a36449d64378fd27)\nOpenJDK 64-Bit Server VM (build 24-internal-Karm-0cd0ab424ce7fca0478d6f57a36449d64378fd27, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-09-29T00:02:15.035381",
+          "url": "https://github.com/openjdk/jdk/pull/20169",
+          "number": 20169,
+          "title": "8336382: Fixes error reporting in loading AWT and fonts",
+          "head_sha": "0cd0ab424ce7fca0478d6f57a36449d64378fd27",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11087906349"
+        }
+      ],
+      "datetime": "2024-09-29T22:02:32.207272",
+      "url": "https://github.com/openjdk/jdk/pull/20169",
+      "number": 20169,
+      "title": "8336382: Fixes error reporting in loading AWT and fonts",
+      "head_sha": "aa47484d842743a0010c552a7c55e5814467c568",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11096176375"
+    }
+  ],
+  "datetime": "2024-10-03T12:55:29.665930",
+  "url": "https://github.com/openjdk/jdk/pull/20169",
+  "number": 20169,
+  "title": "8336382: Fixes error reporting in loading AWT and fonts",
+  "head_sha": "bba9a3ca04c52eab1351d893347e42ba45eeb7ce",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11162202626"
+}
