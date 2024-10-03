@@ -1,0 +1,14 @@
+{
+  "artifact_2011024522": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-hns-902c3120838cb7e1eb3a940ec75d68efaf1a205d)\nOpenJDK 64-Bit Server VM (build 24-internal-hns-902c3120838cb7e1eb3a940ec75d68efaf1a205d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-03T14:35:05.691297",
+  "url": "https://github.com/openjdk/jdk/pull/21326",
+  "number": 21326,
+  "title": "8305406: Add @spec tags in java.base/java.* (part 2)",
+  "head_sha": "902c3120838cb7e1eb3a940ec75d68efaf1a205d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11163819927"
+}
