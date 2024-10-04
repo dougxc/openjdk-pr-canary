@@ -81,11 +81,11 @@ def gh_api(args, stdout=None, raw=False):
         return p.stdout
     return json.loads(p.stdout)
 
-def git(args, capture_output=False):
+def git(args, capture_output=False, repo=None):
     """
     Runs a git command
     """
-    cmd = ["git", "-C", str(_repo_root)] + args
+    cmd = ["git", "-C", str(repo or _repo_root)] + args
     p = subprocess.run(cmd, capture_output=capture_output, text=True)
     if p.returncode != 0:
         quoted_cmd = ' '.join(map(shlex.quote, cmd))
@@ -149,6 +149,7 @@ def main(context):
 
         repo = pr["head"]["repo"]["full_name"]
         head_sha = pr["head"]["sha"]
+        base_sha = pr["base"]["sha"]
 
         # Before starting, fetch commits that may have been pushed between scheduling
         # this job and testing `pr`. This reduces the chance of testing the same pull
@@ -248,13 +249,31 @@ def main(context):
                         finally:
                             info(f"  end: {name}")
 
+                def get_revision_matching_pr_base(builds, repo_name):
+                    # The builds are sorted by build ids, oldest to newest.
+                    # Use the revision from the newest build matching `base_sha`
+                    newest = None
+                    for revisions in builds.values():
+                        if revisions["open"] == base_sha:
+                            newest = revisions
+                    return newest[repo_name] if newest else None
+
                 try:
                     if not Path("graal").exists():
+                        # Load build ids
+                        builds = json.loads(Path(__file__).parent.joinpath("build_ids.json").read_text())
+
                         # Clone graal
                         run_step("clone_graal", ["gh", "repo", "clone", "oracle/graal", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
+                        graal_revision = get_revision_matching_pr_base(builds, "graal")
+                        if graal_revision:
+                            git(["fetch", "--depth", "1", "origin", graal_revision], repo="graal")
 
                         # Clone mx
                         run_step("clone_mx", ["gh", "repo", "clone", "graalvm/mx", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
+                        mx_revision = get_revision_matching_pr_base(builds, "mx")
+                        if mx_revision:
+                            git(["fetch", "--depth", "1", "origin", mx_revision], repo="mx")
                     else:
                         # Clean
                         run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
