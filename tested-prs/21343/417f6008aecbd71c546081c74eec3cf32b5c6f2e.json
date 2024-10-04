@@ -1,0 +1,15 @@
+{
+  "artifact_2016410942": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-zhengyu123-417f6008aecbd71c546081c74eec3cf32b5c6f2e)\nOpenJDK 64-Bit Server VM (build 24-internal-zhengyu123-417f6008aecbd71c546081c74eec3cf32b5c6f2e, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-10-04T15:26:52.724042",
+  "url": "https://github.com/openjdk/jdk/pull/21343",
+  "number": 21343,
+  "title": "8341332: Refactor array chunking statistics counters",
+  "head_sha": "417f6008aecbd71c546081c74eec3cf32b5c6f2e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11182611609"
+}
