@@ -256,7 +256,10 @@ def main(context):
                     for revisions in builds.values():
                         if revisions["open"] == base_sha:
                             newest = revisions
-                    return newest[repo_name] if newest else None
+                    if newest:
+                        return newest[repo_name]
+                    info(f"no {repo_name} revision matching {base_sha}")
+                    return None
 
                 try:
                     if not Path("graal").exists():
