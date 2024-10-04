@@ -1,0 +1,14 @@
+{
+  "artifact_2016267558": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-38bcf6c038f1a71f74c2e1c94152f0ec898d4998)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-38bcf6c038f1a71f74c2e1c94152f0ec898d4998, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-04T14:59:48.788205",
+  "url": "https://github.com/openjdk/jdk/pull/21358",
+  "number": 21358,
+  "title": "StringConcatFactory defines fields more concisely",
+  "head_sha": "38bcf6c038f1a71f74c2e1c94152f0ec898d4998",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11182076772"
+}
