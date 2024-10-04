@@ -1,0 +1,15 @@
+{
+  "artifact_2013155558": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-azuev-java-85fb5bc385a3d11f239f8d3165c33e30697cf504)\nOpenJDK 64-Bit Server VM (build 24-internal-azuev-java-85fb5bc385a3d11f239f8d3165c33e30697cf504, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-10-04T00:03:54.598300",
+  "url": "https://github.com/openjdk/jdk/pull/21334",
+  "number": 21334,
+  "title": "8341170: Open source several Choice related tests (part 2)",
+  "head_sha": "85fb5bc385a3d11f239f8d3165c33e30697cf504",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11171208899"
+}
