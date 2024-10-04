@@ -1,0 +1,14 @@
+{
+  "artifact_2017513448": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-earthling-amzn-0aa035f7e0bc0b5ea6dcb378f9c5736d10c5c129)\nOpenJDK 64-Bit Server VM (build 24-internal-earthling-amzn-0aa035f7e0bc0b5ea6dcb378f9c5736d10c5c129, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-04T20:34:36.196870",
+  "url": "https://github.com/openjdk/jdk/pull/21362",
+  "number": 21362,
+  "title": "8341554: Shenandoah: Missing heap lock when updating usage for soft ref policy",
+  "head_sha": "0aa035f7e0bc0b5ea6dcb378f9c5736d10c5c129",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11186472066"
+}
