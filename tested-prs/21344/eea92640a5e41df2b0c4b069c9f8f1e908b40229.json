@@ -1,0 +1,58 @@
+{
+  "artifact_2016542018": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-eea92640a5e41df2b0c4b069c9f8f1e908b40229)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-eea92640a5e41df2b0c4b069c9f8f1e908b40229, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    {
+      "artifact_2013960509": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-54f47e65b3b3c51a856aedc5b7861349c8a5741d)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-54f47e65b3b3c51a856aedc5b7861349c8a5741d, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [],
+      "datetime": "2024-10-04T03:04:33.037894",
+      "url": "https://github.com/openjdk/jdk/pull/21344",
+      "number": 21344,
+      "title": "Optimize StackMapGenerator::processInvokeInstructions",
+      "head_sha": "54f47e65b3b3c51a856aedc5b7861349c8a5741d",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11173158410"
+    },
+    {
+      "artifact_2014108016": {
+        "java_home": "extracted/jdk-24",
+        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-ebf280ec81e7543f5d2177297d40f7029e2c95b2)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-ebf280ec81e7543f5d2177297d40f7029e2c95b2, mixed mode, sharing)"
+      },
+      "status": "passed",
+      "history": [
+        {
+          "artifact_2013960509": {
+            "java_home": "extracted/jdk-24",
+            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-54f47e65b3b3c51a856aedc5b7861349c8a5741d)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-54f47e65b3b3c51a856aedc5b7861349c8a5741d, mixed mode, sharing)"
+          },
+          "status": "passed",
+          "history": [],
+          "datetime": "2024-10-04T03:04:33.037894",
+          "url": "https://github.com/openjdk/jdk/pull/21344",
+          "number": 21344,
+          "title": "Optimize StackMapGenerator::processInvokeInstructions",
+          "head_sha": "54f47e65b3b3c51a856aedc5b7861349c8a5741d",
+          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11173158410"
+        }
+      ],
+      "datetime": "2024-10-04T04:37:09.581396",
+      "url": "https://github.com/openjdk/jdk/pull/21344",
+      "number": 21344,
+      "title": "8341512: Optimize StackMapGenerator::processInvokeInstructions",
+      "head_sha": "ebf280ec81e7543f5d2177297d40f7029e2c95b2",
+      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11173968441"
+    }
+  ],
+  "datetime": "2024-10-04T16:01:12.419858",
+  "url": "https://github.com/openjdk/jdk/pull/21344",
+  "number": 21344,
+  "title": "8341512: Optimize StackMapGenerator::processInvokeInstructions",
+  "head_sha": "eea92640a5e41df2b0c4b069c9f8f1e908b40229",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11182962680"
+}
