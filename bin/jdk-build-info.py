@@ -17,7 +17,7 @@ def get_builds():
 
 def main():
     parser = argparse.ArgumentParser(description="Show info for JDK build(s) matching a given key.")
-    parser.add_argument("key", nargs="+", help="substring of a build id or git revision used in a build")
+    parser.add_argument("key", nargs="+", help="a build id or git revision used in a build")
     args = parser.parse_args()
 
     matches = []
@@ -26,9 +26,9 @@ def main():
 
         for build in get_builds():
             if key_is_revision:
-                if any((key in value) for value in build["revisions"].values()):
+                if any((key == value) for value in build["revisions"].values()):
                     matches.append(build)
-            elif key in build["id"]:
+            elif key == build["id"] or key in build.get("aliases", []):
                 matches.append(build)
     
     if matches:
