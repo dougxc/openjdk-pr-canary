@@ -258,9 +258,9 @@ def main(context):
                     # Sort builds by build ids, oldest to newest.
                     # Use the revision from the newest build matching `base_sha`
                     newest = None
-                    for _, revisions in sorted(builds.items()):
-                        if revisions["open"] == base_sha:
-                            newest = revisions
+                    for build in sorted(builds, key=lambda b: b["id"]):
+                        if build["revisions"]["open"] == base_sha:
+                            newest = build["revisions"]
                     if newest:
                         info(f"updating {repo} to revision matching PR base")
                         git(["fetch", "--depth", "1", "origin", newest[repo]], repo=repo)
@@ -269,8 +269,8 @@ def main(context):
 
                 try:
                     if not Path("graal").exists():
-                        # Load build ids
-                        builds = json.loads(Path(__file__).parent.joinpath("build_ids.json").read_text())
+                        # Load builds
+                        builds = json.loads(Path(__file__).parent.joinpath("builds.json").read_text())
 
                         # Clone graal
                         run_step("clone_graal", ["gh", "repo", "clone", "oracle/graal", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
