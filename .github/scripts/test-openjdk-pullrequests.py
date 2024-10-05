@@ -265,7 +265,7 @@ def main(context):
                         if build["revisions"]["open"] == base_sha:
                             newest = build["revisions"]
                     if newest:
-                        info(f"updating {repo} to revision matching PR base")
+                        info(f"updating {repo} to revision matching PR base ({base_sha})")
                         git(["fetch", "--depth", "1", "origin", newest[repo]], repo=repo)
                     else:
                         info(f"no {repo} revision matching {base_sha}")
