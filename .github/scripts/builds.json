@@ -7128,5 +7128,15 @@
             ".": "edeb4d002fa69158190932dbf715363d608bacf4",
             "mx": "48d531c855cfc3f18f325fb869fc9b26e6c485a8"
         }
+    },
+    {
+        "id": "jdk-24+19-2135",
+        "revisions": {
+            "graal-enterprise": "4b78f973a06f3af781c5bc54cfb9e8ded523d9f5",
+            "open": "f8db3a831b61bb585c5494a7a8657e37000892b4",
+            "graal": "5e4a216c517e02981f88e4937a05222b70f97c09",
+            ".": "edeb4d002fa69158190932dbf715363d608bacf4",
+            "mx": "48d531c855cfc3f18f325fb869fc9b26e6c485a8"
+        }
     }
 ]
