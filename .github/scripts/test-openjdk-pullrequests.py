@@ -267,6 +267,7 @@ def main(context):
                     if newest:
                         info(f"updating {repo} to revision matching PR base ({base_sha})")
                         git(["fetch", "--depth", "1", "origin", newest[repo]], repo=repo)
+                        git(["checkout", newest[repo]], repo=repo)
                     else:
                         info(f"no {repo} revision matching {base_sha}")
 
