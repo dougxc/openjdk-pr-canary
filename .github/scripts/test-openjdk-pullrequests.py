@@ -249,17 +249,23 @@ def main(context):
                         finally:
                             info(f"  end: {name}")
 
-                def get_revision_matching_pr_base(builds, repo_name):
-                    # The builds are sorted by build ids, oldest to newest.
+                def update_to_match_pr_base(repo, builds):
+                    """
+                    Updates the local clone in `repo` to a revision in a mach5 build where
+                    the open jdk revision in the same build is the one the PR is based on.
+                    """
+
+                    # Sort builds by build ids, oldest to newest.
                     # Use the revision from the newest build matching `base_sha`
                     newest = None
-                    for revisions in builds.values():
+                    for _, revisions in sorted(builds.items()):
                         if revisions["open"] == base_sha:
                             newest = revisions
                     if newest:
-                        return newest[repo_name]
-                    info(f"no {repo_name} revision matching {base_sha}")
-                    return None
+                        info(f"updating {repo} to revision matching PR base")
+                        git(["fetch", "--depth", "1", "origin", newest[repo]], repo=repo)
+                    else:
+                        info(f"no {repo} revision matching {base_sha}")
 
                 try:
                     if not Path("graal").exists():
@@ -268,15 +274,11 @@ def main(context):
 
                         # Clone graal
                         run_step("clone_graal", ["gh", "repo", "clone", "oracle/graal", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
-                        graal_revision = get_revision_matching_pr_base(builds, "graal")
-                        if graal_revision:
-                            git(["fetch", "--depth", "1", "origin", graal_revision], repo="graal")
+                        update_to_match_pr_base("graal", builds)
 
                         # Clone mx
                         run_step("clone_mx", ["gh", "repo", "clone", "graalvm/mx", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
-                        mx_revision = get_revision_matching_pr_base(builds, "mx")
-                        if mx_revision:
-                            git(["fetch", "--depth", "1", "origin", mx_revision], repo="mx")
+                        update_to_match_pr_base("mx", builds)
                     else:
                         # Clean
                         run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
