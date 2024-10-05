@@ -5,76 +5,12 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1892851739": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-1761cf04807279edf805f620a21cecabecf2658f)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-1761cf04807279edf805f620a21cecabecf2658f, mixed mode, sharing)"
-      },
-      "url": "https://github.com/openjdk/jdk/pull/20858",
-      "title": "8338912: CDS: Segmented roots array",
-      "head_sha": "1761cf04807279edf805f620a21cecabecf2658f",
-      "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10708224282"
-    },
-    {
-      "artifact_1902330625": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-7e76c4255260ea60a77fa8a24e0c4287a723b5f8)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-7e76c4255260ea60a77fa8a24e0c4287a723b5f8, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20858",
-      "number": 20858,
-      "title": "8338912: CDS: Segmented roots array",
-      "head_sha": "7e76c4255260ea60a77fa8a24e0c4287a723b5f8",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10742990560"
-    },
-    {
-      "artifact_1908904790": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-814fd3fde7d9aa75a0b43033fa64319f635a7a9b)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-814fd3fde7d9aa75a0b43033fa64319f635a7a9b, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20858",
-      "number": 20858,
-      "title": "8338912: CDS: Segmented roots array",
-      "head_sha": "814fd3fde7d9aa75a0b43033fa64319f635a7a9b",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10773410675"
-    },
-    {
-      "artifact_1913613748": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-bacc5d89e664f51a79e9476a7bf03cd8ced7b8cb)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-bacc5d89e664f51a79e9476a7bf03cd8ced7b8cb, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20858",
-      "number": 20858,
-      "title": "8338912: CDS: Segmented roots array",
-      "head_sha": "bacc5d89e664f51a79e9476a7bf03cd8ced7b8cb",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10790541167"
-    },
-    {
-      "artifact_1901823313": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-d0d5699bdc6bd76b4a9ecd98f360783090ceb85a)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-d0d5699bdc6bd76b4a9ecd98f360783090ceb85a, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20858",
-      "number": 20858,
-      "title": "8338912: CDS: Segmented roots array",
-      "head_sha": "d0d5699bdc6bd76b4a9ecd98f360783090ceb85a",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10741130597"
-    },
-    {
-      "artifact_1913401847": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-ddb8d7db62fe33790f5aac8b34b03f01df0d2a47)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-ddb8d7db62fe33790f5aac8b34b03f01df0d2a47, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20858",
-      "number": 20858,
-      "title": "8338912: CDS: Segmented roots array",
-      "head_sha": "ddb8d7db62fe33790f5aac8b34b03f01df0d2a47",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10790002833"
-    }
+    "1761cf04807279edf805f620a21cecabecf2658f.json",
+    "7e76c4255260ea60a77fa8a24e0c4287a723b5f8.json",
+    "814fd3fde7d9aa75a0b43033fa64319f635a7a9b.json",
+    "bacc5d89e664f51a79e9476a7bf03cd8ced7b8cb.json",
+    "d0d5699bdc6bd76b4a9ecd98f360783090ceb85a.json",
+    "ddb8d7db62fe33790f5aac8b34b03f01df0d2a47.json"
   ],
   "datetime": "2024-09-13T09:59:05.737919",
   "url": "https://github.com/openjdk/jdk/pull/20858",

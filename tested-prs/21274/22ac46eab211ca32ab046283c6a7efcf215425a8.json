@@ -6,52 +6,8 @@
   },
   "status": "failed",
   "history": [
-    {
-      "artifact_1998186798": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-c36d867aac9c12c1e313a506b42fa229aff6554f)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-c36d867aac9c12c1e313a506b42fa229aff6554f, mixed mode, sharing)",
-        "failed_step": "test"
-      },
-      "status": "failed",
-      "history": [],
-      "datetime": "2024-10-01T00:04:55.881724",
-      "url": "https://github.com/openjdk/jdk/pull/21274",
-      "number": 21274,
-      "title": "8341282: (fs) Move creation time fallback logic to Java layer (Linux)",
-      "head_sha": "c36d867aac9c12c1e313a506b42fa229aff6554f",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11115906075"
-    },
-    {
-      "artifact_2002315709": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-e0bd5b07983c98c3fa2cd1dcba87cfec469ea3ac)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-e0bd5b07983c98c3fa2cd1dcba87cfec469ea3ac, mixed mode, sharing)",
-        "failed_step": "test"
-      },
-      "status": "failed",
-      "history": [
-        {
-          "artifact_1998186798": {
-            "java_home": "extracted/jdk-24",
-            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-c36d867aac9c12c1e313a506b42fa229aff6554f)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-c36d867aac9c12c1e313a506b42fa229aff6554f, mixed mode, sharing)",
-            "failed_step": "test"
-          },
-          "status": "failed",
-          "history": [],
-          "datetime": "2024-10-01T00:04:55.881724",
-          "url": "https://github.com/openjdk/jdk/pull/21274",
-          "number": 21274,
-          "title": "8341282: (fs) Move creation time fallback logic to Java layer (Linux)",
-          "head_sha": "c36d867aac9c12c1e313a506b42fa229aff6554f",
-          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11115906075"
-        }
-      ],
-      "datetime": "2024-10-01T18:59:00.312104",
-      "url": "https://github.com/openjdk/jdk/pull/21274",
-      "number": 21274,
-      "title": "8341282: (fs) Move creation time fallback logic to Java layer (Linux)",
-      "head_sha": "e0bd5b07983c98c3fa2cd1dcba87cfec469ea3ac",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11131298941"
-    }
+    "c36d867aac9c12c1e313a506b42fa229aff6554f.json",
+    "e0bd5b07983c98c3fa2cd1dcba87cfec469ea3ac.json"
   ],
   "datetime": "2024-10-01T20:53:35.928419",
   "url": "https://github.com/openjdk/jdk/pull/21274",

@@ -5,20 +5,7 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1974142413": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-liach-bd90f8d9bed57f8767de4e5fbdd433ad4d7b00d1)\nOpenJDK 64-Bit Server VM (build 24-internal-liach-bd90f8d9bed57f8767de4e5fbdd433ad4d7b00d1, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-24T23:06:17.832038",
-      "url": "https://github.com/openjdk/jdk/pull/21170",
-      "number": 21170,
-      "title": "8340831: Simplify simple validation for class definition in MethodHandles.Lookup",
-      "head_sha": "bd90f8d9bed57f8767de4e5fbdd433ad4d7b00d1",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11023082271"
-    }
+    "bd90f8d9bed57f8767de4e5fbdd433ad4d7b00d1.json"
   ],
   "datetime": "2024-09-25T15:35:47.617884",
   "url": "https://github.com/openjdk/jdk/pull/21170",

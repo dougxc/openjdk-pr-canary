@@ -5,20 +5,7 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1947333993": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-mikabl-arm-f5918cca0811ccf6f0424c2498db100b77a954c5)\nOpenJDK 64-Bit Server VM (build 24-internal-mikabl-arm-f5918cca0811ccf6f0424c2498db100b77a954c5, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-18T12:15:14.080724",
-      "url": "https://github.com/openjdk/jdk/pull/18487",
-      "number": 18487,
-      "title": "8322770: Implement C2 VectorizedHashCode on AArch64",
-      "head_sha": "f5918cca0811ccf6f0424c2498db100b77a954c5",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10921045500"
-    }
+    "f5918cca0811ccf6f0424c2498db100b77a954c5.json"
   ],
   "datetime": "2024-09-19T16:11:09.570128",
   "url": "https://github.com/openjdk/jdk/pull/18487",

@@ -5,85 +5,10 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1898113735": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-liach-39c28f399b88324a08a822afa83a4e8a13ba6643)\nOpenJDK 64-Bit Server VM (build 24-internal-liach-39c28f399b88324a08a822afa83a4e8a13ba6643, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20773",
-      "title": "8339260: Move rarely used constants out of ClassFile",
-      "head_sha": "39c28f399b88324a08a822afa83a4e8a13ba6643",
-      "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10728337193"
-    },
-    {
-      "artifact_1893651906": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-liach-49c5f6dc09f22fda224ac21614b21d5ee0831557)\nOpenJDK 64-Bit Server VM (build 24-internal-liach-49c5f6dc09f22fda224ac21614b21d5ee0831557, mixed mode, sharing)"
-      },
-      "url": "https://github.com/openjdk/jdk/pull/20773",
-      "title": "8339260: Move rarely used constants out of ClassFile",
-      "head_sha": "49c5f6dc09f22fda224ac21614b21d5ee0831557",
-      "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10710738006"
-    },
-    {
-      "artifact_1968739938": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-liach-8b03ad17be4a599881f59c441909f94168a5fb0a)\nOpenJDK 64-Bit Server VM (build 24-internal-liach-8b03ad17be4a599881f59c441909f94168a5fb0a, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [
-        {
-          "artifact_1898113735": {
-            "java_home": "extracted/jdk-24",
-            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-liach-39c28f399b88324a08a822afa83a4e8a13ba6643)\nOpenJDK 64-Bit Server VM (build 24-internal-liach-39c28f399b88324a08a822afa83a4e8a13ba6643, mixed mode, sharing)"
-          },
-          "status": "passed",
-          "url": "https://github.com/openjdk/jdk/pull/20773",
-          "title": "8339260: Move rarely used constants out of ClassFile",
-          "head_sha": "39c28f399b88324a08a822afa83a4e8a13ba6643",
-          "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10728337193"
-        },
-        {
-          "artifact_1893651906": {
-            "java_home": "extracted/jdk-24",
-            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-liach-49c5f6dc09f22fda224ac21614b21d5ee0831557)\nOpenJDK 64-Bit Server VM (build 24-internal-liach-49c5f6dc09f22fda224ac21614b21d5ee0831557, mixed mode, sharing)"
-          },
-          "url": "https://github.com/openjdk/jdk/pull/20773",
-          "title": "8339260: Move rarely used constants out of ClassFile",
-          "head_sha": "49c5f6dc09f22fda224ac21614b21d5ee0831557",
-          "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10710738006"
-        },
-        {
-          "artifact_1897890496": {
-            "java_home": "extracted/jdk-24",
-            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-liach-bbeff62048140ebefb41ba1b1c9f1b8f25809433)\nOpenJDK 64-Bit Server VM (build 24-internal-liach-bbeff62048140ebefb41ba1b1c9f1b8f25809433, mixed mode, sharing)"
-          },
-          "status": "passed",
-          "url": "https://github.com/openjdk/jdk/pull/20773",
-          "title": "8339260: Move rarely used constants out of ClassFile",
-          "head_sha": "bbeff62048140ebefb41ba1b1c9f1b8f25809433",
-          "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10726015402"
-        }
-      ],
-      "datetime": "2024-09-23T22:33:09.303876",
-      "url": "https://github.com/openjdk/jdk/pull/20773",
-      "number": 20773,
-      "title": "8339260: Move rarely used constants out of ClassFile",
-      "head_sha": "8b03ad17be4a599881f59c441909f94168a5fb0a",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11003341574"
-    },
-    {
-      "artifact_1897890496": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-liach-bbeff62048140ebefb41ba1b1c9f1b8f25809433)\nOpenJDK 64-Bit Server VM (build 24-internal-liach-bbeff62048140ebefb41ba1b1c9f1b8f25809433, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20773",
-      "title": "8339260: Move rarely used constants out of ClassFile",
-      "head_sha": "bbeff62048140ebefb41ba1b1c9f1b8f25809433",
-      "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10726015402"
-    }
+    "39c28f399b88324a08a822afa83a4e8a13ba6643.json",
+    "49c5f6dc09f22fda224ac21614b21d5ee0831557.json",
+    "8b03ad17be4a599881f59c441909f94168a5fb0a.json",
+    "bbeff62048140ebefb41ba1b1c9f1b8f25809433.json"
   ],
   "datetime": "2024-09-24T18:11:59.533091",
   "url": "https://github.com/openjdk/jdk/pull/20773",

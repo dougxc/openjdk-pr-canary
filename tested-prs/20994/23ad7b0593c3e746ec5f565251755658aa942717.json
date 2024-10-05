@@ -5,20 +5,7 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1947054646": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jdksjolen-b216210965223c877121b08422e30927e880a899)\nOpenJDK 64-Bit Server VM (build 24-internal-jdksjolen-b216210965223c877121b08422e30927e880a899, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-18T10:11:15.403554",
-      "url": "https://github.com/openjdk/jdk/pull/20994",
-      "number": 20994,
-      "title": "8340103: Add internal set_flag function to VMATree",
-      "head_sha": "b216210965223c877121b08422e30927e880a899",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10919719724"
-    }
+    "b216210965223c877121b08422e30927e880a899.json"
   ],
   "datetime": "2024-09-18T11:51:06.567910",
   "url": "https://github.com/openjdk/jdk/pull/20994",

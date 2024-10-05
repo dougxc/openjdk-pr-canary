@@ -5,20 +5,7 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1929078744": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jerboaa-807bb8982611261d618b04d4eac0048e35b6bb93)\nOpenJDK 64-Bit Server VM (build 24-internal-jerboaa-807bb8982611261d618b04d4eac0048e35b6bb93, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-13T10:25:45.916541",
-      "url": "https://github.com/openjdk/jdk/pull/20989",
-      "number": 20989,
-      "title": "8340092: [Linux] containers/systemd/SystemdMemoryAwarenessTest.java failing on some systems",
-      "head_sha": "807bb8982611261d618b04d4eac0048e35b6bb93",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10846912095"
-    }
+    "807bb8982611261d618b04d4eac0048e35b6bb93.json"
   ],
   "datetime": "2024-09-16T15:10:35.276702",
   "url": "https://github.com/openjdk/jdk/pull/20989",

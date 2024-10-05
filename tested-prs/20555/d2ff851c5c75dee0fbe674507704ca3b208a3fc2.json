@@ -5,17 +5,7 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1898890956": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kevinrushforth-c3ee6ad373eec988101c7a38273334823706d968)\nOpenJDK 64-Bit Server VM (build 24-internal-kevinrushforth-c3ee6ad373eec988101c7a38273334823706d968, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20555",
-      "title": "8311530: Deprecate jdk.jsobject module for removal",
-      "head_sha": "c3ee6ad373eec988101c7a38273334823706d968",
-      "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10729644934"
-    }
+    "c3ee6ad373eec988101c7a38273334823706d968.json"
   ],
   "datetime": "2024-09-23T17:39:17.130517",
   "url": "https://github.com/openjdk/jdk/pull/20555",

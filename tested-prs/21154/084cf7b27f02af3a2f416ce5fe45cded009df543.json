@@ -5,20 +5,7 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1971253471": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-gdams-6a491bf22ed99cb776ef7472d61220b3b5099a39)\nOpenJDK 64-Bit Server VM (build 24-internal-gdams-6a491bf22ed99cb776ef7472d61220b3b5099a39, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-24T12:56:01.114431",
-      "url": "https://github.com/openjdk/jdk/pull/21154",
-      "number": 21154,
-      "title": "8340804: doc/building.md update Xcode instructions to note that full install is required",
-      "head_sha": "6a491bf22ed99cb776ef7472d61220b3b5099a39",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11014036189"
-    }
+    "6a491bf22ed99cb776ef7472d61220b3b5099a39.json"
   ],
   "datetime": "2024-09-24T14:10:52.034299",
   "url": "https://github.com/openjdk/jdk/pull/21154",

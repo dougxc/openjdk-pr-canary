@@ -5,49 +5,8 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1955752471": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-justin-curtis-lu-a50c197204b42b2c2a4a27f92b8dc95bc185fda8)\nOpenJDK 64-Bit Server VM (build 24-internal-justin-curtis-lu-a50c197204b42b2c2a4a27f92b8dc95bc185fda8, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-19T23:42:50.097973",
-      "url": "https://github.com/openjdk/jdk/pull/21096",
-      "number": 21096,
-      "title": "8340326: Remove references to Applet in core-libs/security tests",
-      "head_sha": "a50c197204b42b2c2a4a27f92b8dc95bc185fda8",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10950369853"
-    },
-    {
-      "artifact_1978668036": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-justin-curtis-lu-cc860712042945d9bbda56b1beee65416ac3e996)\nOpenJDK 64-Bit Server VM (build 24-internal-justin-curtis-lu-cc860712042945d9bbda56b1beee65416ac3e996, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [
-        {
-          "artifact_1955752471": {
-            "java_home": "extracted/jdk-24",
-            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-justin-curtis-lu-a50c197204b42b2c2a4a27f92b8dc95bc185fda8)\nOpenJDK 64-Bit Server VM (build 24-internal-justin-curtis-lu-a50c197204b42b2c2a4a27f92b8dc95bc185fda8, mixed mode, sharing)"
-          },
-          "status": "passed",
-          "history": [],
-          "datetime": "2024-09-19T23:42:50.097973",
-          "url": "https://github.com/openjdk/jdk/pull/21096",
-          "number": 21096,
-          "title": "8340326: Remove references to Applet in core-libs/security tests",
-          "head_sha": "a50c197204b42b2c2a4a27f92b8dc95bc185fda8",
-          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10950369853"
-        }
-      ],
-      "datetime": "2024-09-25T19:27:59.997320",
-      "url": "https://github.com/openjdk/jdk/pull/21096",
-      "number": 21096,
-      "title": "8340326: Remove references to Applet in core-libs/security tests",
-      "head_sha": "cc860712042945d9bbda56b1beee65416ac3e996",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11039619041"
-    }
+    "a50c197204b42b2c2a4a27f92b8dc95bc185fda8.json",
+    "cc860712042945d9bbda56b1beee65416ac3e996.json"
   ],
   "datetime": "2024-09-25T22:59:18.796994",
   "url": "https://github.com/openjdk/jdk/pull/21096",

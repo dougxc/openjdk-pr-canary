@@ -6,20 +6,7 @@
   },
   "status": "failed",
   "history": [
-    {
-      "artifact_2002011430": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-5df4d7cb74e82e2552703117ba3201159eaa89cf)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-5df4d7cb74e82e2552703117ba3201159eaa89cf, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-10-01T17:57:03.327722",
-      "url": "https://github.com/openjdk/jdk/pull/21291",
-      "number": 21291,
-      "title": "8341111: open source several AWT tests including menu shortcut tests",
-      "head_sha": "5df4d7cb74e82e2552703117ba3201159eaa89cf",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11130281283"
-    }
+    "5df4d7cb74e82e2552703117ba3201159eaa89cf.json"
   ],
   "datetime": "2024-10-03T20:47:26.566073",
   "url": "https://github.com/openjdk/jdk/pull/21291",

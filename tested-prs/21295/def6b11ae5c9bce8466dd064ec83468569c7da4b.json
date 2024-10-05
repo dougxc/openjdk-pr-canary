@@ -6,50 +6,8 @@
   },
   "status": "failed",
   "history": [
-    {
-      "artifact_2010725195": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-coleenp-63e52fde2d4adfec4368fca2fdf2ecb0d96f10bc)\nOpenJDK 64-Bit Server VM (build 24-internal-coleenp-63e52fde2d4adfec4368fca2fdf2ecb0d96f10bc, mixed mode, sharing)",
-        "failed_step": "build"
-      },
-      "status": "failed",
-      "history": [
-        {
-          "artifact_2002577684": {
-            "java_home": "extracted/jdk-24",
-            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-coleenp-ed17b70fb56ae5c39104b2b0832313d8615da78b)\nOpenJDK 64-Bit Server VM (build 24-internal-coleenp-ed17b70fb56ae5c39104b2b0832313d8615da78b, mixed mode, sharing)"
-          },
-          "status": "passed",
-          "history": [],
-          "datetime": "2024-10-01T19:28:45.382691",
-          "url": "https://github.com/openjdk/jdk/pull/21295",
-          "number": 21295,
-          "title": "8325937: runtime/handshake/HandshakeDirectTest.java causes \"monitor end should be strictly below the frame pointer\" assertion failure on AArch64",
-          "head_sha": "ed17b70fb56ae5c39104b2b0832313d8615da78b",
-          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11131977980"
-        }
-      ],
-      "datetime": "2024-10-03T12:50:36.650682",
-      "url": "https://github.com/openjdk/jdk/pull/21295",
-      "number": 21295,
-      "title": "8325937: runtime/handshake/HandshakeDirectTest.java causes \"monitor end should be strictly below the frame pointer\" assertion failure on AArch64",
-      "head_sha": "63e52fde2d4adfec4368fca2fdf2ecb0d96f10bc",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11162202626"
-    },
-    {
-      "artifact_2002577684": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-coleenp-ed17b70fb56ae5c39104b2b0832313d8615da78b)\nOpenJDK 64-Bit Server VM (build 24-internal-coleenp-ed17b70fb56ae5c39104b2b0832313d8615da78b, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-10-01T19:28:45.382691",
-      "url": "https://github.com/openjdk/jdk/pull/21295",
-      "number": 21295,
-      "title": "8325937: runtime/handshake/HandshakeDirectTest.java causes \"monitor end should be strictly below the frame pointer\" assertion failure on AArch64",
-      "head_sha": "ed17b70fb56ae5c39104b2b0832313d8615da78b",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11131977980"
-    }
+    "63e52fde2d4adfec4368fca2fdf2ecb0d96f10bc.json",
+    "ed17b70fb56ae5c39104b2b0832313d8615da78b.json"
   ],
   "datetime": "2024-10-04T00:18:02.379005",
   "url": "https://github.com/openjdk/jdk/pull/21295",

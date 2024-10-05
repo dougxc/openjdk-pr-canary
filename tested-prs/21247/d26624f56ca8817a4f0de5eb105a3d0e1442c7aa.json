@@ -5,20 +5,7 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1992093904": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-rsunderbabu-eb3dcde564784ec16d85aca1faf8cdf046726c79)\nOpenJDK 64-Bit Server VM (build 24-internal-rsunderbabu-eb3dcde564784ec16d85aca1faf8cdf046726c79, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-29T09:33:23.653555",
-      "url": "https://github.com/openjdk/jdk/pull/21247",
-      "number": 21247,
-      "title": "8211400: nsk.share.gc.Memory::getArrayLength returns wrong value",
-      "head_sha": "eb3dcde564784ec16d85aca1faf8cdf046726c79",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11091479663"
-    }
+    "eb3dcde564784ec16d85aca1faf8cdf046726c79.json"
   ],
   "datetime": "2024-09-30T09:39:39.926055",
   "url": "https://github.com/openjdk/jdk/pull/21247",

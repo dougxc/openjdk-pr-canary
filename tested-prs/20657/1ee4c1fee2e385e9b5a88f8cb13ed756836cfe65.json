@@ -5,49 +5,8 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1939253718": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-vamsi-parasa-3664be15846c81982bfba03c2bceb02f06391c50)\nOpenJDK 64-Bit Server VM (build 24-internal-vamsi-parasa-3664be15846c81982bfba03c2bceb02f06391c50, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-16T19:28:53.188863",
-      "url": "https://github.com/openjdk/jdk/pull/20657",
-      "number": 20657,
-      "title": "8338694: x86_64 intrinsic for tanh using libm",
-      "head_sha": "3664be15846c81982bfba03c2bceb02f06391c50",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10890535040"
-    },
-    {
-      "artifact_1940178502": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-vamsi-parasa-b438555e78a149d7ddf6b7c7ab0a8bb5dfc4673a)\nOpenJDK 64-Bit Server VM (build 24-internal-vamsi-parasa-b438555e78a149d7ddf6b7c7ab0a8bb5dfc4673a, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [
-        {
-          "artifact_1939253718": {
-            "java_home": "extracted/jdk-24",
-            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-vamsi-parasa-3664be15846c81982bfba03c2bceb02f06391c50)\nOpenJDK 64-Bit Server VM (build 24-internal-vamsi-parasa-3664be15846c81982bfba03c2bceb02f06391c50, mixed mode, sharing)"
-          },
-          "status": "passed",
-          "history": [],
-          "datetime": "2024-09-16T19:28:53.188863",
-          "url": "https://github.com/openjdk/jdk/pull/20657",
-          "number": 20657,
-          "title": "8338694: x86_64 intrinsic for tanh using libm",
-          "head_sha": "3664be15846c81982bfba03c2bceb02f06391c50",
-          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10890535040"
-        }
-      ],
-      "datetime": "2024-09-17T00:24:09.003000",
-      "url": "https://github.com/openjdk/jdk/pull/20657",
-      "number": 20657,
-      "title": "8338694: x86_64 intrinsic for tanh using libm",
-      "head_sha": "b438555e78a149d7ddf6b7c7ab0a8bb5dfc4673a",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10893837312"
-    }
+    "3664be15846c81982bfba03c2bceb02f06391c50.json",
+    "b438555e78a149d7ddf6b7c7ab0a8bb5dfc4673a.json"
   ],
   "datetime": "2024-09-17T01:43:16.264074",
   "url": "https://github.com/openjdk/jdk/pull/20657",

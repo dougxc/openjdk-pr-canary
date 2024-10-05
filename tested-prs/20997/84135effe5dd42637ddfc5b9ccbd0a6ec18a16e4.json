@@ -5,49 +5,8 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1935606054": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-0db4faf3285fcdfdb1c87a0b87bc7919cf47e587)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-0db4faf3285fcdfdb1c87a0b87bc7919cf47e587, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [
-        {
-          "artifact_1929770616": {
-            "java_home": "extracted/jdk-24",
-            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-311b2e3d8ce180ad3df306568d64f0ccf68c3e27)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-311b2e3d8ce180ad3df306568d64f0ccf68c3e27, mixed mode, sharing)"
-          },
-          "status": "passed",
-          "history": [],
-          "datetime": "2024-09-13T13:37:00.322063",
-          "url": "https://github.com/openjdk/jdk/pull/20997",
-          "number": 20997,
-          "title": "8340114: Remove outdated SelectVersion() function from the launcher and update the code comments explaining the code flow",
-          "head_sha": "311b2e3d8ce180ad3df306568d64f0ccf68c3e27",
-          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10849989429"
-        }
-      ],
-      "datetime": "2024-09-16T03:17:03.394577",
-      "url": "https://github.com/openjdk/jdk/pull/20997",
-      "number": 20997,
-      "title": "8340114: Remove outdated SelectVersion() function from the launcher and update the code comments explaining the code flow",
-      "head_sha": "0db4faf3285fcdfdb1c87a0b87bc7919cf47e587",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10876783701"
-    },
-    {
-      "artifact_1929770616": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-311b2e3d8ce180ad3df306568d64f0ccf68c3e27)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-311b2e3d8ce180ad3df306568d64f0ccf68c3e27, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-13T13:37:00.322063",
-      "url": "https://github.com/openjdk/jdk/pull/20997",
-      "number": 20997,
-      "title": "8340114: Remove outdated SelectVersion() function from the launcher and update the code comments explaining the code flow",
-      "head_sha": "311b2e3d8ce180ad3df306568d64f0ccf68c3e27",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10849989429"
-    }
+    "0db4faf3285fcdfdb1c87a0b87bc7919cf47e587.json",
+    "311b2e3d8ce180ad3df306568d64f0ccf68c3e27.json"
   ],
   "datetime": "2024-09-16T07:59:21.896835",
   "url": "https://github.com/openjdk/jdk/pull/20997",

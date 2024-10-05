@@ -5,41 +5,9 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1904128132": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-30786c277bc006db6a55be267673878d7ea8db9b)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-30786c277bc006db6a55be267673878d7ea8db9b, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20886",
-      "number": 20886,
-      "title": "8339699: Optimize DataOutputStream writeUTF",
-      "head_sha": "30786c277bc006db6a55be267673878d7ea8db9b",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10749815578"
-    },
-    {
-      "artifact_1904268289": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-9744e8a58616e8b60cb8239114d3006069a19e73)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-9744e8a58616e8b60cb8239114d3006069a19e73, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20886",
-      "number": 20886,
-      "title": "8339699: Optimize DataOutputStream writeUTF",
-      "head_sha": "9744e8a58616e8b60cb8239114d3006069a19e73",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10750464092"
-    },
-    {
-      "artifact_1899890919": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-fe56048814fdcb244ba6938b647ec63059caa2f1)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-fe56048814fdcb244ba6938b647ec63059caa2f1, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20886",
-      "title": "Optimize ObjectOutputStream#writeUTF",
-      "head_sha": "fe56048814fdcb244ba6938b647ec63059caa2f1",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10736652910"
-    }
+    "30786c277bc006db6a55be267673878d7ea8db9b.json",
+    "9744e8a58616e8b60cb8239114d3006069a19e73.json",
+    "fe56048814fdcb244ba6938b647ec63059caa2f1.json"
   ],
   "datetime": "2024-09-13T18:41:23.366918",
   "url": "https://github.com/openjdk/jdk/pull/20886",

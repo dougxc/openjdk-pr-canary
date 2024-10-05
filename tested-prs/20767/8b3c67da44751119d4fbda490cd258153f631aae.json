@@ -5,20 +5,7 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1960754141": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-2fc085bfed2323e9f1b1518ae3c2d3dc6b74c721)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-2fc085bfed2323e9f1b1518ae3c2d3dc6b74c721, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-21T02:18:01.654134",
-      "url": "https://github.com/openjdk/jdk/pull/20767",
-      "number": 20767,
-      "title": "8339320: Optimize ClassFile Utf8EntryImpl#inflate",
-      "head_sha": "2fc085bfed2323e9f1b1518ae3c2d3dc6b74c721",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10968611761"
-    }
+    "2fc085bfed2323e9f1b1518ae3c2d3dc6b74c721.json"
   ],
   "datetime": "2024-09-25T02:09:04.032765",
   "url": "https://github.com/openjdk/jdk/pull/20767",

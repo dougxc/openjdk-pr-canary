@@ -5,45 +5,8 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1920192763": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-manukumarvs-4343f4db6ea959564142f3d6289a07654f26eb85)\nOpenJDK 64-Bit Server VM (build 24-internal-manukumarvs-4343f4db6ea959564142f3d6289a07654f26eb85, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20951",
-      "number": 20951,
-      "title": "8339943: Frame not disposed in java/awt/dnd/DropActionChangeTest.java",
-      "head_sha": "4343f4db6ea959564142f3d6289a07654f26eb85",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10814704343"
-    },
-    {
-      "artifact_1924021104": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-manukumarvs-6238ba9b23db8f4c0805c9c3ea00ff28638595a8)\nOpenJDK 64-Bit Server VM (build 24-internal-manukumarvs-6238ba9b23db8f4c0805c9c3ea00ff28638595a8, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [
-        {
-          "artifact_1920192763": {
-            "java_home": "extracted/jdk-24",
-            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-manukumarvs-4343f4db6ea959564142f3d6289a07654f26eb85)\nOpenJDK 64-Bit Server VM (build 24-internal-manukumarvs-4343f4db6ea959564142f3d6289a07654f26eb85, mixed mode, sharing)"
-          },
-          "status": "passed",
-          "url": "https://github.com/openjdk/jdk/pull/20951",
-          "number": 20951,
-          "title": "8339943: Frame not disposed in java/awt/dnd/DropActionChangeTest.java",
-          "head_sha": "4343f4db6ea959564142f3d6289a07654f26eb85",
-          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10814704343"
-        }
-      ],
-      "datetime": "2024-09-12T12:37:07.424738",
-      "url": "https://github.com/openjdk/jdk/pull/20951",
-      "number": 20951,
-      "title": "8339943: Frame not disposed in java/awt/dnd/DropActionChangeTest.java",
-      "head_sha": "6238ba9b23db8f4c0805c9c3ea00ff28638595a8",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10830389820"
-    }
+    "4343f4db6ea959564142f3d6289a07654f26eb85.json",
+    "6238ba9b23db8f4c0805c9c3ea00ff28638595a8.json"
   ],
   "datetime": "2024-09-12T17:54:14.543644",
   "url": "https://github.com/openjdk/jdk/pull/20951",

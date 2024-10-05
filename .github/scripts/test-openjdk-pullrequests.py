@@ -118,6 +118,9 @@ def get_test_record_path(pr):
     head_sha = pr.get("head_sha") if "head_sha" in pr else pr["head"]["sha"]
     return Path("tested-prs").joinpath(str(pr["number"]), f"{head_sha}.json")
 
+def load_history(pr, name):
+    return json.loads(get_test_record_path(pr).joinpath(name).read_text())
+
 def main(context):
 
     check_bundle_naming_assumptions()
@@ -309,7 +312,7 @@ def main(context):
             # Add test history
             history = git(["log", "--pretty=", "--diff-filter=A", "--name-only", "origin/master", "--", str(test_record_path.parent)], capture_output=True).strip().split()
             if history:
-                test_record["history"] = [json.loads(git(["cat-file", "-p", f"origin/master:{e}"], capture_output=True).strip()) for e in history]
+                test_record["history"] = [Path(h).name for h in history]
             else:
                 test_record["history"] = []
 
@@ -373,7 +376,8 @@ def main(context):
                     print(f"  log: {failed_step_log}", file=summary)
                     history = pr["__test_record"]["history"]
                     if history:
-                        failures = [e["run_url"] for e in history if e["status"] == "failed"]
+                        history_objs = [load_history(pr, name) for name in history]
+                        failures = [e["run_url"] for e in history_objs if e["status"] == "failed"]
                         failures = [f" [{i}]({url})" for i, url in enumerate(failures)]
                         print(f"  previous failures: {failures}", file=summary)
 
@@ -395,7 +399,8 @@ def post_failure_to_slack(test_record):
     run_url = test_record["run_url"]
 
     history = test_record["history"]
-    failures = [e for e in history if e["status"] == "failed"]
+    history_objs = [load_history(test_record, name) for name in history]
+    failures = [e for e in history_objs if e["status"] == "failed"]
     if failures:
         previous_failures = [
             {

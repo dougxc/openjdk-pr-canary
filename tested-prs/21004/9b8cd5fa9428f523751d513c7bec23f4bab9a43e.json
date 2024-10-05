@@ -5,49 +5,8 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1931668825": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-matias9927-65ec2cacf8d0a34f806a9d9e9453cba7fee0f9a6)\nOpenJDK 64-Bit Server VM (build 24-internal-matias9927-65ec2cacf8d0a34f806a9d9e9453cba7fee0f9a6, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-13T21:09:45.032891",
-      "url": "https://github.com/openjdk/jdk/pull/21004",
-      "number": 21004,
-      "title": "8298614: Support CDS heap dumping for non-G1 collectors",
-      "head_sha": "65ec2cacf8d0a34f806a9d9e9453cba7fee0f9a6",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10855913946"
-    },
-    {
-      "artifact_1943399015": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-matias9927-905fdfd3d82fcc116fdcbd68dee06b34e681e29c)\nOpenJDK 64-Bit Server VM (build 24-internal-matias9927-905fdfd3d82fcc116fdcbd68dee06b34e681e29c, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [
-        {
-          "artifact_1931668825": {
-            "java_home": "extracted/jdk-24",
-            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-matias9927-65ec2cacf8d0a34f806a9d9e9453cba7fee0f9a6)\nOpenJDK 64-Bit Server VM (build 24-internal-matias9927-65ec2cacf8d0a34f806a9d9e9453cba7fee0f9a6, mixed mode, sharing)"
-          },
-          "status": "passed",
-          "history": [],
-          "datetime": "2024-09-13T21:09:45.032891",
-          "url": "https://github.com/openjdk/jdk/pull/21004",
-          "number": 21004,
-          "title": "8298614: Support CDS heap dumping for non-G1 collectors",
-          "head_sha": "65ec2cacf8d0a34f806a9d9e9453cba7fee0f9a6",
-          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10855913946"
-        }
-      ],
-      "datetime": "2024-09-17T15:45:42.250899",
-      "url": "https://github.com/openjdk/jdk/pull/21004",
-      "number": 21004,
-      "title": "8298614: Support CDS heap dumping for non-G1 collectors",
-      "head_sha": "905fdfd3d82fcc116fdcbd68dee06b34e681e29c",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10906127046"
-    }
+    "65ec2cacf8d0a34f806a9d9e9453cba7fee0f9a6.json",
+    "905fdfd3d82fcc116fdcbd68dee06b34e681e29c.json"
   ],
   "datetime": "2024-09-18T18:25:46.642624",
   "url": "https://github.com/openjdk/jdk/pull/21004",

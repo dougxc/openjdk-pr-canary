@@ -6,50 +6,8 @@
   },
   "status": "failed",
   "history": [
-    {
-      "artifact_2000236573": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jayathirthrao-b64926601bf9e42346f478b01aad412a8db0027a)\nOpenJDK 64-Bit Server VM (build 24-internal-jayathirthrao-b64926601bf9e42346f478b01aad412a8db0027a, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-10-01T11:30:31.991187",
-      "url": "https://github.com/openjdk/jdk/pull/21284",
-      "number": 21284,
-      "title": "8341162: Open source some of the AWT window test",
-      "head_sha": "b64926601bf9e42346f478b01aad412a8db0027a",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11124229900"
-    },
-    {
-      "artifact_2009820735": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jayathirthrao-f53ca0d1d3355eed68c137bd74ccb3484d245d90)\nOpenJDK 64-Bit Server VM (build 24-internal-jayathirthrao-f53ca0d1d3355eed68c137bd74ccb3484d245d90, mixed mode, sharing)",
-        "failed_step": "build"
-      },
-      "status": "failed",
-      "history": [
-        {
-          "artifact_2000236573": {
-            "java_home": "extracted/jdk-24",
-            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jayathirthrao-b64926601bf9e42346f478b01aad412a8db0027a)\nOpenJDK 64-Bit Server VM (build 24-internal-jayathirthrao-b64926601bf9e42346f478b01aad412a8db0027a, mixed mode, sharing)"
-          },
-          "status": "passed",
-          "history": [],
-          "datetime": "2024-10-01T11:30:31.991187",
-          "url": "https://github.com/openjdk/jdk/pull/21284",
-          "number": 21284,
-          "title": "8341162: Open source some of the AWT window test",
-          "head_sha": "b64926601bf9e42346f478b01aad412a8db0027a",
-          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11124229900"
-        }
-      ],
-      "datetime": "2024-10-03T08:43:16.573152",
-      "url": "https://github.com/openjdk/jdk/pull/21284",
-      "number": 21284,
-      "title": "8341162: Open source some of the AWT window test",
-      "head_sha": "f53ca0d1d3355eed68c137bd74ccb3484d245d90",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11158534328"
-    }
+    "b64926601bf9e42346f478b01aad412a8db0027a.json",
+    "f53ca0d1d3355eed68c137bd74ccb3484d245d90.json"
   ],
   "datetime": "2024-10-04T07:23:33.966907",
   "url": "https://github.com/openjdk/jdk/pull/21284",

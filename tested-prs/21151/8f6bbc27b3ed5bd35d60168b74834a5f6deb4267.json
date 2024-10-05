@@ -5,20 +5,7 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1970334498": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kumarabhi006-d696cbe9cdd9b5c4998029de1d8baafb83a5627f)\nOpenJDK 64-Bit Server VM (build 24-internal-kumarabhi006-d696cbe9cdd9b5c4998029de1d8baafb83a5627f, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-24T08:40:24.150260",
-      "url": "https://github.com/openjdk/jdk/pull/21151",
-      "number": 21151,
-      "title": "8340605: Open source several AWT PopupMenu tests",
-      "head_sha": "d696cbe9cdd9b5c4998029de1d8baafb83a5627f",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11009968844"
-    }
+    "d696cbe9cdd9b5c4998029de1d8baafb83a5627f.json"
   ],
   "datetime": "2024-09-25T08:53:39.263103",
   "url": "https://github.com/openjdk/jdk/pull/21151",

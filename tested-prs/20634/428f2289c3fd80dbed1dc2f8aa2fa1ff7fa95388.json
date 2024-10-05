@@ -5,20 +5,7 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1927534101": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sviswa7-694aceb532b9e8698e1ab25279df669fe6e9602e)\nOpenJDK 64-Bit Server VM (build 24-internal-sviswa7-694aceb532b9e8698e1ab25279df669fe6e9602e, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-13T00:30:40.466019",
-      "url": "https://github.com/openjdk/jdk/pull/20634",
-      "number": 20634,
-      "title": "8340079: Modify rearrange/selectFrom Vector API methods to perform wrapIndexes instead of checkIndexes",
-      "head_sha": "694aceb532b9e8698e1ab25279df669fe6e9602e",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10840214252"
-    }
+    "694aceb532b9e8698e1ab25279df669fe6e9602e.json"
   ],
   "datetime": "2024-09-13T23:34:33.789098",
   "url": "https://github.com/openjdk/jdk/pull/20634",

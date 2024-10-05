@@ -6,52 +6,8 @@
   },
   "status": "failed",
   "history": [
-    {
-      "artifact_1934718699": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-LanceAndersen-04c723d13921f2368e6ef49e91e86e9e062023aa)\nOpenJDK 64-Bit Server VM (build 24-internal-LanceAndersen-04c723d13921f2368e6ef49e91e86e9e062023aa, mixed mode, sharing)",
-        "failed_step": "build"
-      },
-      "status": "failed",
-      "history": [],
-      "datetime": "2024-09-15T13:50:58.929245",
-      "url": "https://github.com/openjdk/jdk/pull/21003",
-      "number": 21003,
-      "title": "8336025: Improve ZipOutputSream validation of MAX CEN Header field limits",
-      "head_sha": "04c723d13921f2368e6ef49e91e86e9e062023aa",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10871552746"
-    },
-    {
-      "artifact_1959172820": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-LanceAndersen-69cf3312e05c5545f3112b77d70fddfe04a100d3)\nOpenJDK 64-Bit Server VM (build 24-internal-LanceAndersen-69cf3312e05c5545f3112b77d70fddfe04a100d3, mixed mode, sharing)",
-        "failed_step": "build"
-      },
-      "status": "failed",
-      "history": [
-        {
-          "artifact_1934718699": {
-            "java_home": "extracted/jdk-24",
-            "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-LanceAndersen-04c723d13921f2368e6ef49e91e86e9e062023aa)\nOpenJDK 64-Bit Server VM (build 24-internal-LanceAndersen-04c723d13921f2368e6ef49e91e86e9e062023aa, mixed mode, sharing)",
-            "failed_step": "build"
-          },
-          "status": "failed",
-          "history": [],
-          "datetime": "2024-09-15T13:50:58.929245",
-          "url": "https://github.com/openjdk/jdk/pull/21003",
-          "number": 21003,
-          "title": "8336025: Improve ZipOutputSream validation of MAX CEN Header field limits",
-          "head_sha": "04c723d13921f2368e6ef49e91e86e9e062023aa",
-          "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10871552746"
-        }
-      ],
-      "datetime": "2024-09-20T16:30:35.143037",
-      "url": "https://github.com/openjdk/jdk/pull/21003",
-      "number": 21003,
-      "title": "8336025: Improve ZipOutputSream validation of MAX CEN Header field limits",
-      "head_sha": "69cf3312e05c5545f3112b77d70fddfe04a100d3",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10962869593"
-    }
+    "04c723d13921f2368e6ef49e91e86e9e062023aa.json",
+    "69cf3312e05c5545f3112b77d70fddfe04a100d3.json"
   ],
   "datetime": "2024-09-21T15:26:15.890449",
   "url": "https://github.com/openjdk/jdk/pull/21003",

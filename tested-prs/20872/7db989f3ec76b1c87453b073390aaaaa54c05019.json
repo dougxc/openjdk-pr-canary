@@ -5,42 +5,9 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1910894750": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-gerard-ziemski-7a4f6e015bb41f9f6346cfe13eb97e110dfb845b)\nOpenJDK 64-Bit Server VM (build 24-internal-gerard-ziemski-7a4f6e015bb41f9f6346cfe13eb97e110dfb845b, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20872",
-      "number": 20872,
-      "title": "8337563: NMT: rename MEMFLAGS to MemTag",
-      "head_sha": "7a4f6e015bb41f9f6346cfe13eb97e110dfb845b",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10780188561"
-    },
-    {
-      "artifact_1902959319": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-gerard-ziemski-983bb6e28deb78ae25ae619fd31d7489a3cd9928)\nOpenJDK 64-Bit Server VM (build 24-internal-gerard-ziemski-983bb6e28deb78ae25ae619fd31d7489a3cd9928, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20872",
-      "number": 20872,
-      "title": "8337563: NMT: rename MEMFLAGS to MemTag",
-      "head_sha": "983bb6e28deb78ae25ae619fd31d7489a3cd9928",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10745755948"
-    },
-    {
-      "artifact_1916576364": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-gerard-ziemski-f1faba35b5f25d5f30cdd1f32fcf31ab47acfac4)\nOpenJDK 64-Bit Server VM (build 24-internal-gerard-ziemski-f1faba35b5f25d5f30cdd1f32fcf31ab47acfac4, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "url": "https://github.com/openjdk/jdk/pull/20872",
-      "number": 20872,
-      "title": "8337563: NMT: rename MEMFLAGS to MemTag",
-      "head_sha": "f1faba35b5f25d5f30cdd1f32fcf31ab47acfac4",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10801113619"
-    }
+    "7a4f6e015bb41f9f6346cfe13eb97e110dfb845b.json",
+    "983bb6e28deb78ae25ae619fd31d7489a3cd9928.json",
+    "f1faba35b5f25d5f30cdd1f32fcf31ab47acfac4.json"
   ],
   "datetime": "2024-09-12T16:38:52.898058",
   "url": "https://github.com/openjdk/jdk/pull/20872",

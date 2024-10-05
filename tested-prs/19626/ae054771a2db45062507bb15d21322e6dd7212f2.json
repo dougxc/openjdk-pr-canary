@@ -5,20 +5,7 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1963494961": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-399c8ef56de77d0ff4d60a8e7b6d43514478f4df)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-399c8ef56de77d0ff4d60a8e7b6d43514478f4df, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-22T17:32:17.675402",
-      "url": "https://github.com/openjdk/jdk/pull/19626",
-      "number": 19626,
-      "title": "8333893: Optimization for StringBuilder append boolean & null",
-      "head_sha": "399c8ef56de77d0ff4d60a8e7b6d43514478f4df",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/10983005135"
-    }
+    "399c8ef56de77d0ff4d60a8e7b6d43514478f4df.json"
   ],
   "datetime": "2024-09-24T04:42:49.403102",
   "url": "https://github.com/openjdk/jdk/pull/19626",

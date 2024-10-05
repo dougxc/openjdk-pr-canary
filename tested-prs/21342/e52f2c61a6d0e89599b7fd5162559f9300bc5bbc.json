@@ -5,20 +5,7 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_2013798701": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-honkar-jdk-10b22767810fb57026c5882dccb7e333746948cc)\nOpenJDK 64-Bit Server VM (build 24-internal-honkar-jdk-10b22767810fb57026c5882dccb7e333746948cc, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-10-04T01:56:21.684472",
-      "url": "https://github.com/openjdk/jdk/pull/21342",
-      "number": 21342,
-      "title": "JDK-8340978 : Open source few DnD tests - Set6 ",
-      "head_sha": "10b22767810fb57026c5882dccb7e333746948cc",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11172567395"
-    }
+    "10b22767810fb57026c5882dccb7e333746948cc.json"
   ],
   "datetime": "2024-10-04T20:46:10.103123",
   "url": "https://github.com/openjdk/jdk/pull/21342",

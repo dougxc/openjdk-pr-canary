@@ -5,20 +5,7 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1970228417": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-Hamlin-Li-563ec0dea3a8766c41d0670aa5ddeb384dc244a4)\nOpenJDK 64-Bit Server VM (build 24-internal-Hamlin-Li-563ec0dea3a8766c41d0670aa5ddeb384dc244a4, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-09-24T08:51:30.897007",
-      "url": "https://github.com/openjdk/jdk/pull/21150",
-      "number": 21150,
-      "title": "8340732: RISC-V: Refactor crc32 scalar version",
-      "head_sha": "563ec0dea3a8766c41d0670aa5ddeb384dc244a4",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11009968844"
-    }
+    "563ec0dea3a8766c41d0670aa5ddeb384dc244a4.json"
   ],
   "datetime": "2024-09-25T09:33:02.417497",
   "url": "https://github.com/openjdk/jdk/pull/21150",

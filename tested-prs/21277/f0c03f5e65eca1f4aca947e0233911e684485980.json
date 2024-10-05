@@ -5,20 +5,7 @@
   },
   "status": "passed",
   "history": [
-    {
-      "artifact_1999054187": {
-        "java_home": "extracted/jdk-24",
-        "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kumarabhi006-872bae2297f7387b91c6bdc0a40c88f192866a75)\nOpenJDK 64-Bit Server VM (build 24-internal-kumarabhi006-872bae2297f7387b91c6bdc0a40c88f192866a75, mixed mode, sharing)"
-      },
-      "status": "passed",
-      "history": [],
-      "datetime": "2024-10-01T06:00:35.090794",
-      "url": "https://github.com/openjdk/jdk/pull/21277",
-      "number": 21277,
-      "title": "8341191: Open source few more AWT FileDialog tests",
-      "head_sha": "872bae2297f7387b91c6bdc0a40c88f192866a75",
-      "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11119406495"
-    }
+    "872bae2297f7387b91c6bdc0a40c88f192866a75.json"
   ],
   "datetime": "2024-10-01T11:11:51.564228",
   "url": "https://github.com/openjdk/jdk/pull/21277",
