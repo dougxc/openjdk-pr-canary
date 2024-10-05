@@ -380,7 +380,7 @@ def main(context):
                         history_objs = [load_history(pr, name) for name in history]
                         failures = [e["run_url"] for e in history_objs if e["status"] == "failed"]
                         failures = [f" [{i}]({url})" for i, url in enumerate(failures)]
-                        print(f"  previous failures: {failures}", file=summary)
+                        print(f"  previous failures: {', '.join(failures)}", file=summary)
 
                 print(file=summary)
 
