@@ -119,7 +119,7 @@ def get_test_record_path(pr):
     return Path("tested-prs").joinpath(str(pr["number"]), f"{head_sha}.json")
 
 def load_history(pr, name):
-    return json.loads(get_test_record_path(pr).joinpath(name).read_text())
+    return json.loads(get_test_record_path(pr).parent.joinpath(name).read_text())
 
 def main(context):
 
