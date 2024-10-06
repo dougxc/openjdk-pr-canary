@@ -1,0 +1,19 @@
+{
+  "artifact_2021379746": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-cl4es-360afeaa5dc3fb5c070add7d1a344c505190a866)\nOpenJDK 64-Bit Server VM (build 24-internal-cl4es-360afeaa5dc3fb5c070add7d1a344c505190a866, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "23f0c8e1e83cdec9d922cc6d5e6835bc071529ce.json",
+    "32010f66c5afca3ce4ef9375ce88472137bf4c26.json",
+    "d904ce647c53c1e4439024f19fb333b3a198bf31.json"
+  ],
+  "datetime": "2024-10-06T22:24:26.570139",
+  "url": "https://github.com/openjdk/jdk/pull/21377",
+  "number": 21377,
+  "title": "8341594: Use Unsafe to coalesce reads in java.util.zip.ZipUtils",
+  "head_sha": "360afeaa5dc3fb5c070add7d1a344c505190a866",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11205632158"
+}
