@@ -1,0 +1,14 @@
+{
+  "artifact_2019973376": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-c8556301e17da32921e79b4fa713aa608c2423c4)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-c8556301e17da32921e79b4fa713aa608c2423c4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-06T03:08:16.416506",
+  "url": "https://github.com/openjdk/jdk/pull/21373",
+  "number": 21373,
+  "title": "ReferenceClassDescImpl cache internalName",
+  "head_sha": "c8556301e17da32921e79b4fa713aa608c2423c4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11198394673"
+}
