@@ -1,0 +1,17 @@
+{
+  "artifact_2021089828": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-mkarg-ae9f58455c2e0c0aa7a9875b5f62a8aa4962abd9)\nOpenJDK 64-Bit Server VM (build 24-internal-mkarg-ae9f58455c2e0c0aa7a9875b5f62a8aa4962abd9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7b83e4077be7a4248a50261fe0505867f255920e.json",
+    "dc7dc814a8bba2fb45b5aef3ddfbdad00c1b5e86.json"
+  ],
+  "datetime": "2024-10-06T18:38:44.940359",
+  "url": "https://github.com/openjdk/jdk/pull/21371",
+  "number": 21371,
+  "title": "8341566: Adding factory for non-synchronized CharSequence Reader",
+  "head_sha": "ae9f58455c2e0c0aa7a9875b5f62a8aa4962abd9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11204206477"
+}
