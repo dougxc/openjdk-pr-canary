@@ -1,0 +1,14 @@
+{
+  "artifact_2020775294": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sendaoYan-b980f01133621cee8e4103dd39993bbd189bd81d)\nOpenJDK 64-Bit Server VM (build 24-internal-sendaoYan-b980f01133621cee8e4103dd39993bbd189bd81d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-06T14:29:07.582365",
+  "url": "https://github.com/openjdk/jdk/pull/21376",
+  "number": 21376,
+  "title": "8341586: RISC-V: build fail with gcc9",
+  "head_sha": "b980f01133621cee8e4103dd39993bbd189bd81d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11202607863"
+}
