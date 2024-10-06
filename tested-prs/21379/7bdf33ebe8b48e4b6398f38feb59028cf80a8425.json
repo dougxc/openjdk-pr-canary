@@ -1,0 +1,15 @@
+{
+  "artifact_2021107869": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eirbjo-7bdf33ebe8b48e4b6398f38feb59028cf80a8425)\nOpenJDK 64-Bit Server VM (build 24-internal-eirbjo-7bdf33ebe8b48e4b6398f38feb59028cf80a8425, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-10-06T18:51:34.854713",
+  "url": "https://github.com/openjdk/jdk/pull/21379",
+  "number": 21379,
+  "title": "8341597: ZipFileInflaterInputStream input buffer size uses uncompressed size",
+  "head_sha": "7bdf33ebe8b48e4b6398f38feb59028cf80a8425",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11204340661"
+}
