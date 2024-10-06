@@ -3,6 +3,7 @@
 import argparse
 import json
 import urllib.request
+from pathlib import Path
 
 def is_hex(s):
     try:
@@ -12,6 +13,9 @@ def is_hex(s):
         return False
 
 def get_builds():
+    local_builds = Path(__file__).parent.parent.joinpath(".github/scripts/builds.json")
+    if local_builds.exists():
+        return json.loads(local_builds.read_text())
     with urllib.request.urlopen("https://raw.githubusercontent.com/dougxc/openjdk-pr-canary/refs/heads/master/.github/scripts/builds.json") as response:
         return json.loads(response.read())
 
