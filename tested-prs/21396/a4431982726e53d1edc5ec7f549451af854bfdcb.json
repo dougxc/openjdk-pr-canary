@@ -1,0 +1,14 @@
+{
+  "artifact_2026489686": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-valeriepeng-a4431982726e53d1edc5ec7f549451af854bfdcb)\nOpenJDK 64-Bit Server VM (build 24-internal-valeriepeng-a4431982726e53d1edc5ec7f549451af854bfdcb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-07T22:34:16.843017",
+  "url": "https://github.com/openjdk/jdk/pull/21396",
+  "number": 21396,
+  "title": "8331959: Update PKCS#11 Cryptographic Token Interface to v3.1",
+  "head_sha": "a4431982726e53d1edc5ec7f549451af854bfdcb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11224927081"
+}
