@@ -13,6 +13,19 @@
         ]
     },
     {
+        "id": "jdk-23+24-1970",
+        "revisions": {
+            ".": "3f9aeaa1ee8c201869f0c23840920cab10101050",
+            "graal-enterprise": "21164550fe843dceff1a7785d17e92a135f039ea",
+            "mx": "6caac1b70156c56a97a6f70c04b9812a3b998528",
+            "graal": "d8ef3cdfb16e4768d57885d867455105e161f332",
+            "open": "42e3c842ae2684265c794868fc76eb0ff2dea3d9"
+        },
+        "aliases": [
+            "jdk-23-1970"
+        ]
+    },
+    {
         "id": "jdk-23+24-1971",
         "revisions": {
             ".": "3f9aeaa1ee8c201869f0c23840920cab10101050",
