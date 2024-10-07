@@ -1,0 +1,19 @@
+{
+  "artifact_2022918497": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-azuev-java-9a4b06b8a15f9a2bf3997f8f98d517b7134512a1)\nOpenJDK 64-Bit Server VM (build 24-internal-azuev-java-9a4b06b8a15f9a2bf3997f8f98d517b7134512a1, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "2a767e4f9a742e2a9e815d8474d919e515fedd57.json",
+    "2f5469983f233bbffb66013c0573d5b511e33444.json",
+    "fe67e048b9b135f0adc19adf91236341632dce11.json"
+  ],
+  "datetime": "2024-10-07T09:28:32.255719",
+  "url": "https://github.com/openjdk/jdk/pull/21321",
+  "number": 21321,
+  "title": "8340985: Open source some Desktop related tests",
+  "head_sha": "9a4b06b8a15f9a2bf3997f8f98d517b7134512a1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11212573107"
+}
