@@ -1,0 +1,15 @@
+{
+  "artifact_2024192841": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-anton-seoane-deef63ffb1d99d85519298137f519b01c2228a81)\nOpenJDK 64-Bit Server VM (build 24-internal-anton-seoane-deef63ffb1d99d85519298137f519b01c2228a81, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-10-07T14:46:47.607831",
+  "url": "https://github.com/openjdk/jdk/pull/21383",
+  "number": 21383,
+  "title": "8341622: Tag-specific disabled default decorators for UnifiedLogging",
+  "head_sha": "deef63ffb1d99d85519298137f519b01c2228a81",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11217580163"
+}
