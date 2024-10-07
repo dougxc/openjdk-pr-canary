@@ -121,6 +121,13 @@ def get_test_record_path(pr):
 def load_history(pr, name):
     return json.loads(get_test_record_path(pr).parent.joinpath(name).read_text())
 
+def get_merge_base_commit(pr):
+    repo = pr["head"]["repo"]["full_name"]
+    head_branch = pr["head"]["ref"]
+    base_branch = pr["base"]["ref"]
+    compare = gh_api([f"/repos/{repo}/compare/{base_branch}...{head_branch}"])
+    return compare["merge_base_commit"]
+
 def main(context):
 
     check_bundle_naming_assumptions()
@@ -152,7 +159,6 @@ def main(context):
 
         repo = pr["head"]["repo"]["full_name"]
         head_sha = pr["head"]["sha"]
-        base_sha = pr["base"]["sha"]
 
         # Before starting, fetch commits that may have been pushed between scheduling
         # this job and testing `pr`. This reduces the chance of testing the same pull
@@ -209,7 +215,8 @@ def main(context):
                 archive.unlink()
 
                 info(f"processing {pr['html_url']} ({head_sha}) - {pr['title']}")
-
+                merge_base_commit = get_merge_base_commit(pr)
+                
                 # Find java executable
                 java_exes = glob.glob("extracted/jdk*/bin/java")
                 assert len(java_exes) == 1, java_exes
@@ -222,7 +229,6 @@ def main(context):
 
                 artifact_test_record["java_home"] = str(java_home)
                 artifact_test_record["java_version_output"] = subprocess.run([str(java_exe), "--version"], capture_output=True, text=True).stdout.strip()
-                info(f" Output of `java --version`:\n{artifact_test_record["java_version_output"]}")
 
                 def run_step(name, cmd, **kwargs):
                     assert "capture_output" not in kwargs
@@ -260,17 +266,17 @@ def main(context):
                     """
 
                     # Sort builds by build ids, oldest to newest.
-                    # Use the revision from the newest build matching `base_sha`
+                    # Use the revision from the newest build matching `merge_base_commit`
                     newest = None
                     for build in sorted(builds, key=lambda b: b["id"]):
-                        if build["revisions"]["open"] == base_sha:
+                        if build["revisions"]["open"] == merge_base_commit:
                             newest = build["revisions"]
                     if newest:
-                        info(f"updating {repo} to revision matching PR base ({base_sha})")
+                        info(f"updating {repo} to revision matching PR base ({merge_base_commit})")
                         git(["fetch", "--depth", "1", "origin", newest[repo]], repo=repo)
-                        git(["checkout", newest[repo]], repo=repo)
+                        git(["reset", "--hard", newest[repo]], repo=repo)
                     else:
-                        info(f"no {repo} revision matching {base_sha}")
+                        info(f"no {repo} revision matching {merge_base_commit}")
 
                 try:
                     if not Path("graal").exists():
