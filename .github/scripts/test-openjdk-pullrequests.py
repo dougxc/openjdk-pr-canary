@@ -122,6 +122,13 @@ def load_history(pr, name):
     return json.loads(get_test_record_path(pr).parent.joinpath(name).read_text())
 
 def get_merge_base_commit(pr):
+    """
+    Gets a json object describing the merge base commit of `pr`.
+    The sha and URL for the commit are indexed by "sha" and "html_url"
+    respectively in the json object.
+
+    See https://stackoverflow.com/a/77447927/6691595
+    """
     repo = pr["head"]["repo"]["full_name"]
     head_branch = pr["head"]["ref"]
     base_branch = pr["base"]["ref"]
@@ -262,21 +269,24 @@ def main(context):
                 def update_to_match_pr_base(repo, builds):
                     """
                     Updates the local clone in `repo` to a revision in a mach5 build where
-                    the open jdk revision in the same build is the one the PR is based on.
+                    the open jdk revision in the same build is merge base of the PR.
                     """
 
                     # Sort builds by build ids, oldest to newest.
                     # Use the revision from the newest build matching `merge_base_commit`
                     newest = None
+                    mbc_sha = merge_base_commit["sha"]
+                    mbc_url = merge_base_commit["html_url"]
+                    mbc_desc = f"PR merge base revision [{mbc_sha}]({mbc_url})"
                     for build in sorted(builds, key=lambda b: b["id"]):
-                        if build["revisions"]["open"] == merge_base_commit:
+                        if build["revisions"]["open"] == mbc_sha:
                             newest = build["revisions"]
                     if newest:
-                        info(f"updating {repo} to revision matching PR base ({merge_base_commit})")
+                        info(f"updating {repo} to revision matching the {mbc_desc}")
                         git(["fetch", "--depth", "1", "origin", newest[repo]], repo=repo)
                         git(["reset", "--hard", newest[repo]], repo=repo)
                     else:
-                        info(f"no {repo} revision matching {merge_base_commit}")
+                        info(f"no {repo} revision matching the {mbc_desc}")
 
                 try:
                     if not Path("graal").exists():
