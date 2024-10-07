@@ -1,0 +1,17 @@
+{
+  "artifact_2024138853": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bulasevich-0939006df18139c7254852e2034990bcb4b5925d)\nOpenJDK 64-Bit Server VM (build 24-internal-bulasevich-0939006df18139c7254852e2034990bcb4b5925d, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "10ecb900769a388f0fe698e130d8114fab74a972.json"
+  ],
+  "datetime": "2024-10-07T14:50:21.658718",
+  "url": "https://github.com/openjdk/jdk/pull/20864",
+  "number": 20864,
+  "title": "8339573: Update CodeCacheSegmentSize and CodeEntryAlignment for ARM",
+  "head_sha": "0939006df18139c7254852e2034990bcb4b5925d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11217580163"
+}
