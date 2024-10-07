@@ -1,0 +1,14 @@
+{
+  "artifact_2024842566": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-MBaesken-318d8194d10de42368fafd5e71e701e2538b7d11)\nOpenJDK 64-Bit Server VM (build 24-internal-MBaesken-318d8194d10de42368fafd5e71e701e2538b7d11, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-07T17:00:06.390762",
+  "url": "https://github.com/openjdk/jdk/pull/21391",
+  "number": 21391,
+  "title": "8341644: Compile error in cgroup coding when using toolchain clang",
+  "head_sha": "318d8194d10de42368fafd5e71e701e2538b7d11",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11219865439"
+}
