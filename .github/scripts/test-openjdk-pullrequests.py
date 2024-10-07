@@ -266,7 +266,7 @@ def main(context):
                         finally:
                             info(f"  end: {name}")
 
-                def update_to_match_pr_base(repo, builds):
+                def update_to_match_pr_merge_base(repos, builds):
                     """
                     Updates the local clone in `repo` to a revision in a mach5 build where
                     the open jdk revision in the same build is merge base of the PR.
@@ -282,11 +282,13 @@ def main(context):
                         if build["revisions"]["open"] == mbc_sha:
                             newest = build["revisions"]
                     if newest:
-                        info(f"updating {repo} to revision matching the {mbc_desc}")
-                        git(["fetch", "--depth", "1", "origin", newest[repo]], repo=repo)
-                        git(["reset", "--hard", newest[repo]], repo=repo)
+                        info(f"{mbc_desc}")
+                        for repo in repos:
+                            git(["fetch", "--quiet", "--depth", "1", "origin", newest[repo]], repo=repo)
+                            git(["reset", "--quiet", "--hard", newest[repo]], repo=repo)
+                            info(f"  updated {repo} to matching revision {newest[repo]}")
                     else:
-                        info(f"no {repo} revision matching the {mbc_desc}")
+                        info(f"no Galahad EE repo revisions matching the {mbc_desc}")
 
                 try:
                     if not Path("graal").exists():
@@ -302,8 +304,7 @@ def main(context):
                         # Clean
                         run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
 
-                    update_to_match_pr_base("graal", builds)
-                    update_to_match_pr_base("mx", builds)
+                    update_to_match_pr_merge_base(["graal", "mx"], builds)
 
                     # Build libgraal
                     run_step("build", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"])
