@@ -222,6 +222,7 @@ def main(context):
 
                 artifact_test_record["java_home"] = str(java_home)
                 artifact_test_record["java_version_output"] = subprocess.run([str(java_exe), "--version"], capture_output=True, text=True).stdout.strip()
+                info(f" Output of `java --version`:\n{artifact_test_record["java_version_output"]}")
 
                 def run_step(name, cmd, **kwargs):
                     assert "capture_output" not in kwargs
