@@ -1,0 +1,22 @@
+{
+  "artifact_2023197723": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-Hamlin-Li-554342621fe1d5aa256ecd72cf2ae9a92f4ea4a9)\nOpenJDK 64-Bit Server VM (build 24-internal-Hamlin-Li-554342621fe1d5aa256ecd72cf2ae9a92f4ea4a9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0bd263d1144788e05b7f7dca7dbe1e3c8876f19b.json",
+    "0f9175616c51254a99b74dbda5df7adc9109efd4.json",
+    "26a6807146a19bf51803409b4af4d96076d6321d.json",
+    "32eb54d5001b0ea1f847cbcf5b134eb3596c86f7.json",
+    "7719b5cfd24c630bbdfdb8411e88955154540eae.json",
+    "f190709a92dcd72b303fc739d7329824ac814e42.json",
+    "f879fa2cfc033958ceccc0126474ec01026a6629.json"
+  ],
+  "datetime": "2024-10-07T10:40:31.480144",
+  "url": "https://github.com/openjdk/jdk/pull/21083",
+  "number": 21083,
+  "title": "8320500: [vectorapi] RISC-V: Optimize vector math operations with SLEEF",
+  "head_sha": "554342621fe1d5aa256ecd72cf2ae9a92f4ea4a9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11213566212"
+}
