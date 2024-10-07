@@ -278,14 +278,15 @@ def main(context):
 
                         # Clone graal
                         run_step("clone_graal", ["gh", "repo", "clone", "oracle/graal", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
-                        update_to_match_pr_base("graal", builds)
 
                         # Clone mx
                         run_step("clone_mx", ["gh", "repo", "clone", "graalvm/mx", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
-                        update_to_match_pr_base("mx", builds)
                     else:
                         # Clean
                         run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
+
+                    update_to_match_pr_base("graal", builds)
+                    update_to_match_pr_base("mx", builds)
 
                     # Build libgraal
                     run_step("build", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"])
