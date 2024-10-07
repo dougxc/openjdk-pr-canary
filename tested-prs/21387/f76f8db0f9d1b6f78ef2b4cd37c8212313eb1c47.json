@@ -1,0 +1,14 @@
+{
+  "artifact_2023532642": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-parttimenerd-f76f8db0f9d1b6f78ef2b4cd37c8212313eb1c47)\nOpenJDK 64-Bit Server VM (build 24-internal-parttimenerd-f76f8db0f9d1b6f78ef2b4cd37c8212313eb1c47, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-07T12:00:20.314458",
+  "url": "https://github.com/openjdk/jdk/pull/21387",
+  "number": 21387,
+  "title": "8336401: Remove the option onjcmd from the jdwp agent",
+  "head_sha": "f76f8db0f9d1b6f78ef2b4cd37c8212313eb1c47",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11214837612"
+}
