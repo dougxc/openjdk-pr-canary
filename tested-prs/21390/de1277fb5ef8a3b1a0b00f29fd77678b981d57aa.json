@@ -1,0 +1,14 @@
+{
+  "artifact_2024287422": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tschatzl-de1277fb5ef8a3b1a0b00f29fd77678b981d57aa)\nOpenJDK 64-Bit Server VM (build 24-internal-tschatzl-de1277fb5ef8a3b1a0b00f29fd77678b981d57aa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-07T14:32:41.645816",
+  "url": "https://github.com/openjdk/jdk/pull/21390",
+  "number": 21390,
+  "title": "8341643: G1: Merged cards counter skewed by merge cards cache",
+  "head_sha": "de1277fb5ef8a3b1a0b00f29fd77678b981d57aa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11217580163"
+}
