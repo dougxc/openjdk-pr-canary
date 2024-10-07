@@ -1,0 +1,14 @@
+{
+  "artifact_2024973961": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sendaoYan-9db036665068e39d715004044fe8633b3f812e47)\nOpenJDK 64-Bit Server VM (build 24-internal-sendaoYan-9db036665068e39d715004044fe8633b3f812e47, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-07T16:38:53.662195",
+  "url": "https://github.com/openjdk/jdk/pull/21393",
+  "number": 21393,
+  "title": "8341658: RISC-V: Test DateFormatProviderTest.java run timeouted",
+  "head_sha": "9db036665068e39d715004044fe8633b3f812e47",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11219865439"
+}
