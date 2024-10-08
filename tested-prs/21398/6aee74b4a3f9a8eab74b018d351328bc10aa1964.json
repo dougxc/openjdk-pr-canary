@@ -1,0 +1,14 @@
+{
+  "artifact_2026916879": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-DamonGuy-6aee74b4a3f9a8eab74b018d351328bc10aa1964)\nOpenJDK 64-Bit Server VM (build 24-internal-DamonGuy-6aee74b4a3f9a8eab74b018d351328bc10aa1964, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-08T02:08:50.429906",
+  "url": "https://github.com/openjdk/jdk/pull/21398",
+  "number": 21398,
+  "title": "8340173: Open source some Component/Panel/EventQueue tests - Set2",
+  "head_sha": "6aee74b4a3f9a8eab74b018d351328bc10aa1964",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11227056754"
+}
