@@ -21834,6 +21834,19 @@
         ]
     },
     {
+        "id": "jdk-24+19-2193",
+        "revisions": {
+            ".": "ca9f1394f18c270ef7b2ab265ae9e2589160056a",
+            "open": "7312eea382eed048b6abdb6409c006fc8e8f45b4",
+            "graal-enterprise": "067efba2f494432e6768db3ba0c7818d700572b2",
+            "graal": "cba62229922eecff167c52eb37b325c62bd9a6d4",
+            "mx": "48d531c855cfc3f18f325fb869fc9b26e6c485a8"
+        },
+        "aliases": [
+            "jdk-24-2193"
+        ]
+    },
+    {
         "id": "jdk-24+2-100",
         "revisions": {
             ".": "17112d7753ed970f1080606c224d86d319852457",
