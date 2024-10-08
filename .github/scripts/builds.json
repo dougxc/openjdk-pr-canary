@@ -21600,6 +21600,19 @@
         ]
     },
     {
+        "id": "jdk-24+19-2177",
+        "revisions": {
+            "open": "ffb60e55cd77a92d19e1fde305f5d204b9fae429",
+            "graal": "40cb3afbb16dc2d2a3ee37ee7ab65b93e6b4674a",
+            ".": "964b1d951e3819806e66b80edf9cc2e6fe852973",
+            "graal-enterprise": "d6d79e637ff46fdf0792e2e7ed1cc1b11286ab69",
+            "mx": "48d531c855cfc3f18f325fb869fc9b26e6c485a8"
+        },
+        "aliases": [
+            "jdk-24-2177"
+        ]
+    },
+    {
         "id": "jdk-24+2-100",
         "revisions": {
             ".": "17112d7753ed970f1080606c224d86d319852457",
