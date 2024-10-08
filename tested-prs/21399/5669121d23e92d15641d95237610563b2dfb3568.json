@@ -1,0 +1,14 @@
+{
+  "artifact_2026873120": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-5669121d23e92d15641d95237610563b2dfb3568)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-5669121d23e92d15641d95237610563b2dfb3568, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-08T01:57:27.230532",
+  "url": "https://github.com/openjdk/jdk/pull/21399",
+  "number": 21399,
+  "title": "Optimize InnerClassLambdaMetafactory initialization",
+  "head_sha": "5669121d23e92d15641d95237610563b2dfb3568",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11227056754"
+}
