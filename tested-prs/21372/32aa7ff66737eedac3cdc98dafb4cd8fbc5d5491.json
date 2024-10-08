@@ -1,0 +1,16 @@
+{
+  "artifact_2027442600": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-azvegint-32aa7ff66737eedac3cdc98dafb4cd8fbc5d5491)\nOpenJDK 64-Bit Server VM (build 24-internal-azvegint-32aa7ff66737eedac3cdc98dafb4cd8fbc5d5491, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a850102495fcbc38fec18cf1bb0e0e79336a5f64.json"
+  ],
+  "datetime": "2024-10-08T05:20:39.041179",
+  "url": "https://github.com/openjdk/jdk/pull/21372",
+  "number": 21372,
+  "title": "8341447: Open source closed frame tests # 5",
+  "head_sha": "32aa7ff66737eedac3cdc98dafb4cd8fbc5d5491",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11228771387"
+}
