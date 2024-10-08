@@ -129,10 +129,11 @@ def get_merge_base_commit(pr):
 
     See https://stackoverflow.com/a/77447927/6691595
     """
-    repo = pr["head"]["repo"]["full_name"]
+    head_repo = pr["head"]["repo"]["full_name"]
+    base_repo = pr["base"]["repo"]["full_name"]
     head_branch = pr["head"]["ref"]
     base_branch = pr["base"]["ref"]
-    compare = gh_api([f"/repos/{repo}/compare/{base_branch}...{head_branch}"])
+    compare = gh_api([f"/repos/{base_repo}/compare/{base_branch}...{head_repo.replace('/', ':')}:{head_branch}"])
     return compare["merge_base_commit"]
 
 def main(context):
