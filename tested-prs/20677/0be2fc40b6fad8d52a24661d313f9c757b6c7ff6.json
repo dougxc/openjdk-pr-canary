@@ -1,0 +1,17 @@
+{
+  "artifact_2027972564": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-rkennke-0be2fc40b6fad8d52a24661d313f9c757b6c7ff6)\nOpenJDK 64-Bit Server VM (build 24-internal-rkennke-0be2fc40b6fad8d52a24661d313f9c757b6c7ff6, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "17f8eb5424ace41d4f3b94fad9121d474306cc08.json"
+  ],
+  "datetime": "2024-10-08T08:48:17.816572",
+  "url": "https://github.com/openjdk/jdk/pull/20677",
+  "number": 20677,
+  "title": "8305895: Implement JEP 450: Compact Object Headers (Experimental)",
+  "head_sha": "0be2fc40b6fad8d52a24661d313f9c757b6c7ff6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11231557413"
+}
