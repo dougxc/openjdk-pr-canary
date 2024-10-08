@@ -1,0 +1,17 @@
+{
+  "artifact_2027463801": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-rsunderbabu-4b3bba2568c601fa9a03908e604573a7e0ba6e7a)\nOpenJDK 64-Bit Server VM (build 24-internal-rsunderbabu-4b3bba2568c601fa9a03908e604573a7e0ba6e7a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "04546b5dd7bf8ce1bdad7beb4ccb92b864cea8c7.json",
+    "897ba0f74a4a3b1ec090daa75fbcde63036c765a.json"
+  ],
+  "datetime": "2024-10-08T05:09:57.745178",
+  "url": "https://github.com/openjdk/jdk/pull/21392",
+  "number": 21392,
+  "title": "8341588: Remove CollectionUsageThreshold.java from ProblemList-Xcomp for debugging",
+  "head_sha": "4b3bba2568c601fa9a03908e604573a7e0ba6e7a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11228771387"
+}
