@@ -56,6 +56,8 @@ def info(msg):
     print(f"{timestamp()} {msg}")
 
 def gh_api(args, stdout=None, raw=False):
+    log = Path("results").joinpath("logs", "github_api.log")
+    log.parent.mkdir(parents=True, exist_ok=True)
     cmd = ["gh", "api"] + _gh_api_headers + args
     quoted_cmd = ' '.join(map(shlex.quote, cmd))
     if stdout:
@@ -66,6 +68,8 @@ def gh_api(args, stdout=None, raw=False):
         remaining_attempts = 3
     text = stdout is None or 'b' not in stdout.mode
     while True:
+        with log.open("at") as fp:
+            print(f"Command: {quoted_cmd}", file=fp)
         p = subprocess.run(cmd, text=text, capture_output=stdout is None, check=False, stdout=stdout)
         remaining_attempts -= 1
         if p.returncode != 0:
@@ -79,6 +83,8 @@ def gh_api(args, stdout=None, raw=False):
 
     if raw or stdout:
         return p.stdout
+    with log.open("at") as fp:
+        print(f"Stdout: {p.stdout}", file=fp)
     return json.loads(p.stdout)
 
 def git(args, capture_output=False, repo=None):
