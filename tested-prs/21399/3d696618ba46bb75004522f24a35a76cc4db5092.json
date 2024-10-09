@@ -1,0 +1,20 @@
+{
+  "artifact_2032994919": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-3d696618ba46bb75004522f24a35a76cc4db5092)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-3d696618ba46bb75004522f24a35a76cc4db5092, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "191bba086a54ac88d8ffa6b3c0ce5b2ad018cfaa.json",
+    "1a0031501bf02931f5538405464885086a9fcfff.json",
+    "5669121d23e92d15641d95237610563b2dfb3568.json",
+    "96244330f51aa8823c2a50b0b4a4996ade8c243e.json",
+    "f905cc67e7fa73fdb48ceb8f546500183578ef25.json"
+  ],
+  "datetime": "2024-10-09T04:59:34.969587",
+  "url": "https://github.com/openjdk/jdk/pull/21399",
+  "number": 21399,
+  "title": "8341755: Optimize argNames in InnerClassLambdaMetafactory",
+  "head_sha": "3d696618ba46bb75004522f24a35a76cc4db5092",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11248425357"
+}
