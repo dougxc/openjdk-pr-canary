@@ -5760,6 +5760,19 @@
         ]
     },
     {
+        "id": "jdk-23.0.2+1-38",
+        "revisions": {
+            "graal": "e4b575df2c806a369953a72eb460e0f9ac54f852",
+            ".": "23ded49481f92f3647d1365596f85005df4fc60b",
+            "graal-enterprise": "99267ec1131891fa8d45292f7b7fd62d40727e45",
+            "mx": "12267ad74f153edd728d7b92a3d176a5e05b6ae6",
+            "open": "efefa5975a9e4b4482cf0d05a9d173f023a0d1fb"
+        },
+        "aliases": [
+            "jdk-23.0.2-38"
+        ]
+    },
+    {
         "id": "jdk-24+1-1",
         "revisions": {
             "mx": "12267ad74f153edd728d7b92a3d176a5e05b6ae6",
