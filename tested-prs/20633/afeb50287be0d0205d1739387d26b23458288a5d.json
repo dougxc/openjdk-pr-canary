@@ -1,0 +1,15 @@
+{
+  "artifact_2032408890": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-smita-kamath-afeb50287be0d0205d1739387d26b23458288a5d)\nOpenJDK 64-Bit Server VM (build 24-internal-smita-kamath-afeb50287be0d0205d1739387d26b23458288a5d, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-10-09T02:15:02.660957",
+  "url": "https://github.com/openjdk/jdk/pull/20633",
+  "number": 20633,
+  "title": "8341052: SHA-512 implementation using SHA-NI",
+  "head_sha": "afeb50287be0d0205d1739387d26b23458288a5d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11246716375"
+}
