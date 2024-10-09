@@ -43,6 +43,21 @@ _starttime = time.time()
 #: Name of OpenJDK artifact to test
 _artifact_to_test = "bundles-linux-x64"
 
+def colorize(msg, color):
+    # https://en.wikipedia.org/wiki/ANSI_escape_code#Colors
+    ansi_color_table = {
+        "black": "30",
+        "red": "31",
+        "green": "32",
+        "yellow": "33",
+        "blue": "34",
+        "magenta": "35",
+        "cyan": "36",
+    }
+    # Make it bright with `;1`
+    code = f"{ansi_color_table[color]};1"
+    return f"\033[{code}m{msg}\033[0m"
+
 def timestamp():
     duration = timedelta(seconds=time.time() - _starttime)
     # Strip microseconds and convert to a string
@@ -52,7 +67,11 @@ def timestamp():
         duration = duration[2:]
     return time.strftime('%Y-%m-%d %H:%M:%S') + '(+{})'.format(duration)
 
-def info(msg):
+COLOR_WARN = "magenta"
+COLOR_ERROR = "red"
+def info(msg, color=None):
+    if color:
+        msg = colorize(msg, color)
     print(f"{timestamp()} {msg}")
 
 def gh_api(args, stdout=None, raw=False):
@@ -77,7 +96,7 @@ def gh_api(args, stdout=None, raw=False):
             if remaining_attempts == 0:
                 raise Exception(err_msg)
             else:
-                info(f"warning: {err_msg}")
+                info(f"warning: {err_msg}", COLOR_WARN)
         else:
             break
 
@@ -180,7 +199,7 @@ def main(context):
         try:
             git(["fetch"])
         except Exception as e:
-            info("fetching upstream changes failed")
+            info("fetching upstream changes failed", COLOR_WARN)
 
         # Skip testing if the head commit has already been tested by looking
         # for the test record in the remote
@@ -229,7 +248,7 @@ def main(context):
                 archive.unlink()
 
                 # Print a bright green line to separate output for each tested PR
-                info("\033[32;1m--------------------------------------------------------------------------------------\033[0m")
+                info("--------------------------------------------------------------------------------------", "green")
                 info(f"processing {pr['html_url']} ({head_sha}) - {pr['title']}")
                 merge_base_commit = get_merge_base_commit(pr)
                 
@@ -265,7 +284,7 @@ def main(context):
                             subprocess.run(cmd, **kwargs)
                         except subprocess.CalledProcessError as e:
                             quoted_cmd = ' '.join(map(shlex.quote, cmd))
-                            info(f"non-zero exit code {e.returncode} for step '{name}': " + quoted_cmd)
+                            info(f"non-zero exit code {e.returncode} for step '{name}': " + quoted_cmd, COLOR_ERROR)
                             artifact_test_record["failed_step"] = name
                             test_record["status"] = "failed"
                             pr["failed_step_log"] = str(log_path)
@@ -297,7 +316,7 @@ def main(context):
                             git(["reset", "--quiet", "--hard", newest[repo]], repo=repo)
                             info(f"  updated {repo} to matching revision {newest[repo]}")
                     else:
-                        info(f"no Galahad EE repo revisions matching the {mbc_desc}")
+                        info(f"no Galahad EE repo revisions matching the {mbc_desc}", COLOR_WARN)
 
                 try:
                     if not Path("graal").exists():
@@ -371,12 +390,12 @@ def main(context):
         try:
             git(["pull"])
         except Exception as e:
-            info("pulling upstream changes failed")
+            info("pulling upstream changes failed", COLOR_WARN)
 
         for test_record in test_records:
             test_record_path = get_test_record_path(test_record)
             if test_record_path.exists():
-                info(f"overwriting previous test record in {test_record_path}")
+                info(f"overwriting previous test record in {test_record_path}", COLOR_WARN)
             else:
                 test_record_path.parent.mkdir(parents=True, exist_ok=True)
             test_record_path.write_text(json.dumps(test_record, indent=2))
@@ -388,7 +407,7 @@ def main(context):
             git(["push", "--quiet"])         
         except Exception as e:
             # Can fail if other commits were pushed in between
-            info("pushing pull request test records failed")
+            info("pushing pull request test records failed", COLOR_WARN)
 
     with Path(os.environ["GITHUB_STEP_SUMMARY"]).open("w") as summary:
         print(f"## Summary of testing OpenJDK pull requests on libgraal", file=summary)
