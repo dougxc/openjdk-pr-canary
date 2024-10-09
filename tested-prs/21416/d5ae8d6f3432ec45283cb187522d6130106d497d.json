@@ -1,0 +1,14 @@
+{
+  "artifact_2032401574": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-justin-curtis-lu-d5ae8d6f3432ec45283cb187522d6130106d497d)\nOpenJDK 64-Bit Server VM (build 24-internal-justin-curtis-lu-d5ae8d6f3432ec45283cb187522d6130106d497d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-09T01:56:01.176554",
+  "url": "https://github.com/openjdk/jdk/pull/21416",
+  "number": 21416,
+  "title": "8341684: Typo in External Specifications link of java.util.Currency",
+  "head_sha": "d5ae8d6f3432ec45283cb187522d6130106d497d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11246716375"
+}
