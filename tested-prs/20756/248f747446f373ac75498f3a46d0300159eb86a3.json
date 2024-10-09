@@ -1,0 +1,19 @@
+{
+  "artifact_2036518961": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-248f747446f373ac75498f3a46d0300159eb86a3)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-248f747446f373ac75498f3a46d0300159eb86a3, mixed mode, sharing)",
+    "failed_step": "test"
+  },
+  "status": "failed",
+  "history": [
+    "59102d5056269dffbe878a80be0b784649641a55.json",
+    "a321f9a36a7d4186e893370f84e053de6f8d3692.json",
+    "b647a4b5f73507744dfd02d58c801692a4d9e87a.json"
+  ],
+  "datetime": "2024-10-09T18:51:03.435024",
+  "url": "https://github.com/openjdk/jdk/pull/20756",
+  "number": 20756,
+  "title": "8339205: Optimize StackMapGenerator",
+  "head_sha": "248f747446f373ac75498f3a46d0300159eb86a3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11260311878"
+}
