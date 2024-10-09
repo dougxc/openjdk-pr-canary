@@ -21941,6 +21941,19 @@
         ]
     },
     {
+        "id": "jdk-24+19-2201",
+        "revisions": {
+            "graal-enterprise": "9f8739de681aa669bceb3b3f2a7350cb1de00c71",
+            "graal": "34bf3ac9b33225c87f54e4b362031da264834c13",
+            ".": "ca9f1394f18c270ef7b2ab265ae9e2589160056a",
+            "open": "de90204b60c408ef258a2d2515ad252de4b23536",
+            "mx": "48d531c855cfc3f18f325fb869fc9b26e6c485a8"
+        },
+        "aliases": [
+            "jdk-24-2201"
+        ]
+    },
+    {
         "id": "jdk-24+2-100",
         "revisions": {
             ".": "17112d7753ed970f1080606c224d86d319852457",
