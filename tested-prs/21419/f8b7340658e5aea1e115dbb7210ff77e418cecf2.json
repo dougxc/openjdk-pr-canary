@@ -1,0 +1,14 @@
+{
+  "artifact_2033757832": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jatin-bhateja-f8b7340658e5aea1e115dbb7210ff77e418cecf2)\nOpenJDK 64-Bit Server VM (build 24-internal-jatin-bhateja-f8b7340658e5aea1e115dbb7210ff77e418cecf2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-09T09:02:05.021050",
+  "url": "https://github.com/openjdk/jdk/pull/21419",
+  "number": 21419,
+  "title": "8341832: Incorrect continuation address of synthetic SIGSEGV for APX in product builds",
+  "head_sha": "f8b7340658e5aea1e115dbb7210ff77e418cecf2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11251518366"
+}
