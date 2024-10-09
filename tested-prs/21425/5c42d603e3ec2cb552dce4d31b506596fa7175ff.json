@@ -1,0 +1,14 @@
+{
+  "artifact_2036414142": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-5c42d603e3ec2cb552dce4d31b506596fa7175ff)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-5c42d603e3ec2cb552dce4d31b506596fa7175ff, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-09T18:11:54.234663",
+  "url": "https://github.com/openjdk/jdk/pull/21425",
+  "number": 21425,
+  "title": "8341859: Optimize ClassFile Benchmark Write",
+  "head_sha": "5c42d603e3ec2cb552dce4d31b506596fa7175ff",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11260311878"
+}
