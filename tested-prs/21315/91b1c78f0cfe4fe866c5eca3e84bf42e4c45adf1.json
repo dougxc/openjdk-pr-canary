@@ -1,0 +1,17 @@
+{
+  "artifact_2032236902": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-justin-curtis-lu-91b1c78f0cfe4fe866c5eca3e84bf42e4c45adf1)\nOpenJDK 64-Bit Server VM (build 24-internal-justin-curtis-lu-91b1c78f0cfe4fe866c5eca3e84bf42e4c45adf1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9bcf8996bd54e7c84805b87e6c489cb976db37a2.json",
+    "bd6b021cc84034d55eb6d262ade7ea19e520c1fe.json"
+  ],
+  "datetime": "2024-10-08T23:54:57.042961",
+  "url": "https://github.com/openjdk/jdk/pull/21315",
+  "number": 21315,
+  "title": "8341445: DecimalFormatSymbols setters should throw NPE",
+  "head_sha": "91b1c78f0cfe4fe866c5eca3e84bf42e4c45adf1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11245290530"
+}
