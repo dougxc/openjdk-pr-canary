@@ -30,7 +30,7 @@ def main():
 
         for build in get_builds():
             if key_is_revision:
-                if any((key == value) for value in build["revisions"].values()):
+                if any((key in value) for value in build["revisions"].values()):
                     matches.append(build)
             elif key == build["id"] or key in build.get("aliases", []):
                 matches.append(build)

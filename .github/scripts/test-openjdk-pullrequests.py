@@ -307,14 +307,15 @@ def main(context):
                     mbc_url = merge_base_commit["html_url"]
                     mbc_desc = f"PR merge base revision [{mbc_sha}]({mbc_url})"
                     for build in sorted(builds, key=lambda b: b["id"]):
-                        if build["revisions"]["open"] == mbc_sha:
+                        if mbc_sha in build["revisions"]["open"]:
                             newest = build["revisions"]
                     if newest:
                         info(f"{mbc_desc}")
                         for repo in repos:
-                            git(["fetch", "--quiet", "--depth", "1", "origin", newest[repo]], repo=repo)
-                            git(["reset", "--quiet", "--hard", newest[repo]], repo=repo)
-                            info(f"  updated {repo} to matching revision {newest[repo]}")
+                            rev = newest[repo][0]
+                            git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo=repo)
+                            git(["reset", "--quiet", "--hard", rev], repo=repo)
+                            info(f"  updated {repo} to matching revision {rev}")
                     else:
                         info(f"no Galahad EE repo revisions matching the {mbc_desc}", COLOR_WARN)
 
