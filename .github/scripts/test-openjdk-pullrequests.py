@@ -222,6 +222,8 @@ def main(context):
                             Path(filename).unlink()
                 archive.unlink()
 
+                # Print a bright green line to separate output for each tested PR
+                info("\033[32;1m--------------------------------------------------------------------------------------\033[0m")
                 info(f"processing {pr['html_url']} ({head_sha}) - {pr['title']}")
                 merge_base_commit = get_merge_base_commit(pr)
                 
