@@ -1,0 +1,18 @@
+{
+  "artifact_2033679615": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-MBaesken-0ada81d1ce15d5be950d84cd0b688ab7f262f057)\nOpenJDK 64-Bit Server VM (build 24-internal-MBaesken-0ada81d1ce15d5be950d84cd0b688ab7f262f057, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a2f89ecfc06f637aa7e373ddd62aea8fe26a7aaf.json",
+    "cfbf904b90ff9e8c15c56eda201227cd2858a68a.json",
+    "fb17d1bc0c5f1ad91963f8766766019e0cfea291.json"
+  ],
+  "datetime": "2024-10-09T08:43:03.712245",
+  "url": "https://github.com/openjdk/jdk/pull/21184",
+  "number": 21184,
+  "title": "8340801: Disable ubsan checks in some awt/2d coding",
+  "head_sha": "0ada81d1ce15d5be950d84cd0b688ab7f262f057",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11251157259"
+}
