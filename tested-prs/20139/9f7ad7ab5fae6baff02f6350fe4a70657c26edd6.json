@@ -1,0 +1,18 @@
+{
+  "artifact_2033920571": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-9f7ad7ab5fae6baff02f6350fe4a70657c26edd6)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-9f7ad7ab5fae6baff02f6350fe4a70657c26edd6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4fe4a911362dda90a64af74bf94fc05506b584f1.json",
+    "c3338302ecdefa2b1edf3f83d7917b1fac003bf2.json",
+    "cf808b9a0b46c5ea9598f53a709f62c539d2dcc6.json"
+  ],
+  "datetime": "2024-10-09T09:48:17.356997",
+  "url": "https://github.com/openjdk/jdk/pull/20139",
+  "number": 20139,
+  "title": "8329597: C2: Intrinsify Reference.clear",
+  "head_sha": "9f7ad7ab5fae6baff02f6350fe4a70657c26edd6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11252091545"
+}
