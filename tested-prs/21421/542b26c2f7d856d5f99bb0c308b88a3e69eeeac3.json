@@ -1,0 +1,14 @@
+{
+  "artifact_2034728756": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sendaoYan-542b26c2f7d856d5f99bb0c308b88a3e69eeeac3)\nOpenJDK 64-Bit Server VM (build 24-internal-sendaoYan-542b26c2f7d856d5f99bb0c308b88a3e69eeeac3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-09T12:55:17.664772",
+  "url": "https://github.com/openjdk/jdk/pull/21421",
+  "number": 21421,
+  "title": "8341806: Gcc version detection failure on Alinux3",
+  "head_sha": "542b26c2f7d856d5f99bb0c308b88a3e69eeeac3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11255204586"
+}
