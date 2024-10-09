@@ -1,0 +1,18 @@
+{
+  "artifact_2033473124": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-f23182636ec13a2e7aaf3f0f64fb20bffe35ca7e)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-f23182636ec13a2e7aaf3f0f64fb20bffe35ca7e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5f2c4a5f77a52b6879cb2fd322fdd729201afff8.json",
+    "65c2ec8f481307856da7ef4e129c567294402316.json",
+    "b045f29824b99a89de54485d1e955f2b445fa716.json"
+  ],
+  "datetime": "2024-10-09T08:07:10.304575",
+  "url": "https://github.com/openjdk/jdk/pull/21380",
+  "number": 21380,
+  "title": "8341134: Deprecate for removal the jrunscript tool",
+  "head_sha": "f23182636ec13a2e7aaf3f0f64fb20bffe35ca7e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11250627545"
+}
