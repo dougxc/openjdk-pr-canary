@@ -62303,5 +62303,29 @@
 		"aliases": [
 			"jdk-24-2231"
 		]
+	},
+	{
+		"id": "jdk-24+19-2232",
+		"revisions": {
+			".": [
+				"b3dbb35d34b46450f660ee35d46aff229b30715d"
+			],
+			"open": [
+				"16042556f394adfa93e54173944198397ad29dea"
+			],
+			"graal-enterprise": [
+				"bb63e637af6e71d84eedf984ba11ca6e1829183c",
+				"0d4cbe2d6970d6585b1456b2c6dae40cd42538e3"
+			],
+			"graal": [
+				"87d11bb0a73bd03f26be79a89e924e25753c563f"
+			],
+			"mx": [
+				"48d531c855cfc3f18f325fb869fc9b26e6c485a8"
+			]
+		},
+		"aliases": [
+			"jdk-24-2232"
+		]
 	}
 ]
