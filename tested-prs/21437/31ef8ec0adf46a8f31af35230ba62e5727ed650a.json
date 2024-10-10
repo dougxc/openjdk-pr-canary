@@ -1,0 +1,14 @@
+{
+  "artifact_2037930246": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-31ef8ec0adf46a8f31af35230ba62e5727ed650a)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-31ef8ec0adf46a8f31af35230ba62e5727ed650a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-10T01:56:16.375895",
+  "url": "https://github.com/openjdk/jdk/pull/21437",
+  "number": 21437,
+  "title": "Optimize ClassFile writing BufBuffer",
+  "head_sha": "31ef8ec0adf46a8f31af35230ba62e5727ed650a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11265943385"
+}
