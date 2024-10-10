@@ -316,8 +316,13 @@ def main(context):
                             git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo=repo)
                             git(["reset", "--quiet", "--hard", rev], repo=repo)
                             info(f"  updated {repo} to matching revision {rev}")
+                        return True
                     else:
-                        info(f"no Galahad EE repo revisions matching the {mbc_desc}", COLOR_WARN)
+                        info(f"no Galahad EE repo revisions matching the {mbc_desc}", COLOR_ERROR)
+                        test_record["status"] = "failed"
+                        failed_pull_requests.append(pr)
+                        pr["__test_record"] = test_record
+                        return False
 
                 try:
                     if not Path("graal").exists():
@@ -333,22 +338,22 @@ def main(context):
                         # Clean
                         run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
 
-                    update_to_match_pr_merge_base(["graal", "mx"], builds)
+                    if update_to_match_pr_merge_base(["graal", "mx"], builds):
 
-                    # Build libgraal
-                    run_step("build", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"])
+                        # Build libgraal
+                        run_step("build", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"])
 
-                    # Test libgraal
-                    tasks = [
-                        "LibGraal Compiler:Basic",
-                        "LibGraal Compiler:FatalErrorHandling",
-                        "LibGraal Compiler:SystemicFailureDetection",
-                        "LibGraal Compiler:CTW",
-                        "LibGraal Compiler:DaCapo"
-                    ]
-                    run_step("test", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)])
+                        # Test libgraal
+                        tasks = [
+                            "LibGraal Compiler:Basic",
+                            "LibGraal Compiler:FatalErrorHandling",
+                            "LibGraal Compiler:SystemicFailureDetection",
+                            "LibGraal Compiler:CTW",
+                            "LibGraal Compiler:DaCapo"
+                        ]
+                        run_step("test", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)])
 
-                    test_record["status"] = "passed"
+                        test_record["status"] = "passed"
                 except subprocess.CalledProcessError as e:
                     pass
 
@@ -419,10 +424,10 @@ def main(context):
             print(f"Failures for these pull requests:", file=summary)
             with Path("failure_logs").open("w") as fp:
                 for pr in failed_pull_requests:
-                    failed_step_log = pr['failed_step_log']
-                    print(failed_step_log, file=fp)
+                    failed_step_log = pr.get("failed_step_log", None)
+                    if failed_step_log: print(failed_step_log, file=fp)
                     print(f"* [#{pr['number']} - \"{pr['title']}\"]({pr['html_url']})", file=summary)
-                    print(f"  log: {failed_step_log}", file=summary)
+                    if failed_step_log: print(f"  log: {failed_step_log}", file=summary)
                     history = pr["__test_record"]["history"]
                     if history:
                         history_objs = [load_history(pr, name) for name in history]
