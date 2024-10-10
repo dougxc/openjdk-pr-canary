@@ -1,0 +1,14 @@
+{
+  "artifact_2038371920": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-84ceb0ee3756dfc7119d5c4e61e1a6eb5e6184ab)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-84ceb0ee3756dfc7119d5c4e61e1a6eb5e6184ab, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-10T04:37:28.447955",
+  "url": "https://github.com/openjdk/jdk/pull/21440",
+  "number": 21440,
+  "title": "Optimize DirectCodeBuilder writeBody",
+  "head_sha": "84ceb0ee3756dfc7119d5c4e61e1a6eb5e6184ab",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11267424033"
+}
