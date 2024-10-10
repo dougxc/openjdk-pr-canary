@@ -318,11 +318,22 @@ def main(context):
                             info(f"  updated {repo} to matching revision {rev}")
                         return True
                     else:
-                        info(f"no Galahad EE repo revisions matching the {mbc_desc}", COLOR_ERROR)
-                        test_record["status"] = "failed"
-                        failed_pull_requests.append(pr)
-                        pr["__test_record"] = test_record
-                        return False
+                        commit_date = merge_base_commit["commit"]["committer"]["date"]
+                        delta = datetime.now() - datetime.fromisoformat(commit_date)
+                        age_in_hours = delta.total_seconds() / 60 / 60
+                        if age_in_hours <= 24:
+                            # This typically happens when a PR merges in the HEAD from master and
+                            # this commit has not yet been included in a CI build. We speculate
+                            # that the HEAD of graal and mx is compatible with master HEAD.
+                            info(f"no Galahad EE repo revisions matching the {mbc_desc} but it's less " \
+                                  "than 24 hours old so there's a good chance the HEAD of graal and mx are compatible", COLOR_WARN)
+                            return True
+                        else:
+                            info(f"no Galahad EE repo revisions matching the {mbc_desc}", COLOR_ERROR)
+                            test_record["status"] = "failed"
+                            failed_pull_requests.append(pr)
+                            pr["__test_record"] = test_record
+                            return False
 
                 try:
                     if not Path("graal").exists():
