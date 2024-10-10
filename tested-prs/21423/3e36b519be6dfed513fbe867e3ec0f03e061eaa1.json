@@ -1,0 +1,16 @@
+{
+  "artifact_2040885377": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-rsunderbabu-3e36b519be6dfed513fbe867e3ec0f03e061eaa1)\nOpenJDK 64-Bit Server VM (build 24-internal-rsunderbabu-3e36b519be6dfed513fbe867e3ec0f03e061eaa1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "75001218022f43384f5c0f33a01305935920f037.json"
+  ],
+  "datetime": "2024-10-10T15:37:35.962946",
+  "url": "https://github.com/openjdk/jdk/pull/21423",
+  "number": 21423,
+  "title": "8341138: Rename jtreg property docker.support as container.support",
+  "head_sha": "3e36b519be6dfed513fbe867e3ec0f03e061eaa1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11277108917"
+}
