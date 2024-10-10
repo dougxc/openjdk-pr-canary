@@ -1,0 +1,14 @@
+{
+  "artifact_2038994478": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sendaoYan-97db2c9d288ef4bd809c936508c05e52f66e885d)\nOpenJDK 64-Bit Server VM (build 24-internal-sendaoYan-97db2c9d288ef4bd809c936508c05e52f66e885d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-10T08:40:13.218802",
+  "url": "https://github.com/openjdk/jdk/pull/21442",
+  "number": 21442,
+  "title": "8341880: RISC-V: riscv_vector.h native build fails with gcc13 after JDK-8320500",
+  "head_sha": "97db2c9d288ef4bd809c936508c05e52f66e885d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11270294415"
+}
