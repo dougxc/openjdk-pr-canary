@@ -1,0 +1,16 @@
+{
+  "artifact_2037927538": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-nizarbenalla-d4dc02fef141c40ec5f6b70a2aab9453cef3d841)\nOpenJDK 64-Bit Server VM (build 24-internal-nizarbenalla-d4dc02fef141c40ec5f6b70a2aab9453cef3d841, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8dbe35d057436092b1ce414777ec2cd185a87466.json"
+  ],
+  "datetime": "2024-10-10T02:41:24.167051",
+  "url": "https://github.com/openjdk/jdk/pull/21272",
+  "number": 21272,
+  "title": "8340818: Add a new jtreg test root to test the generated documentation",
+  "head_sha": "d4dc02fef141c40ec5f6b70a2aab9453cef3d841",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11265943385"
+}
