@@ -399,7 +399,7 @@ def main(context):
             else:
                 test_record["history"] = []
 
-            test_record["datetime"] = datetime.now().isoformat()
+            test_record["datetime"] = datetime.now(timezone.utc).isoformat()
             test_record["url"] = pr["html_url"]
             test_record["number"] = pr["number"]
             test_record["title"] = pr["title"]
