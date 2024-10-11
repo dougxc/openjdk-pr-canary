@@ -118,7 +118,8 @@ def git(args, capture_output=False, repo=None):
     if p.returncode != 0:
         quoted_cmd = " ".join(map(shlex.quote, cmd))
         stdout = f"\nstdout: {p.stdout}" if capture_output else ""
-        raise Exception(f"non-zero exit code {p.returncode}: {quoted_cmd}{stdout}")
+        stderr = f"\nstderr: {p.stderr}" if capture_output else ""
+        raise Exception(f"non-zero exit code {p.returncode}: {quoted_cmd}{stdout}{stderr}")
     return p.stdout
 
 
