@@ -62,29 +62,33 @@ def timestamp():
     # Strip microseconds and convert to a string
     duration = str(duration - timedelta(microseconds=duration.microseconds))
     # Strip hours if 0
-    if duration.startswith('0:'):
+    if duration.startswith("0:"):
         duration = duration[2:]
-    return time.strftime('%Y-%m-%d %H:%M:%S') + '(+{})'.format(duration)
+    return time.strftime("%Y-%m-%d %H:%M:%S") + "(+{})".format(duration)
+
 
 COLOR_WARN = "magenta"
 COLOR_ERROR = "red"
+
+
 def info(msg, color=None):
     if color:
         msg = colorize(msg, color)
     print(f"{timestamp()} {msg}")
 
+
 def gh_api(args, stdout=None, raw=False):
     log = Path("results").joinpath("logs", "github_api.log")
     log.parent.mkdir(parents=True, exist_ok=True)
     cmd = ["gh", "api"] + _gh_api_headers + args
-    quoted_cmd = ' '.join(map(shlex.quote, cmd))
+    quoted_cmd = " ".join(map(shlex.quote, cmd))
     if stdout:
         quoted_cmd += f" >{stdout.name}"
         # Only attempt a command that redirects to a file once
         remaining_attempts = 1
     else:
         remaining_attempts = 3
-    text = stdout is None or 'b' not in stdout.mode
+    text = stdout is None or "b" not in stdout.mode
     while True:
         with log.open("at") as fp:
             print(f"Command: {quoted_cmd}", file=fp)
@@ -105,6 +109,7 @@ def gh_api(args, stdout=None, raw=False):
         print(f"Stdout: {p.stdout}", file=fp)
     return json.loads(p.stdout)
 
+
 def git(args, capture_output=False, repo=None):
     """
     Runs a git command
@@ -112,10 +117,11 @@ def git(args, capture_output=False, repo=None):
     cmd = ["git", "-C", str(repo or _repo_root)] + args
     p = subprocess.run(cmd, capture_output=capture_output, text=True)
     if p.returncode != 0:
-        quoted_cmd = ' '.join(map(shlex.quote, cmd))
+        quoted_cmd = " ".join(map(shlex.quote, cmd))
         stdout = f"\nstdout: {p.stdout}" if capture_output else ""
         raise Exception(f"non-zero exit code {p.returncode}: {quoted_cmd}{stdout}")
     return p.stdout
+
 
 def check_bundle_naming_assumptions():
     """
@@ -138,16 +144,21 @@ the `expect` variable accordingly:
         {expect}
 """
 
+
 def get_test_record_path(pr):
     head_sha = pr.get("head_sha") if "head_sha" in pr else pr["head"]["sha"]
     return Path("tested-prs").joinpath(str(pr["number"]), f"{head_sha}.json")
 
+
 def load_history(pr, name):
     return json.loads(get_test_record_path(pr).parent.joinpath(name).read_text())
 
-def get_merge_base_commit(pr):
+
+def add_merge_base_commit(pr):
     """
-    Gets a json object describing the merge base commit of `pr`.
+    Gets a json object describing the merge base commit of `pr` and adds it
+    under the key "merge_base_commit" to `pr`.
+
     The sha and URL for the commit are indexed by "sha" and "html_url"
     respectively in the json object.
 
@@ -160,8 +171,53 @@ def get_merge_base_commit(pr):
     compare = gh_api([f"/repos/{base_repo}/compare/{base_branch}...{head_repo.replace('/', ':')}:{head_branch}"])
     return compare["merge_base_commit"]
 
-def main(context):
 
+def update_to_match_pr_merge_base(repos, builds, pr):
+    """
+    Updates the local `repos` to a revision in a mach5 build where
+    the open jdk revision in the same build is the merge base of the PR.
+
+    :returns bool: True if a matching revision was found for all repos, False otherwise
+    """
+
+    # Sort builds by build ids, oldest to newest.
+    # Use the revision from the newest build matching `merge_base_commit`
+    newest = None
+    merge_base_commit = pr["merge_base_commit"]
+    mbc_sha = merge_base_commit["sha"]
+    mbc_url = merge_base_commit["html_url"]
+    mbc_desc = f"PR merge base revision [{mbc_sha}]({mbc_url})"
+    for build in sorted(builds, key=lambda b: b["id"]):
+        if mbc_sha in build["revisions"]["open"]:
+            newest = build["revisions"]
+    if newest:
+        info(f"{mbc_desc}")
+        for repo in repos:
+            rev = newest[repo][0]
+            git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo=repo)
+            git(["reset", "--quiet", "--hard", rev], repo=repo)
+            info(f"  updated {repo} to matching revision {rev}")
+        return True
+    else:
+        commit_date = merge_base_commit["commit"]["committer"]["date"]
+        delta = datetime.now(timezone.utc) - datetime.fromisoformat(commit_date)
+        age_in_hours = delta.total_seconds() / 60 / 60
+        if age_in_hours <= 24:
+            # This typically happens when a PR merges in the HEAD from master and
+            # this commit has not yet been included in a CI build. We speculate
+            # that the HEAD of graal and mx is compatible with master HEAD.
+            info(
+                f"no Galahad EE repo revisions matching the {mbc_desc} but it's less "
+                "than 24 hours old so there's a good chance the HEAD of graal and mx are compatible",
+                COLOR_WARN,
+            )
+            return True
+        else:
+            info(f"no Galahad EE repo revisions matching the {mbc_desc}", COLOR_ERROR)
+            return False
+
+
+def main(context):
     check_bundle_naming_assumptions()
 
     # Map from reason for not testing to listed of untested PRs
@@ -249,8 +305,8 @@ def main(context):
                 # Print a bright green line to separate output for each tested PR
                 info("--------------------------------------------------------------------------------------", "green")
                 info(f"processing {pr['html_url']} ({head_sha}) - {pr['title']}")
-                merge_base_commit = get_merge_base_commit(pr)
-                
+                add_merge_base_commit(pr)
+
                 # Find java executable
                 java_exes = glob.glob("extracted/jdk*/bin/java")
                 assert len(java_exes) == 1, java_exes
@@ -293,47 +349,6 @@ def main(context):
                         finally:
                             info(f"  end: {name}")
 
-                def update_to_match_pr_merge_base(repos, builds):
-                    """
-                    Updates the local clone in `repo` to a revision in a mach5 build where
-                    the open jdk revision in the same build is merge base of the PR.
-                    """
-
-                    # Sort builds by build ids, oldest to newest.
-                    # Use the revision from the newest build matching `merge_base_commit`
-                    newest = None
-                    mbc_sha = merge_base_commit["sha"]
-                    mbc_url = merge_base_commit["html_url"]
-                    mbc_desc = f"PR merge base revision [{mbc_sha}]({mbc_url})"
-                    for build in sorted(builds, key=lambda b: b["id"]):
-                        if mbc_sha in build["revisions"]["open"]:
-                            newest = build["revisions"]
-                    if newest:
-                        info(f"{mbc_desc}")
-                        for repo in repos:
-                            rev = newest[repo][0]
-                            git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo=repo)
-                            git(["reset", "--quiet", "--hard", rev], repo=repo)
-                            info(f"  updated {repo} to matching revision {rev}")
-                        return True
-                    else:
-                        commit_date = merge_base_commit["commit"]["committer"]["date"]
-                        delta = datetime.now(timezone.utc) - datetime.fromisoformat(commit_date)
-                        age_in_hours = delta.total_seconds() / 60 / 60
-                        if age_in_hours <= 24:
-                            # This typically happens when a PR merges in the HEAD from master and
-                            # this commit has not yet been included in a CI build. We speculate
-                            # that the HEAD of graal and mx is compatible with master HEAD.
-                            info(f"no Galahad EE repo revisions matching the {mbc_desc} but it's less " \
-                                  "than 24 hours old so there's a good chance the HEAD of graal and mx are compatible", COLOR_WARN)
-                            return True
-                        else:
-                            info(f"no Galahad EE repo revisions matching the {mbc_desc}", COLOR_ERROR)
-                            test_record["status"] = "failed"
-                            failed_pull_requests.append(pr)
-                            pr["__test_record"] = test_record
-                            return False
-
                 try:
                     if not Path("graal").exists():
                         # Load builds
@@ -348,8 +363,11 @@ def main(context):
                         # Clean
                         run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
 
-                    if update_to_match_pr_merge_base(["graal", "mx"], builds):
-
+                    if not update_to_match_pr_merge_base(["graal", "mx"], builds, pr):
+                        test_record["status"] = "failed"
+                        failed_pull_requests.append(pr)
+                        pr["__test_record"] = test_record
+                    else:
                         # Build libgraal
                         run_step("build", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"])
 
@@ -457,8 +475,8 @@ def post_failure_to_slack(test_record):
     Slack channel for the failure in `test_record`.
     """
 
-    pr_num = test_record['number']
-    pr_commit = test_record['head_sha']
+    pr_num = test_record["number"]
+    pr_commit = test_record["head_sha"]
     pr_url = test_record["url"]
     run_url = test_record["run_url"]
 
