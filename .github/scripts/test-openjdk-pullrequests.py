@@ -394,6 +394,35 @@ def push_test_records(test_records):
         # Can fail if other commits were pushed in between
         info("pushing pull request test records failed", COLOR_WARN)
 
+def print_summary(test_records, failed_pull_requests, untested_prs):
+    with Path(os.environ["GITHUB_STEP_SUMMARY"]).open("w") as summary:
+        print(f"## Summary of testing OpenJDK pull requests on libgraal", file=summary)
+        if test_records:
+            print(f"Building and testing libgraal executed for {len(test_records)} pull requests.", file=summary)
+            print(f"Logs for all steps are in the `logs` artifact below.", file=summary)
+        if failed_pull_requests:
+            print(f"Failures for these pull requests:", file=summary)
+            with Path("failure_logs").open("w") as fp:
+                for pr in failed_pull_requests:
+                    failed_step_log = pr.get("failed_step_log", None)
+                    if failed_step_log:
+                        print(failed_step_log, file=fp)
+                    print(f"* [#{pr['number']} - \"{pr['title']}\"]({pr['html_url']})", file=summary)
+                    if failed_step_log:
+                        print(f"  log: {failed_step_log}", file=summary)
+                    history = pr["__test_record"]["history"]
+                    if history:
+                        history_objs = [load_history(pr, name) for name in history]
+                        failures = [e["run_url"] for e in history_objs if e["status"] == "failed"]
+                        failures = [f" [{i}]({url})" for i, url in enumerate(failures)]
+                        print(f"  previous failures: {', '.join(failures)}", file=summary)
+
+                print(file=summary)
+
+            print(f"Logs for failed steps are shown in the `Failure Logs` section of the `test-pull-requests` job.", file=summary)
+        for reason, untested in untested_prs.items():
+            print(f"{len(untested)} pull requests not tested because {reason}.", file=summary)
+
 def main(context):
     check_bundle_naming_assumptions()
 
@@ -427,7 +456,7 @@ def main(context):
         # request commit twice.
         try:
             git(["fetch"])
-        except Exception as e:
+        except Exception:
             info("fetching upstream changes failed", COLOR_WARN)
 
         # Skip testing if the head commit has already been tested by looking
@@ -449,33 +478,7 @@ def main(context):
     if test_records:
         push_test_records(test_records)
 
-    with Path(os.environ["GITHUB_STEP_SUMMARY"]).open("w") as summary:
-        print(f"## Summary of testing OpenJDK pull requests on libgraal", file=summary)
-        if test_records:
-            print(f"Building and testing libgraal executed for {len(test_records)} pull requests.", file=summary)
-            print(f"Logs for all steps are in the `logs` artifact below.", file=summary)
-        if failed_pull_requests:
-            print(f"Failures for these pull requests:", file=summary)
-            with Path("failure_logs").open("w") as fp:
-                for pr in failed_pull_requests:
-                    failed_step_log = pr.get("failed_step_log", None)
-                    if failed_step_log:
-                        print(failed_step_log, file=fp)
-                    print(f"* [#{pr['number']} - \"{pr['title']}\"]({pr['html_url']})", file=summary)
-                    if failed_step_log:
-                        print(f"  log: {failed_step_log}", file=summary)
-                    history = pr["__test_record"]["history"]
-                    if history:
-                        history_objs = [load_history(pr, name) for name in history]
-                        failures = [e["run_url"] for e in history_objs if e["status"] == "failed"]
-                        failures = [f" [{i}]({url})" for i, url in enumerate(failures)]
-                        print(f"  previous failures: {', '.join(failures)}", file=summary)
-
-                print(file=summary)
-
-            print(f"Logs for failed steps are shown in the `Failure Logs` section of the `test-pull-requests` job.", file=summary)
-        for reason, untested in untested_prs.items():
-            print(f"{len(untested)} pull requests not tested because {reason}.", file=summary)
+    print_summary(test_records, failed_pull_requests, untested_prs)
 
 def post_failure_to_slack(test_record):
     """
