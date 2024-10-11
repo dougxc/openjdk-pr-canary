@@ -215,6 +215,134 @@ def update_to_match_pr_merge_base(repos, builds, pr):
     info(f"no Galahad EE repo revisions matching the {mbc_desc}", COLOR_ERROR)
     return False
 
+def test_pull_request(context, pr, untested_prs, failed_pull_requests):
+    repo = pr["head"]["repo"]["full_name"]
+    head_sha = pr["head"]["sha"]
+
+    # Get workflow runs for head commit in pull request
+    runs = gh_api([f"/repos/{repo}/actions/runs?head_sha={head_sha}"])
+
+    test_record = {}
+
+    # Search runs for non-expired artifact
+    for run in runs["workflow_runs"]:
+        run_id = run["id"]
+        artifacts_obj = gh_api(["--paginate", f"/repos/{repo}/actions/runs/{run_id}/artifacts?name={_artifact_to_test}"])
+        for artifact in artifacts_obj["artifacts"]:
+            context["artifact"] = artifact
+            if artifact["expired"]:
+                continue
+
+            artifact_id = artifact["id"]
+
+            # Download artifact
+            archive = Path(f"jdk_{artifact_id}.zip")
+            with open(archive, 'wb') as fp:
+                gh_api([f"/repos/{repo}/actions/artifacts/{artifact_id}/zip"], stdout=fp)
+
+            # Extract JDK and static-libs bundles
+            with zipfile.ZipFile(archive, 'r') as zf:
+                if not any((zi.filename.startswith("static-libs") for zi in zf.infolist())):
+                    untested_prs.setdefault("they are missing the static-libs bundle (added by JDK-8337265)", []).append(pr)
+                    continue
+
+                for zi in zf.infolist():
+                    filename = zi.filename
+                    if filename.endswith(".tar.gz") and (filename.startswith("jdk-") or filename.startswith("static-libs")):
+                        zf.extract(filename)
+                        with tarfile.open(filename, "r:gz") as tf:
+                            tf.extractall(path="extracted", filter="fully_trusted")
+                        Path(filename).unlink()
+            archive.unlink()
+
+            # Print a bright green line to separate output for each tested PR
+            info("--------------------------------------------------------------------------------------", "green")
+            info(f"processing {pr['html_url']} ({head_sha}) - {pr['title']}")
+            add_merge_base_commit(pr)
+
+            # Find java executable
+            java_exes = glob.glob("extracted/jdk*/bin/java")
+            assert len(java_exes) == 1, java_exes
+
+            java_exe = Path(java_exes[0])
+            java_home = java_exe.parent.parent
+
+            # Artifact test record
+            artifact_test_record = test_record.setdefault(f"artifact_{artifact_id}", {})
+
+            artifact_test_record["java_home"] = str(java_home)
+            artifact_test_record["java_version_output"] = subprocess.run([str(java_exe), "--version"], capture_output=True, text=True).stdout.strip()
+
+            def run_step(name, cmd, **kwargs):
+                assert "capture_output" not in kwargs
+                assert "stdout" not in kwargs
+                assert "stderr" not in kwargs
+
+                # Convert all command line args to string
+                cmd = [str(e) for e in cmd]
+
+                log_path = Path("results").joinpath("logs", str(pr["number"]), head_sha, f"{name}.log")
+                log_path.parent.mkdir(parents=True, exist_ok=True)
+                info(f"begin: {name}")
+                with log_path.open("w") as fp:
+                    kwargs["stdout"] = fp
+                    kwargs["stderr"] = subprocess.STDOUT
+                    kwargs["check"] = True
+                    try:
+                        subprocess.run(cmd, **kwargs)
+                    except subprocess.CalledProcessError as e:
+                        quoted_cmd = ' '.join(map(shlex.quote, cmd))
+                        info(f"non-zero exit code {e.returncode} for step '{name}': " + quoted_cmd, COLOR_ERROR)
+                        artifact_test_record["failed_step"] = name
+                        test_record["status"] = "failed"
+                        pr["failed_step_log"] = str(log_path)
+                        failed_pull_requests.append(pr)
+                        pr["__test_record"] = test_record
+                        raise e
+                    finally:
+                        info(f"  end: {name}")
+
+            try:
+                if not Path("graal").exists():
+                    # Load builds
+                    builds = json.loads(Path(__file__).parent.joinpath("builds.json").read_text())
+
+                    # Clone graal
+                    run_step("clone_graal", ["gh", "repo", "clone", "oracle/graal", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
+
+                    # Clone mx
+                    run_step("clone_mx", ["gh", "repo", "clone", "graalvm/mx", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
+                else:
+                    # Clean
+                    run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
+
+                if not update_to_match_pr_merge_base(["graal", "mx"], builds, pr):
+                    test_record["status"] = "failed"
+                    failed_pull_requests.append(pr)
+                    pr["__test_record"] = test_record
+                else:
+                    # Build libgraal
+                    run_step("build", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"])
+
+                    # Test libgraal
+                    tasks = [
+                        "LibGraal Compiler:Basic",
+                        "LibGraal Compiler:FatalErrorHandling",
+                        "LibGraal Compiler:SystemicFailureDetection",
+                        "LibGraal Compiler:CTW",
+                        "LibGraal Compiler:DaCapo"
+                    ]
+                    run_step("test", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)])
+
+                    test_record["status"] = "passed"
+            except subprocess.CalledProcessError:
+                pass
+
+            # Remove JDK
+            shutil.rmtree(java_home)
+            context["artifact"] = None
+
+    return test_record
 
 def main(context):
     check_bundle_naming_assumptions()
@@ -244,7 +372,6 @@ def main(context):
             untested_prs.setdefault("they have unverified OCA signatory status", []).append(pr)
             continue
 
-        repo = pr["head"]["repo"]["full_name"]
         head_sha = pr["head"]["sha"]
 
         # Before starting, fetch commits that may have been pushed between scheduling
@@ -262,132 +389,7 @@ def main(context):
             untested_prs.setdefault("they have previously been tested", []).append(pr)
             continue
 
-        logs_dir = Path("results").joinpath("logs", str(pr["number"]), f"{head_sha}")
-
-        # Pull request test record
-        test_record = {}
-
-        # Get workflow runs for head commit in pull request
-        runs = gh_api([f"/repos/{repo}/actions/runs?head_sha={head_sha}"])
-
-        # Search runs for non-expired artifact
-        for run in runs["workflow_runs"]:
-            run_id = run["id"]
-            artifacts_obj = gh_api(["--paginate", f"/repos/{repo}/actions/runs/{run_id}/artifacts?name={_artifact_to_test}"])
-            for artifact in artifacts_obj["artifacts"]:
-                context["artifact"] = artifact
-                if artifact["expired"]:
-                    continue
-
-                artifact_id = artifact["id"]
-
-                # Download artifact
-                archive = Path(f"jdk_{artifact_id}.zip")
-                with open(archive, 'wb') as fp:
-                    gh_api([f"/repos/{repo}/actions/artifacts/{artifact_id}/zip"], stdout=fp)
-
-                # Extract JDK and static-libs bundles
-                with zipfile.ZipFile(archive, 'r') as zf:
-                    if not any((zi.filename.startswith("static-libs") for zi in zf.infolist())):
-                        untested_prs.setdefault("they are missing the static-libs bundle (added by JDK-8337265)", []).append(pr)
-                        continue
-
-                    for zi in zf.infolist():
-                        filename = zi.filename
-                        if filename.endswith(".tar.gz") and (filename.startswith("jdk-") or filename.startswith("static-libs")):
-                            zf.extract(filename)
-                            with tarfile.open(filename, "r:gz") as tf:
-                                tf.extractall(path="extracted", filter="fully_trusted")
-                            Path(filename).unlink()
-                archive.unlink()
-
-                # Print a bright green line to separate output for each tested PR
-                info("--------------------------------------------------------------------------------------", "green")
-                info(f"processing {pr['html_url']} ({head_sha}) - {pr['title']}")
-                add_merge_base_commit(pr)
-
-                # Find java executable
-                java_exes = glob.glob("extracted/jdk*/bin/java")
-                assert len(java_exes) == 1, java_exes
-
-                java_exe = Path(java_exes[0])
-                java_home = java_exe.parent.parent
-
-                # Artifact test record
-                artifact_test_record = test_record.setdefault(f"artifact_{artifact_id}", {})
-
-                artifact_test_record["java_home"] = str(java_home)
-                artifact_test_record["java_version_output"] = subprocess.run([str(java_exe), "--version"], capture_output=True, text=True).stdout.strip()
-
-                def run_step(name, cmd, **kwargs):
-                    assert "capture_output" not in kwargs
-                    assert "stdout" not in kwargs
-                    assert "stderr" not in kwargs
-
-                    # Convert all command line args to string
-                    cmd = [str(e) for e in cmd]
-
-                    log_path = logs_dir.joinpath(f"{name}.log")
-                    log_path.parent.mkdir(parents=True, exist_ok=True)
-                    info(f"begin: {name}")
-                    with log_path.open("w") as fp:
-                        kwargs["stdout"] = fp
-                        kwargs["stderr"] = subprocess.STDOUT
-                        kwargs["check"] = True
-                        try:
-                            subprocess.run(cmd, **kwargs)
-                        except subprocess.CalledProcessError as e:
-                            quoted_cmd = ' '.join(map(shlex.quote, cmd))
-                            info(f"non-zero exit code {e.returncode} for step '{name}': " + quoted_cmd, COLOR_ERROR)
-                            artifact_test_record["failed_step"] = name
-                            test_record["status"] = "failed"
-                            pr["failed_step_log"] = str(log_path)
-                            failed_pull_requests.append(pr)
-                            pr["__test_record"] = test_record
-                            raise e
-                        finally:
-                            info(f"  end: {name}")
-
-                try:
-                    if not Path("graal").exists():
-                        # Load builds
-                        builds = json.loads(Path(__file__).parent.joinpath("builds.json").read_text())
-
-                        # Clone graal
-                        run_step("clone_graal", ["gh", "repo", "clone", "oracle/graal", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
-
-                        # Clone mx
-                        run_step("clone_mx", ["gh", "repo", "clone", "graalvm/mx", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
-                    else:
-                        # Clean
-                        run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
-
-                    if not update_to_match_pr_merge_base(["graal", "mx"], builds, pr):
-                        test_record["status"] = "failed"
-                        failed_pull_requests.append(pr)
-                        pr["__test_record"] = test_record
-                    else:
-                        # Build libgraal
-                        run_step("build", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"])
-
-                        # Test libgraal
-                        tasks = [
-                            "LibGraal Compiler:Basic",
-                            "LibGraal Compiler:FatalErrorHandling",
-                            "LibGraal Compiler:SystemicFailureDetection",
-                            "LibGraal Compiler:CTW",
-                            "LibGraal Compiler:DaCapo"
-                        ]
-                        run_step("test", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)])
-
-                        test_record["status"] = "passed"
-                except subprocess.CalledProcessError as e:
-                    pass
-
-                # Remove JDK
-                shutil.rmtree(java_home)
-
-                context["artifact"] = None
+        test_record = test_pull_request(context, pr, untested_prs, failed_pull_requests)
 
         if test_record:
             # Add test history
