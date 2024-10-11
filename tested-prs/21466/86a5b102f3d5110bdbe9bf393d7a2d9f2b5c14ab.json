@@ -1,0 +1,14 @@
+{
+  "artifact_2044229523": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TejeshR13-86a5b102f3d5110bdbe9bf393d7a2d9f2b5c14ab)\nOpenJDK 64-Bit Server VM (build 24-internal-TejeshR13-86a5b102f3d5110bdbe9bf393d7a2d9f2b5c14ab, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-11T09:44:34.514294",
+  "url": "https://github.com/openjdk/jdk/pull/21466",
+  "number": 21466,
+  "title": "8340279: Open source several AWT Dialog tests - Batch 2",
+  "head_sha": "86a5b102f3d5110bdbe9bf393d7a2d9f2b5c14ab",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11289301053"
+}
