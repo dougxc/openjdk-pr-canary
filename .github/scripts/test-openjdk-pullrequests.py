@@ -171,13 +171,16 @@ def add_merge_base_commit(pr):
     pr["merge_base_commit"] = compare["merge_base_commit"]
 
 
-def update_to_match_pr_merge_base(repos, builds, pr):
+def update_to_match_pr_merge_base(repos, pr):
     """
     Updates the local `repos` to a revision in a mach5 build where
     the open jdk revision in the same build is the merge base of the PR.
 
     :returns bool: True if a matching revision was found for all repos, False otherwise
     """
+
+    # Load builds
+    builds = json.loads(Path(__file__).parent.joinpath("builds.json").read_text())
 
     # Sort builds by build ids, oldest to newest.
     # Use the revision from the newest build matching `merge_base_commit`
@@ -323,9 +326,6 @@ def test_pull_request(context, pr, untested_prs, failed_pull_requests):
 
             try:
                 if not Path("graal").exists():
-                    # Load builds
-                    builds = json.loads(Path(__file__).parent.joinpath("builds.json").read_text())
-
                     # Clone graal
                     run_step("clone_graal", ["gh", "repo", "clone", "oracle/graal", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
 
@@ -335,7 +335,7 @@ def test_pull_request(context, pr, untested_prs, failed_pull_requests):
                     # Clean
                     run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
 
-                if not update_to_match_pr_merge_base(["graal", "mx"], builds, pr):
+                if not update_to_match_pr_merge_base(["graal", "mx"], pr):
                     test_record["status"] = "failed"
                     failed_pull_requests.append(pr)
                     pr["__test_record"] = test_record
