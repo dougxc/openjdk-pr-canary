@@ -363,6 +363,36 @@ def test_pull_request(context, pr, untested_prs, failed_pull_requests):
 
     return test_record
 
+def push_test_records(test_records):
+    """
+    Pushes a commit for logs of pull request commits that were tested.
+    """
+    git(["config", "user.name", "Doug Simon"])
+    git(["config", "user.email", "doug.simon@oracle.com"])
+
+    # Before making new commits, pull in any upstream changes so
+    # that `git push` below has a better chance of succeeding.
+    try:
+        git(["pull"])
+    except Exception:
+        info("pulling upstream changes failed", COLOR_WARN)
+
+    for test_record in test_records:
+        test_record_path = get_test_record_path(test_record)
+        if test_record_path.exists():
+            info(f"overwriting previous test record in {test_record_path}", COLOR_WARN)
+        else:
+            test_record_path.parent.mkdir(parents=True, exist_ok=True)
+        test_record_path.write_text(json.dumps(test_record, indent=2))
+
+        git(["add", str(test_record_path)])
+        git(["commit", "--quiet", "-m", f"test record for pull request {test_record['number']} ({test_record['head_sha']})\n{test_record['title']}"])
+
+    try:
+        git(["push", "--quiet"])
+    except Exception:
+        # Can fail if other commits were pushed in between
+        info("pushing pull request test records failed", COLOR_WARN)
 
 def main(context):
     check_bundle_naming_assumptions()
@@ -416,34 +446,8 @@ def main(context):
 
         context["pr"] = None
 
-    # Push a commit for logs of pull request commits that were tested
     if test_records:
-        git(["config", "user.name", "Doug Simon"])
-        git(["config", "user.email", "doug.simon@oracle.com"])
-
-        # Before making new commits, pull in any upstream changes so
-        # that `git push` below has a better chance of succeeding.
-        try:
-            git(["pull"])
-        except Exception as e:
-            info("pulling upstream changes failed", COLOR_WARN)
-
-        for test_record in test_records:
-            test_record_path = get_test_record_path(test_record)
-            if test_record_path.exists():
-                info(f"overwriting previous test record in {test_record_path}", COLOR_WARN)
-            else:
-                test_record_path.parent.mkdir(parents=True, exist_ok=True)
-            test_record_path.write_text(json.dumps(test_record, indent=2))
-
-            git(["add", str(test_record_path)])
-            git(["commit", "--quiet", "-m", f"test record for pull request {test_record['number']} ({test_record['head_sha']})\n{test_record['title']}"])
-
-        try:
-            git(["push", "--quiet"])
-        except Exception as e:
-            # Can fail if other commits were pushed in between
-            info("pushing pull request test records failed", COLOR_WARN)
+        push_test_records(test_records)
 
     with Path(os.environ["GITHUB_STEP_SUMMARY"]).open("w") as summary:
         print(f"## Summary of testing OpenJDK pull requests on libgraal", file=summary)
