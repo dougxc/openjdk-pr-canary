@@ -119,7 +119,10 @@ def git(args, capture_output=False, repo=None):
         quoted_cmd = " ".join(map(shlex.quote, cmd))
         stdout = f"\nstdout: {p.stdout}" if capture_output else ""
         stderr = f"\nstderr: {p.stderr}" if capture_output else ""
-        raise Exception(f"non-zero exit code {p.returncode}: {quoted_cmd}{stdout}{stderr}")
+        guess = ""
+        if args[0] == "fetch" and repo in ("graal", "mx"):
+            guess = f"\nMaybe mirroring of Graal repos to github is broken?"
+        raise Exception(f"non-zero exit code {p.returncode}: {quoted_cmd}{stdout}{stderr}{guess}")
     return p.stdout
 
 
