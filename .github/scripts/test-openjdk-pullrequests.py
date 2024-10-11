@@ -239,7 +239,7 @@ def add_test_history(test_record, pr, run_url, test_record_path):
         post_failure_to_slack(test_record)
 
 
-def test_pull_request(context, pr, untested_prs, failed_pull_requests):
+def test_pull_request(pr, untested_prs, failed_pull_requests):
     repo = pr["head"]["repo"]["full_name"]
     head_sha = pr["head"]["sha"]
 
@@ -253,7 +253,6 @@ def test_pull_request(context, pr, untested_prs, failed_pull_requests):
         run_id = run["id"]
         artifacts_obj = gh_api(["--paginate", f"/repos/{repo}/actions/runs/{run_id}/artifacts?name={_artifact_to_test}"])
         for artifact in artifacts_obj["artifacts"]:
-            context["artifact"] = artifact
             if artifact["expired"]:
                 continue
 
@@ -360,7 +359,6 @@ def test_pull_request(context, pr, untested_prs, failed_pull_requests):
 
             # Remove JDK
             shutil.rmtree(java_home)
-            context["artifact"] = None
 
     return test_record
 
@@ -424,7 +422,7 @@ def print_summary(test_records, failed_pull_requests, untested_prs):
         for reason, untested in untested_prs.items():
             print(f"{len(untested)} pull requests not tested because {reason}.", file=summary)
 
-def main(context):
+def main():
     check_bundle_naming_assumptions()
 
     # Map from reason for not testing to listed of untested PRs
@@ -441,7 +439,6 @@ def main(context):
 
     prs = gh_api(["--paginate", "/repos/openjdk/jdk/pulls?state=open"])
     for pr in prs:
-        context["pr"] = pr
         # Ignore pull requests in draft state
         if pr["draft"] is True:
             untested_prs.setdefault("they are in draft state", []).append(pr)
@@ -467,14 +464,12 @@ def main(context):
             untested_prs.setdefault("they have previously been tested", []).append(pr)
             continue
 
-        test_record = test_pull_request(context, pr, untested_prs, failed_pull_requests)
+        test_record = test_pull_request(pr, untested_prs, failed_pull_requests)
         if test_record:
             add_test_history(test_record, pr, run_url, test_record_path)
             test_records.append(test_record)
         else:
             untested_prs.setdefault(f"they have no {_artifact_to_test} artifact", []).append(pr)
-
-        context["pr"] = None
 
     if test_records:
         push_test_records(test_records)
@@ -579,8 +574,4 @@ def post_failure_to_slack(test_record):
     subprocess.run(cmd, check=True)
 
 if __name__ == "__main__":
-    main_context = {}
-    try:
-        main(main_context)
-    except Exception as e:
-        raise Exception(f"Context for exception: {json.dumps(main_context, indent=2)}") from e
+    main()
