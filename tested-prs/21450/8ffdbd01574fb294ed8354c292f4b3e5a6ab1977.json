@@ -1,0 +1,14 @@
+{
+  "artifact_2044222682": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TobiHartmann-8ffdbd01574fb294ed8354c292f4b3e5a6ab1977)\nOpenJDK 64-Bit Server VM (build 24-internal-TobiHartmann-8ffdbd01574fb294ed8354c292f4b3e5a6ab1977, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-11T10:06:14.260408",
+  "url": "https://github.com/openjdk/jdk/pull/21450",
+  "number": 21450,
+  "title": "8336726: C2: assert(!do_asserts || projs->fallthrough_ioproj != nullptr) failed: must be found",
+  "head_sha": "8ffdbd01574fb294ed8354c292f4b3e5a6ab1977",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11289301053"
+}
