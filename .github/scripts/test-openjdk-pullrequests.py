@@ -215,6 +215,25 @@ def update_to_match_pr_merge_base(repos, builds, pr):
     info(f"no Galahad EE repo revisions matching the {mbc_desc}", COLOR_ERROR)
     return False
 
+
+def add_test_history(test_record, pr, run_url, test_record_path):
+    history = git(["log", "--pretty=", "--diff-filter=A", "--name-only", "origin/master", "--", str(test_record_path.parent)], capture_output=True).strip().split()
+    if history:
+        test_record["history"] = [Path(h).name for h in history]
+    else:
+        test_record["history"] = []
+
+    test_record["datetime"] = datetime.now(timezone.utc).isoformat()
+    test_record["url"] = pr["html_url"]
+    test_record["number"] = pr["number"]
+    test_record["title"] = pr["title"]
+    test_record["head_sha"] = pr["head"]["sha"]
+    test_record["run_url"] = run_url
+
+    if test_record["status"] == "failed":
+        post_failure_to_slack(test_record)
+
+
 def test_pull_request(context, pr, untested_prs, failed_pull_requests):
     repo = pr["head"]["repo"]["full_name"]
     head_sha = pr["head"]["sha"]
@@ -344,6 +363,7 @@ def test_pull_request(context, pr, untested_prs, failed_pull_requests):
 
     return test_record
 
+
 def main(context):
     check_bundle_naming_assumptions()
 
@@ -372,8 +392,6 @@ def main(context):
             untested_prs.setdefault("they have unverified OCA signatory status", []).append(pr)
             continue
 
-        head_sha = pr["head"]["sha"]
-
         # Before starting, fetch commits that may have been pushed between scheduling
         # this job and testing `pr`. This reduces the chance of testing the same pull
         # request commit twice.
@@ -390,25 +408,8 @@ def main(context):
             continue
 
         test_record = test_pull_request(context, pr, untested_prs, failed_pull_requests)
-
         if test_record:
-            # Add test history
-            history = git(["log", "--pretty=", "--diff-filter=A", "--name-only", "origin/master", "--", str(test_record_path.parent)], capture_output=True).strip().split()
-            if history:
-                test_record["history"] = [Path(h).name for h in history]
-            else:
-                test_record["history"] = []
-
-            test_record["datetime"] = datetime.now(timezone.utc).isoformat()
-            test_record["url"] = pr["html_url"]
-            test_record["number"] = pr["number"]
-            test_record["title"] = pr["title"]
-            test_record["head_sha"] = head_sha
-            test_record["run_url"] = run_url
-
-            if test_record["status"] == "failed":
-                post_failure_to_slack(test_record)
-
+            add_test_history(test_record, pr, run_url, test_record_path)
             test_records.append(test_record)
         else:
             untested_prs.setdefault(f"they have no {_artifact_to_test} artifact", []).append(pr)
