@@ -153,23 +153,25 @@ def load_history(pr, name):
     return json.loads(get_test_record_path(pr).parent.joinpath(name).read_text())
 
 
-def add_merge_base_commit(pr):
+def get_merge_base_commit(pr):
     """
-    Gets a json object describing the merge base commit of `pr` and adds it
-    under the key "merge_base_commit" to `pr`.
+    Gets a json object describing the merge base commit of `pr`.
 
     The sha and URL for the commit are indexed by "sha" and "html_url"
     respectively in the json object.
 
     See https://stackoverflow.com/a/77447927/6691595
     """
-    head_repo = pr["head"]["repo"]["full_name"]
-    base_repo = pr["base"]["repo"]["full_name"]
-    head_branch = pr["head"]["ref"]
-    base_branch = pr["base"]["ref"]
-    compare = gh_api([f"/repos/{base_repo}/compare/{base_branch}...{head_repo.replace('/', ':')}:{head_branch}"])
-    pr["merge_base_commit"] = compare["merge_base_commit"]
-
+    merge_base_commit = pr.get("merge_base_commit")
+    if merge_base_commit is None:
+        head_repo = pr["head"]["repo"]["full_name"]
+        base_repo = pr["base"]["repo"]["full_name"]
+        head_branch = pr["head"]["ref"]
+        base_branch = pr["base"]["ref"]
+        compare = gh_api([f"/repos/{base_repo}/compare/{base_branch}...{head_repo.replace('/', ':')}:{head_branch}"])
+        merge_base_commit = compare["merge_base_commit"]
+        pr["merge_base_commit"] = merge_base_commit
+    return merge_base_commit
 
 def update_to_match_pr_merge_base(repos, pr):
     """
@@ -185,7 +187,7 @@ def update_to_match_pr_merge_base(repos, pr):
     # Sort builds by build ids, oldest to newest.
     # Use the revision from the newest build matching `merge_base_commit`
     newest = None
-    merge_base_commit = pr["merge_base_commit"]
+    merge_base_commit = get_merge_base_commit(pr)
     mbc_sha = merge_base_commit["sha"]
     mbc_url = merge_base_commit["html_url"]
     mbc_desc = f"PR merge base revision [{mbc_sha}]({mbc_url})"
@@ -280,7 +282,6 @@ def test_pull_request(context, pr, untested_prs, failed_pull_requests):
             # Print a bright green line to separate output for each tested PR
             info("--------------------------------------------------------------------------------------", "green")
             info(f"processing {pr['html_url']} ({head_sha}) - {pr['title']}")
-            add_merge_base_commit(pr)
 
             # Find java executable
             java_exes = glob.glob("extracted/jdk*/bin/java")
