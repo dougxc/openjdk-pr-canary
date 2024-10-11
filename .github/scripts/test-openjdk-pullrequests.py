@@ -32,9 +32,8 @@ import zipfile
 import tarfile
 import time
 import glob
-from argparse import ArgumentParser
 from pathlib import Path
-from datetime import timedelta, datetime
+from datetime import timedelta, datetime, timezone
 
 _gh_api_headers = ["-H", "Accept: application/vnd.github+json", "-H", "X-GitHub-Api-Version: 2022-11-28"]
 _repo_root = Path(subprocess.run("git rev-parse --show-toplevel".split(), capture_output=True, text=True, check=True).stdout.strip())
@@ -319,7 +318,7 @@ def main(context):
                         return True
                     else:
                         commit_date = merge_base_commit["commit"]["committer"]["date"]
-                        delta = datetime.now() - datetime.fromisoformat(commit_date)
+                        delta = datetime.now(timezone.utc) - datetime.fromisoformat(commit_date)
                         age_in_hours = delta.total_seconds() / 60 / 60
                         if age_in_hours <= 24:
                             # This typically happens when a PR merges in the HEAD from master and
