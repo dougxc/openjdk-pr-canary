@@ -98,8 +98,7 @@ def gh_api(args, stdout=None, raw=False):
             err_msg = f"Command returned {p.returncode}: {quoted_cmd}{os.linesep}stdout: {p.stdout}{os.linesep}stderr: {p.stderr}"
             if remaining_attempts == 0:
                 raise Exception(err_msg)
-            else:
-                info(f"warning: {err_msg}", COLOR_WARN)
+            info(f"warning: {err_msg}", COLOR_WARN)
         else:
             break
 
@@ -198,23 +197,23 @@ def update_to_match_pr_merge_base(repos, builds, pr):
             git(["reset", "--quiet", "--hard", rev], repo=repo)
             info(f"  updated {repo} to matching revision {rev}")
         return True
-    else:
-        commit_date = merge_base_commit["commit"]["committer"]["date"]
-        delta = datetime.now(timezone.utc) - datetime.fromisoformat(commit_date)
-        age_in_hours = delta.total_seconds() / 60 / 60
-        if age_in_hours <= 24:
-            # This typically happens when a PR merges in the HEAD from master and
-            # this commit has not yet been included in a CI build. We speculate
-            # that the HEAD of graal and mx is compatible with master HEAD.
-            info(
-                f"no Galahad EE repo revisions matching the {mbc_desc} but it's less "
-                "than 24 hours old so there's a good chance the HEAD of graal and mx are compatible",
-                COLOR_WARN,
-            )
-            return True
-        else:
-            info(f"no Galahad EE repo revisions matching the {mbc_desc}", COLOR_ERROR)
-            return False
+
+    commit_date = merge_base_commit["commit"]["committer"]["date"]
+    delta = datetime.now(timezone.utc) - datetime.fromisoformat(commit_date)
+    age_in_hours = delta.total_seconds() / 60 / 60
+    if age_in_hours <= 24:
+        # This typically happens when a PR merges in the HEAD from master and
+        # this commit has not yet been included in a CI build. We speculate
+        # that the HEAD of graal and mx is compatible with master HEAD.
+        info(
+            f"no Galahad EE repo revisions matching the {mbc_desc} but it's less "
+            "than 24 hours old so there's a good chance the HEAD of graal and mx are compatible",
+            COLOR_WARN,
+        )
+        return True
+
+    info(f"no Galahad EE repo revisions matching the {mbc_desc}", COLOR_ERROR)
+    return False
 
 
 def main(context):
@@ -438,7 +437,7 @@ def main(context):
             git(["commit", "--quiet", "-m", f"test record for pull request {test_record['number']} ({test_record['head_sha']})\n{test_record['title']}"])
 
         try:
-            git(["push", "--quiet"])         
+            git(["push", "--quiet"])
         except Exception as e:
             # Can fail if other commits were pushed in between
             info("pushing pull request test records failed", COLOR_WARN)
@@ -453,9 +452,11 @@ def main(context):
             with Path("failure_logs").open("w") as fp:
                 for pr in failed_pull_requests:
                     failed_step_log = pr.get("failed_step_log", None)
-                    if failed_step_log: print(failed_step_log, file=fp)
+                    if failed_step_log:
+                        print(failed_step_log, file=fp)
                     print(f"* [#{pr['number']} - \"{pr['title']}\"]({pr['html_url']})", file=summary)
-                    if failed_step_log: print(f"  log: {failed_step_log}", file=summary)
+                    if failed_step_log:
+                        print(f"  log: {failed_step_log}", file=summary)
                     history = pr["__test_record"]["history"]
                     if history:
                         history_objs = [load_history(pr, name) for name in history]
@@ -557,18 +558,18 @@ def post_failure_to_slack(test_record):
             }
         ]
     })
-    
+
     message_path = Path("message.json")
     message_path.write_text(message)
     cmd = ["curl", "--fail", "--silent", "-X", "POST",
-               "-H", "Content-type: application/json",
-               "--data-binary", f"@{message_path}",
-               os.environ.get('SLACK_WEBHOOK_URL')]
+           "-H", "Content-type: application/json",
+           "--data-binary", f"@{message_path}",
+           os.environ.get('SLACK_WEBHOOK_URL')]
     subprocess.run(cmd, check=True)
 
 if __name__ == "__main__":
-    context = {}
+    main_context = {}
     try:
-        main(context)
+        main(main_context)
     except Exception as e:
-        raise Exception(f"Context for exception: {json.dumps(context, indent=2)}") from e
+        raise Exception(f"Context for exception: {json.dumps(main_context, indent=2)}") from e
