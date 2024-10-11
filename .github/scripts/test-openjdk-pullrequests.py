@@ -168,7 +168,7 @@ def add_merge_base_commit(pr):
     head_branch = pr["head"]["ref"]
     base_branch = pr["base"]["ref"]
     compare = gh_api([f"/repos/{base_repo}/compare/{base_branch}...{head_repo.replace('/', ':')}:{head_branch}"])
-    return compare["merge_base_commit"]
+    pr["merge_base_commit"] = compare["merge_base_commit"]
 
 
 def update_to_match_pr_merge_base(repos, builds, pr):
