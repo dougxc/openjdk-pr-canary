@@ -1,0 +1,17 @@
+{
+  "artifact_2047777318": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-johnyjose30-b3a092c37a7bae48a56cd83b476e60427acce920)\nOpenJDK 64-Bit Server VM (build 24-internal-johnyjose30-b3a092c37a7bae48a56cd83b476e60427acce920, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6c4ce6f87eb2299601938493ead746cb23f2b5c3.json",
+    "c3238444b63cb87c61f2503cbb1b5b7452181533.json"
+  ],
+  "datetime": "2024-10-12T01:53:58.749201+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21265",
+  "number": 21265,
+  "title": "8339637: (tz) Update Timezone Data to 2024b",
+  "head_sha": "b3a092c37a7bae48a56cd83b476e60427acce920",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11301626143"
+}
