@@ -426,60 +426,6 @@ def print_summary(test_records, failed_pull_requests, untested_prs):
         for reason, untested in untested_prs.items():
             print(f"{len(untested)} pull requests not tested because {reason}.", file=summary)
 
-def main():
-    check_bundle_naming_assumptions()
-
-    # Map from reason for not testing to listed of untested PRs
-    untested_prs = {}
-
-    # List of dicts capturing details of pull requests that were tested
-    test_records = []
-
-    # URL for the current GitHub Action workflow run
-    run_url = f"https://github.com/{os.environ.get('GITHUB_REPOSITORY')}/actions/runs/{os.environ.get('GITHUB_RUN_ID')}"
-
-    # Pull requests for which libgraal building or testing failed
-    failed_pull_requests = []
-
-    prs = gh_api(["--paginate", "/repos/openjdk/jdk/pulls?state=open"])
-    for pr in prs:
-        # Ignore pull requests in draft state
-        if pr["draft"] is True:
-            untested_prs.setdefault("they are in draft state", []).append(pr)
-            continue
-
-        # Ignore pull requests whose OCA signatory status is yet to be verified
-        if any((l["name"] == "oca" for l in pr["labels"])):
-            untested_prs.setdefault("they have unverified OCA signatory status", []).append(pr)
-            continue
-
-        # Before starting, fetch commits that may have been pushed between scheduling
-        # this job and testing `pr`. This reduces the chance of testing the same pull
-        # request commit twice.
-        try:
-            git(["fetch"])
-        except Exception:
-            info("fetching upstream changes failed", COLOR_WARN)
-
-        # Skip testing if the head commit has already been tested by looking
-        # for the test record in the remote
-        test_record_path = get_test_record_path(pr)
-        if git(["log", "--pretty=", "--name-only", "origin/master", "--", str(test_record_path)], capture_output=True).strip():
-            untested_prs.setdefault("they have previously been tested", []).append(pr)
-            continue
-
-        test_record = test_pull_request(pr, untested_prs, failed_pull_requests)
-        if test_record:
-            add_test_history(test_record, pr, run_url, test_record_path)
-            test_records.append(test_record)
-        else:
-            untested_prs.setdefault(f"they have no {_artifact_to_test} artifact", []).append(pr)
-
-    if test_records:
-        push_test_records(test_records)
-
-    print_summary(test_records, failed_pull_requests, untested_prs)
-
 def post_failure_to_slack(test_record):
     """
     Posts a message to the #openjdk-pr-canary (https://graalvm.slack.com/archives/C07KMA7HFE3)
@@ -576,6 +522,60 @@ def post_failure_to_slack(test_record):
            "--data-binary", f"@{message_path}",
            os.environ.get('SLACK_WEBHOOK_URL')]
     subprocess.run(cmd, check=True)
+
+def main():
+    check_bundle_naming_assumptions()
+
+    # Map from reason for not testing to listed of untested PRs
+    untested_prs = {}
+
+    # List of dicts capturing details of pull requests that were tested
+    test_records = []
+
+    # URL for the current GitHub Action workflow run
+    run_url = f"https://github.com/{os.environ.get('GITHUB_REPOSITORY')}/actions/runs/{os.environ.get('GITHUB_RUN_ID')}"
+
+    # Pull requests for which libgraal building or testing failed
+    failed_pull_requests = []
+
+    prs = gh_api(["--paginate", "/repos/openjdk/jdk/pulls?state=open"])
+    for pr in prs:
+        # Ignore pull requests in draft state
+        if pr["draft"] is True:
+            untested_prs.setdefault("they are in draft state", []).append(pr)
+            continue
+
+        # Ignore pull requests whose OCA signatory status is yet to be verified
+        if any((l["name"] == "oca" for l in pr["labels"])):
+            untested_prs.setdefault("they have unverified OCA signatory status", []).append(pr)
+            continue
+
+        # Before starting, fetch commits that may have been pushed between scheduling
+        # this job and testing `pr`. This reduces the chance of testing the same pull
+        # request commit twice.
+        try:
+            git(["fetch"])
+        except Exception:
+            info("fetching upstream changes failed", COLOR_WARN)
+
+        # Skip testing if the head commit has already been tested by looking
+        # for the test record in the remote
+        test_record_path = get_test_record_path(pr)
+        if git(["log", "--pretty=", "--name-only", "origin/master", "--", str(test_record_path)], capture_output=True).strip():
+            untested_prs.setdefault("they have previously been tested", []).append(pr)
+            continue
+
+        test_record = test_pull_request(pr, untested_prs, failed_pull_requests)
+        if test_record:
+            add_test_history(test_record, pr, run_url, test_record_path)
+            test_records.append(test_record)
+        else:
+            untested_prs.setdefault(f"they have no {_artifact_to_test} artifact", []).append(pr)
+
+    if test_records:
+        push_test_records(test_records)
+
+    print_summary(test_records, failed_pull_requests, untested_prs)
 
 if __name__ == "__main__":
     main()
