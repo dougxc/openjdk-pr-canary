@@ -397,6 +397,8 @@ def push_test_records(test_records):
         # Can fail if other commits were pushed in between
         info("pushing pull request test records failed", COLOR_WARN)
 
+    cleanup_closed_prs()
+
 def print_summary(test_records, failed_pull_requests, untested_prs):
     with Path(os.environ["GITHUB_STEP_SUMMARY"]).open("w") as summary:
         print(f"## Summary of testing OpenJDK pull requests on libgraal", file=summary)
@@ -522,6 +524,32 @@ def post_failure_to_slack(test_record):
            "--data-binary", f"@{message_path}",
            os.environ.get('SLACK_WEBHOOK_URL')]
     subprocess.run(cmd, check=True)
+
+def cleanup_closed_prs():
+    """
+    Removes test records for closed PRs.
+    """
+    closed = []
+    prs = [e for e in Path("tested-prs").iterdir()]
+    info(f"Scanning test records for {len(prs)} PRs...")
+    for e in prs:
+        if e.name.isdigit():
+            pr = gh_api([f"/repos/openjdk/jdk/pulls/{e.name}"])
+            if pr["state"] == "closed":
+                closed.append(e)
+    info(f"Found {len(closed)} closed PRs")
+    if closed:
+        for e in closed:
+            shutil.rmtree(e)
+            git(["add", str(e)])
+        git(["commit", "--quiet", "-m", f"deleted test records for {len(closed)} closed PRs"])
+        try:
+            git(["push", "--quiet"])
+            info(f"Deleted test records for {len(closed)} closed PRs [{','.join((e.name for e in closed))}]")
+        except Exception:
+            # Can fail if other commits were pushed in between
+            info("pushing test record deletion failed", COLOR_WARN)
+
 
 def main():
     check_bundle_naming_assumptions()
