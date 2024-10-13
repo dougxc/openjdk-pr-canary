@@ -2,7 +2,8 @@ Overview
 ========
 
 [GraalVM Native Image](https://www.graalvm.org/) is closely coupled to JDK internals, mostly via substitutions.
-As a result, an OpenJDK pull request can break Native Image.
+As a result, an OpenJDK pull request can break Native Image. Even without breaking Native Image,
+an OpenJDK pull request can break Graal itself (e.g. [removing VM symbols exposed to Graal](https://github.com/openjdk/jdk/pull/21401/files#diff-ecc7958e8d833f87874bd145bfaed303d1b516a39321303488d524d871a75930)).
 This repository contains a GitHub Actions job that periodically builds and smoke tests
 [libgraal](https://medium.com/graalvm/libgraal-graalvm-compiler-as-a-precompiled-graalvm-native-image-26e354bee5c)
 against OpenJDK pull requests to provide an early warning system for such breakage.
