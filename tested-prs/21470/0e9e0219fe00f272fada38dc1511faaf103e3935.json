@@ -1,0 +1,16 @@
+{
+  "artifact_2052467342": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TobiHartmann-0e9e0219fe00f272fada38dc1511faaf103e3935)\nOpenJDK 64-Bit Server VM (build 24-internal-TobiHartmann-0e9e0219fe00f272fada38dc1511faaf103e3935, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "94259abe427957604d5d2b5b7eb8b9502c010ddc.json"
+  ],
+  "datetime": "2024-10-14T10:21:18.321727+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21470",
+  "number": 21470,
+  "title": "8339694: ciTypeFlow does not correctly handle unresolved constant dynamic of array type",
+  "head_sha": "0e9e0219fe00f272fada38dc1511faaf103e3935",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11325061613"
+}
