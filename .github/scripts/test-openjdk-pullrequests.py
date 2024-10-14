@@ -171,7 +171,7 @@ def get_merge_base_commit(pr):
         head_repo = pr["head"]["repo"]["full_name"]
         base_repo = pr["base"]["repo"]["full_name"]
         head_branch = pr["head"]["ref"]
-        base_branch = pr["base"]["ref"]
+        base_branch = "master" # pr["base"]["ref"]
         compare = gh_api([f"/repos/{base_repo}/compare/{base_branch}...{head_repo.replace('/', ':')}:{head_branch}"])
         merge_base_commit = compare["merge_base_commit"]
         pr["merge_base_commit"] = merge_base_commit
