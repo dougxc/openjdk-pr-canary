@@ -1,0 +1,19 @@
+{
+  "artifact_2053920941": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-matias9927-40f07064bc7d8dbd826dd3cf6b34e2a315d6b03f)\nOpenJDK 64-Bit Server VM (build 24-internal-matias9927-40f07064bc7d8dbd826dd3cf6b34e2a315d6b03f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "11a5499f98fa7e22ff4d782ffb7cffa4bf8eb239.json",
+    "1ab1cbc724c03a6ccc10f60ec53536a4526fd23f.json",
+    "eee9df2bf2f82fa3504e7b2aadf19c2ff4588d6c.json",
+    "fad43ec32b219097ac277875a17ff76b68d29cb7.json"
+  ],
+  "datetime": "2024-10-14T16:00:18.256398+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21329",
+  "number": 21329,
+  "title": "8341452: Test runtime/cds/appcds/DumpRuntimeClassesTest.java from JDK-8324259 is failing",
+  "head_sha": "40f07064bc7d8dbd826dd3cf6b34e2a315d6b03f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11330535473"
+}
