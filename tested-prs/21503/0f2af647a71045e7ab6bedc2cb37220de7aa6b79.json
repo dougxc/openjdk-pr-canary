@@ -1,0 +1,14 @@
+{
+  "artifact_2054628222": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-0f2af647a71045e7ab6bedc2cb37220de7aa6b79)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-0f2af647a71045e7ab6bedc2cb37220de7aa6b79, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-14T19:02:34.254554+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21503",
+  "number": 21503,
+  "title": "8341997: Tests create files in src tree instead of scratch dir",
+  "head_sha": "0f2af647a71045e7ab6bedc2cb37220de7aa6b79",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11333345657"
+}
