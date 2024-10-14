@@ -10321,6 +10321,29 @@
 		]
 	},
 	{
+		"id": "jdk-23.0.2+2-42",
+		"revisions": {
+			".": [
+				"53ca4f15794040bbaf85e46257cd98e846fcc6bc"
+			],
+			"graal": [
+				"e4b575df2c806a369953a72eb460e0f9ac54f852"
+			],
+			"graal-enterprise": [
+				"99267ec1131891fa8d45292f7b7fd62d40727e45"
+			],
+			"open": [
+				"577dbe62563688a4f547a17de2b1412ddb0dff37"
+			],
+			"mx": [
+				"12267ad74f153edd728d7b92a3d176a5e05b6ae6"
+			]
+		},
+		"aliases": [
+			"jdk-23.0.2-42"
+		]
+	},
+	{
 		"id": "jdk-24+1-1",
 		"revisions": {
 			"mx": [
@@ -63698,6 +63721,77 @@
 		},
 		"aliases": [
 			"jdk-24-2287"
+		]
+	},
+	{
+		"id": "jdk-24+20-2288",
+		"revisions": {
+			"graal-enterprise": [
+				"f4202be8105aeb660046a1c940ef1ac91f827968"
+			],
+			"mx": [
+				"1653fa42a2cd5538b9b96c112e012fa7aa0dac8e"
+			],
+			"graal": [
+				"20a63d5298a10fd25730237765064e2425a32202"
+			],
+			".": [
+				"91485ccf17b0b48f5de7614e1dedf4f07d9e232e"
+			],
+			"open": [
+				"ba3774dc5d27e762dfd61f8acf842ae11dec0cb7"
+			]
+		},
+		"aliases": [
+			"jdk-24-2288"
+		]
+	},
+	{
+		"id": "jdk-24+20-2289",
+		"revisions": {
+			"graal-enterprise": [
+				"f4202be8105aeb660046a1c940ef1ac91f827968"
+			],
+			"open": [
+				"f56a154132f7e66b1b65adfa2aa937119999b14a"
+			],
+			"mx": [
+				"1653fa42a2cd5538b9b96c112e012fa7aa0dac8e"
+			],
+			"graal": [
+				"20a63d5298a10fd25730237765064e2425a32202"
+			],
+			".": [
+				"91485ccf17b0b48f5de7614e1dedf4f07d9e232e"
+			]
+		},
+		"aliases": [
+			"jdk-24-2289"
+		]
+	},
+	{
+		"id": "jdk-24+20-2290",
+		"revisions": {
+			"open": [
+				"f56a154132f7e66b1b65adfa2aa937119999b14a"
+			],
+			"graal-enterprise": [
+				"c53769f41ece72863848858020d4276c636360bd",
+				"ac234aa33ed60ee03cb63d4e8287379b9a167b0d"
+			],
+			"mx": [
+				"1653fa42a2cd5538b9b96c112e012fa7aa0dac8e"
+			],
+			"graal": [
+				"d11332f872b89527ce103faed12af821242356b3",
+				"d3dc5fd55be24963c2e08cf9c54d5c52b0f35f1b"
+			],
+			".": [
+				"91485ccf17b0b48f5de7614e1dedf4f07d9e232e"
+			]
+		},
+		"aliases": [
+			"jdk-24-2290"
 		]
 	}
 ]
