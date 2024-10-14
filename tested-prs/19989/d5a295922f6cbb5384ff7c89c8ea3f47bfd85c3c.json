@@ -1,0 +1,18 @@
+{
+  "artifact_2053010942": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-theRealAph-d5a295922f6cbb5384ff7c89c8ea3f47bfd85c3c)\nOpenJDK 64-Bit Server VM (build 24-internal-theRealAph-d5a295922f6cbb5384ff7c89c8ea3f47bfd85c3c, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "934b47fa199311466c9ad4c5ef3ac83ddc082b21.json",
+    "a76126745454c92e2e5ea1047a08d49cff7c9bd9.json"
+  ],
+  "datetime": "2024-10-14T13:17:38.910580+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/19989",
+  "number": 19989,
+  "title": "8331341: secondary_super_cache does not scale well: C1 and interpreter",
+  "head_sha": "d5a295922f6cbb5384ff7c89c8ea3f47bfd85c3c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11327810271"
+}
