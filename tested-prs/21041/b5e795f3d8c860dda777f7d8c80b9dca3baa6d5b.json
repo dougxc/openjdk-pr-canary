@@ -1,0 +1,20 @@
+{
+  "artifact_2053273687": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-b5e795f3d8c860dda777f7d8c80b9dca3baa6d5b)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-b5e795f3d8c860dda777f7d8c80b9dca3baa6d5b, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "78d38efa402ce65468650479ae0a8ba0498e4c9e.json",
+    "b755c61d4e3fc96e1ee8e5ac3dd5c802ad1b8ede.json",
+    "bba0b7847f3d369df49093f2aedf00da9f58b968.json",
+    "c1d3b655274661e870ac5550f4471b16dddefed9.json"
+  ],
+  "datetime": "2024-10-14T13:44:54.471741+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21041",
+  "number": 21041,
+  "title": "8340205: Native linker allows MemoryLayout consisting of only PaddingLayout",
+  "head_sha": "b5e795f3d8c860dda777f7d8c80b9dca3baa6d5b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11328584236"
+}
