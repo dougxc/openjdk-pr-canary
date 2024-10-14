@@ -1,0 +1,16 @@
+{
+  "artifact_2051623134": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TejeshR13-fec22ac6cdcf38f441d4f0564efb1e277ad9ab60)\nOpenJDK 64-Bit Server VM (build 24-internal-TejeshR13-fec22ac6cdcf38f441d4f0564efb1e277ad9ab60, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f83d71052c43b2c7520e8a3948cf6dcaa28c2b79.json"
+  ],
+  "datetime": "2024-10-14T06:44:32.889541+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21464",
+  "number": 21464,
+  "title": "8341072: Open source several AWT Canvas and Rectangle related tests",
+  "head_sha": "fec22ac6cdcf38f441d4f0564efb1e277ad9ab60",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11322196760"
+}
