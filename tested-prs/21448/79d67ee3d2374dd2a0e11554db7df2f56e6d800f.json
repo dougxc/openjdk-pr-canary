@@ -1,0 +1,17 @@
+{
+  "artifact_2056503863": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tschatzl-79d67ee3d2374dd2a0e11554db7df2f56e6d800f)\nOpenJDK 64-Bit Server VM (build 24-internal-tschatzl-79d67ee3d2374dd2a0e11554db7df2f56e6d800f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8ffd34c600884eac4debd1681c297d98afd5ff33.json",
+    "9ffbbdc9401b75f13c282988fb27ff3ba69ed844.json"
+  ],
+  "datetime": "2024-10-15T07:33:50.427736+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21448",
+  "number": 21448,
+  "title": "8337269: G1ConfidencePercent interpreted inconsistently",
+  "head_sha": "79d67ee3d2374dd2a0e11554db7df2f56e6d800f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11341199744"
+}
