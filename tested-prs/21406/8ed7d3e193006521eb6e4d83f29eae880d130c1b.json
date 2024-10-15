@@ -1,0 +1,18 @@
+{
+  "artifact_2059622871": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-robehn-8ed7d3e193006521eb6e4d83f29eae880d130c1b)\nOpenJDK 64-Bit Server VM (build 24-internal-robehn-8ed7d3e193006521eb6e4d83f29eae880d130c1b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4e974db846aa6f3f876c49efe84582e5c40a7b18.json",
+    "c95c9601bcb0cf583ebb7b11819c647a55651fb5.json",
+    "ec28fe353fbcb7feb2f15ed5997b700b571b3d84.json"
+  ],
+  "datetime": "2024-10-15T18:54:00.773764+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21406",
+  "number": 21406,
+  "title": "8340241: RISC-V: Returns mispredicted",
+  "head_sha": "8ed7d3e193006521eb6e4d83f29eae880d130c1b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11352203627"
+}
