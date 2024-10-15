@@ -1,0 +1,14 @@
+{
+  "artifact_2057330288": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-hns-46d9a92d373364ce47e663f08dc614ce0ac330e5)\nOpenJDK 64-Bit Server VM (build 24-internal-hns-46d9a92d373364ce47e663f08dc614ce0ac330e5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-15T11:20:16.693347+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21520",
+  "number": 21520,
+  "title": "8321500: javadoc rejects '@' in multi-line attribute value",
+  "head_sha": "46d9a92d373364ce47e663f08dc614ce0ac330e5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11344509018"
+}
