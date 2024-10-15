@@ -10318,6 +10318,9 @@
 		},
 		"aliases": [
 			"jdk-23.0.2-41"
+		],
+		"tags": [
+			"UNUSABLE"
 		]
 	},
 	{
@@ -64128,6 +64131,31 @@
 		},
 		"aliases": [
 			"jdk-24-2304"
+		]
+	},
+	{
+		"id": "jdk-24+20-2305",
+		"revisions": {
+			"mx": [
+				"1653fa42a2cd5538b9b96c112e012fa7aa0dac8e"
+			],
+			".": [
+				"77ba0c2a26ec91899148bc86daf3b4ee4c0ded69"
+			],
+			"open": [
+				"a601cd2e100958e3f37ae65e32e4b3cac246c079"
+			],
+			"graal": [
+				"671da5f33c0012c00ff709f25769684f947b8099",
+				"23258f0e3cc974e5c26e010c34a6bc559d6324f5"
+			],
+			"graal-enterprise": [
+				"64298f994b1a4620bbf7cc44299d30916baf0d8f",
+				"24da21c3283417bcb2370f474bc4462f62f0cf4f"
+			]
+		},
+		"aliases": [
+			"jdk-24-2305"
 		]
 	}
 ]
