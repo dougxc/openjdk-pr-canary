@@ -1,0 +1,17 @@
+{
+  "artifact_2055510978": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-driverkt-224c0d20e3c5b5478d5e5baf6325fb32ce242f08)\nOpenJDK 64-Bit Server VM (build 24-internal-driverkt-224c0d20e3c5b5478d5e5baf6325fb32ce242f08, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5a4937adc22c3cd31e32ad5a2f1b727d7f98ca8f.json",
+    "de3b0bfdb270d06182404525c5fe5699d5f34122.json"
+  ],
+  "datetime": "2024-10-15T00:00:59.510996+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20301",
+  "number": 20301,
+  "title": "8331008: Implement JEP 478: Key Derivation Function API (Preview)",
+  "head_sha": "224c0d20e3c5b5478d5e5baf6325fb32ce242f08",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11336669595"
+}
