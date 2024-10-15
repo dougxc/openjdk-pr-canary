@@ -1,0 +1,24 @@
+{
+  "artifact_2056367272": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-iklam-382446d41bb79c4bd2c1dfeda656dfa2a73466b4)\nOpenJDK 64-Bit Server VM (build 24-internal-iklam-382446d41bb79c4bd2c1dfeda656dfa2a73466b4, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "039fb65d58a32a235cbc0d443b6dd355a4e34cd8.json",
+    "195303f2c6939b93b6152c6610bd38faff5ae3c7.json",
+    "433d8d00eb942b8c58b621e0f02fc5741803392e.json",
+    "49eb47b6a9889625dc8bac6922cec6a5625a26b2.json",
+    "81aacd65842a473ef8dcfe6e8aa6a89d6f5f6553.json",
+    "a26687381467066845fb25ecab0d4ffdb75f9e41.json",
+    "ebfbb238f19ebd993caa973d5fbc3bd4b0d97306.json",
+    "f10809af56a8e68a3087db4e9d0afd5601c7da85.json"
+  ],
+  "datetime": "2024-10-15T06:37:00.109695+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21143",
+  "number": 21143,
+  "title": "8293336: AOT-linking of invokedynamic for lambda expression and string concat",
+  "head_sha": "382446d41bb79c4bd2c1dfeda656dfa2a73466b4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11340535575"
+}
