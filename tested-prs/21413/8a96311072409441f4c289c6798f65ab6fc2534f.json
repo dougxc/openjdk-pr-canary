@@ -1,0 +1,17 @@
+{
+  "artifact_2058027336": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-rsunderbabu-8a96311072409441f4c289c6798f65ab6fc2534f)\nOpenJDK 64-Bit Server VM (build 24-internal-rsunderbabu-8a96311072409441f4c289c6798f65ab6fc2534f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a84e4fc7cff65c23b46886826f2f3507bff985f0.json",
+    "c0998456435c7fbdc6655dce330a161a1440d3fc.json"
+  ],
+  "datetime": "2024-10-15T13:21:42.046292+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21413",
+  "number": 21413,
+  "title": "8324672: Update jdk/java/time/tck/java/time/TCKInstant.java now() to be more robust",
+  "head_sha": "8a96311072409441f4c289c6798f65ab6fc2534f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11346319376"
+}
