@@ -434,6 +434,7 @@ def post_failure_to_slack(test_record):
     Slack channel for the failure in `test_record`.
     """
 
+    pr_title = test_record["title"]
     pr_num = test_record["number"]
     pr_commit = test_record["head_sha"]
     pr_url = test_record["url"]
@@ -472,8 +473,13 @@ def post_failure_to_slack(test_record):
                         "type": "rich_text_section",
                         "elements": [
                             {
+                                "type": "link",
+                                "text": f"{pr_title} (#{pr_num})",
+                                "url": pr_url
+                            },
+                            {
                                 "type": "text",
-                                "text": f"Testing commit "
+                                "text": f"\nTesting commit "
                             },
                             {
                                 "type": "link",
@@ -482,16 +488,7 @@ def post_failure_to_slack(test_record):
                             },
                             {
                                 "type": "text",
-                                "text": f" in "
-                            },
-                            {
-                                "type": "link",
-                                "text": f"#{pr_num}",
-                                "url": pr_url
-                            },
-                            {
-                                "type": "text",
-                                "text": " against libgraal failed"
+                                "text": f" in the above PR against libgraal failed"
                             }
                         ] + previous_failures + [
                             {
