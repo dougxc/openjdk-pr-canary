@@ -1,0 +1,14 @@
+{
+  "artifact_2064258326": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tschatzl-2c707769fa62dcb916646fee326764af61cd86ef)\nOpenJDK 64-Bit Server VM (build 24-internal-tschatzl-2c707769fa62dcb916646fee326764af61cd86ef, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-16T15:59:46.738017+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21538",
+  "number": 21538,
+  "title": "8340389: vmTestbase/gc/gctests/PhantomReference/phantom001/TestDescription.java Test exit code: 97 with -Xcomp UseAVX=3",
+  "head_sha": "2c707769fa62dcb916646fee326764af61cd86ef",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11369223274"
+}
