@@ -65181,6 +65181,9 @@
 		},
 		"aliases": [
 			"jdk-24-2345"
+		],
+		"tags": [
+			"UNUSABLE"
 		]
 	},
 	{
@@ -65204,6 +65207,9 @@
 		},
 		"aliases": [
 			"jdk-24-2346"
+		],
+		"tags": [
+			"UNUSABLE"
 		]
 	},
 	{
@@ -65229,6 +65235,9 @@
 		},
 		"aliases": [
 			"jdk-24-2347"
+		],
+		"tags": [
+			"UNUSABLE"
 		]
 	}
 ]
