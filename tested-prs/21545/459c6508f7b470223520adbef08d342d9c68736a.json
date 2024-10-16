@@ -1,0 +1,14 @@
+{
+  "artifact_2064871145": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-naotoj-459c6508f7b470223520adbef08d342d9c68736a)\nOpenJDK 64-Bit Server VM (build 24-internal-naotoj-459c6508f7b470223520adbef08d342d9c68736a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-16T18:10:52.455403+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21545",
+  "number": 21545,
+  "title": "8340477: Remove JDK1.1 compatible behavior for \"EST\", \"MST\", and \"HST\" time zones",
+  "head_sha": "459c6508f7b470223520adbef08d342d9c68736a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11371052620"
+}
