@@ -65239,5 +65239,29 @@
 		"tags": [
 			"UNUSABLE"
 		]
+	},
+	{
+		"id": "jdk-24+20-2348",
+		"revisions": {
+			"graal": [
+				"b46a74bd49c3e0d9664c3ce49f2a1765790c8163"
+			],
+			"open": [
+				"d4f0ba73f653a3886b17f283b9b6a92db1af52aa"
+			],
+			"mx": [
+				"1653fa42a2cd5538b9b96c112e012fa7aa0dac8e"
+			],
+			"graal-enterprise": [
+				"05306bfa5fa1db493cdae6186371cb1ae58ab082",
+				"2a35859e60467b167a7384b705ed8f5462cd062d"
+			],
+			".": [
+				"1a52fe08f92c55d81a480679c4e1d435d326ef2d"
+			]
+		},
+		"aliases": [
+			"jdk-24-2348"
+		]
 	}
 ]
