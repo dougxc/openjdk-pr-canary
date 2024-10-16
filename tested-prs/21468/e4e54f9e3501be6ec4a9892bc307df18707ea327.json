@@ -1,0 +1,17 @@
+{
+  "artifact_2061137900": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sspitsyn-e4e54f9e3501be6ec4a9892bc307df18707ea327)\nOpenJDK 64-Bit Server VM (build 24-internal-sspitsyn-e4e54f9e3501be6ec4a9892bc307df18707ea327, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a02a59e0849932f8ea0298bc74d878604339801a.json",
+    "c68625be554ba506808bb9c696b27e56b3652ef2.json"
+  ],
+  "datetime": "2024-10-16T02:03:56.079321+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21468",
+  "number": 21468,
+  "title": "8340698: JVMTI FRAME_POP event is sometimes missed if NotifyFramePop is called as a method is returning",
+  "head_sha": "e4e54f9e3501be6ec4a9892bc307df18707ea327",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11357371633"
+}
