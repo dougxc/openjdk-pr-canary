@@ -1,0 +1,16 @@
+{
+  "artifact_2070076686": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-justin-curtis-lu-cacaecee85a13b797a501354025056bfd8232af1)\nOpenJDK 64-Bit Server VM (build 24-internal-justin-curtis-lu-cacaecee85a13b797a501354025056bfd8232af1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c95716a1993ed0d4547d16d6905bb201daa1520b.json"
+  ],
+  "datetime": "2024-10-17T17:03:48.882393+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21554",
+  "number": 21554,
+  "title": "8335271: Specify the MessageFormat ArgumentIndex Implementation Limit",
+  "head_sha": "cacaecee85a13b797a501354025056bfd8232af1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11389458146"
+}
