@@ -1,0 +1,16 @@
+{
+  "artifact_2067965803": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-5c5dead5d7129fbdbbf24f298a597dbd5657a336)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-5c5dead5d7129fbdbbf24f298a597dbd5657a336, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5bd46b0dcac9a9df9bb8fa81d920582094da28a5.json"
+  ],
+  "datetime": "2024-10-17T10:13:31.876347+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21532",
+  "number": 21532,
+  "title": "8341513: Remove the unused thread_type field from OSThread",
+  "head_sha": "5c5dead5d7129fbdbbf24f298a597dbd5657a336",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11382506593"
+}
