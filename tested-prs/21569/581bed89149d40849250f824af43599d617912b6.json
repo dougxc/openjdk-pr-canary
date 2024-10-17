@@ -1,0 +1,14 @@
+{
+  "artifact_2071212512": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-naotoj-581bed89149d40849250f824af43599d617912b6)\nOpenJDK 64-Bit Server VM (build 24-internal-naotoj-581bed89149d40849250f824af43599d617912b6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-17T21:44:14.178133+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21569",
+  "number": 21569,
+  "title": "8341975: Unable to set encoding for IO.println, IO.print and IO.readln",
+  "head_sha": "581bed89149d40849250f824af43599d617912b6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11393232286"
+}
