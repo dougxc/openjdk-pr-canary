@@ -1,0 +1,20 @@
+{
+  "artifact_2068378912": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-Michael-Mc-Mahon-cd88bc59911fc5743515fbe91751216d1a05f1cf)\nOpenJDK 64-Bit Server VM (build 24-internal-Michael-Mc-Mahon-cd88bc59911fc5743515fbe91751216d1a05f1cf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "74cb75d8fe2e6c062ea47513247dbc8027583bd0.json",
+    "86e2035ff97e39e348261d948a6910d8cccc67b0.json",
+    "90419e458b3d644733ff5dce520821b45840c3ed.json",
+    "c02d04a2b5596ea2f872b93da872a4dce5f23c91.json",
+    "cdc791a4fb93cbdd6a6666c534ae2dea35303404.json"
+  ],
+  "datetime": "2024-10-17T11:54:08.840075+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21408",
+  "number": 21408,
+  "title": "8326949: Authorization header is removed when a proxy Authenticator is set on HttpClient",
+  "head_sha": "cd88bc59911fc5743515fbe91751216d1a05f1cf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11383862101"
+}
