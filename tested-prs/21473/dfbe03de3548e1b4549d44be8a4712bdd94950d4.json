@@ -1,0 +1,17 @@
+{
+  "artifact_2071393155": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-chadrako-dfbe03de3548e1b4549d44be8a4712bdd94950d4)\nOpenJDK 64-Bit Server VM (build 24-internal-chadrako-dfbe03de3548e1b4549d44be8a4712bdd94950d4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5129839725fc0216ff1e0cd2c262c03973b3d5c3.json",
+    "a6d2f814fec3519734a2392de43512489aad7d7c.json"
+  ],
+  "datetime": "2024-10-17T22:22:10.187009+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21473",
+  "number": 21473,
+  "title": "8335662: [AArch64] C1: guarantee(val < (1ULL << nbits)) failed: Field too big for insn",
+  "head_sha": "dfbe03de3548e1b4549d44be8a4712bdd94950d4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11393568143"
+}
