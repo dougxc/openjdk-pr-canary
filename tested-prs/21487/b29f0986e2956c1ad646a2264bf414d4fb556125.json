@@ -1,0 +1,18 @@
+{
+  "artifact_2067537116": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-varada1110-b29f0986e2956c1ad646a2264bf414d4fb556125)\nOpenJDK 64-Bit Server VM (build 24-internal-varada1110-b29f0986e2956c1ad646a2264bf414d4fb556125, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "082b070533644e1fa2551e476dfc325ae4cc34cf.json",
+    "62f9250752121bb99ef3b62739e762daa512a3b5.json"
+  ],
+  "datetime": "2024-10-17T08:02:20.384049+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21487",
+  "number": 21487,
+  "title": "8211851: (ch) java/nio/channels/AsynchronousSocketChannel/StressLoopback.java times out (aix)",
+  "head_sha": "b29f0986e2956c1ad646a2264bf414d4fb556125",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11380623203"
+}
