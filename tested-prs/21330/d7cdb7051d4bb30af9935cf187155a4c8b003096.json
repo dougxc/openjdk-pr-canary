@@ -1,0 +1,17 @@
+{
+  "artifact_2069420230": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-matias9927-d7cdb7051d4bb30af9935cf187155a4c8b003096)\nOpenJDK 64-Bit Server VM (build 24-internal-matias9927-d7cdb7051d4bb30af9935cf187155a4c8b003096, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8b599317fe6f1430bd19b06c5a511cf39453d439.json",
+    "9268ef489ae798eeb510091fc0bd506508a64f75.json"
+  ],
+  "datetime": "2024-10-17T15:42:26.605528+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21330",
+  "number": 21330,
+  "title": "8341444: Unnecessary check for JSRs in CDS",
+  "head_sha": "d7cdb7051d4bb30af9935cf187155a4c8b003096",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11387408121"
+}
