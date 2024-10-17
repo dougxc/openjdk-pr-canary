@@ -1,0 +1,21 @@
+{
+  "artifact_2067126622": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-9ebbc06e4873a3ddfe1afb72738ccb87bf69654f)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-9ebbc06e4873a3ddfe1afb72738ccb87bf69654f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0b8d5aaa4ffbea1d0c6049c84679ff3eb562f4e4.json",
+    "129375da0d23b3778fd4b01ddc7752e71fd5282b.json",
+    "73f6d6e7d0205fabb51eef75e06bd7a6c1538740.json",
+    "bb63acbae0b9124622c85f660c1a74b7ba17f443.json",
+    "c21c8b32631019563e42805122f09e5502318ef4.json",
+    "d4bce414e2dc205698db504d5beed8a7c9cb65a7.json"
+  ],
+  "datetime": "2024-10-17T05:39:40.943000+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/2752",
+  "number": 2752,
+  "title": "8173970: jar tool should have a way to extract to a directory",
+  "head_sha": "9ebbc06e4873a3ddfe1afb72738ccb87bf69654f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11378856445"
+}
