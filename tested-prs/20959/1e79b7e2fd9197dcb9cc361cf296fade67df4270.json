@@ -1,0 +1,20 @@
+{
+  "artifact_2066371783": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-iklam-1e79b7e2fd9197dcb9cc361cf296fade67df4270)\nOpenJDK 64-Bit Server VM (build 24-internal-iklam-1e79b7e2fd9197dcb9cc361cf296fade67df4270, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "180375ac3b6120d8abdd1f75d6cc390ebf17138a.json",
+    "59dd8879038fed3acf80653d398ac55db5f82c7d.json",
+    "84777aa4e2c2f4be4b8445400be6078787ce7cbc.json",
+    "9b787423ce33b467facb800566f7902f02b96cf8.json",
+    "a935627931343e112badd6e54cb1e64b35df3221.json"
+  ],
+  "datetime": "2024-10-17T00:23:08.054599+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20959",
+  "number": 20959,
+  "title": "8293337: Store method handle intrinsics in AOT cache",
+  "head_sha": "1e79b7e2fd9197dcb9cc361cf296fade67df4270",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11375649930"
+}
