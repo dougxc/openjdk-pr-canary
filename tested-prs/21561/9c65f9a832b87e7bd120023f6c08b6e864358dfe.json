@@ -1,0 +1,16 @@
+{
+  "artifact_2071389451": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-chhagedorn-9c65f9a832b87e7bd120023f6c08b6e864358dfe)\nOpenJDK 64-Bit Server VM (build 24-internal-chhagedorn-9c65f9a832b87e7bd120023f6c08b6e864358dfe, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "aeb740995a7f1d1b5e0c73ab2d92b3b89d19af6d.json"
+  ],
+  "datetime": "2024-10-17T22:11:17.522176+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21561",
+  "number": 21561,
+  "title": "8342287: C2 fails with \"assert(is_IfTrue()) failed: invalid node class: IfFalse\" due to Template Assertion Predicate with two UCTs",
+  "head_sha": "9c65f9a832b87e7bd120023f6c08b6e864358dfe",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11393568143"
+}
