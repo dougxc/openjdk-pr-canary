@@ -1,0 +1,14 @@
+{
+  "artifact_2071516716": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-larry-cable-32f871bd4341d21901a1782f0bd7633bd7584255)\nOpenJDK 64-Bit Server VM (build 24-internal-larry-cable-32f871bd4341d21901a1782f0bd7633bd7584255, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-17T22:36:06.086518+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21572",
+  "number": 21572,
+  "title": "8342449: reimplement: JDK-8327114 Attach in Linux may have wrong behavior when pid == ns_pid",
+  "head_sha": "32f871bd4341d21901a1782f0bd7633bd7584255",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11393935731"
+}
