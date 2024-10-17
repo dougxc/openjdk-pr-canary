@@ -1,0 +1,16 @@
+{
+  "artifact_2066657510": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-calvinccheung-5c2783f7f94dca621f59013ca45aa139f1bf6cc3)\nOpenJDK 64-Bit Server VM (build 24-internal-calvinccheung-5c2783f7f94dca621f59013ca45aa139f1bf6cc3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e9729216e4569aaddfea4b99ab6eaa16fe41d4d9.json"
+  ],
+  "datetime": "2024-10-17T03:14:51.321922+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21553",
+  "number": 21553,
+  "title": "8319343: Improve CDS module graph support for --add-modules option",
+  "head_sha": "5c2783f7f94dca621f59013ca45aa139f1bf6cc3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11377458324"
+}
