@@ -1,0 +1,15 @@
+{
+  "artifact_2071056378": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-mlchung-4753637ca2c66bac690bc56277a64942eb53d7fc)\nOpenJDK 64-Bit Server VM (build 24-internal-mlchung-4753637ca2c66bac690bc56277a64942eb53d7fc, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-10-17T20:51:47.999412+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21571",
+  "number": 21571,
+  "title": "8327624: Remove VM implementation that bypass verification for core reflection",
+  "head_sha": "4753637ca2c66bac690bc56277a64942eb53d7fc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11392804113"
+}
