@@ -1,0 +1,16 @@
+{
+  "artifact_2069564240": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-3769ca28d6fb3489e8de19bb38c80b5b82c9c21c)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-3769ca28d6fb3489e8de19bb38c80b5b82c9c21c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7efa13b900639dc5e8e2d20db88af15905e798b9.json"
+  ],
+  "datetime": "2024-10-17T15:55:51.387719+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21206",
+  "number": 21206,
+  "title": "8341020: Error handler crashes when Metaspace is not fully initialized",
+  "head_sha": "3769ca28d6fb3489e8de19bb38c80b5b82c9c21c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11387408121"
+}
