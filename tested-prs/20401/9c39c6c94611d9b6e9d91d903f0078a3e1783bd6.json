@@ -1,0 +1,16 @@
+{
+  "artifact_2070081151": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kevinjwalls-9c39c6c94611d9b6e9d91d903f0078a3e1783bd6)\nOpenJDK 64-Bit Server VM (build 24-internal-kevinjwalls-9c39c6c94611d9b6e9d91d903f0078a3e1783bd6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7d077a79f156ca1968d9da55a3543fdc008602b6.json"
+  ],
+  "datetime": "2024-10-17T17:27:10.930224+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20401",
+  "number": 20401,
+  "title": "8337276: jcmd man page update for PID in output filenames",
+  "head_sha": "9c39c6c94611d9b6e9d91d903f0078a3e1783bd6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11389458146"
+}
