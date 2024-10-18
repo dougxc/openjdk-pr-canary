@@ -1,0 +1,14 @@
+{
+  "artifact_2075334783": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-4ed8756d540296662cda94f0a5485696d5f40429)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-4ed8756d540296662cda94f0a5485696d5f40429, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-18T17:45:19.479100+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21588",
+  "number": 21588,
+  "title": "8338570: sun/font/HBShaper - mismatch in return type of FFM upcall function description and native invocation",
+  "head_sha": "4ed8756d540296662cda94f0a5485696d5f40429",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11408104056"
+}
