@@ -1,0 +1,17 @@
+{
+  "artifact_2075173731": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-1750571afaa7cdc68c9f2185eede68a98ddf2aca)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-1750571afaa7cdc68c9f2185eede68a98ddf2aca, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b39788e2ba3dc1dd1bdd5d310ce2b0696201d4c0.json",
+    "c94cc44864f368260800cd12b4f82920da2b4c0e.json"
+  ],
+  "datetime": "2024-10-18T17:29:02.708934+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21559",
+  "number": 21559,
+  "title": "8341068: [s390x]  intrinsics for divideUnsigned and remainderUnsigned methods in java.lang.Integer and java.lang.Long",
+  "head_sha": "1750571afaa7cdc68c9f2185eede68a98ddf2aca",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11407712730"
+}
