@@ -1,0 +1,17 @@
+{
+  "artifact_2071720131": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-492659f6d14581dc89ae68c3694b03ca971ea705)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-492659f6d14581dc89ae68c3694b03ca971ea705, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "235182fb9d61ae3fd2d580d8bc2e2ed5ff93b0fe.json",
+    "51df5d814eb5b529098889b9157c1c5119ec430d.json"
+  ],
+  "datetime": "2024-10-18T00:01:40.765213+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21508",
+  "number": 21508,
+  "title": "8233451: (fs) Files.newInputStream() cannot be used with character special files",
+  "head_sha": "492659f6d14581dc89ae68c3694b03ca971ea705",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11394799922"
+}
