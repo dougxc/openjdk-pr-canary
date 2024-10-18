@@ -1,0 +1,14 @@
+{
+  "artifact_2072225044": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RealFYang-a104f4d40b977cd8df4351f1117a387213a417d9)\nOpenJDK 64-Bit Server VM (build 24-internal-RealFYang-a104f4d40b977cd8df4351f1117a387213a417d9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-18T03:46:04.228739+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21576",
+  "number": 21576,
+  "title": "8342579: RISC-V: C2: Cleanup effect of killing flag register for call instructs",
+  "head_sha": "a104f4d40b977cd8df4351f1117a387213a417d9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11396926443"
+}
