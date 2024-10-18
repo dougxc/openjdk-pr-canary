@@ -1,0 +1,26 @@
+{
+  "artifact_2074209737": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-nizarbenalla-3dbffd6eadf13aefe1fd88c77c0f53e8bd9a2f04)\nOpenJDK 64-Bit Server VM (build 24-internal-nizarbenalla-3dbffd6eadf13aefe1fd88c77c0f53e8bd9a2f04, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0fc3a1c7bf64b93ae451b98f50b0c773c5d74e14.json",
+    "143a84c6e553567106c4c0858a3cd10a4f2e5e53.json",
+    "1d4a42b439e32c0af4bc4b7c561ad4aaf0ad8cbc.json",
+    "2129c53c48b425ee573f1447fe7fcb0f8220508b.json",
+    "41d19b57b5d39155f8aa07844991f1a72e72f06f.json",
+    "7266edcb0dc38210a36715eaf4e146a43c8d7d34.json",
+    "a71aab923a78688aa6b4e2ecad5b959c4d681335.json",
+    "d4e3451979527bdc1b2c8e55672ae9c10c5e0962.json",
+    "e0bb1035d6407655aeda7c10b489e5ba7fd05127.json",
+    "f4d2e123ffbaace40c5d1c09992e9a0fa2f9cfc4.json",
+    "fd95431e9fc73c8f992ef319efcd70fa378a8a45.json"
+  ],
+  "datetime": "2024-10-18T13:42:11.138184+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21341",
+  "number": 21341,
+  "title": "8339570: Add Tidy build support for JDK tests",
+  "head_sha": "3dbffd6eadf13aefe1fd88c77c0f53e8bd9a2f04",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11404649753"
+}
