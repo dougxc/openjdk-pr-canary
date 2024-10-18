@@ -1,0 +1,14 @@
+{
+  "artifact_2074924625": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-aivanov-jdk-10b51b09284a3bde942eb04c0f444bad17cacf02)\nOpenJDK 64-Bit Server VM (build 24-internal-aivanov-jdk-10b51b09284a3bde942eb04c0f444bad17cacf02, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-18T16:01:04.146260+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21585",
+  "number": 21585,
+  "title": "8342508: Use latch in BasicMenuUI/bug4983388.java instead of delay",
+  "head_sha": "10b51b09284a3bde942eb04c0f444bad17cacf02",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11406854236"
+}
