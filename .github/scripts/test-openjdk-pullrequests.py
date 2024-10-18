@@ -32,6 +32,7 @@ import zipfile
 import tarfile
 import time
 import glob
+import re
 from pathlib import Path
 from datetime import timedelta, datetime, timezone
 
@@ -177,12 +178,68 @@ def get_merge_base_commit(pr):
         pr["merge_base_commit"] = merge_base_commit
     return merge_base_commit
 
-def update_to_match_pr_merge_base(repos, pr):
+
+def update_to_match_graal_pr(openjdk_pr):
     """
-    Updates the local `repos` to a revision in a mach5 build where
+    Updates graal and mx to revisions based on the PR at https://github.com/oracle/graal/pulls
+    "most associated" with `openjdk_pr`. A graal PR is associated with `openjdk_pr` if the
+    graal PR description or comments mention the URL of `openjdk_pr` or its JBS issue id.
+    The PR with the most mentions is the most associated PR. The assumption is that it
+    is the PR that makes the Graal changes adapting to `openjdk_pr`.
+
+    :returns bool: True if a matching revision was found for graal and mx, False otherwise
+    """
+
+    # The key is the PR num and the value is the number of mentions.
+    mentions = {}
+    m = re.fullmatch(r"(\d{7,}): .*", openjdk_pr["title"])
+    openjdk_pr_jbs_issue = f"JDK-{m.group(1)}" if m else None
+    openjdk_pr_url = openjdk_pr["html_url"]
+
+    def scan_comment(comment):
+        body = comment["body"]
+        refs = 0
+        if openjdk_pr_url in body:
+            refs += 1
+        if openjdk_pr_jbs_issue in body:
+            refs += 1
+        if refs:
+            issue_url = comment["issue_url"]
+            prefix = "https://api.github.com/repos/oracle/graal/issues/"
+            assert issue_url.startswith(prefix), comment
+            pr_num = issue_url[len(prefix):]
+            existing_refs = mentions.get(pr_num, 0)
+            mentions[pr_num] = existing_refs + refs
+
+    # Scan comments updated in the last 30 days
+    since = (datetime.now(timezone.utc) - timedelta(days=30)).date().isoformat()
+    for comment in gh_api(["--paginate", f"/repos/oracle/graal/issues/comments?since={since}"]):
+        scan_comment(comment)
+
+    if mentions:
+        # Sort in decreasing order of mentions
+        refs, pr_num = sorted(((refs, pr_num) for pr_num, refs in mentions.items()), reverse=True)[0]
+        pr = gh_api([f"/repos/oracle/graal/pulls/{pr_num}"])
+        rev = pr["head"]["sha"]
+        git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo="graal")
+        git(["reset", "--quiet", "--hard", rev], repo="graal")
+        info(f"  updated graal to revision {rev} from {pr['html_url']} ({refs} mentions of {openjdk_pr_url})")
+
+        common_json = json.loads(Path("graal", "common.json").read_text())
+        rev = common_json["mx_version"]
+        git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo="mx")
+        git(["reset", "--quiet", "--hard", rev], repo="mx")
+        info(f"  updated mx to revision {rev} based on graal/common.json")
+        return True
+    return False
+
+
+def update_to_match_pr_merge_base(pr):
+    """
+    Updates graal and mx to a revision in a mach5 build where
     the open jdk revision in the same build is the merge base of the PR.
 
-    :returns bool: True if a matching revision was found for all repos, False otherwise
+    :returns bool: True if a matching revision was found for graal and mx, False otherwise
     """
 
     # Load builds
@@ -200,7 +257,7 @@ def update_to_match_pr_merge_base(repos, pr):
             newest = build["revisions"]
     if newest:
         info(f"{mbc_desc}")
-        for repo in repos:
+        for repo in ("graal", "mx"):
             rev = newest[repo][0]
             git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo=repo)
             git(["reset", "--quiet", "--hard", rev], repo=repo)
@@ -223,7 +280,6 @@ def update_to_match_pr_merge_base(repos, pr):
 
     info(f"no Galahad EE repo revisions matching the {mbc_desc}", COLOR_ERROR)
     return False
-
 
 def add_test_history(test_record, pr, run_url, test_record_path):
     history = git(["log", "--pretty=", "--diff-filter=A", "--name-only", "origin/master", "--", str(test_record_path.parent)], capture_output=True).strip().split()
@@ -339,7 +395,7 @@ def test_pull_request(pr, untested_prs, failed_pull_requests):
                     # Clean
                     run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
 
-                if not update_to_match_pr_merge_base(["graal", "mx"], pr):
+                if not update_to_match_graal_pr(pr) and not update_to_match_pr_merge_base(pr):
                     test_record["status"] = "failed"
                     failed_pull_requests.append(pr)
                     pr["__test_record"] = test_record
@@ -527,7 +583,7 @@ def cleanup_closed_prs():
     Removes test records for closed PRs.
     """
     closed = []
-    prs = [e for e in Path("tested-prs").iterdir()]
+    prs = list(Path("tested-prs").iterdir())
     info(f"Scanning test records for {len(prs)} PRs...")
     for e in prs:
         if e.name.isdigit():
