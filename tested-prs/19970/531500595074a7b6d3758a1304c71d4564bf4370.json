@@ -1,0 +1,16 @@
+{
+  "artifact_2073557281": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-531500595074a7b6d3758a1304c71d4564bf4370)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-531500595074a7b6d3758a1304c71d4564bf4370, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d716e9a3739934d9495e4e8c2bd7da288396b68a.json"
+  ],
+  "datetime": "2024-10-18T10:49:59.633490+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/19970",
+  "number": 19970,
+  "title": "8335392: C2 MergeStores: enhanced pointer parsing",
+  "head_sha": "531500595074a7b6d3758a1304c71d4564bf4370",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11401976564"
+}
