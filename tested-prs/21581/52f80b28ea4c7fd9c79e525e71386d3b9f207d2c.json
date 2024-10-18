@@ -1,0 +1,16 @@
+{
+  "artifact_2075201565": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-theRealAph-52f80b28ea4c7fd9c79e525e71386d3b9f207d2c)\nOpenJDK 64-Bit Server VM (build 24-internal-theRealAph-52f80b28ea4c7fd9c79e525e71386d3b9f207d2c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c3fa63c56885f0e09c95b5d75a29b67964676cb3.json"
+  ],
+  "datetime": "2024-10-18T17:16:07.800591+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21581",
+  "number": 21581,
+  "title": "8342540: InterfaceCalls micro-benchmark gives misleading results",
+  "head_sha": "52f80b28ea4c7fd9c79e525e71386d3b9f207d2c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11407712730"
+}
