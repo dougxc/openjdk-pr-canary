@@ -211,26 +211,30 @@ def update_to_match_graal_pr(openjdk_pr):
             existing_refs = mentions.get(pr_num, 0)
             mentions[pr_num] = existing_refs + refs
 
-    # Scan comments updated in the last 30 days
+    # Retrieve and scan comments updated in the last 30 days
     since = (datetime.now(timezone.utc) - timedelta(days=30)).date().isoformat()
     for comment in gh_api(["--paginate", f"/repos/oracle/graal/issues/comments?since={since}"]):
         scan_comment(comment)
 
     if mentions:
-        # Sort in decreasing order of mentions
-        refs, pr_num = sorted(((refs, pr_num) for pr_num, refs in mentions.items()), reverse=True)[0]
-        pr = gh_api([f"/repos/oracle/graal/pulls/{pr_num}"])
-        rev = pr["head"]["sha"]
-        git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo="graal")
-        git(["reset", "--quiet", "--hard", rev], repo="graal")
-        info(f"  updated graal to revision {rev} from {pr['html_url']} ({refs} mentions of {openjdk_pr_url})")
+        # Iterate in decreasing number of mentions and use first open PR targeting the galahad branch
+        for refs, pr_num in sorted(((refs, pr_num) for pr_num, refs in mentions.items()), reverse=True):
+            pr = gh_api([f"/repos/oracle/graal/pulls/{pr_num}"])
+            if pr["state"] != "open":
+                continue
+            if pr["base"]["ref"] != "galahad":
+                continue
+            rev = pr["head"]["sha"]
+            git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo="graal")
+            git(["reset", "--quiet", "--hard", rev], repo="graal")
+            info(f"  updated graal to revision {rev} from {pr['html_url']} ({refs} mentions of {openjdk_pr_url})")
 
-        common_json = json.loads(Path("graal", "common.json").read_text())
-        rev = common_json["mx_version"]
-        git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo="mx")
-        git(["reset", "--quiet", "--hard", rev], repo="mx")
-        info(f"  updated mx to revision {rev} based on graal/common.json")
-        return True
+            common_json = json.loads(Path("graal", "common.json").read_text())
+            rev = common_json["mx_version"]
+            git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo="mx")
+            git(["reset", "--quiet", "--hard", rev], repo="mx")
+            info(f"  updated mx to revision {rev} based on graal/common.json")
+            return True
     return False
 
 
