@@ -1,0 +1,14 @@
+{
+  "artifact_2078047561": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-cl4es-ca4d0ff04a3d8b0cefaf36280ec8e8d0030e33b4)\nOpenJDK 64-Bit Server VM (build 24-internal-cl4es-ca4d0ff04a3d8b0cefaf36280ec8e8d0030e33b4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-19T21:00:00.037535+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21592",
+  "number": 21592,
+  "title": "8341776: Remove unused enum values from LambdaForm$Kind",
+  "head_sha": "ca4d0ff04a3d8b0cefaf36280ec8e8d0030e33b4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11420642453"
+}
