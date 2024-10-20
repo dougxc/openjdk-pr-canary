@@ -201,7 +201,7 @@ def update_to_match_graal_pr(openjdk_pr):
         refs = 0
         if openjdk_pr_url in body:
             refs += 1
-        if openjdk_pr_jbs_issue in body:
+        if openjdk_pr_jbs_issue and openjdk_pr_jbs_issue in body:
             refs += 1
         if refs:
             issue_url = comment["issue_url"]
