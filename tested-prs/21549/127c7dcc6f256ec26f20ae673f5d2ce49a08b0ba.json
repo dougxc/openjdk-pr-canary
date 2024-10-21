@@ -1,0 +1,17 @@
+{
+  "artifact_2081804015": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-manukumarvs-127c7dcc6f256ec26f20ae673f5d2ce49a08b0ba)\nOpenJDK 64-Bit Server VM (build 24-internal-manukumarvs-127c7dcc6f256ec26f20ae673f5d2ce49a08b0ba, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4d087a98acf0a4421007d06fff3d40a0ec600826.json",
+    "d4d8338895abe248b665d61a31f00d39b64bc663.json"
+  ],
+  "datetime": "2024-10-21T11:31:12.246600+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21549",
+  "number": 21549,
+  "title": "8341453: java/awt/a11y/AccessibleJTableTest.java fails in some cases where the test tables are not visible",
+  "head_sha": "127c7dcc6f256ec26f20ae673f5d2ce49a08b0ba",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11439004443"
+}
