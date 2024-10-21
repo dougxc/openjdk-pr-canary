@@ -33,6 +33,7 @@ import tarfile
 import time
 import glob
 import re
+import urllib.parse
 from pathlib import Path
 from datetime import timedelta, datetime, timezone
 
@@ -171,7 +172,7 @@ def get_merge_base_commit(pr):
     if merge_base_commit is None:
         head_repo = pr["head"]["repo"]["full_name"]
         base_repo = pr["base"]["repo"]["full_name"]
-        head_branch = pr["head"]["ref"]
+        head_branch = urllib.parse.quote(pr["head"]["ref"], safe="/:")
         base_branch = "master" # pr["base"]["ref"]
         compare = gh_api([f"/repos/{base_repo}/compare/{base_branch}...{head_repo.replace('/', ':')}:{head_branch}"])
         merge_base_commit = compare["merge_base_commit"]
