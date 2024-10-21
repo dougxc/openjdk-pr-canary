@@ -1,0 +1,15 @@
+{
+  "artifact_2084206023": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-69412929fe95a4f9df675c70583d6c901772654f)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-69412929fe95a4f9df675c70583d6c901772654f, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-10-21T21:04:33.388494+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21457",
+  "number": 21457,
+  "title": "8341913: Support CDS heap dumping for Shenandoah and Epsilon",
+  "head_sha": "69412929fe95a4f9df675c70583d6c901772654f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11447504078"
+}
