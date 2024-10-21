@@ -1,0 +1,14 @@
+{
+  "artifact_2081128477": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-rwestrel-2fd46262db2c43a4c75ece7d4b01bfd921f22220)\nOpenJDK 64-Bit Server VM (build 24-internal-rwestrel-2fd46262db2c43a4c75ece7d4b01bfd921f22220, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-21T09:03:09.495961+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21601",
+  "number": 21601,
+  "title": "8342330: C2: \"node pinned on loop exit test?\" assert failure",
+  "head_sha": "2fd46262db2c43a4c75ece7d4b01bfd921f22220",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11436590003"
+}
