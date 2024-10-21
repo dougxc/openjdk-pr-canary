@@ -1,0 +1,15 @@
+{
+  "artifact_2084016117": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-hanklo6-be4d8b0ed3baa733b8251121a2d645d20816e09e)\nOpenJDK 64-Bit Server VM (build 24-internal-hanklo6-be4d8b0ed3baa733b8251121a2d645d20816e09e, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-10-21T18:27:41.458929+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21620",
+  "number": 21620,
+  "title": "8342715: x86 unused orw instruction encoding could be removed",
+  "head_sha": "be4d8b0ed3baa733b8251121a2d645d20816e09e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11445758032"
+}
