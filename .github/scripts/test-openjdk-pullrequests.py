@@ -74,9 +74,20 @@ COLOR_ERROR = "red"
 
 
 def info(msg, color=None):
+    """
+    Prints the line(s) in `msg`. The prefix of the first line is the current timestamp
+    and the prefix for the remaining lines is white space the length of the timestamp.
+
+    :param str|list[str] msg: line(s) of the message to print
+    """
+    lines = [msg] if not isinstance(msg, list) else msg
     if color:
-        msg = colorize(msg, color)
-    print(f"{timestamp()} {msg}")
+        lines = [colorize(msg, color) for msg in lines]
+    prefix = timestamp()
+    print(prefix, lines[0])
+    prefix = " " * len(prefix)
+    for line in lines[1:]:
+        print(prefix, line)
 
 
 def gh_api(args, stdout=None, raw=False):
@@ -345,7 +356,10 @@ def test_pull_request(pr, untested_prs, failed_pull_requests):
 
             # Print a bright green line to separate output for each tested PR
             info("--------------------------------------------------------------------------------------", "green")
-            info(f"processing {pr['html_url']} ({head_sha}) - {pr['title']}")
+            info([
+                f"processing \"{pr['title']}\"",
+                "            {pr['html_url']} ({head_sha})"
+            ])
 
             # Find java executable
             java_exes = glob.glob("extracted/jdk*/bin/java")
