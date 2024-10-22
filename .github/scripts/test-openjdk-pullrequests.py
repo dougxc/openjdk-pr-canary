@@ -208,23 +208,27 @@ def update_to_match_graal_pr(openjdk_pr):
     openjdk_pr_jbs_issue = f"JDK-{m.group(1)}" if m else None
     openjdk_pr_url = openjdk_pr["html_url"]
 
-    def scan_comment(comment):
-        body = comment["body"]
+    def scan_comment(pr_or_comment):
+        body = pr_or_comment["body"]
         refs = 0
+        if not body:
+            return
         if openjdk_pr_url in body:
             refs += 1
         if openjdk_pr_jbs_issue and openjdk_pr_jbs_issue in body:
             refs += 1
         if refs:
-            issue_url = comment["issue_url"]
+            issue_url = pr_or_comment["issue_url"]
             prefix = "https://api.github.com/repos/oracle/graal/issues/"
-            assert issue_url.startswith(prefix), comment
+            assert issue_url.startswith(prefix), pr_or_comment
             pr_num = issue_url[len(prefix):]
             existing_refs = mentions.get(pr_num, 0)
             mentions[pr_num] = existing_refs + refs
 
     # Retrieve and scan comments updated in the last 30 days
     since = (datetime.now(timezone.utc) - timedelta(days=30)).date().isoformat()
+    for pr in gh_api(["--paginate", f"/repos/oracle/graal/pulls?since={since}"]):
+        scan_comment(pr)
     for comment in gh_api(["--paginate", f"/repos/oracle/graal/issues/comments?since={since}"]):
         scan_comment(comment)
 
