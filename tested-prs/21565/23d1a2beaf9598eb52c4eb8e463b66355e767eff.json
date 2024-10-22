@@ -1,0 +1,22 @@
+{
+  "artifact_2085740380": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-pchilano-23d1a2beaf9598eb52c4eb8e463b66355e767eff)\nOpenJDK 64-Bit Server VM (build 24-internal-pchilano-23d1a2beaf9598eb52c4eb8e463b66355e767eff, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "artifact_2085699673": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-pchilano-23d1a2beaf9598eb52c4eb8e463b66355e767eff)\nOpenJDK 64-Bit Server VM (build 24-internal-pchilano-23d1a2beaf9598eb52c4eb8e463b66355e767eff, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "history": [
+    "8c196acd37e19d6baf4cc59473d3fb045cafe17a.json"
+  ],
+  "datetime": "2024-10-22T03:26:00.102901+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21565",
+  "number": 21565,
+  "title": "8338383: Implementation of Synchronize Virtual Threads without Pinning",
+  "head_sha": "23d1a2beaf9598eb52c4eb8e463b66355e767eff",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11452342716"
+}
