@@ -1,0 +1,14 @@
+{
+  "artifact_2085679740": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TheShermanTanker-541d4f89678b3ad6d27b22a83072e71b37886ca1)\nOpenJDK 64-Bit Server VM (build 24-internal-TheShermanTanker-541d4f89678b3ad6d27b22a83072e71b37886ca1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-22T03:18:56.618011+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21627",
+  "number": 21627,
+  "title": "8342769: gcc port broken on HotSpot",
+  "head_sha": "541d4f89678b3ad6d27b22a83072e71b37886ca1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11452342716"
+}
