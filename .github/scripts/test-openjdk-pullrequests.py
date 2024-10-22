@@ -358,7 +358,7 @@ def test_pull_request(pr, untested_prs, failed_pull_requests):
             info("--------------------------------------------------------------------------------------", "green")
             info([
                 f"processing \"{pr['title']}\"",
-                "            {pr['html_url']} ({head_sha})"
+                f"           {pr['html_url']} ({head_sha})"
             ])
 
             # Find java executable
