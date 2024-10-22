@@ -167,7 +167,10 @@ def get_test_record_path(pr):
 
 
 def load_history(pr, name):
-    return json.loads(get_test_record_path(pr).parent.joinpath(name).read_text())
+    path = get_test_record_path(pr).parent.joinpath(name)
+    if not path.exists():
+        return []
+    return json.loads(path.read_text())
 
 
 def get_merge_base_commit(pr):
