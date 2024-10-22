@@ -1,0 +1,14 @@
+{
+  "artifact_2090638087": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-erikj79-1b64396a0977536ef311a0ed018b995be5c63566)\nOpenJDK 64-Bit Server VM (build 24-internal-erikj79-1b64396a0977536ef311a0ed018b995be5c63566, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-22T22:33:24.720456+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21649",
+  "number": 21649,
+  "title": "8342858: Make target mac-jdk-bundle fails on chmod command",
+  "head_sha": "1b64396a0977536ef311a0ed018b995be5c63566",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11469446708"
+}
