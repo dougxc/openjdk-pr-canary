@@ -247,7 +247,6 @@ def update_to_match_graal_pr(openjdk_pr):
 
             common_json = json.loads(Path("graal", "common.json").read_text())
             rev = common_json["mx_version"]
-            git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo="mx")
             git(["reset", "--quiet", "--hard", rev], repo="mx")
             info(f"  updated mx to revision {rev} based on graal/common.json")
             return True
@@ -413,7 +412,7 @@ def test_pull_request(pr, untested_prs, failed_pull_requests):
                     run_step("clone_graal", ["gh", "repo", "clone", "oracle/graal", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
 
                     # Clone mx
-                    run_step("clone_mx", ["gh", "repo", "clone", "graalvm/mx", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
+                    run_step("clone_mx", ["gh", "repo", "clone", "graalvm/mx", "--", "--quiet", "--branch", "galahad"])
                 else:
                     # Clean
                     run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
