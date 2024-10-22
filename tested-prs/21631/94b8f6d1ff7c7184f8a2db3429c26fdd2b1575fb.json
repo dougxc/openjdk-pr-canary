@@ -1,0 +1,16 @@
+{
+  "artifact_2087658128": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-cl4es-94b8f6d1ff7c7184f8a2db3429c26fdd2b1575fb)\nOpenJDK 64-Bit Server VM (build 24-internal-cl4es-94b8f6d1ff7c7184f8a2db3429c26fdd2b1575fb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3f1fe1914cd8880c9e4f77114c230f8fff778888.json"
+  ],
+  "datetime": "2024-10-22T14:22:33.663840+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21631",
+  "number": 21631,
+  "title": "8342806: Desugar capturing lambda in StringNameTable",
+  "head_sha": "94b8f6d1ff7c7184f8a2db3429c26fdd2b1575fb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11461616866"
+}
