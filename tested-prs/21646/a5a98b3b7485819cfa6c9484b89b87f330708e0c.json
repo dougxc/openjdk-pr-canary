@@ -1,0 +1,14 @@
+{
+  "artifact_2090129028": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dougxc-a5a98b3b7485819cfa6c9484b89b87f330708e0c)\nOpenJDK 64-Bit Server VM (build 24-internal-dougxc-a5a98b3b7485819cfa6c9484b89b87f330708e0c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-22T20:48:53.237378+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21646",
+  "number": 21646,
+  "title": "8342854: [JVMCI] Block secondary thread reporting a JVMCI fatal error",
+  "head_sha": "a5a98b3b7485819cfa6c9484b89b87f330708e0c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11467933136"
+}
