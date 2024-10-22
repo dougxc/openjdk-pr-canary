@@ -1,0 +1,14 @@
+{
+  "artifact_2089818730": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-hanklo6-ed7c10a26c3a2786994f72d4530faf16e2f2da3f)\nOpenJDK 64-Bit Server VM (build 24-internal-hanklo6-ed7c10a26c3a2786994f72d4530faf16e2f2da3f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-22T19:10:52.287949+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21644",
+  "number": 21644,
+  "title": "8342768: GTest AssemblerX86.validate_vm failed: assert(VM_Version::supports_bmi1()) failed: tzcnt instruction not supported",
+  "head_sha": "ed7c10a26c3a2786994f72d4530faf16e2f2da3f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11466611068"
+}
