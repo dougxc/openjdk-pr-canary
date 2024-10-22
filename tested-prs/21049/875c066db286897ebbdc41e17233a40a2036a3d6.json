@@ -1,0 +1,22 @@
+{
+  "artifact_2086518782": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-iklam-875c066db286897ebbdc41e17233a40a2036a3d6)\nOpenJDK 64-Bit Server VM (build 24-internal-iklam-875c066db286897ebbdc41e17233a40a2036a3d6, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "11391c39b5de670403cc173d4d0754a3b9e06090.json",
+    "1b067b7b8810497783551b23e075c1ab386c30ea.json",
+    "a9ae70e2be02a8d76dfc025601b83a66c7a94804.json",
+    "b383d24bfa530dbae9c7e225fad2e71a2323ded9.json",
+    "b8187149c8e0c83e4a86e3c58799e923c649d606.json",
+    "e46b910a4a7ea19a7fdea2bb27915e28e3965bee.json"
+  ],
+  "datetime": "2024-10-22T08:03:38.833599+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21049",
+  "number": 21049,
+  "title": "8311071: Avoid SoftReferences in LambdaFormEditor and MethodTypeForm when storing heap objects into AOT cache",
+  "head_sha": "875c066db286897ebbdc41e17233a40a2036a3d6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11455623860"
+}
