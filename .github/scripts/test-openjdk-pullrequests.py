@@ -654,6 +654,12 @@ def main():
             untested_prs.setdefault("they have unverified OCA signatory status", []).append(pr)
             continue
 
+        # Ignore pull requests that are blocked on a dependent PR
+        body = pr["body"]
+        if body and re.search(r"Dependency #\d+ must be integrated first", body):
+            untested_prs.setdefault("they are blocked on a dependent PR", []).append(pr)
+            continue
+
         # Before starting, fetch commits that may have been pushed between scheduling
         # this job and testing `pr`. This reduces the chance of testing the same pull
         # request commit twice.
