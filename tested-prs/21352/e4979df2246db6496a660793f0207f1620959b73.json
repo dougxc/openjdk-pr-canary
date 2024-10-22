@@ -1,0 +1,22 @@
+{
+  "artifact_2087673810": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-ferakocz-e4979df2246db6496a660793f0207f1620959b73)\nOpenJDK 64-Bit Server VM (build 24-internal-ferakocz-e4979df2246db6496a660793f0207f1620959b73, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "1b5b71f03f6d04ae5894a82897802734a154a7b9.json",
+    "37e1058cf9a8843767eb9014598802a7a9fc950f.json",
+    "52d2fbaf9978b2225ef41ffccb2f3070a277c32e.json",
+    "c91b80db28b2445921b8a9a4f9342ae8cf0b5607.json",
+    "e48dd674eb58c87ffe6210c4ab3cad71b1aebca4.json",
+    "f007a5b29d9fd1832dbe7b6622dd071feaad060f.json"
+  ],
+  "datetime": "2024-10-22T15:02:21.279026+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21352",
+  "number": 21352,
+  "title": "8341527: AVX-512 intrinsic for SHA3",
+  "head_sha": "e4979df2246db6496a660793f0207f1620959b73",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11461616866"
+}
