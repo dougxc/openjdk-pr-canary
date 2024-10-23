@@ -1,0 +1,14 @@
+{
+  "artifact_2092990334": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RealFYang-64422ea4aadc2d2480ad515b1b157f598d7de708)\nOpenJDK 64-Bit Server VM (build 24-internal-RealFYang-64422ea4aadc2d2480ad515b1b157f598d7de708, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-23T11:31:18.759391+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21661",
+  "number": 21661,
+  "title": "8342882: RISC-V: Unify handling of jumps to runtime",
+  "head_sha": "64422ea4aadc2d2480ad515b1b157f598d7de708",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11478763717"
+}
