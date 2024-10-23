@@ -1,0 +1,19 @@
+{
+  "artifact_2094938178": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-pchilano-e232b7f3dc692ca455a16bb12f3fd1ef9a309a89)\nOpenJDK 64-Bit Server VM (build 24-internal-pchilano-e232b7f3dc692ca455a16bb12f3fd1ef9a309a89, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "23d1a2beaf9598eb52c4eb8e463b66355e767eff.json",
+    "81e5c6d0ee8dcfaf3980eafdb2904eaff868ae4d.json",
+    "8c196acd37e19d6baf4cc59473d3fb045cafe17a.json",
+    "b6bc98e24ac4e43181753e3e4b3d73eeee30a4a3.json"
+  ],
+  "datetime": "2024-10-23T17:48:04.302637+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21565",
+  "number": 21565,
+  "title": "8338383: Implement JEP 491: Synchronize Virtual Threads without Pinning",
+  "head_sha": "e232b7f3dc692ca455a16bb12f3fd1ef9a309a89",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11485189522"
+}
