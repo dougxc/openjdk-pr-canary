@@ -530,6 +530,15 @@ class SlackAPI:
             "-H", f"Authorization: Bearer {token}"
         ]
 
+    def slack_api_call(self, cmd):
+        p = subprocess.run(cmd, check=True, text=True, capture_output=True)
+        response = json.loads(p.stdout)
+        if not response["ok"]:
+            quoted_cmd = " ".join(map(shlex.quote, cmd))
+            err_msg = f"Command returned unexpected response: {quoted_cmd}{os.linesep}stdout: {p.stdout}{os.linesep}stderr: {p.stderr}"
+            raise Exception(err_msg)
+        return response
+
     def get_messages(self):
         """
         Gets all top level messages in the channel.
@@ -540,12 +549,7 @@ class SlackAPI:
         while True:
             url = f"https://slack.com/api/conversations.history?channel=C07KMA7HFE3&limit=500&{cursor}"
             cmd = self.curl_prefix + [url]
-            p = subprocess.run(cmd, check=True, text=True, capture_output=True)
-            response = json.loads(p.stdout)
-            if "messages" not in response or not response["ok"]:
-                quoted_cmd = " ".join(map(shlex.quote, cmd))
-                err_msg = f"Command returned unexpected response: {quoted_cmd}{os.linesep}stdout: {p.stdout}{os.linesep}stderr: {p.stderr}"
-                raise Exception(err_msg)
+            response = self.slack_api_call(cmd)
             messages = response["messages"] + messages
             if response["has_more"]:
                 cursor = "cursor=" + response["response_metadata"]["next_cursor"]
@@ -562,13 +566,7 @@ class SlackAPI:
         cmd = self.curl_prefix + [
             "--data-binary", f"@{message_path}",
             "https://slack.com/api/chat.postMessage"]
-        p = subprocess.run(cmd, check=True, text=True, capture_output=True)
-        response = json.loads(p.stdout)
-        if "message" not in response or not response["ok"]:
-            quoted_cmd = " ".join(map(shlex.quote, cmd))
-            err_msg = f"Command returned unexpected response: {quoted_cmd}{os.linesep}stdout: {p.stdout}{os.linesep}stderr: {p.stderr}"
-            raise Exception(err_msg)
-        return response
+        return self.slack_api_call(cmd)
 
 _slack_api = SlackAPI()
 
