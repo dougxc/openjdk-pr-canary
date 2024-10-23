@@ -1,0 +1,18 @@
+{
+  "artifact_2091734186": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-iklam-1b6c3e288acb5e649d01fb73c9caaa2b6b0f3f48)\nOpenJDK 64-Bit Server VM (build 24-internal-iklam-1b6c3e288acb5e649d01fb73c9caaa2b6b0f3f48, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "3860dcf502c84b4f2ee7be91d09c78a315d8b506.json",
+    "f0bc1ae60fea80d5914d520457986a753e75fae4.json"
+  ],
+  "datetime": "2024-10-23T05:36:18.384377+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21642",
+  "number": 21642,
+  "title": "8331497: Implement JEP 483: Ahead-of-Time Class Loading & Linking",
+  "head_sha": "1b6c3e288acb5e649d01fb73c9caaa2b6b0f3f48",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11473578037"
+}
