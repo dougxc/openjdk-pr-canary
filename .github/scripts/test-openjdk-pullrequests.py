@@ -511,7 +511,7 @@ def print_summary(test_records, failed_pull_requests, untested_prs):
 
 class SlackAPI:
     """
-    Object for reading/posting messages from/to the #openjdk-pr-canary channel (https://graalvm.slack.com/archives/C07KMA7HFE3).
+    Object for reading/posting messages from/to the #openjdk-pr-canary channel.
     """
     def __init__(self):
         self.channel = "C07KMA7HFE3"
@@ -547,7 +547,7 @@ class SlackAPI:
         messages = []
 
         while True:
-            url = f"https://slack.com/api/conversations.history?channel=C07KMA7HFE3&limit=500&{cursor}"
+            url = f"https://slack.com/api/conversations.history?channel={self.channel}&limit=500&{cursor}"
             cmd = self.curl_prefix + [url]
             response = self.slack_api_call(cmd)
             messages = response["messages"] + messages
@@ -592,7 +592,6 @@ def post_failure_to_slack(test_record):
     if not thread:
         # First time failure seen - start a new thread
         message = {
-            "channel": "C07KMA7HFE3",
             "text": key,
             "blocks": [
                 {
@@ -623,7 +622,6 @@ def post_failure_to_slack(test_record):
 
     # Add failure to thread
     message = {
-        "channel": "C07KMA7HFE3",
         "thread_ts": thread,
         "blocks": [
             {
