@@ -1,0 +1,14 @@
+{
+  "artifact_2094649927": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sendaoYan-47c90abdf93524566f874e8a65823d15d352d411)\nOpenJDK 64-Bit Server VM (build 24-internal-sendaoYan-47c90abdf93524566f874e8a65823d15d352d411, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-23T16:39:09.562579+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21666",
+  "number": 21666,
+  "title": "8342285: Mark jdk/jfr/api/event/TestIsEnabledMultiple.java as intermittent",
+  "head_sha": "47c90abdf93524566f874e8a65823d15d352d411",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11484167899"
+}
