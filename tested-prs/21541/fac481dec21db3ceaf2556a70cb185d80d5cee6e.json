@@ -1,0 +1,17 @@
+{
+  "artifact_2092324582": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-fac481dec21db3ceaf2556a70cb185d80d5cee6e)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-fac481dec21db3ceaf2556a70cb185d80d5cee6e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "460176c090010d2a8ce11050e733aa6ce3f673f5.json",
+    "46b95030b38edea8002164a796ec9f3c30c49a36.json"
+  ],
+  "datetime": "2024-10-23T08:40:31.471122+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21541",
+  "number": 21541,
+  "title": "8342387: C2 SuperWord: refactor and improve compiler/loopopts/superword/TestDependencyOffsets.java",
+  "head_sha": "fac481dec21db3ceaf2556a70cb185d80d5cee6e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11476055138"
+}
