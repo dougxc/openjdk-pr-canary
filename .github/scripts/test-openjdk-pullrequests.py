@@ -509,10 +509,72 @@ def print_summary(test_records, failed_pull_requests, untested_prs):
         for reason, untested in untested_prs.items():
             print(f"{len(untested)} pull requests not tested because {reason}.", file=summary)
 
+class SlackAPI:
+    """
+    Object for reading/posting messages from/to the #openjdk-pr-canary channel (https://graalvm.slack.com/archives/C07KMA7HFE3).
+    """
+    def __init__(self):
+        self.channel = "C07KMA7HFE3"
+        token = os.environ.get('SLACK_AUTH_TOKEN')
+        assert token, f"Required environment variable not set: SLACK_AUTH_TOKEN"
+        self.headers = {
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json"
+        }
+        self.curl_prefix = [
+            "curl",
+            "--fail",
+            "--silent",
+            "-X", "POST",
+            "-H", "Content-type: application/json",
+            "-H", f"Authorization: Bearer {token}"
+        ]
+
+    def get_messages(self):
+        """
+        Gets all top level messages in the channel.
+        """
+        cursor = ""
+        messages = []
+
+        while True:
+            url = f"https://slack.com/api/conversations.history?channel=C07KMA7HFE3&limit=500&{cursor}"
+            cmd = self.curl_prefix + [url]
+            p = subprocess.run(cmd, check=True, text=True, capture_output=True)
+            response = json.loads(p.stdout)
+            if "messages" not in response or not response["ok"]:
+                quoted_cmd = " ".join(map(shlex.quote, cmd))
+                err_msg = f"Command returned unexpected response: {quoted_cmd}{os.linesep}stdout: {p.stdout}{os.linesep}stderr: {p.stderr}"
+                raise Exception(err_msg)
+            messages = response["messages"] + messages
+            if response["has_more"]:
+                cursor = "cursor=" + response["response_metadata"]["next_cursor"]
+            else:
+                return messages
+
+    def post_message(self, message):
+        """
+        Posts a message to the channel.
+        """
+        message["channel"] = self.channel
+        message_path = Path("message.json")
+        message_path.write_text(json.dumps(message))
+        cmd = self.curl_prefix + [
+            "--data-binary", f"@{message_path}",
+            "https://slack.com/api/chat.postMessage"]
+        p = subprocess.run(cmd, check=True, text=True, capture_output=True)
+        response = json.loads(p.stdout)
+        if "message" not in response or not response["ok"]:
+            quoted_cmd = " ".join(map(shlex.quote, cmd))
+            err_msg = f"Command returned unexpected response: {quoted_cmd}{os.linesep}stdout: {p.stdout}{os.linesep}stderr: {p.stderr}"
+            raise Exception(err_msg)
+        return response
+
+_slack_api = SlackAPI()
+
 def post_failure_to_slack(test_record):
     """
-    Posts a message to the #openjdk-pr-canary (https://graalvm.slack.com/archives/C07KMA7HFE3)
-    Slack channel for the failure in `test_record`.
+    Posts a message to Slack for the failure in `test_record`.
     """
 
     pr_title = test_record["title"]
@@ -521,32 +583,51 @@ def post_failure_to_slack(test_record):
     pr_url = test_record["url"]
     run_url = test_record["run_url"]
 
-    history = test_record["history"]
-    history_objs = [load_history(test_record, name) for name in history]
-    failures = [e for e in history_objs if e["status"] == "failed"]
-    if failures:
-        previous_failures = [
-            {
-                "type": "text",
-                "text": f" ({len(failures)} previous failures"
-            },
-            {
-                "type": "emoji",
-                "name": "point_up"
-            },
-            {
-                "type": "text",
-                "text": ")"
-            }
-        ]
-    else:
-        previous_failures = []
+    key = f"bot:{pr_url}"
 
-    message = json.dumps({
+    thread = None
+    for message in _slack_api.get_messages():
+        if message["text"] == key:
+            thread = message["ts"]
+            break
+
+    if not thread:
+        # First time failure seen - start a new thread
+        message = {
+            "channel": "C07KMA7HFE3",
+            "text": key,
+            "blocks": [
+                {
+                    "type": "divider"
+                },
+                {
+                    "type": "rich_text",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "link",
+                                    "text": f"{pr_title} (#{pr_num})",
+                                    "url": pr_url
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "divider"
+                }
+            ]
+        }
+        response = _slack_api.post_message(message)
+        thread = response["ts"]
+
+    # Add failure to thread
+    message = {
+        "channel": "C07KMA7HFE3",
+        "thread_ts": thread,
         "blocks": [
-            {
-                "type": "divider"
-            },
             {
                 "type": "rich_text",
                 "elements": [
@@ -554,13 +635,8 @@ def post_failure_to_slack(test_record):
                         "type": "rich_text_section",
                         "elements": [
                             {
-                                "type": "link",
-                                "text": f"{pr_title} (#{pr_num})",
-                                "url": pr_url
-                            },
-                            {
                                 "type": "text",
-                                "text": f"\nTesting commit "
+                                "text": f"Testing commit "
                             },
                             {
                                 "type": "link",
@@ -569,12 +645,7 @@ def post_failure_to_slack(test_record):
                             },
                             {
                                 "type": "text",
-                                "text": f" in the above PR against libgraal failed"
-                            }
-                        ] + previous_failures + [
-                            {
-                                "type": "text",
-                                "text": ". See "
+                                "text": f" in the above PR against libgraal failed. See "
                             },
                             {
                                 "type": "link",
@@ -588,20 +659,10 @@ def post_failure_to_slack(test_record):
                         ]
                     }
                 ]
-            },
-            {
-                "type": "divider"
             }
         ]
-    })
-
-    message_path = Path("message.json")
-    message_path.write_text(message)
-    cmd = ["curl", "--fail", "--silent", "-X", "POST",
-           "-H", "Content-type: application/json",
-           "--data-binary", f"@{message_path}",
-           os.environ.get('SLACK_WEBHOOK_URL')]
-    subprocess.run(cmd, check=True)
+    }
+    _slack_api.post_message(message)
 
 def cleanup_closed_prs():
     """

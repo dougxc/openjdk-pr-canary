@@ -52,7 +52,7 @@ jobs:
     - name: Test LibGraal
       env:
         GH_TOKEN: ${{ github.token }}
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_AUTH_TOKEN: ${{ secrets.SLACK_AUTH_TOKEN }}
       run: python -u .github/scripts/test-openjdk-pullrequests.py
 
     - name: Failure Logs
