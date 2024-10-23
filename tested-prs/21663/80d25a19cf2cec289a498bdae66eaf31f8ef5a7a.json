@@ -1,0 +1,14 @@
+{
+  "artifact_2094239726": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-nizarbenalla-80d25a19cf2cec289a498bdae66eaf31f8ef5a7a)\nOpenJDK 64-Bit Server VM (build 24-internal-nizarbenalla-80d25a19cf2cec289a498bdae66eaf31f8ef5a7a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-23T15:40:21.201331+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21663",
+  "number": 21663,
+  "title": "8339190: Parameter arrays that are capped during annotation processing report incorrect length",
+  "head_sha": "80d25a19cf2cec289a498bdae66eaf31f8ef5a7a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11483092030"
+}
