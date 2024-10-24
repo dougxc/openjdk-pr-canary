@@ -1,0 +1,14 @@
+{
+  "artifact_2098130682": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-anton-seoane-35452e8aa2cf307a097b9a638dea65e38d5362cd)\nOpenJDK 64-Bit Server VM (build 24-internal-anton-seoane-35452e8aa2cf307a097b9a638dea65e38d5362cd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-24T09:58:09.184790+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21501",
+  "number": 21501,
+  "title": "8288298: Resolve multiline message parsing ambiguities in UL",
+  "head_sha": "35452e8aa2cf307a097b9a638dea65e38d5362cd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11496423010"
+}
