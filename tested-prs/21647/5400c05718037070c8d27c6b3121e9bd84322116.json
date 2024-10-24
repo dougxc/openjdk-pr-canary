@@ -1,0 +1,17 @@
+{
+  "artifact_2101205233": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-matias9927-5400c05718037070c8d27c6b3121e9bd84322116)\nOpenJDK 64-Bit Server VM (build 24-internal-matias9927-5400c05718037070c8d27c6b3121e9bd84322116, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8395f445fe0efdadf22d7839bf06ac7a35428791.json",
+    "da78b148af8c823b5033cc1c9b6041e770a35c8a.json"
+  ],
+  "datetime": "2024-10-24T21:43:49.087451+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21647",
+  "number": 21647,
+  "title": "8341371: CDS cannot load archived heap objects with -XX:+UseSerialGC -XX:-UseCompressedOops ",
+  "head_sha": "5400c05718037070c8d27c6b3121e9bd84322116",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11507652662"
+}
