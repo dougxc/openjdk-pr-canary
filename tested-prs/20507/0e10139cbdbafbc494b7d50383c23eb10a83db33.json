@@ -1,0 +1,23 @@
+{
+  "artifact_2099307069": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jatin-bhateja-0e10139cbdbafbc494b7d50383c23eb10a83db33)\nOpenJDK 64-Bit Server VM (build 24-internal-jatin-bhateja-0e10139cbdbafbc494b7d50383c23eb10a83db33, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3ee0de07c7950fb9267bd3a06dae2779b0a201ea.json",
+    "506ae2997cf9491c7469824000c402e827c685ab.json",
+    "7164783e4faa73aa207e0aa10e958b453d53af7d.json",
+    "7506ac14ce80a2950d05cf7b1b3febb689970cc0.json",
+    "bec0f4490b0e8b3bbec9f050d0e84620857da443.json",
+    "ce76c3e5a85cac60255e83c35931593a8838856d.json",
+    "d9a379b27ca539a36ad23b6a93682feffaaf5ccb.json",
+    "dacc9313ec61a89317eea1c52b14220825275656.json"
+  ],
+  "datetime": "2024-10-24T14:26:00.801012+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20507",
+  "number": 20507,
+  "title": "8338021: Support new unsigned and saturating vector operators in VectorAPI",
+  "head_sha": "0e10139cbdbafbc494b7d50383c23eb10a83db33",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11500675833"
+}
