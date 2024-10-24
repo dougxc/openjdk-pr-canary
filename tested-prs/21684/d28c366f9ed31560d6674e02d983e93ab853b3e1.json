@@ -1,0 +1,14 @@
+{
+  "artifact_2099488371": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-MBaesken-d28c366f9ed31560d6674e02d983e93ab853b3e1)\nOpenJDK 64-Bit Server VM (build 24-internal-MBaesken-d28c366f9ed31560d6674e02d983e93ab853b3e1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-24T14:59:45.993131+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21684",
+  "number": 21684,
+  "title": "8342823: Ubsan: ciEnv.cpp:1614:65: runtime error: member call on null pointer of type 'struct CompileTask'",
+  "head_sha": "d28c366f9ed31560d6674e02d983e93ab853b3e1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11501796290"
+}
