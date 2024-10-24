@@ -1,0 +1,20 @@
+{
+  "artifact_2098045910": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sspitsyn-5d6e5c912579bff81d47067e60e197a1c5fdc425)\nOpenJDK 64-Bit Server VM (build 24-internal-sspitsyn-5d6e5c912579bff81d47067e60e197a1c5fdc425, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3317ea81016bc3ed35e805b87e6c4c688f46d6f8.json",
+    "54dc2b4a77100f8f58beb00038b6c398ce1e9cb7.json",
+    "8615d2b92eaaa52b22657e8a026ed9d8135a31c8.json",
+    "94862c303ac368bd9a9c6da785c66fdfde8ce9a4.json",
+    "f8d051520c589c3214ddb73791ed5a3071fcd160.json"
+  ],
+  "datetime": "2024-10-24T10:09:30.859926+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21397",
+  "number": 21397,
+  "title": "8341273: JVMTI is not properly hiding some continuation related methods",
+  "head_sha": "5d6e5c912579bff81d47067e60e197a1c5fdc425",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11496423010"
+}
