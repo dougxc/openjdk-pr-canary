@@ -1,0 +1,16 @@
+{
+  "artifact_2096751552": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaskarth-7fbc4509e19d3a12c012ffcb63f1a297ea7ac745)\nOpenJDK 64-Bit Server VM (build 24-internal-jaskarth-7fbc4509e19d3a12c012ffcb63f1a297ea7ac745, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0ce85525a552ba3c68cc8781bc034feea70337d9.json"
+  ],
+  "datetime": "2024-10-24T02:18:13.163017+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21599",
+  "number": 21599,
+  "title": "8342662: C2: Add new phase for backend-specific lowering",
+  "head_sha": "7fbc4509e19d3a12c012ffcb63f1a297ea7ac745",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11491098667"
+}
