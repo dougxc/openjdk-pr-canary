@@ -1,0 +1,16 @@
+{
+  "artifact_2098899431": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-hns-65a3ddf8f7beeecc5337485a587d22324c5aad6f)\nOpenJDK 64-Bit Server VM (build 24-internal-hns-65a3ddf8f7beeecc5337485a587d22324c5aad6f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "70c1d49f6c220af249f3c4e4ade14195c3ed32da.json"
+  ],
+  "datetime": "2024-10-24T13:17:33.302984+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21637",
+  "number": 21637,
+  "title": "8342827: Fix order of @param tags in other modules",
+  "head_sha": "65a3ddf8f7beeecc5337485a587d22324c5aad6f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11499547771"
+}
