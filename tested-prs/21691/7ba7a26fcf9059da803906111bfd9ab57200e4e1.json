@@ -1,0 +1,14 @@
+{
+  "artifact_2100770776": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-JornVernee-7ba7a26fcf9059da803906111bfd9ab57200e4e1)\nOpenJDK 64-Bit Server VM (build 24-internal-JornVernee-7ba7a26fcf9059da803906111bfd9ab57200e4e1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-24T19:29:43.091562+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21691",
+  "number": 21691,
+  "title": "8342963: TestLargeStub::testUpcall doesn't test upcalls stubs",
+  "head_sha": "7ba7a26fcf9059da803906111bfd9ab57200e4e1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11505996517"
+}
