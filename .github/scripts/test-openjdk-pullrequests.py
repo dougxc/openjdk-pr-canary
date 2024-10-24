@@ -194,7 +194,7 @@ def get_merge_base_commit(pr):
     return merge_base_commit
 
 
-def update_to_match_graal_pr(openjdk_pr):
+def update_to_match_graal_pr(openjdk_pr, test_record):
     """
     Updates graal and mx to revisions based on the PR at https://github.com/oracle/graal/pulls
     "most associated" with `openjdk_pr`. A graal PR is associated with `openjdk_pr` if the
@@ -246,6 +246,11 @@ def update_to_match_graal_pr(openjdk_pr):
             rev = pr["head"]["sha"]
             git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo="graal")
             git(["reset", "--quiet", "--hard", rev], repo="graal")
+            test_record["graal_pr"] = {
+                "url": pr["html_url"],
+                "number": pr_num,
+                "revision": rev
+            }
             info(f"  updated graal to revision {rev} from {pr['html_url']} ({refs} mentions of {openjdk_pr_url})")
 
             common_json = json.loads(Path("graal", "common.json").read_text())
@@ -420,7 +425,7 @@ def test_pull_request(pr, untested_prs, failed_pull_requests):
                     # Clean
                     run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
 
-                if not update_to_match_graal_pr(pr) and not update_to_match_pr_merge_base(pr):
+                if not update_to_match_graal_pr(pr, test_record) and not update_to_match_pr_merge_base(pr):
                     test_record["status"] = "failed"
                     failed_pull_requests.append(pr)
                     pr["__test_record"] = test_record
@@ -621,6 +626,36 @@ def post_failure_to_slack(test_record):
         thread = response["ts"]
 
     # Add failure to thread
+    graal_pr = test_record.get("graal_pr")
+    if graal_pr:
+        graal_pr_revision = graal_pr["revision"]
+        graal_pr_number = graal_pr["number"]
+        graal_pr = [
+            {
+                "type": "text",
+                "text": " ("
+            },
+            {
+                "type": "link",
+                "text": graal_pr_revision[:14],
+                "url": f"https://github.com/oracle/graal/commit/{graal_pr_revision}"
+            },
+            {
+                "type": "text",
+                "text": " in "
+            },
+            {
+                "type": "link",
+                "text": f"#{graal_pr_number}",
+                "url": graal_pr["url"]
+            },
+            {
+                "type": "text",
+                "text": ")"
+            }
+        ]
+    else:
+        graal_pr = []
     message = {
         "thread_ts": thread,
         "blocks": [
@@ -641,7 +676,12 @@ def post_failure_to_slack(test_record):
                             },
                             {
                                 "type": "text",
-                                "text": f" in the above PR against libgraal failed. See "
+                                "text": f" in the above PR against libgraal"
+                            }
+                        ] + graal_pr + [
+                            {
+                                "type": "text",
+                                "text": f" failed. See "
                             },
                             {
                                 "type": "link",
