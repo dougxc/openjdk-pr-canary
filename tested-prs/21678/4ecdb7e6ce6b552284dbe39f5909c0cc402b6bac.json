@@ -1,0 +1,14 @@
+{
+  "artifact_2097833123": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-MBaesken-4ecdb7e6ce6b552284dbe39f5909c0cc402b6bac)\nOpenJDK 64-Bit Server VM (build 24-internal-MBaesken-4ecdb7e6ce6b552284dbe39f5909c0cc402b6bac, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-24T09:35:37.014375+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21678",
+  "number": 21678,
+  "title": "8342938: Problem list java/io/IO/IO.java test on Linux ppc64le",
+  "head_sha": "4ecdb7e6ce6b552284dbe39f5909c0cc402b6bac",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11496423010"
+}
