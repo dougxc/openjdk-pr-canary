@@ -1,0 +1,20 @@
+{
+  "artifact_2099545811": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-vicente-romero-oracle-fc210dd3810d4a3dbf3ed81d46797bc5f13c9048)\nOpenJDK 64-Bit Server VM (build 24-internal-vicente-romero-oracle-fc210dd3810d4a3dbf3ed81d46797bc5f13c9048, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0285ae2ca3131efaeb251cbae89aa53a9c5f9bb0.json",
+    "0d2eecd35e0929f9c72abf630ef4d8f7597a5e6b.json",
+    "746fa4270c9395a374ccc9b8aee68cf0459c7902.json",
+    "8e5477be8a0a5ba5b47bc4553919891534a3b1e8.json",
+    "d9b2962d54c9648755044f619eadc6b0c871edcc.json"
+  ],
+  "datetime": "2024-10-24T15:10:54.969972+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21651",
+  "number": 21651,
+  "title": "8342090: Infer::IncorporationBinaryOp::equals can produce side-effects",
+  "head_sha": "fc210dd3810d4a3dbf3ed81d46797bc5f13c9048",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11501796290"
+}
