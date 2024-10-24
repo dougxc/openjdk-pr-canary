@@ -1,0 +1,14 @@
+{
+  "artifact_2100392161": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-lahodaj-3554045be50a3b5b9420fb53534f0391c1061ff7)\nOpenJDK 64-Bit Server VM (build 24-internal-lahodaj-3554045be50a3b5b9420fb53534f0391c1061ff7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-24T19:45:03.941881+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21693",
+  "number": 21693,
+  "title": "8342936: Enhance java.io.IO with parameter-less println() and readln()",
+  "head_sha": "3554045be50a3b5b9420fb53534f0391c1061ff7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11506169999"
+}
