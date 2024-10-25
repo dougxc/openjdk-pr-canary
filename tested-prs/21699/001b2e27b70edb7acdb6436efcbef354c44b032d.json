@@ -1,0 +1,14 @@
+{
+  "artifact_2102335813": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RealFYang-001b2e27b70edb7acdb6436efcbef354c44b032d)\nOpenJDK 64-Bit Server VM (build 24-internal-RealFYang-001b2e27b70edb7acdb6436efcbef354c44b032d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-25T04:54:15.187169+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21699",
+  "number": 21699,
+  "title": "8343030: RISC-V: Small assembler cleanups",
+  "head_sha": "001b2e27b70edb7acdb6436efcbef354c44b032d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11511872028"
+}
