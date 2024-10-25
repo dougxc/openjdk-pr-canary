@@ -1,0 +1,19 @@
+{
+  "artifact_2104900934": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-Naveenam-Oracle-38bdd4916fdf6f924c1c1547cda54387dd2a5c9f)\nOpenJDK 64-Bit Server VM (build 24-internal-Naveenam-Oracle-38bdd4916fdf6f924c1c1547cda54387dd2a5c9f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "215d1d03f18e07914aa3d8cd733d865ab5ad7b83.json",
+    "89a03f5fd3aed3e30bc2943ed689bc4b377f251a.json",
+    "98e2a732419f0ac6e1425965c055bfb23c0c0d19.json",
+    "a28ee4852edc6e7f697562e71226f0785faa43c1.json"
+  ],
+  "datetime": "2024-10-25T15:53:52.344048+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21524",
+  "number": 21524,
+  "title": "8342098: Write a test to compare the images",
+  "head_sha": "38bdd4916fdf6f924c1c1547cda54387dd2a5c9f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11520991544"
+}
