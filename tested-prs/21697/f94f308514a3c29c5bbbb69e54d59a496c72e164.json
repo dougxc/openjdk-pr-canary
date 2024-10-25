@@ -1,0 +1,14 @@
+{
+  "artifact_2102110872": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-slowhog-f94f308514a3c29c5bbbb69e54d59a496c72e164)\nOpenJDK 64-Bit Server VM (build 24-internal-slowhog-f94f308514a3c29c5bbbb69e54d59a496c72e164, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-25T03:06:32.141399+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21697",
+  "number": 21697,
+  "title": "8342930: New tests from JDK-8335912 are failing",
+  "head_sha": "f94f308514a3c29c5bbbb69e54d59a496c72e164",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11511026666"
+}
