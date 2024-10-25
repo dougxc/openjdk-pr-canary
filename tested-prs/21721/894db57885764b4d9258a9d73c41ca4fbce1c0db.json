@@ -1,0 +1,14 @@
+{
+  "artifact_2106363792": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-alexeysemenyukoracle-894db57885764b4d9258a9d73c41ca4fbce1c0db)\nOpenJDK 64-Bit Server VM (build 24-internal-alexeysemenyukoracle-894db57885764b4d9258a9d73c41ca4fbce1c0db, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-25T22:31:42.887700+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21721",
+  "number": 21721,
+  "title": "8343100: Consolidate EmptyFolderTest and EmptyFolderPackageTest jpackage tests into single java file",
+  "head_sha": "894db57885764b4d9258a9d73c41ca4fbce1c0db",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11526180047"
+}
