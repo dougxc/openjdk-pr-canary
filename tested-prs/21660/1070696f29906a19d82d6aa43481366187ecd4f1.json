@@ -1,0 +1,16 @@
+{
+  "artifact_2105033895": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-rwestrel-1070696f29906a19d82d6aa43481366187ecd4f1)\nOpenJDK 64-Bit Server VM (build 24-internal-rwestrel-1070696f29906a19d82d6aa43481366187ecd4f1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4678caf29db4d3d3b57dcdb05a222c6c512f8989.json"
+  ],
+  "datetime": "2024-10-25T16:32:22.516485+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21660",
+  "number": 21660,
+  "title": "8341834: C2 compilation fails with \"bad AD file\" due to Replicate",
+  "head_sha": "1070696f29906a19d82d6aa43481366187ecd4f1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11521356921"
+}
