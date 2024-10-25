@@ -1,0 +1,19 @@
+{
+  "artifact_2103183537": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-xmas92-eef214b4ad674bb4f4a1dffecc79ffa647cc4e1d)\nOpenJDK 64-Bit Server VM (build 24-internal-xmas92-eef214b4ad674bb4f4a1dffecc79ffa647cc4e1d, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "22c243a61f8380ea2007030395e9ec9a6c191905.json",
+    "76c5d0c6f894554196279b1df07a57837e11536e.json",
+    "e58b4c5a800f7e66124c20b26f6b6a93ad8934f7.json"
+  ],
+  "datetime": "2024-10-25T09:06:33.080564+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21401",
+  "number": 21401,
+  "title": "8341692: Implement JEP 490: ZGC: Remove the Non-Generational Mode",
+  "head_sha": "eef214b4ad674bb4f4a1dffecc79ffa647cc4e1d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11515008666"
+}
