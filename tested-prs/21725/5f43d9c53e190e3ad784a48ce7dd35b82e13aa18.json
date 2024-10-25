@@ -1,0 +1,14 @@
+{
+  "artifact_2106527204": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-alexmenkov-5f43d9c53e190e3ad784a48ce7dd35b82e13aa18)\nOpenJDK 64-Bit Server VM (build 24-internal-alexmenkov-5f43d9c53e190e3ad784a48ce7dd35b82e13aa18, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-25T23:33:26.935934+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21725",
+  "number": 21725,
+  "title": "8343103: Enable debug logging for vmTestbase/nsk/jvmti/scenarios/sampling/SP05/sp05t003/TestDescription.java",
+  "head_sha": "5f43d9c53e190e3ad784a48ce7dd35b82e13aa18",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11526728353"
+}
