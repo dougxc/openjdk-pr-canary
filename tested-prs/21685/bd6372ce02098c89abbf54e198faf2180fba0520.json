@@ -1,0 +1,14 @@
+{
+  "artifact_2103448042": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jonath4ndev-bd6372ce02098c89abbf54e198faf2180fba0520)\nOpenJDK 64-Bit Server VM (build 24-internal-jonath4ndev-bd6372ce02098c89abbf54e198faf2180fba0520, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-25T10:58:26.765501+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21685",
+  "number": 21685,
+  "title": "8034066: Incorrect alignment in the \"Code\" section for \"-c -XDdetails\" options",
+  "head_sha": "bd6372ce02098c89abbf54e198faf2180fba0520",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11516439069"
+}
