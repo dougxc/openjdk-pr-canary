@@ -1,0 +1,17 @@
+{
+  "artifact_2112707713": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-biboudis-c51e7385c7f875c94d4cc4391df7adf3a883fcec)\nOpenJDK 64-Bit Server VM (build 24-internal-biboudis-c51e7385c7f875c94d4cc4391df7adf3a883fcec, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4b0d560b4bca9f122e813f31ffa4c91bb97b784f.json",
+    "e7a6c04169f7ba9319356ff61373900b3a58666d.json"
+  ],
+  "datetime": "2024-10-28T15:09:48.562231+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21687",
+  "number": 21687,
+  "title": "8342967: Lambda deduplication fails with non-metafactory BSMs and mismatched local variables names",
+  "head_sha": "c51e7385c7f875c94d4cc4391df7adf3a883fcec",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11556493406"
+}
