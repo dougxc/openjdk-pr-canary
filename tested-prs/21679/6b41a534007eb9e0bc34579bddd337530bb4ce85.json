@@ -1,0 +1,17 @@
+{
+  "artifact_2112917876": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-chhagedorn-6b41a534007eb9e0bc34579bddd337530bb4ce85)\nOpenJDK 64-Bit Server VM (build 24-internal-chhagedorn-6b41a534007eb9e0bc34579bddd337530bb4ce85, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7fe4ea00313cea0be73378ed348c345f36647427.json",
+    "eb22d38e270d1cbd946a3f028ab78f4c6289e98b.json"
+  ],
+  "datetime": "2024-10-28T15:36:30.428122+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21679",
+  "number": 21679,
+  "title": "8341977: Replace predicate walking and cloning code for Loop Peeling with a predicate visitor",
+  "head_sha": "6b41a534007eb9e0bc34579bddd337530bb4ce85",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11557194839"
+}
