@@ -1,0 +1,14 @@
+{
+  "artifact_2111719457": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-e74839c4e2552c972d19d2071afa56556cf36d0a)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-e74839c4e2552c972d19d2071afa56556cf36d0a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-28T11:30:30.992082+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21736",
+  "number": 21736,
+  "title": "8342489: compiler/c2/irTests/TestVectorizationMismatchedAccess.java fails on big-endian platforms",
+  "head_sha": "e74839c4e2552c972d19d2071afa56556cf36d0a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11552842332"
+}
