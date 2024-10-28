@@ -1,0 +1,14 @@
+{
+  "artifact_2113317918": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-biboudis-c056b4397f1b4a9e2d6b4589ecbc29f8763958ee)\nOpenJDK 64-Bit Server VM (build 24-internal-biboudis-c056b4397f1b4a9e2d6b4589ecbc29f8763958ee, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-28T16:51:24.688951+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21539",
+  "number": 21539,
+  "title": "8341408: Implement JEP 488: Primitive Types in Patterns, instanceof, and switch (Second Preview)",
+  "head_sha": "c056b4397f1b4a9e2d6b4589ecbc29f8763958ee",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11558365768"
+}
