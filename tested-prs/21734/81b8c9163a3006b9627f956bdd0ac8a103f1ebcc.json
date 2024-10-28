@@ -1,0 +1,14 @@
+{
+  "artifact_2110740814": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sendaoYan-81b8c9163a3006b9627f956bdd0ac8a103f1ebcc)\nOpenJDK 64-Bit Server VM (build 24-internal-sendaoYan-81b8c9163a3006b9627f956bdd0ac8a103f1ebcc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-28T07:32:49.845701+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21734",
+  "number": 21734,
+  "title": "8343129: Disable unstable check of ThreadsListHandle.sanity_vm ThreadList values",
+  "head_sha": "81b8c9163a3006b9627f956bdd0ac8a103f1ebcc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11549194778"
+}
