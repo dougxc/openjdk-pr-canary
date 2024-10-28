@@ -1,0 +1,14 @@
+{
+  "artifact_2112213787": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-chhagedorn-7bbb5e5aedab07e2350327cc0aabef53ff0dcfc6)\nOpenJDK 64-Bit Server VM (build 24-internal-chhagedorn-7bbb5e5aedab07e2350327cc0aabef53ff0dcfc6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-28T13:43:03.630197+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21739",
+  "number": 21739,
+  "title": "8343137: C2: VerifyLoopOptimizations fails with \"Was reachable in only one\"",
+  "head_sha": "7bbb5e5aedab07e2350327cc0aabef53ff0dcfc6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11555024506"
+}
