@@ -1,7 +1,0 @@
-{
-  "artifact_1895227293": {},
-  "url": "https://github.com/openjdk/jdk/pull/20507",
-  "title": "8338021: Support saturating vector operators in VectorAPI",
-  "head_sha": "7164783e4faa73aa207e0aa10e958b453d53af7d",
-  "run_url": "https://github.com/dougxc/galahad-canary/actions/runs/10717151420"
-}
