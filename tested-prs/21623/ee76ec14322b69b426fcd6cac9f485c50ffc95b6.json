@@ -1,0 +1,17 @@
+{
+  "artifact_2114893323": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-ee76ec14322b69b426fcd6cac9f485c50ffc95b6)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-ee76ec14322b69b426fcd6cac9f485c50ffc95b6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6c94f2a6505c11d0858b846274a66ceacf91fdba.json",
+    "b1e0c4d85f8b2b2b64dcd3cd852324c46c8e31c8.json"
+  ],
+  "datetime": "2024-10-28T22:59:48.838678+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21623",
+  "number": 21623,
+  "title": "8340728: Test vmTestbase/gc/memory/Nio/Nio.java is failing to allocate all direct buffer memory",
+  "head_sha": "ee76ec14322b69b426fcd6cac9f485c50ffc95b6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11563906544"
+}
