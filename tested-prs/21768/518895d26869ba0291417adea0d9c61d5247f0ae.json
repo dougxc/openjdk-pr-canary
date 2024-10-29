@@ -1,0 +1,14 @@
+{
+  "artifact_2119081457": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sendaoYan-518895d26869ba0291417adea0d9c61d5247f0ae)\nOpenJDK 64-Bit Server VM (build 24-internal-sendaoYan-518895d26869ba0291417adea0d9c61d5247f0ae, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-29T18:02:19.581550+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21768",
+  "number": 21768,
+  "title": "8343211: Compile error: redefinition of 'Assembler::evmovdquw(XMMRegister,KRegister,XMMRegister,bool,int)'",
+  "head_sha": "518895d26869ba0291417adea0d9c61d5247f0ae",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11579433408"
+}
