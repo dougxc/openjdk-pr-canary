@@ -10648,6 +10648,29 @@
 		]
 	},
 	{
+		"id": "jdk-23.0.3+1-2",
+		"revisions": {
+			"open": [
+				"0cbf90792b6a588dbae6c44362cb699437f64795"
+			],
+			"graal": [
+				"e4b575df2c806a369953a72eb460e0f9ac54f852"
+			],
+			"graal-enterprise": [
+				"26dca3ee41dc0430ac14acd0f39b1b5eb9497a90"
+			],
+			"mx": [
+				"12267ad74f153edd728d7b92a3d176a5e05b6ae6"
+			],
+			".": [
+				"fb2d5bbcde00cdd8f3ab468994218b9819b6d94b"
+			]
+		},
+		"aliases": [
+			"jdk-23.0.3-2"
+		]
+	},
+	{
 		"id": "jdk-24+1-1",
 		"revisions": {
 			"mx": [
@@ -71567,6 +71590,77 @@
 		},
 		"aliases": [
 			"jdk-24-2602"
+		]
+	},
+	{
+		"id": "jdk-24+22-2603",
+		"revisions": {
+			".": [
+				"6650d3acfb487c47f52f44d63611c6b43738a9fe"
+			],
+			"graal-enterprise": [
+				"8c5d28e31a7ba2797513075113daf93bee3372b4",
+				"e00e891df4e41262d6a12877e914c3d0dbcd8348"
+			],
+			"open": [
+				"d8b3685d36873904248e9701f66459e074a4a8ab"
+			],
+			"mx": [
+				"aebcb43fa2d390bacc0deeeef1eb52d8647548e8"
+			],
+			"graal": [
+				"5f00adc07428dc1ba6491e73691a36a3346f9ac8",
+				"4e691ab31f2863fae39b7351e55a03fc6ff723ad"
+			]
+		},
+		"aliases": [
+			"jdk-24-2603"
+		]
+	},
+	{
+		"id": "jdk-24+22-2604",
+		"revisions": {
+			".": [
+				"6650d3acfb487c47f52f44d63611c6b43738a9fe"
+			],
+			"graal-enterprise": [
+				"8c5d28e31a7ba2797513075113daf93bee3372b4"
+			],
+			"open": [
+				"7c800e6bae388dd87986f366787398fe99b4e2ee"
+			],
+			"mx": [
+				"aebcb43fa2d390bacc0deeeef1eb52d8647548e8"
+			],
+			"graal": [
+				"5f00adc07428dc1ba6491e73691a36a3346f9ac8"
+			]
+		},
+		"aliases": [
+			"jdk-24-2604"
+		]
+	},
+	{
+		"id": "jdk-24+22-2605",
+		"revisions": {
+			".": [
+				"6650d3acfb487c47f52f44d63611c6b43738a9fe"
+			],
+			"open": [
+				"4ce19ca110b6e1eeed7483a1ec7c75fbc1d1b773"
+			],
+			"graal-enterprise": [
+				"8c5d28e31a7ba2797513075113daf93bee3372b4"
+			],
+			"mx": [
+				"aebcb43fa2d390bacc0deeeef1eb52d8647548e8"
+			],
+			"graal": [
+				"5f00adc07428dc1ba6491e73691a36a3346f9ac8"
+			]
+		},
+		"aliases": [
+			"jdk-24-2605"
 		]
 	}
 ]
