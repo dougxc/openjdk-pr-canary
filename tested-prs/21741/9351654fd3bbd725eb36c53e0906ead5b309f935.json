@@ -1,0 +1,14 @@
+{
+  "artifact_2118825146": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-alexeysemenyukoracle-9351654fd3bbd725eb36c53e0906ead5b309f935)\nOpenJDK 64-Bit Server VM (build 24-internal-alexeysemenyukoracle-9351654fd3bbd725eb36c53e0906ead5b309f935, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-29T17:03:52.001148+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21741",
+  "number": 21741,
+  "title": "8342576: [macos] AppContentTest still fails after JDK-8341443 for same reason on older macOS versions",
+  "head_sha": "9351654fd3bbd725eb36c53e0906ead5b309f935",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11578674669"
+}
