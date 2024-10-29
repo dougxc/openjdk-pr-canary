@@ -1,0 +1,14 @@
+{
+  "artifact_2118500184": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-aivanov-jdk-7ae9eb15fdf55514eff9f745f6457755fae612ea)\nOpenJDK 64-Bit Server VM (build 24-internal-aivanov-jdk-7ae9eb15fdf55514eff9f745f6457755fae612ea, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-29T16:01:10.519528+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21766",
+  "number": 21766,
+  "title": "8343128: PassFailJFrame.java test result: Error. Bad action for script: build}",
+  "head_sha": "7ae9eb15fdf55514eff9f745f6457755fae612ea",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11577547146"
+}
