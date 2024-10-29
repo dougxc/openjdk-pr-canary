@@ -71684,6 +71684,9 @@
 		},
 		"aliases": [
 			"jdk-24-2606"
+		],
+		"tags": [
+			"UNUSABLE"
 		]
 	},
 	{
@@ -71707,6 +71710,9 @@
 		},
 		"aliases": [
 			"jdk-24-2607"
+		],
+		"tags": [
+			"UNUSABLE"
 		]
 	},
 	{
@@ -71730,6 +71736,9 @@
 		},
 		"aliases": [
 			"jdk-24-2608"
+		],
+		"tags": [
+			"UNUSABLE"
 		]
 	}
 ]
