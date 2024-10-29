@@ -1,0 +1,14 @@
+{
+  "artifact_2115662144": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sendaoYan-5dd9f8e0dd6e357d7c8537e79a8c50168ee86d25)\nOpenJDK 64-Bit Server VM (build 24-internal-sendaoYan-5dd9f8e0dd6e357d7c8537e79a8c50168ee86d25, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-29T04:02:08.847909+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21750",
+  "number": 21750,
+  "title": "8343178: Test BasicTest.java javac compile fails cannot find symbol",
+  "head_sha": "5dd9f8e0dd6e357d7c8537e79a8c50168ee86d25",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11566959321"
+}
