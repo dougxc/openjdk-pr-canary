@@ -1,0 +1,16 @@
+{
+  "artifact_2125738761": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-calvinccheung-e85ab0b907840ca8e5ddfa5f5678781d6aef3aa4)\nOpenJDK 64-Bit Server VM (build 24-internal-calvinccheung-e85ab0b907840ca8e5ddfa5f5678781d6aef3aa4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c60b76e1f5af51e6e013838dd14f408a798808d9.json"
+  ],
+  "datetime": "2024-10-30T23:07:23.170892+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21667",
+  "number": 21667,
+  "title": "8342303: Segfault in update_inherited_vtable: AppCDS, old bytecode, and redefineClasses",
+  "head_sha": "e85ab0b907840ca8e5ddfa5f5678781d6aef3aa4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11602557531"
+}
