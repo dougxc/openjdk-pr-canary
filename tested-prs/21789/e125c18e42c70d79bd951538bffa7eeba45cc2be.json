@@ -1,0 +1,14 @@
+{
+  "artifact_2123561068": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-e125c18e42c70d79bd951538bffa7eeba45cc2be)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-e125c18e42c70d79bd951538bffa7eeba45cc2be, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-30T16:15:00.582491+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21789",
+  "number": 21789,
+  "title": "8343293: Remove the check for <apphome>/jre/lib/libjava.dylib from the launcher's java_md_macosx.m",
+  "head_sha": "e125c18e42c70d79bd951538bffa7eeba45cc2be",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11596811818"
+}
