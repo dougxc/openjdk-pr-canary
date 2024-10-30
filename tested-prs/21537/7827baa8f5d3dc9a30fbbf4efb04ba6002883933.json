@@ -1,0 +1,20 @@
+{
+  "artifact_2125080180": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-fguallini-7827baa8f5d3dc9a30fbbf4efb04ba6002883933)\nOpenJDK 64-Bit Server VM (build 24-internal-fguallini-7827baa8f5d3dc9a30fbbf4efb04ba6002883933, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0aa171210baf4a672a8beb9e77dd25df4b607aaa.json",
+    "1d36814c5f96a71409deffb0106fa3b72bd3c7b8.json",
+    "5e52c2937bf0797c9ac9cb2f8f6372e7d8210696.json",
+    "7c42d5815ab73948d1bc1b50b765c2aed81bec8b.json",
+    "ba076a63c243e842694293863f1e72016c5fa870.json"
+  ],
+  "datetime": "2024-10-30T20:00:52.335089+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21537",
+  "number": 21537,
+  "title": "8342181: Update tests to use stronger Key and Salt size",
+  "head_sha": "7827baa8f5d3dc9a30fbbf4efb04ba6002883933",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11600564561"
+}
