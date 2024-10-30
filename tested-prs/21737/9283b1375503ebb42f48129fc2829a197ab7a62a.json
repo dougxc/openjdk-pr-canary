@@ -1,0 +1,17 @@
+{
+  "artifact_2122369308": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-9283b1375503ebb42f48129fc2829a197ab7a62a)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-9283b1375503ebb42f48129fc2829a197ab7a62a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2efcc693fefe13d3eac9916806a20b72b52658bd.json",
+    "bc98047a75f6917aba51fbb5db9c96de2ebf8667.json"
+  ],
+  "datetime": "2024-10-30T10:59:37.291893+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21737",
+  "number": 21737,
+  "title": "8343019: Primitive caches must use boxed instances from the archive",
+  "head_sha": "9283b1375503ebb42f48129fc2829a197ab7a62a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11591652136"
+}
