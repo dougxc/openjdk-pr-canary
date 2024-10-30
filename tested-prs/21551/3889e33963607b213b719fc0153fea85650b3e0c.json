@@ -1,0 +1,20 @@
+{
+  "artifact_2123763211": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-mpdonova-3889e33963607b213b719fc0153fea85650b3e0c)\nOpenJDK 64-Bit Server VM (build 24-internal-mpdonova-3889e33963607b213b719fc0153fea85650b3e0c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3999bb843f3d8963e431c729a4bf1af0787c79a9.json",
+    "298670c6731d7e6e05cf0965c34a714bacc07431.json",
+    "5f07cd8fa37a88db8aebfe3eb896d43d1b30b149.json",
+    "7dbe83e833c77b3814d69eaa47f30bfc8e9f3200.json",
+    "8359970051991b718008dbfe27b11f264054972d.json"
+  ],
+  "datetime": "2024-10-30T15:35:49.259294+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21551",
+  "number": 21551,
+  "title": "8341927: Replace hardcoded security providers with new test.provider.name system property",
+  "head_sha": "3889e33963607b213b719fc0153fea85650b3e0c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11595170750"
+}
