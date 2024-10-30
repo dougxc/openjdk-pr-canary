@@ -1,0 +1,17 @@
+{
+  "artifact_2125759064": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jianglizhou-a25e0b46dce7c9b65a1eae075c5b8a8ab6ef06a6)\nOpenJDK 64-Bit Server VM (build 24-internal-jianglizhou-a25e0b46dce7c9b65a1eae075c5b8a8ab6ef06a6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3234aa237ec65f6df037b7635b7d462a0b37777a.json",
+    "6ecc2151138c5bbd8f4c8fd09b37897cb4d7ab72.json"
+  ],
+  "datetime": "2024-10-30T22:56:24.567694+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21722",
+  "number": 21722,
+  "title": "8342642: Class loading failure due to archived map issue in ModuleLoaderMap.Mapper",
+  "head_sha": "a25e0b46dce7c9b65a1eae075c5b8a8ab6ef06a6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11602557531"
+}
