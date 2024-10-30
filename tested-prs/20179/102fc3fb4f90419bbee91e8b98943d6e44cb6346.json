@@ -1,0 +1,16 @@
+{
+  "artifact_2124384049": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-liach-102fc3fb4f90419bbee91e8b98943d6e44cb6346)\nOpenJDK 64-Bit Server VM (build 24-internal-liach-102fc3fb4f90419bbee91e8b98943d6e44cb6346, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5ff5797abed4aa68b22d96a95551e8ee197221b8.json"
+  ],
+  "datetime": "2024-10-30T17:26:38.473605+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20179",
+  "number": 20179,
+  "title": "8336267: Method and Constructor signature parsing can be shared on the root object",
+  "head_sha": "102fc3fb4f90419bbee91e8b98943d6e44cb6346",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11597518793"
+}
