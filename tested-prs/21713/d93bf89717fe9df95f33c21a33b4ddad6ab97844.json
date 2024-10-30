@@ -1,0 +1,16 @@
+{
+  "artifact_2120519264": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-egahlin-d93bf89717fe9df95f33c21a33b4ddad6ab97844)\nOpenJDK 64-Bit Server VM (build 24-internal-egahlin-d93bf89717fe9df95f33c21a33b4ddad6ab97844, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5721a0f7846f6d700de16f2d190f26b696993a8f.json"
+  ],
+  "datetime": "2024-10-29T23:59:37.670792+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21713",
+  "number": 21713,
+  "title": "8343057: JFR: Sorting in 'jfr view' can violate contract",
+  "head_sha": "d93bf89717fe9df95f33c21a33b4ddad6ab97844",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11584286376"
+}
