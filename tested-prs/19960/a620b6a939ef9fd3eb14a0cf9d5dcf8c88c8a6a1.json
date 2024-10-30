@@ -1,0 +1,17 @@
+{
+  "artifact_2123602286": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-ArsenyBochkarev-a620b6a939ef9fd3eb14a0cf9d5dcf8c88c8a6a1)\nOpenJDK 64-Bit Server VM (build 24-internal-ArsenyBochkarev-a620b6a939ef9fd3eb14a0cf9d5dcf8c88c8a6a1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0f38182dca88b836ec82589bf38d195fde02ecd7.json",
+    "e90b0d05a1a82fc8afee21edb46f6bd07ecf4248.json"
+  ],
+  "datetime": "2024-10-30T16:00:09.827773+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/19960",
+  "number": 19960,
+  "title": "8334999: RISC-V: implement AES single block encryption/decryption intrinsics",
+  "head_sha": "a620b6a939ef9fd3eb14a0cf9d5dcf8c88c8a6a1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11595170750"
+}
