@@ -71954,5 +71954,52 @@
 		"tags": [
 			"UNUSABLE"
 		]
+	},
+	{
+		"id": "jdk-24+22-2614",
+		"revisions": {
+			".": [
+				"30fa3584e7f4c8523718e49a6bb8bca354180019"
+			],
+			"open": [
+				"40f3d50badc20db5fbfcd485447e634778d03248"
+			],
+			"graal-enterprise": [
+				"f955330535262764c74106f089375cde384f536a"
+			],
+			"mx": [
+				"aebcb43fa2d390bacc0deeeef1eb52d8647548e8"
+			],
+			"graal": [
+				"5f00adc07428dc1ba6491e73691a36a3346f9ac8"
+			]
+		},
+		"aliases": [
+			"jdk-24-2614"
+		]
+	},
+	{
+		"id": "jdk-24+22-2615",
+		"revisions": {
+			".": [
+				"30fa3584e7f4c8523718e49a6bb8bca354180019"
+			],
+			"open": [
+				"40f3d50badc20db5fbfcd485447e634778d03248"
+			],
+			"mx": [
+				"aebcb43fa2d390bacc0deeeef1eb52d8647548e8"
+			],
+			"graal": [
+				"5f00adc07428dc1ba6491e73691a36a3346f9ac8"
+			],
+			"graal-enterprise": [
+				"cbfe37c0fadc39f1cb9ef66662db2025d01d1578",
+				"2f658ed9e2a5e2217f0d60f14f2aca5a08092989"
+			]
+		},
+		"aliases": [
+			"jdk-24-2615"
+		]
 	}
 ]
