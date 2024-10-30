@@ -1,0 +1,16 @@
+{
+  "artifact_2121678244": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-ad14c6d09d09f8df7a57e2ab16fe9452999f8e46)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-ad14c6d09d09f8df7a57e2ab16fe9452999f8e46, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c9af382cf1049eadd457130925f6ff5158cddf4b.json"
+  ],
+  "datetime": "2024-10-30T09:05:19.858669+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21579",
+  "number": 21579,
+  "title": "8342588: Shenandoah: Pull shared closures together in one header",
+  "head_sha": "ad14c6d09d09f8df7a57e2ab16fe9452999f8e46",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11589484096"
+}
