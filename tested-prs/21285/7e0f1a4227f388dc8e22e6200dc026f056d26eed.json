@@ -1,0 +1,17 @@
+{
+  "artifact_2128265735": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tzezula-7e0f1a4227f388dc8e22e6200dc026f056d26eed)\nOpenJDK 64-Bit Server VM (build 24-internal-tzezula-7e0f1a4227f388dc8e22e6200dc026f056d26eed, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "81b59f7e4dd38979235731976fa438a65418a1bd.json",
+    "e07d444850fc1bff0f389262c528702099f90ac2.json"
+  ],
+  "datetime": "2024-10-31T13:28:51.684743+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21285",
+  "number": 21285,
+  "title": "8340733: Add scope for relaxing constraint on JavaCalls from CompilerThread",
+  "head_sha": "7e0f1a4227f388dc8e22e6200dc026f056d26eed",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11612129342"
+}
