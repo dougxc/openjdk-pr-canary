@@ -1,0 +1,14 @@
+{
+  "artifact_2128518244": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-cl4es-4f02540bb74c154dca17d029166a44e9f064d7ae)\nOpenJDK 64-Bit Server VM (build 24-internal-cl4es-4f02540bb74c154dca17d029166a44e9f064d7ae, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-10-31T14:54:57.175756+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21807",
+  "number": 21807,
+  "title": "8343305: Remove Indify-dependent microbenchmarks",
+  "head_sha": "4f02540bb74c154dca17d029166a44e9f064d7ae",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11613713878"
+}
