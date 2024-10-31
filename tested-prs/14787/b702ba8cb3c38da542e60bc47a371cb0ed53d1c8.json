@@ -1,0 +1,20 @@
+{
+  "artifact_2127893112": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jerboaa-b702ba8cb3c38da542e60bc47a371cb0ed53d1c8)\nOpenJDK 64-Bit Server VM (build 24-internal-jerboaa-b702ba8cb3c38da542e60bc47a371cb0ed53d1c8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "182c4aa560d1fb7390b635783590cd90104e10b3.json",
+    "22eb4b89962e95f97c181947dd052ca67c563427.json",
+    "6859a3be499067d0bb70a60dc63c93b11beec066.json",
+    "83a86d06d5b79654b28614cec4a8c56bb2232c25.json",
+    "e6b3aeb17b1445063e98af9d8be7a5c1be20bf74.json"
+  ],
+  "datetime": "2024-10-31T12:00:56.500101+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/14787",
+  "number": 14787,
+  "title": "8311302: Implement JEP 493: Linking Run-Time Images without JMODs",
+  "head_sha": "b702ba8cb3c38da542e60bc47a371cb0ed53d1c8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11611341807"
+}
