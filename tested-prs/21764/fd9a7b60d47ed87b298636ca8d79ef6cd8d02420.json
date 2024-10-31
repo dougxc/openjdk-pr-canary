@@ -1,0 +1,16 @@
+{
+  "artifact_2127357216": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-fd9a7b60d47ed87b298636ca8d79ef6cd8d02420)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-fd9a7b60d47ed87b298636ca8d79ef6cd8d02420, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c430801dda8b1288b9d607e55282bbb73962ddc9.json"
+  ],
+  "datetime": "2024-10-31T10:18:46.116199+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21764",
+  "number": 21764,
+  "title": "8343188: Investigate ways to simplify MemorySegment::ofBuffer",
+  "head_sha": "fd9a7b60d47ed87b298636ca8d79ef6cd8d02420",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11609647896"
+}
