@@ -1,0 +1,16 @@
+{
+  "artifact_2127672871": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TobiHartmann-3da095009896902c857d010908b9d88f3990db7c)\nOpenJDK 64-Bit Server VM (build 24-internal-TobiHartmann-3da095009896902c857d010908b9d88f3990db7c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c69022b36d1a572e2432fd19ed2de0e47a18132f.json"
+  ],
+  "datetime": "2024-10-31T11:01:26.258703+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21784",
+  "number": 21784,
+  "title": "8343206: Final graph reshaping should not compress abstract or interface class pointers",
+  "head_sha": "3da095009896902c857d010908b9d88f3990db7c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11610528426"
+}
