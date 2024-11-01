@@ -1,0 +1,14 @@
+{
+  "artifact_2132940861": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jatin-bhateja-374cae449c7ce32e21abe95120d6537446d9a435)\nOpenJDK 64-Bit Server VM (build 24-internal-jatin-bhateja-374cae449c7ce32e21abe95120d6537446d9a435, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-01T12:52:40.417260+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21821",
+  "number": 21821,
+  "title": "8343419: Assertion failure in long vector unsigned min/max with -XX:+UseKNLSetting",
+  "head_sha": "374cae449c7ce32e21abe95120d6537446d9a435",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11629514934"
+}
