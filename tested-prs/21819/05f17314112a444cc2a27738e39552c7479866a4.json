@@ -1,0 +1,14 @@
+{
+  "artifact_2131760447": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jatin-bhateja-05f17314112a444cc2a27738e39552c7479866a4)\nOpenJDK 64-Bit Server VM (build 24-internal-jatin-bhateja-05f17314112a444cc2a27738e39552c7479866a4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-01T04:37:33.143274+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21819",
+  "number": 21819,
+  "title": "8343297: Vector unsigned min/max test are failing with -Xcomp",
+  "head_sha": "05f17314112a444cc2a27738e39552c7479866a4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11624297961"
+}
