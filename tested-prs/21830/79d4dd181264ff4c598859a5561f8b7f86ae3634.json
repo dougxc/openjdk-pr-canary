@@ -1,0 +1,14 @@
+{
+  "artifact_2133344238": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-liach-79d4dd181264ff4c598859a5561f8b7f86ae3634)\nOpenJDK 64-Bit Server VM (build 24-internal-liach-79d4dd181264ff4c598859a5561f8b7f86ae3634, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-01T15:21:00.305642+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21830",
+  "number": 21830,
+  "title": "8343437: ClassDesc.of incorrectly permitting empty names",
+  "head_sha": "79d4dd181264ff4c598859a5561f8b7f86ae3634",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11631238234"
+}
