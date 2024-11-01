@@ -1,0 +1,18 @@
+{
+  "artifact_2133303927": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-fguallini-081b7cd13d8629e1c1115a0bbd0451a121d70b1d)\nOpenJDK 64-Bit Server VM (build 24-internal-fguallini-081b7cd13d8629e1c1115a0bbd0451a121d70b1d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0f03ca0b4ce541dfe4c3017924cf10112305aa2a.json",
+    "9febd8d54eaa287b1fe5d55479e926db8292b6d5.json",
+    "c54acca6a219fd0d7cb3971997369d605316e353.json"
+  ],
+  "datetime": "2024-11-01T14:55:36.601631+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21578",
+  "number": 21578,
+  "title": "8342183: Update tests to use stronger algorithms and keys",
+  "head_sha": "081b7cd13d8629e1c1115a0bbd0451a121d70b1d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11630842052"
+}
