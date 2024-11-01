@@ -1,0 +1,14 @@
+{
+  "artifact_2132967849": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dafedafe-989ef94596cf7034df68655a367f0ab07c5508cb)\nOpenJDK 64-Bit Server VM (build 24-internal-dafedafe-989ef94596cf7034df68655a367f0ab07c5508cb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-01T13:03:27.286889+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21757",
+  "number": 21757,
+  "title": "8343153: compiler/codecache/CheckLargePages.java fails on linux with huge pages configured but its number set to 0",
+  "head_sha": "989ef94596cf7034df68655a367f0ab07c5508cb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11629514934"
+}
