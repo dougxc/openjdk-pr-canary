@@ -1,0 +1,16 @@
+{
+  "artifact_2135197763": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-archiecobbs-ac32b52c2270d76d761c6a50572b2cad4f2f6aee)\nOpenJDK 64-Bit Server VM (build 24-internal-archiecobbs-ac32b52c2270d76d761c6a50572b2cad4f2f6aee, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "31e74035ab0285b0a5c453f7ce626317806feec9.json"
+  ],
+  "datetime": "2024-11-01T22:41:24.009791+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21816",
+  "number": 21816,
+  "title": "8343412: Missing escapes for single quote marks in javac.properties",
+  "head_sha": "ac32b52c2270d76d761c6a50572b2cad4f2f6aee",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11637252177"
+}
