@@ -1,0 +1,19 @@
+{
+  "artifact_2133620901": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-vicente-romero-oracle-4838a140757b19339c19c1c7650ed2545cc1f834)\nOpenJDK 64-Bit Server VM (build 24-internal-vicente-romero-oracle-4838a140757b19339c19c1c7650ed2545cc1f834, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "38f0de17cc5824e00c341476d68c68e6ff830c12.json",
+    "9dd1430f82f0f83a5f3662547d36ddfa965dddb9.json",
+    "e2f6063946ad19ca5071f5b8b871f7ff6a2605dc.json",
+    "e8501a97ff451b6942f71f2b0c223a356b0c539b.json"
+  ],
+  "datetime": "2024-11-01T16:41:31.130922+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21794",
+  "number": 21794,
+  "title": "8343306: javac is failing to determine if a class and a sealed interface are disjoint",
+  "head_sha": "4838a140757b19339c19c1c7650ed2545cc1f834",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11632134414"
+}
