@@ -74113,5 +74113,28 @@
 		"aliases": [
 			"jdk-24-2704"
 		]
+	},
+	{
+		"id": "jdk-24+23-2705",
+		"revisions": {
+			".": [
+				"05b15ce06acb62eb77a270930880576f871e16ae"
+			],
+			"mx": [
+				"aebcb43fa2d390bacc0deeeef1eb52d8647548e8"
+			],
+			"open": [
+				"00ec10574dd66ba300f02929ec9406a6b9fdfb07"
+			],
+			"graal-enterprise": [
+				"04a22a8634624833eb6959c7a69218da3a4a3df3"
+			],
+			"graal": [
+				"cb2bc48a5ea7223995a380fa710c45e494ec0879"
+			]
+		},
+		"aliases": [
+			"jdk-24-2705"
+		]
 	}
 ]
