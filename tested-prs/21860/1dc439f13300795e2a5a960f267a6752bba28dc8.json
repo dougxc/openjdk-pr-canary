@@ -1,0 +1,14 @@
+{
+  "artifact_2136990518": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-1dc439f13300795e2a5a960f267a6752bba28dc8)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-1dc439f13300795e2a5a960f267a6752bba28dc8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-02T23:39:10.552789+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21860",
+  "number": 21860,
+  "title": "Optimize ArrayClassDescImpl computeDescriptor",
+  "head_sha": "1dc439f13300795e2a5a960f267a6752bba28dc8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11646602813"
+}
