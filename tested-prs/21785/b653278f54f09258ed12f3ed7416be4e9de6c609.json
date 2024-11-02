@@ -1,0 +1,16 @@
+{
+  "artifact_2136131894": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-turbanoff-b653278f54f09258ed12f3ed7416be4e9de6c609)\nOpenJDK 64-Bit Server VM (build 24-internal-turbanoff-b653278f54f09258ed12f3ed7416be4e9de6c609, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "39c4807a5baba33d7f200da4ee2295268f14eede.json"
+  ],
+  "datetime": "2024-11-02T10:41:53.093388+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21785",
+  "number": 21785,
+  "title": "8343418: Use HashMap instead of Hashtable for CSS.htmlAttrToCssAttrMap",
+  "head_sha": "b653278f54f09258ed12f3ed7416be4e9de6c609",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11641993551"
+}
