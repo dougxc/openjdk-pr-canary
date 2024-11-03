@@ -1,0 +1,30 @@
+{
+  "artifact_2138269804": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-DougLea-15793afa91c16791ba31d10c124b2281e05fb226)\nOpenJDK 64-Bit Server VM (build 24-internal-DougLea-15793afa91c16791ba31d10c124b2281e05fb226, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0bf0bfa0def8a1ac0ff90ac160f1b348d47e7e2b.json",
+    "0e3e9defb510e8106263cc9cb32b8dc54d2d1932.json",
+    "2efcb442a8410c75e83a9c640740397140e27685.json",
+    "334a8f9349b9ae242e330c8d78063bc2f7fa029c.json",
+    "409cf50016b3cd4caf9a4c268bd1d7d2b89e249d.json",
+    "5cebdb1264f435805a55b3eff9651c048a222486.json",
+    "8907aca4e7e2b9e9120cbaefc6ca3be97ddd04bc.json",
+    "97d920aac60e064d4902031c3df58845c5bdcd7c.json",
+    "a1ad02fc42027f87403a26e02048bf9140b622aa.json",
+    "b12be0e120a46c269fc90ff3a0b9ae969e80e19c.json",
+    "b211c2abd8285d5df5a87ad2dd37f13eb59ea4a1.json",
+    "b35cc63cd228016bacd68c24ab4ffd26e0a8e277.json",
+    "dcbfc1f7df192b89ec5951a54c807288a9512793.json",
+    "de9acf81e1c841ecb6c1fd74f41509baf9e26828.json",
+    "ee0fb745de1665668fbaa52e3ba8470b63179370.json"
+  ],
+  "datetime": "2024-11-03T18:44:47.114028+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21507",
+  "number": 21507,
+  "title": "8336707: Contention of ForkJoinPool grows when stealing works",
+  "head_sha": "15793afa91c16791ba31d10c124b2281e05fb226",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11653729324"
+}
