@@ -1,0 +1,14 @@
+{
+  "artifact_2137464128": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-archiecobbs-bbe4fe07d64342d642829becef7cac6a8a91446c)\nOpenJDK 64-Bit Server VM (build 24-internal-archiecobbs-bbe4fe07d64342d642829becef7cac6a8a91446c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-03T06:47:47.140549+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21856",
+  "number": 21856,
+  "title": "8343482: Remove unnecessary @SuppressWarnings annotations (net)",
+  "head_sha": "bbe4fe07d64342d642829becef7cac6a8a91446c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11649194270"
+}
