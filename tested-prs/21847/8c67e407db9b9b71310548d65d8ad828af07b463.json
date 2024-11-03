@@ -1,0 +1,14 @@
+{
+  "artifact_2136145955": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RealFYang-8c67e407db9b9b71310548d65d8ad828af07b463)\nOpenJDK 64-Bit Server VM (build 24-internal-RealFYang-8c67e407db9b9b71310548d65d8ad828af07b463, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-03T03:13:56.714980+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21847",
+  "number": 21847,
+  "title": "8343471: RISC-V: compiler/cpuflags/TestAESIntrinsicsOnUnsupportedConfig.java fails after JDK-8334999",
+  "head_sha": "8c67e407db9b9b71310548d65d8ad828af07b463",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11647945291"
+}
