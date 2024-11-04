@@ -1,0 +1,16 @@
+{
+  "artifact_2140413281": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-simonis-f5886102d93c61182fdc19ad449cf905399da8d1)\nOpenJDK 64-Bit Server VM (build 24-internal-simonis-f5886102d93c61182fdc19ad449cf905399da8d1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "80cc0ee77cd7a7df180636ccf1c753c4530faf06.json"
+  ],
+  "datetime": "2024-11-04T11:59:20.463593+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21870",
+  "number": 21870,
+  "title": "8343531: Improve print_location for invalid heap pointers",
+  "head_sha": "f5886102d93c61182fdc19ad449cf905399da8d1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11663267708"
+}
