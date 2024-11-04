@@ -1,0 +1,19 @@
+{
+  "artifact_2142805660": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-nizarbenalla-07530decb98b953e8fd729af71013412962a9e75)\nOpenJDK 64-Bit Server VM (build 24-internal-nizarbenalla-07530decb98b953e8fd729af71013412962a9e75, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "408ae6d75f710a6f13daf6d7e0691e875d2add75.json",
+    "d85900194142c4c823c307140da3db2222ceb8ff.json",
+    "e81c2851b4181bdf0890d0be0bff7e1d1da19fef.json",
+    "e973302bd1b1b017c03cf32ebb8cc2719885e750.json"
+  ],
+  "datetime": "2024-11-04T20:31:59.440242+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21542",
+  "number": 21542,
+  "title": "8341399: Add since checker tests to the langtools modules",
+  "head_sha": "07530decb98b953e8fd729af71013412962a9e75",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11671225269"
+}
