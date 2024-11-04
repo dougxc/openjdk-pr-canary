@@ -1,0 +1,14 @@
+{
+  "artifact_2142742023": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kevinjwalls-e389e2ed3faeb32da3e653dbc3a41fb065f61626)\nOpenJDK 64-Bit Server VM (build 24-internal-kevinjwalls-e389e2ed3faeb32da3e653dbc3a41fb065f61626, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-04T19:46:56.999739+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21884",
+  "number": 21884,
+  "title": "8343491: javax/management/remote/mandatory/connection/DeadLockTest.java failing with NoSuchObjectException: no such object in table",
+  "head_sha": "e389e2ed3faeb32da3e653dbc3a41fb065f61626",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11671225269"
+}
