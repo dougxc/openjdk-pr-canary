@@ -1,0 +1,21 @@
+{
+  "artifact_2143424764": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-magicus-9b10e74c06501f573aaa1cbd7b199cc9c25ab53e)\nOpenJDK 64-Bit Server VM (build 24-internal-magicus-9b10e74c06501f573aaa1cbd7b199cc9c25ab53e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0fff0971689994d1c833986848c02f6f19bfc9e3.json",
+    "3556bec54c780d10baeaaf30f43955333c55d798.json",
+    "68d6fe5a98e0482131cf9c0dd6c0d929888b50e2.json",
+    "7eb46c33546c36d8a6e3bfb8d6ff9ca98ce84a21.json",
+    "a18d19c731a2ff932ea426174d72ef0523cb1558.json",
+    "dccf1a1df6885c90684c0f595eceacc4fd54fc30.json"
+  ],
+  "datetime": "2024-11-04T21:47:29.546549+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21744",
+  "number": 21744,
+  "title": "8339783: Implement JEP 479: Remove the Windows 32-bit x86 Port",
+  "head_sha": "9b10e74c06501f573aaa1cbd7b199cc9c25ab53e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11672945877"
+}
