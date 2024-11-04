@@ -1,0 +1,18 @@
+{
+  "artifact_2143010173": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-d47b166554196123be166fc16bd0e5961ef97340)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-d47b166554196123be166fc16bd0e5961ef97340, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0876a529aecdfc73a94e1d0272988bac2b426e36.json",
+    "515c18694597c8921734bdde310f0fcb3a870ed9.json",
+    "d8f777430bc977476a078a5d1890cdea1d295963.json"
+  ],
+  "datetime": "2024-11-04T20:55:16.196539+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20328",
+  "number": 20328,
+  "title": "8279016: JFR Leak Profiler is broken with Shenandoah",
+  "head_sha": "d47b166554196123be166fc16bd0e5961ef97340",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11671225269"
+}
