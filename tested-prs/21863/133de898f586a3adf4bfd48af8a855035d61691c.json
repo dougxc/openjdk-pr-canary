@@ -1,0 +1,14 @@
+{
+  "artifact_2139183279": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RealFYang-133de898f586a3adf4bfd48af8a855035d61691c)\nOpenJDK 64-Bit Server VM (build 24-internal-RealFYang-133de898f586a3adf4bfd48af8a855035d61691c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-04T04:43:21.616519+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21863",
+  "number": 21863,
+  "title": "8343502: RISC-V: SIGBUS in updateBytesCRC32 after JDK-8339738",
+  "head_sha": "133de898f586a3adf4bfd48af8a855035d61691c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11658104036"
+}
