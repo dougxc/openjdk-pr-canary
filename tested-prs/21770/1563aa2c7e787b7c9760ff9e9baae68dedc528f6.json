@@ -1,0 +1,18 @@
+{
+  "artifact_2142718808": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-vamsi-parasa-1563aa2c7e787b7c9760ff9e9baae68dedc528f6)\nOpenJDK 64-Bit Server VM (build 24-internal-vamsi-parasa-1563aa2c7e787b7c9760ff9e9baae68dedc528f6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0f404dbd1896f52d60e4212d3e658777ab8c1825.json",
+    "5049d3aa3afd802d7209c2f6aa31bcc64d042700.json",
+    "963bdc08270260e5ecdaacc46d1f7e49790e4079.json"
+  ],
+  "datetime": "2024-11-04T20:09:40.061731+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21770",
+  "number": 21770,
+  "title": "8343214: Fix encoding errors in APX New Data Destination Instructions Support",
+  "head_sha": "1563aa2c7e787b7c9760ff9e9baae68dedc528f6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11671225269"
+}
