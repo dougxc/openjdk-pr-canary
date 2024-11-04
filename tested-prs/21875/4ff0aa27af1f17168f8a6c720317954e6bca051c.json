@@ -1,0 +1,14 @@
+{
+  "artifact_2141312704": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-4ff0aa27af1f17168f8a6c720317954e6bca051c)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-4ff0aa27af1f17168f8a6c720317954e6bca051c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-04T15:41:37.621274+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21875",
+  "number": 21875,
+  "title": "8342498: Add test for Allocation elimination after use as alignment reference by SuperWord",
+  "head_sha": "4ff0aa27af1f17168f8a6c720317954e6bca051c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11667384013"
+}
