@@ -1,0 +1,16 @@
+{
+  "artifact_2141478748": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-xmas92-457a33532b79a47f744f1937bdeafb37bbe0595c)\nOpenJDK 64-Bit Server VM (build 24-internal-xmas92-457a33532b79a47f744f1937bdeafb37bbe0595c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "64357f1bae73473eb0b1d6d2aafdf9435fd66abd.json"
+  ],
+  "datetime": "2024-11-04T16:47:46.402050+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21129",
+  "number": 21129,
+  "title": "8340422: ZGC: TestAllocateHeapAt.java should not run with transparent hugepages",
+  "head_sha": "457a33532b79a47f744f1937bdeafb37bbe0595c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11667384013"
+}
