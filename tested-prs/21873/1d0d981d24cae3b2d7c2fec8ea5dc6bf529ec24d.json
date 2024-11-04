@@ -1,0 +1,14 @@
+{
+  "artifact_2140765495": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-MBaesken-1d0d981d24cae3b2d7c2fec8ea5dc6bf529ec24d)\nOpenJDK 64-Bit Server VM (build 24-internal-MBaesken-1d0d981d24cae3b2d7c2fec8ea5dc6bf529ec24d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-04T13:14:42.851845+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21873",
+  "number": 21873,
+  "title": "8343532: Test test/hotspot/jtreg/runtime/cds/appcds/jigsaw/addmods/AddmodsOption.java fails on Linux ppc64le after JDK-8319343",
+  "head_sha": "1d0d981d24cae3b2d7c2fec8ea5dc6bf529ec24d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11664580340"
+}
