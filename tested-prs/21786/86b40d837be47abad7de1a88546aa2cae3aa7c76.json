@@ -1,0 +1,16 @@
+{
+  "artifact_2139502427": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-86b40d837be47abad7de1a88546aa2cae3aa7c76)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-86b40d837be47abad7de1a88546aa2cae3aa7c76, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3eb0e5153b8dad596a10f867d72352d1922b94f6.json"
+  ],
+  "datetime": "2024-11-04T07:48:59.257496+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21786",
+  "number": 21786,
+  "title": "8343118: [TESTBUG] java/awt/PrintJob/PrintCheckboxTest/PrintCheckboxManualTest.java fails with rror. Can't find HTML file PrintCheckboxManualTest.html",
+  "head_sha": "86b40d837be47abad7de1a88546aa2cae3aa7c76",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11659780947"
+}
