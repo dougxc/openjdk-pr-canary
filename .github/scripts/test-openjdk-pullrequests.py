@@ -516,10 +516,10 @@ def print_summary(test_records, failed_pull_requests, untested_prs):
 
 class SlackAPI:
     """
-    Object for reading/posting messages from/to the #openjdk-pr-canary channel.
+    Object for reading/posting messages from/to a Slack channel.
     """
     def __init__(self):
-        self.channel = "C07KMA7HFE3"
+        self.channel = os.environ.get('SLACK_CHANNEL_ID')
         token = os.environ.get('SLACK_AUTH_TOKEN')
         assert token, f"Required environment variable not set: SLACK_AUTH_TOKEN"
         self.headers = {
