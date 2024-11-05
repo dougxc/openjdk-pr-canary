@@ -1,0 +1,16 @@
+{
+  "artifact_2147001698": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-MBaesken-878dd621ed78c362ad330cfc0002aec8f265b77e)\nOpenJDK 64-Bit Server VM (build 24-internal-MBaesken-878dd621ed78c362ad330cfc0002aec8f265b77e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6f5a93dcd3011260b114702a8471a22ed9d66ef9.json"
+  ],
+  "datetime": "2024-11-05T14:52:06.893109+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21900",
+  "number": 21900,
+  "title": "8318442: java/net/httpclient/ManyRequests2.java fails intermittently on Linux",
+  "head_sha": "878dd621ed78c362ad330cfc0002aec8f265b77e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11686247804"
+}
