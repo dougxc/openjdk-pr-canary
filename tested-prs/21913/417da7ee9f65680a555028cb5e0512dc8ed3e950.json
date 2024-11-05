@@ -1,0 +1,14 @@
+{
+  "artifact_2148513475": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-matias9927-417da7ee9f65680a555028cb5e0512dc8ed3e950)\nOpenJDK 64-Bit Server VM (build 24-internal-matias9927-417da7ee9f65680a555028cb5e0512dc8ed3e950, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-05T20:29:34.167651+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21913",
+  "number": 21913,
+  "title": "8339288: Improve diagnostic logging runtime/cds/DeterministicDump.java",
+  "head_sha": "417da7ee9f65680a555028cb5e0512dc8ed3e950",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11691090402"
+}
