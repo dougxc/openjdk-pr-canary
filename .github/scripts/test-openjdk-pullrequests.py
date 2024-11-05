@@ -788,4 +788,8 @@ def main():
     print_summary(test_records, failed_pull_requests, untested_prs)
 
 if __name__ == "__main__":
-    main()
+    info("Enter Canary")
+    try:
+        main()
+    finally:
+        info("Exit Canary")
