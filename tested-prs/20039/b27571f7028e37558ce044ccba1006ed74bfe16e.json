@@ -1,0 +1,16 @@
+{
+  "artifact_2148390213": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-SoniaZaldana-b27571f7028e37558ce044ccba1006ed74bfe16e)\nOpenJDK 64-Bit Server VM (build 24-internal-SoniaZaldana-b27571f7028e37558ce044ccba1006ed74bfe16e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8397a1c52a9b8616020fb2949f5de852d17780e5.json"
+  ],
+  "datetime": "2024-11-05T20:14:06.604531+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20039",
+  "number": 20039,
+  "title": "8300732: Whitebox functions for Metaspace test should use byte size",
+  "head_sha": "b27571f7028e37558ce044ccba1006ed74bfe16e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11689432568"
+}
