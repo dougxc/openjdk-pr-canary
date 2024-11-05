@@ -108,7 +108,13 @@ def gh_api(args, stdout=None, raw=False):
         p = subprocess.run(cmd, text=text, capture_output=stdout is None, check=False, stdout=stdout)
         remaining_attempts -= 1
         if p.returncode != 0:
-            err_msg = f"Command returned {p.returncode}: {quoted_cmd}{os.linesep}stdout: {p.stdout}{os.linesep}stderr: {p.stderr}"
+            if stdout:
+                stdout_path = Path(stdout.name)
+                size = stdout_path.stat().st_size if stdout_path.exists() else 0
+                stdout_info = f"<read {size} bytes to {stdout_path}>"
+            else:
+                stdout_info = f"stdout: {p.stdout}"
+            err_msg = f"Command returned {p.returncode}: {quoted_cmd}{os.linesep}{stdout_info}{os.linesep}stderr: {p.stderr}"
             if remaining_attempts == 0:
                 raise Exception(err_msg)
             info(f"warning: {err_msg}", COLOR_WARN)
