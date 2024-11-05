@@ -1,0 +1,14 @@
+{
+  "artifact_2146817785": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-mgronlun-ac59a84b9f0a8bd75a5b7c5c58bc0035bceeb48a)\nOpenJDK 64-Bit Server VM (build 24-internal-mgronlun-ac59a84b9f0a8bd75a5b7c5c58bc0035bceeb48a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-05T14:08:10.970735+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21902",
+  "number": 21902,
+  "title": "8342105: JVM Crash when Jacoco and JFR are active",
+  "head_sha": "ac59a84b9f0a8bd75a5b7c5c58bc0035bceeb48a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11685199055"
+}
