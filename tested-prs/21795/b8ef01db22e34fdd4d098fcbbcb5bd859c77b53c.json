@@ -1,0 +1,17 @@
+{
+  "artifact_2153889859": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-hanklo6-b8ef01db22e34fdd4d098fcbbcb5bd859c77b53c)\nOpenJDK 64-Bit Server VM (build 24-internal-hanklo6-b8ef01db22e34fdd4d098fcbbcb5bd859c77b53c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "083ad66ef39353acebbd8d52378e6f9e8a63da90.json",
+    "14e4bacb0d3474195a2b31a3aeba8909f40c74e2.json"
+  ],
+  "datetime": "2024-11-06T19:09:52.231997+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21795",
+  "number": 21795,
+  "title": "8343317: Extend test generation tool to handle APX NDD/NF flavor of instructions",
+  "head_sha": "b8ef01db22e34fdd4d098fcbbcb5bd859c77b53c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11709755522"
+}
