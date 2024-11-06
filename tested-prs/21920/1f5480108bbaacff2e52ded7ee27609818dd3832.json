@@ -1,0 +1,14 @@
+{
+  "artifact_2151578836": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-galderz-1f5480108bbaacff2e52ded7ee27609818dd3832)\nOpenJDK 64-Bit Server VM (build 24-internal-galderz-1f5480108bbaacff2e52ded7ee27609818dd3832, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-06T11:36:51.485883+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21920",
+  "number": 21920,
+  "title": "8326369: Bimorphic inlining not applied at a call site that was initially monomorphic",
+  "head_sha": "1f5480108bbaacff2e52ded7ee27609818dd3832",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11702566988"
+}
