@@ -1,0 +1,14 @@
+{
+  "artifact_2150799963": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-chhagedorn-3d139c2b331a70982cc1d064410fb40631b0f270)\nOpenJDK 64-Bit Server VM (build 24-internal-chhagedorn-3d139c2b331a70982cc1d064410fb40631b0f270, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-06T08:54:26.168543+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21918",
+  "number": 21918,
+  "title": "8342945: Replace predicate walking code in get_assertion_predicates() used for Loop Unswitching and cleaning useless Template Assertion Predicates with a predicate visitor",
+  "head_sha": "3d139c2b331a70982cc1d064410fb40631b0f270",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11699901649"
+}
