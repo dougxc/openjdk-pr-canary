@@ -1,0 +1,16 @@
+{
+  "artifact_2153583228": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-iklam-8391420924dbe18f93976b20b82001f887ae1090)\nOpenJDK 64-Bit Server VM (build 24-internal-iklam-8391420924dbe18f93976b20b82001f887ae1090, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f6e717187d4aea1ffd15286c857133348975abb5.json"
+  ],
+  "datetime": "2024-11-06T18:23:15.461337+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21890",
+  "number": 21890,
+  "title": "8343493: Perform module checks during MetaspaceShared::map_archives()",
+  "head_sha": "8391420924dbe18f93976b20b82001f887ae1090",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11708781323"
+}
