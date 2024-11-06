@@ -1,0 +1,14 @@
+{
+  "artifact_2153478527": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-magicus-7386b1620ab3e0fd76f3d65e35328d85402a1101)\nOpenJDK 64-Bit Server VM (build 24-internal-magicus-7386b1620ab3e0fd76f3d65e35328d85402a1101, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-06T17:51:28.566550+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21936",
+  "number": 21936,
+  "title": "8268895: Do not filter out man pages from build",
+  "head_sha": "7386b1620ab3e0fd76f3d65e35328d85402a1101",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11708781323"
+}
