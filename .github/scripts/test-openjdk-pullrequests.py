@@ -593,11 +593,14 @@ def post_failure_to_slack(test_record):
     pr_url = test_record["url"]
     run_url = test_record["run_url"]
 
-    key = f"bot:{pr_url}"
+    key = f"bot:{pr_num}"
+
+    # Slack wraps URLs with "<" and ">" in text messages 
+    legacy_key = f"bot:<{pr_url}>"
 
     thread = None
     for message in _slack_api.get_messages():
-        if message["text"] == key:
+        if message["text"] in (key, legacy_key):
             thread = message["ts"]
             break
 
