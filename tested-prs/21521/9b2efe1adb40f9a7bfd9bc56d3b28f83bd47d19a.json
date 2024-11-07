@@ -1,0 +1,14 @@
+{
+  "artifact_2151112060": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-9b2efe1adb40f9a7bfd9bc56d3b28f83bd47d19a)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-9b2efe1adb40f9a7bfd9bc56d3b28f83bd47d19a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-07T07:37:21.455238+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21521",
+  "number": 21521,
+  "title": "8334431: C2 SuperWord: fix performance regression due to store-to-load-forwarding failures",
+  "head_sha": "9b2efe1adb40f9a7bfd9bc56d3b28f83bd47d19a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11718442181"
+}
