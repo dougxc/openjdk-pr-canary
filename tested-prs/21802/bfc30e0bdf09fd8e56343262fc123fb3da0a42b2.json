@@ -1,0 +1,17 @@
+{
+  "artifact_2158374493": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-nizarbenalla-bfc30e0bdf09fd8e56343262fc123fb3da0a42b2)\nOpenJDK 64-Bit Server VM (build 24-internal-nizarbenalla-bfc30e0bdf09fd8e56343262fc123fb3da0a42b2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "432ba68602b7d5df8abbd918f11e6b9c615823a1.json",
+    "5f8cf1ab99ff37f79af6a402652a86f243f2e97f.json"
+  ],
+  "datetime": "2024-11-07T16:32:24.111460+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21802",
+  "number": 21802,
+  "title": "8202617: javadoc generates broken links to undocumented (e.g. private) members",
+  "head_sha": "bfc30e0bdf09fd8e56343262fc123fb3da0a42b2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11726103825"
+}
