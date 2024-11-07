@@ -1,0 +1,14 @@
+{
+  "artifact_2157058155": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-djelinski-cd35e1bce70bacb0080014aa19b130fac8bf4ff4)\nOpenJDK 64-Bit Server VM (build 24-internal-djelinski-cd35e1bce70bacb0080014aa19b130fac8bf4ff4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-07T11:35:06.429597+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21948",
+  "number": 21948,
+  "title": "8343411: Test fail on Windows due to \"An established connection was aborted by the software in your host machine\"",
+  "head_sha": "cd35e1bce70bacb0080014aa19b130fac8bf4ff4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11722005234"
+}
