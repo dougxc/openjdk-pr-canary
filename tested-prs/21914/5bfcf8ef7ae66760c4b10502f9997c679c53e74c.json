@@ -1,0 +1,16 @@
+{
+  "artifact_2158648960": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-vicente-romero-oracle-5bfcf8ef7ae66760c4b10502f9997c679c53e74c)\nOpenJDK 64-Bit Server VM (build 24-internal-vicente-romero-oracle-5bfcf8ef7ae66760c4b10502f9997c679c53e74c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "34b5b02026ca5d7ce363177a32fa8c73ae3b345c.json"
+  ],
+  "datetime": "2024-11-07T16:21:42.157364+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21914",
+  "number": 21914,
+  "title": "8343286: Missing unchecked cast warning in polymorphic method call",
+  "head_sha": "5bfcf8ef7ae66760c4b10502f9997c679c53e74c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11726103825"
+}
