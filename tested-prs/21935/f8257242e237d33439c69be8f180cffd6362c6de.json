@@ -1,0 +1,16 @@
+{
+  "artifact_2158172723": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TheRealMDoerr-f8257242e237d33439c69be8f180cffd6362c6de)\nOpenJDK 64-Bit Server VM (build 24-internal-TheRealMDoerr-f8257242e237d33439c69be8f180cffd6362c6de, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a9330b322a04be2a81a3e2bfee705efe9a4e7cc3.json"
+  ],
+  "datetime": "2024-11-07T15:23:50.103457+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21935",
+  "number": 21935,
+  "title": "8343724: [PPC64] Disallow OptoScheduling",
+  "head_sha": "f8257242e237d33439c69be8f180cffd6362c6de",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11725013335"
+}
