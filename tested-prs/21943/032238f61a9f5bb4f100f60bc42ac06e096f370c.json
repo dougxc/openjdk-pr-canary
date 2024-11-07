@@ -1,0 +1,14 @@
+{
+  "artifact_2155462288": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-lmesnik-032238f61a9f5bb4f100f60bc42ac06e096f370c)\nOpenJDK 64-Bit Server VM (build 24-internal-lmesnik-032238f61a9f5bb4f100f60bc42ac06e096f370c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-07T02:03:04.432409+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21943",
+  "number": 21943,
+  "title": "8343741: SA jstack --mixed should print information about VM locks",
+  "head_sha": "032238f61a9f5bb4f100f60bc42ac06e096f370c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11715121288"
+}
