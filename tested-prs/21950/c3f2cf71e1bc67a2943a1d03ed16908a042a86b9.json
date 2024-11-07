@@ -1,0 +1,14 @@
+{
+  "artifact_2157638094": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kevinjwalls-c3f2cf71e1bc67a2943a1d03ed16908a042a86b9)\nOpenJDK 64-Bit Server VM (build 24-internal-kevinjwalls-c3f2cf71e1bc67a2943a1d03ed16908a042a86b9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-07T13:41:10.388934+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21950",
+  "number": 21950,
+  "title": "8272780: ServerNotifForwarder.removeNotificationListener() incorrect exception handling",
+  "head_sha": "c3f2cf71e1bc67a2943a1d03ed16908a042a86b9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11723992976"
+}
