@@ -1,0 +1,16 @@
+{
+  "artifact_2158843670": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-theoweidmannoracle-cb703a4e22a600128dc0285031994b9f50ee65da)\nOpenJDK 64-Bit Server VM (build 24-internal-theoweidmannoracle-cb703a4e22a600128dc0285031994b9f50ee65da, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f89f2cf45650dbe40dd22f772f27d7818d826de2.json"
+  ],
+  "datetime": "2024-11-07T17:10:23.359966+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21834",
+  "number": 21834,
+  "title": "8341411: C2: remove slice parameter from GraphKit::make_load() and GraphKit::store_to_memory()",
+  "head_sha": "cb703a4e22a600128dc0285031994b9f50ee65da",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11727271707"
+}
