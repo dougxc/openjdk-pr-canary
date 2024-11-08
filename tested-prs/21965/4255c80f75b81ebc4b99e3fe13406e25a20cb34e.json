@@ -1,0 +1,14 @@
+{
+  "artifact_2160742073": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-naotoj-4255c80f75b81ebc4b99e3fe13406e25a20cb34e)\nOpenJDK 64-Bit Server VM (build 24-internal-naotoj-4255c80f75b81ebc4b99e3fe13406e25a20cb34e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-08T02:04:07.442695+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21965",
+  "number": 21965,
+  "title": "8343804: Show the default time zone with -XshowSettings option",
+  "head_sha": "4255c80f75b81ebc4b99e3fe13406e25a20cb34e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11734610556"
+}
