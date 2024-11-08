@@ -1,0 +1,28 @@
+{
+  "artifact_2163433751": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-seanjmullan-6ad9192e1c442bbd15b794ecc2aa0b526d020519)\nOpenJDK 64-Bit Server VM (build 24-internal-seanjmullan-6ad9192e1c442bbd15b794ecc2aa0b526d020519, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/9924",
+    "number": "9924",
+    "revision": "493d9f0df93f211323cc20bc8073536a26120a4e"
+  },
+  "status": "failed",
+  "history": [
+    "2f90c83964d870977e1d73ce9b3bc7959db2ba66.json",
+    "7958ee2bab5780536414a8eab6d6aea29029f5b0.json",
+    "cb50dfded724d30c6da63e2de90bfb4f3b51162c.json",
+    "d05122fbc349869e33e889e82731c6b237877991.json",
+    "e490f6986692ed47809fdfbc60e282dd49924038.json",
+    "e9e7f0c9ff9cf5d35a17afc31881706ce2f9ae1d.json",
+    "f89d9d09e638d67d7bebc6880d111971b634bdc7.json"
+  ],
+  "datetime": "2024-11-08T15:47:13.193161+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21498",
+  "number": 21498,
+  "title": "8338411: Implement JEP 486: Permanently Disable the Security Manager",
+  "head_sha": "6ad9192e1c442bbd15b794ecc2aa0b526d020519",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11743978373"
+}
