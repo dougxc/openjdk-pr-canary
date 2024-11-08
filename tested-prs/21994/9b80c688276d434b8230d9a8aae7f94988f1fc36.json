@@ -1,0 +1,14 @@
+{
+  "artifact_2165414200": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-mgronlun-9b80c688276d434b8230d9a8aae7f94988f1fc36)\nOpenJDK 64-Bit Server VM (build 24-internal-mgronlun-9b80c688276d434b8230d9a8aae7f94988f1fc36, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-08T22:41:38.271748+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21994",
+  "number": 21994,
+  "title": "8343756: CAN_SHOW_REGISTERS_ON_ASSERT for Windows",
+  "head_sha": "9b80c688276d434b8230d9a8aae7f94988f1fc36",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11750496403"
+}
