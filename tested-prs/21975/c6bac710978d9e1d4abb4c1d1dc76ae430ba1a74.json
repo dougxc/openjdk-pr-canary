@@ -1,0 +1,14 @@
+{
+  "artifact_2162884184": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-reinrich-c6bac710978d9e1d4abb4c1d1dc76ae430ba1a74)\nOpenJDK 64-Bit Server VM (build 24-internal-reinrich-c6bac710978d9e1d4abb4c1d1dc76ae430ba1a74, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-08T14:40:19.895056+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21975",
+  "number": 21975,
+  "title": "8343774: compiler/c2/TestCastX2NotProcessedIGVN.java fails on ppc64(le) & s390x platforms",
+  "head_sha": "c6bac710978d9e1d4abb4c1d1dc76ae430ba1a74",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11743978373"
+}
