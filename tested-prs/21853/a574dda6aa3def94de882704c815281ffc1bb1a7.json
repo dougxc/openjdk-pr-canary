@@ -1,0 +1,17 @@
+{
+  "artifact_2165083662": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-archiecobbs-a574dda6aa3def94de882704c815281ffc1bb1a7)\nOpenJDK 64-Bit Server VM (build 24-internal-archiecobbs-a574dda6aa3def94de882704c815281ffc1bb1a7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "21c83e93983f7e30caddf2d05667e26872589c9b.json",
+    "8eab41cad14799912d931a6e2ea03945a5c3636c.json"
+  ],
+  "datetime": "2024-11-08T21:11:32.968790+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21853",
+  "number": 21853,
+  "title": "8343479: Remove unnecessary @SuppressWarnings annotations (hotspot)",
+  "head_sha": "a574dda6aa3def94de882704c815281ffc1bb1a7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11749077422"
+}
