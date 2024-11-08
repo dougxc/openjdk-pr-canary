@@ -1,0 +1,19 @@
+{
+  "artifact_2163460721": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-nizarbenalla-349bf1a0b2173df195a53a85c82ec302218adbd8)\nOpenJDK 64-Bit Server VM (build 24-internal-nizarbenalla-349bf1a0b2173df195a53a85c82ec302218adbd8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0b8d7da19c73d19a5dec69c94db7349f95323cd9.json",
+    "15399f80cc977085d9cc5ad28177499db29aca97.json",
+    "1afbc91c6458aaba66c792040f208e2f053a6a51.json",
+    "e30bbc5b2fd9982b73c1987d3f1a1fdc9b956245.json"
+  ],
+  "datetime": "2024-11-08T14:51:09.401897+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21838",
+  "number": 21838,
+  "title": "8343442: Add since checker tests to the networking area modules",
+  "head_sha": "349bf1a0b2173df195a53a85c82ec302218adbd8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11743978373"
+}
