@@ -1,0 +1,22 @@
+{
+  "artifact_2162346754": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jdksjolen-2553d6e99f0db15f5b71f9529cd43f5a26d01117)\nOpenJDK 64-Bit Server VM (build 24-internal-jdksjolen-2553d6e99f0db15f5b71f9529cd43f5a26d01117, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "23ad7b0593c3e746ec5f565251755658aa942717.json",
+    "38fa4ba6b898dfa47de06f44ed3f2484a5d0038f.json",
+    "3b378c94d6b85fc1c751c88d67e401f1bde9b714.json",
+    "978b3d7b8e73a2a111985ab4dfebc9992fd8f027.json",
+    "a89e33e495ed9ccfa29c816a5cd5b6d732db97f3.json",
+    "b216210965223c877121b08422e30927e880a899.json",
+    "e83f0d14820f18544a1ec0d4aeb66949e1dafedb.json"
+  ],
+  "datetime": "2024-11-08T10:26:08.247941+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20994",
+  "number": 20994,
+  "title": "8340103: Add internal set_flag function to VMATree",
+  "head_sha": "2553d6e99f0db15f5b71f9529cd43f5a26d01117",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11739510452"
+}
