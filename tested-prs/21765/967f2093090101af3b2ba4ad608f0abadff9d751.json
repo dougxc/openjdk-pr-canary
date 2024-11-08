@@ -1,0 +1,14 @@
+{
+  "artifact_2164371132": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-hns-967f2093090101af3b2ba4ad608f0abadff9d751)\nOpenJDK 64-Bit Server VM (build 24-internal-hns-967f2093090101af3b2ba4ad608f0abadff9d751, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-08T19:21:24.416594+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21765",
+  "number": 21765,
+  "title": "8341904: Search tag in inherited doc comment creates additional index item",
+  "head_sha": "967f2093090101af3b2ba4ad608f0abadff9d751",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11745907368"
+}
