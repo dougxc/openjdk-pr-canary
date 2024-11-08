@@ -1,0 +1,14 @@
+{
+  "artifact_2162815241": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-Hamlin-Li-696972ec364ec71ed5327c417c8651e35afc2285)\nOpenJDK 64-Bit Server VM (build 24-internal-Hamlin-Li-696972ec364ec71ed5327c417c8651e35afc2285, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-08T13:11:22.068917+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21974",
+  "number": 21974,
+  "title": "8343827: RISC-V: set AlignVector as false if applicable to enable SLP",
+  "head_sha": "696972ec364ec71ed5327c417c8651e35afc2285",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11742409706"
+}
