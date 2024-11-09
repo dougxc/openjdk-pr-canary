@@ -1,0 +1,18 @@
+{
+  "artifact_2166604352": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-819148de167388e740ea52e0a39ec46044833204)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-819148de167388e740ea52e0a39ec46044833204, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "27e675b04a68a05cdf349597d3e8f665ae82d4db.json",
+    "82c59ec5d6b2e6b2457d0c67a76e493a3567fc9e.json",
+    "f1fc4d4eecb4accd3fecd29348800390cddccd68.json"
+  ],
+  "datetime": "2024-11-09T13:08:22.380681+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21896",
+  "number": 21896,
+  "title": "8343601: javax/swing/JMenuItem/8158566/CloseOnMouseClickPropertyTest.java fails in ubuntu 22.04",
+  "head_sha": "819148de167388e740ea52e0a39ec46044833204",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11756347677"
+}
