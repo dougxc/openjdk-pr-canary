@@ -391,7 +391,7 @@ def test_pull_request(pr, untested_prs, failed_pull_requests):
             # Artifact test record
             artifact_test_record = {}
             test_record = {
-                f"artifact_{artifact_id}", artifact_test_record
+                f"artifact_{artifact_id}": artifact_test_record
             }
 
             artifact_test_record["java_home"] = str(java_home)
@@ -602,7 +602,7 @@ def post_failure_to_slack(test_record):
 
     key = f"bot:{pr_num}"
 
-    # Slack wraps URLs with "<" and ">" in text messages 
+    # Slack wraps URLs with "<" and ">" in text messages
     legacy_key = f"bot:<{pr_url}>"
 
     thread = None
