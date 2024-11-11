@@ -1,0 +1,14 @@
+{
+  "artifact_2169987736": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-chhagedorn-7279d42eedb00f73bfc4a11a09f2d1b1a1ad5411)\nOpenJDK 64-Bit Server VM (build 24-internal-chhagedorn-7279d42eedb00f73bfc4a11a09f2d1b1a1ad5411, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-11T08:56:23.026026+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21969",
+  "number": 21969,
+  "title": "8343745: Only update Last Value Assertion Predicates in Loop Unrolling",
+  "head_sha": "7279d42eedb00f73bfc4a11a09f2d1b1a1ad5411",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11774904589"
+}
