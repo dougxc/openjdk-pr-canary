@@ -1,0 +1,20 @@
+{
+  "artifact_2170945668": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tobiasholenstein-ace2ebfa91d0053ba8c11f9ae103c344b2e4361a)\nOpenJDK 64-Bit Server VM (build 24-internal-tobiasholenstein-ace2ebfa91d0053ba8c11f9ae103c344b2e4361a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0fd894fd2adcd91f3b4c50a0dcc0ffd16bee7b6d.json",
+    "17205babbba8732679431bde8aa81c6250a63ae2.json",
+    "46024d070ca95add5b7a28e15f2ba731595f1a47.json",
+    "5cf1e8b4834a883defbb4bfbe3b733e2ed5bc9c9.json",
+    "6d7856ed056010f4908ede2c117eaca8768b5bf0.json"
+  ],
+  "datetime": "2024-11-11T12:23:26.786841+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21925",
+  "number": 21925,
+  "title": "8343535: IGV: Colorize nodes on demand",
+  "head_sha": "ace2ebfa91d0053ba8c11f9ae103c344b2e4361a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11777563953"
+}
