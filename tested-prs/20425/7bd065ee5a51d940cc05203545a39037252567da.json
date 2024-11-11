@@ -1,0 +1,14 @@
+{
+  "artifact_2171109340": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-afshin-zafari-7bd065ee5a51d940cc05203545a39037252567da)\nOpenJDK 64-Bit Server VM (build 24-internal-afshin-zafari-7bd065ee5a51d940cc05203545a39037252567da, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-11T13:01:53.695861+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20425",
+  "number": 20425,
+  "title": "8337217: Port VirtualMemoryTracker to use VMATree",
+  "head_sha": "7bd065ee5a51d940cc05203545a39037252567da",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11778880873"
+}
