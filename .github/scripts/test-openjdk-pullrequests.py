@@ -333,13 +333,16 @@ def add_test_history(test_record, pr, run_url, test_record_path):
 
 
 def test_pull_request(pr, untested_prs, failed_pull_requests):
+    """
+    Tests a single artifact for `pr` if available.
+
+    :return: a dict with the test details or None if no artifact to test was found
+    """
     repo = pr["head"]["repo"]["full_name"]
     head_sha = pr["head"]["sha"]
 
     # Get workflow runs for head commit in pull request
     runs = gh_api([f"/repos/{repo}/actions/runs?head_sha={head_sha}"])
-
-    test_record = {}
 
     # Search runs for non-expired artifact
     for run in runs["workflow_runs"]:
@@ -386,7 +389,10 @@ def test_pull_request(pr, untested_prs, failed_pull_requests):
             java_home = java_exe.parent.parent
 
             # Artifact test record
-            artifact_test_record = test_record.setdefault(f"artifact_{artifact_id}", {})
+            artifact_test_record = {}
+            test_record = {
+                f"artifact_{artifact_id}", artifact_test_record
+            }
 
             artifact_test_record["java_home"] = str(java_home)
             artifact_test_record["java_version_output"] = subprocess.run([str(java_exe), "--version"], capture_output=True, text=True).stdout.strip()
@@ -455,8 +461,9 @@ def test_pull_request(pr, untested_prs, failed_pull_requests):
 
             # Remove JDK
             shutil.rmtree(java_home)
+            return test_record
 
-    return test_record
+    return None
 
 def push_test_records(test_records):
     """
@@ -735,24 +742,17 @@ def cleanup_closed_prs():
             # Can fail if other commits were pushed in between
             info("pushing test record deletion failed", COLOR_WARN)
 
-
-def main():
-    check_bundle_naming_assumptions()
-
-    # Map from reason for not testing to listed of untested PRs
-    untested_prs = {}
-
-    # List of dicts capturing details of pull requests that were tested
-    test_records = []
-
-    # URL for the current GitHub Action workflow run
-    run_url = f"https://github.com/{os.environ.get('GITHUB_REPOSITORY')}/actions/runs/{os.environ.get('GITHUB_RUN_ID')}"
-
-    # Pull requests for which libgraal building or testing failed
-    failed_pull_requests = []
-
+def get_pr_to_test(untested_prs, visited):
+    """
+    Finds an upstream PR that should be tested.
+    """
     prs = gh_api(["--paginate", "/repos/openjdk/jdk/pulls?state=open"])
     for pr in prs:
+        pr_num = pr["number"]
+        if pr_num in visited:
+            continue
+        visited.add(pr_num)
+
         # Ignore pull requests in draft state
         if pr["draft"] is True:
             untested_prs.setdefault("they are in draft state", []).append(pr)
@@ -784,8 +784,34 @@ def main():
             untested_prs.setdefault("they have previously been tested", []).append(pr)
             continue
 
+        return pr
+
+    return None
+
+def main():
+    check_bundle_naming_assumptions()
+
+    # Map from reason for not testing to listed of untested PRs
+    untested_prs = {}
+
+    # List of dicts capturing details of pull requests that were tested
+    test_records = []
+
+    # URL for the current GitHub Action workflow run
+    run_url = f"https://github.com/{os.environ.get('GITHUB_REPOSITORY')}/actions/runs/{os.environ.get('GITHUB_RUN_ID')}"
+
+    # Pull requests for which libgraal building or testing failed
+    failed_pull_requests = []
+
+    visited = set()
+    while True:
+        pr = get_pr_to_test(untested_prs, visited)
+        if not pr:
+            break
+
         test_record = test_pull_request(pr, untested_prs, failed_pull_requests)
         if test_record:
+            test_record_path = get_test_record_path(pr)
             add_test_history(test_record, pr, run_url, test_record_path)
             test_records.append(test_record)
         else:
