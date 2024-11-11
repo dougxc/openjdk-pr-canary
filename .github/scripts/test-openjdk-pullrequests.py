@@ -334,30 +334,13 @@ def add_test_history(test_record, pr, run_url, test_record_path):
 
 def test_pull_request(pr, artifact, failed_pull_requests):
     """
-    Tests `artifact` from `pr`.
+    Tests `artifact` from `pr`. The artifact's contents are expected to be in $PWD/extracted.
 
     :return: a dict with the test results
     """
-    repo = pr["head"]["repo"]["full_name"]
     head_sha = pr["head"]["sha"]
 
     artifact_id = artifact["id"]
-
-    # Download artifact
-    archive = Path(f"jdk_{artifact_id}.zip")
-    with open(archive, 'wb') as fp:
-        gh_api([f"/repos/{repo}/actions/artifacts/{artifact_id}/zip"], stdout=fp)
-
-    # Extract JDK and static-libs bundles
-    with zipfile.ZipFile(archive, 'r') as zf:
-        for zi in zf.infolist():
-            filename = zi.filename
-            if filename.endswith(".tar.gz") and (filename.startswith("jdk-") or filename.startswith("static-libs")):
-                zf.extract(filename)
-                with tarfile.open(filename, "r:gz") as tf:
-                    tf.extractall(path="extracted", filter="fully_trusted")
-                Path(filename).unlink()
-    archive.unlink()
 
     # Print a bright green line to separate output for each tested PR
     info("--------------------------------------------------------------------------------------", "green")
@@ -444,8 +427,9 @@ def test_pull_request(pr, artifact, failed_pull_requests):
     except subprocess.CalledProcessError:
         pass
 
-    # Remove JDK
-    shutil.rmtree(java_home)
+    # Remove extracted artifact contents
+    shutil.rmtree("extracted")
+
     return test_record
 
 def push_test_records(test_records):
@@ -729,7 +713,8 @@ def get_pr_to_test(untested_prs, visited):
     """
     Finds an upstream PR with an existing artifact that should be tested.
 
-    :return: a `(pr, artifact)` tuple to test or `(None, None)`
+    :return: the `(pr, artifact)` tuple to test or `(None, None)`. In the case of the former,
+             the artifact's contents have been extracted to $PWD/extracted.
     """
     prs = gh_api(["--paginate", "/repos/openjdk/jdk/pulls?state=open"])
     for pr in prs:
@@ -781,6 +766,30 @@ def get_pr_to_test(untested_prs, visited):
             artifacts_obj = gh_api(["--paginate", f"/repos/{repo}/actions/runs/{run_id}/artifacts?name={_artifact_to_test}"])
             for artifact in artifacts_obj["artifacts"]:
                 if not artifact["expired"]:
+
+                    # Download artifact
+                    artifact_id = artifact["id"]
+                    archive = Path(f"jdk_{artifact_id}.zip")
+                    with open(archive, 'wb') as fp:
+                        gh_api([f"/repos/{repo}/actions/artifacts/{artifact_id}/zip"], stdout=fp)
+
+                    # Extract JDK and static-libs bundles
+                    try:
+                        with zipfile.ZipFile(archive, 'r') as zf:
+                            if not any((zi.filename.startswith("static-libs") for zi in zf.infolist())):
+                                untested_prs.setdefault("they are missing the static-libs bundle (added by JDK-8337265)", []).append(pr)
+                                continue
+
+                            for zi in zf.infolist():
+                                filename = zi.filename
+                                if filename.endswith(".tar.gz") and (filename.startswith("jdk-") or filename.startswith("static-libs")):
+                                    zf.extract(filename)
+                                    with tarfile.open(filename, "r:gz") as tf:
+                                        tf.extractall(path="extracted", filter="fully_trusted")
+                                    Path(filename).unlink()
+                    finally:
+                        archive.unlink()
+
                     return pr, artifact
 
     return None, None

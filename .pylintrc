@@ -17,4 +17,5 @@ disable=missing-function-docstring,
         subprocess-run-check,
         broad-except,
         too-many-statements,
-        cell-var-from-loop
+        cell-var-from-loop,
+        too-many-branches
