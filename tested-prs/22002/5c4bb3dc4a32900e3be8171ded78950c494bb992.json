@@ -1,0 +1,14 @@
+{
+  "artifact_2170017914": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-5c4bb3dc4a32900e3be8171ded78950c494bb992)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-5c4bb3dc4a32900e3be8171ded78950c494bb992, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-11T08:45:12.409285+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22002",
+  "number": 22002,
+  "title": "8343902: javax/swing/plaf/nimbus/8041642/bug8041642.java fails in ubuntu22.04",
+  "head_sha": "5c4bb3dc4a32900e3be8171ded78950c494bb992",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11774904589"
+}
