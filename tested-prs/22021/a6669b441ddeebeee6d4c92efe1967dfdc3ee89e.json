@@ -1,0 +1,14 @@
+{
+  "artifact_2173015857": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-mgronlun-a6669b441ddeebeee6d4c92efe1967dfdc3ee89e)\nOpenJDK 64-Bit Server VM (build 24-internal-mgronlun-a6669b441ddeebeee6d4c92efe1967dfdc3ee89e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-11T20:38:16.425903+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22021",
+  "number": 22021,
+  "title": "8338565: Test crashed: assert(is_path_empty()) failed: invariant",
+  "head_sha": "a6669b441ddeebeee6d4c92efe1967dfdc3ee89e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11785690977"
+}
