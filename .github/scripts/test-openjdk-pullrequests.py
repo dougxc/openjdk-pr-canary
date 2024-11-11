@@ -332,138 +332,121 @@ def add_test_history(test_record, pr, run_url, test_record_path):
         post_failure_to_slack(test_record)
 
 
-def test_pull_request(pr, untested_prs, failed_pull_requests):
+def test_pull_request(pr, artifact, failed_pull_requests):
     """
-    Tests a single artifact for `pr` if available.
+    Tests `artifact` from `pr`.
 
-    :return: a dict with the test details or None if no artifact to test was found
+    :return: a dict with the test results
     """
     repo = pr["head"]["repo"]["full_name"]
     head_sha = pr["head"]["sha"]
 
-    # Get workflow runs for head commit in pull request
-    runs = gh_api([f"/repos/{repo}/actions/runs?head_sha={head_sha}"])
+    artifact_id = artifact["id"]
 
-    # Search runs for non-expired artifact
-    for run in runs["workflow_runs"]:
-        run_id = run["id"]
-        artifacts_obj = gh_api(["--paginate", f"/repos/{repo}/actions/runs/{run_id}/artifacts?name={_artifact_to_test}"])
-        for artifact in artifacts_obj["artifacts"]:
-            if artifact["expired"]:
-                continue
+    # Download artifact
+    archive = Path(f"jdk_{artifact_id}.zip")
+    with open(archive, 'wb') as fp:
+        gh_api([f"/repos/{repo}/actions/artifacts/{artifact_id}/zip"], stdout=fp)
 
-            artifact_id = artifact["id"]
+    # Extract JDK and static-libs bundles
+    with zipfile.ZipFile(archive, 'r') as zf:
+        for zi in zf.infolist():
+            filename = zi.filename
+            if filename.endswith(".tar.gz") and (filename.startswith("jdk-") or filename.startswith("static-libs")):
+                zf.extract(filename)
+                with tarfile.open(filename, "r:gz") as tf:
+                    tf.extractall(path="extracted", filter="fully_trusted")
+                Path(filename).unlink()
+    archive.unlink()
 
-            # Download artifact
-            archive = Path(f"jdk_{artifact_id}.zip")
-            with open(archive, 'wb') as fp:
-                gh_api([f"/repos/{repo}/actions/artifacts/{artifact_id}/zip"], stdout=fp)
+    # Print a bright green line to separate output for each tested PR
+    info("--------------------------------------------------------------------------------------", "green")
+    info([
+        f"processing \"{pr['title']}\"",
+        f"           {pr['html_url']} ({head_sha})"
+    ])
 
-            # Extract JDK and static-libs bundles
-            with zipfile.ZipFile(archive, 'r') as zf:
-                if not any((zi.filename.startswith("static-libs") for zi in zf.infolist())):
-                    untested_prs.setdefault("they are missing the static-libs bundle (added by JDK-8337265)", []).append(pr)
-                    continue
+    # Find java executable
+    java_exes = glob.glob("extracted/jdk*/bin/java")
+    assert len(java_exes) == 1, java_exes
 
-                for zi in zf.infolist():
-                    filename = zi.filename
-                    if filename.endswith(".tar.gz") and (filename.startswith("jdk-") or filename.startswith("static-libs")):
-                        zf.extract(filename)
-                        with tarfile.open(filename, "r:gz") as tf:
-                            tf.extractall(path="extracted", filter="fully_trusted")
-                        Path(filename).unlink()
-            archive.unlink()
+    java_exe = Path(java_exes[0])
+    java_home = java_exe.parent.parent
 
-            # Print a bright green line to separate output for each tested PR
-            info("--------------------------------------------------------------------------------------", "green")
-            info([
-                f"processing \"{pr['title']}\"",
-                f"           {pr['html_url']} ({head_sha})"
-            ])
+    # Artifact test record
+    artifact_test_record = {}
+    test_record = {
+        f"artifact_{artifact_id}": artifact_test_record
+    }
 
-            # Find java executable
-            java_exes = glob.glob("extracted/jdk*/bin/java")
-            assert len(java_exes) == 1, java_exes
+    artifact_test_record["java_home"] = str(java_home)
+    artifact_test_record["java_version_output"] = subprocess.run([str(java_exe), "--version"], capture_output=True, text=True).stdout.strip()
 
-            java_exe = Path(java_exes[0])
-            java_home = java_exe.parent.parent
+    def run_step(name, cmd, **kwargs):
+        assert "capture_output" not in kwargs
+        assert "stdout" not in kwargs
+        assert "stderr" not in kwargs
 
-            # Artifact test record
-            artifact_test_record = {}
-            test_record = {
-                f"artifact_{artifact_id}": artifact_test_record
-            }
+        # Convert all command line args to string
+        cmd = [str(e) for e in cmd]
 
-            artifact_test_record["java_home"] = str(java_home)
-            artifact_test_record["java_version_output"] = subprocess.run([str(java_exe), "--version"], capture_output=True, text=True).stdout.strip()
-
-            def run_step(name, cmd, **kwargs):
-                assert "capture_output" not in kwargs
-                assert "stdout" not in kwargs
-                assert "stderr" not in kwargs
-
-                # Convert all command line args to string
-                cmd = [str(e) for e in cmd]
-
-                log_path = Path("results").joinpath("logs", str(pr["number"]), head_sha, f"{name}.log")
-                log_path.parent.mkdir(parents=True, exist_ok=True)
-                info(f"begin: {name}")
-                with log_path.open("w") as fp:
-                    kwargs["stdout"] = fp
-                    kwargs["stderr"] = subprocess.STDOUT
-                    kwargs["check"] = True
-                    try:
-                        subprocess.run(cmd, **kwargs)
-                    except subprocess.CalledProcessError as e:
-                        quoted_cmd = ' '.join(map(shlex.quote, cmd))
-                        info(f"non-zero exit code {e.returncode} for step '{name}': " + quoted_cmd, COLOR_ERROR)
-                        artifact_test_record["failed_step"] = name
-                        test_record["status"] = "failed"
-                        pr["failed_step_log"] = str(log_path)
-                        failed_pull_requests.append(pr)
-                        pr["__test_record"] = test_record
-                        raise e
-                    finally:
-                        info(f"  end: {name}")
-
+        log_path = Path("results").joinpath("logs", str(pr["number"]), head_sha, f"{name}.log")
+        log_path.parent.mkdir(parents=True, exist_ok=True)
+        info(f"begin: {name}")
+        with log_path.open("w") as fp:
+            kwargs["stdout"] = fp
+            kwargs["stderr"] = subprocess.STDOUT
+            kwargs["check"] = True
             try:
-                if not Path("graal").exists():
-                    # Clone graal
-                    run_step("clone_graal", ["gh", "repo", "clone", "oracle/graal", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
+                subprocess.run(cmd, **kwargs)
+            except subprocess.CalledProcessError as e:
+                quoted_cmd = ' '.join(map(shlex.quote, cmd))
+                info(f"non-zero exit code {e.returncode} for step '{name}': " + quoted_cmd, COLOR_ERROR)
+                artifact_test_record["failed_step"] = name
+                test_record["status"] = "failed"
+                pr["failed_step_log"] = str(log_path)
+                failed_pull_requests.append(pr)
+                pr["__test_record"] = test_record
+                raise e
+            finally:
+                info(f"  end: {name}")
 
-                    # Clone mx
-                    run_step("clone_mx", ["gh", "repo", "clone", "graalvm/mx", "--", "--quiet", "--branch", "galahad"])
-                else:
-                    # Clean
-                    run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
+    try:
+        if not Path("graal").exists():
+            # Clone graal
+            run_step("clone_graal", ["gh", "repo", "clone", "oracle/graal", "--", "--quiet", "--branch", "galahad", "--depth", "1"])
 
-                if not update_to_match_graal_pr(pr, test_record) and not update_to_match_pr_merge_base(pr):
-                    test_record["status"] = "failed"
-                    failed_pull_requests.append(pr)
-                    pr["__test_record"] = test_record
-                else:
-                    # Build libgraal
-                    run_step("build", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"])
+            # Clone mx
+            run_step("clone_mx", ["gh", "repo", "clone", "graalvm/mx", "--", "--quiet", "--branch", "galahad"])
+        else:
+            # Clean
+            run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
 
-                    # Test libgraal
-                    tasks = [
-                        "LibGraal Compiler:Basic",
-                        "LibGraal Compiler:FatalErrorHandling",
-                        "LibGraal Compiler:SystemicFailureDetection",
-                        "LibGraal Compiler:CTW",
-                        "LibGraal Compiler:DaCapo"
-                    ]
-                    run_step("test", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)])
+        if not update_to_match_graal_pr(pr, test_record) and not update_to_match_pr_merge_base(pr):
+            test_record["status"] = "failed"
+            failed_pull_requests.append(pr)
+            pr["__test_record"] = test_record
+        else:
+            # Build libgraal
+            run_step("build", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"])
 
-                    test_record["status"] = "passed"
-            except subprocess.CalledProcessError:
-                pass
+            # Test libgraal
+            tasks = [
+                "LibGraal Compiler:Basic",
+                "LibGraal Compiler:FatalErrorHandling",
+                "LibGraal Compiler:SystemicFailureDetection",
+                "LibGraal Compiler:CTW",
+                "LibGraal Compiler:DaCapo"
+            ]
+            run_step("test", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)])
 
-            # Remove JDK
-            shutil.rmtree(java_home)
-            return test_record
+            test_record["status"] = "passed"
+    except subprocess.CalledProcessError:
+        pass
 
-    return None
+    # Remove JDK
+    shutil.rmtree(java_home)
+    return test_record
 
 def push_test_records(test_records):
     """
@@ -744,7 +727,9 @@ def cleanup_closed_prs():
 
 def get_pr_to_test(untested_prs, visited):
     """
-    Finds an upstream PR that should be tested.
+    Finds an upstream PR with an existing artifact that should be tested.
+
+    :return: a `(pr, artifact)` tuple to test or `(None, None)`
     """
     prs = gh_api(["--paginate", "/repos/openjdk/jdk/pulls?state=open"])
     for pr in prs:
@@ -784,9 +769,21 @@ def get_pr_to_test(untested_prs, visited):
             untested_prs.setdefault("they have previously been tested", []).append(pr)
             continue
 
-        return pr
+        repo = pr["head"]["repo"]["full_name"]
+        head_sha = pr["head"]["sha"]
 
-    return None
+        # Get workflow runs for head commit in pull request
+        runs = gh_api([f"/repos/{repo}/actions/runs?head_sha={head_sha}"])
+
+        # Search runs for non-expired artifact
+        for run in runs["workflow_runs"]:
+            run_id = run["id"]
+            artifacts_obj = gh_api(["--paginate", f"/repos/{repo}/actions/runs/{run_id}/artifacts?name={_artifact_to_test}"])
+            for artifact in artifacts_obj["artifacts"]:
+                if not artifact["expired"]:
+                    return pr, artifact
+
+    return None, None
 
 def main():
     check_bundle_naming_assumptions()
@@ -805,11 +802,11 @@ def main():
 
     visited = set()
     while True:
-        pr = get_pr_to_test(untested_prs, visited)
+        pr, artifact = get_pr_to_test(untested_prs, visited)
         if not pr:
             break
 
-        test_record = test_pull_request(pr, untested_prs, failed_pull_requests)
+        test_record = test_pull_request(pr, artifact, failed_pull_requests)
         if test_record:
             test_record_path = get_test_record_path(pr)
             add_test_history(test_record, pr, run_url, test_record_path)
