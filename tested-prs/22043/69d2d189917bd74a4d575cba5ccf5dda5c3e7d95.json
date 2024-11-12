@@ -1,0 +1,15 @@
+{
+  "artifact_2177368280": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-69d2d189917bd74a4d575cba5ccf5dda5c3e7d95)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-69d2d189917bd74a4d575cba5ccf5dda5c3e7d95, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-11-12T16:37:43.479965+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22043",
+  "number": 22043,
+  "title": "8343704: Bad GC parallelism with processing Cleaner queues ",
+  "head_sha": "69d2d189917bd74a4d575cba5ccf5dda5c3e7d95",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11801605276"
+}
