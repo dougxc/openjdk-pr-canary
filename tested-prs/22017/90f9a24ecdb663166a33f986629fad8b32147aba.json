@@ -1,0 +1,14 @@
+{
+  "artifact_2171922897": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-robcasloz-90f9a24ecdb663166a33f986629fad8b32147aba)\nOpenJDK 64-Bit Server VM (build 24-internal-robcasloz-90f9a24ecdb663166a33f986629fad8b32147aba, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-12T07:37:43.437081+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22017",
+  "number": 22017,
+  "title": "8343941: IGV: dump graph at different register allocation steps",
+  "head_sha": "90f9a24ecdb663166a33f986629fad8b32147aba",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11792591164"
+}
