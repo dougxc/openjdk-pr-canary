@@ -1,0 +1,17 @@
+{
+  "artifact_2178480730": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dfuch-7c3ad2c2d1718062653782f6e132725ff201deb8)\nOpenJDK 64-Bit Server VM (build 24-internal-dfuch-7c3ad2c2d1718062653782f6e132725ff201deb8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "318b1811c6f2ceaddd60e107636c40f39e4a16bd.json",
+    "9d21e58fe9ea691e04b4b4716b2137a30aa59e7c.json"
+  ],
+  "datetime": "2024-11-12T20:55:33.535104+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21991",
+  "number": 21991,
+  "title": "8343855: HTTP/2 ConnectionWindowUpdateSender may miss some unprocessed DataFrames from closed streams",
+  "head_sha": "7c3ad2c2d1718062653782f6e132725ff201deb8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11805163186"
+}
