@@ -1,0 +1,21 @@
+{
+  "artifact_2176456019": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-lahodaj-e9e9ad4bdd0a11244cb1ef84fdeea036e94718c7)\nOpenJDK 64-Bit Server VM (build 24-internal-lahodaj-e9e9ad4bdd0a11244cb1ef84fdeea036e94718c7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0a6c17f41e323685a12175227725ed19dc91e5c7.json",
+    "1791840b04c04e20ae0202fd4c9d795e0c4c358d.json",
+    "5d82312f794359aeb34d76a0ce036facf353a5ef.json",
+    "72939030be7d602a3ba39c7dad1cd8b56ef017af.json",
+    "b4d7b4935ec3dd0af52dba1245ca0095bed70870.json",
+    "d1d6e4abaa566bf71f5d7bdff8ec810728200748.json"
+  ],
+  "datetime": "2024-11-12T14:37:29.184009+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21411",
+  "number": 21411,
+  "title": "8340133: Add concise usage message to the java executable",
+  "head_sha": "e9e9ad4bdd0a11244cb1ef84fdeea036e94718c7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11798322072"
+}
