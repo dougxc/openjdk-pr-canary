@@ -1,0 +1,15 @@
+{
+  "artifact_2178235468": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-AlanBateman-636ebd19e15f1dce408f71588741262e4171c3ad)\nOpenJDK 64-Bit Server VM (build 24-internal-AlanBateman-636ebd19e15f1dce408f71588741262e4171c3ad, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-11-12T19:25:39.921592+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22035",
+  "number": 22035,
+  "title": "8343981: Remove usage of security manager from Thread and related classes",
+  "head_sha": "636ebd19e15f1dce408f71588741262e4171c3ad",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11804232415"
+}
