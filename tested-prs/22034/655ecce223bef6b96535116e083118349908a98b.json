@@ -1,0 +1,14 @@
+{
+  "artifact_2175669271": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TobiHartmann-655ecce223bef6b96535116e083118349908a98b)\nOpenJDK 64-Bit Server VM (build 24-internal-TobiHartmann-655ecce223bef6b96535116e083118349908a98b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-12T11:34:20.196171+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22034",
+  "number": 22034,
+  "title": "8344018: Remove unlimited memory setting from TestScalarReplacementMaxLiveNodes",
+  "head_sha": "655ecce223bef6b96535116e083118349908a98b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11796250942"
+}
