@@ -1,0 +1,18 @@
+{
+  "artifact_2178682510": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-turbanoff-1fa8dcde257c671eaae29f667cef3d798cd0f8f8)\nOpenJDK 64-Bit Server VM (build 24-internal-turbanoff-1fa8dcde257c671eaae29f667cef3d798cd0f8f8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "39c4807a5baba33d7f200da4ee2295268f14eede.json",
+    "a0860021bd3340168f9b35e68aee7c761a935d31.json",
+    "b653278f54f09258ed12f3ed7416be4e9de6c609.json"
+  ],
+  "datetime": "2024-11-12T21:18:43.018407+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21785",
+  "number": 21785,
+  "title": "8343418: Unnecessary Hashtable usage in CSS.htmlAttrToCssAttrMap",
+  "head_sha": "1fa8dcde257c671eaae29f667cef3d798cd0f8f8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11805163186"
+}
