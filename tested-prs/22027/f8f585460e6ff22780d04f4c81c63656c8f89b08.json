@@ -1,0 +1,17 @@
+{
+  "artifact_2175924406": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-wenshao-f8f585460e6ff22780d04f4c81c63656c8f89b08)\nOpenJDK 64-Bit Server VM (build 24-internal-wenshao-f8f585460e6ff22780d04f4c81c63656c8f89b08, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4e0076994a28da0c2337ffbb16c94863838eac06.json",
+    "c719c7d1fba32f60b0823d879c444e99874cfa3c.json"
+  ],
+  "datetime": "2024-11-12T13:01:23.521195+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22027",
+  "number": 22027,
+  "title": "8343984: Fix Unsafe address overflow",
+  "head_sha": "f8f585460e6ff22780d04f4c81c63656c8f89b08",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11797616841"
+}
