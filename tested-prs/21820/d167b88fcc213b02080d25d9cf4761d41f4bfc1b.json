@@ -1,0 +1,17 @@
+{
+  "artifact_2177471702": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kabutz-d167b88fcc213b02080d25d9cf4761d41f4bfc1b)\nOpenJDK 64-Bit Server VM (build 24-internal-kabutz-d167b88fcc213b02080d25d9cf4761d41f4bfc1b, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "28658230582c4f63390a610a90cc874e42b47626.json"
+  ],
+  "datetime": "2024-11-12T17:17:47.336355+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21820",
+  "number": 21820,
+  "title": "8343426: ConcurrentSkipListMap.spliterator() can no longer split the stream",
+  "head_sha": "d167b88fcc213b02080d25d9cf4761d41f4bfc1b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11801605276"
+}
