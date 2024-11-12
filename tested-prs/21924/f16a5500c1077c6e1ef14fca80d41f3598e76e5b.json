@@ -1,0 +1,17 @@
+{
+  "artifact_2174553200": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-Renjithkannath-f16a5500c1077c6e1ef14fca80d41f3598e76e5b)\nOpenJDK 64-Bit Server VM (build 24-internal-Renjithkannath-f16a5500c1077c6e1ef14fca80d41f3598e76e5b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6740d7c74fa28bcc259ad1a79d9b07dd0a75cb6b.json",
+    "7ac1e1ebdebee5fd365f3bddee1ab2ad79b80518.json"
+  ],
+  "datetime": "2024-11-12T06:46:00.660412+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21924",
+  "number": 21924,
+  "title": "8342541: Exclude List/KeyEventsTest/KeyEventsTest.java from running on macOS",
+  "head_sha": "f16a5500c1077c6e1ef14fca80d41f3598e76e5b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11791997372"
+}
