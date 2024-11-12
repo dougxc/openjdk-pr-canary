@@ -1,0 +1,14 @@
+{
+  "artifact_2175390768": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tstuefe-7a66398dd867c88c00a0f4293ca53d04a2998312)\nOpenJDK 64-Bit Server VM (build 24-internal-tstuefe-7a66398dd867c88c00a0f4293ca53d04a2998312, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-12T14:11:47.025140+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22029",
+  "number": 22029,
+  "title": "8344014: Simplify TracePhase constructor",
+  "head_sha": "7a66398dd867c88c00a0f4293ca53d04a2998312",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11798322072"
+}
