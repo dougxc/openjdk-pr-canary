@@ -1,0 +1,16 @@
+{
+  "artifact_2179585254": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-ef3d0a4572bcdf5d5e5913c13aa0d09601da715a)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-ef3d0a4572bcdf5d5e5913c13aa0d09601da715a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5442e7ce0b09631c1ecf6d8c29f93c9bd8070586.json"
+  ],
+  "datetime": "2024-11-13T02:51:29.146126+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21989",
+  "number": 21989,
+  "title": "8343785: (fs) Remove syscalls that set file times with microsecond precision",
+  "head_sha": "ef3d0a4572bcdf5d5e5913c13aa0d09601da715a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11809106745"
+}
