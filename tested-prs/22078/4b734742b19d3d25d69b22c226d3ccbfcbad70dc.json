@@ -1,0 +1,14 @@
+{
+  "artifact_2183297757": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-rkennke-4b734742b19d3d25d69b22c226d3ccbfcbad70dc)\nOpenJDK 64-Bit Server VM (build 24-internal-rkennke-4b734742b19d3d25d69b22c226d3ccbfcbad70dc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-13T19:42:33.542312+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22078",
+  "number": 22078,
+  "title": "8340453: C2: Improve encoding of LoadNKlass for compact headers",
+  "head_sha": "4b734742b19d3d25d69b22c226d3ccbfcbad70dc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11823981637"
+}
