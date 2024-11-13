@@ -1,0 +1,15 @@
+{
+  "artifact_2178252300": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-coleenp-c7b5fd1355c8c82434e8721a615598841f0cd302)\nOpenJDK 64-Bit Server VM (build 24-internal-coleenp-c7b5fd1355c8c82434e8721a615598841f0cd302, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-11-13T11:49:05.448935+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22064",
+  "number": 22064,
+  "title": "8341916: Remove ProtectionDomain related hotspot code and tests",
+  "head_sha": "c7b5fd1355c8c82434e8721a615598841f0cd302",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11816254653"
+}
