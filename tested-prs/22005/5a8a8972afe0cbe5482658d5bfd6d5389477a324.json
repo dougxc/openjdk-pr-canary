@@ -1,0 +1,17 @@
+{
+  "artifact_2181315722": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-5a8a8972afe0cbe5482658d5bfd6d5389477a324)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-5a8a8972afe0cbe5482658d5bfd6d5389477a324, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6f4d3eec477dc9f34cc0e3d66ef87aa63fdcbd2e.json",
+    "8de565c2ddd9834eac1f47798e29066d314df2fd.json"
+  ],
+  "datetime": "2024-11-13T11:47:08.528696+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22005",
+  "number": 22005,
+  "title": "8343923: GHA: Switch to Xcode 15 on MacOS AArch64 runners",
+  "head_sha": "5a8a8972afe0cbe5482658d5bfd6d5389477a324",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11816254653"
+}
