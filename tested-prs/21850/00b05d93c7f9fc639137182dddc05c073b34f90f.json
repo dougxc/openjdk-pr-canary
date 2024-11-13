@@ -1,0 +1,16 @@
+{
+  "artifact_2183111475": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-archiecobbs-00b05d93c7f9fc639137182dddc05c073b34f90f)\nOpenJDK 64-Bit Server VM (build 24-internal-archiecobbs-00b05d93c7f9fc639137182dddc05c073b34f90f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c6723886f96445b54f78ad4b50299713bd7c1e3f.json"
+  ],
+  "datetime": "2024-11-13T17:09:57.771127+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21850",
+  "number": 21850,
+  "title": "8343476: Remove unnecessary @SuppressWarnings annotations (client)",
+  "head_sha": "00b05d93c7f9fc639137182dddc05c073b34f90f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11821616027"
+}
