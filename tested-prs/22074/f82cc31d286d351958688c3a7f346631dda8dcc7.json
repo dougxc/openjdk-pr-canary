@@ -1,0 +1,17 @@
+{
+  "artifact_2184218940": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-SoniaZaldana-f82cc31d286d351958688c3a7f346631dda8dcc7)\nOpenJDK 64-Bit Server VM (build 24-internal-SoniaZaldana-f82cc31d286d351958688c3a7f346631dda8dcc7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0dd2706841f385609e5713451f62490920659de9.json",
+    "229441a6781fb5f6f260cae63f37a3300ca53886.json"
+  ],
+  "datetime": "2024-11-13T21:23:13.536092+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22074",
+  "number": 22074,
+  "title": "8343700: ceil_log2 should not loop endlessly",
+  "head_sha": "f82cc31d286d351958688c3a7f346631dda8dcc7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11825269708"
+}
