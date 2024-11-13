@@ -1,0 +1,17 @@
+{
+  "artifact_2182748902": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RogerRiggs-23f149e2cf9ba9fa7021fa55e700dd30cfa67ce6)\nOpenJDK 64-Bit Server VM (build 24-internal-RogerRiggs-23f149e2cf9ba9fa7021fa55e700dd30cfa67ce6, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "96a8d26c1641c779018f6d916286009530c49a3c.json"
+  ],
+  "datetime": "2024-11-13T15:45:04.071270+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22042",
+  "number": 22042,
+  "title": "8344039: Remove security manager dependency in java.time",
+  "head_sha": "23f149e2cf9ba9fa7021fa55e700dd30cfa67ce6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11820450914"
+}
