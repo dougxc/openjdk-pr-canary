@@ -1,0 +1,14 @@
+{
+  "artifact_2180364138": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-d0e3efa800c6cd3bd25494ac58c2f616a86f0778)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-d0e3efa800c6cd3bd25494ac58c2f616a86f0778, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-13T07:37:40.339047+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22059",
+  "number": 22059,
+  "title": "8343884: [s390x]  Disallow OptoScheduling",
+  "head_sha": "d0e3efa800c6cd3bd25494ac58c2f616a86f0778",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11812559328"
+}
