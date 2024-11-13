@@ -1,0 +1,15 @@
+{
+  "artifact_2184046787": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-calvinccheung-c617041fa29f2e74031b15022cd8f00d5b5aeec5)\nOpenJDK 64-Bit Server VM (build 24-internal-calvinccheung-c617041fa29f2e74031b15022cd8f00d5b5aeec5, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-11-13T20:48:42.235282+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22085",
+  "number": 22085,
+  "title": "8343889: Test runtime/cds/appcds/redefineClass/RedefineBasicTest.java failed",
+  "head_sha": "c617041fa29f2e74031b15022cd8f00d5b5aeec5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11825269708"
+}
