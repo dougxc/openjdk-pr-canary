@@ -1,0 +1,16 @@
+{
+  "artifact_2181836948": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-chhagedorn-ce759f6b3bb1aeb78ee4086731b2dec3ff15e035)\nOpenJDK 64-Bit Server VM (build 24-internal-chhagedorn-ce759f6b3bb1aeb78ee4086731b2dec3ff15e035, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "537251f1a5780893661b62f5c2d37dc0fd7cf402.json"
+  ],
+  "datetime": "2024-11-13T13:26:45.585863+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22040",
+  "number": 22040,
+  "title": "8342047: Create Template Assertion Predicates with Halt nodes only instead of uncommon traps",
+  "head_sha": "ce759f6b3bb1aeb78ee4086731b2dec3ff15e035",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11817611846"
+}
