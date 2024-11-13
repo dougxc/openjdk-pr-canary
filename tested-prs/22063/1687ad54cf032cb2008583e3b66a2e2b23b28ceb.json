@@ -1,0 +1,21 @@
+{
+  "artifact_2183981392": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-AlanBateman-1687ad54cf032cb2008583e3b66a2e2b23b28ceb)\nOpenJDK 64-Bit Server VM (build 24-internal-AlanBateman-1687ad54cf032cb2008583e3b66a2e2b23b28ceb, mixed mode, sharing)"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/10086",
+    "number": "10086",
+    "revision": "4dbf5c3174f1e2421a6992f04ad4a637f732873a"
+  },
+  "status": "passed",
+  "history": [
+    "b46c4fea5c89892b105f8dabebe97b289d3cb5f5.json"
+  ],
+  "datetime": "2024-11-13T20:03:41.162361+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22063",
+  "number": 22063,
+  "title": "8344011: Remove usage of security manager from Class and reflective APIs",
+  "head_sha": "1687ad54cf032cb2008583e3b66a2e2b23b28ceb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11823981637"
+}
