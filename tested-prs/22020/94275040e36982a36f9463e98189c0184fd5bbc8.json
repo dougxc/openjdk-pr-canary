@@ -1,0 +1,17 @@
+{
+  "artifact_2188279802": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-rkennke-94275040e36982a36f9463e98189c0184fd5bbc8)\nOpenJDK 64-Bit Server VM (build 24-internal-rkennke-94275040e36982a36f9463e98189c0184fd5bbc8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "919a32ccbb741a356ac4924e0c9df98e1f49aacc.json",
+    "9e770b8b805f66d39873b73258170ec41f93292f.json"
+  ],
+  "datetime": "2024-11-14T16:00:22.970734+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22020",
+  "number": 22020,
+  "title": "8342826: Improve performance of oopDesc::klass() after JDK-8305895",
+  "head_sha": "94275040e36982a36f9463e98189c0184fd5bbc8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11839258498"
+}
