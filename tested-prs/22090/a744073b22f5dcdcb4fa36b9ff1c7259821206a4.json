@@ -1,0 +1,15 @@
+{
+  "artifact_2185042384": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-a744073b22f5dcdcb4fa36b9ff1c7259821206a4)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-a744073b22f5dcdcb4fa36b9ff1c7259821206a4, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-11-14T01:55:24.358575+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22090",
+  "number": 22090,
+  "title": "8344063: Remove doPrivileged calls from swing classes in the java.desktop module",
+  "head_sha": "a744073b22f5dcdcb4fa36b9ff1c7259821206a4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11829237070"
+}
