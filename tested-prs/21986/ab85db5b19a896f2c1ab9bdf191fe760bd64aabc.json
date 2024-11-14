@@ -1,0 +1,16 @@
+{
+  "artifact_2185427288": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-nizarbenalla-ab85db5b19a896f2c1ab9bdf191fe760bd64aabc)\nOpenJDK 64-Bit Server VM (build 24-internal-nizarbenalla-ab85db5b19a896f2c1ab9bdf191fe760bd64aabc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "496ca99146feb08935a196641736092fb5cdef15.json"
+  ],
+  "datetime": "2024-11-14T02:33:05.370883+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21986",
+  "number": 21986,
+  "title": "8343775: Add since checker tests to the security area modules",
+  "head_sha": "ab85db5b19a896f2c1ab9bdf191fe760bd64aabc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11829237070"
+}
