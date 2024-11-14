@@ -1,0 +1,18 @@
+{
+  "artifact_2188671909": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RogerRiggs-b8e8d42030c4befafa540b0535c9d6887d910d2a)\nOpenJDK 64-Bit Server VM (build 24-internal-RogerRiggs-b8e8d42030c4befafa540b0535c9d6887d910d2a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "054b410f8a344546b13527b7a14e50d7c7b8fdb5.json",
+    "3f850839989b10e27fdb833665018371b8e4d663.json",
+    "b45a76bf2dc25d8b6f037adbea99346841b1e4e5.json"
+  ],
+  "datetime": "2024-11-14T16:57:32.519621+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22041",
+  "number": 22041,
+  "title": "8344034: Remove security manager dependency in Serialization",
+  "head_sha": "b8e8d42030c4befafa540b0535c9d6887d910d2a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11841494794"
+}
