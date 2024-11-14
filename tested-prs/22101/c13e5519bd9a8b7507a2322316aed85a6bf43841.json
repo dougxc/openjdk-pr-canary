@@ -1,0 +1,17 @@
+{
+  "artifact_2189026687": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eirbjo-c13e5519bd9a8b7507a2322316aed85a6bf43841)\nOpenJDK 64-Bit Server VM (build 24-internal-eirbjo-c13e5519bd9a8b7507a2322316aed85a6bf43841, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "37104a91498d68c5289a2bec7fee097712bb7345.json",
+    "d8936a5c09307aee4198552a97710ca770f8c84d.json"
+  ],
+  "datetime": "2024-11-14T19:07:12.545584+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22101",
+  "number": 22101,
+  "title": "8344183: (zipfs) SecurityManager cleanup in the ZipFS area",
+  "head_sha": "c13e5519bd9a8b7507a2322316aed85a6bf43841",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11843390045"
+}
