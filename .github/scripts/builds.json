@@ -79391,8 +79391,8 @@
 			"jdk-24-2920"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED",
-			"UNUSABLE"
+			"UNUSABLE",
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -79418,8 +79418,8 @@
 			"jdk-24-2921"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED",
-			"UNUSABLE"
+			"UNUSABLE",
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -79445,8 +79445,8 @@
 			"jdk-24-2922"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED",
-			"UNUSABLE"
+			"UNUSABLE",
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -79472,8 +79472,8 @@
 			"jdk-24-2923"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED",
-			"UNUSABLE"
+			"UNUSABLE",
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -79501,8 +79501,8 @@
 			"jdk-24-2924"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED",
-			"UNUSABLE"
+			"UNUSABLE",
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -79528,8 +79528,8 @@
 			"jdk-24-2925"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED",
-			"UNUSABLE"
+			"UNUSABLE",
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
