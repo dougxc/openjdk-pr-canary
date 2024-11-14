@@ -1,0 +1,17 @@
+{
+  "artifact_2185267958": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-vpaprotsk-bf3405304598d466043316f97d4f12757a399fd4)\nOpenJDK 64-Bit Server VM (build 24-internal-vpaprotsk-bf3405304598d466043316f97d4f12757a399fd4, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "eef1889e38f0177f654a72654b4d3ca42445e560.json"
+  ],
+  "datetime": "2024-11-14T02:09:21.948519+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22086",
+  "number": 22086,
+  "title": "8344144: AES/CBC slow at big payloads",
+  "head_sha": "bf3405304598d466043316f97d4f12757a399fd4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11829237070"
+}
