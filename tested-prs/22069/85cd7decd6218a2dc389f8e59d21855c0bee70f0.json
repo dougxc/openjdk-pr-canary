@@ -1,0 +1,17 @@
+{
+  "artifact_2188088351": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-MBaesken-85cd7decd6218a2dc389f8e59d21855c0bee70f0)\nOpenJDK 64-Bit Server VM (build 24-internal-MBaesken-85cd7decd6218a2dc389f8e59d21855c0bee70f0, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "1f42d9176112a032d79bd5cace0af0c2686aadd3.json"
+  ],
+  "datetime": "2024-11-14T15:47:49.709324+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22069",
+  "number": 22069,
+  "title": "8343698: Linux x86_64 lto build gives a lot of warnings and fails lto-wrapper: fatal error: make returned 2 exit status",
+  "head_sha": "85cd7decd6218a2dc389f8e59d21855c0bee70f0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11839258498"
+}
