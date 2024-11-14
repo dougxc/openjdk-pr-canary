@@ -278,6 +278,9 @@ def update_to_match_pr_merge_base(pr):
     # Load builds
     builds = json.loads(Path(__file__).parent.joinpath("builds.json").read_text())
 
+    # Ignore builds in which LibGraalPresent failed
+    builds = [b for b in builds if "LIBGRAAL_BUILD_FAILED" not in b.get("tags", [])]
+
     # Sort builds by build ids, oldest to newest.
     # Use the revision from the newest build matching `merge_base_commit`
     newest = None
