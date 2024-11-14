@@ -1,0 +1,15 @@
+{
+  "artifact_2186621981": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-AlanBateman-dd2db35b5bcb20f37fb50b043718ae18a4c04e17)\nOpenJDK 64-Bit Server VM (build 24-internal-AlanBateman-dd2db35b5bcb20f37fb50b043718ae18a4c04e17, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-11-14T10:39:35.037138+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22097",
+  "number": 22097,
+  "title": "8343982: Remove usage of security manager from ClassLoader and related classes",
+  "head_sha": "dd2db35b5bcb20f37fb50b043718ae18a4c04e17",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11835426826"
+}
