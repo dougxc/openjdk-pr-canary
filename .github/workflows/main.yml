@@ -61,8 +61,8 @@ jobs:
       run: |
         if [ -f failure_logs ]; then
           for name in $(<failure_logs); do
-            echo "::group::${name} (last 100 lines)"
-            tail -100 ${name}
+            echo "::group::${name} (last 200 lines)"
+            tail -200 ${name}
             echo "::endgroup::"
           done
         else
