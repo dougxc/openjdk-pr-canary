@@ -1,0 +1,16 @@
+{
+  "artifact_2188025160": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-Hamlin-Li-d1546433a81e60c8e92052bdd545a1f678fc2f51)\nOpenJDK 64-Bit Server VM (build 24-internal-Hamlin-Li-d1546433a81e60c8e92052bdd545a1f678fc2f51, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8cd4e1e917475adfa5d591241454e96139ea1996.json"
+  ],
+  "datetime": "2024-11-14T15:39:37.967784+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22102",
+  "number": 22102,
+  "title": "8334474: RISC-V: verify perf of ExpandBits/CompressBits (rvv)",
+  "head_sha": "d1546433a81e60c8e92052bdd545a1f678fc2f51",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11839258498"
+}
