@@ -1,0 +1,14 @@
+{
+  "artifact_2189620705": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-coleenp-667232c77846fa08ff15d57713c43aba5427fbc7)\nOpenJDK 64-Bit Server VM (build 24-internal-coleenp-667232c77846fa08ff15d57713c43aba5427fbc7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-14T19:53:09.902992+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22116",
+  "number": 22116,
+  "title": "8330606: Redefinition doesn't but should verify the new klass",
+  "head_sha": "667232c77846fa08ff15d57713c43aba5427fbc7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11844071799"
+}
