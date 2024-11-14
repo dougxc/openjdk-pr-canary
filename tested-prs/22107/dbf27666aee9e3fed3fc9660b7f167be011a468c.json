@@ -1,0 +1,14 @@
+{
+  "artifact_2188645086": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-asotona-dbf27666aee9e3fed3fc9660b7f167be011a468c)\nOpenJDK 64-Bit Server VM (build 24-internal-asotona-dbf27666aee9e3fed3fc9660b7f167be011a468c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-14T16:46:20.383994+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22107",
+  "number": 22107,
+  "title": "8343881: java.lang.classfile.Attribute  attributeName() method should return Utf8Entry",
+  "head_sha": "dbf27666aee9e3fed3fc9660b7f167be011a468c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11841494794"
+}
