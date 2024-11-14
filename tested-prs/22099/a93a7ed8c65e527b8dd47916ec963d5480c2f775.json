@@ -1,0 +1,17 @@
+{
+  "artifact_2190007932": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eirbjo-a93a7ed8c65e527b8dd47916ec963d5480c2f775)\nOpenJDK 64-Bit Server VM (build 24-internal-eirbjo-a93a7ed8c65e527b8dd47916ec963d5480c2f775, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "42bee78843f8c9738f9ab25fbc4c235c45a32f65.json",
+    "6a72b060501981842822680cfa700d1d287f8c04.json"
+  ],
+  "datetime": "2024-11-14T21:40:07.506603+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22099",
+  "number": 22099,
+  "title": "8344179: SecurityManager cleanup in the ZIP and JAR areas",
+  "head_sha": "a93a7ed8c65e527b8dd47916ec963d5480c2f775",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11845784639"
+}
