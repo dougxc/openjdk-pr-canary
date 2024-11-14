@@ -1,0 +1,15 @@
+{
+  "artifact_2187687967": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eirbjo-b7387277cfa57bf312ec9ac1cb0ffa54f1b749ae)\nOpenJDK 64-Bit Server VM (build 24-internal-eirbjo-b7387277cfa57bf312ec9ac1cb0ffa54f1b749ae, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-11-14T15:18:16.375306+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22105",
+  "number": 22105,
+  "title": "8344185: Remove calls to SecurityManager in sun.net.ftp",
+  "head_sha": "b7387277cfa57bf312ec9ac1cb0ffa54f1b749ae",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11839258498"
+}
