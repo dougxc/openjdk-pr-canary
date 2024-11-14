@@ -1,0 +1,18 @@
+{
+  "artifact_2188933556": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-15bf969a1b3e7c7cc60d6da9956c6af6b2262ef8)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-15bf969a1b3e7c7cc60d6da9956c6af6b2262ef8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0b68ed082fa4ddee0b66a93223fb09e3c0ef3d4c.json",
+    "2034b5db0cc0eddf23ef1d7cb8b68c2e51e80cf7.json",
+    "cbaf8947ef80ea5cc9bd894034b65895fa639955.json"
+  ],
+  "datetime": "2024-11-14T17:40:28.350371+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22048",
+  "number": 22048,
+  "title": "8343039: Remove jdk.internal.misc.InternalLock and usages from java.io",
+  "head_sha": "15bf969a1b3e7c7cc60d6da9956c6af6b2262ef8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11842397592"
+}
