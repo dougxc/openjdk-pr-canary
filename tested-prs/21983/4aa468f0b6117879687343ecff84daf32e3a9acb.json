@@ -1,0 +1,16 @@
+{
+  "artifact_2185294396": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-nizarbenalla-4aa468f0b6117879687343ecff84daf32e3a9acb)\nOpenJDK 64-Bit Server VM (build 24-internal-nizarbenalla-4aa468f0b6117879687343ecff84daf32e3a9acb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0abe3080391e83cae62253f56c28d98efa0ed253.json"
+  ],
+  "datetime": "2024-11-14T02:54:11.643678+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21983",
+  "number": 21983,
+  "title": "8343781: Add since checker test to the Serviceability area modules",
+  "head_sha": "4aa468f0b6117879687343ecff84daf32e3a9acb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11829237070"
+}
