@@ -1,0 +1,16 @@
+{
+  "artifact_2189846226": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-seanjmullan-d61ec7f0fcc1cac50b04747fde054c3b82c1db73)\nOpenJDK 64-Bit Server VM (build 24-internal-seanjmullan-d61ec7f0fcc1cac50b04747fde054c3b82c1db73, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9ad6abb8bafdbe6adb33c38a5b1737cd35e5b197.json"
+  ],
+  "datetime": "2024-11-14T20:55:27.220063+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22112",
+  "number": 22112,
+  "title": "8344214: Remove Security Manager dependencies from jdk.crypto.mscapi module",
+  "head_sha": "d61ec7f0fcc1cac50b04747fde054c3b82c1db73",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11844997197"
+}
