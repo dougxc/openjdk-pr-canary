@@ -81205,6 +81205,9 @@
 		},
 		"aliases": [
 			"jdk-24-2995"
+		],
+		"tags": [
+			"UNUSABLE"
 		]
 	}
 ]
