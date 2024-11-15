@@ -1,0 +1,14 @@
+{
+  "artifact_2191529160": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-3176a79914577c9ecf62f8e67e9c9708d24166a9)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-3176a79914577c9ecf62f8e67e9c9708d24166a9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-15T06:51:45.284812+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22133",
+  "number": 22133,
+  "title": "8344060: Remove doPrivileged calls from shared implementation code in the java.desktop module : part 1",
+  "head_sha": "3176a79914577c9ecf62f8e67e9c9708d24166a9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11851553886"
+}
