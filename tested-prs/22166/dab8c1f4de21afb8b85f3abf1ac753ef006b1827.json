@@ -1,0 +1,14 @@
+{
+  "artifact_2195164830": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-alexmenkov-dab8c1f4de21afb8b85f3abf1ac753ef006b1827)\nOpenJDK 64-Bit Server VM (build 24-internal-alexmenkov-dab8c1f4de21afb8b85f3abf1ac753ef006b1827, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-15T22:41:13.709158+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22166",
+  "number": 22166,
+  "title": "8344262: Win32AttachOperationRequest objects are created by using global new",
+  "head_sha": "dab8c1f4de21afb8b85f3abf1ac753ef006b1827",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11863696461"
+}
