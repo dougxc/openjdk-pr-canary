@@ -1,0 +1,16 @@
+{
+  "artifact_2193438021": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dfuch-b128391f7bf000e4dd9d70691ceb80aa510c3957)\nOpenJDK 64-Bit Server VM (build 24-internal-dfuch-b128391f7bf000e4dd9d70691ceb80aa510c3957, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "30d6f8dc621b4e75ae9f54959783b14ac2ab21b2.json"
+  ],
+  "datetime": "2024-11-15T15:12:28.683307+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22118",
+  "number": 22118,
+  "title": "8344228: Revisit SecurityManager usage in java.net.http after JEP 486 integration",
+  "head_sha": "b128391f7bf000e4dd9d70691ceb80aa510c3957",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11857205276"
+}
