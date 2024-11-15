@@ -1,0 +1,14 @@
+{
+  "artifact_2192029898": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-7d48900955ede62c9b24e3d35163bb0920c13d81)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-7d48900955ede62c9b24e3d35163bb0920c13d81, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-15T09:40:33.344829+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22137",
+  "number": 22137,
+  "title": "8344186: Cleanup sun.net.www.MimeTable after JEP 486 integration",
+  "head_sha": "7d48900955ede62c9b24e3d35163bb0920c13d81",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11853691622"
+}
