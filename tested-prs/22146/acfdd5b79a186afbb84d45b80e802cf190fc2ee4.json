@@ -1,0 +1,14 @@
+{
+  "artifact_2192927609": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-MBaesken-acfdd5b79a186afbb84d45b80e802cf190fc2ee4)\nOpenJDK 64-Bit Server VM (build 24-internal-MBaesken-acfdd5b79a186afbb84d45b80e802cf190fc2ee4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-15T14:38:34.998576+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22146",
+  "number": 22146,
+  "title": "8344298: Test tools/sincechecker/modules/jdk.hotspot.agent/JdkHotspotAgentCheckSince.java fails on platforms without sa",
+  "head_sha": "acfdd5b79a186afbb84d45b80e802cf190fc2ee4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11857205276"
+}
