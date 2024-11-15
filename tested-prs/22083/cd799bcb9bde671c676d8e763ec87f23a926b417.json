@@ -1,0 +1,20 @@
+{
+  "artifact_2194082484": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-cd799bcb9bde671c676d8e763ec87f23a926b417)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-cd799bcb9bde671c676d8e763ec87f23a926b417, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "480a8fd424e1a336c8e29bed6e090fe8b08bb48a.json",
+    "869e70059997b3ed68351a1fb685adb892394bda.json",
+    "a473f04ad74ca9ef1044bcc348d8e757f5000b2c.json",
+    "e0e705f4ec09034c559b4cf55ff702f2675bf85e.json",
+    "e295162fe38a8f994c2ee8fabb7d13579b3598f2.json"
+  ],
+  "datetime": "2024-11-15T17:47:06.736194+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22083",
+  "number": 22083,
+  "title": "8344059: Remove doPrivileged calls from windows platform sources in the java.desktop module",
+  "head_sha": "cd799bcb9bde671c676d8e763ec87f23a926b417",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11859961774"
+}
