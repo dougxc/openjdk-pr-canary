@@ -1,0 +1,17 @@
+{
+  "artifact_2192908706": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-df5d0f30f3bd38b89d1177153cecb27b81e594ac)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-df5d0f30f3bd38b89d1177153cecb27b81e594ac, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "df974a0415bf9bc75a92ed6a3a6e4a3bbbb66f2e.json",
+    "a36097bebdfd67c0d3c4939cc2754f3d0d36c4ce.json"
+  ],
+  "datetime": "2024-11-15T13:40:53.204118+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22057",
+  "number": 22057,
+  "title": "8343123: Nimbus: javax/swing/JInternalFrame/bug6726866.java does not have green undecorated window",
+  "head_sha": "df5d0f30f3bd38b89d1177153cecb27b81e594ac",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11855392349"
+}
