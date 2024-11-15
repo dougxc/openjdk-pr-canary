@@ -1,0 +1,14 @@
+{
+  "artifact_2191918093": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eirbjo-58b297c54445fb93b77caca150aed85b300903d1)\nOpenJDK 64-Bit Server VM (build 24-internal-eirbjo-58b297c54445fb93b77caca150aed85b300903d1, mixed mode, sharing)"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-11-15T08:33:47.694755+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22135",
+  "number": 22135,
+  "title": "8344188: Cleanup sun.net.www.protocol.jar.JarFileFactory after JEP 486 integration",
+  "head_sha": "58b297c54445fb93b77caca150aed85b300903d1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11852890997"
+}
