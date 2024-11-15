@@ -340,9 +340,6 @@ def add_test_history(test_record, pr, run_url, test_record_path):
     test_record["head_sha"] = pr["head"]["sha"]
     test_record["run_url"] = run_url
 
-    if test_record["status"] == "failed":
-        post_failure_to_slack(test_record)
-
 
 def test_pull_request(pr, artifact, failed_pull_requests):
     """
@@ -459,6 +456,10 @@ def push_test_records(test_records):
         info("pulling upstream changes failed", COLOR_WARN)
 
     for test_record in test_records:
+
+        if test_record["status"] == "failed":
+            post_failure_to_slack(test_record)
+
         test_record_path = get_test_record_path(test_record)
         if test_record_path.exists():
             info(f"overwriting previous test record in {test_record_path}", COLOR_WARN)
