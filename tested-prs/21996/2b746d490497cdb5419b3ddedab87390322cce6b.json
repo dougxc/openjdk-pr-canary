@@ -1,0 +1,16 @@
+{
+  "artifact_2194056039": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-alexeysemenyukoracle-2b746d490497cdb5419b3ddedab87390322cce6b)\nOpenJDK 64-Bit Server VM (build 24-internal-alexeysemenyukoracle-2b746d490497cdb5419b3ddedab87390322cce6b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1c7e0592546e7fec1297ca88822e99bbcc9c2f00.json"
+  ],
+  "datetime": "2024-11-15T17:58:11.776583+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21996",
+  "number": 21996,
+  "title": "8343876: Enhancements to jpackage test lib",
+  "head_sha": "2b746d490497cdb5419b3ddedab87390322cce6b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11859961774"
+}
