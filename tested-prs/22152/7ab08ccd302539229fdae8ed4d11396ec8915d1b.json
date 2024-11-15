@@ -1,0 +1,14 @@
+{
+  "artifact_2194252569": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RogerRiggs-7ab08ccd302539229fdae8ed4d11396ec8915d1b)\nOpenJDK 64-Bit Server VM (build 24-internal-RogerRiggs-7ab08ccd302539229fdae8ed4d11396ec8915d1b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-15T19:21:05.719728+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22152",
+  "number": 22152,
+  "title": "8344319: SM cleanup in jdk.dynlink module",
+  "head_sha": "7ab08ccd302539229fdae8ed4d11396ec8915d1b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11860743807"
+}
