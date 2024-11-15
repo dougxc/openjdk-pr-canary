@@ -1,0 +1,14 @@
+{
+  "artifact_2190422911": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RogerRiggs-9021ee5314c071c5b91b7ed1a21566fdfe799b10)\nOpenJDK 64-Bit Server VM (build 24-internal-RogerRiggs-9021ee5314c071c5b91b7ed1a21566fdfe799b10, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-14T23:59:06.399390+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22122",
+  "number": 22122,
+  "title": "8344252: SM cleanup in java.util classes",
+  "head_sha": "9021ee5314c071c5b91b7ed1a21566fdfe799b10",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11847278829"
+}
