@@ -1,0 +1,16 @@
+{
+  "artifact_2193199770": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tstuefe-1f3e48b4eee4808b17179be6dc8782e538ca7c59)\nOpenJDK 64-Bit Server VM (build 24-internal-tstuefe-1f3e48b4eee4808b17179be6dc8782e538ca7c59, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4dd3d722ef2f6aca18f40f6b68559ed098ab222f.json"
+  ],
+  "datetime": "2024-11-15T15:01:27.727420+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22143",
+  "number": 22143,
+  "title": "8344293: Remove empty MetaspaceUtilsGtests.java",
+  "head_sha": "1f3e48b4eee4808b17179be6dc8782e538ca7c59",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11857205276"
+}
