@@ -1,0 +1,17 @@
+{
+  "artifact_2194704285": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kevinjwalls-72b29b80c06007e4ccea4f79e55f6e33d6d3d47a)\nOpenJDK 64-Bit Server VM (build 24-internal-kevinjwalls-72b29b80c06007e4ccea4f79e55f6e33d6d3d47a, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "3110091d761290219aaec6f42d312c0a2148c1f2.json"
+  ],
+  "datetime": "2024-11-15T20:18:46.661223+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22067",
+  "number": 22067,
+  "title": "8344105: Remove SecurityManager and related calls from jdk.attach and jdk.hotspot.agent",
+  "head_sha": "72b29b80c06007e4ccea4f79e55f6e33d6d3d47a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11860743807"
+}
