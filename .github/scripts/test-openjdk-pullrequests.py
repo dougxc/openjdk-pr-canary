@@ -266,6 +266,11 @@ def update_to_match_graal_pr(openjdk_pr, test_record):
             return True
     return False
 
+def libgraal_ok(build):
+    """
+    Determines if the mach5 build in `build` passed the LibGraalPresent test.
+    """
+    return "LIBGRAAL_BUILD_FAILED" not in build.get("tags", [])
 
 def update_to_match_pr_merge_base(pr):
     """
@@ -278,9 +283,6 @@ def update_to_match_pr_merge_base(pr):
     # Load builds
     builds = json.loads(Path(__file__).parent.joinpath("builds.json").read_text())
 
-    # Ignore builds in which LibGraalPresent failed
-    builds = [b for b in builds if "LIBGRAAL_BUILD_FAILED" not in b.get("tags", [])]
-
     # Sort builds by build ids, oldest to newest.
     # Use the revision from the newest build matching `merge_base_commit`
     newest = None
@@ -290,11 +292,18 @@ def update_to_match_pr_merge_base(pr):
     mbc_desc = f"PR merge base revision [{mbc_sha}]({mbc_url})"
     for build in sorted(builds, key=lambda b: b["id"]):
         if mbc_sha in build["revisions"]["open"]:
-            newest = build["revisions"]
+            newest = build
+        elif newest and "__libgraal_ok_successor" not in newest and not libgraal_ok(newest) and libgraal_ok(build):
+            newest["__libgraal_ok_successor"] = build
+
+    if newest and not libgraal_ok(newest) and "__libgraal_ok_successor" in newest:
+        newest = newest["__libgraal_ok_successor"]
+        mbc_desc = f"{mbc_desc} failed to build libgraal - using first succeeding revision with a successful libgraal build in upstream CI"
+
     if newest:
         info(f"{mbc_desc}")
         for repo in ("graal", "mx"):
-            rev = newest[repo][0]
+            rev = newest["revisions"][repo][0]
             git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo=repo)
             git(["reset", "--quiet", "--hard", rev], repo=repo)
             info(f"  updated {repo} to matching revision {rev}")
