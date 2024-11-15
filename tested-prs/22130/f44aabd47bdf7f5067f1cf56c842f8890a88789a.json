@@ -1,0 +1,16 @@
+{
+  "artifact_2191269753": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-zifeihan-f44aabd47bdf7f5067f1cf56c842f8890a88789a)\nOpenJDK 64-Bit Server VM (build 24-internal-zifeihan-f44aabd47bdf7f5067f1cf56c842f8890a88789a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "446c8c28beacfffc525f8f00f8541834e190c1d1.json"
+  ],
+  "datetime": "2024-11-15T04:44:10.804505+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22130",
+  "number": 22130,
+  "title": "8344265: RISC-V: Remove unused function get_previous_sp_entry",
+  "head_sha": "f44aabd47bdf7f5067f1cf56c842f8890a88789a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11850316095"
+}
