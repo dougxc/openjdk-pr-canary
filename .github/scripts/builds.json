@@ -82028,6 +82028,9 @@
 		},
 		"aliases": [
 			"jdk-24-3028"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	}
 ]
