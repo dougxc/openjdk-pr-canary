@@ -81920,6 +81920,37 @@
 		},
 		"aliases": [
 			"jdk-24-3024"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-24+25-3025",
+		"revisions": {
+			"open": [
+				"2c509a158fad63e69a8072fa4a7588eaacf37dc0"
+			],
+			"graal-enterprise": [
+				"bc08fa23e6026d9552abfc5dd50cdc980897c948",
+				"e25f1d29529fb24335ba59fedfbf0bfc012f66a1"
+			],
+			"graal": [
+				"3d42612f80138488af4606beffb360159f61acf4",
+				"6339bcd8f1ca06eee25877838d92ca1256cbbf02"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			],
+			".": [
+				"459de251d0ffa3d76eb4e7ef4bc490eecfc768f0"
+			]
+		},
+		"aliases": [
+			"jdk-24-3025"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	}
 ]
