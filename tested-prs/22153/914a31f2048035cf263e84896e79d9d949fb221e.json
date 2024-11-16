@@ -1,0 +1,17 @@
+{
+  "artifact_2196549468": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dfuch-914a31f2048035cf263e84896e79d9d949fb221e)\nOpenJDK 64-Bit Server VM (build 24-internal-dfuch-914a31f2048035cf263e84896e79d9d949fb221e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "235e77840d8ad5696f733578b1ee85dcd1e5f69c.json",
+    "366598ac441ca693b80c3b07803a669527459bcb.json"
+  ],
+  "datetime": "2024-11-16T13:40:16.223615+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22153",
+  "number": 22153,
+  "title": "8344221: Remove calls to SecurityManager and and doPrivileged in java.net.IDN, java.net.URL, java.net.URLConnection, sun.net.util.URLUtil, and java.net.URLStreamHandlerProvider after JEP 486 integration",
+  "head_sha": "914a31f2048035cf263e84896e79d9d949fb221e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11870491397"
+}
