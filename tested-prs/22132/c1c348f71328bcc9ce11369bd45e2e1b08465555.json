@@ -1,0 +1,17 @@
+{
+  "artifact_2195687394": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-c1c348f71328bcc9ce11369bd45e2e1b08465555)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-c1c348f71328bcc9ce11369bd45e2e1b08465555, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "05bc2c96c7889fa30c6134a0fe312a4f84852393.json",
+    "391c0329a0ea2d3c90385e0a751829c95bf1c381.json"
+  ],
+  "datetime": "2024-11-16T02:40:36.678627+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22132",
+  "number": 22132,
+  "title": "8344078: Remove security manager dependency in java.nio",
+  "head_sha": "c1c348f71328bcc9ce11369bd45e2e1b08465555",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11866202565"
+}
