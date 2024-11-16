@@ -1,0 +1,16 @@
+{
+  "artifact_2195641591": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-justin-curtis-lu-abb39ab3ba4784a502635ef9acd789511e193987)\nOpenJDK 64-Bit Server VM (build 24-internal-justin-curtis-lu-abb39ab3ba4784a502635ef9acd789511e193987, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ca97d16b72b8365260d3c7dae6a165c1fccaae4b.json"
+  ],
+  "datetime": "2024-11-16T02:19:10.113116+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22170",
+  "number": 22170,
+  "title": "8344331: SM cleanup in java.scripting",
+  "head_sha": "abb39ab3ba4784a502635ef9acd789511e193987",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11866202565"
+}
