@@ -1,0 +1,14 @@
+{
+  "artifact_2197683249": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-rsunderbabu-25118b07d632cb5633faf1cda90fe7cf79c49bfd)\nOpenJDK 64-Bit Server VM (build 24-internal-rsunderbabu-25118b07d632cb5633faf1cda90fe7cf79c49bfd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-17T05:41:42.943799+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22180",
+  "number": 22180,
+  "title": "8318668: java/lang/management/MemoryMXBean/CollectionUsageThreshold.java fails with Xcomp",
+  "head_sha": "25118b07d632cb5633faf1cda90fe7cf79c49bfd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11876291308"
+}
