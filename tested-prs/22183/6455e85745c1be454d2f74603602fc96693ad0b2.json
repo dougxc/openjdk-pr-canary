@@ -1,0 +1,14 @@
+{
+  "artifact_2198382026": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eirbjo-6455e85745c1be454d2f74603602fc96693ad0b2)\nOpenJDK 64-Bit Server VM (build 24-internal-eirbjo-6455e85745c1be454d2f74603602fc96693ad0b2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-17T20:48:57.251511+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22183",
+  "number": 22183,
+  "title": "8178966: Don't swallow early bootstrap exceptions in Boolean.getBoolean, Integer.getInteger and Long.getLong",
+  "head_sha": "6455e85745c1be454d2f74603602fc96693ad0b2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11881969777"
+}
