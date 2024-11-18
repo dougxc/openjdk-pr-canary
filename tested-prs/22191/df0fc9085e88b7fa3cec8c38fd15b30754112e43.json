@@ -1,0 +1,14 @@
+{
+  "artifact_2200602976": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-pengxiaolong-df0fc9085e88b7fa3cec8c38fd15b30754112e43)\nOpenJDK 64-Bit Server VM (build 24-internal-pengxiaolong-df0fc9085e88b7fa3cec8c38fd15b30754112e43, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-18T10:46:18.334219+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22191",
+  "number": 22191,
+  "title": "8343541: C1: Plain memory accesses are emitted with membars with +AlwaysAtomicAccesses",
+  "head_sha": "df0fc9085e88b7fa3cec8c38fd15b30754112e43",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11890619232"
+}
