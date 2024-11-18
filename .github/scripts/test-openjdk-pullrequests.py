@@ -281,7 +281,7 @@ def build_sort_key(build):
     """
     assert build["id"].startswith("jdk-")
     ver = build["id"][4:]
-    m =_vstr_pattern.fullmatch(ver)
+    m = _vstr_pattern.fullmatch(ver)
 
     def to_ver(s):
         if s is None or s == "+":
@@ -320,6 +320,7 @@ def update_to_match_pr_merge_base(pr):
 
     if newest:
         info(f"{mbc_desc}")
+        info(f"  build id: {newest['id']}")
         for repo in ("graal", "mx"):
             rev = newest["revisions"][repo][0]
             git(["fetch", "--quiet", "--depth", "1", "origin", rev], repo=repo)
