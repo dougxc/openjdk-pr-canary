@@ -82572,7 +82572,8 @@
 			"jdk-24-3050"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82598,7 +82599,8 @@
 			"jdk-24-3051"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82625,7 +82627,8 @@
 			"jdk-24-3052"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82651,7 +82654,8 @@
 			"jdk-24-3053"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82677,7 +82681,8 @@
 			"jdk-24-3054"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82703,7 +82708,8 @@
 			"jdk-24-3055"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82730,7 +82736,8 @@
 			"jdk-24-3056"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82756,7 +82763,8 @@
 			"jdk-24-3057"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82782,7 +82790,8 @@
 			"jdk-24-3058"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82809,7 +82818,8 @@
 			"jdk-24-3059"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82835,7 +82845,8 @@
 			"jdk-24-3060"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82864,7 +82875,8 @@
 			"jdk-24-3061"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82890,7 +82902,8 @@
 			"jdk-24-3062"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82916,7 +82929,8 @@
 			"jdk-24-3063"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82942,7 +82956,8 @@
 			"jdk-24-3064"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82969,7 +82984,8 @@
 			"jdk-24-3065"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -82997,7 +83013,8 @@
 			"jdk-24-3066"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -83021,6 +83038,33 @@
 		},
 		"aliases": [
 			"jdk-24-3067"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
+		]
+	},
+	{
+		"id": "jdk-24+25-3068",
+		"revisions": {
+			"open": [
+				"f636674889f925d4feb9a8d2be811e66f9b3a0ac"
+			],
+			"graal-enterprise": [
+				"7c023871d359fb248fff4362109daeb44c77f7c5"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			],
+			".": [
+				"dca2688e124ce32fad94b16c96aff0327f564d09"
+			],
+			"graal": [
+				"5e6d028323533c9a1215763aec95d41ca56a342a"
+			]
+		},
+		"aliases": [
+			"jdk-24-3068"
 		]
 	}
 ]
