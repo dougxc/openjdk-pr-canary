@@ -82862,6 +82862,111 @@
 		},
 		"aliases": [
 			"jdk-24-3061"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-24+25-3062",
+		"revisions": {
+			"open": [
+				"c4e7dc7ff24809ced7bc3363fc3b462108b992dd"
+			],
+			"graal-enterprise": [
+				"078cbaaa4dff64cc633cf704bc258ea0efe9156b"
+			],
+			".": [
+				"607fc52992aa729af51f6bced6899ed14371651a"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			],
+			"graal": [
+				"5e6d028323533c9a1215763aec95d41ca56a342a"
+			]
+		},
+		"aliases": [
+			"jdk-24-3062"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-24+25-3063",
+		"revisions": {
+			"open": [
+				"c59adf68d9ac49b41fb778041e3949a8057e8d7f"
+			],
+			"graal-enterprise": [
+				"078cbaaa4dff64cc633cf704bc258ea0efe9156b"
+			],
+			".": [
+				"607fc52992aa729af51f6bced6899ed14371651a"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			],
+			"graal": [
+				"5e6d028323533c9a1215763aec95d41ca56a342a"
+			]
+		},
+		"aliases": [
+			"jdk-24-3063"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-24+25-3064",
+		"revisions": {
+			"open": [
+				"e9e4200a6aaacc11442f0298525e2531bf08240e"
+			],
+			"graal-enterprise": [
+				"078cbaaa4dff64cc633cf704bc258ea0efe9156b"
+			],
+			".": [
+				"607fc52992aa729af51f6bced6899ed14371651a"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			],
+			"graal": [
+				"5e6d028323533c9a1215763aec95d41ca56a342a"
+			]
+		},
+		"aliases": [
+			"jdk-24-3064"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-24+25-3065",
+		"revisions": {
+			"graal-enterprise": [
+				"7c023871d359fb248fff4362109daeb44c77f7c5",
+				"0776c094609f41119079ad4b0e801d6d4da38460"
+			],
+			"open": [
+				"26494063237ab50b1a86847da1b3ce3c44d55409"
+			],
+			".": [
+				"607fc52992aa729af51f6bced6899ed14371651a"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			],
+			"graal": [
+				"5e6d028323533c9a1215763aec95d41ca56a342a"
+			]
+		},
+		"aliases": [
+			"jdk-24-3065"
 		]
 	}
 ]
