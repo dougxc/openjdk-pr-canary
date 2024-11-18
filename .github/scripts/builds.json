@@ -83119,6 +83119,9 @@
 		},
 		"aliases": [
 			"jdk-24-3070"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	}
 ]
