@@ -1,0 +1,14 @@
+{
+  "artifact_2202432395": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sormuras-5704fabf73ce79a5e1c7a0078ebdce28bc9a6a73)\nOpenJDK 64-Bit Server VM (build 24-internal-sormuras-5704fabf73ce79a5e1c7a0078ebdce28bc9a6a73, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-18T17:08:44.994097+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22208",
+  "number": 22208,
+  "title": "8293040: Argfile documentation for java launcher tool is confusing regarding usage of wildcards",
+  "head_sha": "5704fabf73ce79a5e1c7a0078ebdce28bc9a6a73",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11896882691"
+}
