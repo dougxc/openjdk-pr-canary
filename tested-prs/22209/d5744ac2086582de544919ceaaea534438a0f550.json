@@ -1,0 +1,14 @@
+{
+  "artifact_2202566698": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-alexeysemenyukoracle-d5744ac2086582de544919ceaaea534438a0f550)\nOpenJDK 64-Bit Server VM (build 24-internal-alexeysemenyukoracle-d5744ac2086582de544919ceaaea534438a0f550, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-18T16:58:18.063072+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22209",
+  "number": 22209,
+  "title": "8342299: Document that jpackage includes (possibly old) VC Redistributable MSVCP140.dll from JDK",
+  "head_sha": "d5744ac2086582de544919ceaaea534438a0f550",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11896882691"
+}
