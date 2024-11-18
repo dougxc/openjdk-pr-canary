@@ -1,0 +1,16 @@
+{
+  "artifact_2203640730": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RogerRiggs-b873e116d8bd78911d7fe169c618207f73da138e)\nOpenJDK 64-Bit Server VM (build 24-internal-RogerRiggs-b873e116d8bd78911d7fe169c618207f73da138e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6663749ab5aa01ee912f145ca66600b7adf74cf6.json"
+  ],
+  "datetime": "2024-11-18T21:00:29.048546+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22168",
+  "number": 22168,
+  "title": "8344336: SM cleanup of java.lang.System, Runtime, String, StackWalker",
+  "head_sha": "b873e116d8bd78911d7fe169c618207f73da138e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11900532162"
+}
