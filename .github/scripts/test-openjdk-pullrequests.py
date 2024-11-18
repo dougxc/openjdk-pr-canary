@@ -272,6 +272,24 @@ def libgraal_ok(build):
     """
     return "LIBGRAAL_BUILD_FAILED" not in build.get("tags", [])
 
+# https://github.com/openjdk/jdk/blob/e7045e9399c5bca0592afc5769432414ecae7219/src/java.base/share/classes/java/lang/Runtime.java#L1577
+_vstr_pattern = re.compile(r"([1-9][0-9]*(?:(?:\.0)*\.[1-9][0-9]*)*)(?:-([a-zA-Z0-9]+))?(?:(\+)(0|[1-9][0-9]*)?)?(?:-([-a-zA-Z0-9.]+))?")
+
+def build_sort_key(build):
+    """
+    Gets the id for `build` as a tuple that sorts ids according to their semantic version interpretation.
+    """
+    assert build["id"].startswith("jdk-")
+    ver = build["id"][4:]
+    m =_vstr_pattern.fullmatch(ver)
+
+    def to_ver(s):
+        if s is None or s == "+":
+            return 0
+        return tuple((int(n) for n in s.split(".")))
+
+    return tuple((to_ver(g) for g in m.groups()))
+
 def update_to_match_pr_merge_base(pr):
     """
     Updates graal and mx to a revision in a mach5 build where
@@ -290,7 +308,7 @@ def update_to_match_pr_merge_base(pr):
     mbc_sha = merge_base_commit["sha"]
     mbc_url = merge_base_commit["html_url"]
     mbc_desc = f"PR merge base revision [{mbc_sha}]({mbc_url})"
-    for build in sorted(builds, key=lambda b: b["id"]):
+    for build in sorted(builds, key=build_sort_key):
         if mbc_sha in build["revisions"]["open"]:
             newest = build
         elif newest and "__libgraal_ok_successor" not in newest and not libgraal_ok(newest) and libgraal_ok(build):
