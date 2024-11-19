@@ -83310,6 +83310,38 @@
 		},
 		"aliases": [
 			"jdk-24-3077"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
+		]
+	},
+	{
+		"id": "jdk-24+25-3078",
+		"revisions": {
+			"open": [
+				"8bd080bcc9ae3eb368e4bcd5fd0f52408dd9050c"
+			],
+			".": [
+				"828c78b5ee8b0de04172a1834a928853487fab3d"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			],
+			"graal": [
+				"5e6d028323533c9a1215763aec95d41ca56a342a"
+			],
+			"graal-enterprise": [
+				"e7532ca36c04c8a01b0208af6cb4c447691b3cdb",
+				"f479b0955fc07aad006f7c5bb5698d499f67c3c6"
+			]
+		},
+		"aliases": [
+			"jdk-24-3078"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	}
 ]
