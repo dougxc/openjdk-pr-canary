@@ -1,0 +1,14 @@
+{
+  "artifact_2207405795": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-fbredber-aec44fd779324c3d9630d0a9f56903cc86511b5e)\nOpenJDK 64-Bit Server VM (build 24-internal-fbredber-aec44fd779324c3d9630d0a9f56903cc86511b5e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-19T17:22:35.849286+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22238",
+  "number": 22238,
+  "title": "8329351: Add runtime/Monitor/TestRecursiveLocking.java for recursive Java monitor stress testing",
+  "head_sha": "aec44fd779324c3d9630d0a9f56903cc86511b5e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11917533621"
+}
