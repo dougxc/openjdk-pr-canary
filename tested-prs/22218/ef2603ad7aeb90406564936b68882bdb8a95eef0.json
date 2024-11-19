@@ -1,0 +1,16 @@
+{
+  "artifact_2209686139": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-honkar-jdk-ef2603ad7aeb90406564936b68882bdb8a95eef0)\nOpenJDK 64-Bit Server VM (build 24-internal-honkar-jdk-ef2603ad7aeb90406564936b68882bdb8a95eef0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2b49230633f05fdd9352b65174719c1791c8da6c.json"
+  ],
+  "datetime": "2024-11-19T20:55:22.834416+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22218",
+  "number": 22218,
+  "title": "JDK-8344057 : Remove doPrivileged calls from unix platform sources in the java.desktop module",
+  "head_sha": "ef2603ad7aeb90406564936b68882bdb8a95eef0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11920228281"
+}
