@@ -83283,6 +83283,10 @@
 		},
 		"aliases": [
 			"jdk-24-3076"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	}
 ]
