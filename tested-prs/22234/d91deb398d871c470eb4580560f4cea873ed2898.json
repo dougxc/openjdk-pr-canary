@@ -1,0 +1,14 @@
+{
+  "artifact_2206792893": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eirbjo-d91deb398d871c470eb4580560f4cea873ed2898)\nOpenJDK 64-Bit Server VM (build 24-internal-eirbjo-d91deb398d871c470eb4580560f4cea873ed2898, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-19T11:46:10.911971+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22234",
+  "number": 22234,
+  "title": "8344534: Remove leftover import of java.security.AccessControlContext in JavaLangAccess",
+  "head_sha": "d91deb398d871c470eb4580560f4cea873ed2898",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11912026425"
+}
