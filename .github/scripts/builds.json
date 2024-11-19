@@ -83206,5 +83206,31 @@
 			"LIBGRAAL_BUILD_FAILED",
 			"UNUSABLE"
 		]
+	},
+	{
+		"id": "jdk-24+25-3074",
+		"revisions": {
+			"open": [
+				"9e92a9e2bab04b79626b88a7dd017dd0def04d7a"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			],
+			"graal-enterprise": [
+				"6af5b957deb5b87961152295350b3be4521d1992"
+			],
+			".": [
+				"dca2688e124ce32fad94b16c96aff0327f564d09"
+			],
+			"graal": [
+				"5e6d028323533c9a1215763aec95d41ca56a342a"
+			]
+		},
+		"aliases": [
+			"jdk-24-3074"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
 	}
 ]
