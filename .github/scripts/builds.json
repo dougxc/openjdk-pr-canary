@@ -10693,6 +10693,29 @@
 		]
 	},
 	{
+		"id": "jdk-23.0.2+5-53",
+		"revisions": {
+			"graal": [
+				"e4b575df2c806a369953a72eb460e0f9ac54f852"
+			],
+			".": [
+				"6f3e54abb063e4be9b83ffaf6b5aeca7f8ac6ba8"
+			],
+			"open": [
+				"84ec30769efe04d0a8403b04935a0a3e664a00d6"
+			],
+			"graal-enterprise": [
+				"26dca3ee41dc0430ac14acd0f39b1b5eb9497a90"
+			],
+			"mx": [
+				"12267ad74f153edd728d7b92a3d176a5e05b6ae6"
+			]
+		},
+		"aliases": [
+			"jdk-23.0.2-53"
+		]
+	},
+	{
 		"id": "jdk-23.0.3+1-1",
 		"revisions": {
 			"open": [
@@ -83477,6 +83500,89 @@
 		],
 		"tags": [
 			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
+		]
+	},
+	{
+		"id": "jdk-24+25-3084",
+		"revisions": {
+			".": [
+				"be95581bc5295fc22a6b6ef1aa3b02d92979d224"
+			],
+			"graal-enterprise": [
+				"d8975625f4fb3790d149ae7027c63c631359a093",
+				"42007ca2767205fa744fe6b3e23e2297694dad72"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			],
+			"open": [
+				"235973615fbad7073df67167ab1cb4d40b6f1ab5"
+			],
+			"graal": [
+				"5e6d028323533c9a1215763aec95d41ca56a342a"
+			]
+		},
+		"aliases": [
+			"jdk-24-3084"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
+		]
+	},
+	{
+		"id": "jdk-24+25-3085",
+		"revisions": {
+			".": [
+				"be95581bc5295fc22a6b6ef1aa3b02d92979d224"
+			],
+			"graal-enterprise": [
+				"d8975625f4fb3790d149ae7027c63c631359a093"
+			],
+			"open": [
+				"cc8bd63741ce5745c144bf21b737c287d9b53817"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			],
+			"graal": [
+				"5e6d028323533c9a1215763aec95d41ca56a342a"
+			]
+		},
+		"aliases": [
+			"jdk-24-3085"
+		],
+		"tags": [
+			"UNUSABLE"
+		]
+	},
+	{
+		"id": "jdk-24+25-3086",
+		"revisions": {
+			".": [
+				"be95581bc5295fc22a6b6ef1aa3b02d92979d224"
+			],
+			"graal-enterprise": [
+				"d8975625f4fb3790d149ae7027c63c631359a093"
+			],
+			"open": [
+				"fea5f2b1458cdd53f437e59caaffaa6e22fb59a7",
+				"a28e4d839c9220655d78116be89c3c26b3d17a0e",
+				"0714114fe3e0ac01657053164c61cbb702c0f9a0",
+				"41436bb0e81ddf08fea189d9e1d020fb0ce8979b"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			],
+			"graal": [
+				"5e6d028323533c9a1215763aec95d41ca56a342a"
+			]
+		},
+		"aliases": [
+			"jdk-24-3086"
+		],
+		"tags": [
 			"UNUSABLE"
 		]
 	}
