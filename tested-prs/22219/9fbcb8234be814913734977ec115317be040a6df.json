@@ -1,0 +1,16 @@
+{
+  "artifact_2208783357": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-9fbcb8234be814913734977ec115317be040a6df)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-9fbcb8234be814913734977ec115317be040a6df, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a15574a37b485053fc16f996659016b78e4c2c11.json"
+  ],
+  "datetime": "2024-11-19T19:24:37.770843+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22219",
+  "number": 22219,
+  "title": "8344077: Remove security manager dependency in java.io",
+  "head_sha": "9fbcb8234be814913734977ec115317be040a6df",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11918475821"
+}
