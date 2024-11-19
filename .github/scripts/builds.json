@@ -83201,6 +83201,10 @@
 		},
 		"aliases": [
 			"jdk-24-3073"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	}
 ]
