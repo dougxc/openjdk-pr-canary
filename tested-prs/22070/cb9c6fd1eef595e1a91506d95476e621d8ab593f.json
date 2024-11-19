@@ -1,0 +1,14 @@
+{
+  "artifact_2207035527": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-cb9c6fd1eef595e1a91506d95476e621d8ab593f)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-cb9c6fd1eef595e1a91506d95476e621d8ab593f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-19T13:45:34.003586+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22070",
+  "number": 22070,
+  "title": "8344118: C2 SuperWord: add VectorThroughputForIterationCount benchmark",
+  "head_sha": "cb9c6fd1eef595e1a91506d95476e621d8ab593f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11913452901"
+}
