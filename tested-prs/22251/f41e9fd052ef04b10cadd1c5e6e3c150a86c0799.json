@@ -1,0 +1,14 @@
+{
+  "artifact_2209359386": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-f41e9fd052ef04b10cadd1c5e6e3c150a86c0799)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-f41e9fd052ef04b10cadd1c5e6e3c150a86c0799, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-19T20:23:14.611504+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22251",
+  "number": 22251,
+  "title": "8344562: Remove security manager dependency from module jdk.jdi",
+  "head_sha": "f41e9fd052ef04b10cadd1c5e6e3c150a86c0799",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11920228281"
+}
