@@ -1,0 +1,17 @@
+{
+  "artifact_2209016362": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-288e09570a0b166aef7045b61d479380203e709e)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-288e09570a0b166aef7045b61d479380203e709e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "13dbd8c8437356665351c68e222e625dcd142109.json",
+    "98c608a872e96ab5ded4f6f4ecc1fca68d8cd794.json"
+  ],
+  "datetime": "2024-11-19T19:35:29.488106+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22186",
+  "number": 22186,
+  "title": "8344064: Remove doPrivileged calls from print/imageio/media classes in the java.desktop module",
+  "head_sha": "288e09570a0b166aef7045b61d479380203e709e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11918475821"
+}
