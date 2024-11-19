@@ -1,0 +1,14 @@
+{
+  "artifact_2206127643": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-1b9d87c24f645ea5623545ba997ecacbd5582a61)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-1b9d87c24f645ea5623545ba997ecacbd5582a61, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-19T10:43:51.598726+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22230",
+  "number": 22230,
+  "title": "8344338: javax/swing/JTextArea/bug4265784.java fails on Ubuntu 24.04.1",
+  "head_sha": "1b9d87c24f645ea5623545ba997ecacbd5582a61",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11910071565"
+}
