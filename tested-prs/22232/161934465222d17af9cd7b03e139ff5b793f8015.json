@@ -1,0 +1,16 @@
+{
+  "artifact_2211338049": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-161934465222d17af9cd7b03e139ff5b793f8015)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-161934465222d17af9cd7b03e139ff5b793f8015, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4754e1b9b1a5c2c367f502c7cb087c1800ce3f2e.json"
+  ],
+  "datetime": "2024-11-20T05:42:23.100625+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22232",
+  "number": 22232,
+  "title": "8344190: Cleanup code in sun.net.www.protocol.http and sun.net.www.protocol.https after JEP 486 integration",
+  "head_sha": "161934465222d17af9cd7b03e139ff5b793f8015",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11927358512"
+}
