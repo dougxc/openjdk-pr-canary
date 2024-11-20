@@ -1,0 +1,15 @@
+{
+  "artifact_2215227394": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dfuch-169e8c20a56128d4cda440f2ff3df90f21c26bcc)\nOpenJDK 64-Bit Server VM (build 24-internal-dfuch-169e8c20a56128d4cda440f2ff3df90f21c26bcc, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-11-20T20:58:05.180040+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22281",
+  "number": 22281,
+  "title": "8344235: Revisit SecurityManager usage in java.logging after JEP 486 integration",
+  "head_sha": "169e8c20a56128d4cda440f2ff3df90f21c26bcc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11941231842"
+}
