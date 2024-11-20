@@ -1,0 +1,14 @@
+{
+  "artifact_2210466994": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-alexeysemenyukoracle-9d1f097d8dd0a9d0d7b00b0d57666cbbd2bc18da)\nOpenJDK 64-Bit Server VM (build 24-internal-alexeysemenyukoracle-9d1f097d8dd0a9d0d7b00b0d57666cbbd2bc18da, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-20T02:20:41.353398+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22261",
+  "number": 22261,
+  "title": "8344587: Reduce number of \"jdk.jpackage.internal\" classes used from other packages",
+  "head_sha": "9d1f097d8dd0a9d0d7b00b0d57666cbbd2bc18da",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11925269310"
+}
