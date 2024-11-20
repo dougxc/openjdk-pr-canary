@@ -1,0 +1,16 @@
+{
+  "artifact_2211617684": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sendaoYan-bc90d67d0050b14a85b943a2f458721b5b1fcd06)\nOpenJDK 64-Bit Server VM (build 24-internal-sendaoYan-bc90d67d0050b14a85b943a2f458721b5b1fcd06, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4f73e9ebdbba12de752045905ed90e779e121a35.json"
+  ],
+  "datetime": "2024-11-20T07:38:40.295785+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22264",
+  "number": 22264,
+  "title": "8344526: RISC-V: implement -XX:+VerifyActivationFrameSize",
+  "head_sha": "bc90d67d0050b14a85b943a2f458721b5b1fcd06",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11928682158"
+}
