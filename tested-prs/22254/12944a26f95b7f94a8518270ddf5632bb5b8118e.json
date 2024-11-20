@@ -1,0 +1,14 @@
+{
+  "artifact_2212319770": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-vy-12944a26f95b7f94a8518270ddf5632bb5b8118e)\nOpenJDK 64-Bit Server VM (build 24-internal-vy-12944a26f95b7f94a8518270ddf5632bb5b8118e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-20T10:45:36.052248+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22254",
+  "number": 22254,
+  "title": "8344215: Remove calls to SecurityManager and doPrivileged in java.net.Socket and java.net.ServerSocket after JEP 486 integration",
+  "head_sha": "12944a26f95b7f94a8518270ddf5632bb5b8118e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11931592710"
+}
