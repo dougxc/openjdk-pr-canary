@@ -1,0 +1,16 @@
+{
+  "artifact_2215300876": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-rkennke-6f8b5adff75d97f2044f54e1a73b4dd86bb8c5d7)\nOpenJDK 64-Bit Server VM (build 24-internal-rkennke-6f8b5adff75d97f2044f54e1a73b4dd86bb8c5d7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "26c3680e48b0fa112bb4950c1740d7af9d484426.json"
+  ],
+  "datetime": "2024-11-20T21:20:16.992726+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22255",
+  "number": 22255,
+  "title": "8344363: FullGCForwarding::initialize_flags is called after ObjLayout::initialize",
+  "head_sha": "6f8b5adff75d97f2044f54e1a73b4dd86bb8c5d7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11941231842"
+}
