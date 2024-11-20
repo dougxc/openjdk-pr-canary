@@ -1,0 +1,22 @@
+{
+  "artifact_2211688822": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-146645380fab0a173de6731511511f986c028d4e)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-146645380fab0a173de6731511511f986c028d4e, mixed mode, sharing)"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/10111",
+    "number": "10111",
+    "revision": "4eb16127c9529e6efcc021e8abb495333926573a"
+  },
+  "status": "passed",
+  "history": [
+    "1c26dbf2ad32eb7601c784d3c10143c337725b7d.json",
+    "5a82b7299fe6e3aeb90f1df84621b0fd47b06637.json"
+  ],
+  "datetime": "2024-11-20T08:46:05.628751+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22233",
+  "number": 22233,
+  "title": "8344223: Remove calls to SecurityManager and doPrivileged in java.net.URLClassLoader after JEP 486 integration",
+  "head_sha": "146645380fab0a173de6731511511f986c028d4e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11929607184"
+}
