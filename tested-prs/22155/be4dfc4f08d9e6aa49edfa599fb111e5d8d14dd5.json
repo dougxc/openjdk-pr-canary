@@ -1,0 +1,16 @@
+{
+  "artifact_2213001511": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kevinjwalls-be4dfc4f08d9e6aa49edfa599fb111e5d8d14dd5)\nOpenJDK 64-Bit Server VM (build 24-internal-kevinjwalls-be4dfc4f08d9e6aa49edfa599fb111e5d8d14dd5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "39ae00748c1103a717cbc07c460aba495e34b301.json"
+  ],
+  "datetime": "2024-11-20T13:58:16.697768+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22155",
+  "number": 22155,
+  "title": "8344181: Remove SecurityManager and related calls from jdk.management and jdk.management.agent",
+  "head_sha": "be4dfc4f08d9e6aa49edfa599fb111e5d8d14dd5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11934483759"
+}
