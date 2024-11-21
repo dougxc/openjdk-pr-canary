@@ -1,0 +1,14 @@
+{
+  "artifact_2216960681": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-23d6ecc0127719342230020555af6642025d36c6)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-23d6ecc0127719342230020555af6642025d36c6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-21T05:41:58.086114+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22290",
+  "number": 22290,
+  "title": "8344569: SwingUtilities2.makeIcon_Unprivileged is obsolete",
+  "head_sha": "23d6ecc0127719342230020555af6642025d36c6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11947245373"
+}
