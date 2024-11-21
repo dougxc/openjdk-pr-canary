@@ -1,0 +1,14 @@
+{
+  "artifact_2221523337": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-30152179feaaa49943d4c42d05f5c330cdd846b5)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-30152179feaaa49943d4c42d05f5c330cdd846b5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-21T22:46:33.358527+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22308",
+  "number": 22308,
+  "title": "8344795: Remove uses of AccessControlContext in java.desktop module",
+  "head_sha": "30152179feaaa49943d4c42d05f5c330cdd846b5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11962776797"
+}
