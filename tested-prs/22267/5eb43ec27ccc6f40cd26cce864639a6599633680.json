@@ -1,0 +1,16 @@
+{
+  "artifact_2219690360": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kumarabhi006-5eb43ec27ccc6f40cd26cce864639a6599633680)\nOpenJDK 64-Bit Server VM (build 24-internal-kumarabhi006-5eb43ec27ccc6f40cd26cce864639a6599633680, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3c74565b6c260a955147c40d2d895c49ee67841f.json"
+  ],
+  "datetime": "2024-11-21T16:59:02.117204+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22267",
+  "number": 22267,
+  "title": "8344066: Remove SecurityManager uses from the jdk.accessibility module",
+  "head_sha": "5eb43ec27ccc6f40cd26cce864639a6599633680",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11957601565"
+}
