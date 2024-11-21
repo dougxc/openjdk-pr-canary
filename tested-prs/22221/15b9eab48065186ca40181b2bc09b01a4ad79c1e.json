@@ -1,0 +1,17 @@
+{
+  "artifact_2216219176": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-15b9eab48065186ca40181b2bc09b01a4ad79c1e)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-15b9eab48065186ca40181b2bc09b01a4ad79c1e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7bc7a801491f18b16e61efe25825f6fad0ee44b3.json",
+    "cebd99efcc6494c6ef5d2b05a27164a354b8bfa4.json"
+  ],
+  "datetime": "2024-11-21T03:09:30.698609+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22221",
+  "number": 22221,
+  "title": "8342903: Deprecate for removal java.awt.Window.getWarningString()",
+  "head_sha": "15b9eab48065186ca40181b2bc09b01a4ad79c1e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11945151552"
+}
