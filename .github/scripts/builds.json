@@ -68625,9 +68625,6 @@
 		},
 		"aliases": [
 			"jdk-24-2467"
-		],
-		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -69713,9 +69710,6 @@
 		},
 		"aliases": [
 			"jdk-24-2512"
-		],
-		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -71831,9 +71825,6 @@
 		},
 		"aliases": [
 			"jdk-24-2601"
-		],
-		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -72949,9 +72940,6 @@
 		},
 		"aliases": [
 			"jdk-24-2647"
-		],
-		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -85294,7 +85282,11 @@
 			]
 		},
 		"aliases": [
-			"jdk-24-3155"
+			"jdk-24-3155",
+			"jdk-24+25"
+		],
+		"tags": [
+			"PROMOTED"
 		]
 	},
 	{
@@ -85689,6 +85681,87 @@
 		},
 		"aliases": [
 			"jdk-24-3171"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-24+25-3172",
+		"revisions": {
+			"graal": [
+				"0313293e2471cb7f74302dd7fa8bc1ae93886f2c"
+			],
+			"graal-enterprise": [
+				"9b5d0ae161841544797b3f17bf1ac2a3960fb19e"
+			],
+			"open": [
+				"eef156180c772a042416fc35d86072e722519f0b"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			],
+			".": [
+				"105f0b6b97fca5ec96a7b94ddca99ccd15ff4386"
+			]
+		},
+		"aliases": [
+			"jdk-24-3172"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-24+25-3173",
+		"revisions": {
+			"graal": [
+				"0313293e2471cb7f74302dd7fa8bc1ae93886f2c"
+			],
+			"graal-enterprise": [
+				"9b5d0ae161841544797b3f17bf1ac2a3960fb19e"
+			],
+			".": [
+				"f195cc350ebc202ba11a5f9537be9bd73a114bc4",
+				"fbfc803490b9ed5017d820b1a07da603fc7a735d"
+			],
+			"open": [
+				"eef156180c772a042416fc35d86072e722519f0b"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			]
+		},
+		"aliases": [
+			"jdk-24-3173"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-24+25-3174",
+		"revisions": {
+			"graal": [
+				"0313293e2471cb7f74302dd7fa8bc1ae93886f2c"
+			],
+			"open": [
+				"dfa18fe6b395171c821cde02f081e12dd1565ba5",
+				"87be63f85dbbfd8695817a913ef2b2ae5b0d78e9",
+				"aaf3df7bb80d84d3870d8840c2935d4567f83f3c"
+			],
+			"graal-enterprise": [
+				"9b5d0ae161841544797b3f17bf1ac2a3960fb19e"
+			],
+			".": [
+				"f195cc350ebc202ba11a5f9537be9bd73a114bc4"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			]
+		},
+		"aliases": [
+			"jdk-24-3174"
 		],
 		"tags": [
 			"LIBGRAAL_BUILD_FAILED"
