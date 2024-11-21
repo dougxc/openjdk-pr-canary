@@ -1,0 +1,18 @@
+{
+  "artifact_2220160522": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-DamonGuy-0b1ae7a1e41a4969ae5fd6f425ec831577e820c6)\nOpenJDK 64-Bit Server VM (build 24-internal-DamonGuy-0b1ae7a1e41a4969ae5fd6f425ec831577e820c6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2f6566c54d9ee27df511e69d87abd6be3abef70e.json",
+    "83669d5699afb33f95c7825bfd45f7cb08413d87.json",
+    "c2b4389e26b77f99db162b55c240db7be6d39096.json"
+  ],
+  "datetime": "2024-11-21T17:44:25.180974+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20845",
+  "number": 20845,
+  "title": "6672644: JComboBox still scrolling if switch to another window and return back",
+  "head_sha": "0b1ae7a1e41a4969ae5fd6f425ec831577e820c6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11958511905"
+}
