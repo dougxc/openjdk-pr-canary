@@ -1,0 +1,16 @@
+{
+  "artifact_2217415925": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-9f0dd01cd9680248d765a0b1ba3a408901c73a3a)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-9f0dd01cd9680248d765a0b1ba3a408901c73a3a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b53792ffe6b9ea71d16a1d87c93569e01323cf90.json"
+  ],
+  "datetime": "2024-11-21T08:44:52.427096+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22276",
+  "number": 22276,
+  "title": "8344583: Make ArchiveWorkers lifecycle robust",
+  "head_sha": "9f0dd01cd9680248d765a0b1ba3a408901c73a3a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11949460307"
+}
