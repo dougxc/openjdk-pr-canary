@@ -1,0 +1,18 @@
+{
+  "artifact_2216912345": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kurashige23-f013d9fb8c949f42349ea61bcdf7a9f2035d6db9)\nOpenJDK 64-Bit Server VM (build 24-internal-kurashige23-f013d9fb8c949f42349ea61bcdf7a9f2035d6db9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0d9fee82892cf9225279cf4de8e2dfae9958ffb0.json",
+    "9181324fee4cfc401d8c6ab317d7c502ac509c44.json",
+    "b1ee8f6f0fcd14b6a8b63ecbf3e572b86311e68a.json"
+  ],
+  "datetime": "2024-11-21T06:03:09.201347+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22142",
+  "number": 22142,
+  "title": "8344275: tools/jpackage/windows/Win8301247Test.java fails on localized Windows platform",
+  "head_sha": "f013d9fb8c949f42349ea61bcdf7a9f2035d6db9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11947245373"
+}
