@@ -73038,9 +73038,6 @@
 		},
 		"aliases": [
 			"jdk-24-2651"
-		],
-		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -85765,6 +85762,102 @@
 		],
 		"tags": [
 			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-24+26-3175",
+		"revisions": {
+			"graal": [
+				"0313293e2471cb7f74302dd7fa8bc1ae93886f2c"
+			],
+			".": [
+				"4c2d5844a4e723421cdf04057689044568852910"
+			],
+			"open": [
+				"dfa18fe6b395171c821cde02f081e12dd1565ba5"
+			],
+			"graal-enterprise": [
+				"9b5d0ae161841544797b3f17bf1ac2a3960fb19e"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			]
+		},
+		"aliases": [
+			"jdk-24-3175"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-24+26-3176",
+		"revisions": {
+			"graal": [
+				"0313293e2471cb7f74302dd7fa8bc1ae93886f2c"
+			],
+			".": [
+				"4c2d5844a4e723421cdf04057689044568852910"
+			],
+			"graal-enterprise": [
+				"9b5d0ae161841544797b3f17bf1ac2a3960fb19e"
+			],
+			"open": [
+				"395e404666e51f76270de4de1899aa681ba889c9"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			]
+		},
+		"aliases": [
+			"jdk-24-3176"
+		]
+	},
+	{
+		"id": "jdk-24+26-3177",
+		"revisions": {
+			"graal": [
+				"0313293e2471cb7f74302dd7fa8bc1ae93886f2c"
+			],
+			".": [
+				"4c2d5844a4e723421cdf04057689044568852910"
+			],
+			"graal-enterprise": [
+				"9b5d0ae161841544797b3f17bf1ac2a3960fb19e"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			],
+			"open": [
+				"6113fa75035440aa211c9df291c02dc9d0d40b4b"
+			]
+		},
+		"aliases": [
+			"jdk-24-3177"
+		]
+	},
+	{
+		"id": "jdk-24+26-3178",
+		"revisions": {
+			"graal": [
+				"0313293e2471cb7f74302dd7fa8bc1ae93886f2c"
+			],
+			".": [
+				"4c2d5844a4e723421cdf04057689044568852910"
+			],
+			"graal-enterprise": [
+				"9b5d0ae161841544797b3f17bf1ac2a3960fb19e"
+			],
+			"open": [
+				"78e5008e91610847bc11103e667fbe602b03d86a",
+				"4956a766213c3d76e13b98ac5d5efe5d4f553895"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			]
+		},
+		"aliases": [
+			"jdk-24-3178"
 		]
 	}
 ]
