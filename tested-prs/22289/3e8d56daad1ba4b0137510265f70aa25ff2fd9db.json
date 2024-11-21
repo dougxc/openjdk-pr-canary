@@ -1,0 +1,14 @@
+{
+  "artifact_2216327685": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-stuart-marks-3e8d56daad1ba4b0137510265f70aa25ff2fd9db)\nOpenJDK 64-Bit Server VM (build 24-internal-stuart-marks-3e8d56daad1ba4b0137510265f70aa25ff2fd9db, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-21T02:09:54.971906+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22289",
+  "number": 22289,
+  "title": "8272339: Update notes section from serialver man page",
+  "head_sha": "3e8d56daad1ba4b0137510265f70aa25ff2fd9db",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11945151552"
+}
