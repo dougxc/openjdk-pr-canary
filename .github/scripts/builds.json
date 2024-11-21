@@ -78795,9 +78795,6 @@
 		},
 		"aliases": [
 			"jdk-24-2894"
-		],
-		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
