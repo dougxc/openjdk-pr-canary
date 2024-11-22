@@ -1,0 +1,14 @@
+{
+  "artifact_2224832391": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-vy-03e63f09859efab50a068ddbd7e15654b850c0c0)\nOpenJDK 64-Bit Server VM (build 24-internal-vy-03e63f09859efab50a068ddbd7e15654b850c0c0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-22T15:42:29.937462+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22326",
+  "number": 22326,
+  "title": "8344222: Remove calls to SecurityManager and doPrivileged  in java.net.HttpURLConnection, java.net.HttpConnectSocketImpl,  and javax.net.HttpsURLConnection after JEP 486 integration",
+  "head_sha": "03e63f09859efab50a068ddbd7e15654b850c0c0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11975464438"
+}
