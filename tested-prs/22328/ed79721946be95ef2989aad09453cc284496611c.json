@@ -1,0 +1,16 @@
+{
+  "artifact_2226067440": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RogerRiggs-ed79721946be95ef2989aad09453cc284496611c)\nOpenJDK 64-Bit Server VM (build 24-internal-RogerRiggs-ed79721946be95ef2989aad09453cc284496611c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "bbf6e9907fff61145d81da652ddc09c7caeb4ca2.json"
+  ],
+  "datetime": "2024-11-22T20:40:15.004019+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22328",
+  "number": 22328,
+  "title": "8344865: SM cleanup in sun/reflect/annotation",
+  "head_sha": "ed79721946be95ef2989aad09453cc284496611c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11978819326"
+}
