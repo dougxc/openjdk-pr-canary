@@ -1,0 +1,16 @@
+{
+  "artifact_2225033690": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dfuch-13559b32dc1dc147e76ff2b9579f81f43f03a78c)\nOpenJDK 64-Bit Server VM (build 24-internal-dfuch-13559b32dc1dc147e76ff2b9579f81f43f03a78c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ac6ecb1d6019ade653e27cc7b82ee6414fbf3fe1.json"
+  ],
+  "datetime": "2024-11-22T15:57:54.820231+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22321",
+  "number": 22321,
+  "title": "8344855: Remove calls to SecurityManager and doPrivileged  in HTTP related implementation classes in the sun.net and sun.net.www.http packages after JEP 486 integration",
+  "head_sha": "13559b32dc1dc147e76ff2b9579f81f43f03a78c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11975464438"
+}
