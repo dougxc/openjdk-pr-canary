@@ -1,0 +1,16 @@
+{
+  "artifact_2223920789": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dfuch-72b67a89e23e6f149c8de7c2b2eeac4a07dbb075)\nOpenJDK 64-Bit Server VM (build 24-internal-dfuch-72b67a89e23e6f149c8de7c2b2eeac4a07dbb075, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "668e0f9915c50218b8b7e3f7db469b0414d00cea.json"
+  ],
+  "datetime": "2024-11-22T12:09:51.557672+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22303",
+  "number": 22303,
+  "title": "8344217: Remove calls to SecurityManager and doPrivileged in java.net.DatagramSocket and java.net.NetMulticastSocket after JEP 486 integration",
+  "head_sha": "72b67a89e23e6f149c8de7c2b2eeac4a07dbb075",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11971678169"
+}
