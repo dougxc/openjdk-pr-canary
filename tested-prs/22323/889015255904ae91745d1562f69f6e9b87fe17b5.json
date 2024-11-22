@@ -1,0 +1,14 @@
+{
+  "artifact_2224651863": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dougxc-889015255904ae91745d1562f69f6e9b87fe17b5)\nOpenJDK 64-Bit Server VM (build 24-internal-dougxc-889015255904ae91745d1562f69f6e9b87fe17b5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-22T14:43:50.374533+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22323",
+  "number": 22323,
+  "title": "8344628: Test TestEnableJVMCIProduct.java run with virtual thread intermittent fails",
+  "head_sha": "889015255904ae91745d1562f69f6e9b87fe17b5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11974521860"
+}
