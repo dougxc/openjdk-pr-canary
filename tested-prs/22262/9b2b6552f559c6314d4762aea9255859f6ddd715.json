@@ -1,0 +1,17 @@
+{
+  "artifact_2221807391": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-calvinccheung-9b2b6552f559c6314d4762aea9255859f6ddd715)\nOpenJDK 64-Bit Server VM (build 24-internal-calvinccheung-9b2b6552f559c6314d4762aea9255859f6ddd715, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "96b7945f15af575c8c50b83bb5edbd53a3989095.json",
+    "d9d70379e1d20cad29db7501016ed1398a54c324.json"
+  ],
+  "datetime": "2024-11-22T02:20:23.406933+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22262",
+  "number": 22262,
+  "title": "8343427: Class file load hook crashes on archived classes from multi-release JARs",
+  "head_sha": "9b2b6552f559c6314d4762aea9255859f6ddd715",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11965046576"
+}
