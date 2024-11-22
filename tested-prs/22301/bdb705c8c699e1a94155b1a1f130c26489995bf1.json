@@ -1,0 +1,17 @@
+{
+  "artifact_2225472136": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-seanjmullan-bdb705c8c699e1a94155b1a1f130c26489995bf1)\nOpenJDK 64-Bit Server VM (build 24-internal-seanjmullan-bdb705c8c699e1a94155b1a1f130c26489995bf1, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "e2525d8ae045178cfe29f87c3b7fbd64d4feeb5f.json"
+  ],
+  "datetime": "2024-11-22T17:32:44.266339+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22301",
+  "number": 22301,
+  "title": "8344366: Remove Security Manager dependencies from javax.net.ssl and sun.security.ssl packages",
+  "head_sha": "bdb705c8c699e1a94155b1a1f130c26489995bf1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11977277450"
+}
