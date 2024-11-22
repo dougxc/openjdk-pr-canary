@@ -1,0 +1,17 @@
+{
+  "artifact_2223977747": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-0b58479d2fdcc6c699c102a8fda17480c94e50ab)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-0b58479d2fdcc6c699c102a8fda17480c94e50ab, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d6220b19a0c4b54d8fc879302baacfa90075f47f.json",
+    "e5d8ee3b1c477279f6bba976c381d16a6fecf774.json"
+  ],
+  "datetime": "2024-11-22T12:21:17.440687+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22179",
+  "number": 22179,
+  "title": "8343150: Change URLClassLoader.getPermissions to return empty PermissionCollection",
+  "head_sha": "0b58479d2fdcc6c699c102a8fda17480c94e50ab",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11971678169"
+}
