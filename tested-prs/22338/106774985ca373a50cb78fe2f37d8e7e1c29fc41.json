@@ -1,0 +1,14 @@
+{
+  "artifact_2226939258": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-106774985ca373a50cb78fe2f37d8e7e1c29fc41)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-106774985ca373a50cb78fe2f37d8e7e1c29fc41, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-23T02:16:06.590234+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22338",
+  "number": 22338,
+  "title": "8344894: Obsolete reference to checking permissions in java.awt.Composite",
+  "head_sha": "106774985ca373a50cb78fe2f37d8e7e1c29fc41",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11983028105"
+}
