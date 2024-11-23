@@ -1,0 +1,14 @@
+{
+  "artifact_2226977583": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-5640acb77be751509c5d2eee4703046dcaa05b57)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-5640acb77be751509c5d2eee4703046dcaa05b57, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-23T02:05:47.090549+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22339",
+  "number": 22339,
+  "title": "8344882: (bf) Temporary direct buffers should not count against the upper limit on direct buffer memory",
+  "head_sha": "5640acb77be751509c5d2eee4703046dcaa05b57",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11983028105"
+}
