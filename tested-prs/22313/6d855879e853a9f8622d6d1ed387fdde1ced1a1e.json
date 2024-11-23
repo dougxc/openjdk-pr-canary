@@ -1,0 +1,16 @@
+{
+  "artifact_2227066223": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-iklam-6d855879e853a9f8622d6d1ed387fdde1ced1a1e)\nOpenJDK 64-Bit Server VM (build 24-internal-iklam-6d855879e853a9f8622d6d1ed387fdde1ced1a1e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e335cf216315ac29fb59c93eb6ebd57235089366.json"
+  ],
+  "datetime": "2024-11-23T02:47:06.648375+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22313",
+  "number": 22313,
+  "title": "8344824: CDS dump crashes when member_method of a lambda proxy is null",
+  "head_sha": "6d855879e853a9f8622d6d1ed387fdde1ced1a1e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11983028105"
+}
