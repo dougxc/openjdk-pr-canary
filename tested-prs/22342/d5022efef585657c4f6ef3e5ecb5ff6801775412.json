@@ -1,0 +1,14 @@
+{
+  "artifact_2228024626": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sendaoYan-d5022efef585657c4f6ef3e5ecb5ff6801775412)\nOpenJDK 64-Bit Server VM (build 24-internal-sendaoYan-d5022efef585657c4f6ef3e5ecb5ff6801775412, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-23T14:40:44.089411+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22342",
+  "number": 22342,
+  "title": "8344903: Test TestJhsdbJstackPrintVMLocks.java intermittemt fails getProcess() is null",
+  "head_sha": "d5022efef585657c4f6ef3e5ecb5ff6801775412",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11987943919"
+}
