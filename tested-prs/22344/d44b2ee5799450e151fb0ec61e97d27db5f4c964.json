@@ -1,0 +1,18 @@
+{
+  "artifact_2229011132": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-merykitty-d44b2ee5799450e151fb0ec61e97d27db5f4c964)\nOpenJDK 64-Bit Server VM (build 24-internal-merykitty-d44b2ee5799450e151fb0ec61e97d27db5f4c964, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "cf69f90f52c542d408887b5555edf41aa49c7131.json",
+    "d81888fccacfa8398f7fff20a161d891d364c65d.json"
+  ],
+  "datetime": "2024-11-24T04:35:34.349491+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22344",
+  "number": 22344,
+  "title": "8344912: Sharpen the return type of various internal methods in jdk.internal.foreign",
+  "head_sha": "d44b2ee5799450e151fb0ec61e97d27db5f4c964",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11993155869"
+}
