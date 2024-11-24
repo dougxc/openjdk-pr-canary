@@ -1,0 +1,14 @@
+{
+  "artifact_2229196919": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-DamonGuy-c51406a1cab66e9ac7710694c56b9fee13b6b352)\nOpenJDK 64-Bit Server VM (build 24-internal-DamonGuy-c51406a1cab66e9ac7710694c56b9fee13b6b352, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-24T07:36:51.195912+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22346",
+  "number": 22346,
+  "title": "8344914: OOME in several tests since JDK-6672644 - JComboBox still scrolling",
+  "head_sha": "c51406a1cab66e9ac7710694c56b9fee13b6b352",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/11994192538"
+}
