@@ -1,0 +1,16 @@
+{
+  "artifact_2233076900": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-df8cf06fa849882b9dd2f66bfcdce6b7fea73c89)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-df8cf06fa849882b9dd2f66bfcdce6b7fea73c89, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "96a5b649cbabbe4b30b98d163a91d003af9028ea.json"
+  ],
+  "datetime": "2024-11-25T13:46:40.036330+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22341",
+  "number": 22341,
+  "title": "8339983: [s390x] secondary_super_cache does not scale well: C1 and interpreter",
+  "head_sha": "df8cf06fa849882b9dd2f66bfcdce6b7fea73c89",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12011186908"
+}
