@@ -1,0 +1,16 @@
+{
+  "artifact_2231589765": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-asotona-17749f836f0a9f23f545569049c089ca80689fa8)\nOpenJDK 64-Bit Server VM (build 24-internal-asotona-17749f836f0a9f23f545569049c089ca80689fa8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6db7e46e8c125c53ebfa1e4f6ba08759cd58e1c6.json"
+  ],
+  "datetime": "2024-11-25T08:46:45.764011+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22316",
+  "number": 22316,
+  "title": "8344841: ClassPrinter prints confusing value for null",
+  "head_sha": "17749f836f0a9f23f545569049c089ca80689fa8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12006158986"
+}
