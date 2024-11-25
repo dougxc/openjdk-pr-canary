@@ -1,0 +1,14 @@
+{
+  "artifact_2231572743": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-AlanBateman-bb8971db0a84b921c002d89c9c9d9ab67bec59f9)\nOpenJDK 64-Bit Server VM (build 24-internal-AlanBateman-bb8971db0a84b921c002d89c9c9d9ab67bec59f9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-25T09:41:34.242344+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22357",
+  "number": 22357,
+  "title": "8344577: Virtual thread tests are timing out on some macOS systems",
+  "head_sha": "bb8971db0a84b921c002d89c9c9d9ab67bec59f9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12007069876"
+}
