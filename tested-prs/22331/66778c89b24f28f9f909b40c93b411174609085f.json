@@ -1,0 +1,16 @@
+{
+  "artifact_2233991214": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-SoniaZaldana-66778c89b24f28f9f909b40c93b411174609085f)\nOpenJDK 64-Bit Server VM (build 24-internal-SoniaZaldana-66778c89b24f28f9f909b40c93b411174609085f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2725d2403229cc75037581f3b89609493c564ae5.json"
+  ],
+  "datetime": "2024-11-25T16:58:39.070353+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22331",
+  "number": 22331,
+  "title": "8344013: \"bad tag in log\" assert with +LogCompilation +CITimeVerbose",
+  "head_sha": "66778c89b24f28f9f909b40c93b411174609085f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12014573044"
+}
