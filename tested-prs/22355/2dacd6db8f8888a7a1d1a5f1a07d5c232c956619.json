@@ -1,0 +1,14 @@
+{
+  "artifact_2231385189": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sendaoYan-2dacd6db8f8888a7a1d1a5f1a07d5c232c956619)\nOpenJDK 64-Bit Server VM (build 24-internal-sendaoYan-2dacd6db8f8888a7a1d1a5f1a07d5c232c956619, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-25T07:53:39.414480+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22355",
+  "number": 22355,
+  "title": "8304674: File java.c compile error with -fsanitize=address -O0",
+  "head_sha": "2dacd6db8f8888a7a1d1a5f1a07d5c232c956619",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12005240521"
+}
