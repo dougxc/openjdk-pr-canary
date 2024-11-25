@@ -1,0 +1,14 @@
+{
+  "artifact_2235787016": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-fc214b6a6f75b7468da7a85a8a3cb480f3b77147)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-fc214b6a6f75b7468da7a85a8a3cb480f3b77147, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-25T23:05:52.478245+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22373",
+  "number": 22373,
+  "title": "8344994: Remove most uses of RuntimePermission checks in java.desktop",
+  "head_sha": "fc214b6a6f75b7468da7a85a8a3cb480f3b77147",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12019952923"
+}
