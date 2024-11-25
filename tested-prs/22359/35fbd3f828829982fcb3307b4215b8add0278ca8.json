@@ -1,0 +1,14 @@
+{
+  "artifact_2232851430": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jonath4ndev-35fbd3f828829982fcb3307b4215b8add0278ca8)\nOpenJDK 64-Bit Server VM (build 24-internal-jonath4ndev-35fbd3f828829982fcb3307b4215b8add0278ca8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-25T13:15:16.676459+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22359",
+  "number": 22359,
+  "title": "8035271: Incorrect indentation of LineNumberTable/LocalVariableTable/Exception table/LocalVariableTypeTable/StackMapTable/RuntimeVisibleTypeAnnotations in verbose mode",
+  "head_sha": "35fbd3f828829982fcb3307b4215b8add0278ca8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12010443117"
+}
