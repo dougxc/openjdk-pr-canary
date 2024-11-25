@@ -1,0 +1,18 @@
+{
+  "artifact_2234479159": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-DougLea-2a58ea299d0eb50176149386d2a1c3e3d5198ba7)\nOpenJDK 64-Bit Server VM (build 24-internal-DougLea-2a58ea299d0eb50176149386d2a1c3e3d5198ba7, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "12126ed192e0f7743d3aefc94fa8776dddd25fad.json",
+    "fb756fae66b2ec9aa9b4e0daf77e0ba3189d86c6.json"
+  ],
+  "datetime": "2024-11-25T17:44:34.403507+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22324",
+  "number": 22324,
+  "title": "8344773: SM cleanup in ForkJoinPool",
+  "head_sha": "2a58ea299d0eb50176149386d2a1c3e3d5198ba7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12015501829"
+}
