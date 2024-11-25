@@ -1,0 +1,14 @@
+{
+  "artifact_2234566195": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eirbjo-abc2d2fe45a6e43db19b214db0df0c9a9f9779bc)\nOpenJDK 64-Bit Server VM (build 24-internal-eirbjo-abc2d2fe45a6e43db19b214db0df0c9a9f9779bc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-25T19:00:23.298811+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22343",
+  "number": 22343,
+  "title": "8344911: Introduce test utility for asserting file open status",
+  "head_sha": "abc2d2fe45a6e43db19b214db0df0c9a9f9779bc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12016567105"
+}
