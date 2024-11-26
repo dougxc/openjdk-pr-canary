@@ -1,0 +1,14 @@
+{
+  "artifact_2241730494": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RogerRiggs-452b95b34792da2cf89d62bc9ecd9bc820cacc7a)\nOpenJDK 64-Bit Server VM (build 24-internal-RogerRiggs-452b95b34792da2cf89d62bc9ecd9bc820cacc7a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-26T23:38:40.356237+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22400",
+  "number": 22400,
+  "title": "8344555: SM cleanup - drop reflection filter of System.security field",
+  "head_sha": "452b95b34792da2cf89d62bc9ecd9bc820cacc7a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12040746654"
+}
