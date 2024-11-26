@@ -1,0 +1,17 @@
+{
+  "artifact_2237225589": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-c348272006b2f76c1d4875077a378c0cd5cec330)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-c348272006b2f76c1d4875077a378c0cd5cec330, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "20674bdc5f26237083f95e405496f427115712ee.json",
+    "9f9a40d3cb12b02009843645e16f156cdcf4dc74.json"
+  ],
+  "datetime": "2024-11-26T07:51:23.959572+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22351",
+  "number": 22351,
+  "title": "8344908: URLClassPath should not propagate IllegalArgumentException when finding resources in classpath URLs",
+  "head_sha": "c348272006b2f76c1d4875077a378c0cd5cec330",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12025822007"
+}
