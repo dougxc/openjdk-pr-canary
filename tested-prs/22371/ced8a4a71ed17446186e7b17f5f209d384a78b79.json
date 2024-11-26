@@ -1,0 +1,16 @@
+{
+  "artifact_2240601470": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-honkar-jdk-ced8a4a71ed17446186e7b17f5f209d384a78b79)\nOpenJDK 64-Bit Server VM (build 24-internal-honkar-jdk-ced8a4a71ed17446186e7b17f5f209d384a78b79, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e9757bfbfd2c19fe3c72ab50a3bf8708b77b866d.json"
+  ],
+  "datetime": "2024-11-26T19:15:47.015366+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22371",
+  "number": 22371,
+  "title": "JDK-8344654 : Some client tests still expect a SecurityManager after JEP486",
+  "head_sha": "ced8a4a71ed17446186e7b17f5f209d384a78b79",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12036929095"
+}
