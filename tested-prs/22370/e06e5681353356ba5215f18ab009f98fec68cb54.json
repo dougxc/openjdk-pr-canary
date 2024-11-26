@@ -1,0 +1,16 @@
+{
+  "artifact_2236100668": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RogerRiggs-e06e5681353356ba5215f18ab009f98fec68cb54)\nOpenJDK 64-Bit Server VM (build 24-internal-RogerRiggs-e06e5681353356ba5215f18ab009f98fec68cb54, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6a004ab977ff8ecc70bd69c52c3ab3b6d4c5ca70.json"
+  ],
+  "datetime": "2024-11-26T02:57:57.421333+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22370",
+  "number": 22370,
+  "title": "8344565: SM cleanup in jdk/internal and java/lang package private classes",
+  "head_sha": "e06e5681353356ba5215f18ab009f98fec68cb54",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12022345577"
+}
