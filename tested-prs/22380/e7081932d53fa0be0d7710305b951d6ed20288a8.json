@@ -1,0 +1,14 @@
+{
+  "artifact_2237204918": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dholmes-ora-e7081932d53fa0be0d7710305b951d6ed20288a8)\nOpenJDK 64-Bit Server VM (build 24-internal-dholmes-ora-e7081932d53fa0be0d7710305b951d6ed20288a8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-26T20:25:15.720605+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22380",
+  "number": 22380,
+  "title": "8343703: Symbol name cleanups after JEP 479",
+  "head_sha": "e7081932d53fa0be0d7710305b951d6ed20288a8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12037604588"
+}
