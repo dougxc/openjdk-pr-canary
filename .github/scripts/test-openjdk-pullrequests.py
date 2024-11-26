@@ -343,7 +343,7 @@ def update_to_match_pr_merge_base(pr):
         for repo in ("graal", "mx"):
             git(["fetch", "--quiet", "--depth", "1", "origin", "galahad"], repo=repo)
             git(["reset", "--quiet", "--hard", "origin/galahad"], repo=repo)
-            rev = git(["revparse", "HEAD"], capture_output=True, repo=repo).strip()
+            rev = git(["rev-parse", "HEAD"], capture_output=True, repo=repo).strip()
             info(f"  updated {repo} to HEAD of galahad branch ({rev})")
         return True
 
