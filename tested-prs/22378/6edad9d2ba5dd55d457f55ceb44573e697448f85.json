@@ -1,0 +1,14 @@
+{
+  "artifact_2236458013": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-6edad9d2ba5dd55d457f55ceb44573e697448f85)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-6edad9d2ba5dd55d457f55ceb44573e697448f85, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-26T03:49:20.733084+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22378",
+  "number": 22378,
+  "title": "8342280: Deprecate for removal java.awt.AWTPermission",
+  "head_sha": "6edad9d2ba5dd55d457f55ceb44573e697448f85",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12022987130"
+}
