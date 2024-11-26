@@ -369,6 +369,7 @@ def test_pull_request(pr, artifact, failed_pull_requests):
     head_sha = pr["head"]["sha"]
 
     artifact_id = artifact["id"]
+    assert head_sha == artifact["workflow_run"]["head_sha"]
 
     # Print a bright green line to separate output for each tested PR
     info("--------------------------------------------------------------------------------------", "green")
