@@ -1,0 +1,14 @@
+{
+  "artifact_2239709926": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-vicente-romero-oracle-7389695d34148e81afbb50a204277f712e072e4b)\nOpenJDK 64-Bit Server VM (build 24-internal-vicente-romero-oracle-7389695d34148e81afbb50a204277f712e072e4b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-26T17:11:55.321328+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22392",
+  "number": 22392,
+  "title": "8345058: Javac issues different error messages for the modifiers of the requires directive",
+  "head_sha": "7389695d34148e81afbb50a204277f712e072e4b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12035045653"
+}
