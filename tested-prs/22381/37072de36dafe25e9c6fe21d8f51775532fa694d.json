@@ -1,0 +1,14 @@
+{
+  "artifact_2237228757": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-37072de36dafe25e9c6fe21d8f51775532fa694d)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-37072de36dafe25e9c6fe21d8f51775532fa694d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-26T07:40:17.898525+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22381",
+  "number": 22381,
+  "title": "8344256: Clean up obsolete code in java.desktop/share/classes/sun/awt/datatransfer/DataTransferer.java",
+  "head_sha": "37072de36dafe25e9c6fe21d8f51775532fa694d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12025822007"
+}
