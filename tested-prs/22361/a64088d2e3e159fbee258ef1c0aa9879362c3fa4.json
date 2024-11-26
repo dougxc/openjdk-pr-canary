@@ -1,0 +1,17 @@
+{
+  "artifact_2239161270": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-MBaesken-a64088d2e3e159fbee258ef1c0aa9879362c3fa4)\nOpenJDK 64-Bit Server VM (build 24-internal-MBaesken-a64088d2e3e159fbee258ef1c0aa9879362c3fa4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c70c5805112f70695a5e035a2b7bde8e2d65a23c.json",
+    "f8044bcf8692e4b282b4259617578aebb02fb0b7.json"
+  ],
+  "datetime": "2024-11-26T14:45:20.715924+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22361",
+  "number": 22361,
+  "title": "8344935: [ubsan]: javaThread.hpp:1241:52: runtime error: load of value 9831830, which is not a valid value for type 'freeze_result'",
+  "head_sha": "a64088d2e3e159fbee258ef1c0aa9879362c3fa4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12032796904"
+}
