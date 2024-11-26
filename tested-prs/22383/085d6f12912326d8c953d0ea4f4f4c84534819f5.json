@@ -1,0 +1,14 @@
+{
+  "artifact_2237401834": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-marchof-085d6f12912326d8c953d0ea4f4f4c84534819f5)\nOpenJDK 64-Bit Server VM (build 24-internal-marchof-085d6f12912326d8c953d0ea4f4f4c84534819f5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-26T08:46:04.568508+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22383",
+  "number": 22383,
+  "title": "8345015: Remove unused lookup_time_t_function",
+  "head_sha": "085d6f12912326d8c953d0ea4f4f4c84534819f5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12026742848"
+}
