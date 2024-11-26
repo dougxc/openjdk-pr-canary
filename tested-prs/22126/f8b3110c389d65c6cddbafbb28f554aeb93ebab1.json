@@ -1,0 +1,17 @@
+{
+  "artifact_2239601609": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-nizarbenalla-f8b3110c389d65c6cddbafbb28f554aeb93ebab1)\nOpenJDK 64-Bit Server VM (build 24-internal-nizarbenalla-f8b3110c389d65c6cddbafbb28f554aeb93ebab1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0ba6074758d253a3b751b657a41cec7ccbaae15a.json",
+    "afc93e0da653203a04661d0ba1bc1c932040cfd9.json"
+  ],
+  "datetime": "2024-11-26T15:42:38.736404+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22126",
+  "number": 22126,
+  "title": "8343239: Javadoc marks non-preview type as preview if it's the subtype of a preview type",
+  "head_sha": "f8b3110c389d65c6cddbafbb28f554aeb93ebab1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12033888975"
+}
