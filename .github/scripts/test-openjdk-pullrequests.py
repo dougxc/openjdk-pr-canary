@@ -340,6 +340,11 @@ def update_to_match_pr_merge_base(pr):
             "than 24 hours old so there's a good chance the HEAD of graal and mx are compatible",
             COLOR_WARN,
         )
+        for repo in ("graal", "mx"):
+            git(["fetch", "--quiet", "--depth", "1", "origin", "galahad"], repo=repo)
+            git(["reset", "--quiet", "--hard", "origin/galahad"], repo=repo)
+            rev = git(["revparse", "HEAD"], capture_output=True, repo=repo).strip()
+            info(f"  updated {repo} to HEAD of galahad branch ({rev})")
         return True
 
     info(f"no Galahad EE repo revisions matching the {mbc_desc}", COLOR_ERROR)
