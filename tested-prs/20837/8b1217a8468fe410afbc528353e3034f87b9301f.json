@@ -1,0 +1,22 @@
+{
+  "artifact_2240376931": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-magicus-8b1217a8468fe410afbc528353e3034f87b9301f)\nOpenJDK 64-Bit Server VM (build 24-internal-magicus-8b1217a8468fe410afbc528353e3034f87b9301f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "03cd9171f8512af85849f2b989134b313ca98fca.json",
+    "0e5ff083ef4f932c471eb66b84a5816af7c1fdb6.json",
+    "1d375bb4060540930f119881e91dbc27154c493e.json",
+    "41d370750ac29caad1ed7464a857769447be6250.json",
+    "971636f6fc870f17daefdd3e35f6cce60ba59aaa.json",
+    "de243c34b449edecdb1b4626ae801341c38a5125.json",
+    "f4f6845e205d99f4d71611c92ad1075d6db74d9d.json"
+  ],
+  "datetime": "2024-11-26T18:22:23.210404+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20837",
+  "number": 20837,
+  "title": "8339480: Build static-jdk image with a statically linked launcher",
+  "head_sha": "8b1217a8468fe410afbc528353e3034f87b9301f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12035045653"
+}
