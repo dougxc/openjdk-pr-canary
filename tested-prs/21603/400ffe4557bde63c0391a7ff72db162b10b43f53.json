@@ -1,0 +1,15 @@
+{
+  "artifact_2243456800": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jatin-bhateja-400ffe4557bde63c0391a7ff72db162b10b43f53)\nOpenJDK 64-Bit Server VM (build 24-internal-jatin-bhateja-400ffe4557bde63c0391a7ff72db162b10b43f53, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-11-27T10:06:36.967277+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21603",
+  "number": 21603,
+  "title": "8342677: Add IR validation tests for newly added saturated vector add / sub operations",
+  "head_sha": "400ffe4557bde63c0391a7ff72db162b10b43f53",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12047415561"
+}
