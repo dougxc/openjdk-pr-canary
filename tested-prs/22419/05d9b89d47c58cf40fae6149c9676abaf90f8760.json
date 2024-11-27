@@ -1,0 +1,14 @@
+{
+  "artifact_2246165965": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-caspernorrbin-05d9b89d47c58cf40fae6149c9676abaf90f8760)\nOpenJDK 64-Bit Server VM (build 24-internal-caspernorrbin-05d9b89d47c58cf40fae6149c9676abaf90f8760, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-27T18:48:41.662969+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22419",
+  "number": 22419,
+  "title": "8345126: [BACKOUT] JDK-8318127: align_up has potential overflow",
+  "head_sha": "05d9b89d47c58cf40fae6149c9676abaf90f8760",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12056370572"
+}
