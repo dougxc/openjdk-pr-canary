@@ -1,0 +1,14 @@
+{
+  "artifact_2243127425": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sendaoYan-0d3768d5197187f49f6069563e5017fa3d6b5137)\nOpenJDK 64-Bit Server VM (build 24-internal-sendaoYan-0d3768d5197187f49f6069563e5017fa3d6b5137, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-27T08:46:50.507718+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22406",
+  "number": 22406,
+  "title": "8345043: [ASAN] methodMatcher.cpp report reading from a region of size 0 [-Werror=stringop-overread]",
+  "head_sha": "0d3768d5197187f49f6069563e5017fa3d6b5137",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12046560673"
+}
