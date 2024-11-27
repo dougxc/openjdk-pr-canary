@@ -1,0 +1,16 @@
+{
+  "artifact_2243009542": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-7a95ebfeba9c61086e3b827c4fc73f348bf474cd)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-7a95ebfeba9c61086e3b827c4fc73f348bf474cd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "39d2fd98a680ea1e596848c115dbe8a2baf3fd30.json"
+  ],
+  "datetime": "2024-11-27T09:07:26.377323+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22382",
+  "number": 22382,
+  "title": "8340731: Cleanup remaining IA64 references in hotspot code",
+  "head_sha": "7a95ebfeba9c61086e3b827c4fc73f348bf474cd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12046560673"
+}
