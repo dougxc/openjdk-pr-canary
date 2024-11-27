@@ -1,0 +1,14 @@
+{
+  "artifact_2242107194": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dholmes-ora-f4637605f8efd3b939973ed67c72bed89601d2eb)\nOpenJDK 64-Bit Server VM (build 24-internal-dholmes-ora-f4637605f8efd3b939973ed67c72bed89601d2eb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-27T02:13:39.217715+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22404",
+  "number": 22404,
+  "title": "8345012: os::build_agent_function_name potentially wastes a byte when allocating the buffer",
+  "head_sha": "f4637605f8efd3b939973ed67c72bed89601d2eb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12042354102"
+}
