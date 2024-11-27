@@ -79561,7 +79561,6 @@
 			"jdk-24-2923"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED",
 			"UNUSABLE"
 		]
 	},
@@ -79590,7 +79589,6 @@
 			"jdk-24-2924"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED",
 			"UNUSABLE"
 		]
 	},
@@ -89090,6 +89088,9 @@
 		},
 		"aliases": [
 			"jdk-24-3312"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -89113,6 +89114,29 @@
 		},
 		"aliases": [
 			"jdk-24-3313"
+		]
+	},
+	{
+		"id": "jdk-24+26-3314",
+		"revisions": {
+			".": [
+				"94ff48aedc356b450f2842fbe14705dac968152b"
+			],
+			"graal": [
+				"253609e7dd86d7cec3c4f4c5ef0150c1fe037787"
+			],
+			"graal-enterprise": [
+				"917ac41f8bca03cc8b7ac55736cdac7281b03380"
+			],
+			"open": [
+				"b3986bdbdbafabde5beb15300444034363723449"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			]
+		},
+		"aliases": [
+			"jdk-24-3314"
 		]
 	}
 ]
