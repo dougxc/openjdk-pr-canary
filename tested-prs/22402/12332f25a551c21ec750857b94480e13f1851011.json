@@ -1,0 +1,17 @@
+{
+  "artifact_2251191673": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tobiasholenstein-12332f25a551c21ec750857b94480e13f1851011)\nOpenJDK 64-Bit Server VM (build 24-internal-tobiasholenstein-12332f25a551c21ec750857b94480e13f1851011, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ad4d07614b9a50e9037f619c771c2d824fd41643.json",
+    "c08d99e9746382a9db423479e42eef00d7b0126e.json"
+  ],
+  "datetime": "2024-11-28T19:45:15.139257+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22402",
+  "number": 22402,
+  "title": "8314512: IGV: clean up hierarchical layout code",
+  "head_sha": "12332f25a551c21ec750857b94480e13f1851011",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12074513618"
+}
