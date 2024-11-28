@@ -89745,7 +89745,11 @@
 			]
 		},
 		"aliases": [
-			"jdk-24-3339"
+			"jdk-24-3339",
+			"jdk-24+26"
+		],
+		"tags": [
+			"PROMOTED"
 		]
 	},
 	{
@@ -90171,6 +90175,101 @@
 		},
 		"aliases": [
 			"jdk-24-3357"
+		]
+	},
+	{
+		"id": "jdk-24+27-3358",
+		"revisions": {
+			"graal": [
+				"782dd2960b9e8ddbd2d86bd127b9ef9be3a08f52",
+				"511d3391a8b3b51e665cb96b8aa2fb1b554407cf"
+			],
+			"open": [
+				"3b21a298c29d88720f6bfb2dc1f3305b6a3db307"
+			],
+			".": [
+				"342d44cd9210109451999bbad08b882857114b21"
+			],
+			"graal-enterprise": [
+				"c455893d9d46ca18049b4835d9d88d83670d650f",
+				"979ff42608bb678f2ba902d8c5afc7aa4117f6cb",
+				"aa2905ac03927035b7cc951a72c11914df6866c9"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			]
+		},
+		"aliases": [
+			"jdk-24-3358"
+		]
+	},
+	{
+		"id": "jdk-24+27-3359",
+		"revisions": {
+			"graal": [
+				"782dd2960b9e8ddbd2d86bd127b9ef9be3a08f52"
+			],
+			".": [
+				"342d44cd9210109451999bbad08b882857114b21"
+			],
+			"open": [
+				"fd742af0b76bdd7e6e14bd02ddc0d9bd921c90b2"
+			],
+			"graal-enterprise": [
+				"c455893d9d46ca18049b4835d9d88d83670d650f"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			]
+		},
+		"aliases": [
+			"jdk-24-3359"
+		]
+	},
+	{
+		"id": "jdk-24+27-3360",
+		"revisions": {
+			"graal": [
+				"782dd2960b9e8ddbd2d86bd127b9ef9be3a08f52"
+			],
+			"open": [
+				"43000a34d5ba6e2e997893a90dac0fe6693611cb"
+			],
+			".": [
+				"342d44cd9210109451999bbad08b882857114b21"
+			],
+			"graal-enterprise": [
+				"c455893d9d46ca18049b4835d9d88d83670d650f"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			]
+		},
+		"aliases": [
+			"jdk-24-3360"
+		]
+	},
+	{
+		"id": "jdk-24+27-3361",
+		"revisions": {
+			"graal": [
+				"782dd2960b9e8ddbd2d86bd127b9ef9be3a08f52"
+			],
+			"open": [
+				"959fa4a1a35a1bb650ec5888efaf3d0fc8cfb025"
+			],
+			".": [
+				"342d44cd9210109451999bbad08b882857114b21"
+			],
+			"graal-enterprise": [
+				"c455893d9d46ca18049b4835d9d88d83670d650f"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			]
+		},
+		"aliases": [
+			"jdk-24-3361"
 		]
 	}
 ]
