@@ -1,0 +1,14 @@
+{
+  "artifact_2249379156": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-02db63862e5b3a85cee105538ee2c52f9e64d353)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-02db63862e5b3a85cee105538ee2c52f9e64d353, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-28T12:44:28.995360+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22432",
+  "number": 22432,
+  "title": "8345172: x86: Some CPU feature asserts are declared as 32-bit only",
+  "head_sha": "02db63862e5b3a85cee105538ee2c52f9e64d353",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12067952833"
+}
