@@ -90274,5 +90274,28 @@
 		"tags": [
 			"LIBGRAAL_BUILD_FAILED"
 		]
+	},
+	{
+		"id": "jdk-24+27-3362",
+		"revisions": {
+			"graal": [
+				"ac8fafb94b8c065a09fd75b7e6a3d5a426873d0a"
+			],
+			"open": [
+				"959fa4a1a35a1bb650ec5888efaf3d0fc8cfb025"
+			],
+			".": [
+				"342d44cd9210109451999bbad08b882857114b21"
+			],
+			"graal-enterprise": [
+				"6040a697af29ac6b04d0ebc0cec2ff9abd27c54a"
+			],
+			"mx": [
+				"c814bf997b3bbd34943ff433df2a8e3830110703"
+			]
+		},
+		"aliases": [
+			"jdk-24-3362"
+		]
 	}
 ]
