@@ -1,0 +1,16 @@
+{
+  "artifact_2250175710": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-AlekseiEfimov-3c8687c17eb46ffae73c108f14377439e36ec518)\nOpenJDK 64-Bit Server VM (build 24-internal-AlekseiEfimov-3c8687c17eb46ffae73c108f14377439e36ec518, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "165cd49ff39491acd8280507cd48d6cacfe20091.json"
+  ],
+  "datetime": "2024-11-28T15:13:21.249550+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22421",
+  "number": 22421,
+  "title": "8344299: SM cleanup in javax.naming modules",
+  "head_sha": "3c8687c17eb46ffae73c108f14377439e36ec518",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12070865245"
+}
