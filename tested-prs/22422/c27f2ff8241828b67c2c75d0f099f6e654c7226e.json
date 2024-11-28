@@ -1,0 +1,14 @@
+{
+  "artifact_2247451006": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prrace-c27f2ff8241828b67c2c75d0f099f6e654c7226e)\nOpenJDK 64-Bit Server VM (build 24-internal-prrace-c27f2ff8241828b67c2c75d0f099f6e654c7226e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-28T02:34:41.662352+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22422",
+  "number": 22422,
+  "title": "8345142: Remove uses of SecurityManager in Printing related classes",
+  "head_sha": "c27f2ff8241828b67c2c75d0f099f6e654c7226e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12061183145"
+}
