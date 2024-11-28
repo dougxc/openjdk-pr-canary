@@ -1,0 +1,14 @@
+{
+  "artifact_2245862682": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-96b093a19b3027d0c73809333d18eedef64dadb4)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-96b093a19b3027d0c73809333d18eedef64dadb4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-28T07:39:33.556542+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22417",
+  "number": 22417,
+  "title": "8344989: Test java/foreign/TestLinker.java failed with zero: IllegalStateException: libffi call failed with status: FFI_BAD_TYPEDEF",
+  "head_sha": "96b093a19b3027d0c73809333d18eedef64dadb4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12064362832"
+}
