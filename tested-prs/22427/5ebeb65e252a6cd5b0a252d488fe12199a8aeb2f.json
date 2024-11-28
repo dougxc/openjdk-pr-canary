@@ -1,0 +1,16 @@
+{
+  "artifact_2249007779": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-5ebeb65e252a6cd5b0a252d488fe12199a8aeb2f)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-5ebeb65e252a6cd5b0a252d488fe12199a8aeb2f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "54fc7e75ca0b0eeba62293531d0cd6dbba5db8bd.json"
+  ],
+  "datetime": "2024-11-28T10:58:17.994784+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22427",
+  "number": 22427,
+  "title": "8345102: [s390x/ppc] ShowRegistersOnAssertTest.java fails after 8343756",
+  "head_sha": "5ebeb65e252a6cd5b0a252d488fe12199a8aeb2f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12067172641"
+}
