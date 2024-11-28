@@ -90270,6 +90270,9 @@
 		},
 		"aliases": [
 			"jdk-24-3361"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	}
 ]
