@@ -1,0 +1,14 @@
+{
+  "artifact_2249701346": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dfuch-0e32721d9c407798d822fd332fdedef780124bd1)\nOpenJDK 64-Bit Server VM (build 24-internal-dfuch-0e32721d9c407798d822fd332fdedef780124bd1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-28T13:58:19.950588+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22436",
+  "number": 22436,
+  "title": "8345175: Further cleanup in java.logging and jdk.internal.logger after JEP 486 integration",
+  "head_sha": "0e32721d9c407798d822fd332fdedef780124bd1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12069962142"
+}
