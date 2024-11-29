@@ -1,0 +1,14 @@
+{
+  "artifact_2252881894": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-shipilev-1fe3faf63fe157b9e30df63abc36aef72c1d830e)\nOpenJDK 64-Bit Server VM (build 24-internal-shipilev-1fe3faf63fe157b9e30df63abc36aef72c1d830e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-29T09:50:56.690179+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22453",
+  "number": 22453,
+  "title": "8345237: 32-bit Zero builds fail with assert(has_klass_gap()) failed: precondition",
+  "head_sha": "1fe3faf63fe157b9e30df63abc36aef72c1d830e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12082260296"
+}
