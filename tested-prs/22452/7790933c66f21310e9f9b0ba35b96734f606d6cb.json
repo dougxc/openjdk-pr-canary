@@ -1,0 +1,14 @@
+{
+  "artifact_2252842124": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RealFYang-7790933c66f21310e9f9b0ba35b96734f606d6cb)\nOpenJDK 64-Bit Server VM (build 24-internal-RealFYang-7790933c66f21310e9f9b0ba35b96734f606d6cb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-29T08:47:32.300862+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22452",
+  "number": 22452,
+  "title": "8345236: RISC-V: Remove revb_h_h_u and revb_h_w_u macro assembler routines",
+  "head_sha": "7790933c66f21310e9f9b0ba35b96734f606d6cb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12081485114"
+}
