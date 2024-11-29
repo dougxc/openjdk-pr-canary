@@ -1,0 +1,17 @@
+{
+  "artifact_2254310443": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-robehn-b5a18748cfe981ec7076bdcccaa32f507b050b1e)\nOpenJDK 64-Bit Server VM (build 24-internal-robehn-b5a18748cfe981ec7076bdcccaa32f507b050b1e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "48dc0423e29c71b5c03f6455e127513bae60d4a5.json",
+    "c88e120be45eb8420b9c2f03b848624aa01eeacd.json"
+  ],
+  "datetime": "2024-11-29T15:15:23.377749+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22437",
+  "number": 22437,
+  "title": "8345177: RISC-V: Add gtests for cmpxchg",
+  "head_sha": "b5a18748cfe981ec7076bdcccaa32f507b050b1e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12086522052"
+}
