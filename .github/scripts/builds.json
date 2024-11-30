@@ -91122,5 +91122,30 @@
 		"aliases": [
 			"jdk-24-3392"
 		]
+	},
+	{
+		"id": "jdk-24+27-3393",
+		"revisions": {
+			".": [
+				"df09b059c43b07baf801b566706642921d0dbbac"
+			],
+			"graal-enterprise": [
+				"99303e22e68f4c38bad67fad24739f4f283099b9",
+				"ff75948a05005933410e2e79328426a2a05a8848"
+			],
+			"mx": [
+				"a424108634b46317d9cb9b5f7d75325bc41f4c73"
+			],
+			"graal": [
+				"050fc84d17c735293c9893f7a6b96a03ae808d45",
+				"3f057053daa82d69b6c3988cdea3fa9b264ccb0a"
+			],
+			"open": [
+				"28ae281b42cd00f471e275db544a5d23a42df59c"
+			]
+		},
+		"aliases": [
+			"jdk-24-3393"
+		]
 	}
 ]
