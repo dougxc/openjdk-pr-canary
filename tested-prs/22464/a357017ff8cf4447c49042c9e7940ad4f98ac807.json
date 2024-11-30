@@ -1,0 +1,14 @@
+{
+  "artifact_2255764902": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TheShermanTanker-a357017ff8cf4447c49042c9e7940ad4f98ac807)\nOpenJDK 64-Bit Server VM (build 24-internal-TheShermanTanker-a357017ff8cf4447c49042c9e7940ad4f98ac807, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-30T02:09:02.999133+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22464",
+  "number": 22464,
+  "title": "8345265: Fix gcc LTO without disabling LTO for g1ParScanThreadState.cpp",
+  "head_sha": "a357017ff8cf4447c49042c9e7940ad4f98ac807",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12092608056"
+}
