@@ -1,0 +1,14 @@
+{
+  "artifact_2256925456": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eirbjo-92d36d4d1589b0ea81f982afe53683349d3b392e)\nOpenJDK 64-Bit Server VM (build 24-internal-eirbjo-92d36d4d1589b0ea81f982afe53683349d3b392e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-30T19:32:52.533347+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22467",
+  "number": 22467,
+  "title": "8345074: java.net.InterfaceAddress constructor could be made private",
+  "head_sha": "92d36d4d1589b0ea81f982afe53683349d3b392e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12098905621"
+}
