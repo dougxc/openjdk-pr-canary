@@ -91172,5 +91172,30 @@
 		"aliases": [
 			"jdk-24-3394"
 		]
+	},
+	{
+		"id": "jdk-24+27-3395",
+		"revisions": {
+			".": [
+				"df09b059c43b07baf801b566706642921d0dbbac"
+			],
+			"graal-enterprise": [
+				"8438da62af772cb5816d78fcf25cf5a9aadf62e8",
+				"dd4a583bb2d12baf0a8324372638b51cdb2bc9dd"
+			],
+			"mx": [
+				"a424108634b46317d9cb9b5f7d75325bc41f4c73"
+			],
+			"open": [
+				"28ae281b42cd00f471e275db544a5d23a42df59c"
+			],
+			"graal": [
+				"03b4bd2838b2f1a051f2bcd844e64c74dc742a85",
+				"320d02ebb8671b9b7035ff86130fafa859ea012f"
+			]
+		},
+		"aliases": [
+			"jdk-24-3395"
+		]
 	}
 ]
