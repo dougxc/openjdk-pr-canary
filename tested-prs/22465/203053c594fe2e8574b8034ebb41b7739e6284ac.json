@@ -1,0 +1,14 @@
+{
+  "artifact_2256411323": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-JoeWang-Java-203053c594fe2e8574b8034ebb41b7739e6284ac)\nOpenJDK 64-Bit Server VM (build 24-internal-JoeWang-Java-203053c594fe2e8574b8034ebb41b7739e6284ac, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-11-30T11:34:28.203917+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22465",
+  "number": 22465,
+  "title": "8344800: Add W3C DTDs and XSDs to the JDK built-in Catalog",
+  "head_sha": "203053c594fe2e8574b8034ebb41b7739e6284ac",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12095989183"
+}
