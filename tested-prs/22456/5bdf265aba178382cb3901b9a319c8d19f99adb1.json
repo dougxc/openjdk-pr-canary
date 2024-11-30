@@ -1,0 +1,16 @@
+{
+  "artifact_2255963735": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-5bdf265aba178382cb3901b9a319c8d19f99adb1)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-5bdf265aba178382cb3901b9a319c8d19f99adb1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "659836a6b2073decde56c47e53efefe64a025183.json"
+  ],
+  "datetime": "2024-11-30T04:43:55.882503+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22456",
+  "number": 22456,
+  "title": "8344304: [s390x] ubsan: negation of -2147483648 cannot be represented in type 'int'",
+  "head_sha": "5bdf265aba178382cb3901b9a319c8d19f99adb1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12093560046"
+}
