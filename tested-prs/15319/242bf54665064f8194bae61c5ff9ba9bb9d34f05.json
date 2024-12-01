@@ -1,0 +1,14 @@
+{
+  "artifact_2257336637": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-scientificware-242bf54665064f8194bae61c5ff9ba9bb9d34f05)\nOpenJDK 64-Bit Server VM (build 24-internal-scientificware-242bf54665064f8194bae61c5ff9ba9bb9d34f05, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-01T02:33:48.116798+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/15319",
+  "number": 15319,
+  "title": "JDK-8314731 : Add support for the alt attribute in the image type input HTML tag",
+  "head_sha": "242bf54665064f8194bae61c5ff9ba9bb9d34f05",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12101448168"
+}
