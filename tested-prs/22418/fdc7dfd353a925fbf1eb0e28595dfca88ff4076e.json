@@ -1,0 +1,17 @@
+{
+  "artifact_2263285220": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-seanjmullan-fdc7dfd353a925fbf1eb0e28595dfca88ff4076e)\nOpenJDK 64-Bit Server VM (build 24-internal-seanjmullan-fdc7dfd353a925fbf1eb0e28595dfca88ff4076e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8abeb41b740534e832135a9e29f53460e4c509f2.json",
+    "c3bbd1d7d388f1e058b7828e0451ab03f1078834.json"
+  ],
+  "datetime": "2024-12-02T20:58:35.453813+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22418",
+  "number": 22418,
+  "title": "8344397: Remove Security Manager dependencies from java.security and sun.security packages",
+  "head_sha": "fdc7dfd353a925fbf1eb0e28595dfca88ff4076e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12126471185"
+}
