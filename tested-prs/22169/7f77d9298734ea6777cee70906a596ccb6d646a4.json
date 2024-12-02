@@ -1,0 +1,17 @@
+{
+  "artifact_2263702439": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-liach-7f77d9298734ea6777cee70906a596ccb6d646a4)\nOpenJDK 64-Bit Server VM (build 24-internal-liach-7f77d9298734ea6777cee70906a596ccb6d646a4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b314396c88b5e2a3dff6701d6d00bc0ce9faa13f.json",
+    "c6d7061919c2534c9466ee42918c7edee622edd2.json"
+  ],
+  "datetime": "2024-12-02T21:10:28.556589+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22169",
+  "number": 22169,
+  "title": "8343377: Performance regression in reflective invocation of native methods",
+  "head_sha": "7f77d9298734ea6777cee70906a596ccb6d646a4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12126471185"
+}
