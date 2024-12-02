@@ -1,0 +1,14 @@
+{
+  "artifact_2264004870": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-RogerRiggs-d6586f9bc6fa344a40c4e5c3f47afd0ecd0767c3)\nOpenJDK 64-Bit Server VM (build 24-internal-RogerRiggs-d6586f9bc6fa344a40c4e5c3f47afd0ecd0767c3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-02T22:09:04.151547+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22497",
+  "number": 22497,
+  "title": "8345325: SM cleanup of GetPropertyAction in java.base",
+  "head_sha": "d6586f9bc6fa344a40c4e5c3f47afd0ecd0767c3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12128273097"
+}
