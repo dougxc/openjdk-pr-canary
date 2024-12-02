@@ -1,0 +1,14 @@
+{
+  "artifact_2261542830": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-106abf0f0ae29391436ea06d3c195bbba6852853)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-106abf0f0ae29391436ea06d3c195bbba6852853, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-02T16:10:44.036772+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22480",
+  "number": 22480,
+  "title": "8345297: test/jdk/javax/swing/Action/8133039/bug8133039.java fails in ubuntu22.04",
+  "head_sha": "106abf0f0ae29391436ea06d3c195bbba6852853",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12121513040"
+}
