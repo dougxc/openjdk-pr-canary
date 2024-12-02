@@ -1,0 +1,17 @@
+{
+  "artifact_2261804648": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-reinrich-54749167cf949854a45e032c907bee7bf5c2caaa)\nOpenJDK 64-Bit Server VM (build 24-internal-reinrich-54749167cf949854a45e032c907bee7bf5c2caaa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e00d615434ffbbe52b36cd5967f0bfd89eaa0a65.json",
+    "eba902e5c4cd4aa66550460934ceaaeb2042d40e.json"
+  ],
+  "datetime": "2024-12-02T14:34:35.719566+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22269",
+  "number": 22269,
+  "title": "8344609: Check ResourceMark nesting when allocating a GrowableArray on an alternative ResourceArea",
+  "head_sha": "54749167cf949854a45e032c907bee7bf5c2caaa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12119793788"
+}
