@@ -1,0 +1,18 @@
+{
+  "artifact_2262999166": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-robehn-4dfd4c5feb72e82448d090fbf851557fbb371996)\nOpenJDK 64-Bit Server VM (build 24-internal-robehn-4dfd4c5feb72e82448d090fbf851557fbb371996, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "22e8c4e61d488d79e7c1d4289fb34508c1eacca5.json",
+    "b07b2c10bf522946f4a7ca054b79df1bf047cb73.json",
+    "e129a9955a8e4918c796556cb087c09f64f9034f.json"
+  ],
+  "datetime": "2024-12-02T18:41:33.512716+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22445",
+  "number": 22445,
+  "title": "8345178: RISC-V: Add gtests for narrow cmpxchg",
+  "head_sha": "4dfd4c5feb72e82448d090fbf851557fbb371996",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12124715917"
+}
