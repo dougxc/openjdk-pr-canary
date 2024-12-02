@@ -1,0 +1,14 @@
+{
+  "artifact_2264261890": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-plummercj-b4abe46a65c6f6a9d99711d45246e3cf7133d56b)\nOpenJDK 64-Bit Server VM (build 24-internal-plummercj-b4abe46a65c6f6a9d99711d45246e3cf7133d56b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-02T22:43:49.546445+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22499",
+  "number": 22499,
+  "title": "8345341:",
+  "head_sha": "b4abe46a65c6f6a9d99711d45246e3cf7133d56b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12129146169"
+}
