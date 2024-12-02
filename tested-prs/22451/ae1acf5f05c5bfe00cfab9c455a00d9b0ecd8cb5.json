@@ -1,0 +1,17 @@
+{
+  "artifact_2262499610": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-minborg-ae1acf5f05c5bfe00cfab9c455a00d9b0ecd8cb5)\nOpenJDK 64-Bit Server VM (build 24-internal-minborg-ae1acf5f05c5bfe00cfab9c455a00d9b0ecd8cb5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5426849145e8d7cd0bcbb7a970dc87d2052f5186.json",
+    "b6b464442311e1835f212f2484e6ad6d09cecd7f.json"
+  ],
+  "datetime": "2024-12-02T16:58:06.271309+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22451",
+  "number": 22451,
+  "title": "8345120: A likely bug in StringSupport::chunkedStrlenShort",
+  "head_sha": "ae1acf5f05c5bfe00cfab9c455a00d9b0ecd8cb5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12121513040"
+}
