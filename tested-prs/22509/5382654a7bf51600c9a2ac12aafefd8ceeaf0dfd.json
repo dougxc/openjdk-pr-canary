@@ -1,0 +1,14 @@
+{
+  "artifact_2265865379": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-5382654a7bf51600c9a2ac12aafefd8ceeaf0dfd)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-5382654a7bf51600c9a2ac12aafefd8ceeaf0dfd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-03T08:46:25.448639+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22509",
+  "number": 22509,
+  "title": "8345357: test/jdk/javax/swing/JRadioButton/8033699/bug8033699.java fails in ubuntu22.04",
+  "head_sha": "5382654a7bf51600c9a2ac12aafefd8ceeaf0dfd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12135807736"
+}
