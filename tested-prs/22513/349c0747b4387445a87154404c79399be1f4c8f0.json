@@ -1,0 +1,14 @@
+{
+  "artifact_2267410714": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-JornVernee-349c0747b4387445a87154404c79399be1f4c8f0)\nOpenJDK 64-Bit Server VM (build 24-internal-JornVernee-349c0747b4387445a87154404c79399be1f4c8f0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-03T13:49:03.652266+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22513",
+  "number": 22513,
+  "title": "8345389: Bump missed copyright years for JDK-8336768",
+  "head_sha": "349c0747b4387445a87154404c79399be1f4c8f0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12140824091"
+}
