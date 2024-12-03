@@ -1,0 +1,18 @@
+{
+  "artifact_2265533937": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-honkar-jdk-baaa7785e5029d31bd4f50289a7e5efc3c4b6206)\nOpenJDK 64-Bit Server VM (build 24-internal-honkar-jdk-baaa7785e5029d31bd4f50289a7e5efc3c4b6206, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "68a84bfded486064d3aea8edfdd5454f0a6d68f6.json",
+    "795f8bd149e503deb011d570d34979018e417e61.json",
+    "86de95ffbd56c7633c6dbd85f8c551f6b95243e1.json"
+  ],
+  "datetime": "2024-12-03T07:02:27.012734+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22490",
+  "number": 22490,
+  "title": "JDK-8344368 : IndependenceSwingTest.java and IndependenceAWTTest.java failed: Selected text & clipboard contents differs",
+  "head_sha": "baaa7785e5029d31bd4f50289a7e5efc3c4b6206",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12134312641"
+}
