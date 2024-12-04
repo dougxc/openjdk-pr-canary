@@ -1,0 +1,16 @@
+{
+  "artifact_2271642495": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tkrodriguez-de4627cb82b81a4d1e08bef0d26e63a179614386)\nOpenJDK 64-Bit Server VM (build 24-internal-tkrodriguez-de4627cb82b81a4d1e08bef0d26e63a179614386, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "00151b3d5375000be964eb4229938de8a3f86694.json"
+  ],
+  "datetime": "2024-12-04T07:21:45.812489+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21767",
+  "number": 21767,
+  "title": "8343213: TEST_BUG: [Graal] java/lang/ref/Basic.java fails",
+  "head_sha": "de4627cb82b81a4d1e08bef0d26e63a179614386",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12154387260"
+}
