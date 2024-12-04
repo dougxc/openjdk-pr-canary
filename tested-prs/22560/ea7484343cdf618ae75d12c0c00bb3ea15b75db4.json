@@ -1,0 +1,14 @@
+{
+  "artifact_2275947108": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-iklam-ea7484343cdf618ae75d12c0c00bb3ea15b75db4)\nOpenJDK 64-Bit Server VM (build 24-internal-iklam-ea7484343cdf618ae75d12c0c00bb3ea15b75db4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-04T22:32:36.826508+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22560",
+  "number": 22560,
+  "title": "8345390: [ubsan] systemDictionaryShared.cpp:964: member call on null pointer",
+  "head_sha": "ea7484343cdf618ae75d12c0c00bb3ea15b75db4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12168610630"
+}
