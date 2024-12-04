@@ -1,0 +1,14 @@
+{
+  "artifact_2271612099": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-calvinccheung-5996c7837d6b77ff8923f080b2294053c476a0c1)\nOpenJDK 64-Bit Server VM (build 24-internal-calvinccheung-5996c7837d6b77ff8923f080b2294053c476a0c1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-04T19:47:52.857969+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22535",
+  "number": 22535,
+  "title": "8345514: Should use internal class name when calling ClassLoader.getResourceAsByteArray",
+  "head_sha": "5996c7837d6b77ff8923f080b2294053c476a0c1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12165132212"
+}
