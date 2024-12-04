@@ -1,0 +1,14 @@
+{
+  "artifact_2270237545": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-matias9927-b39c114d0ef2a422d2e302b7d7af9ca708233104)\nOpenJDK 64-Bit Server VM (build 24-internal-matias9927-b39c114d0ef2a422d2e302b7d7af9ca708233104, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-04T16:09:32.937708+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22550",
+  "number": 22550,
+  "title": "8343890: SEGV crash in RunTimeClassInfo::klass",
+  "head_sha": "b39c114d0ef2a422d2e302b7d7af9ca708233104",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12163007446"
+}
