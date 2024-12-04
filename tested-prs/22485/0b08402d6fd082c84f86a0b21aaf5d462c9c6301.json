@@ -1,0 +1,16 @@
+{
+  "artifact_2274292511": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-rwestrel-0b08402d6fd082c84f86a0b21aaf5d462c9c6301)\nOpenJDK 64-Bit Server VM (build 24-internal-rwestrel-0b08402d6fd082c84f86a0b21aaf5d462c9c6301, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e7904f6cb7a58d6bc96757060cffd8076e319c69.json"
+  ],
+  "datetime": "2024-12-04T17:28:23.449772+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22485",
+  "number": 22485,
+  "title": "8345299: C2: some nodes can still have incorrect control after do_range_check()",
+  "head_sha": "0b08402d6fd082c84f86a0b21aaf5d462c9c6301",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12163007446"
+}
