@@ -1,0 +1,17 @@
+{
+  "artifact_2274613071": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-tabjy-de847318becf837d95ea489c608e353152597c32)\nOpenJDK 64-Bit Server VM (build 24-internal-tabjy-de847318becf837d95ea489c608e353152597c32, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4a7d03fed641e96c23f6d31342f265d2bea35a9f.json",
+    "79d8c146b9574aa2d488345de015b5844c244a1c.json"
+  ],
+  "datetime": "2024-12-04T17:40:57.470947+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22449",
+  "number": 22449,
+  "title": "8336759: C2: int counted loop with long limit not recognized as counted loop",
+  "head_sha": "de847318becf837d95ea489c608e353152597c32",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12163007446"
+}
