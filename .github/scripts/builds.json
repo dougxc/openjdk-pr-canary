@@ -80402,9 +80402,6 @@
 		},
 		"aliases": [
 			"jdk-24-2954"
-		],
-		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -80642,9 +80639,6 @@
 		},
 		"aliases": [
 			"jdk-24-2964"
-		],
-		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -93999,6 +93993,104 @@
 		],
 		"tags": [
 			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-24+27-3515",
+		"revisions": {
+			"graal-enterprise": [
+				"d4d2b9c04af8ab7fb76bd085cb098d19e9689736"
+			],
+			"graal": [
+				"8c4def34c24523d881fc6e7c8fca6b5e21db58e5"
+			],
+			"mx": [
+				"a424108634b46317d9cb9b5f7d75325bc41f4c73"
+			],
+			"open": [
+				"f904480a49649e0e89e4afca11fcadecb8669331"
+			],
+			".": [
+				"46d76b9980e817b6dc8e6f776db639f2cb4b89af"
+			]
+		},
+		"aliases": [
+			"jdk-24-3515"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-24+27-3516",
+		"revisions": {
+			"graal-enterprise": [
+				"d4d2b9c04af8ab7fb76bd085cb098d19e9689736"
+			],
+			"graal": [
+				"8c4def34c24523d881fc6e7c8fca6b5e21db58e5"
+			],
+			"open": [
+				"8a3c100c54d7d31eeacd2e05fd5b883c72d6bb75"
+			],
+			"mx": [
+				"a424108634b46317d9cb9b5f7d75325bc41f4c73"
+			],
+			".": [
+				"46d76b9980e817b6dc8e6f776db639f2cb4b89af"
+			]
+		},
+		"aliases": [
+			"jdk-24-3516"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-24+27-3517",
+		"revisions": {
+			"graal-enterprise": [
+				"d4d2b9c04af8ab7fb76bd085cb098d19e9689736"
+			],
+			"open": [
+				"ba158edd816d66e1e67e03d385e6714c3d2ecbc1"
+			],
+			"graal": [
+				"8c4def34c24523d881fc6e7c8fca6b5e21db58e5"
+			],
+			"mx": [
+				"a424108634b46317d9cb9b5f7d75325bc41f4c73"
+			],
+			".": [
+				"46d76b9980e817b6dc8e6f776db639f2cb4b89af"
+			]
+		},
+		"aliases": [
+			"jdk-24-3517"
+		]
+	},
+	{
+		"id": "jdk-24+27-3518",
+		"revisions": {
+			"open": [
+				"ba158edd816d66e1e67e03d385e6714c3d2ecbc1"
+			],
+			"graal-enterprise": [
+				"f30d6ba674ce32a5a739ba083ad0a125e8b5d602"
+			],
+			"graal": [
+				"458637deb1f79d1d56d8f4670f4349346ef49b26"
+			],
+			"mx": [
+				"a424108634b46317d9cb9b5f7d75325bc41f4c73"
+			],
+			".": [
+				"46d76b9980e817b6dc8e6f776db639f2cb4b89af"
+			]
+		},
+		"aliases": [
+			"jdk-24-3518"
 		]
 	}
 ]
