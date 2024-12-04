@@ -1,0 +1,17 @@
+{
+  "artifact_2276357679": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-pengxiaolong-75cb902c300b42567b40a9d9ded93fadf35c4b99)\nOpenJDK 64-Bit Server VM (build 24-internal-pengxiaolong-75cb902c300b42567b40a9d9ded93fadf35c4b99, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7f7b370ab4896be4b5d21c5bd10705a82c44ac30.json",
+    "f3b8dff4f8393e0321e95437fc507f6cdb11f83a.json"
+  ],
+  "datetime": "2024-12-04T23:39:55.833660+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22538",
+  "number": 22538,
+  "title": "8345423: Shenandoah: Parallelize concurrent cleanup",
+  "head_sha": "75cb902c300b42567b40a9d9ded93fadf35c4b99",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12170159590"
+}
