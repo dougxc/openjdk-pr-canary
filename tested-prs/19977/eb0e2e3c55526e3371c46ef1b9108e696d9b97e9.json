@@ -1,0 +1,19 @@
+{
+  "artifact_2275839939": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-liach-eb0e2e3c55526e3371c46ef1b9108e696d9b97e9)\nOpenJDK 64-Bit Server VM (build 24-internal-liach-eb0e2e3c55526e3371c46ef1b9108e696d9b97e9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "090eee177bea3110a9bf65f7230e975ac33267ce.json",
+    "2d14b047f28b3885b0aa51ae9cdd05458cee0379.json",
+    "35abd93caa16343e34c0e2442904ddf35a54ccad.json",
+    "83feba99a9100b367cd1c08237f3678b5f478d5c.json"
+  ],
+  "datetime": "2024-12-04T22:19:23.294350+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/19977",
+  "number": 19977,
+  "title": "8343251: Facelift for Type and AnnotatedType specifications",
+  "head_sha": "eb0e2e3c55526e3371c46ef1b9108e696d9b97e9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12166844312"
+}
