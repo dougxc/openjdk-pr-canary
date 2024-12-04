@@ -1,0 +1,16 @@
+{
+  "artifact_2273828888": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-7fec9941a5571432b57a72826c81029e6c03f192)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-7fec9941a5571432b57a72826c81029e6c03f192, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "80858d0bdb7d49596fd6d9a93f22c2647a58e4dc.json"
+  ],
+  "datetime": "2024-12-04T15:15:03.648592+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22536",
+  "number": 22536,
+  "title": "8345447: test/jdk/javax/swing/JToolBar/4529206/bug4529206.java fails in ubuntu22.04",
+  "head_sha": "7fec9941a5571432b57a72826c81029e6c03f192",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12161917522"
+}
