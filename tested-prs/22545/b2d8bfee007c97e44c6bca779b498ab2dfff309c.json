@@ -1,0 +1,16 @@
+{
+  "artifact_2277400925": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-b2d8bfee007c97e44c6bca779b498ab2dfff309c)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-b2d8bfee007c97e44c6bca779b498ab2dfff309c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c185c65ec1b8b193aed3375cec39a46dc96f545f.json"
+  ],
+  "datetime": "2024-12-05T05:54:06.010701+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22545",
+  "number": 22545,
+  "title": "8341551: Revisit jdk.internal.loader.URLClassPath.JarLoader after JEP 486",
+  "head_sha": "b2d8bfee007c97e44c6bca779b498ab2dfff309c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12173846173"
+}
