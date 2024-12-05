@@ -1,0 +1,14 @@
+{
+  "artifact_2278602721": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-AlanBateman-90530053f08c1416fa300f8d8ddcd20cd07dd5c0)\nOpenJDK 64-Bit Server VM (build 24-internal-AlanBateman-90530053f08c1416fa300f8d8ddcd20cd07dd5c0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-05T11:37:44.552796+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22572",
+  "number": 22572,
+  "title": "8345565: Remove remaining SecurityManager motivated APIs from sun.reflect.util",
+  "head_sha": "90530053f08c1416fa300f8d8ddcd20cd07dd5c0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12178778598"
+}
