@@ -1,0 +1,14 @@
+{
+  "artifact_2279391888": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-jaikiran-6f4f50a92faffed7838921f338d4a3d1cf509978)\nOpenJDK 64-Bit Server VM (build 24-internal-jaikiran-6f4f50a92faffed7838921f338d4a3d1cf509978, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-05T14:45:09.309111+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22577",
+  "number": 22577,
+  "title": "8345577: Additional clarification to the com.sun.net.httpserver.HttpExchange.getAttribute() and setAttribute() methods after JDK-8235786",
+  "head_sha": "6f4f50a92faffed7838921f338d4a3d1cf509978",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12181858234"
+}
