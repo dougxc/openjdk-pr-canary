@@ -1,0 +1,16 @@
+{
+  "artifact_2278209150": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-mcimadamore-64883bbd0a5fc0275696e822af3a74fba394ee4b)\nOpenJDK 64-Bit Server VM (build 24-internal-mcimadamore-64883bbd0a5fc0275696e822af3a74fba394ee4b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9a657f23da934179b86a66be380804e9ceea09da.json"
+  ],
+  "datetime": "2024-12-05T09:42:57.161510+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22553",
+  "number": 22553,
+  "title": "8345263: Make sure that lint categories are used correctly when logging lint warnings",
+  "head_sha": "64883bbd0a5fc0275696e822af3a74fba394ee4b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12176916277"
+}
