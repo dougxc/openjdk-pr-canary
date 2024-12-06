@@ -1,0 +1,14 @@
+{
+  "artifact_2284226831": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-stefank-326f32f7807677880b70fea9d6c160767a501796)\nOpenJDK 64-Bit Server VM (build 25-internal-stefank-326f32f7807677880b70fea9d6c160767a501796, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-06T10:47:13.296708+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22600",
+  "number": 22600,
+  "title": "8345656: Move os alignment functions out of ReservedSpace",
+  "head_sha": "326f32f7807677880b70fea9d6c160767a501796",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12197272056"
+}
