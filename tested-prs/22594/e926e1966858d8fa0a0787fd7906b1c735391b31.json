@@ -1,0 +1,14 @@
+{
+  "artifact_2283292906": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-e926e1966858d8fa0a0787fd7906b1c735391b31)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-e926e1966858d8fa0a0787fd7906b1c735391b31, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-06T06:50:14.079700+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22594",
+  "number": 22594,
+  "title": "8345632: [ASAN] memory leak in get_numbered_property_as_sorted_string function",
+  "head_sha": "e926e1966858d8fa0a0787fd7906b1c735391b31",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12194229315"
+}
