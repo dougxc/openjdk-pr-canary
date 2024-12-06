@@ -1,0 +1,16 @@
+{
+  "artifact_2286270077": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-ericcaspole-977d1e8e05f8977a3263aa3b942374cc35358b6c)\nOpenJDK 64-Bit Server VM (build 24-internal-ericcaspole-977d1e8e05f8977a3263aa3b942374cc35358b6c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4c7ee93271376a5085562207f7eff60ff6afbf2f.json"
+  ],
+  "datetime": "2024-12-06T19:10:43.098665+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22556",
+  "number": 22556,
+  "title": "8345405: Add JMH showing the regression in 8341649",
+  "head_sha": "977d1e8e05f8977a3263aa3b942374cc35358b6c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12204243404"
+}
