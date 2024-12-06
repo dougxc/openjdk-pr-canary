@@ -1,0 +1,22 @@
+{
+  "artifact_2284390209": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TheShermanTanker-54930315b2826be75acaf14663d60d417aa4c130)\nOpenJDK 64-Bit Server VM (build 25-internal-TheShermanTanker-54930315b2826be75acaf14663d60d417aa4c130, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "12e82f68085300151d5ba4a09adf6e21ef4badf7.json",
+    "37e0e4d73b6f2383206c31a42418a7da13dd2389.json",
+    "3fe38a6bacbc76cef7da4de5b94c57b8f93fc5fc.json",
+    "47810433c76663ef97b3cf9a3cd0c7223edc5f78.json",
+    "541d4f89678b3ad6d27b22a83072e71b37886ca1.json",
+    "6cf1c83aa712dc265c9490c20c1a3bf5ba5be5c3.json",
+    "b0083f8c4c1bcf705005f6a9d4a6a4b70c0acaa7.json"
+  ],
+  "datetime": "2024-12-06T12:08:42.840635+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21627",
+  "number": 21627,
+  "title": "8342769: HotSpot Windows/gcc port is broken",
+  "head_sha": "54930315b2826be75acaf14663d60d417aa4c130",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12197955269"
+}
