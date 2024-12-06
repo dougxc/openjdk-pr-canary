@@ -1,0 +1,14 @@
+{
+  "artifact_2286262091": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lmesnik-f4578772dc3c36879ea9d8833a3c9deb0efbc9a6)\nOpenJDK 64-Bit Server VM (build 25-internal-lmesnik-f4578772dc3c36879ea9d8833a3c9deb0efbc9a6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-06T18:48:36.222982+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22612",
+  "number": 22612,
+  "title": "8345698: Remove tier1_compiler_not_xcomp from github actions",
+  "head_sha": "f4578772dc3c36879ea9d8833a3c9deb0efbc9a6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12204243404"
+}
