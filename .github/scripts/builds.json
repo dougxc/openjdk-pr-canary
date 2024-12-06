@@ -95181,6 +95181,9 @@
 		},
 		"aliases": [
 			"jdk-25-11"
+		],
+		"tags": [
+			"UNUSABLE"
 		]
 	},
 	{
