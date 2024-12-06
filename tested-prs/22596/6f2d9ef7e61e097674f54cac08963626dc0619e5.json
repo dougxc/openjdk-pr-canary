@@ -1,0 +1,14 @@
+{
+  "artifact_2283423444": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-iklam-6f2d9ef7e61e097674f54cac08963626dc0619e5)\nOpenJDK 64-Bit Server VM (build 24-internal-iklam-6f2d9ef7e61e097674f54cac08963626dc0619e5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-06T08:56:09.149639+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22596",
+  "number": 22596,
+  "title": "8344556: [Graal] compiler/intrinsics/bmi/* fail when AOTCache cannot be loaded",
+  "head_sha": "6f2d9ef7e61e097674f54cac08963626dc0619e5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12195566247"
+}
