@@ -1,0 +1,14 @@
+{
+  "artifact_2283564152": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-beef9016171290f055fb4a7f8b83e196f6202af6)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-beef9016171290f055fb4a7f8b83e196f6202af6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-06T07:40:04.692053+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22598",
+  "number": 22598,
+  "title": "8334581: Remove no-arg constructor BasicSliderUI()",
+  "head_sha": "beef9016171290f055fb4a7f8b83e196f6202af6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12194775586"
+}
