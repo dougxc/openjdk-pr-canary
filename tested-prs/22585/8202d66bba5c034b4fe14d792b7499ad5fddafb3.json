@@ -1,0 +1,16 @@
+{
+  "artifact_2286272213": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-bchristi-git-8202d66bba5c034b4fe14d792b7499ad5fddafb3)\nOpenJDK 64-Bit Server VM (build 25-internal-bchristi-git-8202d66bba5c034b4fe14d792b7499ad5fddafb3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "fdb2066b3d3751f2e2c1f921e0cdb39aef96f835.json"
+  ],
+  "datetime": "2024-12-06T18:59:44.856707+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22585",
+  "number": 22585,
+  "title": "8344575: Examine usage of ReflectUtil.forName() in java.sql.rowset - XmlReaderContentHandler",
+  "head_sha": "8202d66bba5c034b4fe14d792b7499ad5fddafb3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12204243404"
+}
