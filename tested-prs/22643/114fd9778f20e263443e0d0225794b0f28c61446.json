@@ -1,0 +1,14 @@
+{
+  "artifact_2294307346": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-114fd9778f20e263443e0d0225794b0f28c61446)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-114fd9778f20e263443e0d0225794b0f28c61446, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-09T15:29:08.063083+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22643",
+  "number": 22643,
+  "title": "8345804: Update copyright year to 2024 for langtools in files where it was missed",
+  "head_sha": "114fd9778f20e263443e0d0225794b0f28c61446",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12237795146"
+}
