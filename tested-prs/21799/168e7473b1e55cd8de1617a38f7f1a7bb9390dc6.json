@@ -1,0 +1,16 @@
+{
+  "artifact_2293244897": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kurashige23-168e7473b1e55cd8de1617a38f7f1a7bb9390dc6)\nOpenJDK 64-Bit Server VM (build 25-internal-kurashige23-168e7473b1e55cd8de1617a38f7f1a7bb9390dc6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "df1fb51610fd94867807adc5628c0b93303beaf6.json"
+  ],
+  "datetime": "2024-12-09T11:43:43.249542+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21799",
+  "number": 21799,
+  "title": "8343342: java/io/File/GetXSpace.java fails on Windows with CD-ROM drive",
+  "head_sha": "168e7473b1e55cd8de1617a38f7f1a7bb9390dc6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12233825048"
+}
