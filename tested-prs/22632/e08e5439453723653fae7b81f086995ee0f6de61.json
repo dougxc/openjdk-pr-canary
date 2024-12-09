@@ -1,0 +1,14 @@
+{
+  "artifact_2292732438": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-e08e5439453723653fae7b81f086995ee0f6de61)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-e08e5439453723653fae7b81f086995ee0f6de61, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-09T10:59:23.291598+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22632",
+  "number": 22632,
+  "title": "8345424: Move FindDebuginfoFiles out of FileUtils.gmk",
+  "head_sha": "e08e5439453723653fae7b81f086995ee0f6de61",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12233825048"
+}
