@@ -1,0 +1,14 @@
+{
+  "artifact_2292240516": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-prsadhuk-0b3de4330105d1853203bd4a8ad000648c886a45)\nOpenJDK 64-Bit Server VM (build 24-internal-prsadhuk-0b3de4330105d1853203bd4a8ad000648c886a45, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-09T08:48:31.190758+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22631",
+  "number": 22631,
+  "title": "8345767: javax/swing/JSplitPane/4164779/JSplitPaneKeyboardNavigationTest.java fails in ubuntu22.04",
+  "head_sha": "0b3de4330105d1853203bd4a8ad000648c886a45",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12231834856"
+}
