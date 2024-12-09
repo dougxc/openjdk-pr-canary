@@ -1,0 +1,14 @@
+{
+  "artifact_2293838860": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-e196d3f656da93901bc2f946d5d1eec1d3991f2f)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-e196d3f656da93901bc2f946d5d1eec1d3991f2f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-09T13:59:50.917312+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22638",
+  "number": 22638,
+  "title": "8345797: Update copyright year to 2024 for client-libs in files where it was missed",
+  "head_sha": "e196d3f656da93901bc2f946d5d1eec1d3991f2f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12236810324"
+}
