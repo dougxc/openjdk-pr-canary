@@ -1,0 +1,20 @@
+{
+  "artifact_2296263207": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-58bed339bf0f09005af7fec6a050c30834d6cd5a)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-58bed339bf0f09005af7fec6a050c30834d6cd5a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "033f76316f2a88a51e0c678c4dcb17ef5354126c.json",
+    "84561e2f39e076b5f79ec71245051842fda85d63.json",
+    "8b95d372921ddcce4ff41aa7d3a2b86abc82b21f.json",
+    "af81a548fc6ab1688a64b9ce6520a7f5113c1b7d.json",
+    "d955b538128c70b30637e339db8bce6cb66a5313.json"
+  ],
+  "datetime": "2024-12-09T21:16:52.229266+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21851",
+  "number": 21851,
+  "title": "8343477: Remove unnecessary @SuppressWarnings annotations (compiler)",
+  "head_sha": "58bed339bf0f09005af7fec6a050c30834d6cd5a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12243782549"
+}
