@@ -1,0 +1,14 @@
+{
+  "artifact_2293131252": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-asotona-c10fb8ee61bd2073b46bd1ac94e39fbaf31e1870)\nOpenJDK 64-Bit Server VM (build 25-internal-asotona-c10fb8ee61bd2073b46bd1ac94e39fbaf31e1870, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-09T12:20:53.977915+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22634",
+  "number": 22634,
+  "title": "8345773: Class-File API debug printing capability",
+  "head_sha": "c10fb8ee61bd2073b46bd1ac94e39fbaf31e1870",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12234633660"
+}
