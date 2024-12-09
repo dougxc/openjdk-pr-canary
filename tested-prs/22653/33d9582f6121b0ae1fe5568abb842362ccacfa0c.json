@@ -1,0 +1,14 @@
+{
+  "artifact_2295108257": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-33d9582f6121b0ae1fe5568abb842362ccacfa0c)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-33d9582f6121b0ae1fe5568abb842362ccacfa0c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-09T21:28:13.660265+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22653",
+  "number": 22653,
+  "title": "8344559: Log is spammed by missing pandoc warnings when building man pages",
+  "head_sha": "33d9582f6121b0ae1fe5568abb842362ccacfa0c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12243782549"
+}
