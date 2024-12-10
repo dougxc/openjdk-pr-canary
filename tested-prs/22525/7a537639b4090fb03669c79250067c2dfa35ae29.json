@@ -1,0 +1,17 @@
+{
+  "artifact_2302801157": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bplb-7a537639b4090fb03669c79250067c2dfa35ae29)\nOpenJDK 64-Bit Server VM (build 24-internal-bplb-7a537639b4090fb03669c79250067c2dfa35ae29, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "36f872aef93855992862f350f896b1f89573332c.json",
+    "c5f3f8c3eb0fcba02c8c9bc0f466f8ef760c1ba0.json"
+  ],
+  "datetime": "2024-12-10T23:38:33.264414+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22525",
+  "number": 22525,
+  "title": "8345421: (bf) Create specific test for temporary direct buffers and the buffer size limit",
+  "head_sha": "7a537639b4090fb03669c79250067c2dfa35ae29",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12266532229"
+}
