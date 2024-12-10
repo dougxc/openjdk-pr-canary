@@ -1,0 +1,25 @@
+{
+  "artifact_2296861503": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-stooke-c2dc01cfcb633579a7a35bc1412307313106a0ff)\nOpenJDK 64-Bit Server VM (build 24-internal-stooke-c2dc01cfcb633579a7a35bc1412307313106a0ff, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "07184546c7824cbe54f54e7c4085504d3a731d02.json",
+    "0bdef607178b079955d050504a63fd6b1c50e735.json",
+    "380212677a10525a4c2ac67b27e1838b489ae164.json",
+    "4e2ddeddd1ef849bc7b50d6e3bddda787adbec3f.json",
+    "64a1f12afe1f940bc59d6ef53da48481fd3ef9d4.json",
+    "7b7c966541f0090b58eb626d382a3ed053eb0abe.json",
+    "7bbb03da28fd9b9fadbde2f7ec3cac8d8c3c2215.json",
+    "8e19b6876c1ccd04b47d4705a85cafce0439e140.json",
+    "c6628d301a440ed4d39c71526fbe4385d21b1812.json",
+    "d63fa562bd79afe4b69f51467e8c8b655d60063a.json"
+  ],
+  "datetime": "2024-12-10T00:23:04.311105+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20953",
+  "number": 20953,
+  "title": "8319875: Add macOS implementation for jcmd System.map",
+  "head_sha": "c2dc01cfcb633579a7a35bc1412307313106a0ff",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12246205414"
+}
