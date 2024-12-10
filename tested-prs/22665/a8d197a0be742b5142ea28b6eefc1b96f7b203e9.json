@@ -1,0 +1,14 @@
+{
+  "artifact_2300905305": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-a8d197a0be742b5142ea28b6eefc1b96f7b203e9)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-a8d197a0be742b5142ea28b6eefc1b96f7b203e9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-10T16:49:04.918860+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22665",
+  "number": 22665,
+  "title": "8345794: Backout doc change introduced by JDK-8235786",
+  "head_sha": "a8d197a0be742b5142ea28b6eefc1b96f7b203e9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12260612580"
+}
