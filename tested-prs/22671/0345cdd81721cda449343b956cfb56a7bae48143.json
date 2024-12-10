@@ -1,0 +1,14 @@
+{
+  "artifact_2302428620": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-0345cdd81721cda449343b956cfb56a7bae48143)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-0345cdd81721cda449343b956cfb56a7bae48143, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-10T21:39:08.357221+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22671",
+  "number": 22671,
+  "title": "8342469: Improve API documentation for java.lang.classfile.instruction",
+  "head_sha": "0345cdd81721cda449343b956cfb56a7bae48143",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12265008789"
+}
