@@ -1,0 +1,16 @@
+{
+  "artifact_2305497270": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-stefank-6c5cf2e250a08c86d774cdc0e9f38ea87bf25a66)\nOpenJDK 64-Bit Server VM (build 25-internal-stefank-6c5cf2e250a08c86d774cdc0e9f38ea87bf25a66, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e4eba9a89e4b48fa0c1ca3d8dd329c3f3992cd8b.json"
+  ],
+  "datetime": "2024-12-11T13:17:22.766177+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22602",
+  "number": 22602,
+  "title": "8345659: Fix broken alignment after ReservedSpace splitting in GC code",
+  "head_sha": "6c5cf2e250a08c86d774cdc0e9f38ea87bf25a66",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12276794040"
+}
