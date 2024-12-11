@@ -1,0 +1,14 @@
+{
+  "artifact_2305900602": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kevinjwalls-4b2872dba607865b006c1ae372d0d696a3feb2d8)\nOpenJDK 64-Bit Server VM (build 25-internal-kevinjwalls-4b2872dba607865b006c1ae372d0d696a3feb2d8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-11T13:52:30.040197+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22680",
+  "number": 22680,
+  "title": "8345984: Remove redundant checkXXX methods from java.management Util class",
+  "head_sha": "4b2872dba607865b006c1ae372d0d696a3feb2d8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12277516292"
+}
