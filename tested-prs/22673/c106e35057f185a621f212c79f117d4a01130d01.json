@@ -1,0 +1,14 @@
+{
+  "artifact_2303384013": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vpaprotsk-c106e35057f185a621f212c79f117d4a01130d01)\nOpenJDK 64-Bit Server VM (build 25-internal-vpaprotsk-c106e35057f185a621f212c79f117d4a01130d01, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-11T02:14:49.496862+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22673",
+  "number": 22673,
+  "title": "8344802: Crash in StubRoutines::verify_mxcsr with -XX:+EnableX86ECoreOpts and -Xcheck:jni",
+  "head_sha": "c106e35057f185a621f212c79f117d4a01130d01",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12268252017"
+}
