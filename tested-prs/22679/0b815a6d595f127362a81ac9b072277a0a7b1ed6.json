@@ -1,0 +1,14 @@
+{
+  "artifact_2305445163": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-mcimadamore-0b815a6d595f127362a81ac9b072277a0a7b1ed6)\nOpenJDK 64-Bit Server VM (build 24-internal-mcimadamore-0b815a6d595f127362a81ac9b072277a0a7b1ed6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-11T13:06:25.372762+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22679",
+  "number": 22679,
+  "title": "8345944: JEP 492: extending local class in a different static context should not be allowed",
+  "head_sha": "0b815a6d595f127362a81ac9b072277a0a7b1ed6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12276794040"
+}
