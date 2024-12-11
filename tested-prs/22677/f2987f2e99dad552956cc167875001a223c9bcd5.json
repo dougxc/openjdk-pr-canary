@@ -1,0 +1,14 @@
+{
+  "artifact_2304653008": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-reinrich-f2987f2e99dad552956cc167875001a223c9bcd5)\nOpenJDK 64-Bit Server VM (build 25-internal-reinrich-f2987f2e99dad552956cc167875001a223c9bcd5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-11T10:46:25.693228+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22677",
+  "number": 22677,
+  "title": "8345975: Update SAP SE copyright year to 2024 where it was missed",
+  "head_sha": "f2987f2e99dad552956cc167875001a223c9bcd5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12274558248"
+}
