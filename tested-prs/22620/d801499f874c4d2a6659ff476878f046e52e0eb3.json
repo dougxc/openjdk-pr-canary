@@ -1,0 +1,16 @@
+{
+  "artifact_2307469413": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-plummercj-d801499f874c4d2a6659ff476878f046e52e0eb3)\nOpenJDK 64-Bit Server VM (build 25-internal-plummercj-d801499f874c4d2a6659ff476878f046e52e0eb3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "47ccd8db679f2bd244cdcd8b9b85f8351eb22bb7.json"
+  ],
+  "datetime": "2024-12-11T19:05:10.657388+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22620",
+  "number": 22620,
+  "title": "8338714: vmTestbase/nsk/jdb/kill/kill001/kill001.java fails with JTREG_TEST_THREAD_FACTORY=Virtual.",
+  "head_sha": "d801499f874c4d2a6659ff476878f046e52e0eb3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12282771173"
+}
