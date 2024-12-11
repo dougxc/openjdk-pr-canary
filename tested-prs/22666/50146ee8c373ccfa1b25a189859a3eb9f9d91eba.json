@@ -1,0 +1,14 @@
+{
+  "artifact_2306334011": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-theoweidmannoracle-50146ee8c373ccfa1b25a189859a3eb9f9d91eba)\nOpenJDK 64-Bit Server VM (build 25-internal-theoweidmannoracle-50146ee8c373ccfa1b25a189859a3eb9f9d91eba, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-11T16:06:46.974875+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22666",
+  "number": 22666,
+  "title": "8331717: C2: Crash with SIGFPE Because Loop Predication Wrongly Hoists Division Requiring Zero Check",
+  "head_sha": "50146ee8c373ccfa1b25a189859a3eb9f9d91eba",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12279626056"
+}
