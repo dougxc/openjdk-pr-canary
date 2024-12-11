@@ -1,0 +1,16 @@
+{
+  "artifact_2308664939": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-alexmenkov-27bb3c43765def68e4e8d90ca57f621ef38998dc)\nOpenJDK 64-Bit Server VM (build 24-internal-alexmenkov-27bb3c43765def68e4e8d90ca57f621ef38998dc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2ca15a1894222034fac37a560f74b2440d34657f.json"
+  ],
+  "datetime": "2024-12-11T22:56:17.511091+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22223",
+  "number": 22223,
+  "title": "8342995: Enhance Attach API to support arbitrary length arguments - Linux",
+  "head_sha": "27bb3c43765def68e4e8d90ca57f621ef38998dc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12286049727"
+}
