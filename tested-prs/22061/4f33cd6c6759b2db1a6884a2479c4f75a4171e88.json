@@ -1,0 +1,26 @@
+{
+  "artifact_2305589631": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-theoweidmannoracle-4f33cd6c6759b2db1a6884a2479c4f75a4171e88)\nOpenJDK 64-Bit Server VM (build 24-internal-theoweidmannoracle-4f33cd6c6759b2db1a6884a2479c4f75a4171e88, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "117d1f41cc481485689f227d95458023cab738d4.json",
+    "35a7f16b178932a81a561bb7c96bb071adf6e937.json",
+    "621cf4d10f51f9ea23064ff9a42fd093ed64e346.json",
+    "75659ae3fbb40f5896c8c885bc36fc80be7c529c.json",
+    "94425ea6ab74fe3a43b3f6150eea3f639f890a18.json",
+    "a249d81b4cf81e1588748585efed282e01c4a8ff.json",
+    "b0d72683527f91a8d45c58bcd4ae0664a304ac5e.json",
+    "c34ef0390d9f149f698ce7312bbcaf2919b90f55.json",
+    "d4df20b7ed422d321fd14203fe60b0b721343063.json",
+    "ee7f3b35c554625701d523e775f79833f1f0c2d1.json",
+    "fe2232ee33f1a0b3ecc75f2bd8f64d3881838204.json"
+  ],
+  "datetime": "2024-12-11T13:38:45.251408+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22061",
+  "number": 22061,
+  "title": "8332268: C2: Add missing optimizations for UDivI/L and UModI/L and unify the shared logic with the signed nodes",
+  "head_sha": "4f33cd6c6759b2db1a6884a2479c4f75a4171e88",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12276794040"
+}
