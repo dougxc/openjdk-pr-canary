@@ -1,0 +1,17 @@
+{
+  "artifact_2312408615": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-coleenp-a0792dff2c5c29a293013721a6bc0a8c309d1dd3)\nOpenJDK 64-Bit Server VM (build 25-internal-coleenp-a0792dff2c5c29a293013721a6bc0a8c309d1dd3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4d546b58ea5f7b74053a6a9e76e710f45bb8304e.json",
+    "5d87b61af288dfd4ef555df113b8e2c92b855c52.json"
+  ],
+  "datetime": "2024-12-12T16:22:40.699900+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22618",
+  "number": 22618,
+  "title": "8345678: compute_modifiers should not be in create_mirror",
+  "head_sha": "a0792dff2c5c29a293013721a6bc0a8c309d1dd3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12299613773"
+}
