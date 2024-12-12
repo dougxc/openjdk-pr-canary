@@ -1,0 +1,14 @@
+{
+  "artifact_2309110418": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-quantum6-0ab7a46765809411d174c1990a91e68fdbe3e140)\nOpenJDK 64-Bit Server VM (build 25-internal-quantum6-0ab7a46765809411d174c1990a91e68fdbe3e140, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-12T03:03:37.796867+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/13055",
+  "number": 13055,
+  "title": "8264728: When use chinese IME, the candidate box isn't moved with caret of JTextArea",
+  "head_sha": "0ab7a46765809411d174c1990a91e68fdbe3e140",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12288426021"
+}
