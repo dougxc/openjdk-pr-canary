@@ -1,0 +1,14 @@
+{
+  "artifact_2309548663": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prsadhuk-c5d78be93b2c1901a002a831c20fcf4b993c0544)\nOpenJDK 64-Bit Server VM (build 25-internal-prsadhuk-c5d78be93b2c1901a002a831c20fcf4b993c0544, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-12T03:57:39.211915+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22698",
+  "number": 22698,
+  "title": "8346055: javax/swing/text/StyledEditorKit/4506788/bug4506788.java fails in ubuntu22.04",
+  "head_sha": "c5d78be93b2c1901a002a831c20fcf4b993c0544",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12289428939"
+}
