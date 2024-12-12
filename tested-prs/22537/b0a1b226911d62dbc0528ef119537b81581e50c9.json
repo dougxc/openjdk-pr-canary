@@ -1,0 +1,16 @@
+{
+  "artifact_2310997486": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-theoweidmannoracle-b0a1b226911d62dbc0528ef119537b81581e50c9)\nOpenJDK 64-Bit Server VM (build 24-internal-theoweidmannoracle-b0a1b226911d62dbc0528ef119537b81581e50c9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "69127e10f49b8d58e634c8169897481eba7dcc6d.json"
+  ],
+  "datetime": "2024-12-12T11:33:32.014470+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22537",
+  "number": 22537,
+  "title": "8341696: C2: Non-fluid StringBuilder pattern bails out in OptoStringConcat",
+  "head_sha": "b0a1b226911d62dbc0528ef119537b81581e50c9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12294612955"
+}
