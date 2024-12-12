@@ -1,0 +1,16 @@
+{
+  "artifact_2311685388": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-fa422ce304fba1f7244d7c13aa4bb0f8861c55ad)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-fa422ce304fba1f7244d7c13aa4bb0f8861c55ad, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b6be8ec341c1e33aa0a2c2c41c4321d087781ab3.json"
+  ],
+  "datetime": "2024-12-12T13:29:25.657725+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22706",
+  "number": 22706,
+  "title": "8346082: Output JVMTI agent information is hserr files",
+  "head_sha": "fa422ce304fba1f7244d7c13aa4bb0f8861c55ad",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12296838431"
+}
