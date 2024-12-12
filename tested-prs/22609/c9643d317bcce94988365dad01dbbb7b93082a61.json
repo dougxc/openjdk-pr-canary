@@ -1,0 +1,19 @@
+{
+  "artifact_2310939273": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jerboaa-c9643d317bcce94988365dad01dbbb7b93082a61)\nOpenJDK 64-Bit Server VM (build 25-internal-jerboaa-c9643d317bcce94988365dad01dbbb7b93082a61, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "383d068588c3d4cac19c75c81f153c35757e06db.json",
+    "73a909e82ff5787f515bc7dc9bebb3289f29b558.json",
+    "bbdd431b010410b2dc19863bd86b7996102b110e.json",
+    "d097e63fca625e880ca00682adacb43bda679514.json"
+  ],
+  "datetime": "2024-12-12T11:22:22.989763+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22609",
+  "number": 22609,
+  "title": "8345573: Module dependencies not resolved from run-time image when --limit-module is being used",
+  "head_sha": "c9643d317bcce94988365dad01dbbb7b93082a61",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12294612955"
+}
