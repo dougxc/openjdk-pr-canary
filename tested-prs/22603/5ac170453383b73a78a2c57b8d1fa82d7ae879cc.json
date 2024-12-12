@@ -1,0 +1,17 @@
+{
+  "artifact_2312595124": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-5ac170453383b73a78a2c57b8d1fa82d7ae879cc)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-5ac170453383b73a78a2c57b8d1fa82d7ae879cc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "89b7b72cab3171ef78a1feb5abc259e0c43dd7c4.json",
+    "b416e15a7b7189619c70b6a3939413bc8286bae9.json"
+  ],
+  "datetime": "2024-12-12T16:34:22.773396+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22603",
+  "number": 22603,
+  "title": "8345569: [ubsan] filemap.cpp:2215:47: runtime error: applying non-zero offset 34358689792 to null pointer",
+  "head_sha": "5ac170453383b73a78a2c57b8d1fa82d7ae879cc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12299613773"
+}
