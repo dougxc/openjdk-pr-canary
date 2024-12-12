@@ -1,0 +1,14 @@
+{
+  "artifact_2312821120": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-eme64-2127416f1fd5e8338aadd6f4e4c3bb7a26b14af6)\nOpenJDK 64-Bit Server VM (build 24-internal-eme64-2127416f1fd5e8338aadd6f4e4c3bb7a26b14af6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-12T16:49:50.735364+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22715",
+  "number": 22715,
+  "title": "8346106: Verify.checkEQ: testing utility for recursive value verification",
+  "head_sha": "2127416f1fd5e8338aadd6f4e4c3bb7a26b14af6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12300785071"
+}
