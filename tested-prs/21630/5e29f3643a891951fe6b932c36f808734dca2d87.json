@@ -1,0 +1,18 @@
+{
+  "artifact_2312025490": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rwestrel-5e29f3643a891951fe6b932c36f808734dca2d87)\nOpenJDK 64-Bit Server VM (build 25-internal-rwestrel-5e29f3643a891951fe6b932c36f808734dca2d87, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2deb4dbae72ecfe7c923de647169efe893fbe09e.json",
+    "74c38342969dfbcc4eb6992d202a44e8369c0e6f.json",
+    "aa56771736f43e94c8a4da97584cfcf73d7ec493.json"
+  ],
+  "datetime": "2024-12-12T15:32:13.129240+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21630",
+  "number": 21630,
+  "title": "8342692: C2: long counted loop/long range checks: don't create loop-nest for short running loops",
+  "head_sha": "5e29f3643a891951fe6b932c36f808734dca2d87",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12298535284"
+}
