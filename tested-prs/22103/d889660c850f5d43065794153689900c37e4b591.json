@@ -1,0 +1,14 @@
+{
+  "artifact_2318488838": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sormuras-d889660c850f5d43065794153689900c37e4b591)\nOpenJDK 64-Bit Server VM (build 24-internal-sormuras-d889660c850f5d43065794153689900c37e4b591, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-13T17:53:17.895053+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22103",
+  "number": 22103,
+  "title": "8268611: jar --validate should check targeted classes in MR-JAR files",
+  "head_sha": "d889660c850f5d43065794153689900c37e4b591",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12320254869"
+}
