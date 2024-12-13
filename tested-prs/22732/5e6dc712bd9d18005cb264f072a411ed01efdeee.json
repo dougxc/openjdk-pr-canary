@@ -1,0 +1,14 @@
+{
+  "artifact_2316707016": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-hns-5e6dc712bd9d18005cb264f072a411ed01efdeee)\nOpenJDK 64-Bit Server VM (build 25-internal-hns-5e6dc712bd9d18005cb264f072a411ed01efdeee, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-13T11:20:11.201249+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22732",
+  "number": 22732,
+  "title": "8345770: javadoc: API documentation builds are not always reproducible",
+  "head_sha": "5e6dc712bd9d18005cb264f072a411ed01efdeee",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12314044769"
+}
