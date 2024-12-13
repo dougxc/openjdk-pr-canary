@@ -1,0 +1,14 @@
+{
+  "artifact_2314042812": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kimbarrett-b93809b5e91b7a751948e9080a3760c637f4cb7f)\nOpenJDK 64-Bit Server VM (build 25-internal-kimbarrett-b93809b5e91b7a751948e9080a3760c637f4cb7f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-13T03:56:36.876590+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22728",
+  "number": 22728,
+  "title": "8345505: Fix -Wzero-as-null-pointer-constant warnings in zero code",
+  "head_sha": "b93809b5e91b7a751948e9080a3760c637f4cb7f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12309202295"
+}
