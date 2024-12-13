@@ -1,0 +1,18 @@
+{
+  "artifact_2316673096": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-110730df36022dc4fc3aa124c80fe2879305a236)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-110730df36022dc4fc3aa124c80fe2879305a236, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5ac170453383b73a78a2c57b8d1fa82d7ae879cc.json",
+    "89b7b72cab3171ef78a1feb5abc259e0c43dd7c4.json",
+    "b416e15a7b7189619c70b6a3939413bc8286bae9.json"
+  ],
+  "datetime": "2024-12-13T10:58:11.184188+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22603",
+  "number": 22603,
+  "title": "8345569: [ubsan] adjustments to filemap.cpp and virtualspace.cpp for macOS aarch64",
+  "head_sha": "110730df36022dc4fc3aa124c80fe2879305a236",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12314044769"
+}
