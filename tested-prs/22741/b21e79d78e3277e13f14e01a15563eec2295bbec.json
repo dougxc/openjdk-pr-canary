@@ -1,0 +1,14 @@
+{
+  "artifact_2319024404": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-PaulSandoz-b21e79d78e3277e13f14e01a15563eec2295bbec)\nOpenJDK 64-Bit Server VM (build 25-internal-PaulSandoz-b21e79d78e3277e13f14e01a15563eec2295bbec, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-13T19:35:17.975387+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22741",
+  "number": 22741,
+  "title": "8346174: UMAX/UMIN are missing from XXXVector::reductionOperations",
+  "head_sha": "b21e79d78e3277e13f14e01a15563eec2295bbec",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12321755713"
+}
