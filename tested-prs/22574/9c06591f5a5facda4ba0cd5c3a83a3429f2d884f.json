@@ -1,0 +1,19 @@
+{
+  "artifact_2316188970": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-robehn-9c06591f5a5facda4ba0cd5c3a83a3429f2d884f)\nOpenJDK 64-Bit Server VM (build 25-internal-robehn-9c06591f5a5facda4ba0cd5c3a83a3429f2d884f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1b127e08688482cd1bc27ce411b46caeb09abee9.json",
+    "5b91eead0dca52e847262ca142b80339ef1c6a4e.json",
+    "5c7d9f9352886c8b102ed4d50f00a201a7c36282.json",
+    "8c62fc97c12c5ca7cbe22ce5a1bc561485ebad0c.json"
+  ],
+  "datetime": "2024-12-13T10:04:26.748330+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22574",
+  "number": 22574,
+  "title": "8345322: RISC-V: Add concurrent gtests for cmpxchg variants",
+  "head_sha": "9c06591f5a5facda4ba0cd5c3a83a3429f2d884f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12313058075"
+}
