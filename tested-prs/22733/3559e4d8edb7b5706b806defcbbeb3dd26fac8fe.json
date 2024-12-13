@@ -1,0 +1,14 @@
+{
+  "artifact_2317174105": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-3559e4d8edb7b5706b806defcbbeb3dd26fac8fe)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-3559e4d8edb7b5706b806defcbbeb3dd26fac8fe, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-13T13:05:10.275946+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22733",
+  "number": 22733,
+  "title": "8345323: Parallel GC does not handle UseLargePages and UseNUMA gracefully",
+  "head_sha": "3559e4d8edb7b5706b806defcbbeb3dd26fac8fe",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12316016179"
+}
