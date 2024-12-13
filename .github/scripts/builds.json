@@ -99412,5 +99412,51 @@
 		"aliases": [
 			"jdk-25-171"
 		]
+	},
+	{
+		"id": "jdk-25+3-172",
+		"revisions": {
+			"open": [
+				"1d2ccaeaa316029772b5de3dc5579ee7b1363b60"
+			],
+			"graal": [
+				"ed1246538036375fac5e08fd6c471a6b3a5c2aa4"
+			],
+			".": [
+				"ad5b03d068530c742b697a18c6edc52205a1e3bd"
+			],
+			"graal-enterprise": [
+				"a721396b05682a7f9688d541ddb6c70e8dff8c64"
+			],
+			"mx": [
+				"823789b367d5ee872212adc75a00de485aeba702"
+			]
+		},
+		"aliases": [
+			"jdk-25-172"
+		]
+	},
+	{
+		"id": "jdk-25+3-173",
+		"revisions": {
+			"graal": [
+				"ed1246538036375fac5e08fd6c471a6b3a5c2aa4"
+			],
+			"open": [
+				"266e3d0decc09b9c17c455e2c754cd39114fa31a"
+			],
+			".": [
+				"ad5b03d068530c742b697a18c6edc52205a1e3bd"
+			],
+			"graal-enterprise": [
+				"a721396b05682a7f9688d541ddb6c70e8dff8c64"
+			],
+			"mx": [
+				"823789b367d5ee872212adc75a00de485aeba702"
+			]
+		},
+		"aliases": [
+			"jdk-25-173"
+		]
 	}
 ]
