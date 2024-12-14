@@ -1,0 +1,17 @@
+{
+  "artifact_2319944768": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexmenkov-012579f1472711de5bf80e383d4498ff55b153b2)\nOpenJDK 64-Bit Server VM (build 25-internal-alexmenkov-012579f1472711de5bf80e383d4498ff55b153b2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2cbdc9b9a737348cae1701e274cb9099d9373dcd.json",
+    "7665ba028a32193d83ff92e44fe31f273469386d.json"
+  ],
+  "datetime": "2024-12-14T02:44:18.814270+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22727",
+  "number": 22727,
+  "title": "8346151: Add transformer error logging to VerifyLocalVariableTableOnRetransformTest",
+  "head_sha": "012579f1472711de5bf80e383d4498ff55b153b2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12325862335"
+}
