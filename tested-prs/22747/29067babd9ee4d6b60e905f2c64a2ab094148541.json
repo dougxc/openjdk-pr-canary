@@ -1,0 +1,14 @@
+{
+  "artifact_2320083571": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-calvinccheung-29067babd9ee4d6b60e905f2c64a2ab094148541)\nOpenJDK 64-Bit Server VM (build 25-internal-calvinccheung-29067babd9ee4d6b60e905f2c64a2ab094148541, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-14T02:33:12.211130+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22747",
+  "number": 22747,
+  "title": "8345838: Remove the appcds/javaldr/AnonVmClassesDuringDump.java test",
+  "head_sha": "29067babd9ee4d6b60e905f2c64a2ab094148541",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12325862335"
+}
