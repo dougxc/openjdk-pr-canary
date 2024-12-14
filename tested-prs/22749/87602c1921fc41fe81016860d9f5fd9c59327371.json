@@ -1,0 +1,14 @@
+{
+  "artifact_2320167118": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-87602c1921fc41fe81016860d9f5fd9c59327371)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-87602c1921fc41fe81016860d9f5fd9c59327371, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-14T02:11:01.920513+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22749",
+  "number": 22749,
+  "title": "8346159: Disable CDS AOTClassLinking tests for JVMCI due to JDK-8345635",
+  "head_sha": "87602c1921fc41fe81016860d9f5fd9c59327371",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12325862335"
+}
