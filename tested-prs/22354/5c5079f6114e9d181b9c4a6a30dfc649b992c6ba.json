@@ -1,0 +1,17 @@
+{
+  "artifact_2322076818": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-offamitkumar-5c5079f6114e9d181b9c4a6a30dfc649b992c6ba)\nOpenJDK 64-Bit Server VM (build 24-internal-offamitkumar-5c5079f6114e9d181b9c4a6a30dfc649b992c6ba, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3543e1c82c5aac826d6fbddd8008a07c4d0cc080.json",
+    "a01706dd92a248b4f8ddb47ed651752c0249c4f2.json"
+  ],
+  "datetime": "2024-12-15T03:56:12.385692+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22354",
+  "number": 22354,
+  "title": "8336356: [s390x] preserve Vector Register before using for string compress / expand",
+  "head_sha": "5c5079f6114e9d181b9c4a6a30dfc649b992c6ba",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12335557651"
+}
