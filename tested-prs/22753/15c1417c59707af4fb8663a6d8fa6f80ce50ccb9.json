@@ -1,0 +1,14 @@
+{
+  "artifact_2323189340": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-15c1417c59707af4fb8663a6d8fa6f80ce50ccb9)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-15c1417c59707af4fb8663a6d8fa6f80ce50ccb9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-15T18:46:38.950381+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22753",
+  "number": 22753,
+  "title": "8346202: Correct typo in SQLPermission",
+  "head_sha": "15c1417c59707af4fb8663a6d8fa6f80ce50ccb9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12341290966"
+}
