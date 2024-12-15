@@ -1,0 +1,18 @@
+{
+  "artifact_2323471581": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-nizarbenalla-964ca5e28c7540dc558002005aed860e793794fe)\nOpenJDK 64-Bit Server VM (build 25-internal-nizarbenalla-964ca5e28c7540dc558002005aed860e793794fe, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8174c67fe3ef0139eef562821eb7a609d438bb62.json",
+    "a5efb313a764b0f31efabc75381113458cd27513.json",
+    "de69f9b8be99bf0efada001ed6c3e37ee9c47176.json"
+  ],
+  "datetime": "2024-12-15T22:42:47.160886+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21879",
+  "number": 21879,
+  "title": "8337111: Bad HTML checker for generated documentation",
+  "head_sha": "964ca5e28c7540dc558002005aed860e793794fe",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12342813245"
+}
