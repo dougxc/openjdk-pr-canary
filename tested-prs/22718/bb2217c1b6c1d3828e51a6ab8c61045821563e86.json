@@ -1,0 +1,18 @@
+{
+  "artifact_2325969471": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-AlanBateman-bb2217c1b6c1d3828e51a6ab8c61045821563e86)\nOpenJDK 64-Bit Server VM (build 25-internal-AlanBateman-bb2217c1b6c1d3828e51a6ab8c61045821563e86, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2dfee5380a474744bb43c9fd522e996d4bb0dcda.json",
+    "476437269383cefd4656c92d671e6651a49c868d.json",
+    "51ef032d01df6460e8938f073be0c185a548740d.json"
+  ],
+  "datetime": "2024-12-16T13:43:59.844805+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22718",
+  "number": 22718,
+  "title": "8346120: VirtualThreadPinned event recorded for Object.wait may have wrong duration or may record second event",
+  "head_sha": "bb2217c1b6c1d3828e51a6ab8c61045821563e86",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12353097179"
+}
