@@ -1,0 +1,14 @@
+{
+  "artifact_2325517648": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-robcasloz-61875050a1b24da905b13d1766d261bedf588535)\nOpenJDK 64-Bit Server VM (build 25-internal-robcasloz-61875050a1b24da905b13d1766d261bedf588535, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-16T13:07:00.811510+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22763",
+  "number": 22763,
+  "title": "8344951: Stabilize write barrier micro-benchmarks",
+  "head_sha": "61875050a1b24da905b13d1766d261bedf588535",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12353097179"
+}
