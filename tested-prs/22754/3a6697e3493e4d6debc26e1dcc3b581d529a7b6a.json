@@ -1,0 +1,18 @@
+{
+  "artifact_2326648433": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jatin-bhateja-3a6697e3493e4d6debc26e1dcc3b581d529a7b6a)\nOpenJDK 64-Bit Server VM (build 25-internal-jatin-bhateja-3a6697e3493e4d6debc26e1dcc3b581d529a7b6a, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "7cb694fac694ab0b89f4987389c928d4af9c6a05.json",
+    "c215eac79bf0d8eb34c278c18cd6f9f92d7090e4.json"
+  ],
+  "datetime": "2024-12-16T15:51:16.182705+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22754",
+  "number": 22754,
+  "title": "8342103: C2 compiler support for Float16 type and associated scalar operations",
+  "head_sha": "3a6697e3493e4d6debc26e1dcc3b581d529a7b6a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12355915717"
+}
