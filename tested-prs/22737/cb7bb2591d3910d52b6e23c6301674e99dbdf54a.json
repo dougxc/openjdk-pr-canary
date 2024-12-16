@@ -1,0 +1,16 @@
+{
+  "artifact_2325302159": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rgiulietti-cb7bb2591d3910d52b6e23c6301674e99dbdf54a)\nOpenJDK 64-Bit Server VM (build 25-internal-rgiulietti-cb7bb2591d3910d52b6e23c6301674e99dbdf54a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d055d0ea9a42e5c72051b8186330e639fce65ea8.json"
+  ],
+  "datetime": "2024-12-16T10:58:51.072895+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22737",
+  "number": 22737,
+  "title": "8343829: Unify decimal and hexadecimal parsing in FloatingDecimal",
+  "head_sha": "cb7bb2591d3910d52b6e23c6301674e99dbdf54a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12350823442"
+}
