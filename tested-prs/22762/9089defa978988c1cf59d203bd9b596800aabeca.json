@@ -1,0 +1,14 @@
+{
+  "artifact_2326051038": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-9089defa978988c1cf59d203bd9b596800aabeca)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-9089defa978988c1cf59d203bd9b596800aabeca, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-16T15:47:04.361489+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22762",
+  "number": 22762,
+  "title": "8346278: Clean up some flag handing in flags-cflags.m4",
+  "head_sha": "9089defa978988c1cf59d203bd9b596800aabeca",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12355915717"
+}
