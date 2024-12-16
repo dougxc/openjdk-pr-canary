@@ -1,0 +1,16 @@
+{
+  "artifact_2328502374": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dougxc-b0b197aa2e4d53e69caf6bd84beb164ce3353c7e)\nOpenJDK 64-Bit Server VM (build 25-internal-dougxc-b0b197aa2e4d53e69caf6bd84beb164ce3353c7e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0127c1cf948bc050928b8c5978adf827955ff763.json"
+  ],
+  "datetime": "2024-12-16T22:13:55.215979+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22767",
+  "number": 22767,
+  "title": "8346282: [JVMCI] Add failure reason support to UnresolvedJava/Type/Method/Field",
+  "head_sha": "b0b197aa2e4d53e69caf6bd84beb164ce3353c7e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12361598661"
+}
