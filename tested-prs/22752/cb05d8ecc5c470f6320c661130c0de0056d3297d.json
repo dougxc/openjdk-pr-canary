@@ -1,0 +1,17 @@
+{
+  "artifact_2324122817": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-RealFYang-cb05d8ecc5c470f6320c661130c0de0056d3297d)\nOpenJDK 64-Bit Server VM (build 25-internal-RealFYang-cb05d8ecc5c470f6320c661130c0de0056d3297d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6a874bfb248fad7858cb71333f5cbec2a69c3d89.json",
+    "7d15fd6e67c96ab287430a0629a5165878961eed.json"
+  ],
+  "datetime": "2024-12-16T04:45:56.082920+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22752",
+  "number": 22752,
+  "title": "8346235: RISC-V: Optimize bitwise AND with mask values",
+  "head_sha": "cb05d8ecc5c470f6320c661130c0de0056d3297d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12345985682"
+}
