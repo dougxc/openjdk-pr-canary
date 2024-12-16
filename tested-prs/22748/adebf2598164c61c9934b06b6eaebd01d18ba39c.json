@@ -1,0 +1,16 @@
+{
+  "artifact_2323994926": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lmesnik-adebf2598164c61c9934b06b6eaebd01d18ba39c)\nOpenJDK 64-Bit Server VM (build 25-internal-lmesnik-adebf2598164c61c9934b06b6eaebd01d18ba39c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "966824ce61fb50878ba327faab0e82924a139c18.json"
+  ],
+  "datetime": "2024-12-16T04:56:59.452107+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22748",
+  "number": 22748,
+  "title": "8346048: test/lib/containers/docker/DockerRunOptions.java uses addJavaOpts() from ctor",
+  "head_sha": "adebf2598164c61c9934b06b6eaebd01d18ba39c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12345985682"
+}
