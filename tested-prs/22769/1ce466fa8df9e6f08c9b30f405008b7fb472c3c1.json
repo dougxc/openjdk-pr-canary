@@ -1,0 +1,14 @@
+{
+  "artifact_2327525198": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-1ce466fa8df9e6f08c9b30f405008b7fb472c3c1)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-1ce466fa8df9e6f08c9b30f405008b7fb472c3c1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-16T17:52:05.486497+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22769",
+  "number": 22769,
+  "title": "8346294: Invalid lint category specified in compiler.properties",
+  "head_sha": "1ce466fa8df9e6f08c9b30f405008b7fb472c3c1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12358003207"
+}
