@@ -1,0 +1,14 @@
+{
+  "artifact_2332875673": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-4aab62c02468010aaf578b9cd704132446e5da1c)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-4aab62c02468010aaf578b9cd704132446e5da1c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-17T16:49:08.067066+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22793",
+  "number": 22793,
+  "title": "8346433: Cannot use DllMain in hotspot for static builds",
+  "head_sha": "4aab62c02468010aaf578b9cd704132446e5da1c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12377384852"
+}
