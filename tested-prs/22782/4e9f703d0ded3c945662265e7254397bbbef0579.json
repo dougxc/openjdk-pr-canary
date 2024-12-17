@@ -1,0 +1,16 @@
+{
+  "artifact_2333358138": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lepestock-4e9f703d0ded3c945662265e7254397bbbef0579)\nOpenJDK 64-Bit Server VM (build 25-internal-lepestock-4e9f703d0ded3c945662265e7254397bbbef0579, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9ef7d5ee1732d1dbe512260f6763052fd561bc68.json"
+  ],
+  "datetime": "2024-12-17T17:53:45.427791+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22782",
+  "number": 22782,
+  "title": "8322983: Virtual Threads: exclude 2 tests",
+  "head_sha": "4e9f703d0ded3c945662265e7254397bbbef0579",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12378262934"
+}
