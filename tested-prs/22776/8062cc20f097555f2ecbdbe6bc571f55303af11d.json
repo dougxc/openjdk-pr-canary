@@ -1,0 +1,14 @@
+{
+  "artifact_2328367194": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-honkar-jdk-8062cc20f097555f2ecbdbe6bc571f55303af11d)\nOpenJDK 64-Bit Server VM (build 25-internal-honkar-jdk-8062cc20f097555f2ecbdbe6bc571f55303af11d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-17T02:36:27.438871+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22776",
+  "number": 22776,
+  "title": "JDK-8344907 : NullPointerException in Win32ShellFolder2.getSystemIcon when \"icon\" is null",
+  "head_sha": "8062cc20f097555f2ecbdbe6bc571f55303af11d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12364912730"
+}
