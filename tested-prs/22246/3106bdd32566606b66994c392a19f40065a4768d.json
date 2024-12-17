@@ -1,0 +1,20 @@
+{
+  "artifact_2334472670": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-coleenp-3106bdd32566606b66994c392a19f40065a4768d)\nOpenJDK 64-Bit Server VM (build 25-internal-coleenp-3106bdd32566606b66994c392a19f40065a4768d, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/10271",
+    "number": "10271",
+    "revision": "9d1e3a0d99eceaec94d7a6039029651ba9852bb0"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2024-12-17T21:40:12.964837+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22246",
+  "number": 22246,
+  "title": "8339113: AccessFlags can be u2 in metadata",
+  "head_sha": "3106bdd32566606b66994c392a19f40065a4768d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12381690848"
+}
