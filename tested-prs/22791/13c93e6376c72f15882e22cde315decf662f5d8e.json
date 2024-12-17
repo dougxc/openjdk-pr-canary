@@ -1,0 +1,14 @@
+{
+  "artifact_2332607353": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-13c93e6376c72f15882e22cde315decf662f5d8e)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-13c93e6376c72f15882e22cde315decf662f5d8e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-17T15:43:23.399814+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22791",
+  "number": 22791,
+  "title": "8346394: Bundled freetype library needs to have JNI_OnLoad for static builds",
+  "head_sha": "13c93e6376c72f15882e22cde315decf662f5d8e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12376192338"
+}
