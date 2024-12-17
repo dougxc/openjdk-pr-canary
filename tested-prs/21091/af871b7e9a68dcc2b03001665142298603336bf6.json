@@ -1,0 +1,17 @@
+{
+  "artifact_2332386509": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-stooke-af871b7e9a68dcc2b03001665142298603336bf6)\nOpenJDK 64-Bit Server VM (build 25-internal-stooke-af871b7e9a68dcc2b03001665142298603336bf6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4e4f0fe334281fca52a692f74553f11df05c5419.json",
+    "8af708a36da5e602e2f362e28ebc8ece5c2a5ffd.json"
+  ],
+  "datetime": "2024-12-17T15:10:24.343917+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21091",
+  "number": 21091,
+  "title": "8340401: DcmdMBeanPermissionsTest.java and SystemDumpMapTest.java fail with assert(_stack_base != nullptr) failed: Sanity check",
+  "head_sha": "af871b7e9a68dcc2b03001665142298603336bf6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12375162819"
+}
