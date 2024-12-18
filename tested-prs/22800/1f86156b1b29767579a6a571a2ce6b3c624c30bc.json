@@ -1,0 +1,14 @@
+{
+  "artifact_2335246853": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-RealFYang-1f86156b1b29767579a6a571a2ce6b3c624c30bc)\nOpenJDK 64-Bit Server VM (build 25-internal-RealFYang-1f86156b1b29767579a6a571a2ce6b3c624c30bc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-18T02:10:41.234930+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22800",
+  "number": 22800,
+  "title": "8346475: RISC-V: Small improvement for MacroAssembler::ctzc_bit",
+  "head_sha": "1f86156b1b29767579a6a571a2ce6b3c624c30bc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12384897892"
+}
