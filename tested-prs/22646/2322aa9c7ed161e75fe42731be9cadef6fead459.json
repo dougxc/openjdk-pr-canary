@@ -1,0 +1,14 @@
+{
+  "artifact_2338276789": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-nelanbu-2322aa9c7ed161e75fe42731be9cadef6fead459)\nOpenJDK 64-Bit Server VM (build 25-internal-nelanbu-2322aa9c7ed161e75fe42731be9cadef6fead459, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-18T16:06:11.929367+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22646",
+  "number": 22646,
+  "title": "8345580: Remove const from Node::_idx which is modified",
+  "head_sha": "2322aa9c7ed161e75fe42731be9cadef6fead459",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12396153849"
+}
