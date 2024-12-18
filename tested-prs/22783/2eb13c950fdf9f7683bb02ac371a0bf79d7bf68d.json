@@ -1,0 +1,17 @@
+{
+  "artifact_2336154870": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prsadhuk-2eb13c950fdf9f7683bb02ac371a0bf79d7bf68d)\nOpenJDK 64-Bit Server VM (build 25-internal-prsadhuk-2eb13c950fdf9f7683bb02ac371a0bf79d7bf68d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0befa7277d69ae55bd5b046c2050aaa41c961974.json",
+    "d33aa49a5330c6a29c401ebfe1f075ddd548964c.json"
+  ],
+  "datetime": "2024-12-18T07:50:23.273111+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22783",
+  "number": 22783,
+  "title": "8346324: javax/swing/JScrollBar/4865918/bug4865918.java fails in CI",
+  "head_sha": "2eb13c950fdf9f7683bb02ac371a0bf79d7bf68d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12388294383"
+}
