@@ -1,0 +1,14 @@
+{
+  "artifact_2336590495": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-afshin-zafari-ad062ef1c19d4fd752092013080e1d84b4873b53)\nOpenJDK 64-Bit Server VM (build 25-internal-afshin-zafari-ad062ef1c19d4fd752092013080e1d84b4873b53, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-18T10:44:59.407408+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22807",
+  "number": 22807,
+  "title": "8331201: UBSAN enabled  build reports on Linux x86_64 runtime error shift exponent 65 is too large for 64-bit type 'long unsigned int'",
+  "head_sha": "ad062ef1c19d4fd752092013080e1d84b4873b53",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12391160236"
+}
