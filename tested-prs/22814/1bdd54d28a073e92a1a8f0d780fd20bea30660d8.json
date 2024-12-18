@@ -1,0 +1,16 @@
+{
+  "artifact_2339057604": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-RogerRiggs-1bdd54d28a073e92a1a8f0d780fd20bea30660d8)\nOpenJDK 64-Bit Server VM (build 25-internal-RogerRiggs-1bdd54d28a073e92a1a8f0d780fd20bea30660d8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6871b2b3ad2a664b05464187660dba987b81ebda.json"
+  ],
+  "datetime": "2024-12-18T18:08:47.538654+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22814",
+  "number": 22814,
+  "title": "8346468: SM cleanup of common test library",
+  "head_sha": "1bdd54d28a073e92a1a8f0d780fd20bea30660d8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12398196117"
+}
