@@ -94894,6 +94894,7 @@
 			"jdk-24+27"
 		],
 		"tags": [
+			"PRECIOUS",
 			"PROMOTED"
 		]
 	},
@@ -101957,6 +101958,29 @@
 		},
 		"aliases": [
 			"jdk-25-269"
+		]
+	},
+	{
+		"id": "jdk-25+3-270",
+		"revisions": {
+			".": [
+				"211b2587cbcb0382b75a5a6f3043952eaf80f0c2"
+			],
+			"open": [
+				"c8e94abfc36f751b9bbf4cdbd72d716d5e99ac88"
+			],
+			"graal": [
+				"e7b52b78d6e7329c417a9dccaf0cbf22a5f0fdc2"
+			],
+			"graal-enterprise": [
+				"cdae575e3dbe943b240eb8fe5eff4987fe89c71c"
+			],
+			"mx": [
+				"823789b367d5ee872212adc75a00de485aeba702"
+			]
+		},
+		"aliases": [
+			"jdk-25-270"
 		]
 	}
 ]
