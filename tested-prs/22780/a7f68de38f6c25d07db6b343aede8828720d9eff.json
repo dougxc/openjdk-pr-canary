@@ -1,0 +1,16 @@
+{
+  "artifact_2335157346": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-pchilano-a7f68de38f6c25d07db6b343aede8828720d9eff)\nOpenJDK 64-Bit Server VM (build 25-internal-pchilano-a7f68de38f6c25d07db6b343aede8828720d9eff, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "dff693c414acc555f04d9622e5a8c3148e8db242.json"
+  ],
+  "datetime": "2024-12-18T02:22:47.182941+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22780",
+  "number": 22780,
+  "title": "8345266: java/util/concurrent/locks/StampedLock/OOMEInStampedLock.java JTREG_TEST_THREAD_FACTORY=Virtual fails with OOME",
+  "head_sha": "a7f68de38f6c25d07db6b343aede8828720d9eff",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12384897892"
+}
