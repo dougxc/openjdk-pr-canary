@@ -1,0 +1,14 @@
+{
+  "artifact_2336694365": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaokim-6aa575ef694ad57788ba44f61110241d4d5caccb)\nOpenJDK 64-Bit Server VM (build 25-internal-jaokim-6aa575ef694ad57788ba44f61110241d4d5caccb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-18T10:56:03.862900+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22806",
+  "number": 22806,
+  "title": "8345782: Refining the cases that libjsig deprecation warning is issued",
+  "head_sha": "6aa575ef694ad57788ba44f61110241d4d5caccb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12391160236"
+}
