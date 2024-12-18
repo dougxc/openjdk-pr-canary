@@ -1,0 +1,18 @@
+{
+  "artifact_2340285889": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-matias9927-341197071fd86c2f789e5423adfd3eb8b7e02b06)\nOpenJDK 64-Bit Server VM (build 25-internal-matias9927-341197071fd86c2f789e5423adfd3eb8b7e02b06, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4402f98bd93bd5825ac67ee5dda5b956032dd053.json",
+    "72f71bd3de999a9e943fe5d9b1821b8ba551d9d5.json",
+    "b5896259359b111cb6e5a5b8d655fb2c87ab9979.json"
+  ],
+  "datetime": "2024-12-18T22:55:04.099887+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22743",
+  "number": 22743,
+  "title": "8340631: assert(reserved_rgn->contain_region(base_addr, size)) failed: Reserved CDS region should contain this mapping region",
+  "head_sha": "341197071fd86c2f789e5423adfd3eb8b7e02b06",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12402445803"
+}
