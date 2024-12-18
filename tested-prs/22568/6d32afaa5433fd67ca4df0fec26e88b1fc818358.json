@@ -1,0 +1,18 @@
+{
+  "artifact_2338950043": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rwestrel-6d32afaa5433fd67ca4df0fec26e88b1fc818358)\nOpenJDK 64-Bit Server VM (build 25-internal-rwestrel-6d32afaa5433fd67ca4df0fec26e88b1fc818358, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2aa63d52c711238cec93d64419e930bfc62c51d3.json",
+    "85a9155a8e2ac16845f7a47da35d4ed9f9ab244e.json",
+    "ea75615a87c9ca4994ab7d6e6089ed4b8f766d0b.json"
+  ],
+  "datetime": "2024-12-18T17:31:11.404897+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22568",
+  "number": 22568,
+  "title": "8332827: [REDO] C2: crash in compiled code because of dependency on removed range check CastIIs",
+  "head_sha": "6d32afaa5433fd67ca4df0fec26e88b1fc818358",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12397311488"
+}
