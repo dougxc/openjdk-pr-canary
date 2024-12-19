@@ -1,0 +1,14 @@
+{
+  "artifact_2341581981": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-kumarabhi006-a83aa98f6fd64bd275a02f3cbc3691f7c8c671a0)\nOpenJDK 64-Bit Server VM (build 24-internal-kumarabhi006-a83aa98f6fd64bd275a02f3cbc3691f7c8c671a0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-19T06:49:32.091596+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22822",
+  "number": 22822,
+  "title": "8339728 : [Accessibility,Windows,JAWS] Bug in the getKeyChar method of the AccessBridge class",
+  "head_sha": "a83aa98f6fd64bd275a02f3cbc3691f7c8c671a0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12407582046"
+}
