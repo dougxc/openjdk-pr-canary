@@ -1,0 +1,14 @@
+{
+  "artifact_2344975546": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jerboaa-c4c614c5e002215455b9112c1adf0317ce8e01ce)\nOpenJDK 64-Bit Server VM (build 25-internal-jerboaa-c4c614c5e002215455b9112c1adf0317ce8e01ce, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-19T19:33:34.741384+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22835",
+  "number": 22835,
+  "title": "8346239: Improve memory efficiency of JimageDiffGenerator",
+  "head_sha": "c4c614c5e002215455b9112c1adf0317ce8e01ce",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12419378115"
+}
