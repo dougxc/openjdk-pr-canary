@@ -1,0 +1,20 @@
+{
+  "artifact_2343240942": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liyazzi-7ee321b13a386f67621a26cbe0fe87f709951efe)\nOpenJDK 64-Bit Server VM (build 25-internal-liyazzi-7ee321b13a386f67621a26cbe0fe87f709951efe, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c29c6f03e653ff4cb7f8dec03c1c77415dda7335.json",
+    "c8d046e99eb4a353f29fb98947afd63addad3af0.json",
+    "c97dba991cd5cddc583139f562636a8963498830.json",
+    "e3c336c72d283ea5cad26c3dc0588f620956037f.json",
+    "ebf6b1da419bb265dce72976094eea2b91e11538.json"
+  ],
+  "datetime": "2024-12-19T13:45:51.443233+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22628",
+  "number": 22628,
+  "title": "8331467: FileSystems.getDefault fails with ClassNotFoundException if custom default provider is in run-time image",
+  "head_sha": "7ee321b13a386f67621a26cbe0fe87f709951efe",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12413737161"
+}
