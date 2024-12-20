@@ -1,0 +1,14 @@
+{
+  "artifact_2350017536": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mlchung-91ca8ce0e642f1befb93b06ace517f3f67f0a10c)\nOpenJDK 64-Bit Server VM (build 25-internal-mlchung-91ca8ce0e642f1befb93b06ace517f3f67f0a10c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-20T19:48:56.032077+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22853",
+  "number": 22853,
+  "title": "8346739: jpackage tests failed after JDK-8345259",
+  "head_sha": "91ca8ce0e642f1befb93b06ace517f3f67f0a10c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12437229558"
+}
