@@ -1,0 +1,18 @@
+{
+  "artifact_2346483978": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sspitsyn-2b3fef1e59d135c85e8be7f1dd384108c610f276)\nOpenJDK 64-Bit Server VM (build 25-internal-sspitsyn-2b3fef1e59d135c85e8be7f1dd384108c610f276, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4106c10ace31ca142f6dcdd693e35cc5bf0b595f.json",
+    "57aa3bdbed2c85931c986cbce0cdb1a0b2c2e8e6.json",
+    "defa6206328ad1e5ca0586c19a4c9c62ea657fd3.json"
+  ],
+  "datetime": "2024-12-20T02:38:09.951777+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22798",
+  "number": 22798,
+  "title": "8346460: NotifyFramePop should return JVMTI_ERROR_DUPLICATE",
+  "head_sha": "2b3fef1e59d135c85e8be7f1dd384108c610f276",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12424058925"
+}
