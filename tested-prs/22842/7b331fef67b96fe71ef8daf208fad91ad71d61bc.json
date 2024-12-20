@@ -1,0 +1,14 @@
+{
+  "artifact_2347816742": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-AlanBateman-7b331fef67b96fe71ef8daf208fad91ad71d61bc)\nOpenJDK 64-Bit Server VM (build 25-internal-AlanBateman-7b331fef67b96fe71ef8daf208fad91ad71d61bc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-20T11:56:16.480184+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22842",
+  "number": 22842,
+  "title": "8346573: Can't use custom default file system provider with custom system class loader",
+  "head_sha": "7b331fef67b96fe71ef8daf208fad91ad71d61bc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12430547542"
+}
