@@ -1,0 +1,14 @@
+{
+  "artifact_2346214295": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-earthling-amzn-cd638c0b3fb3df1b665cfd1a3061c83857ba5be4)\nOpenJDK 64-Bit Server VM (build 25-internal-earthling-amzn-cd638c0b3fb3df1b665cfd1a3061c83857ba5be4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-20T02:05:29.613477+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22839",
+  "number": 22839,
+  "title": "8346690: Shenandoah: Fix log message for end of GC usage report",
+  "head_sha": "cd638c0b3fb3df1b665cfd1a3061c83857ba5be4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12424058925"
+}
