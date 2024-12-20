@@ -1,0 +1,14 @@
+{
+  "artifact_2348621892": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-c23e154d67c7e85c84fdb36a323cd89949f287e0)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-c23e154d67c7e85c84fdb36a323cd89949f287e0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-20T14:41:08.080307+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22849",
+  "number": 22849,
+  "title": "8345259: Disallow ALL-MODULE-PATH without explicit --module-path",
+  "head_sha": "c23e154d67c7e85c84fdb36a323cd89949f287e0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12433169722"
+}
