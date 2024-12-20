@@ -1,0 +1,14 @@
+{
+  "artifact_2347104107": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lahodaj-49043abfc9f3dfc0bfca1e71bdef031199a28152)\nOpenJDK 64-Bit Server VM (build 25-internal-lahodaj-49043abfc9f3dfc0bfca1e71bdef031199a28152, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-20T07:48:16.526268+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22840",
+  "number": 22840,
+  "title": "8285150: Improve tab completion for annotations",
+  "head_sha": "49043abfc9f3dfc0bfca1e71bdef031199a28152",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12427330457"
+}
