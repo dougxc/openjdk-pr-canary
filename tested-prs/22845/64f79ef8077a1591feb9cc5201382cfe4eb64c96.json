@@ -1,0 +1,14 @@
+{
+  "artifact_2348164802": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-robehn-64f79ef8077a1591feb9cc5201382cfe4eb64c96)\nOpenJDK 64-Bit Server VM (build 25-internal-robehn-64f79ef8077a1591feb9cc5201382cfe4eb64c96, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-20T13:24:10.160542+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22845",
+  "number": 22845,
+  "title": "8346706: RISC-V: Add available registers to hs_err",
+  "head_sha": "64f79ef8077a1591feb9cc5201382cfe4eb64c96",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12431725230"
+}
