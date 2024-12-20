@@ -1,0 +1,16 @@
+{
+  "artifact_2348777158": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jankratochvil-d570aba714c5fc6e0286c5a188976d0bb0eb2c44)\nOpenJDK 64-Bit Server VM (build 25-internal-jankratochvil-d570aba714c5fc6e0286c5a188976d0bb0eb2c44, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4b5a8c248bb88e2847ebef95b19ff757545c674d.json"
+  ],
+  "datetime": "2024-12-20T14:53:15.612484+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22847",
+  "number": 22847,
+  "title": "8346713: [testsuite] NeverActAsServerClassMachine breaks TestPLABAdaptToMinTLABSize.java TestPinnedHumongousFragmentation.java TestPinnedObjectContents.java",
+  "head_sha": "d570aba714c5fc6e0286c5a188976d0bb0eb2c44",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12433169722"
+}
