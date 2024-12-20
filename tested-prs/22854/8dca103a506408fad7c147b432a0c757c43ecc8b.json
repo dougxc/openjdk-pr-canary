@@ -1,0 +1,16 @@
+{
+  "artifact_2350454616": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-naotoj-8dca103a506408fad7c147b432a0c757c43ecc8b)\nOpenJDK 64-Bit Server VM (build 25-internal-naotoj-8dca103a506408fad7c147b432a0c757c43ecc8b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3df7e9f14c39b2579f4e667c85a9ac981dbc2147.json"
+  ],
+  "datetime": "2024-12-20T22:42:25.627355+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22854",
+  "number": 22854,
+  "title": "8345668: ZoneOffset.ofTotalSeconds performance regression",
+  "head_sha": "8dca103a506408fad7c147b432a0c757c43ecc8b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12439376929"
+}
