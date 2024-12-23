@@ -1,0 +1,20 @@
+{
+  "artifact_2354528583": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-RealFYang-ba5f37cc96816f9b9d4c2cf99c9b4ae90ebaa2bd)\nOpenJDK 64-Bit Server VM (build 25-internal-RealFYang-ba5f37cc96816f9b9d4c2cf99c9b4ae90ebaa2bd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "22d2397f72f1e501385b5f16fd115f7e742866a8.json",
+    "4f8a66625c48a9b61139bd1ae28d4e03cd38c1da.json",
+    "55eaaac654bf74395c710635a5f003c54800de40.json",
+    "58e9a0eb3ef81e106ffbc6a03750dc4169d12bf7.json",
+    "b27fc6238756c93c0b1ab079b9cb156f533444d3.json"
+  ],
+  "datetime": "2024-12-23T04:43:27.695056+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22804",
+  "number": 22804,
+  "title": "8346478: RISC-V: Refactor add/sub assembler routines",
+  "head_sha": "ba5f37cc96816f9b9d4c2cf99c9b4ae90ebaa2bd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12461268037"
+}
