@@ -1,0 +1,16 @@
+{
+  "artifact_2355913884": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vy-dbd8bab7f6c21993ad400edb322da79b91bee80a)\nOpenJDK 64-Bit Server VM (build 25-internal-vy-dbd8bab7f6c21993ad400edb322da79b91bee80a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "91554c5873d4b643ca1234507aece44b33ecfd90.json"
+  ],
+  "datetime": "2024-12-23T13:41:45.188210+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22831",
+  "number": 22831,
+  "title": "8336412: sun.net.www.MimeTable has a few unused methods",
+  "head_sha": "dbd8bab7f6c21993ad400edb322da79b91bee80a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12467618520"
+}
