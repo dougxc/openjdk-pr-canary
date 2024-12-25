@@ -1,0 +1,17 @@
+{
+  "artifact_2360635517": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MaxXSoft-7f85c5e30ab69fe2f94d4604073eb8e610bfc6c2)\nOpenJDK 64-Bit Server VM (build 25-internal-MaxXSoft-7f85c5e30ab69fe2f94d4604073eb8e610bfc6c2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "540312c48adacf426cefa6e2fcca8b5387417b3e.json",
+    "ec3e6aa5971f003e140a6d569cc905c3b303b52c.json"
+  ],
+  "datetime": "2024-12-25T03:52:58.736086+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22861",
+  "number": 22861,
+  "title": "8346773: Fix unmatched brackets in source files",
+  "head_sha": "7f85c5e30ab69fe2f94d4604073eb8e610bfc6c2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12488974856"
+}
