@@ -1,0 +1,14 @@
+{
+  "artifact_2362173101": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Technici4n-b668cdb85fb695d31ddb937c4e711c35e959208e)\nOpenJDK 64-Bit Server VM (build 25-internal-Technici4n-b668cdb85fb695d31ddb937c4e711c35e959208e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-26T02:04:36.221908+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22882",
+  "number": 22882,
+  "title": "8316882: Add NOT_INTERRUPTIBLE OpenOption and use it in ZipFS",
+  "head_sha": "b668cdb85fb695d31ddb937c4e711c35e959208e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12498426980"
+}
