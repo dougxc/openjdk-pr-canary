@@ -1,0 +1,14 @@
+{
+  "artifact_2365672304": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-GennadiyKrivoshein-5486473b1fe8b61b74262e7473e229df92448f96)\nOpenJDK 64-Bit Server VM (build 25-internal-GennadiyKrivoshein-5486473b1fe8b61b74262e7473e229df92448f96, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-27T13:00:20.576867+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21930",
+  "number": 21930,
+  "title": "8315113: Print request Chromaticity.MONOCHROME attribute does not work on macOS",
+  "head_sha": "5486473b1fe8b61b74262e7473e229df92448f96",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12516251739"
+}
