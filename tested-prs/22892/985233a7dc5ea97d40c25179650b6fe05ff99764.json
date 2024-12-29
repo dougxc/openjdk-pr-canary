@@ -1,0 +1,14 @@
+{
+  "artifact_2369456372": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaikiran-985233a7dc5ea97d40c25179650b6fe05ff99764)\nOpenJDK 64-Bit Server VM (build 25-internal-jaikiran-985233a7dc5ea97d40c25179650b6fe05ff99764, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-29T15:36:41.028751+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22892",
+  "number": 22892,
+  "title": "8346871: Improve robustness of java/util/zip/EntryCount64k.java test",
+  "head_sha": "985233a7dc5ea97d40c25179650b6fe05ff99764",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12536602323"
+}
