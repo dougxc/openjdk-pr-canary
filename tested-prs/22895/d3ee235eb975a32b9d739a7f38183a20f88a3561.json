@@ -1,0 +1,14 @@
+{
+  "artifact_2371093404": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-d3ee235eb975a32b9d739a7f38183a20f88a3561)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-d3ee235eb975a32b9d739a7f38183a20f88a3561, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2024-12-30T11:33:50.171523+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22895",
+  "number": 22895,
+  "title": "8346847: [s390x] minimal build failure",
+  "head_sha": "d3ee235eb975a32b9d739a7f38183a20f88a3561",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12545846434"
+}
