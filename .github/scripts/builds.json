@@ -95782,6 +95782,29 @@
 		]
 	},
 	{
+		"id": "jdk-24+30-3590",
+		"revisions": {
+			"graal-enterprise": [
+				"e1240fd542efc552ded5eac27f179e6320f04d6d"
+			],
+			"graal": [
+				"97195eda2606533a9469f5ad0772063739defb60"
+			],
+			"open": [
+				"4254e99ce28f767ddf0f7f6803a45d68afd44859"
+			],
+			"mx": [
+				"a424108634b46317d9cb9b5f7d75325bc41f4c73"
+			],
+			".": [
+				"f863dab3ddbfdf949f19b8cd192dec11e7122c13"
+			]
+		},
+		"aliases": [
+			"jdk-24-3590"
+		]
+	},
+	{
 		"id": "jdk-24.0.1+1-1",
 		"revisions": {
 			".": [
