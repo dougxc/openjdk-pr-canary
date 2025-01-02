@@ -1,0 +1,16 @@
+{
+  "artifact_2380031495": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-b3a40b1c178f2da1b929e5b0f614d9383f8b6107)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-b3a40b1c178f2da1b929e5b0f614d9383f8b6107, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ab16e47dadb53a59ccbf07a833cc5dc9b6c39010.json"
+  ],
+  "datetime": "2025-01-02T19:45:40.645814+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20226",
+  "number": 20226,
+  "title": "4452735: Add GZIPOutputStream constructor to specify Deflater",
+  "head_sha": "b3a40b1c178f2da1b929e5b0f614d9383f8b6107",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12587607835"
+}
