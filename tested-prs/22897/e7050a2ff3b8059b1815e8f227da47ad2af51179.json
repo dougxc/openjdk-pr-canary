@@ -1,0 +1,17 @@
+{
+  "artifact_2378112221": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-e7050a2ff3b8059b1815e8f227da47ad2af51179)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-e7050a2ff3b8059b1815e8f227da47ad2af51179, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9b09067cd243d6083501bd26df7678d39bb65231.json",
+    "aa5894fd5f73350ea27f453fca4815828e04b2d4.json"
+  ],
+  "datetime": "2025-01-02T10:42:36.129089+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22897",
+  "number": 22897,
+  "title": "8346866: [ASAN] memoryReserver.cpp reported applying non-zero offset to non-null pointer produced null pointer",
+  "head_sha": "e7050a2ff3b8059b1815e8f227da47ad2af51179",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12581048761"
+}
