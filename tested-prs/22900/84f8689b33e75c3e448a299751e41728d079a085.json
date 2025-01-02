@@ -1,0 +1,14 @@
+{
+  "artifact_2377738612": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-albertnetymk-84f8689b33e75c3e448a299751e41728d079a085)\nOpenJDK 64-Bit Server VM (build 25-internal-albertnetymk-84f8689b33e75c3e448a299751e41728d079a085, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-02T09:06:37.051326+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22900",
+  "number": 22900,
+  "title": "8346921: Remove unused arg in markWord::must_be_preserved",
+  "head_sha": "84f8689b33e75c3e448a299751e41728d079a085",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12579637435"
+}
