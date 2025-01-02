@@ -1,0 +1,14 @@
+{
+  "artifact_2376945012": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-albertnetymk-ee6300d76de73884948185f5cf9f1020933d0158)\nOpenJDK 64-Bit Server VM (build 25-internal-albertnetymk-ee6300d76de73884948185f5cf9f1020933d0158, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-02T06:46:26.708283+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22899",
+  "number": 22899,
+  "title": "8346920: Serial: Support allocation in old generation before GC",
+  "head_sha": "ee6300d76de73884948185f5cf9f1020933d0158",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12578542293"
+}
