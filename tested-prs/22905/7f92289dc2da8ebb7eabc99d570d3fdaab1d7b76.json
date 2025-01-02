@@ -1,0 +1,14 @@
+{
+  "artifact_2379800013": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dmlloyd-7f92289dc2da8ebb7eabc99d570d3fdaab1d7b76)\nOpenJDK 64-Bit Server VM (build 25-internal-dmlloyd-7f92289dc2da8ebb7eabc99d570d3fdaab1d7b76, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-02T18:45:55.412233+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22905",
+  "number": 22905,
+  "title": "8346946: Allow class loaders to bind to layers for service loading",
+  "head_sha": "7f92289dc2da8ebb7eabc99d570d3fdaab1d7b76",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12587060300"
+}
