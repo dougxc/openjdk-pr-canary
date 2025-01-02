@@ -1,0 +1,22 @@
+{
+  "artifact_2380502132": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-d58f3ad6106e24c480e02f0c425250267c2e85ca)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-d58f3ad6106e24c480e02f0c425250267c2e85ca, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7cb7aa0cd01c7e49ae7772e2845818918317691f.json",
+    "8b961d483c147c0d950e7149f90f2e673544fda4.json",
+    "af342035e0d6f251fe29d6b514d8ab08acd728e6.json",
+    "b986eb324f884a3efa3c7858305aa89edc096d4f.json",
+    "c2f770b553101c7fc95f8dbd0cf0c49b812f15fa.json",
+    "d0d257257258a5c0defd6f4f02e8b261e21c53a4.json",
+    "de60c11ce1e6966b5f18792df94f9a29f4783c76.json"
+  ],
+  "datetime": "2025-01-02T21:36:53.601120+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22056",
+  "number": 22056,
+  "title": "8344079: Minor fixes and cleanups to compiler lint-related code",
+  "head_sha": "d58f3ad6106e24c480e02f0c425250267c2e85ca",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12588984358"
+}
