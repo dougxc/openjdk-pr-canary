@@ -1,0 +1,16 @@
+{
+  "artifact_2382112199": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-e67c271e737be58f300cd472de63fffd397e9144)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-e67c271e737be58f300cd472de63fffd397e9144, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9fd0a5a39941f8f00765e423cfb0bd91842b2004.json"
+  ],
+  "datetime": "2025-01-03T10:43:15.682114+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22903",
+  "number": 22903,
+  "title": "8346881: [ubsan] logSelection.cpp:154:24  / logSelectionList.cpp:72:94 : runtime error: applying non-zero offset 1 to null pointer",
+  "head_sha": "e67c271e737be58f300cd472de63fffd397e9144",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12596353574"
+}
