@@ -1,0 +1,14 @@
+{
+  "artifact_2380864288": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-calvinccheung-ceef376d9afba779bc0d5969d9f0200fd8b92931)\nOpenJDK 64-Bit Server VM (build 25-internal-calvinccheung-ceef376d9afba779bc0d5969d9f0200fd8b92931, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-03T02:04:39.928398+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22871",
+  "number": 22871,
+  "title": "8346457: AOT cache creation crashes with \"assert(pair_at(i).match() < pair_at(i+1).match()) failed: unsorted table entries\"",
+  "head_sha": "ceef376d9afba779bc0d5969d9f0200fd8b92931",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12591489378"
+}
