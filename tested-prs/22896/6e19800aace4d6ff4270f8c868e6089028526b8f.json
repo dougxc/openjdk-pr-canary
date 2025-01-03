@@ -1,0 +1,17 @@
+{
+  "artifact_2384585522": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexeysemenyukoracle-6e19800aace4d6ff4270f8c868e6089028526b8f)\nOpenJDK 64-Bit Server VM (build 25-internal-alexeysemenyukoracle-6e19800aace4d6ff4270f8c868e6089028526b8f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2984a6b55b5128db8e7474ba06f932e537c0e576.json",
+    "e3d0a991beb6cec087e1b4b9f436d71ae04a3fe0.json"
+  ],
+  "datetime": "2025-01-03T22:41:30.709887+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22896",
+  "number": 22896,
+  "title": "8346872: tools/jpackage/windows/WinLongPathTest.java fails",
+  "head_sha": "6e19800aace4d6ff4270f8c868e6089028526b8f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12604765921"
+}
