@@ -1,0 +1,14 @@
+{
+  "artifact_2384164947": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-zhengyu123-0ed1a35896240443d676a9c40e559059c103ab53)\nOpenJDK 64-Bit Server VM (build 25-internal-zhengyu123-0ed1a35896240443d676a9c40e559059c103ab53, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-03T23:04:59.378366+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21089",
+  "number": 21089,
+  "title": "8339668: Parallel: Adopt PartialArrayState to consolidate marking stack in Full GC",
+  "head_sha": "0ed1a35896240443d676a9c40e559059c103ab53",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12604765921"
+}
