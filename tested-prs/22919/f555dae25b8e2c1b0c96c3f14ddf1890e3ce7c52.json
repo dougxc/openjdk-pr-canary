@@ -1,0 +1,14 @@
+{
+  "artifact_2385621684": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-f555dae25b8e2c1b0c96c3f14ddf1890e3ce7c52)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-f555dae25b8e2c1b0c96c3f14ddf1890e3ce7c52, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-04T11:33:18.465414+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22919",
+  "number": 22919,
+  "title": "8347009: Speed \u200b\u200bup parseInt and parseLong",
+  "head_sha": "f555dae25b8e2c1b0c96c3f14ddf1890e3ce7c52",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12610038869"
+}
