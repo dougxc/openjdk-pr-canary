@@ -1,0 +1,18 @@
+{
+  "artifact_2389493522": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-offamitkumar-515227975440effa2f4a55a8bbe8697a8be858a5)\nOpenJDK 64-Bit Server VM (build 25-internal-offamitkumar-515227975440effa2f4a55a8bbe8697a8be858a5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1210029fbf2b67b4e3610d72776d151fc7aafd73.json",
+    "6c554b4686c833f969c855c814cac18143b0b43c.json",
+    "cdab784e803acf9f071fe602004dd899467d5bae.json"
+  ],
+  "datetime": "2025-01-06T11:38:32.981726+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22885",
+  "number": 22885,
+  "title": "8346157: [Ubsan]: runtime error: pointer index expression with base 0x000000001000 overflowed to 0xfffffffffffffff0",
+  "head_sha": "515227975440effa2f4a55a8bbe8697a8be858a5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12630911292"
+}
