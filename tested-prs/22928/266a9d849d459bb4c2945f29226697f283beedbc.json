@@ -1,0 +1,14 @@
+{
+  "artifact_2391402883": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-266a9d849d459bb4c2945f29226697f283beedbc)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-266a9d849d459bb4c2945f29226697f283beedbc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-06T23:05:01.421386+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22928",
+  "number": 22928,
+  "title": "Speed \u200b\u200bup UUID::toString",
+  "head_sha": "266a9d849d459bb4c2945f29226697f283beedbc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12641434839"
+}
