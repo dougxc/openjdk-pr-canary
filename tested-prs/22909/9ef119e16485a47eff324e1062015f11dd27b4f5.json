@@ -1,0 +1,14 @@
+{
+  "artifact_2388881302": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Renjithkannath-9ef119e16485a47eff324e1062015f11dd27b4f5)\nOpenJDK 64-Bit Server VM (build 25-internal-Renjithkannath-9ef119e16485a47eff324e1062015f11dd27b4f5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-06T06:59:23.472116+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22909",
+  "number": 22909,
+  "title": "8334644 : Automate javax/print/attribute/PageRangesException.java",
+  "head_sha": "9ef119e16485a47eff324e1062015f11dd27b4f5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12627808843"
+}
