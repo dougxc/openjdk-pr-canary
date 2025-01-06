@@ -1,0 +1,17 @@
+{
+  "artifact_2389587085": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-ee1ecf587bdf7f0e42585c8d2f6c3a930582710d)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-ee1ecf587bdf7f0e42585c8d2f6c3a930582710d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "cb106c451d2453c99679b75b0d93a7a008f6e67d.json",
+    "e652716ae4112696c9256fa739e99cad719a8b9f.json"
+  ],
+  "datetime": "2025-01-06T12:33:20.636466+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21257",
+  "number": 21257,
+  "title": "8341097: GHA: Demote Mac x86 jobs to build only",
+  "head_sha": "ee1ecf587bdf7f0e42585c8d2f6c3a930582710d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12630911292"
+}
