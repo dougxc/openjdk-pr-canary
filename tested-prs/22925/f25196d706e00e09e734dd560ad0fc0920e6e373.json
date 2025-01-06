@@ -1,0 +1,14 @@
+{
+  "artifact_2389627829": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MaxXSoft-f25196d706e00e09e734dd560ad0fc0920e6e373)\nOpenJDK 64-Bit Server VM (build 25-internal-MaxXSoft-f25196d706e00e09e734dd560ad0fc0920e6e373, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-06T10:44:29.080508+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22925",
+  "number": 22925,
+  "title": "8347042: Remove an extra parenthesis in macro definition in `jfrTraceIdMacros.hpp`",
+  "head_sha": "f25196d706e00e09e734dd560ad0fc0920e6e373",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12630911292"
+}
