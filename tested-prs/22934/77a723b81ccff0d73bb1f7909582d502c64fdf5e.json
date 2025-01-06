@@ -1,0 +1,14 @@
+{
+  "artifact_2391885540": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-77a723b81ccff0d73bb1f7909582d502c64fdf5e)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-77a723b81ccff0d73bb1f7909582d502c64fdf5e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-06T19:34:02.741665+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22934",
+  "number": 22934,
+  "title": "8347063: Add comments in ClassFileFormatVersion for class file format evolution history",
+  "head_sha": "77a723b81ccff0d73bb1f7909582d502c64fdf5e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12638917337"
+}
