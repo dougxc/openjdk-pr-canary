@@ -1,0 +1,14 @@
+{
+  "artifact_2395268802": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-6017b68acb4a24e2ad7145d2a04b35bfb0c99983)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-6017b68acb4a24e2ad7145d2a04b35bfb0c99983, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-07T13:02:56.450853+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22945",
+  "number": 22945,
+  "title": "8346868: RISC-V: compiler/sharedstubs tests fail after JDK-8332689",
+  "head_sha": "6017b68acb4a24e2ad7145d2a04b35bfb0c99983",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12651932209"
+}
