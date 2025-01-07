@@ -1,0 +1,16 @@
+{
+  "artifact_2397860008": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rajamah-79a82de036ce8d24a124b03312eaa5889e6a6f26)\nOpenJDK 64-Bit Server VM (build 25-internal-rajamah-79a82de036ce8d24a124b03312eaa5889e6a6f26, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "bdba3a94b0de1f99eff8adf2d901a00497998a7a.json"
+  ],
+  "datetime": "2025-01-07T20:51:30.438499+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22932",
+  "number": 22932,
+  "title": "8282862: AwtWindow::SetIconData leaks old icon handles if an exception is detected",
+  "head_sha": "79a82de036ce8d24a124b03312eaa5889e6a6f26",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12658796401"
+}
