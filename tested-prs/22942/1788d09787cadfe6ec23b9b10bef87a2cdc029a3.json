@@ -1,0 +1,16 @@
+{
+  "artifact_2397891323": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-1788d09787cadfe6ec23b9b10bef87a2cdc029a3)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-1788d09787cadfe6ec23b9b10bef87a2cdc029a3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "79fe74eb8f74d21c16cb2850a55cf8a37d9b3f65.json"
+  ],
+  "datetime": "2025-01-07T20:40:42.596128+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22942",
+  "number": 22942,
+  "title": "Speed \u200b\u200bup Integer/Long toHexString",
+  "head_sha": "1788d09787cadfe6ec23b9b10bef87a2cdc029a3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12658796401"
+}
