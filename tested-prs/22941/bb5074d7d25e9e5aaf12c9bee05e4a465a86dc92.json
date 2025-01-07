@@ -1,0 +1,16 @@
+{
+  "artifact_2396792693": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-theoweidmannoracle-bb5074d7d25e9e5aaf12c9bee05e4a465a86dc92)\nOpenJDK 64-Bit Server VM (build 24-internal-theoweidmannoracle-bb5074d7d25e9e5aaf12c9bee05e4a465a86dc92, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "36066fa6b02b1d814f4811fa998e4daa60d852a0.json"
+  ],
+  "datetime": "2025-01-07T17:26:42.872610+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22941",
+  "number": 22941,
+  "title": "8346107: Generators: testing utility for random value generation",
+  "head_sha": "bb5074d7d25e9e5aaf12c9bee05e4a465a86dc92",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12655541082"
+}
