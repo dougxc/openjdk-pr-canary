@@ -1,0 +1,14 @@
+{
+  "artifact_2400923284": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-061917bdba25bf7dedd0d5a780818e15103efbc5)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-061917bdba25bf7dedd0d5a780818e15103efbc5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-08T13:27:20.333056+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22965",
+  "number": 22965,
+  "title": "8347256: Epsilon: Demote heap size and AlwaysPreTouch warnings to info level",
+  "head_sha": "061917bdba25bf7dedd0d5a780818e15103efbc5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12670918433"
+}
