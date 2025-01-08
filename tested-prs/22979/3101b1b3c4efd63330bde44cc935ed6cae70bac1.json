@@ -1,0 +1,14 @@
+{
+  "artifact_2403744711": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-hns-3101b1b3c4efd63330bde44cc935ed6cae70bac1)\nOpenJDK 64-Bit Server VM (build 25-internal-hns-3101b1b3c4efd63330bde44cc935ed6cae70bac1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-08T22:07:41.143137+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22979",
+  "number": 22979,
+  "title": "8347122: Add missing @serial tags to module java.desktop",
+  "head_sha": "3101b1b3c4efd63330bde44cc935ed6cae70bac1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12679316095"
+}
