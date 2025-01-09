@@ -1,0 +1,14 @@
+{
+  "artifact_2404819468": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexeysemenyukoracle-6fa301408b2a0d4df89279d811feb5768f90f875)\nOpenJDK 64-Bit Server VM (build 25-internal-alexeysemenyukoracle-6fa301408b2a0d4df89279d811feb5768f90f875, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-09T03:18:21.156427+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22989",
+  "number": 22989,
+  "title": "8347295: Fix WinResourceTest to make it work with WiX v4.0+",
+  "head_sha": "6fa301408b2a0d4df89279d811feb5768f90f875",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12682474533"
+}
