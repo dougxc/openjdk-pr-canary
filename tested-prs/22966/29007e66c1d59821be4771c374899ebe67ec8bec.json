@@ -1,0 +1,16 @@
+{
+  "artifact_2406847673": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JoKern65-29007e66c1d59821be4771c374899ebe67ec8bec)\nOpenJDK 64-Bit Server VM (build 25-internal-JoKern65-29007e66c1d59821be4771c374899ebe67ec8bec, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1a5a19519cf7d25ca3110564381a0e91612002b0.json"
+  ],
+  "datetime": "2025-01-09T13:35:26.360595+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22966",
+  "number": 22966,
+  "title": "8346880: [aix] java/lang/ProcessHandle/InfoTest.java still fails: \"reported cputime less than expected\"",
+  "head_sha": "29007e66c1d59821be4771c374899ebe67ec8bec",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12690230137"
+}
