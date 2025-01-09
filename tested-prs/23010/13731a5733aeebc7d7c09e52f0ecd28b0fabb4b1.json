@@ -1,0 +1,14 @@
+{
+  "artifact_2408064780": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-13731a5733aeebc7d7c09e52f0ecd28b0fabb4b1)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-13731a5733aeebc7d7c09e52f0ecd28b0fabb4b1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-09T17:04:05.404348+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23010",
+  "number": 23010,
+  "title": "8347267: [macOS]: UnixOperatingSystem.c:67:40: runtime error: division by zero",
+  "head_sha": "13731a5733aeebc7d7c09e52f0ecd28b0fabb4b1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12693079323"
+}
