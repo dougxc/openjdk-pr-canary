@@ -1,0 +1,18 @@
+{
+  "artifact_2407431948": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-coleenp-a8ed23ec3288102f869d0a52cf5da0d13d76b8da)\nOpenJDK 64-Bit Server VM (build 25-internal-coleenp-a8ed23ec3288102f869d0a52cf5da0d13d76b8da, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "e5e85aa971caced0744eda6af4e7b51123d9adea.json",
+    "fdbbda40dd449956251199e701abdbc6453ffd4d.json"
+  ],
+  "datetime": "2025-01-09T14:51:31.219225+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22974",
+  "number": 22974,
+  "title": "8346929: runtime/ClassUnload/DictionaryDependsTest.java fails with \"Test failed: should be unloaded\"",
+  "head_sha": "a8ed23ec3288102f869d0a52cf5da0d13d76b8da",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12690905712"
+}
