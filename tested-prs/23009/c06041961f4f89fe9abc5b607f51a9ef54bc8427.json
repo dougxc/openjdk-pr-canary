@@ -1,0 +1,14 @@
+{
+  "artifact_2407978470": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-c06041961f4f89fe9abc5b607f51a9ef54bc8427)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-c06041961f4f89fe9abc5b607f51a9ef54bc8427, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-09T17:14:58.027950+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23009",
+  "number": 23009,
+  "title": "8345337: JFR: jfr view should display all direct subfields for an event type",
+  "head_sha": "c06041961f4f89fe9abc5b607f51a9ef54bc8427",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12693079323"
+}
