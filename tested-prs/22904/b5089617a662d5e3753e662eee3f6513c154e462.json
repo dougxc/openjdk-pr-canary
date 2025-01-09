@@ -1,0 +1,17 @@
+{
+  "artifact_2407802548": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-seanjmullan-b5089617a662d5e3753e662eee3f6513c154e462)\nOpenJDK 64-Bit Server VM (build 25-internal-seanjmullan-b5089617a662d5e3753e662eee3f6513c154e462, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "823cbef5ef09fb727a9954b004f14e067e573d67.json",
+    "b622c996af3848b42849bd9f327f6ffb2b7e0204.json"
+  ],
+  "datetime": "2025-01-09T15:52:53.100354+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22904",
+  "number": 22904,
+  "title": "8283795: Add TLSv1.3 and CNSA 1.0 algorithms to implementation requirements",
+  "head_sha": "b5089617a662d5e3753e662eee3f6513c154e462",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12691955789"
+}
