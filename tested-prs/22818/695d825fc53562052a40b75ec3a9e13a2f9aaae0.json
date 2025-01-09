@@ -1,0 +1,17 @@
+{
+  "artifact_2407260643": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rwestrel-695d825fc53562052a40b75ec3a9e13a2f9aaae0)\nOpenJDK 64-Bit Server VM (build 25-internal-rwestrel-695d825fc53562052a40b75ec3a9e13a2f9aaae0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "64c538b235873da03fbe43e2443ba83939ddb677.json",
+    "f768e40b939632d4159c094fa38395e6c85f1e60.json"
+  ],
+  "datetime": "2025-01-09T13:57:58.147134+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22818",
+  "number": 22818,
+  "title": "8346184: C2: assert(has_node(i)) failed during split thru phi",
+  "head_sha": "695d825fc53562052a40b75ec3a9e13a2f9aaae0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12690230137"
+}
