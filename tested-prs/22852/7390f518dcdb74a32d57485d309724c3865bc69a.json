@@ -1,0 +1,17 @@
+{
+  "artifact_2408717358": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dlunde-7390f518dcdb74a32d57485d309724c3865bc69a)\nOpenJDK 64-Bit Server VM (build 25-internal-dlunde-7390f518dcdb74a32d57485d309724c3865bc69a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9ec33d538d34a1424d027ecc8e17b1ce5ce25cb5.json",
+    "e154c9f0330fea05aa498ffa6a853ca80aa32e70.json"
+  ],
+  "datetime": "2025-01-09T19:32:34.489955+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22852",
+  "number": 22852,
+  "title": "8333393: PhaseCFG::insert_anti_dependences can fail to raise LCAs and to add necessary anti-dependence edges",
+  "head_sha": "7390f518dcdb74a32d57485d309724c3865bc69a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12696360427"
+}
