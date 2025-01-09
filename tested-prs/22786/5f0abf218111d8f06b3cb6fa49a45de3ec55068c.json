@@ -1,0 +1,16 @@
+{
+  "artifact_2406908118": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-theoweidmannoracle-5f0abf218111d8f06b3cb6fa49a45de3ec55068c)\nOpenJDK 64-Bit Server VM (build 25-internal-theoweidmannoracle-5f0abf218111d8f06b3cb6fa49a45de3ec55068c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b4e9838c6d3110ad78fa8f1eb4d7685b14d6fc4c.json"
+  ],
+  "datetime": "2025-01-09T12:44:25.048735+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22786",
+  "number": 22786,
+  "title": "8345766: C2 should emit macro nodes for ModF/ModD instead of calls during parsing",
+  "head_sha": "5f0abf218111d8f06b3cb6fa49a45de3ec55068c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12688924657"
+}
