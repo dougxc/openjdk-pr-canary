@@ -1,0 +1,14 @@
+{
+  "artifact_2406760332": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-719ed731534e68f00623358e17765c6a3076fd9e)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-719ed731534e68f00623358e17765c6a3076fd9e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-09T19:21:24.549357+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23000",
+  "number": 23000,
+  "title": "8332506: SIGFPE In ObjectSynchronizer::is_async_deflation_needed()",
+  "head_sha": "719ed731534e68f00623358e17765c6a3076fd9e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12696360427"
+}
