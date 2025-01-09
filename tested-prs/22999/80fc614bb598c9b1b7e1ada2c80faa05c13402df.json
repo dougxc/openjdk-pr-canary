@@ -1,0 +1,14 @@
+{
+  "artifact_2406451515": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-viktorklang-ora-80fc614bb598c9b1b7e1ada2c80faa05c13402df)\nOpenJDK 64-Bit Server VM (build 25-internal-viktorklang-ora-80fc614bb598c9b1b7e1ada2c80faa05c13402df, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-09T11:45:12.408808+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22999",
+  "number": 22999,
+  "title": "8347274: Gatherers.mapConcurrent exhibits undesired behavior under variable delays, interruption, and finishing",
+  "head_sha": "80fc614bb598c9b1b7e1ada2c80faa05c13402df",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12688924657"
+}
