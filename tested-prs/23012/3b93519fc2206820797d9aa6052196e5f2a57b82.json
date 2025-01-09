@@ -1,0 +1,14 @@
+{
+  "artifact_2408095536": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-theRealAph-3b93519fc2206820797d9aa6052196e5f2a57b82)\nOpenJDK 64-Bit Server VM (build 25-internal-theRealAph-3b93519fc2206820797d9aa6052196e5f2a57b82, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-09T16:52:09.293259+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23012",
+  "number": 23012,
+  "title": "8346890: AArch64: Type profile counters generate suboptimal code",
+  "head_sha": "3b93519fc2206820797d9aa6052196e5f2a57b82",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12693079323"
+}
