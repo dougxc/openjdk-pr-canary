@@ -1,0 +1,17 @@
+{
+  "artifact_2406149692": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-suchismith1993-6fc231975b0f537c60adbcaf7469837c8a480ed0)\nOpenJDK 64-Bit Server VM (build 25-internal-suchismith1993-6fc231975b0f537c60adbcaf7469837c8a480ed0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9dea4fc05c88c717ef2be294a03d1b9ebc2c2f94.json",
+    "cd121d07d952cbb30d809982705acfaa82d403ee.json"
+  ],
+  "datetime": "2025-01-09T11:19:11.397488+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20235",
+  "number": 20235,
+  "title": "JDK-8216437 : PPC64: Add intrinsic for GHASH algorithm",
+  "head_sha": "6fc231975b0f537c60adbcaf7469837c8a480ed0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12688146528"
+}
