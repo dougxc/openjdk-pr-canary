@@ -1,0 +1,16 @@
+{
+  "artifact_2408903539": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-earthling-amzn-83ac7b49d34081beb3ff58f1c159d22faacd077a)\nOpenJDK 64-Bit Server VM (build 25-internal-earthling-amzn-83ac7b49d34081beb3ff58f1c159d22faacd077a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9aaef708d0ca2fc288424ac5242974dd740f6141.json"
+  ],
+  "datetime": "2025-01-09T19:55:31.240790+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22688",
+  "number": 22688,
+  "title": "8344049: Shenandoah: Eliminate init-update-refs safepoint",
+  "head_sha": "83ac7b49d34081beb3ff58f1c159d22faacd077a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12696360427"
+}
