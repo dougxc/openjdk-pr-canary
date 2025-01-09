@@ -1,0 +1,19 @@
+{
+  "artifact_2406906385": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-galderz-c04919873fa545b6c4a95e489063af6853893519)\nOpenJDK 64-Bit Server VM (build 25-internal-galderz-c04919873fa545b6c4a95e489063af6853893519, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "fb0f731fca29e774327448d7f3dcd2481c400f2d.json",
+    "0a8718e13b5069542cf2402e9d752d8e8fc7a077.json",
+    "130b4755c43b77a27d45016f35a40594acbd94af.json",
+    "aca09222fa4a16d6dcf1c857c33251c865c8eeec.json"
+  ],
+  "datetime": "2025-01-09T13:09:13.410386+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20098",
+  "number": 20098,
+  "title": "8307513: C2: intrinsify Math.max(long,long) and Math.min(long,long)",
+  "head_sha": "c04919873fa545b6c4a95e489063af6853893519",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12688924657"
+}
