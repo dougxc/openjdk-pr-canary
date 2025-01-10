@@ -1,0 +1,14 @@
+{
+  "artifact_2413410473": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jerboaa-6ac4d329395417d44d81da17bb9a14fb13d4f177)\nOpenJDK 64-Bit Server VM (build 25-internal-jerboaa-6ac4d329395417d44d81da17bb9a14fb13d4f177, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-10T15:40:38.073361+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23037",
+  "number": 23037,
+  "title": "8347129: cpuset cgroups controller is required for no good reason",
+  "head_sha": "6ac4d329395417d44d81da17bb9a14fb13d4f177",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12712375124"
+}
