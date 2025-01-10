@@ -1,0 +1,16 @@
+{
+  "artifact_2411833752": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-robehn-66d53aaceda2da3e35ee3b0430b21ba5911588a5)\nOpenJDK 64-Bit Server VM (build 25-internal-robehn-66d53aaceda2da3e35ee3b0430b21ba5911588a5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ab936267bdf8f762dcf2b8e2e16717479bc15e96.json"
+  ],
+  "datetime": "2025-01-10T09:30:20.083632+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23015",
+  "number": 23015,
+  "title": "8347366: RISC-V: Add extension asserts for CMO instructions",
+  "head_sha": "66d53aaceda2da3e35ee3b0430b21ba5911588a5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12705977150"
+}
