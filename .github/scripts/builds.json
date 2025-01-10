@@ -96136,6 +96136,29 @@
 		]
 	},
 	{
+		"id": "jdk-24+32-3605",
+		"revisions": {
+			"graal": [
+				"97195eda2606533a9469f5ad0772063739defb60"
+			],
+			"mx": [
+				"a424108634b46317d9cb9b5f7d75325bc41f4c73"
+			],
+			".": [
+				"4c3305751fcbdb73214069192e90f9ef43221f1d"
+			],
+			"graal-enterprise": [
+				"e1240fd542efc552ded5eac27f179e6320f04d6d"
+			],
+			"open": [
+				"41630c5c32134b31351fcac3f9c33ad3a7f4df6c"
+			]
+		},
+		"aliases": [
+			"jdk-24-3605"
+		]
+	},
+	{
 		"id": "jdk-24.0.1+1-1",
 		"revisions": {
 			".": [
@@ -107380,6 +107403,77 @@
 		},
 		"aliases": [
 			"jdk-25-465"
+		]
+	},
+	{
+		"id": "jdk-25+6-466",
+		"revisions": {
+			"graal-enterprise": [
+				"9c6ec629305fca1fca8a2f957fb69df7d84556c3"
+			],
+			"graal": [
+				"707c34efcc740a2ad900b440186473675e7a6eb5"
+			],
+			"mx": [
+				"1be0ca2ddcdba4813cf92f6f6710eed6b59beec3"
+			],
+			".": [
+				"ae248c9542dcf3cdeec3b33f1747df05374bb85e"
+			],
+			"open": [
+				"8b076172a523ee9e845ee9d8b36e7d430206448c"
+			]
+		},
+		"aliases": [
+			"jdk-25-466"
+		]
+	},
+	{
+		"id": "jdk-25+6-467",
+		"revisions": {
+			"graal-enterprise": [
+				"5c055eed1091477d7853d4707a2ca4258e133c80",
+				"5c8b99057829b2b65088baac284987d3b2434181"
+			],
+			"graal": [
+				"726623887a0e0de2a035a2321b65581c477eef4b",
+				"cdada02bd510080ed47ae5d52b93c054ccca0b75"
+			],
+			"mx": [
+				"1be0ca2ddcdba4813cf92f6f6710eed6b59beec3"
+			],
+			".": [
+				"ae248c9542dcf3cdeec3b33f1747df05374bb85e"
+			],
+			"open": [
+				"8b076172a523ee9e845ee9d8b36e7d430206448c"
+			]
+		},
+		"aliases": [
+			"jdk-25-467"
+		]
+	},
+	{
+		"id": "jdk-25+6-468",
+		"revisions": {
+			"graal-enterprise": [
+				"5c055eed1091477d7853d4707a2ca4258e133c80"
+			],
+			"open": [
+				"1a0fe49732187db9e8776f80feefab4373114f75"
+			],
+			"mx": [
+				"1be0ca2ddcdba4813cf92f6f6710eed6b59beec3"
+			],
+			".": [
+				"ae248c9542dcf3cdeec3b33f1747df05374bb85e"
+			],
+			"graal": [
+				"726623887a0e0de2a035a2321b65581c477eef4b"
+			]
+		},
+		"aliases": [
+			"jdk-25-468"
 		]
 	}
 ]
