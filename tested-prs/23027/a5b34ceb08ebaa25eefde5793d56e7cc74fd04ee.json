@@ -1,0 +1,14 @@
+{
+  "artifact_2411618340": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-a5b34ceb08ebaa25eefde5793d56e7cc74fd04ee)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-a5b34ceb08ebaa25eefde5793d56e7cc74fd04ee, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-10T08:55:55.359970+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23027",
+  "number": 23027,
+  "title": "8343978: Update the default value of CodeEntryAlignment for Ampere-1A and 1B",
+  "head_sha": "a5b34ceb08ebaa25eefde5793d56e7cc74fd04ee",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12705977150"
+}
