@@ -1,0 +1,14 @@
+{
+  "artifact_2413081278": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-aivanov-jdk-eba67fc1e05807024115a0442a9cb583046cc88f)\nOpenJDK 64-Bit Server VM (build 25-internal-aivanov-jdk-eba67fc1e05807024115a0442a9cb583046cc88f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-10T14:09:51.293653+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23034",
+  "number": 23034,
+  "title": "8347427: JTabbedPane/8134116/Bug8134116.java has no license header",
+  "head_sha": "eba67fc1e05807024115a0442a9cb583046cc88f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12710464777"
+}
