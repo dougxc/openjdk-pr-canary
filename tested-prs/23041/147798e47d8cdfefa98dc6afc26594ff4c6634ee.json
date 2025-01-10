@@ -1,0 +1,14 @@
+{
+  "artifact_2414171851": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-147798e47d8cdfefa98dc6afc26594ff4c6634ee)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-147798e47d8cdfefa98dc6afc26594ff4c6634ee, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-10T17:34:12.181235+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23041",
+  "number": 23041,
+  "title": "8343510: JFR: Remove AccessControlContext from FlightRecorder::addListener specification",
+  "head_sha": "147798e47d8cdfefa98dc6afc26594ff4c6634ee",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12713429508"
+}
