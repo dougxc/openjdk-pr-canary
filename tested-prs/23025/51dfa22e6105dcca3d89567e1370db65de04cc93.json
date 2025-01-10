@@ -1,0 +1,14 @@
+{
+  "artifact_2411811802": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-plevart-51dfa22e6105dcca3d89567e1370db65de04cc93)\nOpenJDK 64-Bit Server VM (build 25-internal-plevart-51dfa22e6105dcca3d89567e1370db65de04cc93, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-10T09:19:00.204430+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23025",
+  "number": 23025,
+  "title": "8347397: Cleanup of JDK-8169880",
+  "head_sha": "51dfa22e6105dcca3d89567e1370db65de04cc93",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12705977150"
+}
