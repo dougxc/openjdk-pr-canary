@@ -1,0 +1,24 @@
+{
+  "artifact_2413649684": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jerboaa-c83c22eb45f5347327d69eb6a8b1b74b1f7d49e5)\nOpenJDK 64-Bit Server VM (build 25-internal-jerboaa-c83c22eb45f5347327d69eb6a8b1b74b1f7d49e5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "03699b08e26b3c8bc3944eb215a42f82eb807ee2.json",
+    "0f559199f9584cc8a4cc7d489e3267f4a21303db.json",
+    "5b2100687023ff66f363a11d9bb131d9a843d458.json",
+    "8022e8647279af6aad74dcbab61f5a0eaefa50a3.json",
+    "92426dbf6144785c09b76133c807717c4b368a8b.json",
+    "a3989e80e5a2a80c42e9824e4504fa208b3ad4e7.json",
+    "b56fc7b7149fdfdc6bb9a41d5a82afb502cb7cbb.json",
+    "b60cd0c574253a812158c4f2e7c859762ed8ad54.json",
+    "ceffcfc6d969a84ccbc99c1a191f78c4785823b8.json"
+  ],
+  "datetime": "2025-01-10T17:06:28.453063+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20280",
+  "number": 20280,
+  "title": "8336881: [Linux] Support for hierarchical limits for Metrics",
+  "head_sha": "c83c22eb45f5347327d69eb6a8b1b74b1f7d49e5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12712375124"
+}
