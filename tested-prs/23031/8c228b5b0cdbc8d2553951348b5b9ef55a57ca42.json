@@ -1,0 +1,16 @@
+{
+  "artifact_2412637774": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dafedafe-8c228b5b0cdbc8d2553951348b5b9ef55a57ca42)\nOpenJDK 64-Bit Server VM (build 25-internal-dafedafe-8c228b5b0cdbc8d2553951348b5b9ef55a57ca42, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "fa668352fe61ad03031abff01611ce44f2920092.json"
+  ],
+  "datetime": "2025-01-10T13:03:10.800956+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23031",
+  "number": 23031,
+  "title": "8347407: [BACKOUT] C1/C2 don't handle allocation failure properly during initialization (RuntimeStub::new_runtime_stub fatal crash)",
+  "head_sha": "8c228b5b0cdbc8d2553951348b5b9ef55a57ca42",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12709848911"
+}
