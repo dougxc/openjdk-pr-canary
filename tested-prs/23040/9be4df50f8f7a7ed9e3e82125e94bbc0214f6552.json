@@ -1,0 +1,14 @@
+{
+  "artifact_2413835099": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-theoweidmannoracle-9be4df50f8f7a7ed9e3e82125e94bbc0214f6552)\nOpenJDK 64-Bit Server VM (build 25-internal-theoweidmannoracle-9be4df50f8f7a7ed9e3e82125e94bbc0214f6552, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-10T17:47:33.010165+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23040",
+  "number": 23040,
+  "title": "8346607: IGV: Support drag-and-drop for opening graph files",
+  "head_sha": "9be4df50f8f7a7ed9e3e82125e94bbc0214f6552",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12713429508"
+}
