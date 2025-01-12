@@ -1,0 +1,14 @@
+{
+  "artifact_2418218382": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lmesnik-6af3f1c6d72353ec5d40b9d1fde05771ef102141)\nOpenJDK 64-Bit Server VM (build 25-internal-lmesnik-6af3f1c6d72353ec5d40b9d1fde05771ef102141, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-12T07:36:31.763825+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23054",
+  "number": 23054,
+  "title": "8338428: Print final VM flags for task",
+  "head_sha": "6af3f1c6d72353ec5d40b9d1fde05771ef102141",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12731511819"
+}
