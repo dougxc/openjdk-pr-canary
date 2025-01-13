@@ -1,0 +1,14 @@
+{
+  "artifact_2424366632": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-justin-curtis-lu-b2d0edfd73bd77b996a23c2b5a888f6d495e98ec)\nOpenJDK 64-Bit Server VM (build 25-internal-justin-curtis-lu-b2d0edfd73bd77b996a23c2b5a888f6d495e98ec, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-13T21:56:12.995144+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23087",
+  "number": 23087,
+  "title": "8347613: Remove leftover doPrivileged call in Currency test: CheckDataVersion.java",
+  "head_sha": "b2d0edfd73bd77b996a23c2b5a888f6d495e98ec",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12756348927"
+}
