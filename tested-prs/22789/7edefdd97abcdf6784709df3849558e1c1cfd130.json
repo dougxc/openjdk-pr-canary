@@ -1,0 +1,16 @@
+{
+  "artifact_2422329443": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-7edefdd97abcdf6784709df3849558e1c1cfd130)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-7edefdd97abcdf6784709df3849558e1c1cfd130, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ea53ff03f793c13e51d0b3f9b70e3c52f2e5acbd.json"
+  ],
+  "datetime": "2025-01-13T15:00:49.897447+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22789",
+  "number": 22789,
+  "title": "8346383: Cannot use DllMain in libdt_socket for static builds",
+  "head_sha": "7edefdd97abcdf6784709df3849558e1c1cfd130",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12748310204"
+}
