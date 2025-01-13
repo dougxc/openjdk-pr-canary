@@ -96274,6 +96274,29 @@
 		]
 	},
 	{
+		"id": "jdk-24+32-3611",
+		"revisions": {
+			"graal": [
+				"97195eda2606533a9469f5ad0772063739defb60"
+			],
+			"open": [
+				"ecdc322029d3f1338d547955c938b6bc57696ac0"
+			],
+			"mx": [
+				"a424108634b46317d9cb9b5f7d75325bc41f4c73"
+			],
+			".": [
+				"4c3305751fcbdb73214069192e90f9ef43221f1d"
+			],
+			"graal-enterprise": [
+				"e1240fd542efc552ded5eac27f179e6320f04d6d"
+			]
+		},
+		"aliases": [
+			"jdk-24-3611"
+		]
+	},
+	{
 		"id": "jdk-24.0.1+1-1",
 		"revisions": {
 			".": [
@@ -108847,6 +108870,77 @@
 		},
 		"aliases": [
 			"jdk-25-519"
+		]
+	},
+	{
+		"id": "jdk-25+6-520",
+		"revisions": {
+			"graal-enterprise": [
+				"3085d14aff1f2437a9e727194a84965cb9871d5a"
+			],
+			"graal": [
+				"e76a62805d7be069b6c2276de7b86b861d448b81"
+			],
+			"mx": [
+				"1be0ca2ddcdba4813cf92f6f6710eed6b59beec3"
+			],
+			".": [
+				"5e62db0f285a339fdd9943a72dab30cf4bb36448"
+			],
+			"open": [
+				"f67b703625afa2e049c572978d29ac00d8c956d3"
+			]
+		},
+		"aliases": [
+			"jdk-25-520"
+		]
+	},
+	{
+		"id": "jdk-25+6-521",
+		"revisions": {
+			"graal-enterprise": [
+				"9796ffb7ae3a4783dcf7c9f901b01e3a8efd8bdf",
+				"c04724790f7238d39567b9328abba8b836ff2b0a"
+			],
+			"graal": [
+				"c7b8242369f68bab6bda772f77db4dbb2e325ac1",
+				"516c2cfa7304cf4c997745a191acb740b7525885"
+			],
+			"mx": [
+				"1be0ca2ddcdba4813cf92f6f6710eed6b59beec3"
+			],
+			".": [
+				"5e62db0f285a339fdd9943a72dab30cf4bb36448"
+			],
+			"open": [
+				"f67b703625afa2e049c572978d29ac00d8c956d3"
+			]
+		},
+		"aliases": [
+			"jdk-25-521"
+		]
+	},
+	{
+		"id": "jdk-25+6-522",
+		"revisions": {
+			"open": [
+				"a7915bb2e1b822b6d9cbeb220765e8c821c71d0b"
+			],
+			"graal-enterprise": [
+				"9796ffb7ae3a4783dcf7c9f901b01e3a8efd8bdf"
+			],
+			"graal": [
+				"c7b8242369f68bab6bda772f77db4dbb2e325ac1"
+			],
+			"mx": [
+				"1be0ca2ddcdba4813cf92f6f6710eed6b59beec3"
+			],
+			".": [
+				"5e62db0f285a339fdd9943a72dab30cf4bb36448"
+			]
+		},
+		"aliases": [
+			"jdk-25-522"
 		]
 	}
 ]
