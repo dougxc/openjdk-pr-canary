@@ -1,0 +1,14 @@
+{
+  "artifact_2419786988": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MaxXSoft-23ef6aab271e5ec24ce0490f828658e5864a4d18)\nOpenJDK 64-Bit Server VM (build 25-internal-MaxXSoft-23ef6aab271e5ec24ce0490f828658e5864a4d18, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-13T02:10:11.575650+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23057",
+  "number": 23057,
+  "title": "8347499: C2: Make `PhaseIdealLoop` eliminate more redundant safepoints in loops",
+  "head_sha": "23ef6aab271e5ec24ce0490f828658e5864a4d18",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12739281844"
+}
