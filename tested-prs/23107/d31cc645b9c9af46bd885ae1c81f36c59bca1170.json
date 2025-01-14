@@ -1,0 +1,14 @@
+{
+  "artifact_2429422509": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TheRealMDoerr-d31cc645b9c9af46bd885ae1c81f36c59bca1170)\nOpenJDK 64-Bit Server VM (build 25-internal-TheRealMDoerr-d31cc645b9c9af46bd885ae1c81f36c59bca1170, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-14T17:50:53.282291+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23107",
+  "number": 23107,
+  "title": "8347717: Small MaxHeapSize gets increased a lot on platform with large page size",
+  "head_sha": "d31cc645b9c9af46bd885ae1c81f36c59bca1170",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12773077438"
+}
