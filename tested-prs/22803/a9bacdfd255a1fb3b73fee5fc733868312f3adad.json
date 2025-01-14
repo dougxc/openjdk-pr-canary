@@ -1,0 +1,17 @@
+{
+  "artifact_2429046257": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-cushon-a9bacdfd255a1fb3b73fee5fc733868312f3adad)\nOpenJDK 64-Bit Server VM (build 25-internal-cushon-a9bacdfd255a1fb3b73fee5fc733868312f3adad, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0893b8d26292396fe7aaef92aba639f67a27da54.json",
+    "278d7017076e2aa5dc5e5461435b19cc0c3611cf.json"
+  ],
+  "datetime": "2025-01-14T15:52:57.464765+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22803",
+  "number": 22803,
+  "title": "8323740: java.lang.ExceptionInInitializerError when trying to load XML classes in wrong order",
+  "head_sha": "a9bacdfd255a1fb3b73fee5fc733868312f3adad",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12770909250"
+}
