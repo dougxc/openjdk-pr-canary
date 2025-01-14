@@ -1,0 +1,17 @@
+{
+  "artifact_2428458448": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-52d0453c6e6a512eead3352cc0510d569e6c5abf)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-52d0453c6e6a512eead3352cc0510d569e6c5abf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d5a9f0fa3f8a6729003df27b4949f4b262dec00c.json",
+    "e2b414eda48482917ef381a508a7be1872076efd.json"
+  ],
+  "datetime": "2025-01-14T14:20:58.423844+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23076",
+  "number": 23076,
+  "title": "8347576: Error output in libjsound has non matching format strings",
+  "head_sha": "52d0453c6e6a512eead3352cc0510d569e6c5abf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12768680140"
+}
