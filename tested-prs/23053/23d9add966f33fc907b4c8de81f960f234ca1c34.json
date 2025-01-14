@@ -1,0 +1,16 @@
+{
+  "artifact_2426824087": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-RealFYang-23d9add966f33fc907b4c8de81f960f234ca1c34)\nOpenJDK 64-Bit Server VM (build 25-internal-RealFYang-23d9add966f33fc907b4c8de81f960f234ca1c34, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f9efaa3db7de2ee9a1912c42e2e27a94c6a15b26.json"
+  ],
+  "datetime": "2025-01-14T09:06:04.728872+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23053",
+  "number": 23053,
+  "title": "8347489: RISC-V: Misaligned memory access with COH",
+  "head_sha": "23d9add966f33fc907b4c8de81f960f234ca1c34",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12763827191"
+}
