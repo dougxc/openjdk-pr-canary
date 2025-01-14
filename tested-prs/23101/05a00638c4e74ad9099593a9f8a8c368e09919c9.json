@@ -1,0 +1,14 @@
+{
+  "artifact_2428020081": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-lahodaj-05a00638c4e74ad9099593a9f8a8c368e09919c9)\nOpenJDK 64-Bit Server VM (build 24-internal-lahodaj-05a00638c4e74ad9099593a9f8a8c368e09919c9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-14T13:16:02.258655+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23101",
+  "number": 23101,
+  "title": "8347646: module-info classfile missing the preview flag",
+  "head_sha": "05a00638c4e74ad9099593a9f8a8c368e09919c9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12767969668"
+}
