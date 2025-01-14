@@ -1,0 +1,16 @@
+{
+  "artifact_2430083415": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-chhagedorn-d16e2b364dfdfbe43b36048458205c6a9e46f13d)\nOpenJDK 64-Bit Server VM (build 25-internal-chhagedorn-d16e2b364dfdfbe43b36048458205c6a9e46f13d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "bd8e53dad20f44733b93bd064200e102b73c3890.json"
+  ],
+  "datetime": "2025-01-14T19:06:09.518288+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23071",
+  "number": 23071,
+  "title": "8347018: C2: assert(find_block_for_node(self->in(0)) == early) failed: The home of a memory writer must also be its earliest placement",
+  "head_sha": "d16e2b364dfdfbe43b36048458205c6a9e46f13d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12774134227"
+}
