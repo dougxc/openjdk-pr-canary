@@ -1,0 +1,25 @@
+{
+  "artifact_2429991794": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-roberttoyonaga-57d0fba0f8abaa1afaf42c5380770adc80d20a0d)\nOpenJDK 64-Bit Server VM (build 25-internal-roberttoyonaga-57d0fba0f8abaa1afaf42c5380770adc80d20a0d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1909279cdb19eff197a6a6bc2a833cd96e00bfcd.json",
+    "1d07d95abd3ea475dda1136485b87f6f07698491.json",
+    "379eaac85e54d4f73a1e8c76c6f1aea13bd899d6.json",
+    "3fbacd6bac1d90baa77db9c40045d34e6ef29d5d.json",
+    "547f07b769d5488cdc08ea5d8b92900b949f2172.json",
+    "5e36546e1e7855001e99268e913cbb5cb00ba0ac.json",
+    "6e7bf1867322a28b0f31d5b43a1e69a9dedb4039.json",
+    "9015d984c2e613d29974bd680f5fae779c88bb6b.json",
+    "e817cf1f3880afcb42a59d2b65ae82174a3d90c0.json",
+    "f519c3b87a73fd3a4f02d2fc5c3cbf96f2201075.json"
+  ],
+  "datetime": "2025-01-14T19:38:06.212901+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22745",
+  "number": 22745,
+  "title": "8346123: [REDO] NMT should not use ThreadCritical",
+  "head_sha": "57d0fba0f8abaa1afaf42c5380770adc80d20a0d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12774134227"
+}
