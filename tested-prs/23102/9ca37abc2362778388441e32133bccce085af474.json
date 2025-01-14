@@ -1,0 +1,14 @@
+{
+  "artifact_2428197031": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-9ca37abc2362778388441e32133bccce085af474)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-9ca37abc2362778388441e32133bccce085af474, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-14T14:08:58.532133+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23102",
+  "number": 23102,
+  "title": "8347649: Build fails by clang17 after JDK-8313396",
+  "head_sha": "9ca37abc2362778388441e32133bccce085af474",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12768680140"
+}
