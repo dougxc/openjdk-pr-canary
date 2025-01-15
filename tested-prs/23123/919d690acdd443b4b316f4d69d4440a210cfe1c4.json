@@ -1,0 +1,14 @@
+{
+  "artifact_2432462006": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-slowhog-919d690acdd443b4b316f4d69d4440a210cfe1c4)\nOpenJDK 64-Bit Server VM (build 25-internal-slowhog-919d690acdd443b4b316f4d69d4440a210cfe1c4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-15T05:41:13.460922+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23123",
+  "number": 23123,
+  "title": "8347761: Test tools/jimage/JImageExtractTest.java fails after JDK-8303884",
+  "head_sha": "919d690acdd443b4b316f4d69d4440a210cfe1c4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12782143109"
+}
