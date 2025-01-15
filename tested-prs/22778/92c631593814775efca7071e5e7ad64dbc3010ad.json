@@ -1,0 +1,21 @@
+{
+  "artifact_2436622559": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-pengxiaolong-92c631593814775efca7071e5e7ad64dbc3010ad)\nOpenJDK 64-Bit Server VM (build 25-internal-pengxiaolong-92c631593814775efca7071e5e7ad64dbc3010ad, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "04299a7697085bfe51dd01198f0e72cfde228cf6.json",
+    "2b9f28a1e6734de747c04565143536563f01df1e.json",
+    "36f14832ccca187f65e85a8d175dfe513df1c716.json",
+    "5a1814734531656d6aa093f4fd6783ca0804dd4a.json",
+    "9e7f342d56114a973f4253d4dc8e163de76a9e0e.json",
+    "f82fdfaafe1af5f378bde2be84a0e38d1e17d64e.json"
+  ],
+  "datetime": "2025-01-15T19:32:30.715172+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22778",
+  "number": 22778,
+  "title": "8338737: Shenandoah: Reset marking bitmaps after the cycle",
+  "head_sha": "92c631593814775efca7071e5e7ad64dbc3010ad",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12795496910"
+}
