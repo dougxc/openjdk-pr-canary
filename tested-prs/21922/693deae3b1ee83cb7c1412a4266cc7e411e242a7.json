@@ -1,0 +1,22 @@
+{
+  "artifact_2433680342": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-zifeihan-693deae3b1ee83cb7c1412a4266cc7e411e242a7)\nOpenJDK 64-Bit Server VM (build 25-internal-zifeihan-693deae3b1ee83cb7c1412a4266cc7e411e242a7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1ee5b6d92774d1c3661591ac605693c18a3d6a63.json",
+    "2d74b2803987e6d1b9c8c821e3570dc8a4acdb92.json",
+    "666199936221e6917124b77f6c195d72b4b83be9.json",
+    "714d384175ede92046bcf7229539853c15eccdf3.json",
+    "82024b31121252cc993664feaf694e88ee5185f3.json",
+    "deaed30cf7f3569c6cf7a5f029abc652dffee330.json",
+    "f9ca53a34b9ead8b44eeacce609217e405699781.json"
+  ],
+  "datetime": "2025-01-15T11:47:28.635940+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21922",
+  "number": 21922,
+  "title": "8342881: RISC-V: secondary_super_cache does not scale well: C1 and interpreter",
+  "head_sha": "693deae3b1ee83cb7c1412a4266cc7e411e242a7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12786414477"
+}
