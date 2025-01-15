@@ -96628,6 +96628,38 @@
 		]
 	},
 	{
+		"id": "jdk-24.0.1+2-9",
+		"revisions": {
+			".": [
+				"7fd49145c0e139198871a7ba9bb2aae0c4a4b1db"
+			],
+			"graal": [
+				"3eb7459ad8d5bd59c0636c6e530bd32072e9a1ff"
+			],
+			"graal-enterprise": [
+				"252ed9e667d52942668f89ad63519ac998223a42"
+			],
+			"open": [
+				"20bedf8622cdf970294be8f1e686c107ba8b18a3",
+				"9c91ef42f9f41be91093a7a0560ad41b66935ba0",
+				"33561bf9da31b656c4dad0a99f763eb2b09f33f5",
+				"0243349d7152eaa0522a676b2f46ab430ce96bbf",
+				"ca3062140bb7a7d4d12831e4a6346ba5f61cb255",
+				"e9109e8caefb64fa75868927c33653eeaeba4888",
+				"8c455fdaa4fd78e35f29a8e8814da37d2fc2d8c3",
+				"3ce95dae6df452e67d12c36af32e7ffff003eb10",
+				"8135af12ef041c08645112fc599476ee35ec4d00",
+				"79610be01d1b06251b6a1a0807463ba2b9c733f7"
+			],
+			"mx": [
+				"a424108634b46317d9cb9b5f7d75325bc41f4c73"
+			]
+		},
+		"aliases": [
+			"jdk-24.0.1-9"
+		]
+	},
+	{
 		"id": "jdk-25+1-1",
 		"revisions": {
 			"graal-enterprise": [
