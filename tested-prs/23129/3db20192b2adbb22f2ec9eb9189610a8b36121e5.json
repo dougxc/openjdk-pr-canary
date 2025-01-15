@@ -1,0 +1,14 @@
+{
+  "artifact_2433593298": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prsadhuk-3db20192b2adbb22f2ec9eb9189610a8b36121e5)\nOpenJDK 64-Bit Server VM (build 25-internal-prsadhuk-3db20192b2adbb22f2ec9eb9189610a8b36121e5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-15T10:53:21.644335+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23129",
+  "number": 23129,
+  "title": "8345618: javax/swing/text/Caret/8163124/CaretFloatingPointAPITest.java leaves Caret is not complete",
+  "head_sha": "3db20192b2adbb22f2ec9eb9189610a8b36121e5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12786414477"
+}
