@@ -1,0 +1,16 @@
+{
+  "artifact_2434631741": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mgronlun-5c8e9f10b4ec0fa8465b1495f1e5bae502dc3a10)\nOpenJDK 64-Bit Server VM (build 25-internal-mgronlun-5c8e9f10b4ec0fa8465b1495f1e5bae502dc3a10, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "742f391c6c7b59eb21813cebcd917a1865a5254a.json"
+  ],
+  "datetime": "2025-01-15T14:29:56.819080+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23105",
+  "number": 23105,
+  "title": "8345493: JFR: JVM.flush hangs intermittently",
+  "head_sha": "5c8e9f10b4ec0fa8465b1495f1e5bae502dc3a10",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12789372572"
+}
