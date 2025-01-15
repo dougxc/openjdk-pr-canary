@@ -1,0 +1,20 @@
+{
+  "artifact_2432303710": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-bulasevich-2ee31cacc07c7ebae5bdbc8f33f501d594311463)\nOpenJDK 64-Bit Server VM (build 24-internal-bulasevich-2ee31cacc07c7ebae5bdbc8f33f501d594311463, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "27d27aa388649ba624d4279cbea72a933eec273a.json",
+    "6b97993a137e4245bb479167499b3932ec102131.json",
+    "b4c7c24bb99aadf9e36b32c201adc72e5388957d.json",
+    "ee697996097cea9d6539b318cb7995d886dbdaf9.json",
+    "f1a9d9a054ff82b5eafc5a976d155a88a6c55d45.json"
+  ],
+  "datetime": "2025-01-15T04:53:11.664717+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21276",
+  "number": 21276,
+  "title": "8343789: Move mutable nmethod data out of CodeCache",
+  "head_sha": "2ee31cacc07c7ebae5bdbc8f33f501d594311463",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12781550382"
+}
