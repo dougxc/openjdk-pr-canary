@@ -1,0 +1,14 @@
+{
+  "artifact_2431925587": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-calvinccheung-85a0bf5e4b70c80ba127939c61c024ad8a023c6b)\nOpenJDK 64-Bit Server VM (build 25-internal-calvinccheung-85a0bf5e4b70c80ba127939c61c024ad8a023c6b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-15T17:54:51.613671+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23120",
+  "number": 23120,
+  "title": "8347763: [doc] Add documentation of module options for JEP 483",
+  "head_sha": "85a0bf5e4b70c80ba127939c61c024ad8a023c6b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12793718377"
+}
