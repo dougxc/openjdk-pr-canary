@@ -1,0 +1,18 @@
+{
+  "artifact_2441359216": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-zhengyu123-be5f90ff849b69c601228c3b9febdc07288c6ae0)\nOpenJDK 64-Bit Server VM (build 25-internal-zhengyu123-be5f90ff849b69c601228c3b9febdc07288c6ae0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "01ffa01536a5c05f9e25674a91eca116d61fc525.json",
+    "c0542c42a58ace180314cf28017bd5a936bd4de4.json",
+    "e4ab2bb1f1993e04980476b04ce6021ef1882c03.json"
+  ],
+  "datetime": "2025-01-16T15:56:15.819538+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23121",
+  "number": 23121,
+  "title": "8347758: modules.cpp leaks string returned from get_numbered_property_as_sorted_string()",
+  "head_sha": "be5f90ff849b69c601228c3b9febdc07288c6ae0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12810992720"
+}
