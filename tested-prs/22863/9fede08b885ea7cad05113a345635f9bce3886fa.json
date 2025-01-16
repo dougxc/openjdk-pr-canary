@@ -1,0 +1,22 @@
+{
+  "artifact_2441691505": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jatin-bhateja-9fede08b885ea7cad05113a345635f9bce3886fa)\nOpenJDK 64-Bit Server VM (build 25-internal-jatin-bhateja-9fede08b885ea7cad05113a345635f9bce3886fa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "21b2ffd877cf72551a40d0be789032901d1bed0a.json",
+    "32919318462beba20ece780e7135051f4fe576b5.json",
+    "391849605332614fcb55ee35c942b88e9c8037ea.json",
+    "86d0145cb944a3a4c3bcbdb31ea5e464434df1e1.json",
+    "99ede6faa73474bc490f5b3a1792657cfe4bac66.json",
+    "edb1ced5a091e84e55b0049c1c1b92dd786331cf.json",
+    "f42645a153840eaf970f83a3db61cfc316ff8be0.json"
+  ],
+  "datetime": "2025-01-16T16:07:37.944726+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22863",
+  "number": 22863,
+  "title": "8342393: Promote commutative vector IR node sharing",
+  "head_sha": "9fede08b885ea7cad05113a345635f9bce3886fa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12810992720"
+}
