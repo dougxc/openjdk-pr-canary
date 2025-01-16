@@ -1,0 +1,21 @@
+{
+  "artifact_2439198062": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-eme64-91ff3cc9d51b40caf014b764d549161e1b92fb9f)\nOpenJDK 64-Bit Server VM (build 25-internal-eme64-91ff3cc9d51b40caf014b764d549161e1b92fb9f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "18c7933e7d3e1f55fea30354bb3d14ab8905c20c.json",
+    "27eba3d88c6a5ca4f743c80b9cc590f372aa1bd9.json",
+    "4b0504d0f9c1a503fcee79a894fd1cc44ae7c3bd.json",
+    "4b3c7d2970026a3a8c55a90d6c1f0c46c8998d35.json",
+    "7f1016227b4a9885820f4d075e672ee054346714.json",
+    "b64f929591d93a417023c8d1b1c96c066e06e1b5.json"
+  ],
+  "datetime": "2025-01-16T07:46:38.352855+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21926",
+  "number": 21926,
+  "title": "8343685: C2 SuperWord: refactor VPointer with MemPointer",
+  "head_sha": "91ff3cc9d51b40caf014b764d549161e1b92fb9f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12804035668"
+}
