@@ -1,0 +1,14 @@
+{
+  "artifact_2440714271": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kevinjwalls-b73dc874694ea70f39877771c2d695671aa2e358)\nOpenJDK 64-Bit Server VM (build 25-internal-kevinjwalls-b73dc874694ea70f39877771c2d695671aa2e358, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-16T14:17:35.689278+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23151",
+  "number": 23151,
+  "title": "8345048: Remove the jmx.extend.open.types compatibility property",
+  "head_sha": "b73dc874694ea70f39877771c2d695671aa2e358",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12809931980"
+}
