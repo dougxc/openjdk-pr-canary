@@ -1,0 +1,23 @@
+{
+  "artifact_2440586392": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-minborg-520b1e801fca464ffa314ea696750e21273e345f)\nOpenJDK 64-Bit Server VM (build 25-internal-minborg-520b1e801fca464ffa314ea696750e21273e345f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "124567cf18191ba6332f55b33b10e62cf994b141.json",
+    "2ad696aa213ca1f25dfc44c385d017bdf42c53e5.json",
+    "410508ed081c1f58edd39f524124f5325e60e6d1.json",
+    "67a1deaed4b7ab92136b124010e209603e173a18.json",
+    "6e10dbb8f36aaa258fa267acf2eb341c3cca9de3.json",
+    "878a40961e711e897f26381b69c4d8ad5291a6b8.json",
+    "8ff211b1fe3f8b4f51ae14a003eab2101ea9cb85.json",
+    "fe12661a7c2c8ec4d467ff3e521a8d732207b007.json"
+  ],
+  "datetime": "2025-01-16T13:33:52.365434+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22391",
+  "number": 22391,
+  "title": "8347408: Create an internal method handle adapter for system calls with errno",
+  "head_sha": "520b1e801fca464ffa314ea696750e21273e345f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12809224657"
+}
