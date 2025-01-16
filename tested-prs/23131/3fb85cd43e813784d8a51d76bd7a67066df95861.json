@@ -1,0 +1,16 @@
+{
+  "artifact_2439843055": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kevinjwalls-3fb85cd43e813784d8a51d76bd7a67066df95861)\nOpenJDK 64-Bit Server VM (build 25-internal-kevinjwalls-3fb85cd43e813784d8a51d76bd7a67066df95861, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7b85bfbf60c362e3c22d1932e18b3311de65faa4.json"
+  ],
+  "datetime": "2025-01-16T10:54:03.938607+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23131",
+  "number": 23131,
+  "title": "8344969: Remove the jmx.mxbean.multiname compatibility property",
+  "head_sha": "3fb85cd43e813784d8a51d76bd7a67066df95861",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12806980946"
+}
