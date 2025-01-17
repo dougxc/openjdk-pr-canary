@@ -1,0 +1,14 @@
+{
+  "artifact_2446638528": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-9e8524bafd5aa6bba4447f330f2fc066a30ab481)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-9e8524bafd5aa6bba4447f330f2fc066a30ab481, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-17T12:59:33.205474+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23173",
+  "number": 23173,
+  "title": "8346987: [lto] gtest build fails",
+  "head_sha": "9e8524bafd5aa6bba4447f330f2fc066a30ab481",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12829367220"
+}
