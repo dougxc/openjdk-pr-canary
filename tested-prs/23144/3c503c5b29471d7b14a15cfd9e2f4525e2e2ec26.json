@@ -1,0 +1,16 @@
+{
+  "artifact_2444685814": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sspitsyn-3c503c5b29471d7b14a15cfd9e2f4525e2e2ec26)\nOpenJDK 64-Bit Server VM (build 25-internal-sspitsyn-3c503c5b29471d7b14a15cfd9e2f4525e2e2ec26, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ec07eda1a132c8ff4f844d0de4fafe937452095d.json"
+  ],
+  "datetime": "2025-01-17T02:54:17.172214+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23144",
+  "number": 23144,
+  "title": "8332857: Test vmTestbase/nsk/jvmti/GetThreadCpuTime/thrcputime002/TestDescription.java failed",
+  "head_sha": "3c503c5b29471d7b14a15cfd9e2f4525e2e2ec26",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12821085650"
+}
