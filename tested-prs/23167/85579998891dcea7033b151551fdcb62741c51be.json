@@ -1,0 +1,14 @@
+{
+  "artifact_2444404773": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-85579998891dcea7033b151551fdcb62741c51be)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-85579998891dcea7033b151551fdcb62741c51be, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-17T02:22:04.743836+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23167",
+  "number": 23167,
+  "title": "8347958: Minor compiler cleanups relating to MandatoryWarningHandler",
+  "head_sha": "85579998891dcea7033b151551fdcb62741c51be",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12821085650"
+}
