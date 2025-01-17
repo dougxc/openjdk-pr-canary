@@ -1,0 +1,14 @@
+{
+  "artifact_2448431546": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-martinuy-cd1d7485f8607952a5751cd5a48583d9d9ea1719)\nOpenJDK 64-Bit Server VM (build 25-internal-martinuy-cd1d7485f8607952a5751cd5a48583d9d9ea1719, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-17T18:58:41.349680+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23177",
+  "number": 23177,
+  "title": "8225739: sun/security/pkcs11/tls/tls12/FipsModeTLS12.java is not reliable",
+  "head_sha": "cd1d7485f8607952a5751cd5a48583d9d9ea1719",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12834824381"
+}
