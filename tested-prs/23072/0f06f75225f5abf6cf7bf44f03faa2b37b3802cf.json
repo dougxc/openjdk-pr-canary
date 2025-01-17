@@ -1,0 +1,16 @@
+{
+  "artifact_2448946466": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kevinjwalls-0f06f75225f5abf6cf7bf44f03faa2b37b3802cf)\nOpenJDK 64-Bit Server VM (build 25-internal-kevinjwalls-0f06f75225f5abf6cf7bf44f03faa2b37b3802cf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "cc4dcd0be302ce317ff7f9f07aa2d39bf996be0d.json"
+  ],
+  "datetime": "2025-01-17T20:24:29.139282+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23072",
+  "number": 23072,
+  "title": "8345079: Simplify/cleanup Exception handling in RMIConnectionImpl",
+  "head_sha": "0f06f75225f5abf6cf7bf44f03faa2b37b3802cf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12835486217"
+}
