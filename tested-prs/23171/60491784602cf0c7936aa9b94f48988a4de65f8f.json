@@ -1,0 +1,14 @@
+{
+  "artifact_2442048429": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-robehn-60491784602cf0c7936aa9b94f48988a4de65f8f)\nOpenJDK 64-Bit Server VM (build 25-internal-robehn-60491784602cf0c7936aa9b94f48988a4de65f8f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-17T09:37:37.126982+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23171",
+  "number": 23171,
+  "title": "8347981: RISC-V: Add Zfa zli imm loads",
+  "head_sha": "60491784602cf0c7936aa9b94f48988a4de65f8f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12826282812"
+}
