@@ -1,0 +1,16 @@
+{
+  "artifact_2445742254": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-9b562f710038882a2714a8c70836aaba92fc4dfa)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-9b562f710038882a2714a8c70836aaba92fc4dfa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c3b2f86369a460fb01b7e01fb2ac9ced1c87d9d4.json"
+  ],
+  "datetime": "2025-01-17T10:08:15.914405+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23039",
+  "number": 23039,
+  "title": "8347434: Richer VM operations events logging",
+  "head_sha": "9b562f710038882a2714a8c70836aaba92fc4dfa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12826282812"
+}
