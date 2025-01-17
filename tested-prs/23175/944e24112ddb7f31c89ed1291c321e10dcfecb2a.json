@@ -1,0 +1,14 @@
+{
+  "artifact_2447838084": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-944e24112ddb7f31c89ed1291c321e10dcfecb2a)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-944e24112ddb7f31c89ed1291c321e10dcfecb2a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-17T16:53:52.573723+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23175",
+  "number": 23175,
+  "title": "8347996: JavaCompilation.gmk should not include ZipArchive.gmk",
+  "head_sha": "944e24112ddb7f31c89ed1291c321e10dcfecb2a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12833040251"
+}
