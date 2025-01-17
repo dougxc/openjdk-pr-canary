@@ -1,0 +1,14 @@
+{
+  "artifact_2449440171": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-plummercj-65ad54ad75769f4db0ebde1afd27dc7f200752a5)\nOpenJDK 64-Bit Server VM (build 25-internal-plummercj-65ad54ad75769f4db0ebde1afd27dc7f200752a5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-17T22:40:21.537226+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23182",
+  "number": 23182,
+  "title": "8229012: When single stepping, the debug agent can cause the thread to remain in interpreter mode after single stepping completes",
+  "head_sha": "65ad54ad75769f4db0ebde1afd27dc7f200752a5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12837856340"
+}
