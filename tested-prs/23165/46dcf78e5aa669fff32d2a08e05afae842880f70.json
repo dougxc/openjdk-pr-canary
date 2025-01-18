@@ -1,0 +1,17 @@
+{
+  "artifact_2449839432": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-justin-curtis-lu-46dcf78e5aa669fff32d2a08e05afae842880f70)\nOpenJDK 64-Bit Server VM (build 25-internal-justin-curtis-lu-46dcf78e5aa669fff32d2a08e05afae842880f70, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4588816933c95c2875f72e7e74add1d45fdab33c.json",
+    "bf705a2db6188e2d20bcf0ac1677071a0f506731.json"
+  ],
+  "datetime": "2025-01-18T02:21:42.669172+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23165",
+  "number": 23165,
+  "title": "8347949: Currency method to stream available Currencies",
+  "head_sha": "46dcf78e5aa669fff32d2a08e05afae842880f70",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12839722770"
+}
