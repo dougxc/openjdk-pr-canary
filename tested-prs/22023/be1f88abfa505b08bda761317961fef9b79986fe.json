@@ -1,0 +1,25 @@
+{
+  "artifact_2456974401": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-be1f88abfa505b08bda761317961fef9b79986fe)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-be1f88abfa505b08bda761317961fef9b79986fe, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "14499590a08f84673296614388a58f37fa55d0cf.json",
+    "34bd9d43a9a57d849e7f86e85e19f76ae7546fc7.json",
+    "72ff93f2cd49040fecb7d31a63203c58fa0313a6.json",
+    "7eb89c912cfbf312bc8549a8f2145cba1d35da12.json",
+    "8122c1bf1ef72d78e8034c6c4692cee764cb31e0.json",
+    "a05c2f5fa63d71720c0e06a45e6e7d3e4ba86aae.json",
+    "cd9ba30994340b18526e429d20637b8b467e0083.json",
+    "d3d9631c02c1bdefb97daa261cdbe8cfef1aae98.json",
+    "ee05a6f5f3ae6ccd4498472639eb7ad3b8ffca4c.json",
+    "efa6e6b229b5f49b7080061bd4d293210c3a9e93.json"
+  ],
+  "datetime": "2025-01-20T15:20:58.591841+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22023",
+  "number": 22023,
+  "title": "8343962: [REDO] Move getChars to DecimalDigits",
+  "head_sha": "be1f88abfa505b08bda761317961fef9b79986fe",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12870163158"
+}
