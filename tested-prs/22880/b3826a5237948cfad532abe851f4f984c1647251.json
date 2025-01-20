@@ -1,0 +1,17 @@
+{
+  "artifact_2453935205": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-merykitty-b3826a5237948cfad532abe851f4f984c1647251)\nOpenJDK 64-Bit Server VM (build 25-internal-merykitty-b3826a5237948cfad532abe851f4f984c1647251, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "de9aea417b3dcbadfb518fea7e64c9bf2fe456b4.json",
+    "f18ca9da0cc7708d03818fa57dc04fd4ea10602f.json"
+  ],
+  "datetime": "2025-01-20T03:05:53.208784+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22880",
+  "number": 22880,
+  "title": "8346836: C2: Introduce a way to verify the correctness of ConstraintCastNodes at runtime",
+  "head_sha": "b3826a5237948cfad532abe851f4f984c1647251",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12860065853"
+}
