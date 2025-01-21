@@ -1,0 +1,20 @@
+{
+  "artifact_2461560745": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-25cb64537c42caa5570fe688637201b30caf0351)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-25cb64537c42caa5570fe688637201b30caf0351, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "b115ec4695683c882caeef97bb59a877d7a1cec0.json",
+    "d33e9eb86d17dcdb680eab098ee52b776e0450ba.json",
+    "dc021ce4836af6060b43791e036f450a2aeb155f.json",
+    "f8ecbd601cdcf6f8c74fd39d60fb642f8c2cb9e9.json"
+  ],
+  "datetime": "2025-01-21T13:53:35.051771+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22165",
+  "number": 22165,
+  "title": "8344332: (bf) Migrate DirectByteBuffer to use java.lang.ref.Cleaner",
+  "head_sha": "25cb64537c42caa5570fe688637201b30caf0351",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12888021850"
+}
