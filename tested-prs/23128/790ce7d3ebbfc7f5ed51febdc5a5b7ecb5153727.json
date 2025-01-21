@@ -1,0 +1,17 @@
+{
+  "artifact_2459448968": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kumarabhi006-790ce7d3ebbfc7f5ed51febdc5a5b7ecb5153727)\nOpenJDK 64-Bit Server VM (build 25-internal-kumarabhi006-790ce7d3ebbfc7f5ed51febdc5a5b7ecb5153727, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "987320884672933828df5442023060273b9ede52.json",
+    "f5f7df4567df20843640f60bed94b42a7c3acb6e.json"
+  ],
+  "datetime": "2025-01-21T05:41:25.227630+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23128",
+  "number": 23128,
+  "title": "8347475: GTK: javax/swing/JColorChooser/Test8152419.java there is  no swatches or RGB tab in JColorChooser",
+  "head_sha": "790ce7d3ebbfc7f5ed51febdc5a5b7ecb5153727",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12880712708"
+}
