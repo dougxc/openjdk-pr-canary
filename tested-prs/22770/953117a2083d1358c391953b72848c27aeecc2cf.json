@@ -1,0 +1,18 @@
+{
+  "artifact_2460879125": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jdksjolen-953117a2083d1358c391953b72848c27aeecc2cf)\nOpenJDK 64-Bit Server VM (build 25-internal-jdksjolen-953117a2083d1358c391953b72848c27aeecc2cf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4f86b70fda20a96642256e7451312b07339613e0.json",
+    "7fd5da5e96a39e3afe247ab5d48f61853ad7f713.json",
+    "f848476b7ba22d32130fccd08f5940192e5c7455.json"
+  ],
+  "datetime": "2025-01-21T11:36:19.970404+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22770",
+  "number": 22770,
+  "title": "8323807: Async UL: Add a stalling mode to async UL",
+  "head_sha": "953117a2083d1358c391953b72848c27aeecc2cf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12885893908"
+}
