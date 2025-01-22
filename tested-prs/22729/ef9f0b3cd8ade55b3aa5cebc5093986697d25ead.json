@@ -1,0 +1,18 @@
+{
+  "artifact_2465777688": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-azvegint-ef9f0b3cd8ade55b3aa5cebc5093986697d25ead)\nOpenJDK 64-Bit Server VM (build 25-internal-azvegint-ef9f0b3cd8ade55b3aa5cebc5093986697d25ead, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2ee38b7d4c068954a52e5e2f2c194d51488ac4e7.json",
+    "9b4db46e7d7545504cd0e8aabd86284a2aea7356.json",
+    "b60a33269247c1039fa0ec6cd99476c9f8976852.json"
+  ],
+  "datetime": "2025-01-22T05:09:17.243977+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22729",
+  "number": 22729,
+  "title": "8342096: Popup menus that request focus are not shown on Linux with Wayland",
+  "head_sha": "ef9f0b3cd8ade55b3aa5cebc5093986697d25ead",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12901217123"
+}
