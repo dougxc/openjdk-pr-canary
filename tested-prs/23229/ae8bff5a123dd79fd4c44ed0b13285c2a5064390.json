@@ -1,0 +1,14 @@
+{
+  "artifact_2466906973": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-eme64-ae8bff5a123dd79fd4c44ed0b13285c2a5064390)\nOpenJDK 64-Bit Server VM (build 25-internal-eme64-ae8bff5a123dd79fd4c44ed0b13285c2a5064390, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-22T10:42:48.816539+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23229",
+  "number": 23229,
+  "title": "8348263: C2 SuperWord: TestMemorySegment.java has failing IR rules with AlignVector after JDK-8343685",
+  "head_sha": "ae8bff5a123dd79fd4c44ed0b13285c2a5064390",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12906260038"
+}
