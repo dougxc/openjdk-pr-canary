@@ -1,0 +1,19 @@
+{
+  "artifact_2468917259": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-myankelev-1840d7aa11b0d36925d5755c105ca201e474d80e)\nOpenJDK 64-Bit Server VM (build 25-internal-myankelev-1840d7aa11b0d36925d5755c105ca201e474d80e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "43553d629eadbe6a1963e7d6b8e1d2b7633e3aa1.json",
+    "d887a60ef3271888da2eaddd5a1bc0c0d26251f1.json",
+    "f162ccccb9acb5b4deceb6ebaea247c2a11ff174.json",
+    "ffc2be168824d6cf505a3bd58ed05f4a83f24347.json"
+  ],
+  "datetime": "2025-01-22T16:16:13.165840+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22951",
+  "number": 22951,
+  "title": "8344316: Add extra line in security/auth/callback/TextCallbackHandler/Password.java to make clear it is not a JTReg test",
+  "head_sha": "1840d7aa11b0d36925d5755c105ca201e474d80e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12911513107"
+}
