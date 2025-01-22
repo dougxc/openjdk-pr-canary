@@ -1,0 +1,14 @@
+{
+  "artifact_2470872117": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lmesnik-d806f6a9d8458aeedbb9deaa5da3b7e0ad6ec8ab)\nOpenJDK 64-Bit Server VM (build 25-internal-lmesnik-d806f6a9d8458aeedbb9deaa5da3b7e0ad6ec8ab, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-22T21:54:15.305972+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22249",
+  "number": 22249,
+  "title": "8318098: Update jfr tests with corresponding requires flags",
+  "head_sha": "d806f6a9d8458aeedbb9deaa5da3b7e0ad6ec8ab",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12917296523"
+}
