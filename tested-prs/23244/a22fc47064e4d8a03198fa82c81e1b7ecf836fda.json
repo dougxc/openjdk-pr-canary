@@ -1,0 +1,14 @@
+{
+  "artifact_2471253786": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-a22fc47064e4d8a03198fa82c81e1b7ecf836fda)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-a22fc47064e4d8a03198fa82c81e1b7ecf836fda, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-22T23:36:56.887905+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23244",
+  "number": 23244,
+  "title": "8348324: The failure handler cannot be build by JDK 24 due to restricted warning",
+  "head_sha": "a22fc47064e4d8a03198fa82c81e1b7ecf836fda",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12918949907"
+}
