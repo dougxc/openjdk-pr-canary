@@ -1,0 +1,21 @@
+{
+  "artifact_2469814954": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sspitsyn-a4783aecac4be9b53680f65fa2ae55acd4cb1dd9)\nOpenJDK 64-Bit Server VM (build 25-internal-sspitsyn-a4783aecac4be9b53680f65fa2ae55acd4cb1dd9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6adabe697c07429dc2d96ec844699b27ff6dbb96.json",
+    "6d37bc6e4306c9ae86be8bf31d774442035b5301.json",
+    "7be52902f5c6e7163d49f0ee3995f332fe49acae.json",
+    "9be2cbe09f14ebc2c5964468105d65ef8c527e10.json",
+    "b1912ef2b5e5c8cb8afee0a210cf5832327c84bb.json",
+    "eeff97202292d6aa48ecf66274b83ee294381bdf.json"
+  ],
+  "datetime": "2025-01-22T18:47:30.600620+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23126",
+  "number": 23126,
+  "title": "8346792: serviceability/jvmti/vthread/GetThreadState/GetThreadState.java testObjectWaitMillis failed",
+  "head_sha": "a4783aecac4be9b53680f65fa2ae55acd4cb1dd9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12913727119"
+}
