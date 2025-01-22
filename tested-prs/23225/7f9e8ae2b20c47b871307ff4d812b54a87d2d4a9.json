@@ -1,0 +1,14 @@
+{
+  "artifact_2465538250": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-zhengyu123-7f9e8ae2b20c47b871307ff4d812b54a87d2d4a9)\nOpenJDK 64-Bit Server VM (build 25-internal-zhengyu123-7f9e8ae2b20c47b871307ff4d812b54a87d2d4a9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-22T03:05:45.469863+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23225",
+  "number": 23225,
+  "title": "8348241: ZGC: Unnecessarily reinitialize ZFragmentationLimit's default value",
+  "head_sha": "7f9e8ae2b20c47b871307ff4d812b54a87d2d4a9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12900221494"
+}
