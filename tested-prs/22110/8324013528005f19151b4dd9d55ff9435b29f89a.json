@@ -1,0 +1,18 @@
+{
+  "artifact_2467840595": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-GennadiyKrivoshein-8324013528005f19151b4dd9d55ff9435b29f89a)\nOpenJDK 64-Bit Server VM (build 25-internal-GennadiyKrivoshein-8324013528005f19151b4dd9d55ff9435b29f89a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1682b903e4927650d0f6d1e81534b36cc24d9b2e.json",
+    "33947bcebeb635c74b1aa49d369bc741d4210ec7.json",
+    "339f383b3d35097a5fae1fbca9d73b313ecd1a8c.json"
+  ],
+  "datetime": "2025-01-22T13:12:39.756240+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22110",
+  "number": 22110,
+  "title": "8344119: CUPSPrinter does not respect PostScript printer definition specification in case of reading ImageableArea values from PPD files",
+  "head_sha": "8324013528005f19151b4dd9d55ff9435b29f89a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12908561046"
+}
