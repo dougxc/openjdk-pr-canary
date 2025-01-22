@@ -1,0 +1,16 @@
+{
+  "artifact_2470197828": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-justin-curtis-lu-cc8b23fb9d65a9ea603c6f7576d651f447ac2d5e)\nOpenJDK 64-Bit Server VM (build 25-internal-justin-curtis-lu-cc8b23fb9d65a9ea603c6f7576d651f447ac2d5e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5ea5ddc97f2d09746c9bf38f029df2efa65080c4.json"
+  ],
+  "datetime": "2025-01-22T19:35:26.732970+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23184",
+  "number": 23184,
+  "title": "8347498: JDK 24 RDP2 L10n resource files update",
+  "head_sha": "cc8b23fb9d65a9ea603c6f7576d651f447ac2d5e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12915514685"
+}
