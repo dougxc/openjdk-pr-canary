@@ -1,0 +1,14 @@
+{
+  "artifact_2469364856": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-2509771019fb62b58eec566dd2be9d70ba4e1615)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-2509771019fb62b58eec566dd2be9d70ba4e1615, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-22T20:52:50.659120+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23237",
+  "number": 23237,
+  "title": "8224228: No way to locally suppress lint warnings in parser/tokenizer or preview features",
+  "head_sha": "2509771019fb62b58eec566dd2be9d70ba4e1615",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12916500209"
+}
