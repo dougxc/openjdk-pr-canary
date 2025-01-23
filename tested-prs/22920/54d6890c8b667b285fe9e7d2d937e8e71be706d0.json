@@ -1,0 +1,16 @@
+{
+  "artifact_2474946779": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-nizarbenalla-54d6890c8b667b285fe9e7d2d937e8e71be706d0)\nOpenJDK 64-Bit Server VM (build 25-internal-nizarbenalla-54d6890c8b667b285fe9e7d2d937e8e71be706d0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4f8877a577685c658f5f7a5668339ad154dd21ed.json"
+  ],
+  "datetime": "2025-01-23T15:02:18.945117+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22920",
+  "number": 22920,
+  "title": "8174840: Elements.overrides does not check the return type of the methods",
+  "head_sha": "54d6890c8b667b285fe9e7d2d937e8e71be706d0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12930249495"
+}
