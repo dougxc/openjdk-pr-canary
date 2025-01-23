@@ -1,0 +1,14 @@
+{
+  "artifact_2473780650": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-297d0a00ea3ff10b48a0005c7393c57493d1e2a7)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-297d0a00ea3ff10b48a0005c7393c57493d1e2a7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-23T12:17:37.014248+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23259",
+  "number": 23259,
+  "title": "8348391: Keep case if possible for TOPDIR",
+  "head_sha": "297d0a00ea3ff10b48a0005c7393c57493d1e2a7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12928131258"
+}
