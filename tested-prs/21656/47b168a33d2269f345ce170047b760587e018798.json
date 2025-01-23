@@ -1,0 +1,19 @@
+{
+  "artifact_2472608572": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TheShermanTanker-47b168a33d2269f345ce170047b760587e018798)\nOpenJDK 64-Bit Server VM (build 25-internal-TheShermanTanker-47b168a33d2269f345ce170047b760587e018798, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "324f89f1738584d429f0f4ebf0838b96fc7b7ae2.json",
+    "821307b5b30c52fea3258581b16ca9729448032a.json",
+    "de6afdb1570307afefe2544047675a7862c3c74d.json",
+    "f975dfa2756643143797a7fb94945d43bab2a650.json"
+  ],
+  "datetime": "2025-01-23T07:09:39.813370+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21656",
+  "number": 21656,
+  "title": "8342870: Errors related to unused code on Windows after 8339120 in accessibility",
+  "head_sha": "47b168a33d2269f345ce170047b760587e018798",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12923638490"
+}
