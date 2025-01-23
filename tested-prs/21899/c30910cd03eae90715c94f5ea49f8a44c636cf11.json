@@ -1,0 +1,30 @@
+{
+  "artifact_2475492363": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-theoweidmannoracle-c30910cd03eae90715c94f5ea49f8a44c636cf11)\nOpenJDK 64-Bit Server VM (build 25-internal-theoweidmannoracle-c30910cd03eae90715c94f5ea49f8a44c636cf11, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "272519263fda3567835662b233285bbb13e814b8.json",
+    "5114d1890f5a1d5a0b629214cf1a734d8056675f.json",
+    "5364a488bf7a1d18737b539a60435668f49c157a.json",
+    "5a4e0fbe486a644da9eab6d775db7d7aea781c00.json",
+    "7526bafff4ea26cb45894477b33f3dd24215e667.json",
+    "86bd2476a41b810069aef0050cc2890429036c6b.json",
+    "8a78e3584b7b117515c5e9292f0026025c0fb55b.json",
+    "99c5cbc241dad69dc4bf0f1bd4d2eb18e15a901b.json",
+    "9fc53d319a9a0956e6d73cbe57f874fb17596f86.json",
+    "a0d4e66f2dbcd02582c3d9c6d0ddaeed2f6b48fa.json",
+    "d0f02890dc2adf593c0b5868ad8dcf53e4e26149.json",
+    "f00aa85e6e709017dda174402a49f50b90c35a5c.json",
+    "f37ae7b6bf38dee4e2db1ae061bc71b449769d21.json",
+    "f4cad4ee16c5d7c03dc1198f0ba74b5146c826a0.json",
+    "ff76d1609d11ff395d1a2d34f7053b73fd1b6e23.json"
+  ],
+  "datetime": "2025-01-23T16:10:51.597889+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21899",
+  "number": 21899,
+  "title": "8319850: PrintInlining should print which methods are late inlines",
+  "head_sha": "c30910cd03eae90715c94f5ea49f8a44c636cf11",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12931344196"
+}
