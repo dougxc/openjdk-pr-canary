@@ -1,0 +1,14 @@
+{
+  "artifact_2472642821": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-cushon-ba77e46c0fdfc74974ff09b37a93e8fa91e0bcce)\nOpenJDK 64-Bit Server VM (build 25-internal-cushon-ba77e46c0fdfc74974ff09b37a93e8fa91e0bcce, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-23T06:46:12.597821+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23252",
+  "number": 23252,
+  "title": "8348365: Bad format string in CLDRDisplayNamesTest",
+  "head_sha": "ba77e46c0fdfc74974ff09b37a93e8fa91e0bcce",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12923638490"
+}
