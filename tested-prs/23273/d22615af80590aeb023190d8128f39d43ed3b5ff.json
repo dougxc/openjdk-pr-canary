@@ -1,0 +1,14 @@
+{
+  "artifact_2476185939": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-liach-d22615af80590aeb023190d8128f39d43ed3b5ff)\nOpenJDK 64-Bit Server VM (build 24-internal-liach-d22615af80590aeb023190d8128f39d43ed3b5ff, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-23T21:04:26.641354+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23273",
+  "number": 23273,
+  "title": "8342466: Improve API documentation for java.lang.classfile.attribute",
+  "head_sha": "d22615af80590aeb023190d8128f39d43ed3b5ff",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12937483970"
+}
