@@ -1,0 +1,16 @@
+{
+  "artifact_2477080720": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-justin-curtis-lu-db907223f5531a3dcfbe3d689ca39dbcb69320ab)\nOpenJDK 64-Bit Server VM (build 25-internal-justin-curtis-lu-db907223f5531a3dcfbe3d689ca39dbcb69320ab, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4df90163224106e58a6aaaa7d88647f96e7b33ae.json"
+  ],
+  "datetime": "2025-01-23T21:16:57.181448+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23251",
+  "number": 23251,
+  "title": "8347955: TimeZone methods to stream the available timezone IDs",
+  "head_sha": "db907223f5531a3dcfbe3d689ca39dbcb69320ab",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12937483970"
+}
