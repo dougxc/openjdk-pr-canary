@@ -1,0 +1,14 @@
+{
+  "artifact_2474468728": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-theoweidmannoracle-cca456a81138e49357b9d2348a7b5df88409c44c)\nOpenJDK 64-Bit Server VM (build 25-internal-theoweidmannoracle-cca456a81138e49357b9d2348a7b5df88409c44c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-23T14:40:33.144978+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23267",
+  "number": 23267,
+  "title": "8348401: [IR Framework] PrintTimes should not require verbose",
+  "head_sha": "cca456a81138e49357b9d2348a7b5df88409c44c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12930249495"
+}
