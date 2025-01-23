@@ -1,0 +1,16 @@
+{
+  "artifact_2472050410": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-e03dfc503de6ae6461093173b971327057ab4152)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-e03dfc503de6ae6461093173b971327057ab4152, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ca801052e7a64869ef8cf563882d64e6778d2c24.json"
+  ],
+  "datetime": "2025-01-23T03:25:49.271329+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23226",
+  "number": 23226,
+  "title": "8348240: Remove SystemDictionaryShared::lookup_super_for_unregistered_class()",
+  "head_sha": "e03dfc503de6ae6461093173b971327057ab4152",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12921296658"
+}
