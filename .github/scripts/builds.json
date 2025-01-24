@@ -97031,6 +97031,29 @@
 		]
 	},
 	{
+		"id": "jdk-24.0.1+4-14",
+		"revisions": {
+			".": [
+				"9b2882722641a0f7d062f77ddcfc1fdc70b5b55c"
+			],
+			"open": [
+				"d76d96442f6c1b4d8515c0335db2b272755e79dd"
+			],
+			"graal-enterprise": [
+				"252ed9e667d52942668f89ad63519ac998223a42"
+			],
+			"graal": [
+				"3eb7459ad8d5bd59c0636c6e530bd32072e9a1ff"
+			],
+			"mx": [
+				"a424108634b46317d9cb9b5f7d75325bc41f4c73"
+			]
+		},
+		"aliases": [
+			"jdk-24.0.1-14"
+		]
+	},
+	{
 		"id": "jdk-25+1-1",
 		"revisions": {
 			"graal-enterprise": [
@@ -114830,6 +114853,77 @@
 		},
 		"aliases": [
 			"jdk-25-746"
+		]
+	},
+	{
+		"id": "jdk-25+8-747",
+		"revisions": {
+			".": [
+				"c8dba307fde0b2a412c0c34de02d48043b44f34a"
+			],
+			"open": [
+				"0df9dcb6aa7c31511ca3137da246962faca818a3"
+			],
+			"mx": [
+				"8d7e5c3b19569a64f5ef08113afaf8e2796dc435"
+			],
+			"graal": [
+				"a691fb858f1c6d30e11841ac33c4d447eaee978d"
+			],
+			"graal-enterprise": [
+				"cfe9a077fde6229d417c8e2b8438e248e91a08ce"
+			]
+		},
+		"aliases": [
+			"jdk-25-747"
+		]
+	},
+	{
+		"id": "jdk-25+8-748",
+		"revisions": {
+			"graal": [
+				"107b03f956f3b5bbfa109e54d1d10130f038b54a",
+				"6d1d64969c23ed94a748df9f0ddd0c2419152058"
+			],
+			"graal-enterprise": [
+				"a233787c8949c5b4afbb127df09228ab12c58d27",
+				"7a2f1bea49f786a25100400372cc11ca89b73bf8"
+			],
+			".": [
+				"c8dba307fde0b2a412c0c34de02d48043b44f34a"
+			],
+			"open": [
+				"0df9dcb6aa7c31511ca3137da246962faca818a3"
+			],
+			"mx": [
+				"8d7e5c3b19569a64f5ef08113afaf8e2796dc435"
+			]
+		},
+		"aliases": [
+			"jdk-25-748"
+		]
+	},
+	{
+		"id": "jdk-25+8-749",
+		"revisions": {
+			"graal": [
+				"107b03f956f3b5bbfa109e54d1d10130f038b54a"
+			],
+			"graal-enterprise": [
+				"a233787c8949c5b4afbb127df09228ab12c58d27"
+			],
+			".": [
+				"c8dba307fde0b2a412c0c34de02d48043b44f34a"
+			],
+			"open": [
+				"4a375e5b8899aa684b8a921e198203e76794f709"
+			],
+			"mx": [
+				"8d7e5c3b19569a64f5ef08113afaf8e2796dc435"
+			]
+		},
+		"aliases": [
+			"jdk-25-749"
 		]
 	}
 ]
