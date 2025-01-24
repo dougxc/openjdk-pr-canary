@@ -1,0 +1,14 @@
+{
+  "artifact_2480642022": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Hamlin-Li-46682ab245238352e3bd0d04a9aba1df30073c13)\nOpenJDK 64-Bit Server VM (build 25-internal-Hamlin-Li-46682ab245238352e3bd0d04a9aba1df30073c13, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-24T13:01:37.288997+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23298",
+  "number": 23298,
+  "title": "8348575: Remove unused typedef SpinLockT",
+  "head_sha": "46682ab245238352e3bd0d04a9aba1df30073c13",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12949939798"
+}
