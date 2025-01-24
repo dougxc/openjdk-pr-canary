@@ -1,0 +1,16 @@
+{
+  "artifact_2483237850": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-plummercj-5779c9eb5ca553a14514c8d1dd015f6ee21e7188)\nOpenJDK 64-Bit Server VM (build 25-internal-plummercj-5779c9eb5ca553a14514c8d1dd015f6ee21e7188, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8ba5e23a253a4b8250e9e2c6c9bb2e5626350268.json"
+  ],
+  "datetime": "2025-01-24T21:27:59.739088+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23279",
+  "number": 23279,
+  "title": "8348239: SA does not know about DeoptimizeObjectsALotThread",
+  "head_sha": "5779c9eb5ca553a14514c8d1dd015f6ee21e7188",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12957063869"
+}
