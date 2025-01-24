@@ -1,0 +1,14 @@
+{
+  "artifact_2480386997": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ferakocz-e40e260c6f3a791ff6657d4cabde56c0a47d6d55)\nOpenJDK 64-Bit Server VM (build 25-internal-ferakocz-e40e260c6f3a791ff6657d4cabde56c0a47d6d55, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-24T14:40:33.033346+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23300",
+  "number": 23300,
+  "title": "8348561: Add aarch64 intrinsics for ML-DSA",
+  "head_sha": "e40e260c6f3a791ff6657d4cabde56c0a47d6d55",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12951573362"
+}
