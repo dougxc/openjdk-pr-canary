@@ -1,0 +1,16 @@
+{
+  "artifact_2480354225": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-hns-b686fb100bac392bb434d81bb6e3de6e8c63c053)\nOpenJDK 64-Bit Server VM (build 25-internal-hns-b686fb100bac392bb434d81bb6e3de6e8c63c053, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c4be23a73d22814213993092248257420af4cd59.json"
+  ],
+  "datetime": "2025-01-24T11:54:31.253488+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22980",
+  "number": 22980,
+  "title": "8347123: Add missing @serial tags to other modules",
+  "head_sha": "b686fb100bac392bb434d81bb6e3de6e8c63c053",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12948661703"
+}
