@@ -1,0 +1,16 @@
+{
+  "artifact_2492798546": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-justin-curtis-lu-c49fb5816b31eaf7fce4463193b492697196e086)\nOpenJDK 64-Bit Server VM (build 25-internal-justin-curtis-lu-c49fb5816b31eaf7fce4463193b492697196e086, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9305f954c54094a58737fc4f90bcb84b34754264.json"
+  ],
+  "datetime": "2025-01-27T19:44:23.292820+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23309",
+  "number": 23309,
+  "title": "8348205: Improve cutover time selection when building available currencies set",
+  "head_sha": "c49fb5816b31eaf7fce4463193b492697196e086",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12996657429"
+}
