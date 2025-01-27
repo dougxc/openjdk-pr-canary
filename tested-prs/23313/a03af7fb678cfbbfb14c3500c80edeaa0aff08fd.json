@@ -1,0 +1,14 @@
+{
+  "artifact_2490022399": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JoKern65-a03af7fb678cfbbfb14c3500c80edeaa0aff08fd)\nOpenJDK 64-Bit Server VM (build 25-internal-JoKern65-a03af7fb678cfbbfb14c3500c80edeaa0aff08fd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-27T13:12:12.907898+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23313",
+  "number": 23313,
+  "title": "8348663: [AIX] clang pollutes the burned-in library search paths of the generated executables",
+  "head_sha": "a03af7fb678cfbbfb14c3500c80edeaa0aff08fd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12989360076"
+}
