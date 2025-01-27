@@ -1,0 +1,18 @@
+{
+  "artifact_2492261437": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-18d0a43d3b5deeb0c4ab5ce30b5dff5a0f102294)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-18d0a43d3b5deeb0c4ab5ce30b5dff5a0f102294, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "95f2f8db0e277778a32427b53ba3f44e6ea17af1.json",
+    "a9e97710401a704bdf833e0a54b85d76c7b3ad30.json",
+    "fce60cec7623129704cc68d09b6c4a18c801cc89.json"
+  ],
+  "datetime": "2025-01-27T17:53:01.921908+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23287",
+  "number": 23287,
+  "title": "8348515: Add docs for -XX:AOT* options in java man pages",
+  "head_sha": "18d0a43d3b5deeb0c4ab5ce30b5dff5a0f102294",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12994702722"
+}
