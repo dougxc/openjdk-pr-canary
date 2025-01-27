@@ -1,0 +1,14 @@
+{
+  "artifact_2492016904": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-reinrich-c75622fa56eb762ebcbd72f4714ca4cca6e85763)\nOpenJDK 64-Bit Server VM (build 25-internal-reinrich-c75622fa56eb762ebcbd72f4714ca4cca6e85763, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-27T17:40:23.784155+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23318",
+  "number": 23318,
+  "title": "8348678: [PPC64] C2: unaligned vector load/store is ok",
+  "head_sha": "c75622fa56eb762ebcbd72f4714ca4cca6e85763",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12994702722"
+}
