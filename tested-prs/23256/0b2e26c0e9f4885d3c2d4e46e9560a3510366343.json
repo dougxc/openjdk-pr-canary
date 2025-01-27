@@ -1,0 +1,16 @@
+{
+  "artifact_2489121456": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-robehn-0b2e26c0e9f4885d3c2d4e46e9560a3510366343)\nOpenJDK 64-Bit Server VM (build 25-internal-robehn-0b2e26c0e9f4885d3c2d4e46e9560a3510366343, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d5d486a1b7fa29739d63fd0eb4a3b5909d20f01c.json"
+  ],
+  "datetime": "2025-01-27T08:44:26.672008+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23256",
+  "number": 23256,
+  "title": "8348384: RISC-V: Disable auto-enable Vector on buggy kernels",
+  "head_sha": "0b2e26c0e9f4885d3c2d4e46e9560a3510366343",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12984917011"
+}
