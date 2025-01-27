@@ -1,0 +1,14 @@
+{
+  "artifact_2490163538": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sspitsyn-48ec613dd54553c9c593b1f9f743923708245636)\nOpenJDK 64-Bit Server VM (build 25-internal-sspitsyn-48ec613dd54553c9c593b1f9f743923708245636, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-27T13:00:59.952900+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23314",
+  "number": 23314,
+  "title": "8300708: some nsk jvmti tests fail with virtual thread wrapper due to jvmti missing some virtual thread support",
+  "head_sha": "48ec613dd54553c9c593b1f9f743923708245636",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/12989360076"
+}
