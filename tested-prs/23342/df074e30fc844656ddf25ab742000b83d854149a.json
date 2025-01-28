@@ -1,0 +1,14 @@
+{
+  "artifact_2500191950": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-blperez01-df074e30fc844656ddf25ab742000b83d854149a)\nOpenJDK 64-Bit Server VM (build 25-internal-blperez01-df074e30fc844656ddf25ab742000b83d854149a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-28T21:47:33.668585+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23342",
+  "number": 23342,
+  "title": "8347428: Avoid using secret-key in specifications",
+  "head_sha": "df074e30fc844656ddf25ab742000b83d854149a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13019826349"
+}
