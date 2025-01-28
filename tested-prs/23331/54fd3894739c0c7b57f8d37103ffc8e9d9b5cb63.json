@@ -1,0 +1,17 @@
+{
+  "artifact_2500326479": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TobiHartmann-54fd3894739c0c7b57f8d37103ffc8e9d9b5cb63)\nOpenJDK 64-Bit Server VM (build 25-internal-TobiHartmann-54fd3894739c0c7b57f8d37103ffc8e9d9b5cb63, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4cf7f864a9d61120f836670a8768457bb3b2ced2.json",
+    "8bde5dfa76a6a8997b630fbee408c36ac75250d8.json"
+  ],
+  "datetime": "2025-01-28T22:09:57.370629+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23331",
+  "number": 23331,
+  "title": "8348631: Crash in PredictedCallGenerator::generate after JDK-8347006",
+  "head_sha": "54fd3894739c0c7b57f8d37103ffc8e9d9b5cb63",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13019826349"
+}
