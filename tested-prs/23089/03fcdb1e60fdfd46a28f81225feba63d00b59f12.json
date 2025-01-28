@@ -1,0 +1,21 @@
+{
+  "artifact_2495172571": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-j3graham-03fcdb1e60fdfd46a28f81225feba63d00b59f12)\nOpenJDK 64-Bit Server VM (build 25-internal-j3graham-03fcdb1e60fdfd46a28f81225feba63d00b59f12, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4d4eeb15f89529cb0dcb2e866713dab1a6e7e483.json",
+    "51da0c6d3e84209b3d98047ab4e044a20d462db6.json",
+    "8ec4313c55d9b0f34cb048de8fb2d4fa9635124a.json",
+    "cafdbfd705d69ea62039bb0de9830d3c979d2b89.json",
+    "db16d38c5ffb60f9c3e47664d65fda64ea01882d.json",
+    "fdede5111c92fec262a78ff1d8f82abef05b841b.json"
+  ],
+  "datetime": "2025-01-28T04:52:25.901245+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23089",
+  "number": 23089,
+  "title": "8347645: C2: XOR bounded value handling blocks constant folding",
+  "head_sha": "03fcdb1e60fdfd46a28f81225feba63d00b59f12",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13003641593"
+}
