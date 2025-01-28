@@ -97337,6 +97337,29 @@
 		]
 	},
 	{
+		"id": "jdk-24.0.1+4-18",
+		"revisions": {
+			".": [
+				"4eba9ede6464f2d21d1bdc384a0c23cfaaf0faf2"
+			],
+			"open": [
+				"3327f45ea1a089ee9bc65af83b1293c358d30a68"
+			],
+			"graal": [
+				"3eb7459ad8d5bd59c0636c6e530bd32072e9a1ff"
+			],
+			"graal-enterprise": [
+				"252ed9e667d52942668f89ad63519ac998223a42"
+			],
+			"mx": [
+				"a424108634b46317d9cb9b5f7d75325bc41f4c73"
+			]
+		},
+		"aliases": [
+			"jdk-24.0.1-18"
+		]
+	},
+	{
 		"id": "jdk-24.0.2+1-1",
 		"revisions": {
 			"graal-enterprise": [
