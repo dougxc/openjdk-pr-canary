@@ -1,0 +1,14 @@
+{
+  "artifact_2494227348": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-coleenp-865b60810e21bbac09e4aa399355a126d728b11a)\nOpenJDK 64-Bit Server VM (build 25-internal-coleenp-865b60810e21bbac09e4aa399355a126d728b11a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-28T02:01:07.015166+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23322",
+  "number": 23322,
+  "title": "8337548: Parallel class loading can pass pass is_superclass true for interfaces",
+  "head_sha": "865b60810e21bbac09e4aa399355a126d728b11a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13002028919"
+}
