@@ -1,0 +1,17 @@
+{
+  "artifact_2500373041": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-blperez01-1961d20520deba769541e452746fa17c2c80e5cb)\nOpenJDK 64-Bit Server VM (build 25-internal-blperez01-1961d20520deba769541e452746fa17c2c80e5cb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "596a2ef5f9884c159b82356c24bbf956ec3f62ee.json",
+    "e718712a61bc5a795c053f47d4641aebcdac0ec4.json"
+  ],
+  "datetime": "2025-01-28T22:22:29.177544+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23280",
+  "number": 23280,
+  "title": "8184352: Remove Sun provider information from KeyPairGenerator javadoc",
+  "head_sha": "1961d20520deba769541e452746fa17c2c80e5cb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13019826349"
+}
