@@ -1,0 +1,14 @@
+{
+  "artifact_2499914411": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-c8e9916eed37f4f44a8f8457e52e6597f0b4a6ef)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-c8e9916eed37f4f44a8f8457e52e6597f0b4a6ef, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-28T20:38:30.690877+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23341",
+  "number": 23341,
+  "title": "8348752: Enable -XX:+AOTClassLinking by default when -XX:AOTMode is specified",
+  "head_sha": "c8e9916eed37f4f44a8f8457e52e6597f0b4a6ef",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13018954019"
+}
