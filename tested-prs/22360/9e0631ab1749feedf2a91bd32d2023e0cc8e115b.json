@@ -1,0 +1,30 @@
+{
+  "artifact_2498201591": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-caspernorrbin-9e0631ab1749feedf2a91bd32d2023e0cc8e115b)\nOpenJDK 64-Bit Server VM (build 25-internal-caspernorrbin-9e0631ab1749feedf2a91bd32d2023e0cc8e115b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1b45feaf3274edbdc2d532cbed37979b091d90c9.json",
+    "3705c1ef64883ccd4fe8f5ec0a5badcfd0e9cbad.json",
+    "505c7f8dadbbb2fc3e53f7239715eef0bbb15274.json",
+    "5bf6082ae7b6d55b7d5d9ba830469e434198cb44.json",
+    "5d151681d6d6d5daf562b8469af76153136c32dd.json",
+    "6a06e15d3baa6d32352ce160ba6c78afc6ccaef3.json",
+    "6e67b5d3593148a4ce3fc920062003ce6fc196fa.json",
+    "8272e43fb55fe7c05e5fb8d038b263e42cce42d3.json",
+    "9b641fb986c9a504919de162b7f6a9212532c80c.json",
+    "aa0d1ee0f12b7e654808613fff2436e3a29e6b91.json",
+    "b2835590db6bf3bd8dbf65eb282b9971cc03307f.json",
+    "b7219a93ab644f4c8be30d4220b5a4d0c7b92d57.json",
+    "e03b63f6c0764d818805577689b11d78573d685d.json",
+    "e1790595b3c061010ae03462aa87cb2ee21b83a0.json",
+    "f0a50a852d3fdd32e1792f71ee9b559516508ce6.json"
+  ],
+  "datetime": "2025-01-28T16:08:05.069937+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22360",
+  "number": 22360,
+  "title": "8345314: Add a red\u2013black tree as a utility data structure",
+  "head_sha": "9e0631ab1749feedf2a91bd32d2023e0cc8e115b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13013826319"
+}
