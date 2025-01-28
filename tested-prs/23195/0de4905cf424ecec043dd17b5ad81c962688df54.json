@@ -1,0 +1,16 @@
+{
+  "artifact_2497407998": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-theoweidmannoracle-0de4905cf424ecec043dd17b5ad81c962688df54)\nOpenJDK 64-Bit Server VM (build 25-internal-theoweidmannoracle-0de4905cf424ecec043dd17b5ad81c962688df54, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "79237e609cd22c2e96bc20b8e5c72752c2f0efad.json"
+  ],
+  "datetime": "2025-01-28T13:59:14.838161+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23195",
+  "number": 23195,
+  "title": "8343938: TestStressBailout triggers \"Should not be locked when freed\" assert",
+  "head_sha": "0de4905cf424ecec043dd17b5ad81c962688df54",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13010780757"
+}
