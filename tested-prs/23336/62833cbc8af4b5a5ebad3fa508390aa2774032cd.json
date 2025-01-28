@@ -1,0 +1,14 @@
+{
+  "artifact_2498177804": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-aivanov-jdk-62833cbc8af4b5a5ebad3fa508390aa2774032cd)\nOpenJDK 64-Bit Server VM (build 25-internal-aivanov-jdk-62833cbc8af4b5a5ebad3fa508390aa2774032cd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-28T15:43:59.514166+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23336",
+  "number": 23336,
+  "title": "8348865: JButton/bug4796987.java never runs because Windows XP is unavailable",
+  "head_sha": "62833cbc8af4b5a5ebad3fa508390aa2774032cd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13013826319"
+}
