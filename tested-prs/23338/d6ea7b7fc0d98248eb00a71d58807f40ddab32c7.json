@@ -1,0 +1,14 @@
+{
+  "artifact_2499307265": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-d6ea7b7fc0d98248eb00a71d58807f40ddab32c7)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-d6ea7b7fc0d98248eb00a71d58807f40ddab32c7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-28T18:46:26.868760+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23338",
+  "number": 23338,
+  "title": "Remove unused OctalDigits to clean up code",
+  "head_sha": "d6ea7b7fc0d98248eb00a71d58807f40ddab32c7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13017182177"
+}
