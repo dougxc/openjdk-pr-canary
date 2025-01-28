@@ -1,0 +1,14 @@
+{
+  "artifact_2498310489": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-bec7c5c128aa2ef9159470373b70dbbf33ce985e)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-bec7c5c128aa2ef9159470373b70dbbf33ce985e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-28T15:55:26.630115+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23333",
+  "number": 23333,
+  "title": "8348855: G1: Implement G1BarrierSetC2::estimate_stub_size",
+  "head_sha": "bec7c5c128aa2ef9159470373b70dbbf33ce985e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13013826319"
+}
