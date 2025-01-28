@@ -1,0 +1,17 @@
+{
+  "artifact_2499442481": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vnkozlov-e502568c886dfa942a1ade44b04d1e8419948bdb)\nOpenJDK 64-Bit Server VM (build 25-internal-vnkozlov-e502568c886dfa942a1ade44b04d1e8419948bdb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "dd1b1b9e41e6b9a487c66ae4516b34097bb181ca.json",
+    "fad42ecb3a95616e19d2429107c11b93a265a8f7.json"
+  ],
+  "datetime": "2025-01-28T19:20:55.238730+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23284",
+  "number": 23284,
+  "title": "8347997: assert(false) failed: EA: missing memory path",
+  "head_sha": "e502568c886dfa942a1ade44b04d1e8419948bdb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13017182177"
+}
