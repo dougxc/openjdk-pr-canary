@@ -1,0 +1,32 @@
+{
+  "artifact_2495056398": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-merykitty-f85eff5247e6e73ad48c96c92a1957e039750373)\nOpenJDK 64-Bit Server VM (build 25-internal-merykitty-f85eff5247e6e73ad48c96c92a1957e039750373, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "256437859ba900be87520deb8ad2186fbf02341d.json",
+    "4858e12c2c6d52d29e37df681f39625338318b80.json",
+    "4d33014257a8b84096a4274e0d3e6c1da91fbfcc.json",
+    "644bcedfb14c8d76b7b9d6746178cb7a59f009b3.json",
+    "71646530c620b130b775f137aaaed70fcd4a7b68.json",
+    "7f3316fa00843ea76e28e7e945f4bcdf26adbac0.json",
+    "81f4e15b414a2a0c5a9de51dd1da2a96cdd0914a.json",
+    "85acf6ef01d2214146813d8b3e9caa3714e9220e.json",
+    "8a5370a141cd96f8b627805b549ecb1727c340ce.json",
+    "8d14f8ee0cba8423388cbeb3d6b166f0bff491f6.json",
+    "9b70213e53b01aa09478942009876afd86c11e22.json",
+    "a77e8f4a7a86b814118881b5edfb41f5ad0ffd68.json",
+    "ac1ddfc5816d910ec4e019f9f05b4b7b8f55238c.json",
+    "c440a72a8064a508b829b2ab57c4b8cbf6a37c5f.json",
+    "c4d46c8700ba072ec81eaff4430748c9200e8cfb.json",
+    "cf1de627f9bcc7f0d465f8dc49b35abef5944757.json",
+    "f2d3f3b107abdf2ac96b179f529e35ad3f392e2f.json"
+  ],
+  "datetime": "2025-01-28T05:03:22.102621+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/17508",
+  "number": 17508,
+  "title": "8315066: Add unsigned bounds and known bits to TypeInt/Long",
+  "head_sha": "f85eff5247e6e73ad48c96c92a1957e039750373",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13003641593"
+}
