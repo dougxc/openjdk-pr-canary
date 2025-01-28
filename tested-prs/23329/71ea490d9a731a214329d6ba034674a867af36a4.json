@@ -1,0 +1,14 @@
+{
+  "artifact_2496900709": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-azvegint-71ea490d9a731a214329d6ba034674a867af36a4)\nOpenJDK 64-Bit Server VM (build 25-internal-azvegint-71ea490d9a731a214329d6ba034674a867af36a4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-28T13:01:05.182541+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23329",
+  "number": 23329,
+  "title": "8348675: TrayIcon tests fails in Ubuntu 24.10 wayland",
+  "head_sha": "71ea490d9a731a214329d6ba034674a867af36a4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13010780757"
+}
