@@ -1,0 +1,20 @@
+{
+  "artifact_2495276463": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alisenchung-1bd099309f70ae7f46cb4935071cb4685fee434b)\nOpenJDK 64-Bit Server VM (build 25-internal-alisenchung-1bd099309f70ae7f46cb4935071cb4685fee434b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0eb4226fe6d3cf7406bf0124d4871388fb04a77e.json",
+    "62e7dedea2c340697aa1f26d99eb45cecf56ba15.json",
+    "678712fb30b73a5e47652bd52f31d152a87a9a83.json",
+    "effa0f0501ec66ad4f7924ee9eed6a083e6542d5.json",
+    "f9b4d61f4c5c2f80ffa1e2c74ccdba41e6b6b0df.json"
+  ],
+  "datetime": "2025-01-28T05:41:45.642497+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22781",
+  "number": 22781,
+  "title": "8345538: Robot.mouseMove doesn't clamp bounds on macOS when trying to move mouse off screen",
+  "head_sha": "1bd099309f70ae7f46cb4935071cb4685fee434b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13004225769"
+}
