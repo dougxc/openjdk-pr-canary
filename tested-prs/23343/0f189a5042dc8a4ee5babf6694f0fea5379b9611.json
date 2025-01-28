@@ -1,0 +1,16 @@
+{
+  "artifact_2500765174": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-0f189a5042dc8a4ee5babf6694f0fea5379b9611)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-0f189a5042dc8a4ee5babf6694f0fea5379b9611, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e4d2a9a90c4a2000352d525ad5108e866aee357d.json"
+  ],
+  "datetime": "2025-01-28T23:36:09.670315+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23343",
+  "number": 23343,
+  "title": "8348890: Fix docs for -XX:AOT* options in java man page",
+  "head_sha": "0f189a5042dc8a4ee5babf6694f0fea5379b9611",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13021416639"
+}
