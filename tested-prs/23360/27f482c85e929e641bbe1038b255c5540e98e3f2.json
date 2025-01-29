@@ -1,0 +1,14 @@
+{
+  "artifact_2507598477": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ebourg-27f482c85e929e641bbe1038b255c5540e98e3f2)\nOpenJDK 64-Bit Server VM (build 25-internal-ebourg-27f482c85e929e641bbe1038b255c5540e98e3f2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-29T23:57:58.198299+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23360",
+  "number": 23360,
+  "title": "Add the Microsoft Identity Verification Root CA 2020",
+  "head_sha": "27f482c85e929e641bbe1038b255c5540e98e3f2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13042375861"
+}
