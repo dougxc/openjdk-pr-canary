@@ -1,0 +1,14 @@
+{
+  "artifact_2498720511": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dlunde-5be724c4cbcade7a10f669e6b62a5e4bfd732c61)\nOpenJDK 64-Bit Server VM (build 25-internal-dlunde-5be724c4cbcade7a10f669e6b62a5e4bfd732c61, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-29T15:54:32.062419+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23349",
+  "number": 23349,
+  "title": "8348658: [AArch64] The node limit in compiler/codegen/TestMatcherClone.java is too strict",
+  "head_sha": "5be724c4cbcade7a10f669e6b62a5e4bfd732c61",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13034670197"
+}
