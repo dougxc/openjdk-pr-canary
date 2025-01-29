@@ -1,0 +1,14 @@
+{
+  "artifact_2506576899": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JornVernee-05774fc2a28c64b10783dca4f5416ca1278f6233)\nOpenJDK 64-Bit Server VM (build 25-internal-JornVernee-05774fc2a28c64b10783dca4f5416ca1278f6233, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-29T20:52:36.444678+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23321",
+  "number": 23321,
+  "title": "8348668: Prevent first resource cleanup in confined arena from escaping",
+  "head_sha": "05774fc2a28c64b10783dca4f5416ca1278f6233",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13039825218"
+}
