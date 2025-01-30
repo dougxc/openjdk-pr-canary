@@ -1,0 +1,14 @@
+{
+  "artifact_2510057967": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-nizarbenalla-a07e060a91fa5447e85168bb6866efef14d2e4e9)\nOpenJDK 64-Bit Server VM (build 24-internal-nizarbenalla-a07e060a91fa5447e85168bb6866efef14d2e4e9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-30T11:34:43.023787+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23366",
+  "number": 23366,
+  "title": "8348975: Broken links in the JDK 24 JavaDoc API documentation, build 33",
+  "head_sha": "a07e060a91fa5447e85168bb6866efef14d2e4e9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13051290502"
+}
