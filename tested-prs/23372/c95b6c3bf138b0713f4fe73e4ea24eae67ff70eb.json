@@ -1,0 +1,14 @@
+{
+  "artifact_2512256186": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-c95b6c3bf138b0713f4fe73e4ea24eae67ff70eb)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-c95b6c3bf138b0713f4fe73e4ea24eae67ff70eb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-30T18:46:24.374602+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23372",
+  "number": 23372,
+  "title": "8349009: JVM fails to start when AOTClassLinking is used with unverifiable old classes",
+  "head_sha": "c95b6c3bf138b0713f4fe73e4ea24eae67ff70eb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13058888112"
+}
