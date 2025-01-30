@@ -1,0 +1,15 @@
+{
+  "artifact_2509851820": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-75a956cdf71a0cd9979ce4af297b74b9c7fd7c50)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-75a956cdf71a0cd9979ce4af297b74b9c7fd7c50, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-01-30T11:37:34.984880+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23364",
+  "number": 23364,
+  "title": "8349040: Test compiler/inlining/LateInlinePrinting.java fails after JDK-8319850",
+  "head_sha": "75a956cdf71a0cd9979ce4af297b74b9c7fd7c50",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13051290502"
+}
