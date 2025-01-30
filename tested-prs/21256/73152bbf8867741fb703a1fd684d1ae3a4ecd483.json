@@ -1,0 +1,15 @@
+{
+  "artifact_2511203563": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaikiran-73152bbf8867741fb703a1fd684d1ae3a4ecd483)\nOpenJDK 64-Bit Server VM (build 25-internal-jaikiran-73152bbf8867741fb703a1fd684d1ae3a4ecd483, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-01-30T16:15:01.770844+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21256",
+  "number": 21256,
+  "title": "8341184: Clean up the interaction between the launcher native code and the LauncherHelper",
+  "head_sha": "73152bbf8867741fb703a1fd684d1ae3a4ecd483",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13055551936"
+}
