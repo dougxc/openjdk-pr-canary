@@ -1,0 +1,16 @@
+{
+  "artifact_2512748653": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-bplb-665926bfeec54c9549053683ffc0b3d68084c843)\nOpenJDK 64-Bit Server VM (build 25-internal-bplb-665926bfeec54c9549053683ffc0b3d68084c843, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "964f601a2d50b45038d30bc2c3ddd7bcb51f423c.json"
+  ],
+  "datetime": "2025-01-30T19:38:39.457148+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23371",
+  "number": 23371,
+  "title": "8349006: File.getCanonicalPath should remove \"(on UNIX platforms)\" from its specification",
+  "head_sha": "665926bfeec54c9549053683ffc0b3d68084c843",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13059659415"
+}
