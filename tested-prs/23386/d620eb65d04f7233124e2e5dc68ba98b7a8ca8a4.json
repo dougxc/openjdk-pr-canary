@@ -1,0 +1,14 @@
+{
+  "artifact_2516479059": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jatin-bhateja-d620eb65d04f7233124e2e5dc68ba98b7a8ca8a4)\nOpenJDK 64-Bit Server VM (build 25-internal-jatin-bhateja-d620eb65d04f7233124e2e5dc68ba98b7a8ca8a4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-31T13:00:13.177277+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23386",
+  "number": 23386,
+  "title": "8349138: Optimize Math.copySign API for Intel e-core targets",
+  "head_sha": "d620eb65d04f7233124e2e5dc68ba98b7a8ca8a4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13073066477"
+}
