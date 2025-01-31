@@ -1,0 +1,24 @@
+{
+  "artifact_2515427283": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-j3graham-3e460f9fcacc058592b6f6ea94e4c1c6e1fab70b)\nOpenJDK 64-Bit Server VM (build 25-internal-j3graham-3e460f9fcacc058592b6f6ea94e4c1c6e1fab70b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "03fcdb1e60fdfd46a28f81225feba63d00b59f12.json",
+    "4d4eeb15f89529cb0dcb2e866713dab1a6e7e483.json",
+    "51da0c6d3e84209b3d98047ab4e044a20d462db6.json",
+    "710012b424df4839ee113010b28c883656456ec8.json",
+    "7ef5c5c7108d06fe3fce50aa9ea0ddf5e15dab4f.json",
+    "8ec4313c55d9b0f34cb048de8fb2d4fa9635124a.json",
+    "cafdbfd705d69ea62039bb0de9830d3c979d2b89.json",
+    "db16d38c5ffb60f9c3e47664d65fda64ea01882d.json",
+    "fdede5111c92fec262a78ff1d8f82abef05b841b.json"
+  ],
+  "datetime": "2025-01-31T08:55:40.892705+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23089",
+  "number": 23089,
+  "title": "8347645: C2: XOR bounded value handling blocks constant folding",
+  "head_sha": "3e460f9fcacc058592b6f6ea94e4c1c6e1fab70b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13069098724"
+}
