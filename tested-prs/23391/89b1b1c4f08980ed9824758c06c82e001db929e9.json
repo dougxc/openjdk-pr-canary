@@ -1,0 +1,14 @@
+{
+  "artifact_2517605849": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JornVernee-89b1b1c4f08980ed9824758c06c82e001db929e9)\nOpenJDK 64-Bit Server VM (build 25-internal-JornVernee-89b1b1c4f08980ed9824758c06c82e001db929e9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-01-31T16:57:53.712983+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23391",
+  "number": 23391,
+  "title": "8348909: [BACKOUT] Implement a better allocator for downcalls",
+  "head_sha": "89b1b1c4f08980ed9824758c06c82e001db929e9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13076817134"
+}
