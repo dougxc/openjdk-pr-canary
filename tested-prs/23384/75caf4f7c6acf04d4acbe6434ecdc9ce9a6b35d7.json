@@ -1,0 +1,15 @@
+{
+  "artifact_2515851535": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-75caf4f7c6acf04d4acbe6434ecdc9ce9a6b35d7)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-75caf4f7c6acf04d4acbe6434ecdc9ce9a6b35d7, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-01-31T10:35:09.972441+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23384",
+  "number": 23384,
+  "title": "Optimize DateTimeFormatter performance by dynamically generating PrinterParser with ClassFile API",
+  "head_sha": "75caf4f7c6acf04d4acbe6434ecdc9ce9a6b35d7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13070963036"
+}
