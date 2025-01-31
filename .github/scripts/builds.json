@@ -118205,5 +118205,28 @@
 		"tags": [
 			"LIBGRAAL_BUILD_FAILED"
 		]
+	},
+	{
+		"id": "jdk-25+9-868",
+		"revisions": {
+			"graal": [
+				"ce59439b3870e78bacfb88dcae69bf28bb4e1326"
+			],
+			".": [
+				"2aaf4ef96a82aee2e2152480c898f6f0ad6453a3"
+			],
+			"open": [
+				"d589a82d08a01ae6ff87103b58d286f3c14367e5"
+			],
+			"graal-enterprise": [
+				"154efcbaaa50babfb34e282c04b7ed71d9b772ef"
+			],
+			"mx": [
+				"8d7e5c3b19569a64f5ef08113afaf8e2796dc435"
+			]
+		},
+		"aliases": [
+			"jdk-25-868"
+		]
 	}
 ]
