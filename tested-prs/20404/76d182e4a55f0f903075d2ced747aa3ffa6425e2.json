@@ -1,0 +1,16 @@
+{
+  "artifact_2517900187": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dlunde-76d182e4a55f0f903075d2ced747aa3ffa6425e2)\nOpenJDK 64-Bit Server VM (build 25-internal-dlunde-76d182e4a55f0f903075d2ced747aa3ffa6425e2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1bec169294b052b1fa58f7b1b580d208583c56e3.json"
+  ],
+  "datetime": "2025-01-31T17:10:19.380279+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20404",
+  "number": 20404,
+  "title": "8325467: Support methods with many arguments in C2",
+  "head_sha": "76d182e4a55f0f903075d2ced747aa3ffa6425e2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13076817134"
+}
