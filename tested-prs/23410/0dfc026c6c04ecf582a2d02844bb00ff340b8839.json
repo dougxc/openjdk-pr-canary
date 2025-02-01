@@ -1,0 +1,14 @@
+{
+  "artifact_2521529874": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-zhengyu123-0dfc026c6c04ecf582a2d02844bb00ff340b8839)\nOpenJDK 64-Bit Server VM (build 25-internal-zhengyu123-0dfc026c6c04ecf582a2d02844bb00ff340b8839, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-01T17:36:59.597460+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23410",
+  "number": 23410,
+  "title": "8349083: Factor out filename handling code from logging",
+  "head_sha": "0dfc026c6c04ecf582a2d02844bb00ff340b8839",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13090821560"
+}
