@@ -1,0 +1,18 @@
+{
+  "artifact_2520907834": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-f9af0b0203145b95d82a2067a10bde61b0915dd7)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-f9af0b0203145b95d82a2067a10bde61b0915dd7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0e7b30bec25f1601a47d0bf016be147e17ebc7b3.json",
+    "cb88e0efe6cc3e241b49951b076dccb1c690f7cb.json",
+    "cf67d8476b7a7f5a5c98d901caeabd2ae5fd0a32.json"
+  ],
+  "datetime": "2025-02-01T09:37:31.122783+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23310",
+  "number": 23310,
+  "title": "8315585: Optimization for decimal to string",
+  "head_sha": "f9af0b0203145b95d82a2067a10bde61b0915dd7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13087305222"
+}
