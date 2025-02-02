@@ -1,0 +1,14 @@
+{
+  "artifact_2523642012": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-b14f35c653ecc308626ec85dc782e8d8a43f12aa)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-b14f35c653ecc308626ec85dc782e8d8a43f12aa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-02T20:36:36.338999+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23411",
+  "number": 23411,
+  "title": "Improve startup speed HexFormat via eliminating nested classes",
+  "head_sha": "b14f35c653ecc308626ec85dc782e8d8a43f12aa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13102183109"
+}
