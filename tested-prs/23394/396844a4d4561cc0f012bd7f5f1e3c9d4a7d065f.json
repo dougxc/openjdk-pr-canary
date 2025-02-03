@@ -1,0 +1,16 @@
+{
+  "artifact_2529462724": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-myankelev-396844a4d4561cc0f012bd7f5f1e3c9d4a7d065f)\nOpenJDK 64-Bit Server VM (build 25-internal-myankelev-396844a4d4561cc0f012bd7f5f1e3c9d4a7d065f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1fc88f2f5d37a465e357cb303e6167ef07ed382b.json"
+  ],
+  "datetime": "2025-02-03T20:09:36.961174+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23394",
+  "number": 23394,
+  "title": "8349151: Refactor test/java/security//cert/CertificateFactory/slowstream.sh to java test",
+  "head_sha": "396844a4d4561cc0f012bd7f5f1e3c9d4a7d065f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13121184802"
+}
