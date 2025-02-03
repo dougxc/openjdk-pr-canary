@@ -1,0 +1,14 @@
+{
+  "artifact_2529036895": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-openjdk-bot-e2cfb37778518a11b77e0827be7caf65e0b56d02)\nOpenJDK 64-Bit Server VM (build 24-internal-openjdk-bot-e2cfb37778518a11b77e0827be7caf65e0b56d02, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-03T18:45:56.836264+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23422",
+  "number": 23422,
+  "title": "8348562: ZGC: segmentation fault due to missing node type check in barrier elision analysis",
+  "head_sha": "e2cfb37778518a11b77e0827be7caf65e0b56d02",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13120356298"
+}
