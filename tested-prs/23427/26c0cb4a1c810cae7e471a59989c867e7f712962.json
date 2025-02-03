@@ -1,0 +1,14 @@
+{
+  "artifact_2529699120": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-26c0cb4a1c810cae7e471a59989c867e7f712962)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-26c0cb4a1c810cae7e471a59989c867e7f712962, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-03T20:59:29.865616+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23427",
+  "number": 23427,
+  "title": "8349241: Fix the concurrent execution JVM crash of StringBuilder::append(int/long)",
+  "head_sha": "26c0cb4a1c810cae7e471a59989c867e7f712962",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13122217318"
+}
