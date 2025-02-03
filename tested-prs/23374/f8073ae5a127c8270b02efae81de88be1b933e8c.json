@@ -1,0 +1,17 @@
+{
+  "artifact_2529386683": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-justin-curtis-lu-f8073ae5a127c8270b02efae81de88be1b933e8c)\nOpenJDK 64-Bit Server VM (build 25-internal-justin-curtis-lu-f8073ae5a127c8270b02efae81de88be1b933e8c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0f1c27f3a3a8c77b4722fd7924956fdbb450b948.json",
+    "a71a31bca0bd3139e84d1801bc295d2619d8badc.json"
+  ],
+  "datetime": "2025-02-03T20:21:10.867267+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23374",
+  "number": 23374,
+  "title": "8349000: Performance improvement for Currency.isPastCutoverDate(String)",
+  "head_sha": "f8073ae5a127c8270b02efae81de88be1b933e8c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13121184802"
+}
