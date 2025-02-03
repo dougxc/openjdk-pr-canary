@@ -1,0 +1,14 @@
+{
+  "artifact_2530175012": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ascarpino-0a0a7365149b63ef17b249240c7caba3a022290a)\nOpenJDK 64-Bit Server VM (build 25-internal-ascarpino-0a0a7365149b63ef17b249240c7caba3a022290a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-03T22:40:49.336300+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23407",
+  "number": 23407,
+  "title": "8348309: MultiNST tests need more debugging and timing",
+  "head_sha": "0a0a7365149b63ef17b249240c7caba3a022290a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13124109080"
+}
