@@ -1,0 +1,17 @@
+{
+  "artifact_2529545964": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vy-4efc42f7598eb7c48e08477e02d8a184543566e3)\nOpenJDK 64-Bit Server VM (build 25-internal-vy-4efc42f7598eb7c48e08477e02d8a184543566e3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "29571eab88fecda4996f4e99bec530fb6e2bf34d.json",
+    "421d19d468d62bdb04aee458c72a338a5c053e73.json"
+  ],
+  "datetime": "2025-02-03T21:42:39.695161+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23401",
+  "number": 23401,
+  "title": "8343074: test/jdk/com/sun/net/httpserver/docs/test1/largefile.txt could be generated",
+  "head_sha": "4efc42f7598eb7c48e08477e02d8a184543566e3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13122217318"
+}
