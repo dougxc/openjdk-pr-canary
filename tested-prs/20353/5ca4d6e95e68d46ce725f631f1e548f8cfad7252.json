@@ -1,0 +1,16 @@
+{
+  "artifact_2530496729": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-5ca4d6e95e68d46ce725f631f1e548f8cfad7252)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-5ca4d6e95e68d46ce725f631f1e548f8cfad7252, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5924935e7137c8412df96f38c982094ebde247c8.json"
+  ],
+  "datetime": "2025-02-03T23:47:47.085589+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20353",
+  "number": 20353,
+  "title": "8337279: Optimize format instant",
+  "head_sha": "5ca4d6e95e68d46ce725f631f1e548f8cfad7252",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13124882382"
+}
