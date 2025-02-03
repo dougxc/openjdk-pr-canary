@@ -1,0 +1,14 @@
+{
+  "artifact_2524675270": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-offamitkumar-4a031e1e52e1ce5edc4609cb36aeba12261118e3)\nOpenJDK 64-Bit Server VM (build 25-internal-offamitkumar-4a031e1e52e1ce5edc4609cb36aeba12261118e3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-03T04:43:07.887335+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23412",
+  "number": 23412,
+  "title": "8349193: compiler/intrinsics/TestContinuationPinningAndEA.java missing @requires vm.continuations",
+  "head_sha": "4a031e1e52e1ce5edc4609cb36aeba12261118e3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13106416264"
+}
