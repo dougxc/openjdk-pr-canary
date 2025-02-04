@@ -1,0 +1,16 @@
+{
+  "artifact_2536519156": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-bradfordwetmore-61345a639d685103cea9147a8c74877ed502c5b7)\nOpenJDK 64-Bit Server VM (build 25-internal-bradfordwetmore-61345a639d685103cea9147a8c74877ed502c5b7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ac7a6cff4b308e74b4f55f762fb8c973c23a899c.json"
+  ],
+  "datetime": "2025-02-04T20:52:21.393930+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23379",
+  "number": 23379,
+  "title": "8349121: SSLParameters.setApplicationProtocols() ALPN example could be clarified",
+  "head_sha": "61345a639d685103cea9147a8c74877ed502c5b7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13144236166"
+}
