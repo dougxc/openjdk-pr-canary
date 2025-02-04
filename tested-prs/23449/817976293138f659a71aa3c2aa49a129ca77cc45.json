@@ -1,0 +1,14 @@
+{
+  "artifact_2534295300": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-anass-baya-817976293138f659a71aa3c2aa49a129ca77cc45)\nOpenJDK 64-Bit Server VM (build 25-internal-anass-baya-817976293138f659a71aa3c2aa49a129ca77cc45, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-04T20:40:07.670979+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23449",
+  "number": 23449,
+  "title": "Jdk 8349351",
+  "head_sha": "817976293138f659a71aa3c2aa49a129ca77cc45",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13144236166"
+}
