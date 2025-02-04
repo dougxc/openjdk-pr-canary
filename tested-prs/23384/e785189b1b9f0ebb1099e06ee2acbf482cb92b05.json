@@ -1,0 +1,26 @@
+{
+  "artifact_2534227318": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-e785189b1b9f0ebb1099e06ee2acbf482cb92b05)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-e785189b1b9f0ebb1099e06ee2acbf482cb92b05, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "3b228eeb47074ba64ab47478c650dd2d90ca2a8b.json",
+    "55ac19d6dfc401d66bb141ada501945b8145c62e.json",
+    "5fb9dc52ff177c56e171ec40e9c4625cdf1506ee.json",
+    "75caf4f7c6acf04d4acbe6434ecdc9ce9a6b35d7.json",
+    "9fe3aeaaeb150a76ef508c0391439d5ad647cf39.json",
+    "abb7c109544783d52a76e045bd0c0728c709d325.json",
+    "abd61560342f2dc50be8f6d04055b67015430dde.json",
+    "aec84b03017bebbc1a127aa37ffcd53bbc41d22b.json",
+    "b0ac02d4619ee2b18be0327d78f318a195fe4064.json",
+    "c44d03b5f22411aa8672dc495995bdda5c3eba97.json"
+  ],
+  "datetime": "2025-02-04T15:18:31.421266+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23384",
+  "number": 23384,
+  "title": "8349189: Speed up DateTime parse & format via Class File API",
+  "head_sha": "e785189b1b9f0ebb1099e06ee2acbf482cb92b05",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13137725957"
+}
