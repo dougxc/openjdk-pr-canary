@@ -1,0 +1,14 @@
+{
+  "artifact_2534839508": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-nizarbenalla-b0fcb6169712c3bdaac242339ae56685abb19733)\nOpenJDK 64-Bit Server VM (build 25-internal-nizarbenalla-b0fcb6169712c3bdaac242339ae56685abb19733, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-04T16:57:52.249647+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23441",
+  "number": 23441,
+  "title": "8349369: test/docs/jdk/javadoc/doccheck/checks/jdkCheckLinks.java did not report on missing man page files",
+  "head_sha": "b0fcb6169712c3bdaac242339ae56685abb19733",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13140243654"
+}
