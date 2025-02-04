@@ -1,0 +1,16 @@
+{
+  "artifact_2530835150": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jnimeh-6ba0770b4f3e0f2bcb613dfa56de1a16c3531c22)\nOpenJDK 64-Bit Server VM (build 25-internal-jnimeh-6ba0770b4f3e0f2bcb613dfa56de1a16c3531c22, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "41817c77570c75914ef475a1fa2d72e7f7125cef.json"
+  ],
+  "datetime": "2025-02-04T02:36:15.838122+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23397",
+  "number": 23397,
+  "title": "8349106: Change ChaCha20 intrinsic to use quarter-round parallel implementation on aarch64",
+  "head_sha": "6ba0770b4f3e0f2bcb613dfa56de1a16c3531c22",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13126680872"
+}
