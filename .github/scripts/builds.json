@@ -119865,5 +119865,101 @@
 		"aliases": [
 			"jdk-25-926"
 		]
+	},
+	{
+		"id": "jdk-25+9-927",
+		"revisions": {
+			"open": [
+				"b985347c2383a7a637ffa9a4a8687f7f7cde1369"
+			],
+			".": [
+				"1f48c91918a689dd5bdc545ea5ba4b49d0560445"
+			],
+			"graal": [
+				"d5e6f8384de2fe0eddf7d9485ee8a2bd10f9fdcd"
+			],
+			"graal-enterprise": [
+				"c5084fd2330029f6d7853200c084df48736dfe90"
+			],
+			"mx": [
+				"8d7e5c3b19569a64f5ef08113afaf8e2796dc435"
+			]
+		},
+		"aliases": [
+			"jdk-25-927"
+		]
+	},
+	{
+		"id": "jdk-25+9-928",
+		"revisions": {
+			"graal-enterprise": [
+				"bd04c8c9098bd9653c048329f50b490b6260142a",
+				"ab7c7e6dfda214a8fac1d28f448e99dccf3d77cb"
+			],
+			"open": [
+				"b985347c2383a7a637ffa9a4a8687f7f7cde1369"
+			],
+			".": [
+				"1f48c91918a689dd5bdc545ea5ba4b49d0560445"
+			],
+			"graal": [
+				"d7aee37c3d109d2d8f8e0531d2e859a40444d328",
+				"da0350da5f942cd978e97316127b305d656d9b2b"
+			],
+			"mx": [
+				"8d7e5c3b19569a64f5ef08113afaf8e2796dc435"
+			]
+		},
+		"aliases": [
+			"jdk-25-928"
+		]
+	},
+	{
+		"id": "jdk-25+9-929",
+		"revisions": {
+			"graal-enterprise": [
+				"bd04c8c9098bd9653c048329f50b490b6260142a"
+			],
+			".": [
+				"1f48c91918a689dd5bdc545ea5ba4b49d0560445"
+			],
+			"open": [
+				"ee4caa4180e76911ee75148583c2923f847f8605"
+			],
+			"graal": [
+				"d7aee37c3d109d2d8f8e0531d2e859a40444d328"
+			],
+			"mx": [
+				"8d7e5c3b19569a64f5ef08113afaf8e2796dc435"
+			]
+		},
+		"aliases": [
+			"jdk-25-929"
+		]
+	},
+	{
+		"id": "jdk-25+9-930",
+		"revisions": {
+			"graal-enterprise": [
+				"6545c0e1d0fcc4d15c775c4db3d035e777d9e39a",
+				"7e0d601c4ee0c0b311f7b1aef2296c1f6de65754"
+			],
+			"graal": [
+				"245ade44ccc09048fa662d3132de50afc6f0e404",
+				"352fe5a42e723a52b31777889f07ab370926e57b"
+			],
+			".": [
+				"1f48c91918a689dd5bdc545ea5ba4b49d0560445"
+			],
+			"open": [
+				"ee4caa4180e76911ee75148583c2923f847f8605"
+			],
+			"mx": [
+				"8d7e5c3b19569a64f5ef08113afaf8e2796dc435"
+			]
+		},
+		"aliases": [
+			"jdk-25-930"
+		]
 	}
 ]
