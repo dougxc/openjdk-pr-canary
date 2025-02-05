@@ -1,0 +1,27 @@
+{
+  "artifact_2540855839": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-0c43e9ae5c1523ee7126c444d397d1a48c570c99)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-0c43e9ae5c1523ee7126c444d397d1a48c570c99, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0b04a70609b3195aca6481c6f1c88b27c872a65b.json",
+    "0bacfa01d9051d1e58eed6eed7b06b05ba0ef508.json",
+    "1fb40bb94a23e2afde5b4e6655f9fddd698e1587.json",
+    "27024407a08c67369863708af5dddbbfc1fcc2ad.json",
+    "284ad6a03f8f8597d834b82b296ccd4d9005e37e.json",
+    "a6d9846809d6213fd70e852773ff2f57b5bf0201.json",
+    "dc2a6758f33daacde63189a2239b1fac1470a937.json",
+    "e2b228cb63a2424509ff2a2527997a77df913848.json",
+    "eb8679784163a477ae34c2538e33d9d8fc099ede.json",
+    "f555dae25b8e2c1b0c96c3f14ddf1890e3ce7c52.json",
+    "f97093d324fbb7de322c86d52db11cafcff2de87.json",
+    "fd51c1cea1be7e5e5fa3b30af09131fe87a356e6.json"
+  ],
+  "datetime": "2025-02-05T14:25:11.786421+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22919",
+  "number": 22919,
+  "title": "8347009: Speed \u200b\u200bup parseInt and parseLong",
+  "head_sha": "0c43e9ae5c1523ee7126c444d397d1a48c570c99",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13158471313"
+}
