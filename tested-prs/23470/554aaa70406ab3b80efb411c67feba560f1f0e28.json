@@ -1,0 +1,14 @@
+{
+  "artifact_2543115871": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rajamah-554aaa70406ab3b80efb411c67feba560f1f0e28)\nOpenJDK 64-Bit Server VM (build 25-internal-rajamah-554aaa70406ab3b80efb411c67feba560f1f0e28, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-05T19:34:46.560133+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23470",
+  "number": 23470,
+  "title": "8348106: Catch C++ exception in Java_sun_awt_windows_WTaskbarPeer_setOverlayIcon",
+  "head_sha": "554aaa70406ab3b80efb411c67feba560f1f0e28",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13164983140"
+}
