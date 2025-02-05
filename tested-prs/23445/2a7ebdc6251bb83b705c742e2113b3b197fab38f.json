@@ -1,0 +1,16 @@
+{
+  "artifact_2541062814": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-roberttoyonaga-2a7ebdc6251bb83b705c742e2113b3b197fab38f)\nOpenJDK 64-Bit Server VM (build 25-internal-roberttoyonaga-2a7ebdc6251bb83b705c742e2113b3b197fab38f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8fa82737424315596ae8ff1e5cdaae8933a8e623.json"
+  ],
+  "datetime": "2025-02-05T15:13:13.810943+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23445",
+  "number": 23445,
+  "title": "8276995: Bug in jdk.jfr.event.gc.collection.TestSystemGC",
+  "head_sha": "2a7ebdc6251bb83b705c742e2113b3b197fab38f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13159595071"
+}
