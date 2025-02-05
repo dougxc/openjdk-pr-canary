@@ -1,0 +1,14 @@
+{
+  "artifact_2538922395": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-GennadiyKrivoshein-03825076c95ed686c2b54a1a70b457a881af92fd)\nOpenJDK 64-Bit Server VM (build 25-internal-GennadiyKrivoshein-03825076c95ed686c2b54a1a70b457a881af92fd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-05T17:09:49.180941+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23457",
+  "number": 23457,
+  "title": "8349350: Unable to print using InputSlot and OutputBin print attributes at the same time",
+  "head_sha": "03825076c95ed686c2b54a1a70b457a881af92fd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13162107330"
+}
