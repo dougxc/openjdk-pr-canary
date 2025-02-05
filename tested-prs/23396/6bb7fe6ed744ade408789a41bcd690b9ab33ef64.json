@@ -1,0 +1,20 @@
+{
+  "artifact_2542744833": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-coleenp-6bb7fe6ed744ade408789a41bcd690b9ab33ef64)\nOpenJDK 64-Bit Server VM (build 25-internal-coleenp-6bb7fe6ed744ade408789a41bcd690b9ab33ef64, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "954c9a768391858de5a3fa3a42457b7489559a57.json",
+    "ca88c32f8700c624580f8b52524a8949f5e235d5.json",
+    "d04b808f53b336a4ca558f17287e0ee343ff638e.json",
+    "d7aafbafb9300ff485b12cc77337aa6af9138e30.json"
+  ],
+  "datetime": "2025-02-05T18:45:58.944339+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23396",
+  "number": 23396,
+  "title": "8349145: Make Class.getProtectionDomain() non-native",
+  "head_sha": "6bb7fe6ed744ade408789a41bcd690b9ab33ef64",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13163079622"
+}
