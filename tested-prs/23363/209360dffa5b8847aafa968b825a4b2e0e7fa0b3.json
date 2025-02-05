@@ -1,0 +1,18 @@
+{
+  "artifact_2540607558": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-eme64-209360dffa5b8847aafa968b825a4b2e0e7fa0b3)\nOpenJDK 64-Bit Server VM (build 25-internal-eme64-209360dffa5b8847aafa968b825a4b2e0e7fa0b3, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "352ebb91f33794822f4b69ae63f2ad6b2a5f5cfd.json",
+    "d7b2f3b6f2bbd05da32ea16cf018965e630af0cc.json"
+  ],
+  "datetime": "2025-02-05T12:53:39.689409+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23363",
+  "number": 23363,
+  "title": "8348572: C2 compilation asserts due to unexpected irreducible loop",
+  "head_sha": "209360dffa5b8847aafa968b825a4b2e0e7fa0b3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13157739127"
+}
