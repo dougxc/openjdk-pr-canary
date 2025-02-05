@@ -1,0 +1,16 @@
+{
+  "artifact_2540319224": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mikabl-arm-c9dcc45f7f362f5af87f013715f0b55777472c78)\nOpenJDK 64-Bit Server VM (build 25-internal-mikabl-arm-c9dcc45f7f362f5af87f013715f0b55777472c78, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0a62dc33978662fe9767eafefe732329f3002073.json"
+  ],
+  "datetime": "2025-02-05T13:04:55.826197+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23181",
+  "number": 23181,
+  "title": "8343689: AArch64: Optimize MulReduction implementation",
+  "head_sha": "c9dcc45f7f362f5af87f013715f0b55777472c78",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13157739127"
+}
