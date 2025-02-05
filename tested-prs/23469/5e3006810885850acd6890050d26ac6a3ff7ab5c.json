@@ -1,0 +1,14 @@
+{
+  "artifact_2543121435": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-myankelev-5e3006810885850acd6890050d26ac6a3ff7ab5c)\nOpenJDK 64-Bit Server VM (build 25-internal-myankelev-5e3006810885850acd6890050d26ac6a3ff7ab5c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-05T19:47:37.780579+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23469",
+  "number": 23469,
+  "title": "8249824: s/n/w/p/https/HttpsURLConnection/CloseKeepAliveCached.java uses @ignore w/o bugid",
+  "head_sha": "5e3006810885850acd6890050d26ac6a3ff7ab5c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13164983140"
+}
