@@ -1,0 +1,16 @@
+{
+  "artifact_2541548623": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-minborg-c095eb1884158257c411013717c786bf722ce60a)\nOpenJDK 64-Bit Server VM (build 25-internal-minborg-c095eb1884158257c411013717c786bf722ce60a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6cda762363bff6a69c54df6ea7cb71b0466297d8.json"
+  ],
+  "datetime": "2025-02-05T15:51:38.181952+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23460",
+  "number": 23460,
+  "title": "8348556: Inlining fails earlier for MemorySegment::reinterpret",
+  "head_sha": "c095eb1884158257c411013717c786bf722ce60a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13160812179"
+}
