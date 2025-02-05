@@ -1,0 +1,14 @@
+{
+  "artifact_2540646937": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-72f79f45b789490fba3c28121f74bc44df911133)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-72f79f45b789490fba3c28121f74bc44df911133, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-05T13:41:11.536561+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23462",
+  "number": 23462,
+  "title": "8349465: [UBSAN] test_os_reserve_between.cpp reported applying non-zero offset to null pointer",
+  "head_sha": "72f79f45b789490fba3c28121f74bc44df911133",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13158471313"
+}
