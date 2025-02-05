@@ -1,0 +1,16 @@
+{
+  "artifact_2543044189": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-cushon-9bf37fc63a980003b494a1d26b4589f67417847a)\nOpenJDK 64-Bit Server VM (build 25-internal-cushon-9bf37fc63a980003b494a1d26b4589f67417847a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "483886880dd6e2db7dd40c09d441c3a6a556cc3a.json"
+  ],
+  "datetime": "2025-02-05T20:11:39.396448+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23448",
+  "number": 23448,
+  "title": "8349058: 'internal proprietary API' warnings make javac warnings unusable",
+  "head_sha": "9bf37fc63a980003b494a1d26b4589f67417847a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13164983140"
+}
