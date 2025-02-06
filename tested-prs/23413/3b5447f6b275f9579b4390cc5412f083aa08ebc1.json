@@ -1,0 +1,16 @@
+{
+  "artifact_2549353548": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaskarth-3b5447f6b275f9579b4390cc5412f083aa08ebc1)\nOpenJDK 64-Bit Server VM (build 25-internal-jaskarth-3b5447f6b275f9579b4390cc5412f083aa08ebc1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6108c5d1b8a742db69ed17022344fa99827fb6b2.json"
+  ],
+  "datetime": "2025-02-06T18:28:38.841209+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23413",
+  "number": 23413,
+  "title": "8342095: Add autovectorizer support for subword vector casts",
+  "head_sha": "3b5447f6b275f9579b4390cc5412f083aa08ebc1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13184451023"
+}
