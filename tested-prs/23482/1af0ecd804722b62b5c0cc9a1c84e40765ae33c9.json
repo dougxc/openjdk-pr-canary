@@ -1,0 +1,14 @@
+{
+  "artifact_2544878614": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jianglizhou-1af0ecd804722b62b5c0cc9a1c84e40765ae33c9)\nOpenJDK 64-Bit Server VM (build 25-internal-jianglizhou-1af0ecd804722b62b5c0cc9a1c84e40765ae33c9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-06T03:06:56.626139+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23482",
+  "number": 23482,
+  "title": "8349513: Remove unused BUILD_JDK_JTREG_LIBRARIES_JDK_LIBS_libTracePinnedThreads",
+  "head_sha": "1af0ecd804722b62b5c0cc9a1c84e40765ae33c9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13170872021"
+}
