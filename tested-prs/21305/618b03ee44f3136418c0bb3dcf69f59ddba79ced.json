@@ -1,0 +1,15 @@
+{
+  "artifact_2546553207": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-fguallini-618b03ee44f3136418c0bb3dcf69f59ddba79ced)\nOpenJDK 64-Bit Server VM (build 24-internal-fguallini-618b03ee44f3136418c0bb3dcf69f59ddba79ced, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-02-06T11:06:23.433662+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21305",
+  "number": 21305,
+  "title": "8249831: Test sun/security/mscapi/nonUniqueAliases/NonUniqueAliases.java is marked with @ignore",
+  "head_sha": "618b03ee44f3136418c0bb3dcf69f59ddba79ced",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13176828565"
+}
