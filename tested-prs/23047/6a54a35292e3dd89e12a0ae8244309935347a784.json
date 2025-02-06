@@ -1,0 +1,19 @@
+{
+  "artifact_2545171589": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexeysemenyukoracle-6a54a35292e3dd89e12a0ae8244309935347a784)\nOpenJDK 64-Bit Server VM (build 25-internal-alexeysemenyukoracle-6a54a35292e3dd89e12a0ae8244309935347a784, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "029fcde14eb4c9e07810728d0744c4320b8a93d5.json",
+    "284c1439a9cf5d43690eda91b474580af4c09738.json",
+    "6d6e04422dc34d92d99d52e86475947d9788795d.json",
+    "9cf93821eaec5b200623e0b45c527e442f627134.json"
+  ],
+  "datetime": "2025-02-06T04:44:45.406341+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23047",
+  "number": 23047,
+  "title": "8346434: Add test for non-automatic service binding",
+  "head_sha": "6a54a35292e3dd89e12a0ae8244309935347a784",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13171866133"
+}
