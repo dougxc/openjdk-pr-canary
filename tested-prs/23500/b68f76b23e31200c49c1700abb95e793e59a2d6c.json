@@ -1,0 +1,14 @@
+{
+  "artifact_2550135288": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jianglizhou-b68f76b23e31200c49c1700abb95e793e59a2d6c)\nOpenJDK 64-Bit Server VM (build 25-internal-jianglizhou-b68f76b23e31200c49c1700abb95e793e59a2d6c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-06T20:40:08.854951+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23500",
+  "number": 23500,
+  "title": "8349284: Make libExplicitAttach work on static JDK",
+  "head_sha": "b68f76b23e31200c49c1700abb95e793e59a2d6c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13187305517"
+}
