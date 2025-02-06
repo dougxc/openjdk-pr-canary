@@ -1,0 +1,19 @@
+{
+  "artifact_2549891477": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-merykitty-7c2b595be03e12df1041a54080d840c622f07c0b)\nOpenJDK 64-Bit Server VM (build 25-internal-merykitty-7c2b595be03e12df1041a54080d840c622f07c0b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "175232a6377f6031cedbc3ef57edf6765d703fee.json",
+    "79cf1990c1940984b2516162297fedfd9d120528.json",
+    "c67618895b70157fbbeb44b302c10066daf5facb.json",
+    "ff924dea9c740fbaa61bca05eecb2622e9133b5a.json"
+  ],
+  "datetime": "2025-02-06T20:12:49.691505+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23274",
+  "number": 23274,
+  "title": "8348411: C2: Remove the control input of LoadKlassNode and LoadNKlassNode",
+  "head_sha": "7c2b595be03e12df1041a54080d840c622f07c0b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13186315789"
+}
