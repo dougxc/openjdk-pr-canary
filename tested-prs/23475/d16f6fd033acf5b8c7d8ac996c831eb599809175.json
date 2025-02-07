@@ -1,0 +1,18 @@
+{
+  "artifact_2557133270": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-earthling-amzn-d16f6fd033acf5b8c7d8ac996c831eb599809175)\nOpenJDK 64-Bit Server VM (build 25-internal-earthling-amzn-d16f6fd033acf5b8c7d8ac996c831eb599809175, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a7a6eea1e01d804987bcafe9a63d7725aa17d2ac.json",
+    "ae207480882da33e6171ed8f3d713951db4595c7.json",
+    "f97f257bb573d99fdda603fd12de2d1b9f4d434f.json"
+  ],
+  "datetime": "2025-02-07T23:47:06.071628+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23475",
+  "number": 23475,
+  "title": "8349094: GenShen: Race between control and regulator threads may violate assertions",
+  "head_sha": "d16f6fd033acf5b8c7d8ac996c831eb599809175",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13209717665"
+}
