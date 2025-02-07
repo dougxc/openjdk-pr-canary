@@ -1,0 +1,14 @@
+{
+  "artifact_2551134585": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tabjy-9210099141b0333afb40a59a112ddd719d524a55)\nOpenJDK 64-Bit Server VM (build 25-internal-tabjy-9210099141b0333afb40a59a112ddd719d524a55, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-07T02:15:25.428430+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23506",
+  "number": 23506,
+  "title": "8347555: [REDO] C2: implement optimization for series of Add of unique value",
+  "head_sha": "9210099141b0333afb40a59a112ddd719d524a55",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13191581207"
+}
