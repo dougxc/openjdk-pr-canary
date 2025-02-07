@@ -1,0 +1,16 @@
+{
+  "artifact_2555229210": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-6430a35a124e85d2ce771affd3bde303898481fa)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-6430a35a124e85d2ce771affd3bde303898481fa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8dca2b00cbec026f66d1908fada1542990c7fe4e.json"
+  ],
+  "datetime": "2025-02-07T16:44:55.038476+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23508",
+  "number": 23508,
+  "title": "8349554: [UBSAN] os::attempt_reserve_memory_between reported applying non-zero offset to non-null pointer produced null pointer",
+  "head_sha": "6430a35a124e85d2ce771affd3bde303898481fa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13202880687"
+}
