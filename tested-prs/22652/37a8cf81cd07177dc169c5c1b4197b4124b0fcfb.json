@@ -1,0 +1,25 @@
+{
+  "artifact_2554069291": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-coleenp-37a8cf81cd07177dc169c5c1b4197b4124b0fcfb)\nOpenJDK 64-Bit Server VM (build 25-internal-coleenp-37a8cf81cd07177dc169c5c1b4197b4124b0fcfb, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/10440",
+    "number": "10440",
+    "revision": "d51e15aa3ac03bb4f1e5428a68b380fe64556371"
+  },
+  "status": "failed",
+  "history": [
+    "146e25515ab72eeca8c17be44021b9e84dcfe655.json",
+    "304a17ee786e8cbc82ecae148e57922651d7a44e.json",
+    "8854fcc6682430b08f7162b98605bdcc2b969905.json",
+    "ff693418fb4d5621190faa8c6133a3d0b5ac4742.json"
+  ],
+  "datetime": "2025-02-07T13:45:00.036684+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22652",
+  "number": 22652,
+  "title": "8346567: Make Class.getModifiers() non-native",
+  "head_sha": "37a8cf81cd07177dc169c5c1b4197b4124b0fcfb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13200843865"
+}
