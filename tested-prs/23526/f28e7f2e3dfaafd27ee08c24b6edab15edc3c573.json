@@ -1,0 +1,14 @@
+{
+  "artifact_2557018486": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-valeriepeng-f28e7f2e3dfaafd27ee08c24b6edab15edc3c573)\nOpenJDK 64-Bit Server VM (build 25-internal-valeriepeng-f28e7f2e3dfaafd27ee08c24b6edab15edc3c573, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-07T22:41:28.570872+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23526",
+  "number": 23526,
+  "title": "8348432: Use block size as the default Hmac key length for JDK providers",
+  "head_sha": "f28e7f2e3dfaafd27ee08c24b6edab15edc3c573",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13208281861"
+}
