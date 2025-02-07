@@ -1,0 +1,14 @@
+{
+  "artifact_2557107956": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-honkar-jdk-c9714431175900aa54e6bd1ee4237f37cb7f157f)\nOpenJDK 64-Bit Server VM (build 25-internal-honkar-jdk-c9714431175900aa54e6bd1ee4237f37cb7f157f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-07T23:36:04.303190+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23523",
+  "number": 23523,
+  "title": "JDK-8348302 : [Test bug] Update FileDialogIconTest.java",
+  "head_sha": "c9714431175900aa54e6bd1ee4237f37cb7f157f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13209717665"
+}
