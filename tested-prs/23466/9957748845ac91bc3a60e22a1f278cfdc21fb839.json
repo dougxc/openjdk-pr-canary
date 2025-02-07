@@ -1,0 +1,18 @@
+{
+  "artifact_2555668982": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-nizarbenalla-9957748845ac91bc3a60e22a1f278cfdc21fb839)\nOpenJDK 64-Bit Server VM (build 25-internal-nizarbenalla-9957748845ac91bc3a60e22a1f278cfdc21fb839, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "25b8610d9813bf29c6ea3fd1bc957fed6896c8a9.json",
+    "71b90d45e82326716c40c3bf4e21039cd9cceb0f.json",
+    "ae3c9ebaef6fbbacdebbc1687bd41e1f3ac07df7.json"
+  ],
+  "datetime": "2025-02-07T18:45:47.837628+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23466",
+  "number": 23466,
+  "title": "8343802: Prevent NULL usage backsliding",
+  "head_sha": "9957748845ac91bc3a60e22a1f278cfdc21fb839",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13205905512"
+}
