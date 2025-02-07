@@ -1,0 +1,17 @@
+{
+  "artifact_2554630912": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-myankelev-9989db6c21bee70976202cb2a55cf947bf59e461)\nOpenJDK 64-Bit Server VM (build 25-internal-myankelev-9989db6c21bee70976202cb2a55cf947bf59e461, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2f5248261598bb69dafd4f7ddea4749aed016490.json",
+    "88c4b7298b633330b038cdc7e6359fe0967d9657.json"
+  ],
+  "datetime": "2025-02-07T15:05:54.131732+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23492",
+  "number": 23492,
+  "title": "8349532: Refactor ./util/Pem/encoding.sh to run in java",
+  "head_sha": "9989db6c21bee70976202cb2a55cf947bf59e461",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13201845938"
+}
