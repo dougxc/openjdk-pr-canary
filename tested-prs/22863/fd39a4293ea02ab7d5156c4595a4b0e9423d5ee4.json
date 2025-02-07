@@ -1,0 +1,32 @@
+{
+  "artifact_2554611445": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jatin-bhateja-fd39a4293ea02ab7d5156c4595a4b0e9423d5ee4)\nOpenJDK 64-Bit Server VM (build 25-internal-jatin-bhateja-fd39a4293ea02ab7d5156c4595a4b0e9423d5ee4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "05b2655f654c0f2412afeeeca86c4ba21ff012f8.json",
+    "21b2ffd877cf72551a40d0be789032901d1bed0a.json",
+    "32919318462beba20ece780e7135051f4fe576b5.json",
+    "391849605332614fcb55ee35c942b88e9c8037ea.json",
+    "4a88fd689092cb73dbdd03fdbe6d720fa455a264.json",
+    "4b0ff35497e9ed2975b782de5d00e4d28f322e79.json",
+    "86d0145cb944a3a4c3bcbdb31ea5e464434df1e1.json",
+    "8f457ba4a3c43ce8dc030ccde5db09bbe5693bce.json",
+    "99ede6faa73474bc490f5b3a1792657cfe4bac66.json",
+    "9fede08b885ea7cad05113a345635f9bce3886fa.json",
+    "a5c35a9d1dbd18e9b44edf5a4f1976c88e0a4b36.json",
+    "d272ac6e06e20f8356dbe1f1533585c2152a0294.json",
+    "edb1ced5a091e84e55b0049c1c1b92dd786331cf.json",
+    "f21e30f13b6a82d3711617c384934788480bc389.json",
+    "f42645a153840eaf970f83a3db61cfc316ff8be0.json",
+    "f629a6f02a002eb794b4202b7315374bbf2a6294.json",
+    "fef09e7831f612563ccd067c379ae19363c64d28.json"
+  ],
+  "datetime": "2025-02-07T15:54:53.953637+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22863",
+  "number": 22863,
+  "title": "8342393: Promote commutative vector IR node sharing",
+  "head_sha": "fd39a4293ea02ab7d5156c4595a4b0e9423d5ee4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13201845938"
+}
