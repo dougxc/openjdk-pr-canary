@@ -1,0 +1,14 @@
+{
+  "artifact_2558918118": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jnimeh-f5e2ca1c12b5440d376c1ef57bb468fca1fb2bfd)\nOpenJDK 64-Bit Server VM (build 25-internal-jnimeh-f5e2ca1c12b5440d376c1ef57bb468fca1fb2bfd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-08T17:37:15.105995+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23531",
+  "number": 23531,
+  "title": "8349501: Relocate supporting classes in security/testlibrary to test/lib/jdk tree",
+  "head_sha": "f5e2ca1c12b5440d376c1ef57bb468fca1fb2bfd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13217783431"
+}
