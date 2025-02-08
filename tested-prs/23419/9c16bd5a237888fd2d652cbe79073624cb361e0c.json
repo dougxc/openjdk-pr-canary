@@ -1,0 +1,17 @@
+{
+  "artifact_2558433877": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tschatzl-9c16bd5a237888fd2d652cbe79073624cb361e0c)\nOpenJDK 64-Bit Server VM (build 25-internal-tschatzl-9c16bd5a237888fd2d652cbe79073624cb361e0c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a73b3b34b0ab8f98b3d00578f62a07c59b7f8f3f.json",
+    "ba3a9ec7d8027841a23c63ce99ce5384c99ae2ac.json"
+  ],
+  "datetime": "2025-02-08T11:33:22.033524+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23419",
+  "number": 23419,
+  "title": "8349213: G1: Clearing bitmaps during collection set merging not claimed by region",
+  "head_sha": "9c16bd5a237888fd2d652cbe79073624cb361e0c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13215163206"
+}
