@@ -1,0 +1,16 @@
+{
+  "artifact_2561323007": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-anass-baya-95750a44ec67f2c10c91ba69f3da1556964c5853)\nOpenJDK 64-Bit Server VM (build 25-internal-anass-baya-95750a44ec67f2c10c91ba69f3da1556964c5853, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "817976293138f659a71aa3c2aa49a129ca77cc45.json"
+  ],
+  "datetime": "2025-02-09T20:48:04.126229+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23449",
+  "number": 23449,
+  "title": "8349351 : Combine Screen Inset Tests into a Single File",
+  "head_sha": "95750a44ec67f2c10c91ba69f3da1556964c5853",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13229317226"
+}
