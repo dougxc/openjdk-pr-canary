@@ -122100,6 +122100,32 @@
 		},
 		"aliases": [
 			"jdk-25-1014"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-25+10-1015",
+		"revisions": {
+			"open": [
+				"f74c4dfe0b0c384a25f0b7a2330ba96d50b7fceb"
+			],
+			"mx": [
+				"e3f1261426e718e0ba57a4666fa4431e40504279"
+			],
+			"graal-enterprise": [
+				"d15d14457e0288b17186ba51528d350530754d4b"
+			],
+			".": [
+				"18fadf7b1966d1aaa0988410ad0b3be5dd17124a"
+			],
+			"graal": [
+				"5f2d820d346d16659e8d2d574b7aa8b1e66fd931"
+			]
+		},
+		"aliases": [
+			"jdk-25-1015"
 		]
 	}
 ]
