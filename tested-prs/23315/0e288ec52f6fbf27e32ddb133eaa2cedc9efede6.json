@@ -1,0 +1,14 @@
+{
+  "artifact_2562751361": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ksreenath-ora-0e288ec52f6fbf27e32ddb133eaa2cedc9efede6)\nOpenJDK 64-Bit Server VM (build 25-internal-ksreenath-ora-0e288ec52f6fbf27e32ddb133eaa2cedc9efede6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-10T07:48:25.615916+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23315",
+  "number": 23315,
+  "title": "8346094: Harden X509CertImpl.getExtensionValue for NPE cases",
+  "head_sha": "0e288ec52f6fbf27e32ddb133eaa2cedc9efede6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13235636529"
+}
