@@ -1,0 +1,14 @@
+{
+  "artifact_2568032665": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-missa-prime-6d8e8a5d6f6b7f843cc4e8bf412bf8dbc59dd2ae)\nOpenJDK 64-Bit Server VM (build 25-internal-missa-prime-6d8e8a5d6f6b7f843cc4e8bf412bf8dbc59dd2ae, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-10T23:01:21.871728+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23503",
+  "number": 23503,
+  "title": "8349579: jsvml.dll incorrect RDATA SEGMENT specification",
+  "head_sha": "6d8e8a5d6f6b7f843cc4e8bf412bf8dbc59dd2ae",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13251706489"
+}
