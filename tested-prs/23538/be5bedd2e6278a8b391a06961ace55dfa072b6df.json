@@ -1,0 +1,16 @@
+{
+  "artifact_2564262896": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-pengxiaolong-be5bedd2e6278a8b391a06961ace55dfa072b6df)\nOpenJDK 64-Bit Server VM (build 25-internal-pengxiaolong-be5bedd2e6278a8b391a06961ace55dfa072b6df, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "fe26481fa1039dd5ab8fbf7e77df5fd31656db3b.json"
+  ],
+  "datetime": "2025-02-10T13:14:28.413390+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23538",
+  "number": 23538,
+  "title": "8349705: java.net.URI.scanIPv4Address throws unnecessary URISyntaxException",
+  "head_sha": "be5bedd2e6278a8b391a06961ace55dfa072b6df",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13241251392"
+}
