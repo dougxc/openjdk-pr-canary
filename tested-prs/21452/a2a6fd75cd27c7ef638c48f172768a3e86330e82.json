@@ -1,0 +1,14 @@
+{
+  "artifact_2574714117": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-RealLucy-a2a6fd75cd27c7ef638c48f172768a3e86330e82)\nOpenJDK 64-Bit Server VM (build 25-internal-RealLucy-a2a6fd75cd27c7ef638c48f172768a3e86330e82, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-11T22:53:44.675163+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21452",
+  "number": 21452,
+  "title": "8341908: CodeHeapAnalytics: Output Imperfections and unwanted vm termination",
+  "head_sha": "a2a6fd75cd27c7ef638c48f172768a3e86330e82",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13273771052"
+}
