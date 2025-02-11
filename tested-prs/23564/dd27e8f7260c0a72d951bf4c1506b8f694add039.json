@@ -1,0 +1,14 @@
+{
+  "artifact_2572786046": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-aivanov-jdk-dd27e8f7260c0a72d951bf4c1506b8f694add039)\nOpenJDK 64-Bit Server VM (build 25-internal-aivanov-jdk-dd27e8f7260c0a72d951bf4c1506b8f694add039, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-11T16:47:00.358382+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23564",
+  "number": 23564,
+  "title": "8294155: Exception thrown before awaitAndCheck hangs PassFailJFrame",
+  "head_sha": "dd27e8f7260c0a72d951bf4c1506b8f694add039",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13267820427"
+}
