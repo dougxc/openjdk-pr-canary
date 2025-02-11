@@ -1,0 +1,14 @@
+{
+  "artifact_2569269365": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prsadhuk-fc7b400df506b847362c2b098fd66c7172b1d699)\nOpenJDK 64-Bit Server VM (build 25-internal-prsadhuk-fc7b400df506b847362c2b098fd66c7172b1d699, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-11T05:54:22.357110+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23554",
+  "number": 23554,
+  "title": "8347019: Test javax/swing/JRadioButton/8033699/bug8033699.java  still fails:  Focus is not on Radio Button Single as Expected",
+  "head_sha": "fc7b400df506b847362c2b098fd66c7172b1d699",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13256493487"
+}
