@@ -97673,7 +97673,8 @@
 			"jdk-24.0.1+4"
 		],
 		"tags": [
-			"PROMOTED"
+			"PROMOTED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -97711,7 +97712,8 @@
 			"jdk-24.0.1+5"
 		],
 		"tags": [
-			"PROMOTED"
+			"PROMOTED",
+			"UNUSABLE"
 		]
 	},
 	{
@@ -122743,6 +122745,29 @@
 		},
 		"aliases": [
 			"jdk-25-1040"
+		]
+	},
+	{
+		"id": "jdk-25+10-1041",
+		"revisions": {
+			".": [
+				"f95762e2af8c3af78e0d3f1ae3e99b18309bc77b"
+			],
+			"graal": [
+				"81d1842a77b0a51d8e0c4a008a11db32ab1a8d4b"
+			],
+			"mx": [
+				"e3f1261426e718e0ba57a4666fa4431e40504279"
+			],
+			"open": [
+				"a1bcda247617a839cd797bdd8bd3bf3216dff8a8"
+			],
+			"graal-enterprise": [
+				"65c359a1c659e228d3a2d35b37d3b34c3a129549"
+			]
+		},
+		"aliases": [
+			"jdk-25-1041"
 		]
 	}
 ]
