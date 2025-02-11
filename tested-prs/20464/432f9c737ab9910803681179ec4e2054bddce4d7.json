@@ -1,0 +1,16 @@
+{
+  "artifact_2571660210": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-fguallini-432f9c737ab9910803681179ec4e2054bddce4d7)\nOpenJDK 64-Bit Server VM (build 25-internal-fguallini-432f9c737ab9910803681179ec4e2054bddce4d7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e54139884021b3033dd0c3544e01756ec346e8a2.json"
+  ],
+  "datetime": "2025-02-11T13:57:40.259531+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20464",
+  "number": 20464,
+  "title": "8337723: Remove redundant tests from com/sun/security/sasl/gsskerb",
+  "head_sha": "432f9c737ab9910803681179ec4e2054bddce4d7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13264081769"
+}
