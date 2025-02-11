@@ -1,0 +1,16 @@
+{
+  "artifact_2571099365": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-myankelev-3d14d60589de643ecb264ca262b2f3ad2ebb9b21)\nOpenJDK 64-Bit Server VM (build 25-internal-myankelev-3d14d60589de643ecb264ca262b2f3ad2ebb9b21, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3955548c4edea908e7692926ca7001d825d5a84a.json"
+  ],
+  "datetime": "2025-02-11T13:02:52.847002+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23542",
+  "number": 23542,
+  "title": "8349534: Refactor jdk/sun/security/krb5/runNameEquals.sh to java test",
+  "head_sha": "3d14d60589de643ecb264ca262b2f3ad2ebb9b21",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13263304460"
+}
