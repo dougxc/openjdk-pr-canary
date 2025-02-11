@@ -1,0 +1,14 @@
+{
+  "artifact_2568925039": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-4e73380c60b2a7d0f583c865c81889484fff27af)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-4e73380c60b2a7d0f583c865c81889484fff27af, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-11T03:06:48.441312+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23548",
+  "number": 23548,
+  "title": "8342206: Convenience method to check if a constant pool entry matches nominal descriptors",
+  "head_sha": "4e73380c60b2a7d0f583c865c81889484fff27af",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13254918863"
+}
