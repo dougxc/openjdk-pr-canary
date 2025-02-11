@@ -1,0 +1,14 @@
+{
+  "artifact_2568790666": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-gredler-e1f945066004c656f2bc275b6d8009c548c781ea)\nOpenJDK 64-Bit Server VM (build 25-internal-gredler-e1f945066004c656f2bc275b6d8009c548c781ea, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-11T03:17:31.850858+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23547",
+  "number": 23547,
+  "title": "6562489: Font-Renderer should ignore invisible characters \\u2062 and \\u2063",
+  "head_sha": "e1f945066004c656f2bc275b6d8009c548c781ea",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13254918863"
+}
