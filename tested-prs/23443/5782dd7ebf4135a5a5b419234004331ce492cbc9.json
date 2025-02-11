@@ -1,0 +1,14 @@
+{
+  "artifact_2570231707": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wkia-5782dd7ebf4135a5a5b419234004331ce492cbc9)\nOpenJDK 64-Bit Server VM (build 25-internal-wkia-5782dd7ebf4135a5a5b419234004331ce492cbc9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-11T10:01:10.453714+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23443",
+  "number": 23443,
+  "title": "8347826: Introspector shows wrong method list after 8071693",
+  "head_sha": "5782dd7ebf4135a5a5b419234004331ce492cbc9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13259703814"
+}
