@@ -1,0 +1,14 @@
+{
+  "artifact_2569289589": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Renjithkannath-6fccd277ae7e568e27f21a6fb4e7beb83d93f1f4)\nOpenJDK 64-Bit Server VM (build 25-internal-Renjithkannath-6fccd277ae7e568e27f21a6fb4e7beb83d93f1f4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-11T05:39:45.914873+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/18670",
+  "number": 18670,
+  "title": "8328977 : JEditorPane.setPage not thread-safe, pageLoader not cancelled",
+  "head_sha": "6fccd277ae7e568e27f21a6fb4e7beb83d93f1f4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13255886721"
+}
