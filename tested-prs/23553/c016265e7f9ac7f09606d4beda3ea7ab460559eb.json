@@ -1,0 +1,14 @@
+{
+  "artifact_2569196857": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-c016265e7f9ac7f09606d4beda3ea7ab460559eb)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-c016265e7f9ac7f09606d4beda3ea7ab460559eb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-11T04:42:19.089768+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23553",
+  "number": 23553,
+  "title": "8349771: Replace usages of -mx and -ms in some monitor tests",
+  "head_sha": "c016265e7f9ac7f09606d4beda3ea7ab460559eb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13255886721"
+}
