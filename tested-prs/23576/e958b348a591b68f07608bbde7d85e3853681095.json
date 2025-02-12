@@ -1,0 +1,16 @@
+{
+  "artifact_2577202569": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-e958b348a591b68f07608bbde7d85e3853681095)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-e958b348a591b68f07608bbde7d85e3853681095, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2f3dd3b89366c754afb0d7b1ccd7d23c87a7c928.json"
+  ],
+  "datetime": "2025-02-12T09:39:03.412266+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23576",
+  "number": 23576,
+  "title": "8349787: java/lang/Thread/virtual/ThreadPollOnYield.java#default passes unexpectedly without libVThreadPinner.so",
+  "head_sha": "e958b348a591b68f07608bbde7d85e3853681095",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13282144326"
+}
