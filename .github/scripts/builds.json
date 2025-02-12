@@ -123375,6 +123375,9 @@
 		},
 		"aliases": [
 			"jdk-25-1063"
+		],
+		"tags": [
+			"UNUSABLE"
 		]
 	},
 	{
@@ -123400,6 +123403,9 @@
 		},
 		"aliases": [
 			"jdk-25-1064"
+		],
+		"tags": [
+			"UNUSABLE"
 		]
 	},
 	{
@@ -123559,6 +123565,30 @@
 		],
 		"tags": [
 			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-25+10-1071",
+		"revisions": {
+			"graal": [
+				"8f90da2318f71ade3becd0fe7cdee56708afbff1"
+			],
+			"mx": [
+				"e3f1261426e718e0ba57a4666fa4431e40504279"
+			],
+			".": [
+				"91fdaf0ebd3a733e15a0273e8c7110d2de62681f"
+			],
+			"open": [
+				"2a5d1da3355a4df3109ec42646b5b0cf088b4c2a"
+			],
+			"graal-enterprise": [
+				"dd14f42d4a5e6a92f5586821dfca11c5c049d5f4",
+				"872bd2d0c9a27a1fac03bdab7983feb6ef63fb23"
+			]
+		},
+		"aliases": [
+			"jdk-25-1071"
 		]
 	}
 ]
