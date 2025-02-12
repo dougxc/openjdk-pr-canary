@@ -1,0 +1,14 @@
+{
+  "artifact_2578327366": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tschatzl-b18a63b32bbea111fb2ef05cccecddad03111224)\nOpenJDK 64-Bit Server VM (build 25-internal-tschatzl-b18a63b32bbea111fb2ef05cccecddad03111224, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-12T13:01:23.751597+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23585",
+  "number": 23585,
+  "title": "8349476: G1: Regularly print CPU usage by thread type",
+  "head_sha": "b18a63b32bbea111fb2ef05cccecddad03111224",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13285755293"
+}
