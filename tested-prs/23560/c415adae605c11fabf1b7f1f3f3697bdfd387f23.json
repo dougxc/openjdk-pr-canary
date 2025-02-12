@@ -1,0 +1,17 @@
+{
+  "artifact_2577784257": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mkartashev-c415adae605c11fabf1b7f1f3f3697bdfd387f23)\nOpenJDK 64-Bit Server VM (build 25-internal-mkartashev-c415adae605c11fabf1b7f1f3f3697bdfd387f23, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0a1a7ead4c59498c5298c5dcf86875dcbd33c0c2.json",
+    "d0d42a4def056c035a6a7e7ea4e4c94d7c592743.json"
+  ],
+  "datetime": "2025-02-12T12:07:29.834458+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23560",
+  "number": 23560,
+  "title": "8349812: (fs) Files.newByteChannel with empty path name and CREATE_NEW throws unexpected exception",
+  "head_sha": "c415adae605c11fabf1b7f1f3f3697bdfd387f23",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13284228762"
+}
