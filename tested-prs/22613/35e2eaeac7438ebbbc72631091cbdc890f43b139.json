@@ -1,0 +1,17 @@
+{
+  "artifact_2575353273": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-franferrax-35e2eaeac7438ebbbc72631091cbdc890f43b139)\nOpenJDK 64-Bit Server VM (build 25-internal-franferrax-35e2eaeac7438ebbbc72631091cbdc890f43b139, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "95364f86f4cdfe787ba203d3dc346a10822054a5.json",
+    "bda8971f15cd91baa029313e2b141d6af78d9068.json"
+  ],
+  "datetime": "2025-02-12T02:47:37.317195+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22613",
+  "number": 22613,
+  "title": "8345139: Fix bugs and inconsistencies in the Provider services map",
+  "head_sha": "35e2eaeac7438ebbbc72631091cbdc890f43b139",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13276321769"
+}
