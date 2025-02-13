@@ -1,0 +1,14 @@
+{
+  "artifact_2585732072": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexeysemenyukoracle-c14f5ffb0b3b17f843cfd047f71e0f11893488ed)\nOpenJDK 64-Bit Server VM (build 25-internal-alexeysemenyukoracle-c14f5ffb0b3b17f843cfd047f71e0f11893488ed, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-13T13:43:19.246574+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23612",
+  "number": 23612,
+  "title": "8285624: jpackage fails to create exe, msi when Windows OS is in FIPS mode",
+  "head_sha": "c14f5ffb0b3b17f843cfd047f71e0f11893488ed",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13308829165"
+}
