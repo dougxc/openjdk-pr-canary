@@ -1,0 +1,16 @@
+{
+  "artifact_2589451325": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jnimeh-8c16dabab01372de2b9438e84a962b4b24312e5e)\nOpenJDK 64-Bit Server VM (build 25-internal-jnimeh-8c16dabab01372de2b9438e84a962b4b24312e5e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "bec2b43c38291216f9580842d30fa40ebd1e147e.json"
+  ],
+  "datetime": "2025-02-13T23:48:09.426121+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23566",
+  "number": 23566,
+  "title": "8349759: Fix CertificateBuilder and SimpleOCSPServer test utilities to support PQC algorithms",
+  "head_sha": "8c16dabab01372de2b9438e84a962b4b24312e5e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13319051423"
+}
