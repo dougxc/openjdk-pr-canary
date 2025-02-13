@@ -1,0 +1,16 @@
+{
+  "artifact_2587929540": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-fmatte1-30e95aaadcd963ac76450901b563ddcde414ca3f)\nOpenJDK 64-Bit Server VM (build 25-internal-fmatte1-30e95aaadcd963ac76450901b563ddcde414ca3f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ce22439ff4e60d2a1d8f35f72d9640452b15a4ab.json"
+  ],
+  "datetime": "2025-02-13T19:31:46.992674+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23519",
+  "number": 23519,
+  "title": "8347833: CrashOnOutOfMemory should stop GC threads before HeapDumpOnOutOfMemoryError",
+  "head_sha": "30e95aaadcd963ac76450901b563ddcde414ca3f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13314661861"
+}
