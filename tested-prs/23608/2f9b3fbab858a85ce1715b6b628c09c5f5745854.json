@@ -1,0 +1,14 @@
+{
+  "artifact_2582914154": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-XiaohongGong-2f9b3fbab858a85ce1715b6b628c09c5f5745854)\nOpenJDK 64-Bit Server VM (build 25-internal-XiaohongGong-2f9b3fbab858a85ce1715b6b628c09c5f5745854, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-13T03:18:30.459755+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23608",
+  "number": 23608,
+  "title": "8349522: AArch64: Add backend implementation for new unsigned and saturating vector operations",
+  "head_sha": "2f9b3fbab858a85ce1715b6b628c09c5f5745854",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13299423275"
+}
