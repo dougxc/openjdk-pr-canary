@@ -1,0 +1,19 @@
+{
+  "artifact_2584957592": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jdksjolen-50b4c55309d5e26cc11a1df66c1ee5ce54de70a5)\nOpenJDK 64-Bit Server VM (build 25-internal-jdksjolen-50b4c55309d5e26cc11a1df66c1ee5ce54de70a5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2a0b244a2fe06ce04cb8e0c5712eb9c421029456.json",
+    "7d2cf5ec9494c37ac63037531192c9a3b570cf47.json",
+    "8663ebcbcdf1e6a583bfe9b9b243402c4fd24da6.json",
+    "d99b779ea6d1451389856cda5c1e13604bb21c9b.json"
+  ],
+  "datetime": "2025-02-13T12:18:56.574865+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23513",
+  "number": 23513,
+  "title": "8349755: Fix corner case issues in async UL",
+  "head_sha": "50b4c55309d5e26cc11a1df66c1ee5ce54de70a5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13306578027"
+}
