@@ -1,0 +1,17 @@
+{
+  "artifact_2594673710": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kdnilsen-8625be3e4fef7a3d16d0cb669d2277f9ac4cef43)\nOpenJDK 64-Bit Server VM (build 25-internal-kdnilsen-8625be3e4fef7a3d16d0cb669d2277f9ac4cef43, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "17e5e91909cdeecc1cefcb7ffecebaa16cfecbcb.json",
+    "8d662e100467e4aa8b0b9683f97fb67b4daa41d5.json"
+  ],
+  "datetime": "2025-02-14T20:08:26.085578+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23552",
+  "number": 23552,
+  "title": "8349766: GenShen: Bad progress after degen does not always need full gc",
+  "head_sha": "8625be3e4fef7a3d16d0cb669d2277f9ac4cef43",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13335980556"
+}
