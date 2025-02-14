@@ -1,0 +1,14 @@
+{
+  "artifact_2593376332": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tstuefe-a103b4552304d57bd64fb0d19a70652aeed6aa66)\nOpenJDK 64-Bit Server VM (build 25-internal-tstuefe-a103b4552304d57bd64fb0d19a70652aeed6aa66, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-14T15:50:25.391990+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23635",
+  "number": 23635,
+  "title": "8350097: Make Compilation::current() and Compile::current() safer",
+  "head_sha": "a103b4552304d57bd64fb0d19a70652aeed6aa66",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13332267900"
+}
