@@ -1,0 +1,14 @@
+{
+  "artifact_2589918010": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JoeWang-Java-d58db2adb1eab448b4879ab979f57b93ca75bc1f)\nOpenJDK 64-Bit Server VM (build 25-internal-JoeWang-Java-d58db2adb1eab448b4879ab979f57b93ca75bc1f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-14T02:04:33.439722+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23623",
+  "number": 23623,
+  "title": "8349699: XSL transform fails with certain UTF-8 characters on 1024 byte boundaries",
+  "head_sha": "d58db2adb1eab448b4879ab979f57b93ca75bc1f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13320843020"
+}
