@@ -1,0 +1,14 @@
+{
+  "artifact_2591055486": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-ba555448faa7e6bd53cf22fc046b6047d6e36cc0)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-ba555448faa7e6bd53cf22fc046b6047d6e36cc0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-14T09:08:37.715629+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23625",
+  "number": 23625,
+  "title": "8350051: [JMH] Several tests fails NPE",
+  "head_sha": "ba555448faa7e6bd53cf22fc046b6047d6e36cc0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13325417660"
+}
