@@ -1,0 +1,14 @@
+{
+  "artifact_2596407123": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-bradfordwetmore-d0a9900ec640daf9d9ea6940e9c84827763d97d4)\nOpenJDK 64-Bit Server VM (build 25-internal-bradfordwetmore-d0a9900ec640daf9d9ea6940e9c84827763d97d4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-15T06:47:42.338630+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23652",
+  "number": 23652,
+  "title": "8350147: Replace example in KEM class with the one from JEP 452",
+  "head_sha": "d0a9900ec640daf9d9ea6940e9c84827763d97d4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13342601424"
+}
