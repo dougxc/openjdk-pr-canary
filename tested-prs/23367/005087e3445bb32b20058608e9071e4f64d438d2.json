@@ -1,0 +1,17 @@
+{
+  "artifact_2596967754": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-albertnetymk-005087e3445bb32b20058608e9071e4f64d438d2)\nOpenJDK 64-Bit Server VM (build 25-internal-albertnetymk-005087e3445bb32b20058608e9071e4f64d438d2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1b6f908b42154f550f95d1490cc537caef62c094.json",
+    "6283a19c43a0524976b19c4fbbbd72aa6761e3b7.json"
+  ],
+  "datetime": "2025-02-15T12:57:17.643764+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23367",
+  "number": 23367,
+  "title": "8192647: GClocker induced GCs can starve threads requiring memory leading to OOME",
+  "head_sha": "005087e3445bb32b20058608e9071e4f64d438d2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13345146822"
+}
