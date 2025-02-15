@@ -1,0 +1,17 @@
+{
+  "artifact_2596388751": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-81944a2ea3c8996fd227af52eb53debae6dfe6fc)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-81944a2ea3c8996fd227af52eb53debae6dfe6fc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0a645b69d35889668314c5a9be6ae1049214e08e.json",
+    "ed727488c46dc9f6154f9be2f57f7626b4f5acb9.json"
+  ],
+  "datetime": "2025-02-15T05:41:13.246081+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23620",
+  "number": 23620,
+  "title": "8349953: Avoid editing AOTConfiguration file in \"make test JTREG_AOT_JDK=true\"",
+  "head_sha": "81944a2ea3c8996fd227af52eb53debae6dfe6fc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13342162136"
+}
