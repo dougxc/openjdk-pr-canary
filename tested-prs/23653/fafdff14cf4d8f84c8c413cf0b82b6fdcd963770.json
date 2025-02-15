@@ -1,0 +1,14 @@
+{
+  "artifact_2597657726": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lmesnik-fafdff14cf4d8f84c8c413cf0b82b6fdcd963770)\nOpenJDK 64-Bit Server VM (build 25-internal-lmesnik-fafdff14cf4d8f84c8c413cf0b82b6fdcd963770, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-15T20:37:34.729177+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23653",
+  "number": 23653,
+  "title": "8350151: Support requires property to filer tests incompatible with --enable-preview",
+  "head_sha": "fafdff14cf4d8f84c8c413cf0b82b6fdcd963770",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13348379114"
+}
