@@ -1,0 +1,14 @@
+{
+  "artifact_2603787010": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ferakocz-7951fe3affc40b6e99b7f4696c323ea0ba5be857)\nOpenJDK 64-Bit Server VM (build 25-internal-ferakocz-7951fe3affc40b6e99b7f4696c323ea0ba5be857, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-17T16:10:57.391182+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23663",
+  "number": 23663,
+  "title": "8349721: Add aarch64 intrinsics for ML-KEM",
+  "head_sha": "7951fe3affc40b6e99b7f4696c323ea0ba5be857",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13373642933"
+}
