@@ -1,0 +1,19 @@
+{
+  "artifact_2601105846": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaskarth-e8820bcb0150128fa34872a08d47682ec83926bc)\nOpenJDK 64-Bit Server VM (build 25-internal-jaskarth-e8820bcb0150128fa34872a08d47682ec83926bc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "27ca15c5b9fdec51d4f892f1750da8a5eac2bfbd.json",
+    "29070d7ac17877b901ed0fa72ac35a15ac04ce71.json",
+    "36228aeace8e4372812181aaa608db17f8d6ca67.json",
+    "92d50de30ad3dba2970e139773ac9cfd6da8f8d1.json"
+  ],
+  "datetime": "2025-02-17T06:48:49.929355+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23579",
+  "number": 23579,
+  "title": "8349637: Integer.numberOfLeadingZeros outputs incorrectly in certain cases",
+  "head_sha": "e8820bcb0150128fa34872a08d47682ec83926bc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13364341939"
+}
