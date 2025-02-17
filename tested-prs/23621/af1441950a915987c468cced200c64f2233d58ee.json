@@ -1,0 +1,17 @@
+{
+  "artifact_2603448822": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-robcasloz-af1441950a915987c468cced200c64f2233d58ee)\nOpenJDK 64-Bit Server VM (build 25-internal-robcasloz-af1441950a915987c468cced200c64f2233d58ee, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "53258db445d87c6d7e686934baa432eed8024bcd.json",
+    "7b3b25d38abfa1f651ffbbc72eba21e7a7b1ef0d.json"
+  ],
+  "datetime": "2025-02-17T14:56:40.096857+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23621",
+  "number": 23621,
+  "title": "8350006: IGV: show memory slices as type information",
+  "head_sha": "af1441950a915987c468cced200c64f2233d58ee",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13372557000"
+}
