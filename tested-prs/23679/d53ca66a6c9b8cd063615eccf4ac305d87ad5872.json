@@ -1,0 +1,14 @@
+{
+  "artifact_2609827505": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dougxc-d53ca66a6c9b8cd063615eccf4ac305d87ad5872)\nOpenJDK 64-Bit Server VM (build 25-internal-dougxc-d53ca66a6c9b8cd063615eccf4ac305d87ad5872, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-18T15:46:52.556279+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23679",
+  "number": 23679,
+  "title": "8350263: JvmciNotifyBootstrapFinishedEventTest intermittently times out",
+  "head_sha": "d53ca66a6c9b8cd063615eccf4ac305d87ad5872",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13394178836"
+}
