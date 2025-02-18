@@ -1,0 +1,18 @@
+{
+  "artifact_2609879554": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Hamlin-Li-b6882221b3155332397467241c15ce2c5dfbce2e)\nOpenJDK 64-Bit Server VM (build 25-internal-Hamlin-Li-b6882221b3155332397467241c15ce2c5dfbce2e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0dedc1bc3799ad061617afc0ea8e321204a5bbc1.json",
+    "5d460b1ca5987c52656c74be5f297f0834c589e1.json",
+    "f4c24e69707be20058629ac343ad8d1390ae2689.json"
+  ],
+  "datetime": "2025-02-18T16:00:59.590282+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23580",
+  "number": 23580,
+  "title": "8321003: RISC-V: C2 MulReductionVI",
+  "head_sha": "b6882221b3155332397467241c15ce2c5dfbce2e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13394178836"
+}
