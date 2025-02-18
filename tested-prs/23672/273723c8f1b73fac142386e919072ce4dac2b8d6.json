@@ -1,0 +1,14 @@
+{
+  "artifact_2607972302": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-pkumaraswamy-273723c8f1b73fac142386e919072ce4dac2b8d6)\nOpenJDK 64-Bit Server VM (build 25-internal-pkumaraswamy-273723c8f1b73fac142386e919072ce4dac2b8d6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-18T10:44:01.141608+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23672",
+  "number": 23672,
+  "title": "8349547: Document jlink and jmods Supported Usage",
+  "head_sha": "273723c8f1b73fac142386e919072ce4dac2b8d6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13388540737"
+}
