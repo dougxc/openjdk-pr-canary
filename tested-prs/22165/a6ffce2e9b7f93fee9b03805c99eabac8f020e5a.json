@@ -1,0 +1,31 @@
+{
+  "artifact_2608870015": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-a6ffce2e9b7f93fee9b03805c99eabac8f020e5a)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-a6ffce2e9b7f93fee9b03805c99eabac8f020e5a, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/10562",
+    "number": "10562",
+    "revision": "ec9b549bb259c2161f60966a979f552dfee7410e"
+  },
+  "status": "failed",
+  "history": [
+    "1b8b3ff19beb14efa1cc9ce191cd5277e732b506.json",
+    "25cb64537c42caa5570fe688637201b30caf0351.json",
+    "2831bc8486479d95f3b84a4a8983215522be3158.json",
+    "2c2c4df2d5df44cede25d090aad496941548d853.json",
+    "b115ec4695683c882caeef97bb59a877d7a1cec0.json",
+    "bcfab1ba19201dbabfcc35114e4bd390204521e0.json",
+    "d33e9eb86d17dcdb680eab098ee52b776e0450ba.json",
+    "dc021ce4836af6060b43791e036f450a2aeb155f.json",
+    "dc3dab7f790bb724c3f7b3f0c5f501b80b5ce525.json",
+    "f8ecbd601cdcf6f8c74fd39d60fb642f8c2cb9e9.json"
+  ],
+  "datetime": "2025-02-18T12:59:01.201983+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22165",
+  "number": 22165,
+  "title": "8344332: (bf) Migrate DirectByteBuffer to use java.lang.ref.Cleaner",
+  "head_sha": "a6ffce2e9b7f93fee9b03805c99eabac8f020e5a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13389441843"
+}
