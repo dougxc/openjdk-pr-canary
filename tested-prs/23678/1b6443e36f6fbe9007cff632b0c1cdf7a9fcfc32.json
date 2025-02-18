@@ -1,0 +1,14 @@
+{
+  "artifact_2609353795": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-hns-1b6443e36f6fbe9007cff632b0c1cdf7a9fcfc32)\nOpenJDK 64-Bit Server VM (build 25-internal-hns-1b6443e36f6fbe9007cff632b0c1cdf7a9fcfc32, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-18T14:41:50.870253+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23678",
+  "number": 23678,
+  "title": "8344301: Refine stylesheet for API docs",
+  "head_sha": "1b6443e36f6fbe9007cff632b0c1cdf7a9fcfc32",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13392926347"
+}
