@@ -1,0 +1,16 @@
+{
+  "artifact_2610276442": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TheRealMDoerr-84c7aacc6101f7b5e4c8e8766c382bb2445a5d09)\nOpenJDK 64-Bit Server VM (build 25-internal-TheRealMDoerr-84c7aacc6101f7b5e4c8e8766c382bb2445a5d09, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f5f6f77114a30f070721845fe8737269f571b216.json"
+  ],
+  "datetime": "2025-02-18T16:47:28.609403+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23602",
+  "number": 23602,
+  "title": "8349727: [PPC] C1: Improve Class.isInstance intrinsic",
+  "head_sha": "84c7aacc6101f7b5e4c8e8766c382bb2445a5d09",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13395523515"
+}
