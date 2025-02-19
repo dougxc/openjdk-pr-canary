@@ -1,0 +1,14 @@
+{
+  "artifact_2614015749": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaskarth-f9c11a625a042aa6e5ed9a90c138aacad86b6e5e)\nOpenJDK 64-Bit Server VM (build 25-internal-jaskarth-f9c11a625a042aa6e5ed9a90c138aacad86b6e5e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-19T05:40:46.424836+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23685",
+  "number": 23685,
+  "title": "8349563: Improve AbsNode::Value() for integer types",
+  "head_sha": "f9c11a625a042aa6e5ed9a90c138aacad86b6e5e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13406062861"
+}
