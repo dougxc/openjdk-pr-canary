@@ -1,0 +1,14 @@
+{
+  "artifact_2615168586": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-minborg-e134dbe391325c6e52cfc94afb0af102e20368bd)\nOpenJDK 64-Bit Server VM (build 25-internal-minborg-e134dbe391325c6e52cfc94afb0af102e20368bd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-19T10:43:48.321023+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23689",
+  "number": 23689,
+  "title": "8347814: Make all imports consistent in the FFM API tests and benchmarks",
+  "head_sha": "e134dbe391325c6e52cfc94afb0af102e20368bd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13410495759"
+}
