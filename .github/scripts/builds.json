@@ -98051,7 +98051,8 @@
 			"jdk-24.0.2-5"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"UNUSABLE"
 		]
 	},
 	{
