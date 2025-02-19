@@ -1,0 +1,14 @@
+{
+  "artifact_2617073650": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-nizarbenalla-ae7fbae632b91ff1fcd9026db37125e0d269ad4c)\nOpenJDK 64-Bit Server VM (build 25-internal-nizarbenalla-ae7fbae632b91ff1fcd9026db37125e0d269ad4c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-19T15:57:30.973786+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23697",
+  "number": 23697,
+  "title": "8350137: After JDK-8348975, Linux builds contain man pages for windows only tools",
+  "head_sha": "ae7fbae632b91ff1fcd9026db37125e0d269ad4c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13416247181"
+}
