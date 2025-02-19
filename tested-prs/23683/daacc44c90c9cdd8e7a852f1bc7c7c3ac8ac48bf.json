@@ -1,0 +1,14 @@
+{
+  "artifact_2612940969": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-daacc44c90c9cdd8e7a852f1bc7c7c3ac8ac48bf)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-daacc44c90c9cdd8e7a852f1bc7c7c3ac8ac48bf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-19T16:39:11.397147+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23683",
+  "number": 23683,
+  "title": "8329951: `var` emits deprecation warnings that do not point to the file or position",
+  "head_sha": "daacc44c90c9cdd8e7a852f1bc7c7c3ac8ac48bf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13416247181"
+}
