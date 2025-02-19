@@ -1,0 +1,14 @@
+{
+  "artifact_2617500383": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mpdonova-e0da93d41d7b8d3286b846df3b623b3e33404940)\nOpenJDK 64-Bit Server VM (build 25-internal-mpdonova-e0da93d41d7b8d3286b846df3b623b3e33404940, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-19T17:23:24.650256+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23700",
+  "number": 23700,
+  "title": "8325766: Review seclibs tests for cert expiry",
+  "head_sha": "e0da93d41d7b8d3286b846df3b623b3e33404940",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13417594855"
+}
