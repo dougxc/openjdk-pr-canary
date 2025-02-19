@@ -1,0 +1,14 @@
+{
+  "artifact_2614757653": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-minborg-439c6643041ff309a2a7c55199eb3ebadc55b7df)\nOpenJDK 64-Bit Server VM (build 25-internal-minborg-439c6643041ff309a2a7c55199eb3ebadc55b7df, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-19T09:40:01.755802+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23688",
+  "number": 23688,
+  "title": "8349653: Clarify the docs for MemorySegment::reinterpret",
+  "head_sha": "439c6643041ff309a2a7c55199eb3ebadc55b7df",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13409343033"
+}
