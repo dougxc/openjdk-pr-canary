@@ -1,0 +1,14 @@
+{
+  "artifact_2625332849": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-frkator-9b4552502567906e90a4314165142206f01e9e16)\nOpenJDK 64-Bit Server VM (build 25-internal-frkator-9b4552502567906e90a4314165142206f01e9e16, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-20T18:47:58.741387+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23714",
+  "number": 23714,
+  "title": "8350442: Update copyright",
+  "head_sha": "9b4552502567906e90a4314165142206f01e9e16",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13442263147"
+}
