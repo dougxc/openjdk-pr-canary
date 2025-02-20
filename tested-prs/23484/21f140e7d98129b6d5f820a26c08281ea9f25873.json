@@ -1,0 +1,20 @@
+{
+  "artifact_2621312368": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-21f140e7d98129b6d5f820a26c08281ea9f25873)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-21f140e7d98129b6d5f820a26c08281ea9f25873, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0e77a35c25a968c7d931931bc108ccba6dcce4a3.json",
+    "72a7d1b13f2220c3cf77ba3ec0a8f3ba33df7ee2.json",
+    "74f5e29d056019e117cc2f59d09fe29388875aae.json",
+    "9f78bb90dd298c18019128ae0dec4de54626cd10.json",
+    "daa33c5e228a7f79f03185f8b33fcd06b2d7c734.json"
+  ],
+  "datetime": "2025-02-20T06:48:02.264912+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23484",
+  "number": 23484,
+  "title": "8348426: Generate binary file for -XX:AOTMode=record -XX:AOTConfiguration=file",
+  "head_sha": "21f140e7d98129b6d5f820a26c08281ea9f25873",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13429376227"
+}
