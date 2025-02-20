@@ -1,0 +1,17 @@
+{
+  "artifact_2623755825": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-robcasloz-51718b90b26ea54f645bc6addd65b1e5a3237843)\nOpenJDK 64-Bit Server VM (build 25-internal-robcasloz-51718b90b26ea54f645bc6addd65b1e5a3237843, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "08ee449ed7d17de7ab40772025ffd52337dce01d.json",
+    "c5e48e460e7702d8e328aafbbc7db6004cd891ee.json"
+  ],
+  "datetime": "2025-02-20T14:14:01.486690+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23558",
+  "number": 23558,
+  "title": "8348645: IGV: visualize live ranges",
+  "head_sha": "51718b90b26ea54f645bc6addd65b1e5a3237843",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13436452426"
+}
