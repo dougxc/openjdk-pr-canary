@@ -127034,7 +127034,11 @@
 			]
 		},
 		"aliases": [
-			"jdk-25-1205"
+			"jdk-25-1205",
+			"jdk-25+11"
+		],
+		"tags": [
+			"PROMOTED"
 		]
 	},
 	{
@@ -127222,6 +127226,99 @@
 		},
 		"aliases": [
 			"jdk-25-1213"
+		]
+	},
+	{
+		"id": "jdk-25+11-1214",
+		"revisions": {
+			"graal": [
+				"6b12bce0f4154b3acff636d3fd88ebbecc4b3f3d"
+			],
+			"open": [
+				"960ad211867d65a993b2fc4e6dafa8cea9827b3f"
+			],
+			"graal-enterprise": [
+				"c7152ecfd1b665c156d4b01a57f7375784bffe8b"
+			],
+			"mx": [
+				"e3f1261426e718e0ba57a4666fa4431e40504279"
+			],
+			".": [
+				"d0a9e8fc91e674c9c052faf91ac69acf4c0b7f82"
+			]
+		},
+		"aliases": [
+			"jdk-25-1214"
+		]
+	},
+	{
+		"id": "jdk-25+11-1215",
+		"revisions": {
+			"graal": [
+				"6b12bce0f4154b3acff636d3fd88ebbecc4b3f3d"
+			],
+			"graal-enterprise": [
+				"c7152ecfd1b665c156d4b01a57f7375784bffe8b"
+			],
+			"mx": [
+				"e3f1261426e718e0ba57a4666fa4431e40504279"
+			],
+			"open": [
+				"53db57648a09c4c380064eea11fcdb680011d741",
+				"10bf48a6b0b796b48cdca15250e1ee7e7be83c82"
+			],
+			".": [
+				"d0a9e8fc91e674c9c052faf91ac69acf4c0b7f82"
+			]
+		},
+		"aliases": [
+			"jdk-25-1215"
+		]
+	},
+	{
+		"id": "jdk-25+12-1216",
+		"revisions": {
+			"graal": [
+				"6b12bce0f4154b3acff636d3fd88ebbecc4b3f3d"
+			],
+			"graal-enterprise": [
+				"c7152ecfd1b665c156d4b01a57f7375784bffe8b"
+			],
+			"mx": [
+				"e3f1261426e718e0ba57a4666fa4431e40504279"
+			],
+			".": [
+				"d0a9e8fc91e674c9c052faf91ac69acf4c0b7f82"
+			],
+			"open": [
+				"16873732a752d79c3bf1bc450c63839997986d9e"
+			]
+		},
+		"aliases": [
+			"jdk-25-1216"
+		]
+	},
+	{
+		"id": "jdk-25+12-1217",
+		"revisions": {
+			"graal": [
+				"6b12bce0f4154b3acff636d3fd88ebbecc4b3f3d"
+			],
+			"graal-enterprise": [
+				"c7152ecfd1b665c156d4b01a57f7375784bffe8b"
+			],
+			"mx": [
+				"e3f1261426e718e0ba57a4666fa4431e40504279"
+			],
+			".": [
+				"c1f0402675804c6243999629bdcf76611b4d9dc6"
+			],
+			"open": [
+				"1eb0db37608ae1dd05accc1e22c57d76fa2c72ce"
+			]
+		},
+		"aliases": [
+			"jdk-25-1217"
 		]
 	}
 ]
