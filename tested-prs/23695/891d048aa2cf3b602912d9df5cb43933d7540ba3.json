@@ -1,0 +1,16 @@
+{
+  "artifact_2622365923": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jdksjolen-891d048aa2cf3b602912d9df5cb43933d7540ba3)\nOpenJDK 64-Bit Server VM (build 25-internal-jdksjolen-891d048aa2cf3b602912d9df5cb43933d7540ba3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1ac6540b1b85d9c86fc9dc319dcf560f9f1676df.json"
+  ],
+  "datetime": "2025-02-20T10:56:44.426171+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23695",
+  "number": 23695,
+  "title": "8350214: Test gtest/AsyncLogGtest.java fails after JDK-8349755",
+  "head_sha": "891d048aa2cf3b602912d9df5cb43933d7540ba3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13433262785"
+}
