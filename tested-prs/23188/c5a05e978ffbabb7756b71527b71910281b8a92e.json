@@ -1,0 +1,18 @@
+{
+  "artifact_2625548906": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mcpowers-c5a05e978ffbabb7756b71527b71910281b8a92e)\nOpenJDK 64-Bit Server VM (build 25-internal-mcpowers-c5a05e978ffbabb7756b71527b71910281b8a92e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "00db47133b510782410c296e8bd687ab819a7194.json",
+    "7a4b85968d7be131d136b468d8b0f2966f3a370c.json",
+    "c550f692178ffdb157e83b79507a31575204ac56.json"
+  ],
+  "datetime": "2025-02-20T19:14:06.611874+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23188",
+  "number": 23188,
+  "title": "8267068: Incomplete @throws javadoc for various javax.crypto.spec classes",
+  "head_sha": "c5a05e978ffbabb7756b71527b71910281b8a92e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13442263147"
+}
