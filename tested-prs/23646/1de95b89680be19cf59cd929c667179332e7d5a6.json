@@ -1,0 +1,16 @@
+{
+  "artifact_2627398016": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jianglizhou-1de95b89680be19cf59cd929c667179332e7d5a6)\nOpenJDK 64-Bit Server VM (build 25-internal-jianglizhou-1de95b89680be19cf59cd929c667179332e7d5a6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "013b391b03f9bc254dfb5b2f0fc9e186c91fe42f.json"
+  ],
+  "datetime": "2025-02-21T02:29:49.753801+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23646",
+  "number": 23646,
+  "title": "8350041: Make libstringPlatformChars support static JDK",
+  "head_sha": "1de95b89680be19cf59cd929c667179332e7d5a6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13448398447"
+}
