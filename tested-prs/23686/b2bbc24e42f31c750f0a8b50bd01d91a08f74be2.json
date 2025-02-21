@@ -1,0 +1,16 @@
+{
+  "artifact_2628743936": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-xyyNicole-b2bbc24e42f31c750f0a8b50bd01d91a08f74be2)\nOpenJDK 64-Bit Server VM (build 25-internal-xyyNicole-b2bbc24e42f31c750f0a8b50bd01d91a08f74be2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ebc32ae2c6e448075fedbdbb2b4879c43829c44b.json"
+  ],
+  "datetime": "2025-02-21T07:49:13.853454+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23686",
+  "number": 23686,
+  "title": "8349944: [JMH] sun.misc.UnsafeOps cannot access class jdk.internal.misc.Unsafe",
+  "head_sha": "b2bbc24e42f31c750f0a8b50bd01d91a08f74be2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13452057725"
+}
