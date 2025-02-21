@@ -1,0 +1,14 @@
+{
+  "artifact_2633420890": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vpaprotsk-7da4a1fe9441ceb8728ed8eae319e0d76417fda6)\nOpenJDK 64-Bit Server VM (build 25-internal-vpaprotsk-7da4a1fe9441ceb8728ed8eae319e0d76417fda6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-21T23:37:35.881123+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23731",
+  "number": 23731,
+  "title": "8350516: Update model numbers for ECore-based cpus",
+  "head_sha": "7da4a1fe9441ceb8728ed8eae319e0d76417fda6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13466959885"
+}
