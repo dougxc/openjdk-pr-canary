@@ -1,0 +1,17 @@
+{
+  "artifact_2633146855": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-gredler-b9b707ae230ed5a46e1219618f9bf5ebc46efa6e)\nOpenJDK 64-Bit Server VM (build 25-internal-gredler-b9b707ae230ed5a46e1219618f9bf5ebc46efa6e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "161433070440b5f00fa4a4f6b20e9e013e2ce430.json",
+    "99eb1b3be3e328878c3b3fbb2324ae38c88131fa.json"
+  ],
+  "datetime": "2025-02-21T22:00:02.310957+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23603",
+  "number": 23603,
+  "title": "8270265: LineBreakMeasurer calculates incorrect line breaks with zero-width characters",
+  "head_sha": "b9b707ae230ed5a46e1219618f9bf5ebc46efa6e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13465462610"
+}
