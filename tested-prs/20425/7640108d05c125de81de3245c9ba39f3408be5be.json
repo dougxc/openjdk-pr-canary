@@ -1,0 +1,28 @@
+{
+  "artifact_2629907991": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-afshin-zafari-7640108d05c125de81de3245c9ba39f3408be5be)\nOpenJDK 64-Bit Server VM (build 25-internal-afshin-zafari-7640108d05c125de81de3245c9ba39f3408be5be, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "316d9a11abc7a5da8fa739040838cdbdb46827b0.json",
+    "35c11b966681ebb85a083ebdd1b55c6e9cc6a5d1.json",
+    "5352894a05c1d1224f9f9f060d5fcdbe8129dff7.json",
+    "611a2d4f97220959be11900cd83bcad0b074771a.json",
+    "7b0c427bc6696ee6aa3e78bef139101be9295df7.json",
+    "7bd065ee5a51d940cc05203545a39037252567da.json",
+    "873d53551f46524282fb054ea21ee143ef568d83.json",
+    "a0d133f9b23a86fcdb57db9436694abbf3c46e09.json",
+    "abaf0b37353b0f0c2a9c6467dbc8ddb38740a585.json",
+    "b5e6d26824508c3ea3acbdd1c54045cb48f2ea56.json",
+    "c8aa9c5c1f8df8a961d79b21f9563630f8a4f491.json",
+    "fd77057b07ae0fb43f926446c0d199cbe268c2f1.json"
+  ],
+  "datetime": "2025-02-21T12:56:03.314930+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20425",
+  "number": 20425,
+  "title": "8337217: Port VirtualMemoryTracker to use VMATree",
+  "head_sha": "7640108d05c125de81de3245c9ba39f3408be5be",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13457152799"
+}
