@@ -1,0 +1,16 @@
+{
+  "artifact_2627239332": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-matias9927-0d56c012275b8044fe62d61af063605fadd4bce7)\nOpenJDK 64-Bit Server VM (build 25-internal-matias9927-0d56c012275b8044fe62d61af063605fadd4bce7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "532c6ecc9b81ea02f30f644de588e075b7dc3be7.json"
+  ],
+  "datetime": "2025-02-21T02:17:39.790034+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23717",
+  "number": 23717,
+  "title": "8350444: Check for verifer error in StackMapReader::check_offset()",
+  "head_sha": "0d56c012275b8044fe62d61af063605fadd4bce7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13448398447"
+}
