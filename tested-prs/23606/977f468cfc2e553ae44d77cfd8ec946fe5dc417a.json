@@ -1,0 +1,18 @@
+{
+  "artifact_2627625078": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-honkar-jdk-977f468cfc2e553ae44d77cfd8ec946fe5dc417a)\nOpenJDK 64-Bit Server VM (build 25-internal-honkar-jdk-977f468cfc2e553ae44d77cfd8ec946fe5dc417a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0414f60c09c1e0276703d974175cef685cfe0032.json",
+    "52c76c73ea585c088d4391bc9e3b53aa9f7d9128.json",
+    "8da82c10b5be3b92655abef95fd5be0c8b6eaa00.json"
+  ],
+  "datetime": "2025-02-21T02:52:36.676221+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23606",
+  "number": 23606,
+  "title": "JDK-8346465 : Add a check in setData() to restrict the update of Built-In ICC_Profiles",
+  "head_sha": "977f468cfc2e553ae44d77cfd8ec946fe5dc417a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13448398447"
+}
