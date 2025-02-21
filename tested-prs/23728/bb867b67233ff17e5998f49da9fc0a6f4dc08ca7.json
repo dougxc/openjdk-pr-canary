@@ -1,0 +1,14 @@
+{
+  "artifact_2631529743": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-marc-chevalier-bb867b67233ff17e5998f49da9fc0a6f4dc08ca7)\nOpenJDK 64-Bit Server VM (build 25-internal-marc-chevalier-bb867b67233ff17e5998f49da9fc0a6f4dc08ca7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-21T17:37:37.287256+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23728",
+  "number": 23728,
+  "title": "8347459: C2: missing transformation for chain of shifts/multiplications by constants",
+  "head_sha": "bb867b67233ff17e5998f49da9fc0a6f4dc08ca7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13461973584"
+}
