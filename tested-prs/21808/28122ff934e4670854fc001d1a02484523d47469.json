@@ -1,0 +1,25 @@
+{
+  "artifact_2632786442": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-sercher-28122ff934e4670854fc001d1a02484523d47469)\nOpenJDK 64-Bit Server VM (build 24-internal-sercher-28122ff934e4670854fc001d1a02484523d47469, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2a7e9d825869576d29991845e63ce8cc6da3cf1a.json",
+    "30df5f098773a3bdd520ecee32f26577b08578ba.json",
+    "3bb779aff5ebf6a89492e4a684d23c0091fba392.json",
+    "60f1eea3de1ec83a911fbc222e6b118bbdf12abc.json",
+    "6a761ca2db0a2b36158b18dbc9dd3141bb0ee56f.json",
+    "70617c9c3e653655e2ef1559f3eccb1f0b24d29d.json",
+    "8e8ab8690192e9de02d82ed11407adcebb20a3a5.json",
+    "a3002a9281f8694902e60cfd642e4f6d53c4a9c2.json",
+    "c808ad4916230a50160c52ab8c46ea05f21b86dc.json",
+    "f27175a858db530682518a10454d34407bc5ea5c.json"
+  ],
+  "datetime": "2025-02-21T21:15:35.154757+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21808",
+  "number": 21808,
+  "title": "8343191: Cgroup v1 subsystem fails to set subsystem path",
+  "head_sha": "28122ff934e4670854fc001d1a02484523d47469",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13464686987"
+}
