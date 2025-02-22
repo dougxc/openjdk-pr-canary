@@ -1,0 +1,14 @@
+{
+  "artifact_2634106462": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-bradfordwetmore-faa4c4a6d535237273443b82601cccd8517da510)\nOpenJDK 64-Bit Server VM (build 25-internal-bradfordwetmore-faa4c4a6d535237273443b82601cccd8517da510, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-22T03:41:48.007429+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23733",
+  "number": 23733,
+  "title": "8350476: Fix typo introduced in JDK-8350147",
+  "head_sha": "faa4c4a6d535237273443b82601cccd8517da510",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13469190135"
+}
