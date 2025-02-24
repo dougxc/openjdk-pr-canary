@@ -1,0 +1,16 @@
+{
+  "artifact_2643591981": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-coleenp-82a9e24731781b19480eae0c2ff2fe6ea5b8da7d)\nOpenJDK 64-Bit Server VM (build 25-internal-coleenp-82a9e24731781b19480eae0c2ff2fe6ea5b8da7d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c5d089f3f90b7904b6bed261b3479cf0ba4b1a8e.json"
+  ],
+  "datetime": "2025-02-24T19:59:28.237009+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23750",
+  "number": 23750,
+  "title": "8328473: StringTable and SymbolTable statistics delay time to safepoint",
+  "head_sha": "82a9e24731781b19480eae0c2ff2fe6ea5b8da7d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13506094489"
+}
