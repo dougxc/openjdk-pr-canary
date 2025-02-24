@@ -1,0 +1,14 @@
+{
+  "artifact_2639133431": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaikiran-7b85d1b3526070a6cdb7e17c5ebe87620af1dd86)\nOpenJDK 64-Bit Server VM (build 25-internal-jaikiran-7b85d1b3526070a6cdb7e17c5ebe87620af1dd86, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-24T06:49:29.925586+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23742",
+  "number": 23742,
+  "title": "8204868: java/util/zip/ZipFile/TestCleaner.java still fails with \"cleaner failed to clean zipfile.\"",
+  "head_sha": "7b85d1b3526070a6cdb7e17c5ebe87620af1dd86",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13492213026"
+}
