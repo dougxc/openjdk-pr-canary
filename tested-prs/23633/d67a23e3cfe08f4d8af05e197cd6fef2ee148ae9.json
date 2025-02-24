@@ -1,0 +1,19 @@
+{
+  "artifact_2642204419": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Hamlin-Li-d67a23e3cfe08f4d8af05e197cd6fef2ee148ae9)\nOpenJDK 64-Bit Server VM (build 25-internal-Hamlin-Li-d67a23e3cfe08f4d8af05e197cd6fef2ee148ae9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4f5ae27234e6806122afb68cfa65b9729b42d204.json",
+    "543c8635a7fa5f36bdb0135fd66e7c4a61c2fade.json",
+    "eaa34661a47d461b1e7edad2bb56d5700adf2731.json",
+    "fe0efa0ecd8a0ca70afb6d8093a704499f39a68b.json"
+  ],
+  "datetime": "2025-02-24T16:59:01.075858+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23633",
+  "number": 23633,
+  "title": "8350095: RISC-V: Refactor string_compare",
+  "head_sha": "d67a23e3cfe08f4d8af05e197cd6fef2ee148ae9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13503010489"
+}
