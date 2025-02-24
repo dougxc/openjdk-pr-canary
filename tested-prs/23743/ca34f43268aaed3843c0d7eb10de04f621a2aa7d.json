@@ -1,0 +1,14 @@
+{
+  "artifact_2639655324": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-asotona-ca34f43268aaed3843c0d7eb10de04f621a2aa7d)\nOpenJDK 64-Bit Server VM (build 25-internal-asotona-ca34f43268aaed3843c0d7eb10de04f621a2aa7d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-24T09:52:11.381674+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23743",
+  "number": 23743,
+  "title": "8350548: java.lang.classfile package javadoc has errors",
+  "head_sha": "ca34f43268aaed3843c0d7eb10de04f621a2aa7d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13494802804"
+}
