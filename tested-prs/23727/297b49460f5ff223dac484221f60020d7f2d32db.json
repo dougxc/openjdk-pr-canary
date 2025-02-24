@@ -1,0 +1,17 @@
+{
+  "artifact_2642888916": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-myankelev-297b49460f5ff223dac484221f60020d7f2d32db)\nOpenJDK 64-Bit Server VM (build 25-internal-myankelev-297b49460f5ff223dac484221f60020d7f2d32db, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a2eed2665a880fcf7f3496ba8c29b4c910d35249.json",
+    "f333ddff744c36a3ec061c15a74b826b513e8142.json"
+  ],
+  "datetime": "2025-02-24T17:58:01.781778+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23727",
+  "number": 23727,
+  "title": "8349533: Refactor validator tests shell files to java",
+  "head_sha": "297b49460f5ff223dac484221f60020d7f2d32db",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13504029388"
+}
