@@ -747,7 +747,7 @@ def cleanup_closed_prs():
             # Can fail if other commits were pushed in between
             info("pushing test record deletion failed", COLOR_WARN)
 
-def get_pr_to_test(untested_prs, visited):
+def get_pr_to_test(untested_prs, failed_pull_requests, visited):
     """
     Finds an upstream PR with an existing artifact that should be tested.
 
@@ -836,7 +836,7 @@ def get_pr_to_test(untested_prs, visited):
                             if not (os.path.isdir("extracted") and os.listdir("extracted")):
                                 # Check if pr is pre JDK-8350443, i.e., with static libs bundled with the same zip
                                 if not any((zi.filename.startswith("static-libs") for zi in zf.infolist())):
-                                    untested_prs.setdefault("they are missing the static-libs bundle (added by JDK-8337265)", []).append(pr)
+                                    failed_pull_requests.append(pr)
                                     continue
 
                             for zi in zf.infolist():
@@ -870,7 +870,7 @@ def main():
 
     visited = set()
     while True:
-        pr, artifact = get_pr_to_test(untested_prs, visited)
+        pr, artifact = get_pr_to_test(untested_prs, failed_pull_requests, visited)
         if not pr:
             break
 
