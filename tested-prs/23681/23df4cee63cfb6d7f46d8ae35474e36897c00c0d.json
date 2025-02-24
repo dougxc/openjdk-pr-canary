@@ -1,0 +1,19 @@
+{
+  "artifact_2643442284": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-artur-oracle-23df4cee63cfb6d7f46d8ae35474e36897c00c0d)\nOpenJDK 64-Bit Server VM (build 25-internal-artur-oracle-23df4cee63cfb6d7f46d8ae35474e36897c00c0d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6cc2ff5ea5843991dfb2da4141e3d1f800352b3f.json",
+    "d0ef5526e175af8dbc14e5a8314abbf2661d4949.json",
+    "db7c1e75749e8722f86d17e51ed4e22418229f2e.json",
+    "f7fcbcbd32fdee21bcf2fa2bc2d2acc48cfa091e.json"
+  ],
+  "datetime": "2025-02-24T19:03:45.129239+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23681",
+  "number": 23681,
+  "title": "8349583: Add mechanism to disable signature schemes based on their TLS scope",
+  "head_sha": "23df4cee63cfb6d7f46d8ae35474e36897c00c0d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13505264384"
+}
