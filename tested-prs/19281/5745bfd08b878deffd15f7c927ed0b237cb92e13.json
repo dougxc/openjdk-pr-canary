@@ -1,0 +1,18 @@
+{
+  "artifact_2652298851": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-5745bfd08b878deffd15f7c927ed0b237cb92e13)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-5745bfd08b878deffd15f7c927ed0b237cb92e13, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "86b89e5bf78257ae109c5c4abf2a83878001330a.json",
+    "dea7a2354d8ca4573a0951d241602654f8c06681.json"
+  ],
+  "datetime": "2025-02-25T23:38:05.217233+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/19281",
+  "number": 19281,
+  "title": "8333377: Migrate Generic Signature parsing to ClassFile API",
+  "head_sha": "5745bfd08b878deffd15f7c927ed0b237cb92e13",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13532984518"
+}
