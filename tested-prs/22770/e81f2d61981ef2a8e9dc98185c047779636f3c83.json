@@ -1,0 +1,28 @@
+{
+  "artifact_2648097255": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jdksjolen-e81f2d61981ef2a8e9dc98185c047779636f3c83)\nOpenJDK 64-Bit Server VM (build 25-internal-jdksjolen-e81f2d61981ef2a8e9dc98185c047779636f3c83, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "20c31174f5a9249918807735fe9a8ff0b31d9c7a.json",
+    "4f86b70fda20a96642256e7451312b07339613e0.json",
+    "6c6e78fc76d61f97ae79d07f4ee20f0f754f3a70.json",
+    "7a39361de56a179a7591136c4bd4089a2c532306.json",
+    "7fd5da5e96a39e3afe247ab5d48f61853ad7f713.json",
+    "953117a2083d1358c391953b72848c27aeecc2cf.json",
+    "c84b2f6fd226c35e55da89d561819a8ad00b7348.json",
+    "ccb45261c28f6d11411e9c6e503426d3bc342817.json",
+    "ce39257c906abb89054b15620bbcde7bae5e9d91.json",
+    "d31054475bb28d85aece976531e5a706f85b246a.json",
+    "d6688e0f894258763daa8cd91bb9a8081caea1c6.json",
+    "f310c52cd85fdec4aab0e1edb35a9e4105aa76c7.json",
+    "f848476b7ba22d32130fccd08f5940192e5c7455.json"
+  ],
+  "datetime": "2025-02-25T13:48:49.347799+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22770",
+  "number": 22770,
+  "title": "8323807: Async UL: Add a stalling mode to async UL",
+  "head_sha": "e81f2d61981ef2a8e9dc98185c047779636f3c83",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13521647009"
+}
