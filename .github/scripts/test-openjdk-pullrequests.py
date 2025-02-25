@@ -453,7 +453,8 @@ def test_pull_request(pr, artifact, failed_pull_requests):
                 "LibGraal Compiler:FatalErrorHandling",
                 "LibGraal Compiler:SystemicFailureDetection",
                 "LibGraal Compiler:CTW",
-                "LibGraal Compiler:DaCapo"
+                # DaCapo 23.11-MR2-chopin is too large to host on GitHub action
+                # "LibGraal Compiler:DaCapo"
             ]
             run_step("test", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)])
 
