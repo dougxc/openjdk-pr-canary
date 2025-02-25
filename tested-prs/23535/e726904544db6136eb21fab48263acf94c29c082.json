@@ -1,0 +1,22 @@
+{
+  "artifact_2649812914": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-offamitkumar-e726904544db6136eb21fab48263acf94c29c082)\nOpenJDK 64-Bit Server VM (build 25-internal-offamitkumar-e726904544db6136eb21fab48263acf94c29c082, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "180e9f3388809341089d3f206eeebf3403dd3d40.json",
+    "33d5cbe39175047501a94e733ab3728821e3d58f.json",
+    "a764590fe802a5b4d700550ce210a78552c4f6de.json",
+    "cdca4853de8c7d30020f58248498c4f595ea818c.json",
+    "db593594646217f37963ff92e0f7cb5d108059c2.json",
+    "fdd979a8723b0c03f97c14009a83059413c3e90f.json",
+    "ffdb134242ba3b5c3ed43d9b6f606e1d1f6ac1a3.json"
+  ],
+  "datetime": "2025-02-25T17:54:57.445100+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23535",
+  "number": 23535,
+  "title": "8349686: [s390x] C1: Improve Class.isInstance intrinsic",
+  "head_sha": "e726904544db6136eb21fab48263acf94c29c082",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13526206893"
+}
