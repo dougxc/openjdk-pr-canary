@@ -1,0 +1,14 @@
+{
+  "artifact_2646014948": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-16a6082adf92290e36e50d3a1dae98ec18b2789b)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-16a6082adf92290e36e50d3a1dae98ec18b2789b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-25T04:44:27.781878+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23764",
+  "number": 23764,
+  "title": "8350584: Check the usage of LOG_PLEASE",
+  "head_sha": "16a6082adf92290e36e50d3a1dae98ec18b2789b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13513689904"
+}
