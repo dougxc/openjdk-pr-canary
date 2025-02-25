@@ -1,0 +1,14 @@
+{
+  "artifact_2647608106": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-afshin-zafari-0a1495bceee57527f667e08e0ed73f1032eb9341)\nOpenJDK 64-Bit Server VM (build 25-internal-afshin-zafari-0a1495bceee57527f667e08e0ed73f1032eb9341, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-25T10:46:05.593868+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23770",
+  "number": 23770,
+  "title": "8350566: NMT: add size parameter to MemTracker::record_virtual_memory_tag",
+  "head_sha": "0a1495bceee57527f667e08e0ed73f1032eb9341",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13519149744"
+}
