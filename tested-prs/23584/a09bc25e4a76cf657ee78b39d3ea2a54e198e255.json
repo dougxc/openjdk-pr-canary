@@ -1,0 +1,16 @@
+{
+  "artifact_2650317211": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tschatzl-a09bc25e4a76cf657ee78b39d3ea2a54e198e255)\nOpenJDK 64-Bit Server VM (build 25-internal-tschatzl-a09bc25e4a76cf657ee78b39d3ea2a54e198e255, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5c4ded01c1611a0c9f612bc2f9a565c547a6585a.json"
+  ],
+  "datetime": "2025-02-25T17:45:24.399156+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23584",
+  "number": 23584,
+  "title": "8349906: G1: Improve initial survivor rate for newly used young regions",
+  "head_sha": "a09bc25e4a76cf657ee78b39d3ea2a54e198e255",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13526206893"
+}
