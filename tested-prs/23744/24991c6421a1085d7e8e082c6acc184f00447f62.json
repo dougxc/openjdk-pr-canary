@@ -1,0 +1,16 @@
+{
+  "artifact_2646752989": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-amaembo-24991c6421a1085d7e8e082c6acc184f00447f62)\nOpenJDK 64-Bit Server VM (build 25-internal-amaembo-24991c6421a1085d7e8e082c6acc184f00447f62, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1cf4704a0a43deddd9d8cac57e0180dadfa5fd8f.json"
+  ],
+  "datetime": "2025-02-25T08:45:23.818352+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23744",
+  "number": 23744,
+  "title": "8350518: org.openjdk.bench.java.util.TreeMapUpdate.compute fails with  \"java.lang.IllegalArgumentException: key out of range\"",
+  "head_sha": "24991c6421a1085d7e8e082c6acc184f00447f62",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13516893563"
+}
