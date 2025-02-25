@@ -1,0 +1,14 @@
+{
+  "artifact_2647886924": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tschatzl-51347fc12d63e252f2fd97530827b0a9f251a361)\nOpenJDK 64-Bit Server VM (build 25-internal-tschatzl-51347fc12d63e252f2fd97530827b0a9f251a361, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-25T13:12:28.911283+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23773",
+  "number": 23773,
+  "title": "8350643: G1: Make loop iteration variable type correspond to limit in G1SurvRateGroup",
+  "head_sha": "51347fc12d63e252f2fd97530827b0a9f251a361",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13521647009"
+}
