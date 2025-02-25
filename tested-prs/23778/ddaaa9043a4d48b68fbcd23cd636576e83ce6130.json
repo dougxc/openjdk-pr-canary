@@ -1,0 +1,14 @@
+{
+  "artifact_2649828820": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-ddaaa9043a4d48b68fbcd23cd636576e83ce6130)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-ddaaa9043a4d48b68fbcd23cd636576e83ce6130, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-25T16:55:22.812713+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23778",
+  "number": 23778,
+  "title": "8350665: SIZE_FORMAT_HEX macro undefined in gtest",
+  "head_sha": "ddaaa9043a4d48b68fbcd23cd636576e83ce6130",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13526206893"
+}
