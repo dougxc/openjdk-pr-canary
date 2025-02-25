@@ -1,0 +1,14 @@
+{
+  "artifact_2649802639": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-9db660f6ec546b786f133bd9eca4abcb57194ccf)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-9db660f6ec546b786f133bd9eca4abcb57194ccf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-25T16:30:25.229242+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22691",
+  "number": 22691,
+  "title": "8345627: [REDO] Use gcc12 -ftrivial-auto-var-init=pattern in debug builds",
+  "head_sha": "9db660f6ec546b786f133bd9eca4abcb57194ccf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13524873555"
+}
