@@ -1,0 +1,20 @@
+{
+  "artifact_2648959241": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-nizarbenalla-9b2107d90203febd9615e7622816432751c3f9e2)\nOpenJDK 64-Bit Server VM (build 25-internal-nizarbenalla-9b2107d90203febd9615e7622816432751c3f9e2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0353d126283063e673e2690dc35e41c0c203635f.json",
+    "5325932671d4eebc90a6b0a166b0bc4e7705051e.json",
+    "56d1623f8b7f83d5a3bb5ef2ef52af01eab3074a.json",
+    "5ee95f7e01cac771b0c5d1deb41e17d5e8fed4ed.json",
+    "debbac71aac098967743d03cc7de4e481039fd8a.json"
+  ],
+  "datetime": "2025-02-25T14:45:38.846633+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23328",
+  "number": 23328,
+  "title": "8346659: SnippetTaglet should report an error if provided ambiguous links",
+  "head_sha": "9b2107d90203febd9615e7622816432751c3f9e2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13522453146"
+}
