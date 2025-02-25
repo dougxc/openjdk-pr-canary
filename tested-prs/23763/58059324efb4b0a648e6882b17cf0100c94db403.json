@@ -1,0 +1,15 @@
+{
+  "artifact_2651639954": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-58059324efb4b0a648e6882b17cf0100c94db403)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-58059324efb4b0a648e6882b17cf0100c94db403, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-02-25T22:18:52.461338+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23763",
+  "number": 23763,
+  "title": "8350617: Improve MethodHandles.tableSwitch and remove intrinsicData",
+  "head_sha": "58059324efb4b0a648e6882b17cf0100c94db403",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13531262056"
+}
