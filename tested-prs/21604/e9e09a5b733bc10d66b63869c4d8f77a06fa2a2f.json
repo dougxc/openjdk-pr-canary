@@ -1,0 +1,14 @@
+{
+  "artifact_2651631908": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jatin-bhateja-e9e09a5b733bc10d66b63869c4d8f77a06fa2a2f)\nOpenJDK 64-Bit Server VM (build 25-internal-jatin-bhateja-e9e09a5b733bc10d66b63869c4d8f77a06fa2a2f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-25T22:13:03.353908+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21604",
+  "number": 21604,
+  "title": "8342676: Unsigned Vector Min / Max transforms",
+  "head_sha": "e9e09a5b733bc10d66b63869c4d8f77a06fa2a2f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13530934720"
+}
