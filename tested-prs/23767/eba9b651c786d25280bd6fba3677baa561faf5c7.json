@@ -1,0 +1,15 @@
+{
+  "artifact_2647224107": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-eba9b651c786d25280bd6fba3677baa561faf5c7)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-eba9b651c786d25280bd6fba3677baa561faf5c7, mixed mode, sharing)",
+    "failed_step": "test"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-02-25T09:43:36.038833+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23767",
+  "number": 23767,
+  "title": "8350546: Several java/net/InetAddress tests fails UnknownHostException",
+  "head_sha": "eba9b651c786d25280bd6fba3677baa561faf5c7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13517918906"
+}
