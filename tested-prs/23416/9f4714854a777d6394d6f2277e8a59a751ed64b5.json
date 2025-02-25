@@ -1,0 +1,22 @@
+{
+  "artifact_2648689030": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-caspernorrbin-9f4714854a777d6394d6f2277e8a59a751ed64b5)\nOpenJDK 64-Bit Server VM (build 25-internal-caspernorrbin-9f4714854a777d6394d6f2277e8a59a751ed64b5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "174d169ffb0dd717d3811e446a52434c1232ad6a.json",
+    "48241078ef3cd82837584071aca67cc50d96aa8e.json",
+    "52f6c63a9583271ea632d83d3b6a54a20776ff6e.json",
+    "65892c4ec5fa4d25c60d03e026f5b678600826e6.json",
+    "6d92ab6cd7d63d3634de9792064ff735d63ac092.json",
+    "a620c9bfb9cd54000992f9105e8d3e52eb7fc2dc.json",
+    "ddf9de0e044eb214b3f6e2b2b78db8a9041d27ef.json"
+  ],
+  "datetime": "2025-02-25T14:35:20.690296+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23416",
+  "number": 23416,
+  "title": "8349211: Add support for intrusive trees to the utilities red-black tree",
+  "head_sha": "9f4714854a777d6394d6f2277e8a59a751ed64b5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13522453146"
+}
