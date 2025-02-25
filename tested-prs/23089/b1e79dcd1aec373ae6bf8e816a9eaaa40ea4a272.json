@@ -1,0 +1,35 @@
+{
+  "artifact_2650436213": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-j3graham-b1e79dcd1aec373ae6bf8e816a9eaaa40ea4a272)\nOpenJDK 64-Bit Server VM (build 25-internal-j3graham-b1e79dcd1aec373ae6bf8e816a9eaaa40ea4a272, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "03fcdb1e60fdfd46a28f81225feba63d00b59f12.json",
+    "16049cdc77a69466b55f0c744f388b8fa1643b3b.json",
+    "3e460f9fcacc058592b6f6ea94e4c1c6e1fab70b.json",
+    "40b1f9c4eb3e5f9d2a7ea28bf2daeccb6ce8dc6d.json",
+    "42b20b520aeb83a5925a6665bbd09fb2cfc7af09.json",
+    "4a2912021103cefbe30fb3cc9e7d303b63ea454d.json",
+    "4d4eeb15f89529cb0dcb2e866713dab1a6e7e483.json",
+    "51da0c6d3e84209b3d98047ab4e044a20d462db6.json",
+    "5ee3a0cca2b30ab11322a5bc6faa4cfbccef9a4b.json",
+    "710012b424df4839ee113010b28c883656456ec8.json",
+    "7ef5c5c7108d06fe3fce50aa9ea0ddf5e15dab4f.json",
+    "8ec4313c55d9b0f34cb048de8fb2d4fa9635124a.json",
+    "9effc3d8c5d66265a0e01a9787bec0745f02c9fa.json",
+    "ab804b88f091e7fc3c543317926c235a13750fee.json",
+    "bf8ba1b1c96324dae4eaf1f5201cb72965429351.json",
+    "cafdbfd705d69ea62039bb0de9830d3c979d2b89.json",
+    "cf77949776f7a4601268c7291a5743c2eb164186.json",
+    "db16d38c5ffb60f9c3e47664d65fda64ea01882d.json",
+    "e8fc6dab088c3a265d4c89dd0b3cf31ab1846058.json",
+    "fdede5111c92fec262a78ff1d8f82abef05b841b.json"
+  ],
+  "datetime": "2025-02-25T18:24:13.963716+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23089",
+  "number": 23089,
+  "title": "8347645: C2: XOR bounded value handling blocks constant folding",
+  "head_sha": "b1e79dcd1aec373ae6bf8e816a9eaaa40ea4a272",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13526206893"
+}
