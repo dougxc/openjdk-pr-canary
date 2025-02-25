@@ -837,6 +837,7 @@ def get_pr_to_test(untested_prs, failed_pull_requests, visited):
                             if not (os.path.isdir("extracted") and os.listdir("extracted")):
                                 # Check if pr is pre JDK-8350443, i.e., with static libs bundled with the same zip
                                 if not any((zi.filename.startswith("static-libs") for zi in zf.infolist())):
+                                    pr["__test_record"] = {"status": "failed"}
                                     failed_pull_requests.append(pr)
                                     continue
 
