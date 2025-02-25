@@ -1,0 +1,14 @@
+{
+  "artifact_2648154571": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-azvegint-73b4968c87fb035934ead8d34a943674a9b0ff01)\nOpenJDK 64-Bit Server VM (build 25-internal-azvegint-73b4968c87fb035934ead8d34a943674a9b0ff01, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-25T13:02:13.099645+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23774",
+  "number": 23774,
+  "title": "8280991: [XWayland] No displayChanged event after setDisplayMode call",
+  "head_sha": "73b4968c87fb035934ead8d34a943674a9b0ff01",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13521647009"
+}
