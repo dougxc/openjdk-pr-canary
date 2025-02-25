@@ -14,8 +14,9 @@ Details
 The [test-openjdk-pullrequests](.github/scripts/test-openjdk-pullrequests.py) script uses the
 [GitHub REST API](https://docs.github.com/en/rest) to periodically poll the open, non-draft
 pull requests at https://github.com/openjdk/jdk/pulls. For each pull request:
-* If there is a `bundles-linux-x64` artifact available, continue.
-* Download the `bundles-linux-x64` artifact and extract the `jdk` and `static-libs` bundles.
+* If there are a `bundles-linux-x64-static` artifact and a `bundles-linux-x64` artifact available, continue.
+* Download the `bundles-linux-x64-static` artifact and extract.
+* Download the `bundles-linux-x64` artifact and extract the `jdk` bundle.
 * Set `JAVA_HOME` to the base directory of the extracted bundles.
 * Clone [graal](https://github.com/oracle/graal) and [mx](https://github.com/graalvm/mx).
 * Checkout the `galahad` branch in `graal` and `mx`.
