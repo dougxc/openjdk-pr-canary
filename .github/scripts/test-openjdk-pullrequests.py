@@ -816,6 +816,9 @@ def get_pr_to_test(untested_prs, failed_pull_requests, visited):
                     try:
                         with zipfile.ZipFile(archive, 'r') as zf:
                             zf.extractall(path="extracted")
+                            print(f"extracting {archive}")
+                            print(os.listdir("extracted/jdk-25"))
+                            print(os.listdir("extracted/jdk-25/lib"))
                     finally:
                         archive.unlink()
 
@@ -847,6 +850,9 @@ def get_pr_to_test(untested_prs, failed_pull_requests, visited):
                                     zf.extract(filename)
                                     with tarfile.open(filename, "r:gz") as tf:
                                         tf.extractall(path="extracted", filter="fully_trusted")
+                                        print(f"extracting {filename}")
+                                        print(os.listdir("extracted/jdk-25"))
+                                        print(os.listdir("extracted/jdk-25/lib"))
                                     Path(filename).unlink()
                     finally:
                         archive.unlink()
