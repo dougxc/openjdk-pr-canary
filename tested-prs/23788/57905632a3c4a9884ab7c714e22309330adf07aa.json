@@ -1,0 +1,14 @@
+{
+  "artifact_2652655986": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-57905632a3c4a9884ab7c714e22309330adf07aa)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-57905632a3c4a9884ab7c714e22309330adf07aa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-26T02:26:03.166408+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23788",
+  "number": 23788,
+  "title": "8350704: Create tests to ensure the failure behavior of core reflection APIs",
+  "head_sha": "57905632a3c4a9884ab7c714e22309330adf07aa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13534851027"
+}
