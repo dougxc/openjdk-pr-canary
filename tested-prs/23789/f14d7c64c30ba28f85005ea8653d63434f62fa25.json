@@ -1,0 +1,14 @@
+{
+  "artifact_2652428450": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-justin-curtis-lu-f14d7c64c30ba28f85005ea8653d63434f62fa25)\nOpenJDK 64-Bit Server VM (build 25-internal-justin-curtis-lu-f14d7c64c30ba28f85005ea8653d63434f62fa25, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-26T02:16:07.277344+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23789",
+  "number": 23789,
+  "title": "8350646: Calendar.Builder.build() Throws ArrayIndexOutOfBoundsException",
+  "head_sha": "f14d7c64c30ba28f85005ea8653d63434f62fa25",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13534851027"
+}
