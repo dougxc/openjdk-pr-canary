@@ -1,0 +1,14 @@
+{
+  "artifact_2653187063": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-pengxiaolong-54ae1c0e20d6eabc47206fe79ae2f45ea4aaef13)\nOpenJDK 64-Bit Server VM (build 25-internal-pengxiaolong-54ae1c0e20d6eabc47206fe79ae2f45ea4aaef13, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-26T03:08:58.357627+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23759",
+  "number": 23759,
+  "title": "8350314: Shenandoah: Capture thread state sync times in GC timings",
+  "head_sha": "54ae1c0e20d6eabc47206fe79ae2f45ea4aaef13",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13535566490"
+}
