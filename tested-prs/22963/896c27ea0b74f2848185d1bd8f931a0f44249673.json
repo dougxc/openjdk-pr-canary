@@ -1,0 +1,16 @@
+{
+  "artifact_2654110462": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-xyyNicole-896c27ea0b74f2848185d1bd8f931a0f44249673)\nOpenJDK 64-Bit Server VM (build 25-internal-xyyNicole-896c27ea0b74f2848185d1bd8f931a0f44249673, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "083bedec04d5ab78a420e156e74c1257ce30aee8.json"
+  ],
+  "datetime": "2025-02-26T07:48:22.682223+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22963",
+  "number": 22963,
+  "title": "8346954: [JMH] jdk.incubator.vector.MaskedLogicOpts fails due to IndexOutOfBoundsException",
+  "head_sha": "896c27ea0b74f2848185d1bd8f931a0f44249673",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13538641668"
+}
