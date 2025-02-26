@@ -815,7 +815,7 @@ def get_pr_to_test(untested_prs, failed_pull_requests, visited):
                     # Extract static-libs bundles
                     try:
                         with zipfile.ZipFile(archive, 'r') as zf:
-                            zf.extractall(path="extracted", filter="fully_trusted")
+                            zf.extractall(path="extracted")
                     finally:
                         archive.unlink()
 
