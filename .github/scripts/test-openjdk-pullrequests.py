@@ -803,7 +803,7 @@ def get_pr_to_test(untested_prs, failed_pull_requests, visited):
         for run in runs["workflow_runs"]:
             run_id = run["id"]
             # With JDK-8350443, static libs bundle is uploaded in bundles-linux-x64-static
-            artifacts_obj_static = gh_api(["--paginate", f"/repos/{repo}/actions/runs/{run_id}/artifacts?name={_artifact_to_test}-static"])
+            artifacts_obj_static = gh_api(["--paginate", f"/repos/{repo}/actions/runs/{run_id}/artifacts?name={_artifact_to_test}-static-libs"])
             for artifact in artifacts_obj_static["artifacts"]:
                 if not artifact["expired"]:
                     # Download artifact
