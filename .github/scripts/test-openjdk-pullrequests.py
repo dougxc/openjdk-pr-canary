@@ -149,21 +149,29 @@ def check_bundle_naming_assumptions():
     """
     Checks bundle naming assumptions.
     """
-    expect = """
+    expect1 = """
     - name: 'Upload bundles artifact'
       uses: actions/upload-artifact@v4
       with:
         name: bundles-${{ inputs.platform }}${{ inputs.debug-suffix }}
         path: bundles
 """
+    expect2 = """
+    - name: 'Upload bundles artifact'
+      uses: actions/upload-artifact@v4
+      with:
+        name: bundles-${{ inputs.platform }}${{ inputs.debug-suffix }}${{ inputs.bundle-suffix }}
+        path: bundles
+"""
     action_yml_path = ".github/actions/upload-bundles/action.yml"
     action_yml = gh_api(["-H", "Accept: application/vnd.github.raw", f"/repos/openjdk/jdk/contents/{action_yml_path}"], raw=True)
-    assert expect in action_yml, f"""
+    if expect1 not in action_yml:
+        assert expect2 in action_yml, f"""
 Did not find text below in https://github.com/openjdk/jdk/blob/master/{action_yml_path} which means this script
 (i.e. {Path(__file__).relative_to(_repo_root)}) needs to adapt to any bundle naming scheme change and update
-the `expect` variable accordingly:
+the `expect1` or `expect2` variable accordingly:
 
-        {expect}
+        {expect2}
 """
 
 
