@@ -1,0 +1,18 @@
+{
+  "artifact_2654508572": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-hns-49b68d4233dd58ddffd7009b656b4324a5e5d038)\nOpenJDK 64-Bit Server VM (build 25-internal-hns-49b68d4233dd58ddffd7009b656b4324a5e5d038, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "28a07fe13d2bc6d3040c4974865835022da1a6e3.json",
+    "4ee7a658b533feaedf0183748176f6c00a6c3c52.json",
+    "b79dd892f06e619c3ac1b44f5dcee663dce2ddfa.json"
+  ],
+  "datetime": "2025-02-26T09:43:18.142515+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23777",
+  "number": 23777,
+  "title": "8350638: Make keyboard navigation more usable in API docs",
+  "head_sha": "49b68d4233dd58ddffd7009b656b4324a5e5d038",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13540670521"
+}
