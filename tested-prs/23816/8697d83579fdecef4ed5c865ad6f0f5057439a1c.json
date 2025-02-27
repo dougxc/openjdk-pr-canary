@@ -1,0 +1,14 @@
+{
+  "artifact_2660654458": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sashamatveev-8697d83579fdecef4ed5c865ad6f0f5057439a1c)\nOpenJDK 64-Bit Server VM (build 25-internal-sashamatveev-8697d83579fdecef4ed5c865ad6f0f5057439a1c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-27T03:46:03.781286+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23816",
+  "number": 23816,
+  "title": "8347139: [macos] Test tools/jpackage/share/InOutPathTest.java  failed:  \"execution error: Finder got an error: AppleEvent timed out.\"",
+  "head_sha": "8697d83579fdecef4ed5c865ad6f0f5057439a1c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13558363414"
+}
