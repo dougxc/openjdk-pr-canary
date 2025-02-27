@@ -129761,7 +129761,11 @@
 			]
 		},
 		"aliases": [
-			"jdk-25-1311"
+			"jdk-25-1311",
+			"jdk-25+12"
+		],
+		"tags": [
+			"PROMOTED"
 		]
 	},
 	{
@@ -130116,6 +130120,29 @@
 		},
 		"aliases": [
 			"jdk-25-1326"
+		]
+	},
+	{
+		"id": "jdk-25+12-1327",
+		"revisions": {
+			".": [
+				"58080397b1db453c89215996ce357bfb19d44799"
+			],
+			"mx": [
+				"e3f1261426e718e0ba57a4666fa4431e40504279"
+			],
+			"graal-enterprise": [
+				"9378dba59b11e6ea1e6e4e88223c866fddec786a"
+			],
+			"open": [
+				"939815fdcfd046b00b331e085c7b6c5ced0f5dbe"
+			],
+			"graal": [
+				"d0ab5c9d31a6df83d6aec53b4615b506a677bad4"
+			]
+		},
+		"aliases": [
+			"jdk-25-1327"
 		]
 	}
 ]
