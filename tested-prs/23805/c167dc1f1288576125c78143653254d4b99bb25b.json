@@ -1,0 +1,16 @@
+{
+  "artifact_2662435847": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-c167dc1f1288576125c78143653254d4b99bb25b)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-c167dc1f1288576125c78143653254d4b99bb25b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7117462e07fe54e8b4bd057fdaa2f7feef90afaa.json"
+  ],
+  "datetime": "2025-02-27T11:04:32.746879+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23805",
+  "number": 23805,
+  "title": "8350786: Some java/lang jtreg tests miss requires vm.hasJFR",
+  "head_sha": "c167dc1f1288576125c78143653254d4b99bb25b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13564335851"
+}
