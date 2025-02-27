@@ -1,0 +1,14 @@
+{
+  "artifact_2662002638": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-eme64-a252b9401fea7b97bb5e7ac675a31dc2de8e0340)\nOpenJDK 64-Bit Server VM (build 25-internal-eme64-a252b9401fea7b97bb5e7ac675a31dc2de8e0340, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-27T10:54:21.414072+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23818",
+  "number": 23818,
+  "title": "8350841: ProblemList jdk/incubator/vector/Long256VectorTests.java",
+  "head_sha": "a252b9401fea7b97bb5e7ac675a31dc2de8e0340",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13564335851"
+}
