@@ -1,0 +1,22 @@
+{
+  "artifact_2664819019": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Domest0s-0912b019a5a8dd5e745ef59ebb03b21c73c80f99)\nOpenJDK 64-Bit Server VM (build 25-internal-Domest0s-0912b019a5a8dd5e745ef59ebb03b21c73c80f99, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4a1a9268f5b030f91123d64c7959b63d922986be.json",
+    "6af586a25649853fcd9b22604c8ff8a0f77e3567.json",
+    "71cc3a933765a285807b5899ff5040f16d16b6ca.json",
+    "a1b898b3ebcf130e3d8918d42088184893b93e68.json",
+    "a2003355a92dda3935f9a46425b8d51d413f2f0e.json",
+    "dda4e2fe6bf09aedda4ab91a27497a411b195b90.json",
+    "e4bab4dc0372f7f35ffe4f9e5453b0ea18d1b975.json"
+  ],
+  "datetime": "2025-02-27T17:20:21.103698+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22245",
+  "number": 22245,
+  "title": "8343832: Enhance test summary with number of skipped tests",
+  "head_sha": "0912b019a5a8dd5e745ef59ebb03b21c73c80f99",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13571303063"
+}
