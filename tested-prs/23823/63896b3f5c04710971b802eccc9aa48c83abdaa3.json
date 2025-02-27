@@ -1,0 +1,14 @@
+{
+  "artifact_2663388673": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-chhagedorn-63896b3f5c04710971b802eccc9aa48c83abdaa3)\nOpenJDK 64-Bit Server VM (build 25-internal-chhagedorn-63896b3f5c04710971b802eccc9aa48c83abdaa3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-27T13:45:01.254050+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23823",
+  "number": 23823,
+  "title": "8350579: Remove Template Assertion Predicates belonging to a loop once it is folded away during IGVN",
+  "head_sha": "63896b3f5c04710971b802eccc9aa48c83abdaa3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13567615904"
+}
