@@ -1,0 +1,18 @@
+{
+  "artifact_2664675537": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-e5839fb8380fa228b0149ea0d4515fadded73352)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-e5839fb8380fa228b0149ea0d4515fadded73352, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "02c6faa162ec956396088c14c68abcdcb0dcb808.json",
+    "3d558a2d40743004aa4909efd02d3308ff21e125.json",
+    "c4af6ebfaeb75f20ce39b6952be00acff6f3d8fe.json"
+  ],
+  "datetime": "2025-02-27T16:46:36.215608+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23720",
+  "number": 23720,
+  "title": "8350118: Simplify the layout access VarHandle",
+  "head_sha": "e5839fb8380fa228b0149ea0d4515fadded73352",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13571303063"
+}
