@@ -1,0 +1,16 @@
+{
+  "artifact_2666211075": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-c237c2ad8f544281ca01b14336575f2962cfb8bb)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-c237c2ad8f544281ca01b14336575f2962cfb8bb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4f4d9b91e5b7168b8410262f3d5031acff582184.json"
+  ],
+  "datetime": "2025-02-27T20:40:02.971898+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/19977",
+  "number": 19977,
+  "title": "8343251: Facelift for Type and AnnotatedType specifications",
+  "head_sha": "c237c2ad8f544281ca01b14336575f2962cfb8bb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13573456852"
+}
