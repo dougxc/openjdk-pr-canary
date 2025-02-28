@@ -1,0 +1,17 @@
+{
+  "artifact_2671698583": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-coleenp-aa80d2c6ef0860b8f8cdda55ce18c307c8bdb358)\nOpenJDK 64-Bit Server VM (build 25-internal-coleenp-aa80d2c6ef0860b8f8cdda55ce18c307c8bdb358, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8435f98b071502c35f6a533eb3e8702afce63f58.json",
+    "fca987a48588a174be5768753b0cec8e74344ae6.json"
+  ],
+  "datetime": "2025-02-28T17:01:35.632396+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23782",
+  "number": 23782,
+  "title": "8315488: SA ciReplay support is no longer up-to-date with hotspot ciReplay support",
+  "head_sha": "aa80d2c6ef0860b8f8cdda55ce18c307c8bdb358",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13591278467"
+}
