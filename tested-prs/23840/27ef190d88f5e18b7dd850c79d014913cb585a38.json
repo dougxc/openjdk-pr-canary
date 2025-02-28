@@ -1,0 +1,17 @@
+{
+  "artifact_2671160304": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-serhiysachkov-27ef190d88f5e18b7dd850c79d014913cb585a38)\nOpenJDK 64-Bit Server VM (build 25-internal-serhiysachkov-27ef190d88f5e18b7dd850c79d014913cb585a38, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "555474857e6571fe03d1d3ce10e647ee138f5457.json",
+    "9173db16121b7264383f4f25ae46523d2fb68257.json"
+  ],
+  "datetime": "2025-02-28T15:32:05.858773+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23840",
+  "number": 23840,
+  "title": "8281511: java/net/ipv6tests/UdpTest.java fails with checkTime failed",
+  "head_sha": "27ef190d88f5e18b7dd850c79d014913cb585a38",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13590215934"
+}
