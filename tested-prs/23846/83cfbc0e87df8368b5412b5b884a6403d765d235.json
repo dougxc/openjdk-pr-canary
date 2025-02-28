@@ -1,0 +1,14 @@
+{
+  "artifact_2671500645": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-aivanov-jdk-83cfbc0e87df8368b5412b5b884a6403d765d235)\nOpenJDK 64-Bit Server VM (build 25-internal-aivanov-jdk-83cfbc0e87df8368b5412b5b884a6403d765d235, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-28T16:29:02.265191+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23846",
+  "number": 23846,
+  "title": "8224968: javax/swing/JColorChooser/Test6827032.java times out in Windows 10",
+  "head_sha": "83cfbc0e87df8368b5412b5b884a6403d765d235",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13591278467"
+}
