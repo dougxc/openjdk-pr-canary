@@ -1,0 +1,26 @@
+{
+  "artifact_2672969905": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-45c2aacff7ab66fb9a8778b01aefd6231fd7aefb)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-45c2aacff7ab66fb9a8778b01aefd6231fd7aefb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1161e80cbac18ef3d69a4157bb34c958147a82d9.json",
+    "2509771019fb62b58eec566dd2be9d70ba4e1615.json",
+    "44f5bedca8e411c35823e66d374a7d346541dceb.json",
+    "65577822e4a119ef22f95a2c7de8a9026deaa77f.json",
+    "6cc1eae5eaf00878bc676f45d8255fa6d3716323.json",
+    "7ad56bb54675a87775e6f8a9bb97af2fbb8a66b8.json",
+    "8ac827ce97bf3118f9b7aeceeb6c360f14f0fe9b.json",
+    "cecb2280a1b6d33f0eb7976aff87b60d0ad1408a.json",
+    "e83c88c2fba2349c3d748b7adc8aa9bad21917d3.json",
+    "ebb6544ec38d7c654e89931a11efd5a9682e908d.json",
+    "f1e2a593fc96b799c7439292889d408ef86171c5.json"
+  ],
+  "datetime": "2025-02-28T20:39:34.791887+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23237",
+  "number": 23237,
+  "title": "8224228: No way to locally suppress lint warnings in parser/tokenizer or preview features",
+  "head_sha": "45c2aacff7ab66fb9a8778b01aefd6231fd7aefb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13595982792"
+}
