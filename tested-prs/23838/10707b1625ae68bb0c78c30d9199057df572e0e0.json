@@ -1,0 +1,14 @@
+{
+  "artifact_2669289815": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-pengxiaolong-10707b1625ae68bb0c78c30d9199057df572e0e0)\nOpenJDK 64-Bit Server VM (build 25-internal-pengxiaolong-10707b1625ae68bb0c78c30d9199057df572e0e0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-28T16:39:06.282514+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23838",
+  "number": 23838,
+  "title": "8350854: Include thread counts in safepoint logging",
+  "head_sha": "10707b1625ae68bb0c78c30d9199057df572e0e0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13591278467"
+}
