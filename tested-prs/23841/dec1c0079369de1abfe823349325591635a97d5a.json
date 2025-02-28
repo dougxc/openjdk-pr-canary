@@ -1,0 +1,14 @@
+{
+  "artifact_2670439707": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kumarabhi006-dec1c0079369de1abfe823349325591635a97d5a)\nOpenJDK 64-Bit Server VM (build 25-internal-kumarabhi006-dec1c0079369de1abfe823349325591635a97d5a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-28T14:02:56.633108+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23841",
+  "number": 23841,
+  "title": "8286204: [Accessibility,macOS,VoiceOver] VoiceOver reads the spinner value 10 as 1 when user iterates to 10 for the first time on macOS",
+  "head_sha": "dec1c0079369de1abfe823349325591635a97d5a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13589196423"
+}
