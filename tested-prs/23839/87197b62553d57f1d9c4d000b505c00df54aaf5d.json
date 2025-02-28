@@ -1,0 +1,14 @@
+{
+  "artifact_2669806775": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Hamlin-Li-87197b62553d57f1d9c4d000b505c00df54aaf5d)\nOpenJDK 64-Bit Server VM (build 25-internal-Hamlin-Li-87197b62553d57f1d9c4d000b505c00df54aaf5d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-02-28T11:43:12.578784+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23839",
+  "number": 23839,
+  "title": "8350931: RISC-V: remove unnecessary src register for fp_sqrt_d/f",
+  "head_sha": "87197b62553d57f1d9c4d000b505c00df54aaf5d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13587123689"
+}
