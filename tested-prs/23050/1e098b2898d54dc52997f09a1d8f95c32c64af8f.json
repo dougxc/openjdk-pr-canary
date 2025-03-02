@@ -1,0 +1,16 @@
+{
+  "artifact_2676930905": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-He-Pin-1e098b2898d54dc52997f09a1d8f95c32c64af8f)\nOpenJDK 64-Bit Server VM (build 25-internal-He-Pin-1e098b2898d54dc52997f09a1d8f95c32c64af8f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "dfc2cee7bfb8c15c31aecde5a422675a0bf95387.json"
+  ],
+  "datetime": "2025-03-02T08:50:29.304660+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23050",
+  "number": 23050,
+  "title": "8347491: IllegalArgumentationException thrown by ThreadPoolExecutor doesn't have a useful message",
+  "head_sha": "1e098b2898d54dc52997f09a1d8f95c32c64af8f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13613685213"
+}
