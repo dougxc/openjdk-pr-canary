@@ -1,0 +1,14 @@
+{
+  "artifact_2685015705": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-04fd38dd73aeff1566a67aff375262e3f54ff2ce)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-04fd38dd73aeff1566a67aff375262e3f54ff2ce, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-03T22:51:54.214214+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23876",
+  "number": 23876,
+  "title": "8351087: Combine scratch object tables in heapShared.cpp",
+  "head_sha": "04fd38dd73aeff1566a67aff375262e3f54ff2ce",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13641761623"
+}
