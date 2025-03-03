@@ -1,0 +1,17 @@
+{
+  "artifact_2684064147": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JoeWang-Java-c8f07127bf161fcf10946dbe75af65128dcd4c8e)\nOpenJDK 64-Bit Server VM (build 25-internal-JoeWang-Java-c8f07127bf161fcf10946dbe75af65128dcd4c8e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2d4b7653b828b6daaa501784e097ea779768f960.json",
+    "70fc2ca599f6ea15522ecc75790e9df86e89d28a.json"
+  ],
+  "datetime": "2025-03-03T20:40:05.357244+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23847",
+  "number": 23847,
+  "title": "8349516: StAXStream2SAX.handleCharacters() fails on empty CDATA",
+  "head_sha": "c8f07127bf161fcf10946dbe75af65128dcd4c8e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13639821632"
+}
