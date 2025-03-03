@@ -1,0 +1,14 @@
+{
+  "artifact_2682047757": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tschatzl-429bc01b6bd5f5dbf91559e9ce3b0a09279a384e)\nOpenJDK 64-Bit Server VM (build 25-internal-tschatzl-429bc01b6bd5f5dbf91559e9ce3b0a09279a384e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-03T14:52:40.327131+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23862",
+  "number": 23862,
+  "title": "8346194: Improve G1 pre-barrier C2 cost estimate",
+  "head_sha": "429bc01b6bd5f5dbf91559e9ce3b0a09279a384e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13632114762"
+}
