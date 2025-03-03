@@ -1,0 +1,16 @@
+{
+  "artifact_2683766596": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-earthling-amzn-0b2675af3c4788fd86d1c9fd13c04b5270da9d00)\nOpenJDK 64-Bit Server VM (build 25-internal-earthling-amzn-0b2675af3c4788fd86d1c9fd13c04b5270da9d00, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9765a66693fb23eef42142702cf34760bce33f15.json"
+  ],
+  "datetime": "2025-03-03T19:51:52.761636+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23830",
+  "number": 23830,
+  "title": "8350898: Shenandoah: Eliminate final roots safepoint",
+  "head_sha": "0b2675af3c4788fd86d1c9fd13c04b5270da9d00",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13638738473"
+}
