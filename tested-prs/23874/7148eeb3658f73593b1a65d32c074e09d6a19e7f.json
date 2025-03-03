@@ -1,0 +1,14 @@
+{
+  "artifact_2684767529": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-7148eeb3658f73593b1a65d32c074e09d6a19e7f)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-7148eeb3658f73593b1a65d32c074e09d6a19e7f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-03T23:02:18.576248+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23874",
+  "number": 23874,
+  "title": "8351082: Remove dead code for estimating CDS archive size",
+  "head_sha": "7148eeb3658f73593b1a65d32c074e09d6a19e7f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13641761623"
+}
