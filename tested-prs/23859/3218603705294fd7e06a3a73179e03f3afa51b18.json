@@ -1,0 +1,14 @@
+{
+  "artifact_2681292171": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tschatzl-3218603705294fd7e06a3a73179e03f3afa51b18)\nOpenJDK 64-Bit Server VM (build 25-internal-tschatzl-3218603705294fd7e06a3a73179e03f3afa51b18, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-03T13:13:27.749126+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23859",
+  "number": 23859,
+  "title": "8350954: Fix repetitions of the word \"the\" in gc component comments",
+  "head_sha": "3218603705294fd7e06a3a73179e03f3afa51b18",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13631321266"
+}
