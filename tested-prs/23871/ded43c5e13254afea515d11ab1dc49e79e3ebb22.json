@@ -1,0 +1,14 @@
+{
+  "artifact_2683875673": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-cushon-ded43c5e13254afea515d11ab1dc49e79e3ebb22)\nOpenJDK 64-Bit Server VM (build 25-internal-cushon-ded43c5e13254afea515d11ab1dc49e79e3ebb22, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-03T19:32:41.339912+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23871",
+  "number": 23871,
+  "title": "8350563: C2 compilation fails because PhaseCCP does not reach a fixpoint",
+  "head_sha": "ded43c5e13254afea515d11ab1dc49e79e3ebb22",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13638738473"
+}
