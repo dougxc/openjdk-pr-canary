@@ -1,0 +1,22 @@
+{
+  "artifact_2679924806": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-marc-chevalier-a067f613a50f40d4697701ab00707c6c30af0553)\nOpenJDK 64-Bit Server VM (build 25-internal-marc-chevalier-a067f613a50f40d4697701ab00707c6c30af0553, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2582890ac1b0019c362b285dc366ca23045e7bbd.json",
+    "3c5fb248b641e44d18d7e234a23c771e75299263.json",
+    "40af6f13ac2ee810baaff2c55bf18f0507adb7a8.json",
+    "8208f4af6cbe92bcd9451a2c0b547a54b310e41f.json",
+    "a9d58c857f2ba946c8934c534544620ca765a6cc.json",
+    "bfd185d88a1feb295c03e269a569c05ae81d67cd.json",
+    "c21da78d37f985579cf4f79891f460dc7fba3027.json"
+  ],
+  "datetime": "2025-03-03T08:45:38.273363+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23694",
+  "number": 23694,
+  "title": "8349523: Unused runtime calls to drem/frem should be removed",
+  "head_sha": "a067f613a50f40d4697701ab00707c6c30af0553",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13626578677"
+}
