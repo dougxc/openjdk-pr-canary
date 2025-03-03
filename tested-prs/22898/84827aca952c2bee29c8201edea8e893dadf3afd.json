@@ -1,0 +1,23 @@
+{
+  "artifact_2685047801": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mickleness-84827aca952c2bee29c8201edea8e893dadf3afd)\nOpenJDK 64-Bit Server VM (build 25-internal-mickleness-84827aca952c2bee29c8201edea8e893dadf3afd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "05ee149cd525d0de5932434a27de664635d92121.json",
+    "20d44cfb880043304194e667be6304001ee28ac8.json",
+    "24b6feea2d84b761c13c22edf3d29f323308931b.json",
+    "366a8c37bb3d438e30d1254de42b93a33ab3c579.json",
+    "4445d6e98e254bf9ca218f9ca439a56dda70d86c.json",
+    "52cf81f49a61d80c473b69e4a504eeb1d03c38a3.json",
+    "a67369a620bf9f1742dac071ee5ec2bd86b1d32c.json",
+    "b70b0802cb2243617fc3c8e9971b2e82e22888c3.json"
+  ],
+  "datetime": "2025-03-03T23:13:48.971829+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22898",
+  "number": 22898,
+  "title": "8160327: Support for thumbnails present in APP1 marker for JPEG",
+  "head_sha": "84827aca952c2bee29c8201edea8e893dadf3afd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13641761623"
+}
