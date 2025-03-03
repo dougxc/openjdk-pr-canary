@@ -1,0 +1,17 @@
+{
+  "artifact_2681676947": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-afshin-zafari-070a91c342ed6e00214b7b4cebc9d6235029ea05)\nOpenJDK 64-Bit Server VM (build 25-internal-afshin-zafari-070a91c342ed6e00214b7b4cebc9d6235029ea05, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "50a75b22d917570453d4669acf482720c3d39fa1.json",
+    "5d85bb8c269df52dbb25fa363a2d4775820ca710.json"
+  ],
+  "datetime": "2025-03-03T15:03:40.845775+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23771",
+  "number": 23771,
+  "title": "8350567: NMT: update VMATree::register_mapping to copy the existing tag of the region",
+  "head_sha": "070a91c342ed6e00214b7b4cebc9d6235029ea05",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13632114762"
+}
