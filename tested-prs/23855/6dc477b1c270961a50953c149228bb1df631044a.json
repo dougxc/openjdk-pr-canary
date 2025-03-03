@@ -1,0 +1,14 @@
+{
+  "artifact_2679514762": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prrace-6dc477b1c270961a50953c149228bb1df631044a)\nOpenJDK 64-Bit Server VM (build 25-internal-prrace-6dc477b1c270961a50953c149228bb1df631044a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-03T06:48:30.999234+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23855",
+  "number": 23855,
+  "title": "8347321: [ubsan] CGGlyphImages.m:553:30: runtime error: nan is outside the range of representable values of type 'unsigned long'",
+  "head_sha": "6dc477b1c270961a50953c149228bb1df631044a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13624913894"
+}
