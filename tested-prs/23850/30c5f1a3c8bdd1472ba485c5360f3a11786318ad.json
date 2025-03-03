@@ -1,0 +1,16 @@
+{
+  "artifact_2682596166": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-30c5f1a3c8bdd1472ba485c5360f3a11786318ad)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-30c5f1a3c8bdd1472ba485c5360f3a11786318ad, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f0a3c816335ed903be63712c086270fc310622c3.json"
+  ],
+  "datetime": "2025-03-03T16:55:09.861704+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23850",
+  "number": 23850,
+  "title": "8350983: JShell LocalExecutionControl only needs stopCheck() on backward branches",
+  "head_sha": "30c5f1a3c8bdd1472ba485c5360f3a11786318ad",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13635739338"
+}
