@@ -1,0 +1,18 @@
+{
+  "artifact_2681569650": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kevinjwalls-acdfef2ba342a7f7580efe8dbcc88355d476fdaf)\nOpenJDK 64-Bit Server VM (build 25-internal-kevinjwalls-acdfef2ba342a7f7580efe8dbcc88355d476fdaf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "04d627c7982339486677c7906121c1d795810cc7.json",
+    "1d2360642f2e1ded01218cbf008cef421e413aca.json",
+    "f1aeaf95994ac6f2a7e3d5e58972aff5c75003ed.json"
+  ],
+  "datetime": "2025-03-03T14:17:24.110620+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23038",
+  "number": 23038,
+  "title": "8347433: Deprecate XML interchange in java.management/javax/management/modelmbean/DescriptorSupport for removal",
+  "head_sha": "acdfef2ba342a7f7580efe8dbcc88355d476fdaf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13631321266"
+}
