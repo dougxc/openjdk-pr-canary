@@ -1,0 +1,17 @@
+{
+  "artifact_2687096956": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaikiran-803231720c6013a573d5709d8cb1a187258c5947)\nOpenJDK 64-Bit Server VM (build 25-internal-jaikiran-803231720c6013a573d5709d8cb1a187258c5947, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "102b04a4d546b5e2f441e33f6c1f06d0bdf680cf.json",
+    "80af3b3541bb5c68c1266c86deed7425a86c992d.json"
+  ],
+  "datetime": "2025-03-04T09:03:53.151292+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23655",
+  "number": 23655,
+  "title": "8066583: DeflaterInput/OutputStream and InflaterInput/OutputStream should explain responsibility for freeing resources",
+  "head_sha": "803231720c6013a573d5709d8cb1a187258c5947",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13649440150"
+}
