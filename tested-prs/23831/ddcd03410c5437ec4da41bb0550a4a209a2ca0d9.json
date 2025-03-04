@@ -1,0 +1,14 @@
+{
+  "artifact_2690584351": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-eastig-ddcd03410c5437ec4da41bb0550a4a209a2ca0d9)\nOpenJDK 64-Bit Server VM (build 25-internal-eastig-ddcd03410c5437ec4da41bb0550a4a209a2ca0d9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-04T18:29:30.091944+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23831",
+  "number": 23831,
+  "title": "8350852: Implement JMH benchmark for sparse CodeCache",
+  "head_sha": "ddcd03410c5437ec4da41bb0550a4a209a2ca0d9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13659424115"
+}
