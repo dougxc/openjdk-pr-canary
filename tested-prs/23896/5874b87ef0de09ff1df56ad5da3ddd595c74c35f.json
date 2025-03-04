@@ -1,0 +1,14 @@
+{
+  "artifact_2688782785": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mpdonova-5874b87ef0de09ff1df56ad5da3ddd595c74c35f)\nOpenJDK 64-Bit Server VM (build 25-internal-mpdonova-5874b87ef0de09ff1df56ad5da3ddd595c74c35f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-04T14:58:30.095611+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23896",
+  "number": 23896,
+  "title": "8219408: Tests should handle ${} in the view of jtreg \"smart action\"",
+  "head_sha": "5874b87ef0de09ff1df56ad5da3ddd595c74c35f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13654875991"
+}
