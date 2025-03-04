@@ -1,0 +1,16 @@
+{
+  "artifact_2685678723": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-pengxiaolong-d760471e5a84bc45466ba2d676f97a0efcb477db)\nOpenJDK 64-Bit Server VM (build 25-internal-pengxiaolong-d760471e5a84bc45466ba2d676f97a0efcb477db, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3764bf7d41619a2b51bb860e7ae4005e7f8c0e37.json"
+  ],
+  "datetime": "2025-03-04T02:28:20.206155+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23872",
+  "number": 23872,
+  "title": "8351077: Shenandoah: Update comments in ShenandoahConcurrentGC::op_reset_after_collect",
+  "head_sha": "d760471e5a84bc45466ba2d676f97a0efcb477db",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13644565998"
+}
