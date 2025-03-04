@@ -1,0 +1,14 @@
+{
+  "artifact_2684781562": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JohnTortugo-9a4ac53343aaa62b055241f90bd6d610a483ed66)\nOpenJDK 64-Bit Server VM (build 25-internal-JohnTortugo-9a4ac53343aaa62b055241f90bd6d610a483ed66, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-04T04:41:43.767654+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23882",
+  "number": 23882,
+  "title": "8351081: Off-by-one error in ShenandoahCardCluster",
+  "head_sha": "9a4ac53343aaa62b055241f90bd6d610a483ed66",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13646278866"
+}
