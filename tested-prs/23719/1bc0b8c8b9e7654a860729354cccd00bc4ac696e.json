@@ -1,0 +1,16 @@
+{
+  "artifact_2692024009": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vpaprotsk-1bc0b8c8b9e7654a860729354cccd00bc4ac696e)\nOpenJDK 64-Bit Server VM (build 25-internal-vpaprotsk-1bc0b8c8b9e7654a860729354cccd00bc4ac696e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e080395242e5ed9be0497fd1fa18b2fdf36f2851.json"
+  ],
+  "datetime": "2025-03-04T21:59:57.527117+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23719",
+  "number": 23719,
+  "title": "8350459: MontgomeryIntegerPolynomialP256 multiply intrinsic with AVX2 on x86_64",
+  "head_sha": "1bc0b8c8b9e7654a860729354cccd00bc4ac696e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13663250104"
+}
