@@ -1,0 +1,14 @@
+{
+  "artifact_2689521896": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-0cbb9f5395ce81f9afa467950626f9aac07554ee)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-0cbb9f5395ce81f9afa467950626f9aac07554ee, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-04T15:35:14.449839+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23900",
+  "number": 23900,
+  "title": "8351142: Add JFR monitor deflation and statistics events",
+  "head_sha": "0cbb9f5395ce81f9afa467950626f9aac07554ee",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13655974585"
+}
