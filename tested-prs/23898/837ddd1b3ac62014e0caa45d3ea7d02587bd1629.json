@@ -1,0 +1,14 @@
+{
+  "artifact_2683776686": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-fguallini-837ddd1b3ac62014e0caa45d3ea7d02587bd1629)\nOpenJDK 64-Bit Server VM (build 25-internal-fguallini-837ddd1b3ac62014e0caa45d3ea7d02587bd1629, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-04T14:37:07.739190+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23898",
+  "number": 23898,
+  "title": "8249825: Tests sun/security/ssl/SSLSocketImpl/SetClientMode.java and NonAutoClose.java marked with @ignore",
+  "head_sha": "837ddd1b3ac62014e0caa45d3ea7d02587bd1629",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13654875991"
+}
