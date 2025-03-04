@@ -1,0 +1,16 @@
+{
+  "artifact_2690912536": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-justin-curtis-lu-623bfdacb3374aaa10f667eab4d92a8f27e79ed9)\nOpenJDK 64-Bit Server VM (build 25-internal-justin-curtis-lu-623bfdacb3374aaa10f667eab4d92a8f27e79ed9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e13ac0d03f51d86d44b3b9e958e7eb83ce6f2968.json"
+  ],
+  "datetime": "2025-03-04T19:02:35.275675+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23880",
+  "number": 23880,
+  "title": "8351074: Disallow null prefix and suffix in DecimalFormat",
+  "head_sha": "623bfdacb3374aaa10f667eab4d92a8f27e79ed9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13660564503"
+}
