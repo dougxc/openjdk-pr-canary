@@ -1,0 +1,14 @@
+{
+  "artifact_2685716261": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jianglizhou-fc2850130de529f36b04aa288f7d06daf3919257)\nOpenJDK 64-Bit Server VM (build 25-internal-jianglizhou-fc2850130de529f36b04aa288f7d06daf3919257, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-04T02:08:22.800723+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23881",
+  "number": 23881,
+  "title": "8350982: -server|-client causes fatal exception on static JDK",
+  "head_sha": "fc2850130de529f36b04aa288f7d06daf3919257",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13644565998"
+}
