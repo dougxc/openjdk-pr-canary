@@ -1,0 +1,14 @@
+{
+  "artifact_2685810023": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-RealFYang-eb7a9402428a71403eac648139f4cc3a53e56acf)\nOpenJDK 64-Bit Server VM (build 25-internal-RealFYang-eb7a9402428a71403eac648139f4cc3a53e56acf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-04T02:18:30.582124+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23879",
+  "number": 23879,
+  "title": "8351101: RISC-V: C2: Small improvement to MacroAssembler::revb",
+  "head_sha": "eb7a9402428a71403eac648139f4cc3a53e56acf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13644565998"
+}
