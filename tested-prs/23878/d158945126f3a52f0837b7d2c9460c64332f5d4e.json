@@ -1,0 +1,14 @@
+{
+  "artifact_2692501819": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-calvinccheung-d158945126f3a52f0837b7d2c9460c64332f5d4e)\nOpenJDK 64-Bit Server VM (build 25-internal-calvinccheung-d158945126f3a52f0837b7d2c9460c64332f5d4e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-04T23:46:14.832288+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23878",
+  "number": 23878,
+  "title": "8325132: CDS: Make sure the ArchiveRelocationMode is always printed in the log",
+  "head_sha": "d158945126f3a52f0837b7d2c9460c64332f5d4e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13664950486"
+}
