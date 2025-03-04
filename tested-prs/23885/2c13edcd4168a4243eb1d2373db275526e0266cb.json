@@ -1,0 +1,14 @@
+{
+  "artifact_2687013120": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-xmas92-2c13edcd4168a4243eb1d2373db275526e0266cb)\nOpenJDK 64-Bit Server VM (build 25-internal-xmas92-2c13edcd4168a4243eb1d2373db275526e0266cb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-04T08:04:41.596138+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23885",
+  "number": 23885,
+  "title": "8333578: Fix uses of overaligned types induced by ZCACHE_ALIGNED",
+  "head_sha": "2c13edcd4168a4243eb1d2373db275526e0266cb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13648423563"
+}
