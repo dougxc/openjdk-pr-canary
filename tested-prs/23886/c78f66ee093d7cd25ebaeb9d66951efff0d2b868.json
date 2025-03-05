@@ -1,0 +1,17 @@
+{
+  "artifact_2699685071": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-pengxiaolong-c78f66ee093d7cd25ebaeb9d66951efff0d2b868)\nOpenJDK 64-Bit Server VM (build 25-internal-pengxiaolong-c78f66ee093d7cd25ebaeb9d66951efff0d2b868, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "01c6ea662913a543266d133262bae30ad029b5c0.json",
+    "465deaec7c7f667ceeec190a35012932eb196d56.json"
+  ],
+  "datetime": "2025-03-05T22:41:18.754182+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23886",
+  "number": 23886,
+  "title": "8351091: Shenandoah: global marking context completeness is  not accurately maintained",
+  "head_sha": "c78f66ee093d7cd25ebaeb9d66951efff0d2b868",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13686831772"
+}
