@@ -1,0 +1,17 @@
+{
+  "artifact_2699561454": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-azuev-java-ae6ac1c7b7cdbec547cbe725eb2f01d4e6364c06)\nOpenJDK 64-Bit Server VM (build 25-internal-azuev-java-ae6ac1c7b7cdbec547cbe725eb2f01d4e6364c06, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8a2fa6c14c47cf6897f252ab9b04e9ff26ebb3e2.json",
+    "e02c586349053f14fafb700dfd20e8dfd3cdff98.json"
+  ],
+  "datetime": "2025-03-05T22:51:31.909463+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23814",
+  "number": 23814,
+  "title": "8350813: Rendering of bulky sound bank from MIDI sequence can cause OutOfMemoryError",
+  "head_sha": "ae6ac1c7b7cdbec547cbe725eb2f01d4e6364c06",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13686831772"
+}
