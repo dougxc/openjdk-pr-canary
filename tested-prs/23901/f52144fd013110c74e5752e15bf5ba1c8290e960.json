@@ -1,0 +1,16 @@
+{
+  "artifact_2696130552": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-f52144fd013110c74e5752e15bf5ba1c8290e960)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-f52144fd013110c74e5752e15bf5ba1c8290e960, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "792934ffa2d5f82e3548722bb6f8f38e31defc90.json"
+  ],
+  "datetime": "2025-03-05T13:43:25.337035+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23901",
+  "number": 23901,
+  "title": "8351187: Add JFR monitor notification event",
+  "head_sha": "f52144fd013110c74e5752e15bf5ba1c8290e960",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13677199052"
+}
