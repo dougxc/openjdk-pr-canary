@@ -1,0 +1,14 @@
+{
+  "artifact_2690899621": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-b76816cb3641724a4b1ca8ee1b5fad5536e78457)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-b76816cb3641724a4b1ca8ee1b5fad5536e78457, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-05T17:04:28.447285+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23906",
+  "number": 23906,
+  "title": "8345169: Implement JEP 503: Remove the 32-bit x86 Port",
+  "head_sha": "b76816cb3641724a4b1ca8ee1b5fad5536e78457",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13680990958"
+}
