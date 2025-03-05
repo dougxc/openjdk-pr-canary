@@ -1,0 +1,14 @@
+{
+  "artifact_2692047292": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jsikstro-a2acf21aaff7e99d4708893269548b1d03de2916)\nOpenJDK 64-Bit Server VM (build 25-internal-jsikstro-a2acf21aaff7e99d4708893269548b1d03de2916, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-05T20:40:31.843021+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23922",
+  "number": 23922,
+  "title": "8351216: ZGC: Store NUMA node count",
+  "head_sha": "a2acf21aaff7e99d4708893269548b1d03de2916",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13684937232"
+}
