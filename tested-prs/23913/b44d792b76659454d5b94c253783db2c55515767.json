@@ -1,0 +1,14 @@
+{
+  "artifact_2694299948": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-b44d792b76659454d5b94c253783db2c55515767)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-b44d792b76659454d5b94c253783db2c55515767, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-05T08:55:08.101497+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23913",
+  "number": 23913,
+  "title": "8351241: Require minimum gcc version 12",
+  "head_sha": "b44d792b76659454d5b94c253783db2c55515767",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13671716390"
+}
