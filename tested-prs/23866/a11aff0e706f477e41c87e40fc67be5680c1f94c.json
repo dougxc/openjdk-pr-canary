@@ -1,0 +1,16 @@
+{
+  "artifact_2697520547": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-a11aff0e706f477e41c87e40fc67be5680c1f94c)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-a11aff0e706f477e41c87e40fc67be5680c1f94c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "eabc8b63cc159fd5603f8082eb949fecf20367cd.json"
+  ],
+  "datetime": "2025-03-05T17:15:51.991116+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23866",
+  "number": 23866,
+  "title": "8351045: ClassValue::remove cannot ensure computation observes up-to-date state",
+  "head_sha": "a11aff0e706f477e41c87e40fc67be5680c1f94c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13680990958"
+}
