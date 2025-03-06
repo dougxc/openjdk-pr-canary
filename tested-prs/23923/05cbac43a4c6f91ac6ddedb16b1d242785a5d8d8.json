@@ -1,0 +1,16 @@
+{
+  "artifact_2704722658": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexeysemenyukoracle-05cbac43a4c6f91ac6ddedb16b1d242785a5d8d8)\nOpenJDK 64-Bit Server VM (build 25-internal-alexeysemenyukoracle-05cbac43a4c6f91ac6ddedb16b1d242785a5d8d8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "32f2b5296687d2d52c0c3bc9e7690643de03d77f.json"
+  ],
+  "datetime": "2025-03-06T16:45:31.584330+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23923",
+  "number": 23923,
+  "title": "8341641: Make %APPDATA% and %LOCALAPPDATA% env variables available in *.cfg files",
+  "head_sha": "05cbac43a4c6f91ac6ddedb16b1d242785a5d8d8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13703567410"
+}
