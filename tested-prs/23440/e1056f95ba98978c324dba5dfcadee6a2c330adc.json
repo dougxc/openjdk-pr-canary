@@ -1,0 +1,17 @@
+{
+  "artifact_2703336312": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-myankelev-e1056f95ba98978c324dba5dfcadee6a2c330adc)\nOpenJDK 64-Bit Server VM (build 25-internal-myankelev-e1056f95ba98978c324dba5dfcadee6a2c330adc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0efada2049f9a66b6d287f979e3c76ee22416d0e.json",
+    "92de4d99b21a45856e97a7dde3b828a7c3d89945.json"
+  ],
+  "datetime": "2025-03-06T13:55:13.122972+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23440",
+  "number": 23440,
+  "title": "8349348: Refactor ClassLoaderDeadlock.sh and Deadlock.sh to run fully in java",
+  "head_sha": "e1056f95ba98978c324dba5dfcadee6a2c330adc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13699109169"
+}
