@@ -1,0 +1,16 @@
+{
+  "artifact_2700046036": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prrace-f0b771b59790f56d0250dbefbbaf09834d8531a3)\nOpenJDK 64-Bit Server VM (build 25-internal-prrace-f0b771b59790f56d0250dbefbbaf09834d8531a3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6656254c346ef505a48652fdf4dedd6edc020e33.json"
+  ],
+  "datetime": "2025-03-05T23:48:00.806193+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23909",
+  "number": 23909,
+  "title": "8319192: Remove javax.swing.plaf.synth.SynthLookAndFeel.load(URL url)",
+  "head_sha": "f0b771b59790f56d0250dbefbbaf09834d8531a3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13687606154"
+}
