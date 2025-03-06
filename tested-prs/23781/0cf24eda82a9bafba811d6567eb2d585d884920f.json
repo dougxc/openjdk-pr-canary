@@ -1,0 +1,17 @@
+{
+  "artifact_2706623091": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-coffeys-0cf24eda82a9bafba811d6567eb2d585d884920f)\nOpenJDK 64-Bit Server VM (build 25-internal-coffeys-0cf24eda82a9bafba811d6567eb2d585d884920f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6262e539cb47d7f9da1072ae42f4115fe7edf7c2.json",
+    "c21285d86672ce78a6314a9e5ff6c4783c770825.json"
+  ],
+  "datetime": "2025-03-06T21:36:58.173056+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23781",
+  "number": 23781,
+  "title": "8350582: Correct the parsing of the ssl value in javax.net.debug",
+  "head_sha": "0cf24eda82a9bafba811d6567eb2d585d884920f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13708488936"
+}
