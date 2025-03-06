@@ -1,0 +1,16 @@
+{
+  "artifact_2700983806": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-6161b7407603aeb5c823755e706c841e4f97aca8)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-6161b7407603aeb5c823755e706c841e4f97aca8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "fe58200dfaaaa2be8cd70df282926d851bf02bc1.json"
+  ],
+  "datetime": "2025-03-06T03:47:54.438932+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23437",
+  "number": 23437,
+  "title": "8349358: [JMH] Cannot access class jdk.internal.vm.ContinuationScope",
+  "head_sha": "6161b7407603aeb5c823755e706c841e4f97aca8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13690645745"
+}
