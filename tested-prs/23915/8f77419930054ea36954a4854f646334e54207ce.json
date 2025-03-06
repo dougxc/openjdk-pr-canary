@@ -1,0 +1,16 @@
+{
+  "artifact_2699822660": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-adinn-8f77419930054ea36954a4854f646334e54207ce)\nOpenJDK 64-Bit Server VM (build 25-internal-adinn-8f77419930054ea36954a4854f646334e54207ce, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f976e016af8f866df50e7e9d3f14a5abcf54ad53.json"
+  ],
+  "datetime": "2025-03-05T23:37:42.179209+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23915",
+  "number": 23915,
+  "title": "8351256: Improve printing of runtime call stub names in disassember output",
+  "head_sha": "8f77419930054ea36954a4854f646334e54207ce",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13687606154"
+}
