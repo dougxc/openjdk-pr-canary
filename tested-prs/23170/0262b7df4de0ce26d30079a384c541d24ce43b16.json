@@ -1,0 +1,20 @@
+{
+  "artifact_2705908216": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JohnTortugo-0262b7df4de0ce26d30079a384c541d24ce43b16)\nOpenJDK 64-Bit Server VM (build 25-internal-JohnTortugo-0262b7df4de0ce26d30079a384c541d24ce43b16, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "046ea8a016af5040a02e2ef850759e5b573d9740.json",
+    "4b00cfec1fa885f09424d0b7535f7b7d25f05dbc.json",
+    "6210f026c9fc642c83156c35ae8bd9fc343ec760.json",
+    "717b8b447f8fcb26dd7475834a10f034f6d6439a.json",
+    "87a9993a224835c88d80976e39b76423babcbb31.json"
+  ],
+  "datetime": "2025-03-06T18:58:41.063164+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23170",
+  "number": 23170,
+  "title": "8343468: GenShen: Enable relocation of remembered set card tables",
+  "head_sha": "0262b7df4de0ce26d30079a384c541d24ce43b16",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13705739016"
+}
