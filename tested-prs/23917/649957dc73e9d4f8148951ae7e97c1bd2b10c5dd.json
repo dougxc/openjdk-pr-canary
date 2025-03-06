@@ -1,0 +1,16 @@
+{
+  "artifact_2706431015": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ericcaspole-649957dc73e9d4f8148951ae7e97c1bd2b10c5dd)\nOpenJDK 64-Bit Server VM (build 25-internal-ericcaspole-649957dc73e9d4f8148951ae7e97c1bd2b10c5dd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8c882666082f43ef7578209fcc0a0a3294b5a70a.json"
+  ],
+  "datetime": "2025-03-06T20:40:16.890424+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23917",
+  "number": 23917,
+  "title": "8350460: org.openjdk.bench.vm.floatingpoint.DremFrem JMH fails with -ea",
+  "head_sha": "649957dc73e9d4f8148951ae7e97c1bd2b10c5dd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13707560904"
+}
