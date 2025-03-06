@@ -1,0 +1,16 @@
+{
+  "artifact_2700949137": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kuaiwei-92e2fcb71ede73b07d3aae4454f9df764d223089)\nOpenJDK 64-Bit Server VM (build 25-internal-kuaiwei-92e2fcb71ede73b07d3aae4454f9df764d223089, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d910d0f602c7045954e81627b3bba39940521aff.json"
+  ],
+  "datetime": "2025-03-06T03:33:36.976120+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23030",
+  "number": 23030,
+  "title": "8347405: MergeStores with reverse bytes order value",
+  "head_sha": "92e2fcb71ede73b07d3aae4454f9df764d223089",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13690213897"
+}
