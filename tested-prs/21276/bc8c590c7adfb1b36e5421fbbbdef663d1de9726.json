@@ -1,0 +1,27 @@
+{
+  "artifact_2703415076": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-bulasevich-bc8c590c7adfb1b36e5421fbbbdef663d1de9726)\nOpenJDK 64-Bit Server VM (build 25-internal-bulasevich-bc8c590c7adfb1b36e5421fbbbdef663d1de9726, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "04c1aa061f04b063b1e8dcf8916e9d85c1e0f3da.json",
+    "0dbd5029d50514d7e1ab79a8406605f21912b414.json",
+    "27d27aa388649ba624d4279cbea72a933eec273a.json",
+    "2ee31cacc07c7ebae5bdbc8f33f501d594311463.json",
+    "40fa9603deed104034fc31c65ed43553bf725dc2.json",
+    "56c0cc780305b6cc719ee8e64383d65e55959944.json",
+    "6b97993a137e4245bb479167499b3932ec102131.json",
+    "6c3370befcc55ed89122a5945d5706d8f27c1d90.json",
+    "b4c7c24bb99aadf9e36b32c201adc72e5388957d.json",
+    "ee697996097cea9d6539b318cb7995d886dbdaf9.json",
+    "f1a9d9a054ff82b5eafc5a976d155a88a6c55d45.json",
+    "f2a9a7b2f5a309efe56a611e20c18826273243d6.json"
+  ],
+  "datetime": "2025-03-06T14:06:58.217193+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21276",
+  "number": 21276,
+  "title": "8343789: Move mutable nmethod data out of CodeCache",
+  "head_sha": "bc8c590c7adfb1b36e5421fbbbdef663d1de9726",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13699109169"
+}
