@@ -1,0 +1,14 @@
+{
+  "artifact_2710912503": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-marc-chevalier-2317919f09afb8e05e7155b0a71cf93720bf7771)\nOpenJDK 64-Bit Server VM (build 25-internal-marc-chevalier-2317919f09afb8e05e7155b0a71cf93720bf7771, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-07T14:42:24.019380+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23916",
+  "number": 23916,
+  "title": "8346989: Deoptimization and re-compilation cycle with C2 compiled code",
+  "head_sha": "2317919f09afb8e05e7155b0a71cf93720bf7771",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13722787119"
+}
