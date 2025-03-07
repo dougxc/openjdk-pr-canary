@@ -1,0 +1,14 @@
+{
+  "artifact_2713698522": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-earthling-amzn-b231d4fecbfe42fcb48a86cb390d78c51f25c574)\nOpenJDK 64-Bit Server VM (build 25-internal-earthling-amzn-b231d4fecbfe42fcb48a86cb390d78c51f25c574, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-07T22:35:39.442473+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23951",
+  "number": 23951,
+  "title": "8351444: Shenandoah: Class Unloading may encounter recycled oops",
+  "head_sha": "b231d4fecbfe42fcb48a86cb390d78c51f25c574",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13730424308"
+}
