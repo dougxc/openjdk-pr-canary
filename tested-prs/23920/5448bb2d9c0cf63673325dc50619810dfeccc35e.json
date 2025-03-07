@@ -1,0 +1,16 @@
+{
+  "artifact_2709155597": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mickleness-5448bb2d9c0cf63673325dc50619810dfeccc35e)\nOpenJDK 64-Bit Server VM (build 25-internal-mickleness-5448bb2d9c0cf63673325dc50619810dfeccc35e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3b39df5551d2df742983233c8d8d4d3f728159d0.json"
+  ],
+  "datetime": "2025-03-07T07:36:04.151469+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23920",
+  "number": 23920,
+  "title": "8351110: ImageIO.write for JPEG can write corrupt JPEG for certain thumbnail dimensions",
+  "head_sha": "5448bb2d9c0cf63673325dc50619810dfeccc35e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13715841899"
+}
