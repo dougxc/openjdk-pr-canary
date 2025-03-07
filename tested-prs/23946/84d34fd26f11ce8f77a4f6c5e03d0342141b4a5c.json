@@ -1,0 +1,14 @@
+{
+  "artifact_2712599138": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-cushon-84d34fd26f11ce8f77a4f6c5e03d0342141b4a5c)\nOpenJDK 64-Bit Server VM (build 25-internal-cushon-84d34fd26f11ce8f77a4f6c5e03d0342141b4a5c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-07T18:56:22.321566+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23946",
+  "number": 23946,
+  "title": "8351431: Type annotations on new class creation expressions can't be retrieved",
+  "head_sha": "84d34fd26f11ce8f77a4f6c5e03d0342141b4a5c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13727042042"
+}
