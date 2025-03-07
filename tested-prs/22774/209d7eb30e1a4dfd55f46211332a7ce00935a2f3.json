@@ -1,0 +1,14 @@
+{
+  "artifact_2713542300": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-artur-oracle-209d7eb30e1a4dfd55f46211332a7ce00935a2f3)\nOpenJDK 64-Bit Server VM (build 25-internal-artur-oracle-209d7eb30e1a4dfd55f46211332a7ce00935a2f3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-07T20:59:09.009916+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22774",
+  "number": 22774,
+  "title": "8345940: Migrate security-related resources from Java classes to properties files",
+  "head_sha": "209d7eb30e1a4dfd55f46211332a7ce00935a2f3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13728744529"
+}
