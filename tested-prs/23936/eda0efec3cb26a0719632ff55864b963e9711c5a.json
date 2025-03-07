@@ -1,0 +1,14 @@
+{
+  "artifact_2713407229": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexeysemenyukoracle-eda0efec3cb26a0719632ff55864b963e9711c5a)\nOpenJDK 64-Bit Server VM (build 25-internal-alexeysemenyukoracle-eda0efec3cb26a0719632ff55864b963e9711c5a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-07T20:48:48.919470+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23936",
+  "number": 23936,
+  "title": "8351372: Improve negative tests coverage of jpackage",
+  "head_sha": "eda0efec3cb26a0719632ff55864b963e9711c5a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13728744529"
+}
