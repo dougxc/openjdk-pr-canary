@@ -1,0 +1,17 @@
+{
+  "artifact_2711533839": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-eme64-563348e67ae91b0901a1178feb99b579bb4a044c)\nOpenJDK 64-Bit Server VM (build 25-internal-eme64-563348e67ae91b0901a1178feb99b579bb4a044c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "caeb3a559f070f71e0819c2cd12fadfed8705385.json",
+    "e852e377d8d30769b9a1152afeffeeaffcda999f.json"
+  ],
+  "datetime": "2025-03-07T15:38:52.067625+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23943",
+  "number": 23943,
+  "title": "8351392: C2 crash: failed: Expected Bool, but got OpaqueMultiversioning",
+  "head_sha": "563348e67ae91b0901a1178feb99b579bb4a044c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13723873755"
+}
