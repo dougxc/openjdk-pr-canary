@@ -1,0 +1,14 @@
+{
+  "artifact_2712705467": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sercher-a2608afc1b0049c391dab155820ae4006f81dfb7)\nOpenJDK 64-Bit Server VM (build 25-internal-sercher-a2608afc1b0049c391dab155820ae4006f81dfb7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-07T20:39:00.905851+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23948",
+  "number": 23948,
+  "title": "8351382: New test containers/docker/TestMemoryWithSubgroups.java is failing",
+  "head_sha": "a2608afc1b0049c391dab155820ae4006f81dfb7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13728744529"
+}
