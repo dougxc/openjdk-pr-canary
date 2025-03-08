@@ -1,0 +1,14 @@
+{
+  "artifact_2716293270": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TheRealMDoerr-bc474ea7b4f6fb6031652584f705c2c79647c6d7)\nOpenJDK 64-Bit Server VM (build 25-internal-TheRealMDoerr-bc474ea7b4f6fb6031652584f705c2c79647c6d7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-08T19:29:09.829863+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23955",
+  "number": 23955,
+  "title": "8351456: Build failure with --disable-jvm-feature-shenandoahgc after 8343468",
+  "head_sha": "bc474ea7b4f6fb6031652584f705c2c79647c6d7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13740722401"
+}
