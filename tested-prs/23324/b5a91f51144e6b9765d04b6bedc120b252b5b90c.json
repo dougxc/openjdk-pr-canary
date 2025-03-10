@@ -1,0 +1,30 @@
+{
+  "artifact_2722496933": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prsadhuk-b5a91f51144e6b9765d04b6bedc120b252b5b90c)\nOpenJDK 64-Bit Server VM (build 25-internal-prsadhuk-b5a91f51144e6b9765d04b6bedc120b252b5b90c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "00daa8fb60f4c259c685afc73aaadfc28189fc99.json",
+    "2bb08692e5ed135f61edc685dc24538e749f666d.json",
+    "31cdc7073f8c829b8fe159ae5ae667e703a16650.json",
+    "38876068d555d2a02d9260da5f894d60cb99d725.json",
+    "46a1cb5a4f2eb922e56b221a5420d2ac1204ade5.json",
+    "5742db5b692ec3bb25a67e2bfee35075fe9277ef.json",
+    "6a8faec5ae657643eea9a39bbff7a2655ef01c59.json",
+    "7cb51be909cd3e783a1cbc3b72eddc900edfcda4.json",
+    "7f0849fc198de550de93252e5979db3a690dd979.json",
+    "9482b261aabe0c6b62509c600983fbda93def170.json",
+    "9aeda8872b32cc959b4250f46b4ff8d3c6503a67.json",
+    "a3475a91334e4948f2fbd9962915164c16ae18b9.json",
+    "bc5580ffd1b9f80cde5c3af97b36b709b2a3aef9.json",
+    "befbdf55fcee67bcb90513f6014f06861602b88d.json",
+    "de139e51a410f68b586274b119e186778dd58371.json"
+  ],
+  "datetime": "2025-03-10T14:24:31.624854+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23324",
+  "number": 23324,
+  "title": "8348760: RadioButton is not shown if JRadioButtonMenuItem is rendered with ImageIcon in WindowsLookAndFeel",
+  "head_sha": "b5a91f51144e6b9765d04b6bedc120b252b5b90c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13765999235"
+}
