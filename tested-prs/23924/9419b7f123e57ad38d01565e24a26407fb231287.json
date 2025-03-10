@@ -1,0 +1,16 @@
+{
+  "artifact_2724711527": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jianglizhou-9419b7f123e57ad38d01565e24a26407fb231287)\nOpenJDK 64-Bit Server VM (build 25-internal-jianglizhou-9419b7f123e57ad38d01565e24a26407fb231287, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9e1aac2e3c5a0a976e4fd9588852f6962346478c.json"
+  ],
+  "datetime": "2025-03-10T19:05:46.397149+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23924",
+  "number": 23924,
+  "title": "8351309: test/hotspot/jtreg/runtime/posixSig/TestPosixSig.java fails on static-jdk",
+  "head_sha": "9419b7f123e57ad38d01565e24a26407fb231287",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13772203410"
+}
