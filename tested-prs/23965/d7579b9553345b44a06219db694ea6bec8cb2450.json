@@ -1,0 +1,14 @@
+{
+  "artifact_2723213665": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-stefank-d7579b9553345b44a06219db694ea6bec8cb2450)\nOpenJDK 64-Bit Server VM (build 25-internal-stefank-d7579b9553345b44a06219db694ea6bec8cb2450, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-10T15:40:34.786150+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23965",
+  "number": 23965,
+  "title": "8347337: ZGC: String dedups short-lived strings",
+  "head_sha": "d7579b9553345b44a06219db694ea6bec8cb2450",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13768496511"
+}
