@@ -1,0 +1,20 @@
+{
+  "artifact_2723548211": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vamsi-parasa-630acb8fdb4eb7d45f30c728b331c8786ed67c87)\nOpenJDK 64-Bit Server VM (build 25-internal-vamsi-parasa-630acb8fdb4eb7d45f30c728b331c8786ed67c87, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5306c39c389e73b24cfa1d32d233cdf30f0e68a5.json",
+    "be13918d7d706b3e5f2d844784fe095eeb23c63f.json",
+    "c578c93634d9ef9a4a9bec0e7501ce4d3a269cd1.json",
+    "e979438294e128853e6aaf957fbbbbccbdcf0496.json",
+    "f09266d036a807bbe81e89b460609b47392d5981.json"
+  ],
+  "datetime": "2025-03-10T16:36:27.449283+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23501",
+  "number": 23501,
+  "title": "8349582: APX NDD code generation for OpenJDK",
+  "head_sha": "630acb8fdb4eb7d45f30c728b331c8786ed67c87",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13768496511"
+}
