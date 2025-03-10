@@ -1,0 +1,14 @@
+{
+  "artifact_2723199826": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rajamah-65d95acf8d92dd46aa6ded1aaa4c3db5f66969a7)\nOpenJDK 64-Bit Server VM (build 25-internal-rajamah-65d95acf8d92dd46aa6ded1aaa4c3db5f66969a7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-10T15:51:14.272255+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23964",
+  "number": 23964,
+  "title": " 8280818: Expand bug8033699.java to iterate over all LaFs",
+  "head_sha": "65d95acf8d92dd46aa6ded1aaa4c3db5f66969a7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13768496511"
+}
