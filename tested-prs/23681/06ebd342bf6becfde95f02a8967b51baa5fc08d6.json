@@ -1,0 +1,27 @@
+{
+  "artifact_2724771456": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-artur-oracle-06ebd342bf6becfde95f02a8967b51baa5fc08d6)\nOpenJDK 64-Bit Server VM (build 25-internal-artur-oracle-06ebd342bf6becfde95f02a8967b51baa5fc08d6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0c8d6d8185c0a105671b204fb5be4116893abcb0.json",
+    "23df4cee63cfb6d7f46d8ae35474e36897c00c0d.json",
+    "4b335619ee6a79a6f609fe98c5339588a6a1342a.json",
+    "6cc2ff5ea5843991dfb2da4141e3d1f800352b3f.json",
+    "748cbb55fcbfce16091f91a34430ebf6303a1138.json",
+    "7a786e0dba679e5091ef075e0745ed0f6e3c2af0.json",
+    "bc8d933e64eac6ffa81bcb53bf5f3ec64d396212.json",
+    "d0ef5526e175af8dbc14e5a8314abbf2661d4949.json",
+    "db7c1e75749e8722f86d17e51ed4e22418229f2e.json",
+    "efb1185193db0bb0082bfaff77354453416281c8.json",
+    "f663e04f21729383590e648b3d15c76c23284f9b.json",
+    "f7fcbcbd32fdee21bcf2fa2bc2d2acc48cfa091e.json"
+  ],
+  "datetime": "2025-03-10T19:25:29.630464+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23681",
+  "number": 23681,
+  "title": "8349583: Add mechanism to disable signature schemes based on their TLS scope",
+  "head_sha": "06ebd342bf6becfde95f02a8967b51baa5fc08d6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13772203410"
+}
