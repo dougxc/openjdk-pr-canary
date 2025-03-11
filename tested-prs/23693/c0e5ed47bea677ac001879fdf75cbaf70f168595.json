@@ -1,0 +1,16 @@
+{
+  "artifact_2728605813": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dbriemann-c0e5ed47bea677ac001879fdf75cbaf70f168595)\nOpenJDK 64-Bit Server VM (build 25-internal-dbriemann-c0e5ed47bea677ac001879fdf75cbaf70f168595, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "349997a89db674fe1f1f1a813f476cd98cb301b7.json"
+  ],
+  "datetime": "2025-03-11T11:43:28.169242+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23693",
+  "number": 23693,
+  "title": "8311227: Add .editorconfig so IDEs would pick up the common settings automatically: indent, trim trailing whitespace",
+  "head_sha": "c0e5ed47bea677ac001879fdf75cbaf70f168595",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13785906003"
+}
