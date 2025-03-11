@@ -1,0 +1,14 @@
+{
+  "artifact_2730378885": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Hamlin-Li-71e4d78c2dc7fdeda981766602c42c740b3de80d)\nOpenJDK 64-Bit Server VM (build 25-internal-Hamlin-Li-71e4d78c2dc7fdeda981766602c42c740b3de80d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-11T14:55:46.989634+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23985",
+  "number": 23985,
+  "title": "8351662: [Test] RISC-V: enable bunch of IR test",
+  "head_sha": "71e4d78c2dc7fdeda981766602c42c740b3de80d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13790637339"
+}
