@@ -1,0 +1,14 @@
+{
+  "artifact_2729076071": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jatin-bhateja-e41d3d42fdad3852444bdd327bc2a579651789d6)\nOpenJDK 64-Bit Server VM (build 25-internal-jatin-bhateja-e41d3d42fdad3852444bdd327bc2a579651789d6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-11T12:08:56.408715+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23979",
+  "number": 23979,
+  "title": "8350840: C2: x64 Assembler::vpcmpeqq assert: failed: XMM register should be 0-15",
+  "head_sha": "e41d3d42fdad3852444bdd327bc2a579651789d6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13786862965"
+}
