@@ -1,0 +1,14 @@
+{
+  "artifact_2731735721": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-12ff495c89348294df4dc584cecfc7caa225b847)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-12ff495c89348294df4dc584cecfc7caa225b847, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-11T18:02:28.382269+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23991",
+  "number": 23991,
+  "title": "8351665: Remove unused UseNUMA in os_aix.cpp",
+  "head_sha": "12ff495c89348294df4dc584cecfc7caa225b847",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13794417691"
+}
