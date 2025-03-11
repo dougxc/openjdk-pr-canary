@@ -1,0 +1,14 @@
+{
+  "artifact_2730438402": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-coleenp-f52d1fbd926679ea7b906effd27b68a08d15f152)\nOpenJDK 64-Bit Server VM (build 25-internal-coleenp-f52d1fbd926679ea7b906effd27b68a08d15f152, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-11T15:17:39.166463+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23981",
+  "number": 23981,
+  "title": "8351651: Cleanup LockStack::is_owning_thread",
+  "head_sha": "f52d1fbd926679ea7b906effd27b68a08d15f152",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13790637339"
+}
