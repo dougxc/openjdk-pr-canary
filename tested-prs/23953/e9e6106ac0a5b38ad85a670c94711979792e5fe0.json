@@ -1,0 +1,19 @@
+{
+  "artifact_2726344193": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexmenkov-e9e6106ac0a5b38ad85a670c94711979792e5fe0)\nOpenJDK 64-Bit Server VM (build 25-internal-alexmenkov-e9e6106ac0a5b38ad85a670c94711979792e5fe0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "82a046856366f30d6575b7e78134984c44bd0497.json",
+    "90801c73a2a0e09a248737dc97ae47fcfc186f72.json",
+    "9f4198b157212b75371bfbc9134738a40910d12b.json",
+    "d64bb77e89cab6d428a202a3305a16e9cc0fc9ed.json"
+  ],
+  "datetime": "2025-03-11T02:18:47.117122+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23953",
+  "number": 23953,
+  "title": "init",
+  "head_sha": "e9e6106ac0a5b38ad85a670c94711979792e5fe0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13778680972"
+}
