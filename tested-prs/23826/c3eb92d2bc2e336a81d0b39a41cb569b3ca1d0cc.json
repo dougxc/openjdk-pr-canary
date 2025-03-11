@@ -1,0 +1,16 @@
+{
+  "artifact_2729179211": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dbriemann-c3eb92d2bc2e336a81d0b39a41cb569b3ca1d0cc)\nOpenJDK 64-Bit Server VM (build 25-internal-dbriemann-c3eb92d2bc2e336a81d0b39a41cb569b3ca1d0cc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0b93d006fe8758fcc4831b57d3ad943aba268934.json"
+  ],
+  "datetime": "2025-03-11T12:43:09.009303+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23826",
+  "number": 23826,
+  "title": "8350866: [x86] Add C1 intrinsics for CRC32-C",
+  "head_sha": "c3eb92d2bc2e336a81d0b39a41cb569b3ca1d0cc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13786862965"
+}
