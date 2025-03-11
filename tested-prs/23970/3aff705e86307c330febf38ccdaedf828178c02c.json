@@ -1,0 +1,16 @@
+{
+  "artifact_2729842447": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-seanjmullan-3aff705e86307c330febf38ccdaedf828178c02c)\nOpenJDK 64-Bit Server VM (build 25-internal-seanjmullan-3aff705e86307c330febf38ccdaedf828178c02c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c5c2017885a3208445010eaf1ad066b6a991992b.json"
+  ],
+  "datetime": "2025-03-11T13:44:30.893173+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23970",
+  "number": 23970,
+  "title": "8351349: GSSUtil.createSubject has outdated access control context and policy related text",
+  "head_sha": "3aff705e86307c330febf38ccdaedf828178c02c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13789355375"
+}
