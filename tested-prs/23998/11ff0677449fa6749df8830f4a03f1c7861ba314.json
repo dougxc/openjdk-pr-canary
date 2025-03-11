@@ -1,0 +1,14 @@
+{
+  "artifact_2726386775": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-earthling-amzn-11ff0677449fa6749df8830f4a03f1c7861ba314)\nOpenJDK 64-Bit Server VM (build 25-internal-earthling-amzn-11ff0677449fa6749df8830f4a03f1c7861ba314, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-11T20:13:23.256676+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23998",
+  "number": 23998,
+  "title": "8348400: GenShen: assert(ShenandoahHeap::heap()->is_full_gc_in_progress() || (used_regions_size() <= _max_capacity)) failed: Cannot use more than capacity #",
+  "head_sha": "11ff0677449fa6749df8830f4a03f1c7861ba314",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13796474792"
+}
