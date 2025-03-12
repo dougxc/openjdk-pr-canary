@@ -98458,6 +98458,29 @@
 		]
 	},
 	{
+		"id": "jdk-24.0.2+1-15",
+		"revisions": {
+			"graal-enterprise": [
+				"1b752ad0e40fe42b4337f25faeabd27729a9d056"
+			],
+			"open": [
+				"bc4c8e1024ae6e35dcb164bbf4e698e324351f66"
+			],
+			"mx": [
+				"a424108634b46317d9cb9b5f7d75325bc41f4c73"
+			],
+			".": [
+				"389218b0fa37468e481cfd2954e2238395f767fa"
+			],
+			"graal": [
+				"9aad0ec168b7b0c920638a8219aa681646db93ec"
+			]
+		},
+		"aliases": [
+			"jdk-24.0.2-15"
+		]
+	},
+	{
 		"id": "jdk-25+1-1",
 		"revisions": {
 			"graal-enterprise": [
