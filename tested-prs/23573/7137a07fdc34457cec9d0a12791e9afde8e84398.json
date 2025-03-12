@@ -1,0 +1,14 @@
+{
+  "artifact_2734071822": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-chadrako-7137a07fdc34457cec9d0a12791e9afde8e84398)\nOpenJDK 64-Bit Server VM (build 25-internal-chadrako-7137a07fdc34457cec9d0a12791e9afde8e84398, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-12T02:21:58.553430+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23573",
+  "number": 23573,
+  "title": "8316694: Implement relocation of nmethod within CodeCache",
+  "head_sha": "7137a07fdc34457cec9d0a12791e9afde8e84398",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13802013812"
+}
