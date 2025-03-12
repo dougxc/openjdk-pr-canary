@@ -1,0 +1,14 @@
+{
+  "artifact_2739543151": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jdksjolen-42fbe8fe6370b8178bb5233e23520f1a3de2fd30)\nOpenJDK 64-Bit Server VM (build 25-internal-jdksjolen-42fbe8fe6370b8178bb5233e23520f1a3de2fd30, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-12T18:03:13.700539+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24014",
+  "number": 24014,
+  "title": "8351875: Remove chunk pools from arena",
+  "head_sha": "42fbe8fe6370b8178bb5233e23520f1a3de2fd30",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13817749788"
+}
