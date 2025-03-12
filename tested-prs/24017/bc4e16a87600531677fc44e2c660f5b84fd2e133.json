@@ -1,0 +1,14 @@
+{
+  "artifact_2740443543": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-plummercj-bc4e16a87600531677fc44e2c660f5b84fd2e133)\nOpenJDK 64-Bit Server VM (build 25-internal-plummercj-bc4e16a87600531677fc44e2c660f5b84fd2e133, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-12T20:40:32.243382+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24017",
+  "number": 24017,
+  "title": "8351699: Problem list com/sun/jdi/JdbStopInNotificationThreadTest.java with ZGC",
+  "head_sha": "bc4e16a87600531677fc44e2c660f5b84fd2e133",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13820932019"
+}
