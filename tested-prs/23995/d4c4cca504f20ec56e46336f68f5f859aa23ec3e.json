@@ -1,0 +1,16 @@
+{
+  "artifact_2738115868": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-snake66-d4c4cca504f20ec56e46336f68f5f859aa23ec3e)\nOpenJDK 64-Bit Server VM (build 25-internal-snake66-d4c4cca504f20ec56e46336f68f5f859aa23ec3e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c938278864c38be1ec7377f81869c4889165e23d.json"
+  ],
+  "datetime": "2025-03-12T14:56:50.877042+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23995",
+  "number": 23995,
+  "title": "8351323: Parameterize compiler and linker flags for iconv",
+  "head_sha": "d4c4cca504f20ec56e46336f68f5f859aa23ec3e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13813945221"
+}
