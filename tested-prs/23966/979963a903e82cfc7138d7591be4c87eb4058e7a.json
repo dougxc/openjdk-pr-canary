@@ -1,0 +1,18 @@
+{
+  "artifact_2736238677": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-979963a903e82cfc7138d7591be4c87eb4058e7a)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-979963a903e82cfc7138d7591be4c87eb4058e7a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2aa878e8358157195ddda879ef1602df2262d584.json",
+    "e6b748d445abff514d32c8948f7c1e956f97c1da.json",
+    "fbe7f56ef75f9d183bfbe315b59fb401c5c547ad.json"
+  ],
+  "datetime": "2025-03-12T09:40:09.621826+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23966",
+  "number": 23966,
+  "title": "8351542: LIBMANAGEMENT_OPTIMIZATION remove special optimization settings",
+  "head_sha": "979963a903e82cfc7138d7591be4c87eb4058e7a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13808004084"
+}
