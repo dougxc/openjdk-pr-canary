@@ -1,0 +1,18 @@
+{
+  "artifact_2740996943": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mpdonova-c1b79738cd84a13c1d7e136bbf130c3ad6a5853f)\nOpenJDK 64-Bit Server VM (build 25-internal-mpdonova-c1b79738cd84a13c1d7e136bbf130c3ad6a5853f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "43df6791601cffef860682cd949dd069e4e188ff.json",
+    "4791105eaefc66db33aed10eb6d49c7415a19a20.json",
+    "83d479cb2f9291e18d16d1b8044c848569db0707.json"
+  ],
+  "datetime": "2025-03-12T21:46:28.244384+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23989",
+  "number": 23989,
+  "title": "8350964: Add an ArtifactResolver.fetch(clazz) method",
+  "head_sha": "c1b79738cd84a13c1d7e136bbf130c3ad6a5853f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13821853223"
+}
