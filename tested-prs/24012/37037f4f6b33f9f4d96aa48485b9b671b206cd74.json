@@ -1,0 +1,14 @@
+{
+  "artifact_2739172243": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-RealCLanger-37037f4f6b33f9f4d96aa48485b9b671b206cd74)\nOpenJDK 64-Bit Server VM (build 25-internal-RealCLanger-37037f4f6b33f9f4d96aa48485b9b671b206cd74, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-12T16:50:53.419051+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24012",
+  "number": 24012,
+  "title": "8351842: Test issues on Windows with combination of --enable-linkable-runtime and --with-external-symbols-in-bundles=public",
+  "head_sha": "37037f4f6b33f9f4d96aa48485b9b671b206cd74",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13816686828"
+}
