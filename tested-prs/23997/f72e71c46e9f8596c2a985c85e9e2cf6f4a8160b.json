@@ -1,0 +1,16 @@
+{
+  "artifact_2734231878": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-earthling-amzn-f72e71c46e9f8596c2a985c85e9e2cf6f4a8160b)\nOpenJDK 64-Bit Server VM (build 25-internal-earthling-amzn-f72e71c46e9f8596c2a985c85e9e2cf6f4a8160b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d0168ca9180e9574a0681214752798af35a58c04.json"
+  ],
+  "datetime": "2025-03-12T02:09:55.664294+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23997",
+  "number": 23997,
+  "title": "8351464: Shenandoah: Hang on ShenandoahController::handle_alloc_failure when run test TestAllocHumongousFragment#generational",
+  "head_sha": "f72e71c46e9f8596c2a985c85e9e2cf6f4a8160b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13802013812"
+}
