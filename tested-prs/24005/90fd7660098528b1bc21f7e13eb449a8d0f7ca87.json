@@ -1,0 +1,16 @@
+{
+  "artifact_2737534169": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-robcasloz-90fd7660098528b1bc21f7e13eb449a8d0f7ca87)\nOpenJDK 64-Bit Server VM (build 25-internal-robcasloz-90fd7660098528b1bc21f7e13eb449a8d0f7ca87, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "47e478a613b1b4fc1554526d8e18e98e0e8d1c78.json"
+  ],
+  "datetime": "2025-03-12T13:14:32.192608+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24005",
+  "number": 24005,
+  "title": "8351468: C2: array fill optimization assigns wrong type to intrinsic call",
+  "head_sha": "90fd7660098528b1bc21f7e13eb449a8d0f7ca87",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13811821780"
+}
