@@ -1,0 +1,14 @@
+{
+  "artifact_2744014874": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-adinn-c8223351341908495f920e7f8651acd8f7c16c0e)\nOpenJDK 64-Bit Server VM (build 25-internal-adinn-c8223351341908495f920e7f8651acd8f7c16c0e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-13T09:40:19.376754+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24026",
+  "number": 24026,
+  "title": "8350589: Investigate cleaner implementation of AArch64 ML-DSA intrinsic introduced in JDK-8348561",
+  "head_sha": "c8223351341908495f920e7f8651acd8f7c16c0e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13831288894"
+}
