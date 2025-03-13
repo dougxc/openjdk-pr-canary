@@ -1,0 +1,22 @@
+{
+  "artifact_2743662495": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rwestrel-9c0b859f802060968cb606d93fbf97d1ad91e4e8)\nOpenJDK 64-Bit Server VM (build 25-internal-rwestrel-9c0b859f802060968cb606d93fbf97d1ad91e4e8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0f1b76ab181720208e82df7c1ebbbe709f60a7c0.json",
+    "34e925b3cf18df8124e2374467393baba5d4d305.json",
+    "5b05d222efebdaad771c431b2193aab63500c48d.json",
+    "806eb20fc4bdaeb9e2476cf5c367a70ba9f37c6e.json",
+    "a1225f745ade961c2adbe6fb29d673e624b691b3.json",
+    "d3b1cf08c69cc3e9436a0f8fb6f05cc1ef29a508.json",
+    "e4053783171e98a2503a3ba274c7bc57be8e493e.json"
+  ],
+  "datetime": "2025-03-13T09:18:20.546554+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23438",
+  "number": 23438,
+  "title": "8349361: C2: RShiftL should support all applicable transformations that RShiftI does",
+  "head_sha": "9c0b859f802060968cb606d93fbf97d1ad91e4e8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13830286833"
+}
