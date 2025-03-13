@@ -1,0 +1,16 @@
+{
+  "artifact_2745628032": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-SirYwell-b82ed237eaa578a53d8af7611f2aa81d676814f1)\nOpenJDK 64-Bit Server VM (build 25-internal-SirYwell-b82ed237eaa578a53d8af7611f2aa81d676814f1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "41c555cdab85401a3d9fd2effb501993315ef173.json"
+  ],
+  "datetime": "2025-03-13T14:06:39.046164+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23851",
+  "number": 23851,
+  "title": "8350988: Consolidate Identity of self-inverse operations",
+  "head_sha": "b82ed237eaa578a53d8af7611f2aa81d676814f1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13835916839"
+}
