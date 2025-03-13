@@ -1,0 +1,14 @@
+{
+  "artifact_2746971603": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lmesnik-5982af70b0042b43868e99e3d4a9933130c27a87)\nOpenJDK 64-Bit Server VM (build 25-internal-lmesnik-5982af70b0042b43868e99e3d4a9933130c27a87, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-13T19:26:16.302387+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24040",
+  "number": 24040,
+  "title": "8351375: nsk/jvmti/ tests should fail when  nsk_jvmti_setFailStatus() is called.",
+  "head_sha": "5982af70b0042b43868e99e3d4a9933130c27a87",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13842137945"
+}
