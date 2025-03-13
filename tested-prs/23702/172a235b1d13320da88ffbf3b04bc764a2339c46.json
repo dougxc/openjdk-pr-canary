@@ -1,0 +1,29 @@
+{
+  "artifact_2747845160": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-DougLea-172a235b1d13320da88ffbf3b04bc764a2339c46)\nOpenJDK 64-Bit Server VM (build 25-internal-DougLea-172a235b1d13320da88ffbf3b04bc764a2339c46, mixed mode, sharing)"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/10744",
+    "number": "10744",
+    "revision": "25424b8489286c7d66c059d3d20dc27d04cb93e4"
+  },
+  "status": "passed",
+  "history": [
+    "0c5d22a34de9dfdd12edcfaeeb565d1aa784d7f7.json",
+    "16815cc020bc71167b63a659cd755ed11aab8c6b.json",
+    "53516e9de35a087ca8a0fb2dccb8ad6b7a01851f.json",
+    "6fe1a3bd2d3e0996c9ab357cdaa15aed4fa5d1b5.json",
+    "84eaab0501080ddeb4fa7a4a8fd6696f4d2cdabd.json",
+    "9cc670bc2cdf35c1055d6f469d4210d27d26bffc.json",
+    "b40513fb656f0bc394da8d97dbfa424800a3746e.json",
+    "c9bc41ac4d9beb2a85a4b62a7e8bc598578ef779.json",
+    "f6709108bf144840fb9b806a818df0c9a90256e9.json"
+  ],
+  "datetime": "2025-03-13T19:15:54.856475+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23702",
+  "number": 23702,
+  "title": "8319447: Improve performance of delayed task handling",
+  "head_sha": "172a235b1d13320da88ffbf3b04bc764a2339c46",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13842137945"
+}
