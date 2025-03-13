@@ -1,0 +1,18 @@
+{
+  "artifact_2747498845": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-driverkt-e4677965ca57afcbaa5b553346442327bf9354fc)\nOpenJDK 64-Bit Server VM (build 25-internal-driverkt-e4677965ca57afcbaa5b553346442327bf9354fc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2b133a315eba2b61bcfafb60e3e741024eb104a2.json",
+    "4c78b9fd5aee5654724743175043c77aa80876b0.json",
+    "64061d9800b7c8b82b735ed8b5385a059b063e15.json"
+  ],
+  "datetime": "2025-03-13T17:48:47.584419+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22222",
+  "number": 22222,
+  "title": "8341775: Duplicate manifest files are removed by jarsigner after signing",
+  "head_sha": "e4677965ca57afcbaa5b553346442327bf9354fc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13839860660"
+}
