@@ -1,0 +1,25 @@
+{
+  "artifact_2747308933": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vamsi-parasa-a12598b12535d8b273286cddce28ce04fee9aae8)\nOpenJDK 64-Bit Server VM (build 25-internal-vamsi-parasa-a12598b12535d8b273286cddce28ce04fee9aae8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "51d0e0d475908993a2080b4c55725699b9096034.json",
+    "5306c39c389e73b24cfa1d32d233cdf30f0e68a5.json",
+    "630acb8fdb4eb7d45f30c728b331c8786ed67c87.json",
+    "be13918d7d706b3e5f2d844784fe095eeb23c63f.json",
+    "c578c93634d9ef9a4a9bec0e7501ce4d3a269cd1.json",
+    "cb21e92acd882864e1309442deb33ccd2c737bc8.json",
+    "cced83e2cf7d875d411b53ac96bdef1b1fee3314.json",
+    "e02ff23cb20827be3cee05bc4b8d4e36152d0a97.json",
+    "e979438294e128853e6aaf957fbbbbccbdcf0496.json",
+    "f09266d036a807bbe81e89b460609b47392d5981.json"
+  ],
+  "datetime": "2025-03-13T17:37:21.307324+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23501",
+  "number": 23501,
+  "title": "8349582: APX NDD code generation for OpenJDK",
+  "head_sha": "a12598b12535d8b273286cddce28ce04fee9aae8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13839860660"
+}
