@@ -1,0 +1,14 @@
+{
+  "artifact_2745315101": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dchuyko-e5517c7d14cdfe6571aa8170fffd2fcaf15550bc)\nOpenJDK 64-Bit Server VM (build 25-internal-dchuyko-e5517c7d14cdfe6571aa8170fffd2fcaf15550bc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-13T13:55:02.776112+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24034",
+  "number": 24034,
+  "title": "8351933: Inaccurate masking of TC subfield decrement in ForkJoinPool",
+  "head_sha": "e5517c7d14cdfe6571aa8170fffd2fcaf15550bc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13835916839"
+}
