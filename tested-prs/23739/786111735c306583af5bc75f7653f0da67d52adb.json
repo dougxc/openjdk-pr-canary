@@ -1,0 +1,28 @@
+{
+  "artifact_2745551062": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tschatzl-786111735c306583af5bc75f7653f0da67d52adb)\nOpenJDK 64-Bit Server VM (build 25-internal-tschatzl-786111735c306583af5bc75f7653f0da67d52adb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "350a4fa3d2e46f440b8781c080b5608ae754722f.json",
+    "3766b76c8a9e5f4e39a3f37b378c06359d0556c1.json",
+    "4a978118f40f4c5057edcdd8c60bdb4918e62438.json",
+    "758fac018cf5c9345f15bc0f3a9011735124a071.json",
+    "7d361fc15ce3c880d32193b9cefec3fd3dee5f69.json",
+    "810bf2d3aec674bb22b6529c950ddf01af326bfd.json",
+    "93b884f1ca176224091d813de46fefb68d5b83f6.json",
+    "9ef9c5f400928090a5597f5b5d1e026f3f9e3461.json",
+    "a457e6e7c03a1459316f0c072aae740964274e46.json",
+    "aec95051cfc906553eee78c0a4e712ed16a564ba.json",
+    "b3dd0084518ae0320a2a9741d9836ec62e1fcca9.json",
+    "b4d19d9be212e7cc98fca7345e3bc9747d33c477.json",
+    "d87935a0297d07827e4d06e23c4152b6b4458a14.json"
+  ],
+  "datetime": "2025-03-13T14:17:46.951008+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23739",
+  "number": 23739,
+  "title": "8342382: Implementation of JEP G1: Improve Application Throughput with a More Efficient Write-Barrier",
+  "head_sha": "786111735c306583af5bc75f7653f0da67d52adb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13835916839"
+}
