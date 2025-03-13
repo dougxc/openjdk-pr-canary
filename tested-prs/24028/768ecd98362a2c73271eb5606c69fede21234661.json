@@ -1,0 +1,16 @@
+{
+  "artifact_2745587849": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-afshin-zafari-768ecd98362a2c73271eb5606c69fede21234661)\nOpenJDK 64-Bit Server VM (build 25-internal-afshin-zafari-768ecd98362a2c73271eb5606c69fede21234661, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1e316e61b2ed398eaebd21587aff89ef3549d62e.json"
+  ],
+  "datetime": "2025-03-13T14:55:26.501300+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24028",
+  "number": 24028,
+  "title": "8351661: NMT: VMATree should support separate call-stacks for reserve and commit operations",
+  "head_sha": "768ecd98362a2c73271eb5606c69fede21234661",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13837146323"
+}
