@@ -1,0 +1,16 @@
+{
+  "artifact_2745534796": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-e7941d3765773da5a43ef0cf33a4962d43bc1175)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-e7941d3765773da5a43ef0cf33a4962d43bc1175, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "84740c9637ceb511d7aa039b5baa7e3736f4d374.json"
+  ],
+  "datetime": "2025-03-13T13:45:12.375709+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24009",
+  "number": 24009,
+  "title": "8351277: Remove pipewire from AIX build",
+  "head_sha": "e7941d3765773da5a43ef0cf33a4962d43bc1175",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13835916839"
+}
