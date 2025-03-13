@@ -1,0 +1,14 @@
+{
+  "artifact_2744840481": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-minborg-09ca44e6d00c13748fa979d24ce9d6d0faca8741)\nOpenJDK 64-Bit Server VM (build 25-internal-minborg-09ca44e6d00c13748fa979d24ce9d6d0faca8741, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-13T12:40:14.987362+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23972",
+  "number": 23972,
+  "title": "8351565: Implement JEP 502: Stable Values (Preview)",
+  "head_sha": "09ca44e6d00c13748fa979d24ce9d6d0faca8741",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13833450732"
+}
