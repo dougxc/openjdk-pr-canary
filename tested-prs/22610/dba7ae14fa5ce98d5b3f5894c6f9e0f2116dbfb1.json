@@ -1,0 +1,22 @@
+{
+  "artifact_2743152104": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-merykitty-dba7ae14fa5ce98d5b3f5894c6f9e0f2116dbfb1)\nOpenJDK 64-Bit Server VM (build 25-internal-merykitty-dba7ae14fa5ce98d5b3f5894c6f9e0f2116dbfb1, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/10267",
+    "number": "10267",
+    "revision": "2be71a1a0a44334599a0483470976c43769c7248"
+  },
+  "status": "failed",
+  "history": [
+    "e82cc493b615aaea5e48905ea523e171a05f6f8b.json"
+  ],
+  "datetime": "2025-03-13T06:40:42.606004+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22610",
+  "number": 22610,
+  "title": "8345687: Improve the implementation of SegmentFactories::allocateSegment",
+  "head_sha": "dba7ae14fa5ce98d5b3f5894c6f9e0f2116dbfb1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13828569851"
+}
