@@ -1,0 +1,17 @@
+{
+  "artifact_2746553078": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-egahlin-4cf2ecde0c4eb1932f1b0ef78a82691ca3dac44a)\nOpenJDK 64-Bit Server VM (build 25-internal-egahlin-4cf2ecde0c4eb1932f1b0ef78a82691ca3dac44a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2f0d5a0b48b56f2efafe24c101fe37dc8e82b078.json",
+    "6d6723e01bb865b9f8cbe1e9505b2b199a63ac2a.json"
+  ],
+  "datetime": "2025-03-13T16:59:39.654664+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23958",
+  "number": 23958,
+  "title": "8351266: JFR: -XX:StartFlightRecording:report-on-exit",
+  "head_sha": "4cf2ecde0c4eb1932f1b0ef78a82691ca3dac44a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13838480029"
+}
