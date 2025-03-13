@@ -1,0 +1,16 @@
+{
+  "artifact_2749503258": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vidmik-ac2b44db9c585e9b70abeeb61fcc0ece4b333050)\nOpenJDK 64-Bit Server VM (build 25-internal-vidmik-ac2b44db9c585e9b70abeeb61fcc0ece4b333050, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d70f4a8cde5f3d35d37c7768ec04cf4b63e80128.json"
+  ],
+  "datetime": "2025-03-13T23:36:30.853971+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23975",
+  "number": 23975,
+  "title": "8351603: Change to GCC 14.2.0 for building on Linux at Oracle",
+  "head_sha": "ac2b44db9c585e9b70abeeb61fcc0ece4b333050",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13846538316"
+}
