@@ -1,0 +1,19 @@
+{
+  "artifact_2742252520": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ascarpino-106788eff56dae4cf5d5fda81b803f75a0ae6ce5)\nOpenJDK 64-Bit Server VM (build 25-internal-ascarpino-106788eff56dae4cf5d5fda81b803f75a0ae6ce5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "23d89ba022710b80d56400c328e5e641f0946536.json",
+    "56ec3e7ad4edf2a1dd7d35dcdbb873208a47461d.json",
+    "cc952c0bbdbf068c1d30d7df8c5aa83994685f44.json",
+    "f811452759652af1537a80b37d748b4ee2ac98d4.json"
+  ],
+  "datetime": "2025-03-13T02:33:56.358357+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/17543",
+  "number": 17543,
+  "title": "8298420: PEM API: Implementation (Preview)",
+  "head_sha": "106788eff56dae4cf5d5fda81b803f75a0ae6ce5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13825398171"
+}
