@@ -1,0 +1,14 @@
+{
+  "artifact_2745369942": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-caspernorrbin-ed4d479f21b763b19d538b87d157b50d3e1bc4f4)\nOpenJDK 64-Bit Server VM (build 25-internal-caspernorrbin-ed4d479f21b763b19d538b87d157b50d3e1bc4f4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-13T15:28:38.964179+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24036",
+  "number": 24036,
+  "title": "8347734: Turning off PerfData logging doesn't work",
+  "head_sha": "ed4d479f21b763b19d538b87d157b50d3e1bc4f4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13837146323"
+}
