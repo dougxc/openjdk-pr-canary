@@ -1,0 +1,16 @@
+{
+  "artifact_2752015621": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-chhagedorn-1508a3be11c856aa26f46f805de93f5a8577c7f8)\nOpenJDK 64-Bit Server VM (build 25-internal-chhagedorn-1508a3be11c856aa26f46f805de93f5a8577c7f8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a5611e3e98cea97161a8be881ed62e5cd33c451e.json"
+  ],
+  "datetime": "2025-03-14T11:26:21.909892+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24013",
+  "number": 24013,
+  "title": "8350578: Refactor useless Parse and Template Assertion Predicate elimination code by using a PredicateVisitor",
+  "head_sha": "1508a3be11c856aa26f46f805de93f5a8577c7f8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13854742452"
+}
