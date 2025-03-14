@@ -1,0 +1,14 @@
+{
+  "artifact_2752567109": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-egahlin-18b4a15b1dd8c3bd6e3c483d45b3d23c35145888)\nOpenJDK 64-Bit Server VM (build 25-internal-egahlin-18b4a15b1dd8c3bd6e3c483d45b3d23c35145888, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-14T17:08:45.604822+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24056",
+  "number": 24056,
+  "title": "8351992: JFR: Improve robustness of the SettingControl examples",
+  "head_sha": "18b4a15b1dd8c3bd6e3c483d45b3d23c35145888",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13861121632"
+}
