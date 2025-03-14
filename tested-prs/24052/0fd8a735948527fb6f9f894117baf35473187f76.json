@@ -1,0 +1,14 @@
+{
+  "artifact_2751893486": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-0fd8a735948527fb6f9f894117baf35473187f76)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-0fd8a735948527fb6f9f894117baf35473187f76, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-14T10:44:04.929149+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24052",
+  "number": 24052,
+  "title": "8351821: VMManagementImpl.c avoid switching off warnings",
+  "head_sha": "0fd8a735948527fb6f9f894117baf35473187f76",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13854742452"
+}
