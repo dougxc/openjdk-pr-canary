@@ -1,0 +1,14 @@
+{
+  "artifact_2750733075": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-b5c177ee03ef38986021988db34eb775d588a415)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-b5c177ee03ef38986021988db34eb775d588a415, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-14T06:46:40.316047+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24046",
+  "number": 24046,
+  "title": "8352001: AOT cache should not contain classes injected into built-in class loaders",
+  "head_sha": "b5c177ee03ef38986021988db34eb775d588a415",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13851248893"
+}
