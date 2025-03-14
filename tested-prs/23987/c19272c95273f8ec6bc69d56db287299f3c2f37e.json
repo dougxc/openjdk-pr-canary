@@ -1,0 +1,14 @@
+{
+  "artifact_2749824251": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TheRealMDoerr-c19272c95273f8ec6bc69d56db287299f3c2f37e)\nOpenJDK 64-Bit Server VM (build 25-internal-TheRealMDoerr-c19272c95273f8ec6bc69d56db287299f3c2f37e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-14T11:36:55.595264+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23987",
+  "number": 23987,
+  "title": "8351666: [PPC64] Make non-volatile VectorRegisters available for C2 register allocation",
+  "head_sha": "c19272c95273f8ec6bc69d56db287299f3c2f37e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13854742452"
+}
