@@ -1,0 +1,14 @@
+{
+  "artifact_2754009994": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-e3090e8fa7132a2bfb28549eb80ba523fe5bde5e)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-e3090e8fa7132a2bfb28549eb80ba523fe5bde5e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-14T16:45:34.461416+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24063",
+  "number": 24063,
+  "title": "8352044: Add --with-import-jvms to configure",
+  "head_sha": "e3090e8fa7132a2bfb28549eb80ba523fe5bde5e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13861121632"
+}
