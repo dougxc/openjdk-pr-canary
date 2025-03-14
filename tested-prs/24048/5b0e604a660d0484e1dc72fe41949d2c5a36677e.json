@@ -1,0 +1,14 @@
+{
+  "artifact_2751190800": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-RealFYang-5b0e604a660d0484e1dc72fe41949d2c5a36677e)\nOpenJDK 64-Bit Server VM (build 25-internal-RealFYang-5b0e604a660d0484e1dc72fe41949d2c5a36677e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-14T08:43:37.384512+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24048",
+  "number": 24048,
+  "title": "8352011: RISC-V: Two IR tests fail after JDK-8351662",
+  "head_sha": "5b0e604a660d0484e1dc72fe41949d2c5a36677e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13852755049"
+}
