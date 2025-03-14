@@ -1,0 +1,14 @@
+{
+  "artifact_2752082019": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rohitarulraj-8de2e2c28914838be485a0f68de9ac08c27c6e6b)\nOpenJDK 64-Bit Server VM (build 25-internal-rohitarulraj-8de2e2c28914838be485a0f68de9ac08c27c6e6b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-14T13:48:16.429718+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24053",
+  "number": 24053,
+  "title": "8317976: Optimize SIMD sort for AMD Zen 4",
+  "head_sha": "8de2e2c28914838be485a0f68de9ac08c27c6e6b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13856934675"
+}
