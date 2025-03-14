@@ -1,0 +1,14 @@
+{
+  "artifact_2753943075": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JoKern65-48668be6354f88eabf617b1eaa0a602cd9425c54)\nOpenJDK 64-Bit Server VM (build 25-internal-JoKern65-48668be6354f88eabf617b1eaa0a602cd9425c54, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-14T16:56:42.344968+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24062",
+  "number": 24062,
+  "title": "8352064: AIX: now also able to build static-jdk image with a statically linked launcher",
+  "head_sha": "48668be6354f88eabf617b1eaa0a602cd9425c54",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13861121632"
+}
