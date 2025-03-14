@@ -1,0 +1,14 @@
+{
+  "artifact_2752414955": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JoKern65-2226d7f9d340a2e35e9ada0cedf254783b82e889)\nOpenJDK 64-Bit Server VM (build 25-internal-JoKern65-2226d7f9d340a2e35e9ada0cedf254783b82e889, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-14T13:24:45.847948+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24055",
+  "number": 24055,
+  "title": "8352046: Test testEcoFriendly() in jdk tools launcher ExecutionEnvironment.java makes no sense for aix and musl",
+  "head_sha": "2226d7f9d340a2e35e9ada0cedf254783b82e889",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13856934675"
+}
