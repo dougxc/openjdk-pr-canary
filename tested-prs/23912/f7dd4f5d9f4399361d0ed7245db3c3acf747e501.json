@@ -1,0 +1,17 @@
+{
+  "artifact_2751640077": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tstuefe-f7dd4f5d9f4399361d0ed7245db3c3acf747e501)\nOpenJDK 64-Bit Server VM (build 25-internal-tstuefe-f7dd4f5d9f4399361d0ed7245db3c3acf747e501, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "69b2076e960e67c667f20889584cee9b8acf6f7d.json",
+    "788948497b7a1306dabfaef8a66a3ec29585f28c.json"
+  ],
+  "datetime": "2025-03-14T11:47:25.306258+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23912",
+  "number": 23912,
+  "title": "8351040: [REDO] Protection zone for easier detection of accidental zero-nKlass use",
+  "head_sha": "f7dd4f5d9f4399361d0ed7245db3c3acf747e501",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13854742452"
+}
