@@ -1,0 +1,14 @@
+{
+  "artifact_2756328623": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-earthling-amzn-ed3894ca5e6fd80722c5ce43ac46459c7e0c4843)\nOpenJDK 64-Bit Server VM (build 25-internal-earthling-amzn-ed3894ca5e6fd80722c5ce43ac46459c7e0c4843, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-15T02:18:23.144367+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24069",
+  "number": 24069,
+  "title": "8352091: GenShen: assert(!(request.generation->is_old() && _heap->old_generation()->is_doing_mixed_evacuations())) failed: Old heuristic should not request cycles while it waits for mixed evacuation",
+  "head_sha": "ed3894ca5e6fd80722c5ce43ac46459c7e0c4843",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13868337439"
+}
