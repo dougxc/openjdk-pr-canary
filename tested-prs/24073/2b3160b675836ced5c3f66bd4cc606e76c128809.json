@@ -1,0 +1,14 @@
+{
+  "artifact_2759661343": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-2b3160b675836ced5c3f66bd4cc606e76c128809)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-2b3160b675836ced5c3f66bd4cc606e76c128809, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-16T09:36:46.627764+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24073",
+  "number": 24073,
+  "title": "8352108: \"COMPILE SKIPPED: concurrent class loading\" cause tests intermittent fails",
+  "head_sha": "2b3160b675836ced5c3f66bd4cc606e76c128809",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13881993821"
+}
