@@ -1,0 +1,14 @@
+{
+  "artifact_2766009898": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-hns-743dc4883aced314b69695d9dd833f9d9ef855e3)\nOpenJDK 64-Bit Server VM (build 25-internal-hns-743dc4883aced314b69695d9dd833f9d9ef855e3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-17T16:48:42.713277+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24083",
+  "number": 24083,
+  "title": "8352151: Fix display issues in javadoc-generated docs",
+  "head_sha": "743dc4883aced314b69695d9dd833f9d9ef855e3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13904837162"
+}
