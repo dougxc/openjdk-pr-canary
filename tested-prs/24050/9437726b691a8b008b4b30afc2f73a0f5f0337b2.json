@@ -1,0 +1,16 @@
+{
+  "artifact_2761859128": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tkiriyama-9437726b691a8b008b4b30afc2f73a0f5f0337b2)\nOpenJDK 64-Bit Server VM (build 25-internal-tkiriyama-9437726b691a8b008b4b30afc2f73a0f5f0337b2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ef68ba4d98513c1cc59c49d085018c23aa550fdb.json"
+  ],
+  "datetime": "2025-03-17T03:51:44.454802+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24050",
+  "number": 24050,
+  "title": "8352016: Improve java/lang/RuntimeTests/RuntimeExitLogTest.java",
+  "head_sha": "9437726b691a8b008b4b30afc2f73a0f5f0337b2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13891062773"
+}
