@@ -1,0 +1,14 @@
+{
+  "artifact_2763350214": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tschatzl-cf504eded35d549338d990402c631c04290dc92b)\nOpenJDK 64-Bit Server VM (build 25-internal-tschatzl-cf504eded35d549338d990402c631c04290dc92b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-17T10:45:27.163627+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24075",
+  "number": 24075,
+  "title": "8352138: G1: Remove G1AddMetaspaceDependency.java test",
+  "head_sha": "cf504eded35d549338d990402c631c04290dc92b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13897272162"
+}
