@@ -1,0 +1,14 @@
+{
+  "artifact_2767692670": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-albertnetymk-e9b48b7028683fa3a31ad21ee61e9530ca276fd1)\nOpenJDK 64-Bit Server VM (build 25-internal-albertnetymk-e9b48b7028683fa3a31ad21ee61e9530ca276fd1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-17T20:40:17.542666+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24088",
+  "number": 24088,
+  "title": "8352178: Add precondition in Handshake::execute to prevent deadlock",
+  "head_sha": "e9b48b7028683fa3a31ad21ee61e9530ca276fd1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13909214855"
+}
