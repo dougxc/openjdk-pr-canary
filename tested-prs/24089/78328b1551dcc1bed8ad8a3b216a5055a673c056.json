@@ -1,0 +1,14 @@
+{
+  "artifact_2768000089": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexmenkov-78328b1551dcc1bed8ad8a3b216a5055a673c056)\nOpenJDK 64-Bit Server VM (build 25-internal-alexmenkov-78328b1551dcc1bed8ad8a3b216a5055a673c056, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-17T21:38:17.551816+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24089",
+  "number": 24089,
+  "title": "8352163: [AIX] SIGILL in AttachOperation::ReplyWriter::write_fully after 8319055",
+  "head_sha": "78328b1551dcc1bed8ad8a3b216a5055a673c056",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13910189048"
+}
