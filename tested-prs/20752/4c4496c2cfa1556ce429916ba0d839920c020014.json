@@ -1,0 +1,19 @@
+{
+  "artifact_2763648214": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-parttimenerd-4c4496c2cfa1556ce429916ba0d839920c020014)\nOpenJDK 64-Bit Server VM (build 25-internal-parttimenerd-4c4496c2cfa1556ce429916ba0d839920c020014, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "18ec381190297d04b78a6c3752999b1cd399a17e.json",
+    "39df193910416aeacb271117ee31141c8f0a06ef.json",
+    "c65d87045751a25bcc360aac66673350fb233dc0.json",
+    "f1bb87f1c7f9c75f29121b554382f3f82782b900.json"
+  ],
+  "datetime": "2025-03-17T10:56:56.923875+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20752",
+  "number": 20752,
+  "title": "8342818: Implement CPU Time Profiling for JFR",
+  "head_sha": "4c4496c2cfa1556ce429916ba0d839920c020014",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13897272162"
+}
