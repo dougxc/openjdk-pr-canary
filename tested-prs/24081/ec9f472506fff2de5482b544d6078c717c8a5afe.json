@@ -1,0 +1,16 @@
+{
+  "artifact_2767382396": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Hamlin-Li-ec9f472506fff2de5482b544d6078c717c8a5afe)\nOpenJDK 64-Bit Server VM (build 25-internal-Hamlin-Li-ec9f472506fff2de5482b544d6078c717c8a5afe, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2b244afcdd791bf30536ec14add9bad31d0d1d2c.json"
+  ],
+  "datetime": "2025-03-17T19:45:13.913003+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24081",
+  "number": 24081,
+  "title": "8352159: RISC-V: add more zfa support",
+  "head_sha": "ec9f472506fff2de5482b544d6078c717c8a5afe",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13908102556"
+}
