@@ -1,0 +1,15 @@
+{
+  "artifact_2772265434": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-myankelev-6bcc7e2564c6e67b7dd893eb03c8f33f446b1513)\nOpenJDK 64-Bit Server VM (build 25-internal-myankelev-6bcc7e2564c6e67b7dd893eb03c8f33f446b1513, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-03-18T13:29:20.012688+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23988",
+  "number": 23988,
+  "title": "8351566: Consolidate third party artifacts used in tests",
+  "head_sha": "6bcc7e2564c6e67b7dd893eb03c8f33f446b1513",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13923690076"
+}
