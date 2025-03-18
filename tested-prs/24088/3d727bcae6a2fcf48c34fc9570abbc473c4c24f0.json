@@ -1,0 +1,17 @@
+{
+  "artifact_2773567349": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-albertnetymk-3d727bcae6a2fcf48c34fc9570abbc473c4c24f0)\nOpenJDK 64-Bit Server VM (build 25-internal-albertnetymk-3d727bcae6a2fcf48c34fc9570abbc473c4c24f0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7480c141f3a89f0c1b7aa4dbc7fba4360d93f155.json",
+    "e9b48b7028683fa3a31ad21ee61e9530ca276fd1.json"
+  ],
+  "datetime": "2025-03-18T15:41:44.459527+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24088",
+  "number": 24088,
+  "title": "8352178: Add precondition in VMThread::execute to prevent deadlock",
+  "head_sha": "3d727bcae6a2fcf48c34fc9570abbc473c4c24f0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13927179357"
+}
