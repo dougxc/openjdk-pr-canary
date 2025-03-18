@@ -1,0 +1,14 @@
+{
+  "artifact_2769043397": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexmenkov-204188d614ac993442c22fe4227ebce201f6eba2)\nOpenJDK 64-Bit Server VM (build 25-internal-alexmenkov-204188d614ac993442c22fe4227ebce201f6eba2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-18T02:10:35.588723+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24091",
+  "number": 24091,
+  "title": "8352180: AttachListenerThread causes many tests to timeout on Windows",
+  "head_sha": "204188d614ac993442c22fe4227ebce201f6eba2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13913744406"
+}
