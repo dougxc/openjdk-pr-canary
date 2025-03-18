@@ -1,0 +1,18 @@
+{
+  "artifact_2770411723": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prsadhuk-c8451558684a1bdb646b98acc005bb94eae41e53)\nOpenJDK 64-Bit Server VM (build 25-internal-prsadhuk-c8451558684a1bdb646b98acc005bb94eae41e53, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "196ba416e3a7116905bfa0825c60c45d00a8b708.json",
+    "958b39c4b5f2be04ca2446e598159d70777bbae6.json",
+    "b2a8c8e116f7ded33970df6409a72a3199fa3575.json"
+  ],
+  "datetime": "2025-03-18T07:48:43.628801+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24025",
+  "number": 24025,
+  "title": "4466930: JTable.selectAll boundary handling",
+  "head_sha": "c8451558684a1bdb646b98acc005bb94eae41e53",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13917669218"
+}
