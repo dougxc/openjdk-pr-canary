@@ -1,0 +1,14 @@
+{
+  "artifact_2775331877": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vnkozlov-d8b8cf31334c3c5e447854fd85c647d949f21eb3)\nOpenJDK 64-Bit Server VM (build 25-internal-vnkozlov-d8b8cf31334c3c5e447854fd85c647d949f21eb3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-18T19:45:44.908025+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24102",
+  "number": 24102,
+  "title": "8352112: [ubsan] hotspot/share/code/relocInfo.cpp:130:37: runtime error: applying non-zero offset 18446744073709551614 to null pointer",
+  "head_sha": "d8b8cf31334c3c5e447854fd85c647d949f21eb3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13931760722"
+}
