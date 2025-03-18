@@ -137762,6 +137762,9 @@
 		},
 		"aliases": [
 			"jdk-25-1637"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -137786,6 +137789,9 @@
 		},
 		"aliases": [
 			"jdk-25-1638"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	}
 ]
