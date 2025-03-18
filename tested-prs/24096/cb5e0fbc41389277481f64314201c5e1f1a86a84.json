@@ -1,0 +1,15 @@
+{
+  "artifact_2771766312": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Hamlin-Li-cb5e0fbc41389277481f64314201c5e1f1a86a84)\nOpenJDK 64-Bit Server VM (build 25-internal-Hamlin-Li-cb5e0fbc41389277481f64314201c5e1f1a86a84, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-03-18T11:27:42.161236+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24096",
+  "number": 24096,
+  "title": "8320997: RISC-V: C2 ReverseV",
+  "head_sha": "cb5e0fbc41389277481f64314201c5e1f1a86a84",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13922016466"
+}
