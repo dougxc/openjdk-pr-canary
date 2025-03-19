@@ -1,0 +1,14 @@
+{
+  "artifact_2784753928": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-6a95590b485ae66334fa020451a18f694f83e328)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-6a95590b485ae66334fa020451a18f694f83e328, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-19T23:37:00.921786+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24122",
+  "number": 24122,
+  "title": "8352435: Refactor CDS test library for execution and module packaging",
+  "head_sha": "6a95590b485ae66334fa020451a18f694f83e328",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13958655235"
+}
