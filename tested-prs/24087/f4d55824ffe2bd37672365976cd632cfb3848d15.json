@@ -1,0 +1,14 @@
+{
+  "artifact_2777097297": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexeysemenyukoracle-f4d55824ffe2bd37672365976cd632cfb3848d15)\nOpenJDK 64-Bit Server VM (build 25-internal-alexeysemenyukoracle-f4d55824ffe2bd37672365976cd632cfb3848d15, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-19T02:21:47.520828+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24087",
+  "number": 24087,
+  "title": "8352176: Automate setting up environment for mac signing tests",
+  "head_sha": "f4d55824ffe2bd37672365976cd632cfb3848d15",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13937224255"
+}
