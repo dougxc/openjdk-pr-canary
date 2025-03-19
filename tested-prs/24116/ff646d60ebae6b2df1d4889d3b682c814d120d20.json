@@ -1,0 +1,14 @@
+{
+  "artifact_2781545193": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-varada1110-ff646d60ebae6b2df1d4889d3b682c814d120d20)\nOpenJDK 64-Bit Server VM (build 25-internal-varada1110-ff646d60ebae6b2df1d4889d3b682c814d120d20, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-19T15:42:50.362357+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24116",
+  "number": 24116,
+  "title": "8352393: AIX: Problem list serviceability/attach/AttachAPIv2/StreamingOutputTest.java",
+  "head_sha": "ff646d60ebae6b2df1d4889d3b682c814d120d20",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13950453345"
+}
