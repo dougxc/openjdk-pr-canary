@@ -1,0 +1,17 @@
+{
+  "artifact_2779124549": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-marc-chevalier-9ecb2d6cb786e8b9e9f8bfb942f63d57cba19464)\nOpenJDK 64-Bit Server VM (build 25-internal-marc-chevalier-9ecb2d6cb786e8b9e9f8bfb942f63d57cba19464, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "07928fa23f6db5ed9d5408de5e37f92a0b99f9f0.json",
+    "e12451250c7d2b37e74adc81a9773f0cf101aaeb.json"
+  ],
+  "datetime": "2025-03-19T09:43:47.828190+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24093",
+  "number": 24093,
+  "title": "8314999: IR framework fails to detect allocation",
+  "head_sha": "9ecb2d6cb786e8b9e9f8bfb942f63d57cba19464",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13943202276"
+}
