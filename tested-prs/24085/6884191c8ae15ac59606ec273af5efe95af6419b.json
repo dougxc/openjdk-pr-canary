@@ -1,0 +1,16 @@
+{
+  "artifact_2782363487": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-larry-cable-6884191c8ae15ac59606ec273af5efe95af6419b)\nOpenJDK 64-Bit Server VM (build 25-internal-larry-cable-6884191c8ae15ac59606ec273af5efe95af6419b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7efd7ade99b5aae84a16432fb9c5b2159394ea00.json"
+  ],
+  "datetime": "2025-03-19T17:10:34.751240+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24085",
+  "number": 24085,
+  "title": "8344671: Few JFR streaming tests fail with application not alive error on MacOS 15",
+  "head_sha": "6884191c8ae15ac59606ec273af5efe95af6419b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13951854736"
+}
