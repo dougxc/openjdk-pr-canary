@@ -1,0 +1,16 @@
+{
+  "artifact_2786333759": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-862a01766f80a0940602b05ffa1c7982eece9977)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-862a01766f80a0940602b05ffa1c7982eece9977, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2b1d1b14faf7444bcf2f7fcc87e32904453c781c.json"
+  ],
+  "datetime": "2025-03-20T07:49:50.748088+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24121",
+  "number": 24121,
+  "title": "8352414: JFR: JavaMonitorDeflateEvent crashes when deflated monitor object is dead",
+  "head_sha": "862a01766f80a0940602b05ffa1c7982eece9977",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13964035163"
+}
