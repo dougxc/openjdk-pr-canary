@@ -1,0 +1,14 @@
+{
+  "artifact_2792359897": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-bchristi-git-64f88cd387cb13b42f0562e4d8d746046b4f5e7e)\nOpenJDK 64-Bit Server VM (build 25-internal-bchristi-git-64f88cd387cb13b42f0562e4d8d746046b4f5e7e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-20T23:37:51.792006+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24143",
+  "number": 24143,
+  "title": "8298783: java/lang/ref/FinalizerHistogramTest.java failed with \"RuntimeException: MyObject is not found in test output\"",
+  "head_sha": "64f88cd387cb13b42f0562e4d8d746046b4f5e7e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13981302448"
+}
