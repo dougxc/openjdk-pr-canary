@@ -1,0 +1,17 @@
+{
+  "artifact_2785514973": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-pengxiaolong-6c420c4a9f8a55c934b6e366d7fa90338d83c16e)\nOpenJDK 64-Bit Server VM (build 25-internal-pengxiaolong-6c420c4a9f8a55c934b6e366d7fa90338d83c16e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4726b876ea24037540f42cbe6a22a3e7b2347c90.json",
+    "5a94b1411876cb084f46918dc54e8d20a2f3119b.json"
+  ],
+  "datetime": "2025-03-20T03:50:42.401132+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24092",
+  "number": 24092,
+  "title": "8352185: Shenandoah: Invalid logic for remembered set verification",
+  "head_sha": "6c420c4a9f8a55c934b6e366d7fa90338d83c16e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13961480775"
+}
