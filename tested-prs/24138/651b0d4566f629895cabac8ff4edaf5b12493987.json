@@ -1,0 +1,14 @@
+{
+  "artifact_2790461147": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Hamlin-Li-651b0d4566f629895cabac8ff4edaf5b12493987)\nOpenJDK 64-Bit Server VM (build 25-internal-Hamlin-Li-651b0d4566f629895cabac8ff4edaf5b12493987, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-20T18:47:55.774678+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24138",
+  "number": 24138,
+  "title": "8352529: RISC-V: enable loopopts tests",
+  "head_sha": "651b0d4566f629895cabac8ff4edaf5b12493987",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13976851832"
+}
