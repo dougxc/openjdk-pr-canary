@@ -1,0 +1,19 @@
+{
+  "artifact_2786403659": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-XiaohongGong-7ae9c97d1397125ca27ff9dd63ea500ee0969e2e)\nOpenJDK 64-Bit Server VM (build 25-internal-XiaohongGong-7ae9c97d1397125ca27ff9dd63ea500ee0969e2e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1cbff61fbcf4c289048abcc076be7f3a98f4ac03.json",
+    "3d44a05be6a249f3a064afc98f2c3d1ca7c5850c.json",
+    "5249c9ec408dd5a8341b3ccb0dacb09c6e09220d.json",
+    "8934fae68ed58e0af126a53ec35c4b1a810ceec7.json"
+  ],
+  "datetime": "2025-03-20T08:13:41.152332+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23790",
+  "number": 23790,
+  "title": "8350463: AArch64: Add vector rearrange support for small lane count vectors",
+  "head_sha": "7ae9c97d1397125ca27ff9dd63ea500ee0969e2e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13964035163"
+}
