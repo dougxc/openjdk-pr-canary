@@ -1,0 +1,14 @@
+{
+  "artifact_2789202082": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dbriemann-a4588f186b2048d01c8ed283b39635f0f6558b68)\nOpenJDK 64-Bit Server VM (build 25-internal-dbriemann-a4588f186b2048d01c8ed283b39635f0f6558b68, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-20T15:42:16.693997+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24134",
+  "number": 24134,
+  "title": "8352512: TestVectorZeroCount: counter not reset between iterations",
+  "head_sha": "a4588f186b2048d01c8ed283b39635f0f6558b68",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13973185955"
+}
