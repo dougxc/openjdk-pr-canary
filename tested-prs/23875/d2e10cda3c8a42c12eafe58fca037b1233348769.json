@@ -1,0 +1,17 @@
+{
+  "artifact_2798986491": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-d2e10cda3c8a42c12eafe58fca037b1233348769)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-d2e10cda3c8a42c12eafe58fca037b1233348769, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6729faad1e7f6b3e65969987e69559447dba4e3d.json",
+    "9251340aed90566e638eaf4cdb8d4437941186a4.json"
+  ],
+  "datetime": "2025-03-21T21:59:29.110700+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23875",
+  "number": 23875,
+  "title": "8164714: Constructor.newInstance creates instance of inner class with null outer class",
+  "head_sha": "d2e10cda3c8a42c12eafe58fca037b1233348769",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14001170521"
+}
