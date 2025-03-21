@@ -1,0 +1,17 @@
+{
+  "artifact_2795381007": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kumarabhi006-23e50a99c6bc1698127f13d66f90cf40999ea021)\nOpenJDK 64-Bit Server VM (build 25-internal-kumarabhi006-23e50a99c6bc1698127f13d66f90cf40999ea021, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "30016b496959f544a472449736cb0e88eeeb25d1.json",
+    "4331b211e0802fc483308715d878a16336ac43f1.json"
+  ],
+  "datetime": "2025-03-21T13:25:09.509132+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24148",
+  "number": 24148,
+  "title": "8343891: Test javax/swing/JTabbedPane/TestJTabbedPaneBackgroundColor.java failed",
+  "head_sha": "23e50a99c6bc1698127f13d66f90cf40999ea021",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13992141677"
+}
