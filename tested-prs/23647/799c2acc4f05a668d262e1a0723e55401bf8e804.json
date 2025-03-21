@@ -1,0 +1,20 @@
+{
+  "artifact_2798999235": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ascarpino-799c2acc4f05a668d262e1a0723e55401bf8e804)\nOpenJDK 64-Bit Server VM (build 25-internal-ascarpino-799c2acc4f05a668d262e1a0723e55401bf8e804, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "203833b3decc94d9e2494f39a8e38465de6925a6.json",
+    "3cbee6a2a238df4a8cd85c42b5bedd2e8f727b1c.json",
+    "9fbddcc2a5ede7eec19c8c8e6a1208e086a57705.json",
+    "a0fc101f3e6b8b057a1b19b5c5558dff8ec0086f.json",
+    "b26118a5516d592c38bf0d543fb85870fd411fa7.json"
+  ],
+  "datetime": "2025-03-21T22:09:27.082069+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23647",
+  "number": 23647,
+  "title": "8346129: Simplify EdDSA & XDH curve name usage",
+  "head_sha": "799c2acc4f05a668d262e1a0723e55401bf8e804",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14001170521"
+}
