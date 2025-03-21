@@ -1,0 +1,14 @@
+{
+  "artifact_2798939880": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jatin-bhateja-d1fd0d84c6d7ac74c4f9b9e3d55dac9e1319805f)\nOpenJDK 64-Bit Server VM (build 25-internal-jatin-bhateja-d1fd0d84c6d7ac74c4f9b9e3d55dac9e1319805f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-21T21:37:09.173552+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24169",
+  "number": 24169,
+  "title": "8352585: Add special case handling for Float16.max/min x86 backend",
+  "head_sha": "d1fd0d84c6d7ac74c4f9b9e3d55dac9e1319805f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14001170521"
+}
