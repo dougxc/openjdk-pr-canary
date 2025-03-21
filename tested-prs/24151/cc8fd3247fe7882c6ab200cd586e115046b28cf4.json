@@ -1,0 +1,14 @@
+{
+  "artifact_2795208333": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-marc-chevalier-cc8fd3247fe7882c6ab200cd586e115046b28cf4)\nOpenJDK 64-Bit Server VM (build 25-internal-marc-chevalier-cc8fd3247fe7882c6ab200cd586e115046b28cf4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-21T18:59:15.766290+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24151",
+  "number": 24151,
+  "title": "8352591: Missing UnlockDiagnosticVMOptions in VerifyGraphEdgesWithDeadCodeCheckFromSafepoints test",
+  "head_sha": "cc8fd3247fe7882c6ab200cd586e115046b28cf4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13998600464"
+}
