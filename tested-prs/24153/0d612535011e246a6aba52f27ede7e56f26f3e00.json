@@ -1,0 +1,14 @@
+{
+  "artifact_2795942718": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Hamlin-Li-0d612535011e246a6aba52f27ede7e56f26f3e00)\nOpenJDK 64-Bit Server VM (build 25-internal-Hamlin-Li-0d612535011e246a6aba52f27ede7e56f26f3e00, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-21T13:45:10.572258+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24153",
+  "number": 24153,
+  "title": "8352607: RISC-V: use cmove in min/max when Zicond is supported",
+  "head_sha": "0d612535011e246a6aba52f27ede7e56f26f3e00",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/13992947025"
+}
