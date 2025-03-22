@@ -1,0 +1,14 @@
+{
+  "artifact_2800310752": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-3bb77d593510dea89ea29c7108abea5ebe06b596)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-3bb77d593510dea89ea29c7108abea5ebe06b596, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-22T06:45:36.413750+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24172",
+  "number": 24172,
+  "title": "8352092: -XX:AOTMode=record crashes with InstanceKlass in allocated state",
+  "head_sha": "3bb77d593510dea89ea29c7108abea5ebe06b596",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14006090464"
+}
