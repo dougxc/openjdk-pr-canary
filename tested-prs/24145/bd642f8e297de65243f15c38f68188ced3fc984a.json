@@ -1,0 +1,17 @@
+{
+  "artifact_2799641445": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-bd642f8e297de65243f15c38f68188ced3fc984a)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-bd642f8e297de65243f15c38f68188ced3fc984a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "06648904d0b199c8bd6b1a782bb30ea956b3e506.json",
+    "87b34cee050c344b8e5a7d56d9b66993dfb85403.json"
+  ],
+  "datetime": "2025-03-22T02:18:44.543376+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24145",
+  "number": 24145,
+  "title": "8352579: Refactor CDS legacy optimization for lambda proxy classes",
+  "head_sha": "bd642f8e297de65243f15c38f68188ced3fc984a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14004049183"
+}
