@@ -1,0 +1,17 @@
+{
+  "artifact_2807827780": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-2b82fe21de844bc7f76f1829bacef81c1f0cc076)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-2b82fe21de844bc7f76f1829bacef81c1f0cc076, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1aa41c47bd263a3f94591d68fc9e87788c8684d6.json",
+    "3e27521cf0330fbe0a3893eb52ab2b242390a01b.json"
+  ],
+  "datetime": "2025-03-24T14:02:06.528586+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24136",
+  "number": 24136,
+  "title": "8346931: Replace divisions by zero in sharedRuntimeTrans.cpp",
+  "head_sha": "2b82fe21de844bc7f76f1829bacef81c1f0cc076",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14035791937"
+}
