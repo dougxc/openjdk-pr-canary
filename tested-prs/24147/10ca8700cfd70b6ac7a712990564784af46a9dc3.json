@@ -1,0 +1,17 @@
+{
+  "artifact_2806746272": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tschatzl-10ca8700cfd70b6ac7a712990564784af46a9dc3)\nOpenJDK 64-Bit Server VM (build 25-internal-tschatzl-10ca8700cfd70b6ac7a712990564784af46a9dc3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "125ecf08c72641d39ca86faaaff23fa00954a2f2.json",
+    "aa5d825610b84fb98b38b938ca66f7ac8e0d39b8.json"
+  ],
+  "datetime": "2025-03-24T11:07:49.765415+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24147",
+  "number": 24147,
+  "title": "8352508: [Redo] G1: Pinned regions with pinned objects only reachable by native code crash VM",
+  "head_sha": "10ca8700cfd70b6ac7a712990564784af46a9dc3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14033058984"
+}
