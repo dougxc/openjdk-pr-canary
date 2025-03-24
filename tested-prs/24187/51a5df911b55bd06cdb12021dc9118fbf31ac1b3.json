@@ -1,0 +1,14 @@
+{
+  "artifact_2806759206": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sarannat-51a5df911b55bd06cdb12021dc9118fbf31ac1b3)\nOpenJDK 64-Bit Server VM (build 25-internal-sarannat-51a5df911b55bd06cdb12021dc9118fbf31ac1b3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-24T11:54:50.513762+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24187",
+  "number": 24187,
+  "title": "8352490: Fatal error message for unhandled bytecode needs more detail",
+  "head_sha": "51a5df911b55bd06cdb12021dc9118fbf31ac1b3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14034038486"
+}
