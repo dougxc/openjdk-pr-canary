@@ -1,0 +1,14 @@
+{
+  "artifact_2807491218": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lkorinth-d0c25eeb19c014a23b63dc815dfeb030140c6aa3)\nOpenJDK 64-Bit Server VM (build 25-internal-lkorinth-d0c25eeb19c014a23b63dc815dfeb030140c6aa3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-24T13:06:28.084768+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24193",
+  "number": 24193,
+  "title": "8352709: Remove bad timing annotations from WhileOpTest.java",
+  "head_sha": "d0c25eeb19c014a23b63dc815dfeb030140c6aa3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14035791937"
+}
