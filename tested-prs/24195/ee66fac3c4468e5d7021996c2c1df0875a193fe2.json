@@ -1,0 +1,14 @@
+{
+  "artifact_2807692277": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-djelinski-ee66fac3c4468e5d7021996c2c1df0875a193fe2)\nOpenJDK 64-Bit Server VM (build 25-internal-djelinski-ee66fac3c4468e5d7021996c2c1df0875a193fe2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-24T15:21:08.648617+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24195",
+  "number": 24195,
+  "title": "8350705: [JMH] test security.SSLHandshake failed for 2 threads configuration",
+  "head_sha": "ee66fac3c4468e5d7021996c2c1df0875a193fe2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14037956290"
+}
