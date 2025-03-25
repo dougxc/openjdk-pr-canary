@@ -1,0 +1,14 @@
+{
+  "artifact_2816530693": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-gredler-79e1b2ea0564b31414cb312d1bcb73c4a463f60f)\nOpenJDK 64-Bit Server VM (build 25-internal-gredler-79e1b2ea0564b31414cb312d1bcb73c4a463f60f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-25T15:52:26.941815+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24230",
+  "number": 24230,
+  "title": "8352890: Remove unnecessary Windows version check in FileFontStrike",
+  "head_sha": "79e1b2ea0564b31414cb312d1bcb73c4a463f60f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14063716849"
+}
