@@ -1,0 +1,16 @@
+{
+  "artifact_2818389438": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jerboaa-7bf97d65304d5bebb767af54fcde12a7b604b6b0)\nOpenJDK 64-Bit Server VM (build 25-internal-jerboaa-7bf97d65304d5bebb767af54fcde12a7b604b6b0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "bfe2ecb3c128aacebd45fab848caa01fb409d2ad.json"
+  ],
+  "datetime": "2025-03-25T19:26:33.580375+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24188",
+  "number": 24188,
+  "title": "8352692: Add support for extra jlink options",
+  "head_sha": "7bf97d65304d5bebb767af54fcde12a7b604b6b0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14067529481"
+}
