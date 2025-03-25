@@ -1,0 +1,14 @@
+{
+  "artifact_2814780687": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-fthevenet-ca7ddc6ba337e723a80e4794633b073dda5c0951)\nOpenJDK 64-Bit Server VM (build 25-internal-fthevenet-ca7ddc6ba337e723a80e4794633b073dda5c0951, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-25T12:08:09.828959+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23807",
+  "number": 23807,
+  "title": "8350801: Add a code signing hook to the JDK build system",
+  "head_sha": "ca7ddc6ba337e723a80e4794633b073dda5c0951",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14057482758"
+}
