@@ -1,0 +1,16 @@
+{
+  "artifact_2819062214": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vpa1977-2a64115258dadef740423e5d8aad48f5c73fb42f)\nOpenJDK 64-Bit Server VM (build 25-internal-vpa1977-2a64115258dadef740423e5d8aad48f5c73fb42f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0254b85b13513f45805c735a61978e9ad52d6a87.json"
+  ],
+  "datetime": "2025-03-25T21:47:36.295720+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24216",
+  "number": 24216,
+  "title": "8352800: [PPC] OpenJDK fails to build on PPC after JDK-8350106",
+  "head_sha": "2a64115258dadef740423e5d8aad48f5c73fb42f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14070425669"
+}
