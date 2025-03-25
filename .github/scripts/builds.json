@@ -141381,5 +141381,31 @@
 		"tags": [
 			"UNUSABLE"
 		]
+	},
+	{
+		"id": "jdk-25+16-1786",
+		"revisions": {
+			"open": [
+				"dbc620fb1f754ca84f2a07abfdfbd4c5fcb55087"
+			],
+			"graal": [
+				"0f858a34c0f1bf17f8f188bdd27928ead971a53e",
+				"fd983bbf9e53d08fc2e0244452c68a4863da0dfe"
+			],
+			".": [
+				"66aceb1abcf3c9a38ee15a530bf98c6b7834e71f"
+			],
+			"graal-enterprise": [
+				"7e8bda1da55c4351f3d8a088737db207ba06824d",
+				"e71709a6e441f764ee60a18e3c34bd1e0fa0ead0",
+				"b66b321e1c54c7e55c97803154569577f6cfdc84"
+			],
+			"mx": [
+				"95a8845fabc1c9fd9a2ace4e5e6878da3a691fa5"
+			]
+		},
+		"aliases": [
+			"jdk-25-1786"
+		]
 	}
 ]
