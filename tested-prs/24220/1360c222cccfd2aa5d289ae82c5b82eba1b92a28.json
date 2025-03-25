@@ -1,0 +1,14 @@
+{
+  "artifact_2814385931": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prsadhuk-1360c222cccfd2aa5d289ae82c5b82eba1b92a28)\nOpenJDK 64-Bit Server VM (build 25-internal-prsadhuk-1360c222cccfd2aa5d289ae82c5b82eba1b92a28, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-25T10:47:18.948759+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24220",
+  "number": 24220,
+  "title": "8352676: Opensource JMenu tests - series1",
+  "head_sha": "1360c222cccfd2aa5d289ae82c5b82eba1b92a28",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14057482758"
+}
