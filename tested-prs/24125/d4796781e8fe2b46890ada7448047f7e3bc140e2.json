@@ -1,0 +1,20 @@
+{
+  "artifact_2815615880": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-d4796781e8fe2b46890ada7448047f7e3bc140e2)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-d4796781e8fe2b46890ada7448047f7e3bc140e2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5f92746d182e6fec2543ef1ee4f1722e3fddae39.json",
+    "9931cf852362e49d9681c3f239100979ad2ca7a0.json",
+    "ab3f5d917d0a4a273dee55e0a01373a00e2a5cba.json",
+    "c37637ca5c811bbb1e90295d13927c4f40e5e581.json",
+    "f389c8281fad4e0fb7f3a0bb3cbd5b1a05ba6b87.json"
+  ],
+  "datetime": "2025-03-25T13:21:17.828039+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24125",
+  "number": 24125,
+  "title": "8352481: Extra a.out generated after configure with clang",
+  "head_sha": "d4796781e8fe2b46890ada7448047f7e3bc140e2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14060098902"
+}
