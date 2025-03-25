@@ -1,0 +1,16 @@
+{
+  "artifact_2812243812": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-valeriepeng-13a3f932af287918fb9a300c69e2a7a9e3c00743)\nOpenJDK 64-Bit Server VM (build 25-internal-valeriepeng-13a3f932af287918fb9a300c69e2a7a9e3c00743, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "df83f4e9bb30f12b20d0cd5b09d408054de3dd57.json"
+  ],
+  "datetime": "2025-03-25T02:12:49.558059+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24068",
+  "number": 24068,
+  "title": "8348732: SunJCE and SunPKCS11 have different PBE key encodings",
+  "head_sha": "13a3f932af287918fb9a300c69e2a7a9e3c00743",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14049970100"
+}
