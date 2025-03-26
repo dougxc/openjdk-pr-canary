@@ -1,0 +1,16 @@
+{
+  "artifact_2825890777": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-f1b9a9af6b077533ab284d92966aab668de10aaf)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-f1b9a9af6b077533ab284d92966aab668de10aaf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "66c9c17a22e84e40f87edb50bad943dcd436a3e4.json"
+  ],
+  "datetime": "2025-03-26T18:24:06.713270+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24149",
+  "number": 24149,
+  "title": "8352533: Report useful IOExceptions when jspawnhelper fails",
+  "head_sha": "f1b9a9af6b077533ab284d92966aab668de10aaf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14088677244"
+}
