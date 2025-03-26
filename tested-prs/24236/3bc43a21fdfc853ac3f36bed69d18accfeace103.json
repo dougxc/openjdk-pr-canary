@@ -1,0 +1,16 @@
+{
+  "artifact_2826245734": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-plummercj-3bc43a21fdfc853ac3f36bed69d18accfeace103)\nOpenJDK 64-Bit Server VM (build 25-internal-plummercj-3bc43a21fdfc853ac3f36bed69d18accfeace103, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "18a255c73eafc4cb0675da9d9ff879f17069f227.json"
+  ],
+  "datetime": "2025-03-26T19:03:50.751491+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24236",
+  "number": 24236,
+  "title": "8352088: Call of com.sun.jdi.ThreadReference.threadGroups() can lock up target VM",
+  "head_sha": "3bc43a21fdfc853ac3f36bed69d18accfeace103",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14089716263"
+}
