@@ -1,0 +1,14 @@
+{
+  "artifact_2825105510": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-c2203f81337d011be4c18c2831e4abb607f27107)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-c2203f81337d011be4c18c2831e4abb607f27107, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-26T17:39:33.776014+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24259",
+  "number": 24259,
+  "title": "8352980: Purge infrastructure for FP-to-bits interpreter intrinsics after 32-bit x86 removal",
+  "head_sha": "c2203f81337d011be4c18c2831e4abb607f27107",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14088677244"
+}
