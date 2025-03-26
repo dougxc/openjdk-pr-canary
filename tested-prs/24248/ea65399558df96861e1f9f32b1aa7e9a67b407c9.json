@@ -1,0 +1,16 @@
+{
+  "artifact_2824916076": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mhaessig-ea65399558df96861e1f9f32b1aa7e9a67b407c9)\nOpenJDK 64-Bit Server VM (build 25-internal-mhaessig-ea65399558df96861e1f9f32b1aa7e9a67b407c9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d4885decbbfc2a7e5ba6d55b1c7e8a07b3d9e1e6.json"
+  ],
+  "datetime": "2025-03-26T16:27:37.128603+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24248",
+  "number": 24248,
+  "title": "8347449: C2: UseLoopPredicate off should also turn UseProfiledLoopPredicate off",
+  "head_sha": "ea65399558df96861e1f9f32b1aa7e9a67b407c9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14087277837"
+}
