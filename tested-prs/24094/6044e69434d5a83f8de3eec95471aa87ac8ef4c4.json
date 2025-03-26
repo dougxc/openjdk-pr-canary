@@ -1,0 +1,19 @@
+{
+  "artifact_2821733447": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-robehn-6044e69434d5a83f8de3eec95471aa87ac8ef4c4)\nOpenJDK 64-Bit Server VM (build 25-internal-robehn-6044e69434d5a83f8de3eec95471aa87ac8ef4c4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "217e3c89222f1ede0987b376ffa453473b710d44.json",
+    "2357c157fb0a932b3a529f84c72b00bed6223ab0.json",
+    "5ccda800e5949ad7fad4d62e2820c9536f117d30.json",
+    "92908e1cffda35081a4901a44453233f77b2467e.json"
+  ],
+  "datetime": "2025-03-26T09:18:27.791283+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24094",
+  "number": 24094,
+  "title": "8352218: RISC-V: Zvfh requires RVV",
+  "head_sha": "6044e69434d5a83f8de3eec95471aa87ac8ef4c4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14078830858"
+}
