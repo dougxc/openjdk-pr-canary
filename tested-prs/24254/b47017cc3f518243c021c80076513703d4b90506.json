@@ -1,0 +1,14 @@
+{
+  "artifact_2824883386": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TheRealMDoerr-b47017cc3f518243c021c80076513703d4b90506)\nOpenJDK 64-Bit Server VM (build 25-internal-TheRealMDoerr-b47017cc3f518243c021c80076513703d4b90506, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-26T16:05:22.475872+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24254",
+  "number": 24254,
+  "title": "8352972: PPC64: Intrinsify Unsafe::setMemory",
+  "head_sha": "b47017cc3f518243c021c80076513703d4b90506",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14087277837"
+}
