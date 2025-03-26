@@ -1,0 +1,14 @@
+{
+  "artifact_2824367982": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-e2025e78ef21d6e03433dbba6e129a83571fa09c)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-e2025e78ef21d6e03433dbba6e129a83571fa09c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-26T15:53:57.323649+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24255",
+  "number": 24255,
+  "title": "8352946: SEGV_BND signal code of SIGSEGV missing from our signal-code table",
+  "head_sha": "e2025e78ef21d6e03433dbba6e129a83571fa09c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14087277837"
+}
