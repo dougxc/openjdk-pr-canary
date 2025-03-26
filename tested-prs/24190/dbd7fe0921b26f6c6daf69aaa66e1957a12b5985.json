@@ -1,0 +1,17 @@
+{
+  "artifact_2825709979": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jerboaa-dbd7fe0921b26f6c6daf69aaa66e1957a12b5985)\nOpenJDK 64-Bit Server VM (build 25-internal-jerboaa-dbd7fe0921b26f6c6daf69aaa66e1957a12b5985, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a1dbb6d99f6c407d700958d2ef093a1c91688885.json",
+    "e387bd6481be9edd4d2003679d175005aab123ea.json"
+  ],
+  "datetime": "2025-03-26T18:13:17.278824+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24190",
+  "number": 24190,
+  "title": "8352689: Allow for hash sum overrides when linking from the run-time image",
+  "head_sha": "dbd7fe0921b26f6c6daf69aaa66e1957a12b5985",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14088677244"
+}
