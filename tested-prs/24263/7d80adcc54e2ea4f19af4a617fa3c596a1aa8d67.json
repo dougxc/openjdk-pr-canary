@@ -1,0 +1,16 @@
+{
+  "artifact_2827220282": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-naotoj-7d80adcc54e2ea4f19af4a617fa3c596a1aa8d67)\nOpenJDK 64-Bit Server VM (build 25-internal-naotoj-7d80adcc54e2ea4f19af4a617fa3c596a1aa8d67, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "12ca7f9ea9fdea4fe0db6790742ffc4d3d3aca51.json"
+  ],
+  "datetime": "2025-03-26T22:36:49.733844+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24263",
+  "number": 24263,
+  "title": "8352906: stdout/err.encoding on Windows set by incorrect Win32 call",
+  "head_sha": "7d80adcc54e2ea4f19af4a617fa3c596a1aa8d67",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14093798210"
+}
