@@ -1,0 +1,18 @@
+{
+  "artifact_2831629060": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dougxc-93770e71e7c24173280ce1b2578135af73909cce)\nOpenJDK 64-Bit Server VM (build 25-internal-dougxc-93770e71e7c24173280ce1b2578135af73909cce, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "18e2a1d6dca2784b4e44c6cb81c58ce9bad4b70d.json",
+    "627794784778830afb8eaa59d9f8ba80a78040b2.json",
+    "cada0df4a4bef6cf8509be83285feb6e403fb54f.json"
+  ],
+  "datetime": "2025-03-27T14:16:23.678713+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24247",
+  "number": 24247,
+  "title": "8352645: Add tool support to check order of includes",
+  "head_sha": "93770e71e7c24173280ce1b2578135af73909cce",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14107945484"
+}
