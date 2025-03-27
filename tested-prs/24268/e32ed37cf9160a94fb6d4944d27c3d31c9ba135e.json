@@ -1,0 +1,14 @@
+{
+  "artifact_2827989314": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-earthling-amzn-e32ed37cf9160a94fb6d4944d27c3d31c9ba135e)\nOpenJDK 64-Bit Server VM (build 25-internal-earthling-amzn-e32ed37cf9160a94fb6d4944d27c3d31c9ba135e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-27T02:21:54.234002+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24268",
+  "number": 24268,
+  "title": "8351892: GenShen: Remove enforcement of generation sizes",
+  "head_sha": "e32ed37cf9160a94fb6d4944d27c3d31c9ba135e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14097223832"
+}
