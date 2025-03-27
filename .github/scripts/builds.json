@@ -142433,5 +142433,29 @@
 		"tags": [
 			"UNUSABLE"
 		]
+	},
+	{
+		"id": "jdk-25+16-1830",
+		"revisions": {
+			".": [
+				"d8e35418239db7344f09c36cb78f1e9642df2f1e"
+			],
+			"graal-enterprise": [
+				"1275320559b0875590063ffa10be0b986067406b",
+				"8f1c2f2f5a8724f084c4b8dd247280e05268558c"
+			],
+			"open": [
+				"41f3eea9b2b7bd74d5f125dedfe107ab5b0bed26"
+			],
+			"graal": [
+				"eae26aad63bf51dfd8a03d298b686aa32a8c2109"
+			],
+			"mx": [
+				"95a8845fabc1c9fd9a2ace4e5e6878da3a691fa5"
+			]
+		},
+		"aliases": [
+			"jdk-25-1830"
+		]
 	}
 ]
