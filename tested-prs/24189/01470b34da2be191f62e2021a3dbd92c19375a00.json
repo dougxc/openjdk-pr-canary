@@ -1,0 +1,16 @@
+{
+  "artifact_2840348854": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-gerard-ziemski-01470b34da2be191f62e2021a3dbd92c19375a00)\nOpenJDK 64-Bit Server VM (build 25-internal-gerard-ziemski-01470b34da2be191f62e2021a3dbd92c19375a00, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "abfb5f2c37f70026e5654f8a1ebf84541bf74634.json"
+  ],
+  "datetime": "2025-03-28T17:07:38.126922+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24189",
+  "number": 24189,
+  "title": "8301404: Factor out os::malloc with os::realloc common code, so that we only have 1 code path",
+  "head_sha": "01470b34da2be191f62e2021a3dbd92c19375a00",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14133609983"
+}
