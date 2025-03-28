@@ -1,0 +1,14 @@
+{
+  "artifact_2832919730": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mhaessig-af9a3a670d29298ab4007677ef4c5516b86b3456)\nOpenJDK 64-Bit Server VM (build 25-internal-mhaessig-af9a3a670d29298ab4007677ef4c5516b86b3456, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-28T10:45:25.361933+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24289",
+  "number": 24289,
+  "title": "8352893: C2: OrL/INode::add_ring optimize (x | -1) to -1",
+  "head_sha": "af9a3a670d29298ab4007677ef4c5516b86b3456",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14127047804"
+}
