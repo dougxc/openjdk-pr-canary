@@ -1,0 +1,14 @@
+{
+  "artifact_2844682247": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kilink-bf982d3ae06a4a58c6ac481033575bad9f9b2fe5)\nOpenJDK 64-Bit Server VM (build 25-internal-kilink-bf982d3ae06a4a58c6ac481033575bad9f9b2fe5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-29T18:45:24.961459+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24314",
+  "number": 24314,
+  "title": "Use HexFormat in URLDecoder",
+  "head_sha": "bf982d3ae06a4a58c6ac481033575bad9f9b2fe5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14148360887"
+}
