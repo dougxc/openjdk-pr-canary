@@ -1,0 +1,14 @@
+{
+  "artifact_2842689738": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-earthling-amzn-dc7477c37ddc61de37325d4c41845595221cf415)\nOpenJDK 64-Bit Server VM (build 25-internal-earthling-amzn-dc7477c37ddc61de37325d4c41845595221cf415, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-29T02:32:48.191722+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24304",
+  "number": 24304,
+  "title": "8353218: Shenandoah: Out of date comment references Brooks pointers",
+  "head_sha": "dc7477c37ddc61de37325d4c41845595221cf415",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14141038665"
+}
