@@ -1,0 +1,14 @@
+{
+  "artifact_2843678273": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-linzihao1999-87b5bbaa21026ab7c2d927f8c328d1ac623433f4)\nOpenJDK 64-Bit Server VM (build 25-internal-linzihao1999-87b5bbaa21026ab7c2d927f8c328d1ac623433f4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-29T11:35:00.946166+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24312",
+  "number": 24312,
+  "title": "8352879: TestPeriod.java and TestGetContentType.java run wrong test class",
+  "head_sha": "87b5bbaa21026ab7c2d927f8c328d1ac623433f4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14145153187"
+}
