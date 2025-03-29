@@ -1,0 +1,18 @@
+{
+  "artifact_2843528443": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-322624ebd250dfea7921a0f0998dad995aa183a5)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-322624ebd250dfea7921a0f0998dad995aa183a5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "23dba8c52454ae90eab4cb1b0a168c6e7249dd38.json",
+    "4ab0c1edef075e76d4e10b2efe659a2f831ff285.json",
+    "a5eb3b98ece8cf1aa6eaa3d1287148e1b0510f4b.json"
+  ],
+  "datetime": "2025-03-29T06:45:34.618277+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24108",
+  "number": 24108,
+  "title": "8352316: More MergeStoreBench",
+  "head_sha": "322624ebd250dfea7921a0f0998dad995aa183a5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14143116616"
+}
