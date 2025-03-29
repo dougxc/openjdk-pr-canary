@@ -1,0 +1,18 @@
+{
+  "artifact_2843959412": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mkarg-a5d26c5bc143e37520e5f42bcb0299d4e12784b0)\nOpenJDK 64-Bit Server VM (build 25-internal-mkarg-a5d26c5bc143e37520e5f42bcb0299d4e12784b0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "60a891b95d0b8af77edc12e9e2a095a0c2067366.json",
+    "a3c2add9c16e4c7331c5a7c2848f27b6c0330a17.json",
+    "d27d1bd85458f02e859a9653805d96ff79473124.json"
+  ],
+  "datetime": "2025-03-29T11:47:00.888498+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21730",
+  "number": 21730,
+  "title": "8343110: Add getChars(int, int, char[], int) to CharSequence and CharBuffer",
+  "head_sha": "a5d26c5bc143e37520e5f42bcb0299d4e12784b0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14145153187"
+}
