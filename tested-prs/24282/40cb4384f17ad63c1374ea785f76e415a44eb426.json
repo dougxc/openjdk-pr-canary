@@ -1,0 +1,17 @@
+{
+  "artifact_2853805928": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-gerard-ziemski-40cb4384f17ad63c1374ea785f76e415a44eb426)\nOpenJDK 64-Bit Server VM (build 25-internal-gerard-ziemski-40cb4384f17ad63c1374ea785f76e415a44eb426, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "582b18601a07e12d74768e1d471b87ee0225a8db.json",
+    "5a1a75e95079abc60b7bd73d8c58bfe98686c3f6.json"
+  ],
+  "datetime": "2025-03-31T20:04:19.563588+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24282",
+  "number": 24282,
+  "title": "8344883: Do not use mtNone if we know the tag type",
+  "head_sha": "40cb4384f17ad63c1374ea785f76e415a44eb426",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14179696215"
+}
