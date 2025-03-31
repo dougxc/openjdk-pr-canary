@@ -1,0 +1,14 @@
+{
+  "artifact_2849127670": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-marc-chevalier-daaaf9aead221ce0fd16c87fcd802c81dba38821)\nOpenJDK 64-Bit Server VM (build 25-internal-marc-chevalier-daaaf9aead221ce0fd16c87fcd802c81dba38821, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-31T07:39:32.269852+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24245",
+  "number": 24245,
+  "title": "8348853: Fold layout helper check for objects implementing non-array interfaces",
+  "head_sha": "daaaf9aead221ce0fd16c87fcd802c81dba38821",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14166321350"
+}
