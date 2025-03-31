@@ -1,0 +1,16 @@
+{
+  "artifact_2853750858": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-d965fef3ec79f43a13ec81aa2f5b1cd1799c171c)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-d965fef3ec79f43a13ec81aa2f5b1cd1799c171c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "cc8345e94f3cf624f1e80b5180fd003648e41d96.json"
+  ],
+  "datetime": "2025-03-31T19:19:20.898768+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24018",
+  "number": 24018,
+  "title": "8231269: CompileTask::is_unloaded is slow due to JNIHandles type checks",
+  "head_sha": "d965fef3ec79f43a13ec81aa2f5b1cd1799c171c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14178855737"
+}
