@@ -1,0 +1,24 @@
+{
+  "artifact_2850970142": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-minborg-f9521793daf46ad4b03e0ccb4d645fd00b3dac1d)\nOpenJDK 64-Bit Server VM (build 25-internal-minborg-f9521793daf46ad4b03e0ccb4d645fd00b3dac1d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "09ca44e6d00c13748fa979d24ce9d6d0faca8741.json",
+    "2fe5b0f821f6591ec28d65d65fe086e0ec09233a.json",
+    "42d4dcfa5ed310cb647cb1adbe208065ca5f9cf4.json",
+    "4c0dadfba907c44452ff40931977aacbe424516a.json",
+    "7fe2c363e229b22d6771239c22824307988d6ee2.json",
+    "8b4113f6313003f33c9ec9ac51fc0dd55d3b73de.json",
+    "d6e1573f9795d8fdcbff105370eefed45375e5ca.json",
+    "f90557b87791b6567308dbe4326ea3359459d87e.json",
+    "fe021b5cc367719319eefe2b934f068a7071c8f8.json"
+  ],
+  "datetime": "2025-03-31T13:17:43.211346+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23972",
+  "number": 23972,
+  "title": "8351565: Implement JEP 502: Stable Values (Preview)",
+  "head_sha": "f9521793daf46ad4b03e0ccb4d645fd00b3dac1d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14172042192"
+}
