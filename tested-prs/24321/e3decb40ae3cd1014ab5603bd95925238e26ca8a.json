@@ -1,0 +1,14 @@
+{
+  "artifact_2848815243": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-e3decb40ae3cd1014ab5603bd95925238e26ca8a)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-e3decb40ae3cd1014ab5603bd95925238e26ca8a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-31T06:51:34.841885+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24321",
+  "number": 24321,
+  "title": "8352768: CDS test MethodHandleTest.java failed in -Xcomp mode",
+  "head_sha": "e3decb40ae3cd1014ab5603bd95925238e26ca8a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14165605814"
+}
