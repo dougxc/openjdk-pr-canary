@@ -1,0 +1,14 @@
+{
+  "artifact_2850400169": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-serhiysachkov-9abbaf2e4849ef4a6c06e244ccd31ce4af03ab80)\nOpenJDK 64-Bit Server VM (build 25-internal-serhiysachkov-9abbaf2e4849ef4a6c06e244ccd31ce4af03ab80, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-03-31T11:36:52.025391+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24324",
+  "number": 24324,
+  "title": "8330598: java/net/httpclient/Http1ChunkedTest.java fails with java.util.MissingFormatArgumentException: Format specifier '%s'",
+  "head_sha": "9abbaf2e4849ef4a6c06e244ccd31ce4af03ab80",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14170438599"
+}
