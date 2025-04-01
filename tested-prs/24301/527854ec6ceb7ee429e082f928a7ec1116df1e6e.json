@@ -1,0 +1,16 @@
+{
+  "artifact_2857458018": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-527854ec6ceb7ee429e082f928a7ec1116df1e6e)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-527854ec6ceb7ee429e082f928a7ec1116df1e6e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "47f239c2f3af444e7c33a795c6609744d802b6de.json"
+  ],
+  "datetime": "2025-04-01T09:12:42.522588+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24301",
+  "number": 24301,
+  "title": "8353188: C1: Clean up x86 backend after 32-bit x86 removal",
+  "head_sha": "527854ec6ceb7ee429e082f928a7ec1116df1e6e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14191044614"
+}
