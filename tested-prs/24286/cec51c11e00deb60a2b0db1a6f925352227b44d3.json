@@ -1,0 +1,16 @@
+{
+  "artifact_2858731228": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Renjithkannath-cec51c11e00deb60a2b0db1a6f925352227b44d3)\nOpenJDK 64-Bit Server VM (build 25-internal-Renjithkannath-cec51c11e00deb60a2b0db1a6f925352227b44d3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9cd5925920139ec2e52df1c2a08bb31243ff4ccd.json"
+  ],
+  "datetime": "2025-04-01T13:18:48.650806+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24286",
+  "number": 24286,
+  "title": "8353138: Screen capture for test TaskbarPositionTest.java, failure case",
+  "head_sha": "cec51c11e00deb60a2b0db1a6f925352227b44d3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14196175158"
+}
