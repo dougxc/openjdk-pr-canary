@@ -1,0 +1,16 @@
+{
+  "artifact_2855044398": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-calvinccheung-9bfa2ec6ce91eb3aea670ca4b6e632a00d5dab37)\nOpenJDK 64-Bit Server VM (build 25-internal-calvinccheung-9bfa2ec6ce91eb3aea670ca4b6e632a00d5dab37, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "94b6164bf6a1ae4f4c3ec41dbce370bfa0487cab.json"
+  ],
+  "datetime": "2025-03-31T23:42:24.611541+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24308",
+  "number": 24308,
+  "title": "8353129: CDS ArchiveRelocation tests fail after JDK-8325132",
+  "head_sha": "9bfa2ec6ce91eb3aea670ca4b6e632a00d5dab37",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14183483343"
+}
