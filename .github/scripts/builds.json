@@ -144299,6 +144299,9 @@
 		},
 		"aliases": [
 			"jdk-25-1905"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	}
 ]
