@@ -1,0 +1,17 @@
+{
+  "artifact_2858438723": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-varada1110-234f6d17d24bd2aaea5ff0011e4d8dddd5352031)\nOpenJDK 64-Bit Server VM (build 25-internal-varada1110-234f6d17d24bd2aaea5ff0011e4d8dddd5352031, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8efd253f3d0a58233c0fde31a9514b8c911c892c.json",
+    "d22f0ab957c9ab8101f184d21f822082fac9d3c3.json"
+  ],
+  "datetime": "2025-04-01T11:47:53.891494+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24177",
+  "number": 24177,
+  "title": "8352392: AIX: implement attach API v2 and streaming output",
+  "head_sha": "234f6d17d24bd2aaea5ff0011e4d8dddd5352031",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14194382484"
+}
