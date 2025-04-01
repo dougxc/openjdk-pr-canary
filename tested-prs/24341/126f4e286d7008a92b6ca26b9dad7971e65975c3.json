@@ -1,0 +1,15 @@
+{
+  "artifact_2855579298": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-zhengyu123-126f4e286d7008a92b6ca26b9dad7971e65975c3)\nOpenJDK 64-Bit Server VM (build 25-internal-zhengyu123-126f4e286d7008a92b6ca26b9dad7971e65975c3, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-04-01T02:23:31.029812+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24341",
+  "number": 24341,
+  "title": "8353329: Small memory leak when create GrowableArray with initial size 0",
+  "head_sha": "126f4e286d7008a92b6ca26b9dad7971e65975c3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14185655326"
+}
