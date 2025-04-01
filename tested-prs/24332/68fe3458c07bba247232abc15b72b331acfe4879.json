@@ -1,0 +1,14 @@
+{
+  "artifact_2857096434": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-eirbjo-68fe3458c07bba247232abc15b72b331acfe4879)\nOpenJDK 64-Bit Server VM (build 25-internal-eirbjo-68fe3458c07bba247232abc15b72b331acfe4879, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-01T08:04:25.774468+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24332",
+  "number": 24332,
+  "title": "8353278: Consolidate local file URL checks in jar: and file: URL schemes",
+  "head_sha": "68fe3458c07bba247232abc15b72b331acfe4879",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14189770815"
+}
