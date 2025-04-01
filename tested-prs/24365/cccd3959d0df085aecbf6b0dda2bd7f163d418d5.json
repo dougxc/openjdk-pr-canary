@@ -1,0 +1,14 @@
+{
+  "artifact_2861963219": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prrace-cccd3959d0df085aecbf6b0dda2bd7f163d418d5)\nOpenJDK 64-Bit Server VM (build 25-internal-prrace-cccd3959d0df085aecbf6b0dda2bd7f163d418d5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-01T19:34:02.302141+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24365",
+  "number": 24365,
+  "title": "8353320: Open source more Swing text tests",
+  "head_sha": "cccd3959d0df085aecbf6b0dda2bd7f163d418d5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14204263034"
+}
