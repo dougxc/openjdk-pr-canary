@@ -1,0 +1,14 @@
+{
+  "artifact_2869728680": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-5055abb857f2eb872d962f0d63dac88511a5034b)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-5055abb857f2eb872d962f0d63dac88511a5034b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-02T19:11:07.551422+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24386",
+  "number": 24386,
+  "title": "8349075: Once again allow -compilejdk in JAVA_OPTIONS",
+  "head_sha": "5055abb857f2eb872d962f0d63dac88511a5034b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14227041428"
+}
