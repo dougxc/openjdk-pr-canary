@@ -1,0 +1,14 @@
+{
+  "artifact_2866718800": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lahodaj-6ffb652576039e52589db0e027ad3f96f736fcf2)\nOpenJDK 64-Bit Server VM (build 25-internal-lahodaj-6ffb652576039e52589db0e027ad3f96f736fcf2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-02T13:07:51.800632+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24376",
+  "number": 24376,
+  "title": "8353545: Improve debug info for StartOptionTest",
+  "head_sha": "6ffb652576039e52589db0e027ad3f96f736fcf2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14220138337"
+}
