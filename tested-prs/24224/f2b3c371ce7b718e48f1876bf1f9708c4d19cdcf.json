@@ -1,0 +1,19 @@
+{
+  "artifact_2867160353": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-eme64-f2b3c371ce7b718e48f1876bf1f9708c4d19cdcf)\nOpenJDK 64-Bit Server VM (build 25-internal-eme64-f2b3c371ce7b718e48f1876bf1f9708c4d19cdcf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3457af0006e62edaa188a59d07aa5a222eb56b76.json",
+    "4ca42699f0721934e085d97282559f99c70f5ea1.json",
+    "d46c45de68220cb477bcd1bddd30afd02ae5fd39.json",
+    "f2ed085ab9c2b9e60c6dac713052e806e2fb9df3.json"
+  ],
+  "datetime": "2025-04-02T13:45:01.865508+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24224",
+  "number": 24224,
+  "title": "8352869: Verify.checkEQ: extension for NaN, VectorAPI and arbitrary Objects",
+  "head_sha": "f2b3c371ce7b718e48f1876bf1f9708c4d19cdcf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14220138337"
+}
