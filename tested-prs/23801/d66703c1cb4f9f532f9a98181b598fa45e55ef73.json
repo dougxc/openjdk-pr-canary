@@ -1,0 +1,17 @@
+{
+  "artifact_2869405353": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lahodaj-d66703c1cb4f9f532f9a98181b598fa45e55ef73)\nOpenJDK 64-Bit Server VM (build 25-internal-lahodaj-d66703c1cb4f9f532f9a98181b598fa45e55ef73, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "067a0444606361c1f14d8f2dd921630760c1a9ac.json",
+    "cffcf85168c9c70d43345736d6f40cd8dff97d6e.json"
+  ],
+  "datetime": "2025-04-02T17:51:18.044448+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23801",
+  "number": 23801,
+  "title": "8344708: Compiler Implementation of Module Import Declarations",
+  "head_sha": "d66703c1cb4f9f532f9a98181b598fa45e55ef73",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14225815314"
+}
