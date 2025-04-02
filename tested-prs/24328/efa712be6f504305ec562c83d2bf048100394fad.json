@@ -1,0 +1,16 @@
+{
+  "artifact_2866336190": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-marc-chevalier-efa712be6f504305ec562c83d2bf048100394fad)\nOpenJDK 64-Bit Server VM (build 25-internal-marc-chevalier-efa712be6f504305ec562c83d2bf048100394fad, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f53138f7f05292cb9c48514a19a71a0bbee482c9.json"
+  ],
+  "datetime": "2025-04-02T10:40:39.385260+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24328",
+  "number": 24328,
+  "title": "8348887: Create IR framework test for JDK-8347997",
+  "head_sha": "efa712be6f504305ec562c83d2bf048100394fad",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14216295282"
+}
