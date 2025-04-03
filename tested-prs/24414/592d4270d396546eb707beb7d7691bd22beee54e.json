@@ -1,0 +1,14 @@
+{
+  "artifact_2875847910": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Hamlin-Li-592d4270d396546eb707beb7d7691bd22beee54e)\nOpenJDK 64-Bit Server VM (build 25-internal-Hamlin-Li-592d4270d396546eb707beb7d7691bd22beee54e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-03T15:02:45.571467+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24414",
+  "number": 24414,
+  "title": "8353600: RISC-V: compiler/vectorization/TestRotateByteAndShortVector.java is failing with Zvbb",
+  "head_sha": "592d4270d396546eb707beb7d7691bd22beee54e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14245636155"
+}
