@@ -1,0 +1,16 @@
+{
+  "artifact_2877830324": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-varada1110-5defce8508894a192578dec2a8cf5021a753a458)\nOpenJDK 64-Bit Server VM (build 25-internal-varada1110-5defce8508894a192578dec2a8cf5021a753a458, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6866e532c8b7d68732aae043455e0bacc4083f09.json"
+  ],
+  "datetime": "2025-04-03T19:59:20.797518+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24276",
+  "number": 24276,
+  "title": "8353053: (fs) Add support for UserDefinedFileAttributeView on AIX",
+  "head_sha": "5defce8508894a192578dec2a8cf5021a753a458",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14251093485"
+}
