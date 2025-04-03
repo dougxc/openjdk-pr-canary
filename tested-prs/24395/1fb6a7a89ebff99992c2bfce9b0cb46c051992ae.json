@@ -1,0 +1,16 @@
+{
+  "artifact_2878971854": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-justin-curtis-lu-1fb6a7a89ebff99992c2bfce9b0cb46c051992ae)\nOpenJDK 64-Bit Server VM (build 25-internal-justin-curtis-lu-1fb6a7a89ebff99992c2bfce9b0cb46c051992ae, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b9d6349c85191bee3f86f73ccbe1e6cb6c8f4357.json"
+  ],
+  "datetime": "2025-04-03T22:42:32.055793+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24395",
+  "number": 24395,
+  "title": "8353585: Provide ChoiceFormat#parse(String, ParsePosition) tests",
+  "head_sha": "1fb6a7a89ebff99992c2bfce9b0cb46c051992ae",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14253998474"
+}
