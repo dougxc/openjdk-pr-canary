@@ -1,0 +1,23 @@
+{
+  "artifact_2873048698": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-robehn-2044cf5f43d507675bf52450716bc069cf7d12fa)\nOpenJDK 64-Bit Server VM (build 25-internal-robehn-2044cf5f43d507675bf52450716bc069cf7d12fa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0fdda550881fb2c388be94efd4f4d69e2f90e9e4.json",
+    "4279f9fca3b1123c77aaffd1cbebee17f4e42586.json",
+    "566c0a76b4a3a3ff11959df84db322c93e6ebb84.json",
+    "5eac84704dfff98c7273594f3afea29defca3df4.json",
+    "a451ade2bd8dc6d0d802972120873daf9ee3d2f5.json",
+    "c2688a6a0b2eb5dac5bbc82de9cc32788b305b97.json",
+    "cb1842099ff53b41ca33ec0fc51c909b7c32a651.json",
+    "f09ea73927ce43f378eec81c8f45c7bc4ef0a5e0.json"
+  ],
+  "datetime": "2025-04-03T07:59:29.669776+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24035",
+  "number": 24035,
+  "title": "8351949: RISC-V: Cleanup and enable store-load peephole for membars",
+  "head_sha": "2044cf5f43d507675bf52450716bc069cf7d12fa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14237360325"
+}
