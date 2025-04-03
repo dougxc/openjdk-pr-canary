@@ -1,0 +1,16 @@
+{
+  "artifact_2878795491": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-coleenp-346e7a72ab4c5ce83cbae95d967d106dd9c6ed96)\nOpenJDK 64-Bit Server VM (build 25-internal-coleenp-346e7a72ab4c5ce83cbae95d967d106dd9c6ed96, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "dedbf9f9c56b9b287272f86f6351e0ad01dea216.json"
+  ],
+  "datetime": "2025-04-03T21:38:37.633141+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24383",
+  "number": 24383,
+  "title": "8349007: The jtreg test ResolvedMethodTableHash takes excessive time",
+  "head_sha": "346e7a72ab4c5ce83cbae95d967d106dd9c6ed96",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14253099940"
+}
