@@ -1,0 +1,17 @@
+{
+  "artifact_2875387925": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-offamitkumar-e36c4982b87bffce6e34a181fbb6421b8e5ff980)\nOpenJDK 64-Bit Server VM (build 25-internal-offamitkumar-e36c4982b87bffce6e34a181fbb6421b8e5ff980, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "018d5bc079c54771905595b457aac831b66592c2.json",
+    "46d6ae1c91146907ed8e3993c3b881980bc9fbd4.json"
+  ],
+  "datetime": "2025-04-03T14:02:44.527413+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23660",
+  "number": 23660,
+  "title": "8350182: [s390x] Relativize locals in interpreter frames",
+  "head_sha": "e36c4982b87bffce6e34a181fbb6421b8e5ff980",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14243484792"
+}
