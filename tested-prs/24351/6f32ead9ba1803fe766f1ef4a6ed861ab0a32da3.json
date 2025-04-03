@@ -1,0 +1,16 @@
+{
+  "artifact_2875528411": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JoKern65-6f32ead9ba1803fe766f1ef4a6ed861ab0a32da3)\nOpenJDK 64-Bit Server VM (build 25-internal-JoKern65-6f32ead9ba1803fe766f1ef4a6ed861ab0a32da3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9d41d444237032aaaea526875abf77ceda25a6d1.json"
+  ],
+  "datetime": "2025-04-03T15:37:43.453336+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24351",
+  "number": 24351,
+  "title": "8352935: Launcher should not add $JDK/../lib to LD_LIBRARY_PATH",
+  "head_sha": "6f32ead9ba1803fe766f1ef4a6ed861ab0a32da3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14245636155"
+}
