@@ -146259,6 +146259,32 @@
 		},
 		"aliases": [
 			"jdk-25-1984"
+		],
+		"tags": [
+			"UNUSABLE"
+		]
+	},
+	{
+		"id": "jdk-25+18-1985",
+		"revisions": {
+			"mx": [
+				"95a8845fabc1c9fd9a2ace4e5e6878da3a691fa5"
+			],
+			".": [
+				"1fac1e8a7a289d2dc8a6aec7d6af78b1a0a6bd5e"
+			],
+			"open": [
+				"57df89c46449a19bb626fee2ea01c868e6dfb712"
+			],
+			"graal": [
+				"ee430e81ac48d8a9bcd6fdfe00e15e24a04d642d"
+			],
+			"graal-enterprise": [
+				"e71000c69c3cc497a525c92da9942957a6dee45c"
+			]
+		},
+		"aliases": [
+			"jdk-25-1985"
 		]
 	}
 ]
