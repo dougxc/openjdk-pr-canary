@@ -1,0 +1,14 @@
+{
+  "artifact_2886129422": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-a1108ac7266ad2288c3b649a3be7b69450fe5679)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-a1108ac7266ad2288c3b649a3be7b69450fe5679, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-04T23:07:59.196119+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24460",
+  "number": 24460,
+  "title": "8353757: Log class should have a proper clear() method",
+  "head_sha": "a1108ac7266ad2288c3b649a3be7b69450fe5679",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14275264145"
+}
