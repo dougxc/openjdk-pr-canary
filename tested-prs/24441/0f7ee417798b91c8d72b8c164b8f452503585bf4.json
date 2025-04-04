@@ -1,0 +1,14 @@
+{
+  "artifact_2882481442": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-0f7ee417798b91c8d72b8c164b8f452503585bf4)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-0f7ee417798b91c8d72b8c164b8f452503585bf4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-04T13:15:16.956127+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24441",
+  "number": 24441,
+  "title": "8353568: SEGV_BNDERR signal code adjust definition",
+  "head_sha": "0f7ee417798b91c8d72b8c164b8f452503585bf4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14265788225"
+}
