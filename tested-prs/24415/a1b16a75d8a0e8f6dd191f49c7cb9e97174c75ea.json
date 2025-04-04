@@ -1,0 +1,16 @@
+{
+  "artifact_2883658303": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-a1b16a75d8a0e8f6dd191f49c7cb9e97174c75ea)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-a1b16a75d8a0e8f6dd191f49c7cb9e97174c75ea, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "08a7dc921c1d5f6055a4a3a34edf253ad1620cb0.json"
+  ],
+  "datetime": "2025-04-04T15:54:58.263990+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24415",
+  "number": 24415,
+  "title": "8301197: Make sure use of printf is correct and actually needed",
+  "head_sha": "a1b16a75d8a0e8f6dd191f49c7cb9e97174c75ea",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14267692442"
+}
