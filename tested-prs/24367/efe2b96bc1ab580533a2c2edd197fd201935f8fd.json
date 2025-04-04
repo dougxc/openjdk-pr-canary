@@ -1,0 +1,16 @@
+{
+  "artifact_2885102478": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-artur-oracle-efe2b96bc1ab580533a2c2edd197fd201935f8fd)\nOpenJDK 64-Bit Server VM (build 25-internal-artur-oracle-efe2b96bc1ab580533a2c2edd197fd201935f8fd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b45f6651d3645880ee039602c19c8c71e2838315.json"
+  ],
+  "datetime": "2025-04-04T20:06:06.485994+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24367",
+  "number": 24367,
+  "title": "8340321: Disable SHA-1 in TLS/DTLS 1.2 handshake signatures",
+  "head_sha": "efe2b96bc1ab580533a2c2edd197fd201935f8fd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14272683125"
+}
