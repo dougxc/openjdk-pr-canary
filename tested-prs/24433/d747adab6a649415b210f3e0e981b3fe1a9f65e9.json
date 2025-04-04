@@ -1,0 +1,14 @@
+{
+  "artifact_2880149978": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-RealFYang-d747adab6a649415b210f3e0e981b3fe1a9f65e9)\nOpenJDK 64-Bit Server VM (build 25-internal-RealFYang-d747adab6a649415b210f3e0e981b3fe1a9f65e9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-04T03:38:36.997731+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24433",
+  "number": 24433,
+  "title": "8353695: RISC-V: compiler/cpuflags/TestAESIntrinsicsOnUnsupportedConfig.java is failing with Zvkn",
+  "head_sha": "d747adab6a649415b210f3e0e981b3fe1a9f65e9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14257138398"
+}
