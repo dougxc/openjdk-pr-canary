@@ -1,0 +1,21 @@
+{
+  "artifact_2882252614": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vy-e0981109745d00ba259e61d3ea18e1adfe409cfd)\nOpenJDK 64-Bit Server VM (build 25-internal-vy-e0981109745d00ba259e61d3ea18e1adfe409cfd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "047465ca1821bf7e07ac16bad0f5e33b55249e4e.json",
+    "1ad58fda5e60085a7a139dc5bb1202086973140e.json",
+    "41b40436adc5cd9abb46b0f2f9536734470d9507.json",
+    "7c465ebb2d89deee4e9a4fa962b7649847e8830e.json",
+    "a7d336056c2816991568bb2d69ccd033dd441b31.json",
+    "bb81642acf10159b81f45e3260448a509f4d64c9.json"
+  ],
+  "datetime": "2025-04-04T11:22:35.658373+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24033",
+  "number": 24033,
+  "title": "8351339: WebSocket::sendBinary assume that user supplied buffers are BIG_ENDIAN",
+  "head_sha": "e0981109745d00ba259e61d3ea18e1adfe409cfd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14262342731"
+}
