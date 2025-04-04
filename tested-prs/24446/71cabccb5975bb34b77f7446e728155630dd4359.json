@@ -1,0 +1,14 @@
+{
+  "artifact_2883093018": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-hns-71cabccb5975bb34b77f7446e728155630dd4359)\nOpenJDK 64-Bit Server VM (build 25-internal-hns-71cabccb5975bb34b77f7446e728155630dd4359, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-04T13:49:30.414110+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24446",
+  "number": 24446,
+  "title": "8254622: Hide superclasses from conditionally exported packages",
+  "head_sha": "71cabccb5975bb34b77f7446e728155630dd4359",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14265788225"
+}
