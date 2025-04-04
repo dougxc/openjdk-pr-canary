@@ -1,0 +1,16 @@
+{
+  "artifact_2883364301": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jdksjolen-57c3877acc60d3c2e5d833f74a8406158006cba5)\nOpenJDK 64-Bit Server VM (build 25-internal-jdksjolen-57c3877acc60d3c2e5d833f74a8406158006cba5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5ef7fee1a079785f0884d747c5ef1eeabc7d7627.json"
+  ],
+  "datetime": "2025-04-04T14:52:57.889426+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24411",
+  "number": 24411,
+  "title": "8353718: Improve droppingMessage test in async UL tests",
+  "head_sha": "57c3877acc60d3c2e5d833f74a8406158006cba5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14266586144"
+}
