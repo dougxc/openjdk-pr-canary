@@ -98662,6 +98662,32 @@
 		]
 	},
 	{
+		"id": "jdk-24.0.2+3-22",
+		"revisions": {
+			"graal-enterprise": [
+				"1b752ad0e40fe42b4337f25faeabd27729a9d056"
+			],
+			".": [
+				"1faaebfc9a6fe754de16fafa60d36ead959e8c51"
+			],
+			"graal": [
+				"9aad0ec168b7b0c920638a8219aa681646db93ec"
+			],
+			"open": [
+				"34e9598d6c7061097327ddcbe9f0869a9c850aa7"
+			],
+			"mx": [
+				"a424108634b46317d9cb9b5f7d75325bc41f4c73"
+			]
+		},
+		"aliases": [
+			"jdk-24.0.2-22"
+		],
+		"tags": [
+			"UNUSABLE"
+		]
+	},
+	{
 		"id": "jdk-25+1-1",
 		"revisions": {
 			"graal-enterprise": [
