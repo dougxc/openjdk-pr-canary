@@ -1,0 +1,16 @@
+{
+  "artifact_2884581087": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-8c472446e6654245912a4a0336c537f52e4f52d6)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-8c472446e6654245912a4a0336c537f52e4f52d6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "68cccbf18ab1dea51e3e673523e77a19cc221b82.json"
+  ],
+  "datetime": "2025-04-04T17:49:40.198887+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24398",
+  "number": 24398,
+  "title": "8353487: JShell LocalExecutionControl should allow decorating the execution task",
+  "head_sha": "8c472446e6654245912a4a0336c537f52e4f52d6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14270877520"
+}
