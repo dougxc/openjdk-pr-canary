@@ -1,0 +1,14 @@
+{
+  "artifact_2880160506": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-312c552597a6211ae63697b388c5ee26023b1ea2)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-312c552597a6211ae63697b388c5ee26023b1ea2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-04T03:27:54.142712+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24434",
+  "number": 24434,
+  "title": "8353694: Resolved Class/Field/Method CP entries missing from AOT Configuration",
+  "head_sha": "312c552597a6211ae63697b388c5ee26023b1ea2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14257138398"
+}
