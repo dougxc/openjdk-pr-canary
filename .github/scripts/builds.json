@@ -146286,5 +146286,30 @@
 		"aliases": [
 			"jdk-25-1985"
 		]
+	},
+	{
+		"id": "jdk-25+18-1986",
+		"revisions": {
+			"mx": [
+				"95a8845fabc1c9fd9a2ace4e5e6878da3a691fa5"
+			],
+			".": [
+				"1fac1e8a7a289d2dc8a6aec7d6af78b1a0a6bd5e"
+			],
+			"open": [
+				"57df89c46449a19bb626fee2ea01c868e6dfb712"
+			],
+			"graal": [
+				"d2643199df5f413e705829737b640463ad92d09a",
+				"e32c845d051d865c4f134fce60d1988a10414888"
+			],
+			"graal-enterprise": [
+				"246f190a0877a5510a0fbeaa8a785ea0c0b04068",
+				"898702da4df56f6fafa76c6e4b289b745ecd4456"
+			]
+		},
+		"aliases": [
+			"jdk-25-1986"
+		]
 	}
 ]
