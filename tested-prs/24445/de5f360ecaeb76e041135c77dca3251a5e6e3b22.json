@@ -1,0 +1,14 @@
+{
+  "artifact_2883083372": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-seanjmullan-de5f360ecaeb76e041135c77dca3251a5e6e3b22)\nOpenJDK 64-Bit Server VM (build 25-internal-seanjmullan-de5f360ecaeb76e041135c77dca3251a5e6e3b22, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-04T14:16:53.611469+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24445",
+  "number": 24445,
+  "title": "8348967: Deprecate security permission classes for removal",
+  "head_sha": "de5f360ecaeb76e041135c77dca3251a5e6e3b22",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14266586144"
+}
