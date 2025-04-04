@@ -146424,5 +146424,28 @@
 		"aliases": [
 			"jdk-25-1990"
 		]
+	},
+	{
+		"id": "jdk-25+18-1991",
+		"revisions": {
+			".": [
+				"1fac1e8a7a289d2dc8a6aec7d6af78b1a0a6bd5e"
+			],
+			"graal": [
+				"a7e560e31bace62ff3be1f7a280116152ae85786"
+			],
+			"graal-enterprise": [
+				"1fad1b0f5cf2a6cb8c9efb37b9f8531d97779457"
+			],
+			"mx": [
+				"8b2e7bb55cbfcb066ce50a01ce719f026411090d"
+			],
+			"open": [
+				"a13e34da3f81039b572fd6030d6ee63dfffad612"
+			]
+		},
+		"aliases": [
+			"jdk-25-1991"
+		]
 	}
 ]
