@@ -1,0 +1,14 @@
+{
+  "artifact_2880983923": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tabata-d-427cbe4b2ef066182bb33e39044e3eda4b152ffe)\nOpenJDK 64-Bit Server VM (build 25-internal-tabata-d-427cbe4b2ef066182bb33e39044e3eda4b152ffe, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-04T07:37:59.983397+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24437",
+  "number": 24437,
+  "title": "8353698: Output of Simple Web Server is garbled if the console's encoding is not UTF-8",
+  "head_sha": "427cbe4b2ef066182bb33e39044e3eda4b152ffe",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14260260408"
+}
