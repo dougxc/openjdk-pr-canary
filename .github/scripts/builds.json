@@ -146832,5 +146832,28 @@
 		"aliases": [
 			"jdk-25-2006"
 		]
+	},
+	{
+		"id": "jdk-25+18-2007",
+		"revisions": {
+			"graal": [
+				"db9d7b840e23a093640198b1543803a30d22f746"
+			],
+			"open": [
+				"9bb804b14e164982860db6323c7db33214cd0d36"
+			],
+			"graal-enterprise": [
+				"f9b85a2a1ff2c222eb3442c916107f1566f16192"
+			],
+			"mx": [
+				"8b2e7bb55cbfcb066ce50a01ce719f026411090d"
+			],
+			".": [
+				"b271fdd6cf8cd01304e37800438414bfb779b049"
+			]
+		},
+		"aliases": [
+			"jdk-25-2007"
+		]
 	}
 ]
