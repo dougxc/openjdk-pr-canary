@@ -1,0 +1,14 @@
+{
+  "artifact_2887602114": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-linzihao1999-e70fb8194e3c8f41f6d1206bedd096793ddfff5a)\nOpenJDK 64-Bit Server VM (build 25-internal-linzihao1999-e70fb8194e3c8f41f6d1206bedd096793ddfff5a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-05T14:39:52.984581+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24468",
+  "number": 24468,
+  "title": "8350462: MethodTypeForm.LF_INTERPRET can cache the MemberName instead",
+  "head_sha": "e70fb8194e3c8f41f6d1206bedd096793ddfff5a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14282841476"
+}
