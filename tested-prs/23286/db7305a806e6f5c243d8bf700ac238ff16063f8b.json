@@ -1,0 +1,16 @@
+{
+  "artifact_2889285473": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-cushon-db7305a806e6f5c243d8bf700ac238ff16063f8b)\nOpenJDK 64-Bit Server VM (build 25-internal-cushon-db7305a806e6f5c243d8bf700ac238ff16063f8b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d702990131b92e11c3f544f8692e053fc182d923.json"
+  ],
+  "datetime": "2025-04-06T05:40:45.689562+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23286",
+  "number": 23286,
+  "title": "8347291: Exhaustive switch over a generic sealed abstract class",
+  "head_sha": "db7305a806e6f5c243d8bf700ac238ff16063f8b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14289418686"
+}
