@@ -1,0 +1,14 @@
+{
+  "artifact_2892140335": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prsadhuk-5229902eb7b82d8cb5ee80b18c41be143a974e21)\nOpenJDK 64-Bit Server VM (build 25-internal-prsadhuk-5229902eb7b82d8cb5ee80b18c41be143a974e21, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-07T06:51:10.167832+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24474",
+  "number": 24474,
+  "title": "8352687: Opensource few JInternalFrame and JTextField tests",
+  "head_sha": "5229902eb7b82d8cb5ee80b18c41be143a974e21",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14302536007"
+}
