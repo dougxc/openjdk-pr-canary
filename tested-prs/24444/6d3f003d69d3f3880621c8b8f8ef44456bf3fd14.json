@@ -1,0 +1,18 @@
+{
+  "artifact_2897347334": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-RogerRiggs-6d3f003d69d3f3880621c8b8f8ef44456bf3fd14)\nOpenJDK 64-Bit Server VM (build 25-internal-RogerRiggs-6d3f003d69d3f3880621c8b8f8ef44456bf3fd14, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1fa560a401fd5181863771043bb99b7a48352f4b.json",
+    "3ae4467e32c99461f3e577e17821c36fb6202eeb.json",
+    "9a9417a76df7a66e01e0558c024f6286aa32c90b.json"
+  ],
+  "datetime": "2025-04-07T19:34:38.065794+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24444",
+  "number": 24444,
+  "title": "8353641: Deprecate core library permission classes for removal",
+  "head_sha": "6d3f003d69d3f3880621c8b8f8ef44456bf3fd14",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14317698222"
+}
