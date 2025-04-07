@@ -1,0 +1,14 @@
+{
+  "artifact_2892692264": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TejeshR13-4a35b8c1e29f06c31be323320cd507566fb2f19c)\nOpenJDK 64-Bit Server VM (build 25-internal-TejeshR13-4a35b8c1e29f06c31be323320cd507566fb2f19c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-07T09:00:47.557853+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24477",
+  "number": 24477,
+  "title": "8352865: Open source several AWT TextComponent tests - Batch 2",
+  "head_sha": "4a35b8c1e29f06c31be323320cd507566fb2f19c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14304621269"
+}
