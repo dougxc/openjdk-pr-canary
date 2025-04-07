@@ -1,0 +1,17 @@
+{
+  "artifact_2894558210": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jerboaa-fe33cfd7196dd2d1cbc6d2bf4fe5764252c597f6)\nOpenJDK 64-Bit Server VM (build 25-internal-jerboaa-fe33cfd7196dd2d1cbc6d2bf4fe5764252c597f6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "74b6bfe1b1148be6f4db31cc81d55a0ad29c456e.json",
+    "bfbfbcb8212ed0f9825549b02b4b52e930c379a7.json"
+  ],
+  "datetime": "2025-04-07T13:38:26.439588+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24388",
+  "number": 24388,
+  "title": "8353185: Introduce the concept of upgradeable files in context of JEP 493",
+  "head_sha": "fe33cfd7196dd2d1cbc6d2bf4fe5764252c597f6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14309751407"
+}
