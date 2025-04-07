@@ -1,0 +1,17 @@
+{
+  "artifact_2893906785": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kevinjwalls-a19667808141c46902c8c54e2c2b2fb107cd9e42)\nOpenJDK 64-Bit Server VM (build 25-internal-kevinjwalls-a19667808141c46902c8c54e2c2b2fb107cd9e42, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "880261a94b15698d1ce9a82f40441c9dc947f001.json",
+    "d9646e3af3d90200aefe7a0ad6da8f39a3c10c99.json"
+  ],
+  "datetime": "2025-04-07T11:58:35.203350+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24354",
+  "number": 24354,
+  "title": "8353439: Shell grouping of -XX:OnError= commands is surprising",
+  "head_sha": "a19667808141c46902c8c54e2c2b2fb107cd9e42",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14307954067"
+}
