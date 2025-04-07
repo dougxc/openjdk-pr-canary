@@ -1,0 +1,16 @@
+{
+  "artifact_2891904180": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prsadhuk-f9f994acb15f85986f62d1e6ec0ef06abe37fe9c)\nOpenJDK 64-Bit Server VM (build 25-internal-prsadhuk-f9f994acb15f85986f62d1e6ec0ef06abe37fe9c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b3c589fcd6a5bccc67496cadd8b1afacf22239b4.json"
+  ],
+  "datetime": "2025-04-07T04:45:47.619333+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24466",
+  "number": 24466,
+  "title": "8352686: Opensource JInternalFrame tests - series3",
+  "head_sha": "f9f994acb15f85986f62d1e6ec0ef06abe37fe9c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14300870634"
+}
