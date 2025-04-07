@@ -1,0 +1,16 @@
+{
+  "artifact_2895298910": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-viktorklang-ora-f055a809029cc8a75f7ab4ec976ce67e52897a36)\nOpenJDK 64-Bit Server VM (build 25-internal-viktorklang-ora-f055a809029cc8a75f7ab4ec976ce67e52897a36, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9a9faf24612e942583c0ac0b4087e061d2933f23.json"
+  ],
+  "datetime": "2025-04-07T15:32:12.045662+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24261",
+  "number": 24261,
+  "title": "8352971: Increase maximum number of hold counts for ReentrantReadWriteLock",
+  "head_sha": "f055a809029cc8a75f7ab4ec976ce67e52897a36",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14311969978"
+}
