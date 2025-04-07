@@ -1,0 +1,16 @@
+{
+  "artifact_2898529385": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iwanowww-368b943eeec75f1bfe2498a987ae651b67aec653)\nOpenJDK 64-Bit Server VM (build 25-internal-iwanowww-368b943eeec75f1bfe2498a987ae651b67aec653, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "fc27aee573a0e4fa6852b4981085b3fabe6ccc38.json"
+  ],
+  "datetime": "2025-04-07T22:42:30.663925+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24462",
+  "number": 24462,
+  "title": "8353786: Migrate Vector API math library support to FFM API",
+  "head_sha": "368b943eeec75f1bfe2498a987ae651b67aec653",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14320796861"
+}
