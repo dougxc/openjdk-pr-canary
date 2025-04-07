@@ -1,0 +1,14 @@
+{
+  "artifact_2898426160": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-df57ca1e3828ecc4a064042b189758870497f30d)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-df57ca1e3828ecc4a064042b189758870497f30d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-07T21:50:43.162481+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24212",
+  "number": 24212,
+  "title": "8310310: Migrate CreateSymbols tool in make/langtools to Classfile API",
+  "head_sha": "df57ca1e3828ecc4a064042b189758870497f30d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14319833153"
+}
