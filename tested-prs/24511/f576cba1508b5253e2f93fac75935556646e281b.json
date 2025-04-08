@@ -1,0 +1,14 @@
+{
+  "artifact_2903951911": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-minborg-f576cba1508b5253e2f93fac75935556646e281b)\nOpenJDK 64-Bit Server VM (build 25-internal-minborg-f576cba1508b5253e2f93fac75935556646e281b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-08T15:29:22.292215+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24511",
+  "number": 24511,
+  "title": "8351757: Test java/foreign/TestDeadlock.java#FileChannel_map timed out after passing",
+  "head_sha": "f576cba1508b5253e2f93fac75935556646e281b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14336270855"
+}
