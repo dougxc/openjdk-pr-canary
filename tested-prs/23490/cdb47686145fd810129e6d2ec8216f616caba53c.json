@@ -1,0 +1,22 @@
+{
+  "artifact_2900004517": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sspitsyn-cdb47686145fd810129e6d2ec8216f616caba53c)\nOpenJDK 64-Bit Server VM (build 25-internal-sspitsyn-cdb47686145fd810129e6d2ec8216f616caba53c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2e099aad2da4c5b815787cf9a72340191b2abbbb.json",
+    "39e8d748d662b32762604dfe1d6b532cb9e360eb.json",
+    "94cfbd5f70a0bc7383f8d38d1ecc650bbb7a2857.json",
+    "c36f3188eb8e43daab5266a0ed67cd3bd6ca51ed.json",
+    "d2b768739523479071d30bca5717e94ade17dcf2.json",
+    "d6c647a3f791c7b501e0dfb0aac11211ddd82b49.json",
+    "f8860b4b48e5d148ee600fe74e6a3b4dedf8ee13.json"
+  ],
+  "datetime": "2025-04-08T04:56:06.417574+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23490",
+  "number": 23490,
+  "title": "8316397: StackTrace/Suspended/GetStackTraceSuspendedStressTest.java failed with: SingleStep event is NOT expected",
+  "head_sha": "cdb47686145fd810129e6d2ec8216f616caba53c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14325192827"
+}
