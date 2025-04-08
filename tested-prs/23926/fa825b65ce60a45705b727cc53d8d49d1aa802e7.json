@@ -1,0 +1,18 @@
+{
+  "artifact_2900793690": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-fa825b65ce60a45705b727cc53d8d49d1aa802e7)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-fa825b65ce60a45705b727cc53d8d49d1aa802e7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2cdb5f80f4aeb1fdce1ca6634aa86075d8648738.json",
+    "41ae55075bf59b7a733d707efb720ca7a9d6f375.json",
+    "ccea0a412f44f735fb8f8606a3db054ea5bdda1e.json"
+  ],
+  "datetime": "2025-04-08T07:51:33.449059+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23926",
+  "number": 23926,
+  "title": "8351319: AOT cache support for custom class loaders broken since JDK-8348426",
+  "head_sha": "fa825b65ce60a45705b727cc53d8d49d1aa802e7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14327668327"
+}
