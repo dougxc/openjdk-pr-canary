@@ -1,0 +1,14 @@
+{
+  "artifact_2904244298": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-azvegint-da47af6a421007dfd67f8107064379cf2f38fc01)\nOpenJDK 64-Bit Server VM (build 25-internal-azvegint-da47af6a421007dfd67f8107064379cf2f38fc01, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-08T17:01:49.475156+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24516",
+  "number": 24516,
+  "title": "8353549: Open source events tests batch2",
+  "head_sha": "da47af6a421007dfd67f8107064379cf2f38fc01",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14338902224"
+}
