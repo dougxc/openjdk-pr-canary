@@ -1,0 +1,14 @@
+{
+  "artifact_2905953427": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-01b973438c65c860b8185c978bf87d7601df26d2)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-01b973438c65c860b8185c978bf87d7601df26d2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-08T21:24:38.494090+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24481",
+  "number": 24481,
+  "title": "8282493: Add --with-jcov-modules convenience option",
+  "head_sha": "01b973438c65c860b8185c978bf87d7601df26d2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14342998002"
+}
