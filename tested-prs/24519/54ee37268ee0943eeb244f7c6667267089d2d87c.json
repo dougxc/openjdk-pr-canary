@@ -1,0 +1,14 @@
+{
+  "artifact_2905473648": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-54ee37268ee0943eeb244f7c6667267089d2d87c)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-54ee37268ee0943eeb244f7c6667267089d2d87c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-08T18:49:30.817189+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24519",
+  "number": 24519,
+  "title": "8354062: x86: Optimize stores of zero immediates with r12_heapbase",
+  "head_sha": "54ee37268ee0943eeb244f7c6667267089d2d87c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14341103649"
+}
