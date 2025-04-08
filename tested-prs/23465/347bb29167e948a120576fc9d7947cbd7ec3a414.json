@@ -1,0 +1,22 @@
+{
+  "artifact_2903163864": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rwestrel-347bb29167e948a120576fc9d7947cbd7ec3a414)\nOpenJDK 64-Bit Server VM (build 25-internal-rwestrel-347bb29167e948a120576fc9d7947cbd7ec3a414, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "06ee02de3dee836892ea6a038cc72f56ed69f670.json",
+    "20f0fb62ed2fbd18f3dac000f08fca07f93bbc91.json",
+    "6d48b9f28f7a771d4833541b92172e2506ec7ec4.json",
+    "9b21648df0e341b3509d98f77aa2d72eaa827f31.json",
+    "9f79e0b0efdb233256c596ca5e3dbe60da785b64.json",
+    "a76839debc7dd3f2e32ec7ca4a449f5b9f8ce4e9.json",
+    "aa7b4478f45e18245df6e8c3840e4163c15465bc.json"
+  ],
+  "datetime": "2025-04-08T14:50:16.612823+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23465",
+  "number": 23465,
+  "title": "8341976: C2: use_mem_state != load->find_exact_control(load->in(0)) assert failure",
+  "head_sha": "347bb29167e948a120576fc9d7947cbd7ec3a414",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14334066005"
+}
