@@ -1,0 +1,17 @@
+{
+  "artifact_2911917832": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-roberttoyonaga-7b7263b2c95571039482a1a62b3e3acaee2b7fcc)\nOpenJDK 64-Bit Server VM (build 25-internal-roberttoyonaga-7b7263b2c95571039482a1a62b3e3acaee2b7fcc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5c23a76a086b77a5849df81319ce6eede2567c27.json",
+    "74f31202b8c72fa062ac37579fabc13cffba6687.json"
+  ],
+  "datetime": "2025-04-09T15:49:54.942644+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24084",
+  "number": 24084,
+  "title": "8341491: Reserve and commit memory operations should be protected by NMT lock",
+  "head_sha": "7b7263b2c95571039482a1a62b3e3acaee2b7fcc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14359884649"
+}
