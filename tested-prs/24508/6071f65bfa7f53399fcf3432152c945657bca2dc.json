@@ -1,0 +1,14 @@
+{
+  "artifact_2911112416": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jdksjolen-6071f65bfa7f53399fcf3432152c945657bca2dc)\nOpenJDK 64-Bit Server VM (build 25-internal-jdksjolen-6071f65bfa7f53399fcf3432152c945657bca2dc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-09T13:08:52.711148+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24508",
+  "number": 24508,
+  "title": "8352568: Test gtest/AsyncLogGtest.java failed at droppingMessage_vm",
+  "head_sha": "6071f65bfa7f53399fcf3432152c945657bca2dc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14357682760"
+}
