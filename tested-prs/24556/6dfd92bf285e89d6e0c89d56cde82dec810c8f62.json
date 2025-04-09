@@ -1,0 +1,14 @@
+{
+  "artifact_2911588279": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-albertnetymk-6dfd92bf285e89d6e0c89d56cde82dec810c8f62)\nOpenJDK 64-Bit Server VM (build 25-internal-albertnetymk-6dfd92bf285e89d6e0c89d56cde82dec810c8f62, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-09T17:54:37.175893+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24556",
+  "number": 24556,
+  "title": "8354228: Parallel: Set correct minimum of InitialSurvivorRatio",
+  "head_sha": "6dfd92bf285e89d6e0c89d56cde82dec810c8f62",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14361173862"
+}
