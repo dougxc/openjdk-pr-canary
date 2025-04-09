@@ -1,0 +1,16 @@
+{
+  "artifact_2911436620": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-nibjen-46d4a6e052dc2b39d43a46f6ae4611a94486b6fc)\nOpenJDK 64-Bit Server VM (build 25-internal-nibjen-46d4a6e052dc2b39d43a46f6ae4611a94486b6fc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "81ea059c4b3fc416da36577b140c6df4248330d8.json"
+  ],
+  "datetime": "2025-04-09T13:51:09.243529+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24535",
+  "number": 24535,
+  "title": "8350830: Values converted incorrectly when reading TLS session tickets",
+  "head_sha": "46d4a6e052dc2b39d43a46f6ae4611a94486b6fc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14358653933"
+}
