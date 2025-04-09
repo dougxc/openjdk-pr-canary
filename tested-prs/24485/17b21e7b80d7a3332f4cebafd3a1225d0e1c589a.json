@@ -1,0 +1,16 @@
+{
+  "artifact_2914729610": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-17b21e7b80d7a3332f4cebafd3a1225d0e1c589a)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-17b21e7b80d7a3332f4cebafd3a1225d0e1c589a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "fe29b19f64c5540ca624dca4023ffe95986aba4d.json"
+  ],
+  "datetime": "2025-04-09T21:36:52.508244+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24485",
+  "number": 24485,
+  "title": "8345874: Run make doctor automatically on failed CI builds",
+  "head_sha": "17b21e7b80d7a3332f4cebafd3a1225d0e1c589a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14367280245"
+}
