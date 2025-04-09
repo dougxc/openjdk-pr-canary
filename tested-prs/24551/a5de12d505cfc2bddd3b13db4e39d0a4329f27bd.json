@@ -1,0 +1,14 @@
+{
+  "artifact_2912246206": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mkartashev-a5de12d505cfc2bddd3b13db4e39d0a4329f27bd)\nOpenJDK 64-Bit Server VM (build 25-internal-mkartashev-a5de12d505cfc2bddd3b13db4e39d0a4329f27bd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-09T16:05:23.311086+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24551",
+  "number": 24551,
+  "title": "8354191: GTK LaF should use pre-multiplied alpha same as cairo",
+  "head_sha": "a5de12d505cfc2bddd3b13db4e39d0a4329f27bd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14361173862"
+}
