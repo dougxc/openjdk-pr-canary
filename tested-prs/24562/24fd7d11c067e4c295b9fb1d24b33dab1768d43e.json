@@ -1,0 +1,14 @@
+{
+  "artifact_2917176366": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prsadhuk-24fd7d11c067e4c295b9fb1d24b33dab1768d43e)\nOpenJDK 64-Bit Server VM (build 25-internal-prsadhuk-24fd7d11c067e4c295b9fb1d24b33dab1768d43e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-10T08:29:56.024689+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24562",
+  "number": 24562,
+  "title": "8352682: Opensource JComponent tests",
+  "head_sha": "24fd7d11c067e4c295b9fb1d24b33dab1768d43e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14374778811"
+}
