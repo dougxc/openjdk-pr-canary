@@ -1,0 +1,16 @@
+{
+  "artifact_2918974433": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Michael-Mc-Mahon-a590637a3042bb9b97723214dabbb5f11bf4e90d)\nOpenJDK 64-Bit Server VM (build 25-internal-Michael-Mc-Mahon-a590637a3042bb9b97723214dabbb5f11bf4e90d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f4f782810333b7452cb6758ddd8627b7f3421c4c.json"
+  ],
+  "datetime": "2025-04-10T12:10:45.462163+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24550",
+  "number": 24550,
+  "title": "8285888: Clarify that java.net.http.HttpClient do NOT support Digest authentication",
+  "head_sha": "a590637a3042bb9b97723214dabbb5f11bf4e90d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14379245952"
+}
