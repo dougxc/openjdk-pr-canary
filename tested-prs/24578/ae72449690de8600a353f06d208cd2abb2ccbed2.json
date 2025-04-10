@@ -1,0 +1,16 @@
+{
+  "artifact_2922479598": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jsikstro-ae72449690de8600a353f06d208cd2abb2ccbed2)\nOpenJDK 64-Bit Server VM (build 25-internal-jsikstro-ae72449690de8600a353f06d208cd2abb2ccbed2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a99cb2ef939d942077c09336d514aa0619b48aba.json"
+  ],
+  "datetime": "2025-04-10T19:47:38.502884+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24578",
+  "number": 24578,
+  "title": "8354310: JFR: Inconsistent metadata in ZPageAllocation",
+  "head_sha": "ae72449690de8600a353f06d208cd2abb2ccbed2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14388608020"
+}
