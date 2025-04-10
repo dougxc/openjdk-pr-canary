@@ -1,0 +1,14 @@
+{
+  "artifact_2919256293": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-galderz-a2b73be2533635ee169069d1a0552de466d1bf52)\nOpenJDK 64-Bit Server VM (build 25-internal-galderz-a2b73be2533635ee169069d1a0552de466d1bf52, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-10T13:06:48.930620+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24571",
+  "number": 24571,
+  "title": "8354257: xctracenorm profiler not working with JDK JMH benchmarks",
+  "head_sha": "a2b73be2533635ee169069d1a0552de466d1bf52",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14380982173"
+}
