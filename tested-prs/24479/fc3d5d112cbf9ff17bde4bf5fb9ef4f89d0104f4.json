@@ -1,0 +1,14 @@
+{
+  "artifact_2918857671": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mhaessig-fc3d5d112cbf9ff17bde4bf5fb9ef4f89d0104f4)\nOpenJDK 64-Bit Server VM (build 25-internal-mhaessig-fc3d5d112cbf9ff17bde4bf5fb9ef4f89d0104f4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-10T12:21:38.904507+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24479",
+  "number": 24479,
+  "title": "8346552: C2: Add IR tests to check that Parse Predicate cloning in Loop Unswitching works as expected",
+  "head_sha": "fc3d5d112cbf9ff17bde4bf5fb9ef4f89d0104f4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14379245952"
+}
