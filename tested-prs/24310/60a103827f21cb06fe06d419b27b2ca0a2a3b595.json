@@ -1,0 +1,19 @@
+{
+  "artifact_2916812933": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-calvinccheung-60a103827f21cb06fe06d419b27b2ca0a2a3b595)\nOpenJDK 64-Bit Server VM (build 25-internal-calvinccheung-60a103827f21cb06fe06d419b27b2ca0a2a3b595, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "04f09cc49453a2c9143d97be2fae4d7be754f3dc.json",
+    "2de1d3a6332193a5faee043410c5398b4c37fa23.json",
+    "e107e569e7a7ad6aa065ac42aeff32946c306970.json",
+    "e3ed1a2b4ce016d96409131fe5a97bfaa2335f23.json"
+  ],
+  "datetime": "2025-04-10T05:52:50.738106+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24310",
+  "number": 24310,
+  "title": "8171508: Remove -Dsun.java.launcher.is_altjvm option",
+  "head_sha": "60a103827f21cb06fe06d419b27b2ca0a2a3b595",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14373049846"
+}
