@@ -1,0 +1,17 @@
+{
+  "artifact_2920246217": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rvansa-bbf9518854df62dbac90eb303cf8c5a04bf1de04)\nOpenJDK 64-Bit Server VM (build 25-internal-rvansa-bbf9518854df62dbac90eb303cf8c5a04bf1de04, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "11c2cb693c42617f4d6e31793646f97515275e13.json",
+    "5fb22d4283caa7d3346cef793ea8ea6c56ba7316.json"
+  ],
+  "datetime": "2025-04-10T16:06:46.335629+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24290",
+  "number": 24290,
+  "title": "8353175: Eliminate double iteration of stream in FieldDescriptor reinitialization",
+  "head_sha": "bbf9518854df62dbac90eb303cf8c5a04bf1de04",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14383132163"
+}
