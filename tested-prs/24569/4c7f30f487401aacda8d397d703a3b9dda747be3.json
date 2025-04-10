@@ -1,0 +1,17 @@
+{
+  "artifact_2921401247": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-djelinski-4c7f30f487401aacda8d397d703a3b9dda747be3)\nOpenJDK 64-Bit Server VM (build 25-internal-djelinski-4c7f30f487401aacda8d397d703a3b9dda747be3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c7b28290b2e229eeaff32e66c0cd752f1c7f5f74.json",
+    "45121f44d576580f86f08efb95448bdcafc2dac7.json"
+  ],
+  "datetime": "2025-04-10T17:15:58.369588+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24569",
+  "number": 24569,
+  "title": "8354276: Strict HTTP header validation",
+  "head_sha": "4c7f30f487401aacda8d397d703a3b9dda747be3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14385692123"
+}
