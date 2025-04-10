@@ -1,0 +1,14 @@
+{
+  "artifact_2918177384": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mhaessig-5eaedf2b4b1bd4276c930a41b3038a099972f710)\nOpenJDK 64-Bit Server VM (build 25-internal-mhaessig-5eaedf2b4b1bd4276c930a41b3038a099972f710, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-10T10:45:08.953102+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24565",
+  "number": 24565,
+  "title": "8353730: TestSubNodeFloatDoubleNegation.java fails with native Float16 support",
+  "head_sha": "5eaedf2b4b1bd4276c930a41b3038a099972f710",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14378328935"
+}
