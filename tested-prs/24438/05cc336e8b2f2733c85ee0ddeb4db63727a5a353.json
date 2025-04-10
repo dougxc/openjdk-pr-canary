@@ -1,0 +1,18 @@
+{
+  "artifact_2915915343": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-stuart-marks-05cc336e8b2f2733c85ee0ddeb4db63727a5a353)\nOpenJDK 64-Bit Server VM (build 25-internal-stuart-marks-05cc336e8b2f2733c85ee0ddeb4db63727a5a353, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "33e280df220366cc8edf69446b2ac79fba3e8ddc.json",
+    "a5d223e14cadeb0e331d66d9030b780651f0cd64.json",
+    "be8846e095803da10ffcf1d8cd734ad8bdb216cf.json"
+  ],
+  "datetime": "2025-04-10T02:23:20.367811+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24438",
+  "number": 24438,
+  "title": "8344706: Compiler Implementation of Compact Source Files and Instance Main Methods",
+  "head_sha": "05cc336e8b2f2733c85ee0ddeb4db63727a5a353",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14370690780"
+}
