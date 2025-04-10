@@ -1,0 +1,40 @@
+{
+  "artifact_2920584614": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-minborg-cd654b2f51d151a8e7cd486cd80c8e4cef66c45e)\nOpenJDK 64-Bit Server VM (build 25-internal-minborg-cd654b2f51d151a8e7cd486cd80c8e4cef66c45e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "09ca44e6d00c13748fa979d24ce9d6d0faca8741.json",
+    "0e4ebba969b73497a6622931f1fb38e62e86132a.json",
+    "111f4d0d4887b4456c6d67fb6e6095772a50c1ce.json",
+    "26b84e89ff2db1ad85e43df84827b4343c480e7a.json",
+    "2fe5b0f821f6591ec28d65d65fe086e0ec09233a.json",
+    "35ced1901bed78c92532f0a56c05c1511500aa35.json",
+    "42d4dcfa5ed310cb647cb1adbe208065ca5f9cf4.json",
+    "4c0dadfba907c44452ff40931977aacbe424516a.json",
+    "56d9b3c017b38e66798bc5717eab59d76849e04a.json",
+    "5bb5e48af8be921e48f06430a7a2e8a00fab1cba.json",
+    "5dbcd4d0e172fa8e298259d76e90c29e6e6f0e86.json",
+    "6a6dd4b4c4e073cf192e0cb65042fc828fa22e21.json",
+    "7e15e49eea8e539ac7a8222bea76d81488ba9499.json",
+    "7fe2c363e229b22d6771239c22824307988d6ee2.json",
+    "8b4113f6313003f33c9ec9ac51fc0dd55d3b73de.json",
+    "9c7b48b74f912523ff52d31d8c4f0b020992a946.json",
+    "a83ec0e7d2c59ceb91acdb6a913370a026a38e9f.json",
+    "be84045a5af5f16297750411b98a1fb3301e9009.json",
+    "c80452c8edab73524427eb024cba10acbb8d4729.json",
+    "d6e1573f9795d8fdcbff105370eefed45375e5ca.json",
+    "df4ef35ce1e1fd9dc011c3217ff7da8fa93959b1.json",
+    "dfb940be33f88cbd3aeba2f59faed02e3ae7ea4a.json",
+    "f90557b87791b6567308dbe4326ea3359459d87e.json",
+    "f9521793daf46ad4b03e0ccb4d645fd00b3dac1d.json",
+    "fe021b5cc367719319eefe2b934f068a7071c8f8.json"
+  ],
+  "datetime": "2025-04-10T16:17:30.355537+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23972",
+  "number": 23972,
+  "title": "8351565: Implement JEP 502: Stable Values (Preview)",
+  "head_sha": "cd654b2f51d151a8e7cd486cd80c8e4cef66c45e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14383132163"
+}
