@@ -1,0 +1,18 @@
+{
+  "artifact_2927837704": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-41ee595d8a1213a097256899ac3fa10e2a1ad4ae)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-41ee595d8a1213a097256899ac3fa10e2a1ad4ae, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5fb4ad30dcf2b316211927c26573e46d84596c54.json",
+    "b6beb828cb28da964f78bbd012c6714cdb5aa0ae.json",
+    "ffede9b0508f8285e12473ba5422618da94e8ff1.json"
+  ],
+  "datetime": "2025-04-11T14:03:44.774776+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24227",
+  "number": 24227,
+  "title": "8352612: No way to add back lint categories after \"none\"",
+  "head_sha": "41ee595d8a1213a097256899ac3fa10e2a1ad4ae",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14404415232"
+}
