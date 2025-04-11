@@ -1,0 +1,16 @@
+{
+  "artifact_2927179130": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-5adc1c900860c176fe27882a8d20fb407bd01e41)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-5adc1c900860c176fe27882a8d20fb407bd01e41, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f5f7a8cfcde723bdd4b59f1251486d3fcc3fac83.json"
+  ],
+  "datetime": "2025-04-11T13:15:48.868233+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24591",
+  "number": 24591,
+  "title": "8354215: Clean up Loom support after 32-bit x86 removal",
+  "head_sha": "5adc1c900860c176fe27882a8d20fb407bd01e41",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14403588272"
+}
