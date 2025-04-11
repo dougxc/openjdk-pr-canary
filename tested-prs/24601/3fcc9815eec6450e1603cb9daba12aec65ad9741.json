@@ -1,0 +1,14 @@
+{
+  "artifact_2930532275": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-seanjmullan-3fcc9815eec6450e1603cb9daba12aec65ad9741)\nOpenJDK 64-Bit Server VM (build 25-internal-seanjmullan-3fcc9815eec6450e1603cb9daba12aec65ad9741, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-11T21:37:21.917289+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24601",
+  "number": 24601,
+  "title": "8354449: Remove com/sun/org/apache/xml/internal/security/resource/xmlsecurity_de.properties",
+  "head_sha": "3fcc9815eec6450e1603cb9daba12aec65ad9741",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14412319125"
+}
