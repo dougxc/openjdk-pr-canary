@@ -1,0 +1,16 @@
+{
+  "artifact_2925612348": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-42ad872700ae651e431bd9b9e1d30e3f7f7029e1)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-42ad872700ae651e431bd9b9e1d30e3f7f7029e1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1e46a30ecc6730b7412dde0cb0e89388803433a5.json"
+  ],
+  "datetime": "2025-04-11T07:48:31.104362+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24563",
+  "number": 24563,
+  "title": "8354189: Remove JLI_ReportErrorMessageSys on Windows",
+  "head_sha": "42ad872700ae651e431bd9b9e1d30e3f7f7029e1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14397925099"
+}
