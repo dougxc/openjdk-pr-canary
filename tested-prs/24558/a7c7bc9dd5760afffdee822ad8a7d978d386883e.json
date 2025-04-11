@@ -1,0 +1,16 @@
+{
+  "artifact_2925907136": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-a7c7bc9dd5760afffdee822ad8a7d978d386883e)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-a7c7bc9dd5760afffdee822ad8a7d978d386883e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "81aef47dd52d619408d4b53d59d2ea2bfab8897f.json"
+  ],
+  "datetime": "2025-04-11T09:10:15.340814+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24558",
+  "number": 24558,
+  "title": "8354231: x86: Purge FPU support from (Macro)Assembler after 32-bit x86 removal",
+  "head_sha": "a7c7bc9dd5760afffdee822ad8a7d978d386883e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14399086221"
+}
