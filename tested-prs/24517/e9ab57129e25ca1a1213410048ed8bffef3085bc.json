@@ -1,0 +1,18 @@
+{
+  "artifact_2930959628": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prrace-e9ab57129e25ca1a1213410048ed8bffef3085bc)\nOpenJDK 64-Bit Server VM (build 25-internal-prrace-e9ab57129e25ca1a1213410048ed8bffef3085bc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5e9e73489d5986cdd6fef4686591738d014d573a.json",
+    "829199d238a7b8f64f40ca6682c28f87df6b9e8e.json",
+    "82e33e55b3c1ab3bb9ec9813697aa0a33bee41af.json"
+  ],
+  "datetime": "2025-04-11T22:57:14.863110+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24517",
+  "number": 24517,
+  "title": "8353483: Open source some JProgressBar tests",
+  "head_sha": "e9ab57129e25ca1a1213410048ed8bffef3085bc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14413113994"
+}
