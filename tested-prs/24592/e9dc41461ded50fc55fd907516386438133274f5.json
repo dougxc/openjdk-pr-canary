@@ -1,0 +1,14 @@
+{
+  "artifact_2926214084": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dfuch-e9dc41461ded50fc55fd907516386438133274f5)\nOpenJDK 64-Bit Server VM (build 25-internal-dfuch-e9dc41461ded50fc55fd907516386438133274f5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-11T09:46:40.090511+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24592",
+  "number": 24592,
+  "title": "8353642: Deprecate networking permission classes for removal",
+  "head_sha": "e9dc41461ded50fc55fd907516386438133274f5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14400087245"
+}
