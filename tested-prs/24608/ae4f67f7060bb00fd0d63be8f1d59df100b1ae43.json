@@ -1,0 +1,14 @@
+{
+  "artifact_2932634768": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kimbarrett-ae4f67f7060bb00fd0d63be8f1d59df100b1ae43)\nOpenJDK 64-Bit Server VM (build 25-internal-kimbarrett-ae4f67f7060bb00fd0d63be8f1d59df100b1ae43, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-12T14:39:35.633322+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24608",
+  "number": 24608,
+  "title": "8347719: [REDO] Portable implementation of FORBID_C_FUNCTION and ALLOW_C_FUNCTION",
+  "head_sha": "ae4f67f7060bb00fd0d63be8f1d59df100b1ae43",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14420520368"
+}
