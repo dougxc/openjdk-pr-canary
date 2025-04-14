@@ -151482,6 +151482,9 @@
 		},
 		"aliases": [
 			"jdk-25-2194"
+		],
+		"tags": [
+			"UNUSABLE"
 		]
 	},
 	{
@@ -151506,6 +151509,9 @@
 		},
 		"aliases": [
 			"jdk-25-2195"
+		],
+		"tags": [
+			"UNUSABLE"
 		]
 	},
 	{
@@ -151529,6 +151535,9 @@
 		},
 		"aliases": [
 			"jdk-25-2196"
+		],
+		"tags": [
+			"UNUSABLE"
 		]
 	},
 	{
@@ -151598,6 +151607,30 @@
 		},
 		"aliases": [
 			"jdk-25-2199"
+		]
+	},
+	{
+		"id": "jdk-25+19-2200",
+		"revisions": {
+			"graal-enterprise": [
+				"bac222b488d1ae057cc9eaeb156c324cacf5486f",
+				"290b484fa9fb6f271667e01e0e36233d7cf6ee93"
+			],
+			"open": [
+				"9e7763d44274ad1ac633120553d5c67f494bf3ef"
+			],
+			"mx": [
+				"503dc9f284d224a12c6ed9ff0be4625870a7610c"
+			],
+			"graal": [
+				"f00aafe87d6d0b86efc9abba4087ed08354bd828"
+			],
+			".": [
+				"137efad1051d0765d4465a7c359a2fbd4a3d3c64"
+			]
+		},
+		"aliases": [
+			"jdk-25-2200"
 		]
 	}
 ]
