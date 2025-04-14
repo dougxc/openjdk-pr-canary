@@ -1,0 +1,14 @@
+{
+  "artifact_2936222163": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-3800416459631f6fd5dd531504165d6b950cd3bf)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-3800416459631f6fd5dd531504165d6b950cd3bf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-14T02:22:29.054237+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24574",
+  "number": 24574,
+  "title": "8301971: Make JDK source code UTF-8",
+  "head_sha": "3800416459631f6fd5dd531504165d6b950cd3bf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14435963895"
+}
