@@ -1,0 +1,18 @@
+{
+  "artifact_2937616542": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-SirYwell-278a2a7c9ea0ebadb309bce03c97e9e456dda89e)\nOpenJDK 64-Bit Server VM (build 25-internal-SirYwell-278a2a7c9ea0ebadb309bce03c97e9e456dda89e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "51d0a5d1a62283f4b314c98506c30a2253ad806a.json",
+    "90f2e9de8c42f32ce197a797de75ca34c4a41105.json",
+    "dc046768ca4638c29179f5e4ff0ed06c6315b4cb.json"
+  ],
+  "datetime": "2025-04-14T07:53:26.956853+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24382",
+  "number": 24382,
+  "title": "8353551: C2: Constant folding for ReverseBytes nodes",
+  "head_sha": "278a2a7c9ea0ebadb309bce03c97e9e456dda89e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14439918570"
+}
