@@ -1,0 +1,17 @@
+{
+  "artifact_2938453194": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-xmas92-a33c7e39f787c8375e739a26398cc1bef8db48d0)\nOpenJDK 64-Bit Server VM (build 25-internal-xmas92-a33c7e39f787c8375e739a26398cc1bef8db48d0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0abce51aec8e1fea2707127994abcb174db632d5.json",
+    "70b0e92346ee76fefda94f469a50cd813abdefe3.json"
+  ],
+  "datetime": "2025-04-14T09:45:24.555110+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24589",
+  "number": 24589,
+  "title": "8354358: ZGC: ZPartition::prime handle discontiguous reservations correctly",
+  "head_sha": "a33c7e39f787c8375e739a26398cc1bef8db48d0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14442301691"
+}
