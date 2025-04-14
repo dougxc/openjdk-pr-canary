@@ -1,0 +1,22 @@
+{
+  "artifact_2938098641": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Anjian-Wen-66c886c629a83feb7bf0edcc233f0a1bb630f498)\nOpenJDK 64-Bit Server VM (build 25-internal-Anjian-Wen-66c886c629a83feb7bf0edcc233f0a1bb630f498, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7fc67099ad4b7c928c7c7c8bcbb702c69bc4a822.json",
+    "a15d58dc68b9f4686567df5fefc9f38ef4d116cd.json",
+    "bc233f6c09207d2f4db547bada83b5ee648bc999.json",
+    "dd649507cef3f10c8cc0fbe067d3a74b6847b209.json",
+    "ec0413afdb8104f53556412104b1e91e27a7d5ba.json",
+    "edb166838bf07801e0acd7b9bc207962a50c044e.json",
+    "fd4e05c25b6c78ab2a2616c17f748c84a857a681.json"
+  ],
+  "datetime": "2025-04-14T09:30:40.308218+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24129",
+  "number": 24129,
+  "title": "8329887: RISC-V: C2: Support Zvbb Vector And-Not instruction",
+  "head_sha": "66c886c629a83feb7bf0edcc233f0a1bb630f498",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14441191731"
+}
