@@ -1,0 +1,16 @@
+{
+  "artifact_2941565244": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-RogerRiggs-56680c47c5994212bbdcb564481ae601b1564ac8)\nOpenJDK 64-Bit Server VM (build 25-internal-RogerRiggs-56680c47c5994212bbdcb564481ae601b1564ac8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "721fba818b97002deaf530e01c393b63ac4c4485.json"
+  ],
+  "datetime": "2025-04-14T17:15:14.633403+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24603",
+  "number": 24603,
+  "title": "8354053: Remove unused JavaIOFilePermissionAccess",
+  "head_sha": "56680c47c5994212bbdcb564481ae601b1564ac8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14450919514"
+}
