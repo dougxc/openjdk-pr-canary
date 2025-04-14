@@ -1,0 +1,14 @@
+{
+  "artifact_2940059105": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-xmas92-2c2977ff47df7cb6f2aaae60b94a3e43a633e79f)\nOpenJDK 64-Bit Server VM (build 25-internal-xmas92-2c2977ff47df7cb6f2aaae60b94a3e43a633e79f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-14T13:49:32.851261+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24622",
+  "number": 24622,
+  "title": "8354510: Skipped gtest cause test failure",
+  "head_sha": "2c2977ff47df7cb6f2aaae60b94a3e43a633e79f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14447112844"
+}
