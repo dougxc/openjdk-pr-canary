@@ -1,0 +1,18 @@
+{
+  "artifact_2951533023": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-j3graham-dc5e466e2a48cbd5417447071b47c31a17e54dec)\nOpenJDK 64-Bit Server VM (build 25-internal-j3graham-dc5e466e2a48cbd5417447071b47c31a17e54dec, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "61332647d34a8b73173f28175e2e3382e04e06cb.json",
+    "7ef4cb626d433526431573b8e03723cbdea73138.json",
+    "880b2d8908fb337b15ae76ce48fb091d9b09a8d7.json"
+  ],
+  "datetime": "2025-04-15T21:27:31.771756+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24598",
+  "number": 24598,
+  "title": "8354522: Clones of DecimalFormat cause interferences when used concurrently",
+  "head_sha": "dc5e466e2a48cbd5417447071b47c31a17e54dec",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14478802530"
+}
