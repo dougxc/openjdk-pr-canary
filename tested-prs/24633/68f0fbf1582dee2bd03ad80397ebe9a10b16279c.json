@@ -1,0 +1,14 @@
+{
+  "artifact_2942678131": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-68f0fbf1582dee2bd03ad80397ebe9a10b16279c)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-68f0fbf1582dee2bd03ad80397ebe9a10b16279c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-15T08:59:16.614011+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24633",
+  "number": 24633,
+  "title": "8354542: Clean up x86 stubs after 32-bit x86 removal",
+  "head_sha": "68f0fbf1582dee2bd03ad80397ebe9a10b16279c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14465015393"
+}
