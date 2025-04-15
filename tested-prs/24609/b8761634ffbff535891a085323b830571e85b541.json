@@ -1,0 +1,16 @@
+{
+  "artifact_2950682571": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-azuev-java-b8761634ffbff535891a085323b830571e85b541)\nOpenJDK 64-Bit Server VM (build 25-internal-azuev-java-b8761634ffbff535891a085323b830571e85b541, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "af6ca77bd709d9055056c22c01d2e1d238b88913.json"
+  ],
+  "datetime": "2025-04-15T19:18:36.925188+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24609",
+  "number": 24609,
+  "title": "8353655: Clean up and open source KeyEvent related tests (Part 1)",
+  "head_sha": "b8761634ffbff535891a085323b830571e85b541",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14476881575"
+}
