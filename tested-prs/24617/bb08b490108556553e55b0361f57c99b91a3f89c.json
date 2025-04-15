@@ -1,0 +1,16 @@
+{
+  "artifact_2950374489": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lahodaj-bb08b490108556553e55b0361f57c99b91a3f89c)\nOpenJDK 64-Bit Server VM (build 25-internal-lahodaj-bb08b490108556553e55b0361f57c99b91a3f89c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7539bea8359c6213febbbcb0fd083b9998068d58.json"
+  ],
+  "datetime": "2025-04-15T18:57:39.120257+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24617",
+  "number": 24617,
+  "title": "8353565: Javac throws \"inconsistent stack types at join point\" exception",
+  "head_sha": "bb08b490108556553e55b0361f57c99b91a3f89c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14476881575"
+}
