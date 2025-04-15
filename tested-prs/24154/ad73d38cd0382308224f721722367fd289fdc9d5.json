@@ -1,0 +1,23 @@
+{
+  "artifact_2946737066": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vy-ad73d38cd0382308224f721722367fd289fdc9d5)\nOpenJDK 64-Bit Server VM (build 25-internal-vy-ad73d38cd0382308224f721722367fd289fdc9d5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2857dde023ff7b42c144b180b004dc038a9c0d07.json",
+    "59a11ccce5e50ab42007ef3c0e03a757c883c2ac.json",
+    "5b418fd7a9f4cfc3da940611ae3ba9d43e57aa91.json",
+    "883135d8edc2f2a892152e42eda924d65686bc7a.json",
+    "a0859c7c68614e8c3f531b1d4d9357f3f48cf5ab.json",
+    "a08c0cf17423205bc91cd212823de5fd9405defc.json",
+    "a1bb8cf0ad29fe5fa77edbf43afcb2fbb0bea4b9.json",
+    "db61a01542ce12496721857bb8581683bff2cf81.json"
+  ],
+  "datetime": "2025-04-15T11:08:29.717480+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24154",
+  "number": 24154,
+  "title": "8350279: HttpClient: Add a new HttpResponse method to identify connections",
+  "head_sha": "ad73d38cd0382308224f721722367fd289fdc9d5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14467319720"
+}
