@@ -1,0 +1,14 @@
+{
+  "artifact_2945937621": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaikiran-1906a77bede053a7f06b572347df328635ac044d)\nOpenJDK 64-Bit Server VM (build 25-internal-jaikiran-1906a77bede053a7f06b572347df328635ac044d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-15T09:11:15.328500+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24653",
+  "number": 24653,
+  "title": "8354576: InetAddress.getLocalHost() on macos may return address of an interface which is not UP - leading to \"Network is down\" error",
+  "head_sha": "1906a77bede053a7f06b572347df328635ac044d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14465015393"
+}
