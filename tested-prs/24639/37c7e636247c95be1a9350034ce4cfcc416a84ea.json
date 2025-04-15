@@ -1,0 +1,14 @@
+{
+  "artifact_2944177690": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-honkar-jdk-37c7e636247c95be1a9350034ce4cfcc416a84ea)\nOpenJDK 64-Bit Server VM (build 25-internal-honkar-jdk-37c7e636247c95be1a9350034ce4cfcc416a84ea, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-15T02:28:15.813611+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24639",
+  "number": 24639,
+  "title": "JDK-8353319 : Open source Swing tests - Set 3",
+  "head_sha": "37c7e636247c95be1a9350034ce4cfcc416a84ea",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14459672186"
+}
