@@ -1,0 +1,14 @@
+{
+  "artifact_2948578454": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lahodaj-5fea505c1c546615e52383e1f59b28d403ebf9db)\nOpenJDK 64-Bit Server VM (build 25-internal-lahodaj-5fea505c1c546615e52383e1f59b28d403ebf9db, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-15T15:26:40.657727+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24666",
+  "number": 24666,
+  "title": "8322706: AnnotationTypeMismatchException in javac with annotation processing",
+  "head_sha": "5fea505c1c546615e52383e1f59b28d403ebf9db",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14470884454"
+}
