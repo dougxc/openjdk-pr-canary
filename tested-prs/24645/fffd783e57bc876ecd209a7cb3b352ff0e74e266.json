@@ -1,0 +1,14 @@
+{
+  "artifact_2945081125": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vpaprotsk-fffd783e57bc876ecd209a7cb3b352ff0e74e266)\nOpenJDK 64-Bit Server VM (build 25-internal-vpaprotsk-fffd783e57bc876ecd209a7cb3b352ff0e74e266, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-15T05:42:46.551121+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24645",
+  "number": 24645,
+  "title": "8354473: Incorrect results for compress/expand tests with -XX:+EnableX86ECoreOpts",
+  "head_sha": "fffd783e57bc876ecd209a7cb3b352ff0e74e266",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14462018605"
+}
