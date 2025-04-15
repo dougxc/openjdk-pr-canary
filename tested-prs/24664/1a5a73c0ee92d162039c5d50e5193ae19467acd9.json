@@ -1,0 +1,14 @@
+{
+  "artifact_2948494403": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jatin-bhateja-1a5a73c0ee92d162039c5d50e5193ae19467acd9)\nOpenJDK 64-Bit Server VM (build 25-internal-jatin-bhateja-1a5a73c0ee92d162039c5d50e5193ae19467acd9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-15T14:28:38.664845+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24664",
+  "number": 24664,
+  "title": "8354668: Missing REX2 prefix accounting in ZGC barriers leads to incorrect encoding",
+  "head_sha": "1a5a73c0ee92d162039c5d50e5193ae19467acd9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14470884454"
+}
