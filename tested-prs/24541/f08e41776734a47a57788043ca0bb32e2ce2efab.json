@@ -1,0 +1,17 @@
+{
+  "artifact_2944771143": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tbzhang-f08e41776734a47a57788043ca0bb32e2ce2efab)\nOpenJDK 64-Bit Server VM (build 25-internal-tbzhang-f08e41776734a47a57788043ca0bb32e2ce2efab, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6b13908565c051f25603ebc700aaf784cc31415f.json",
+    "c31c7340137a640d5b2926d7fc24b1a12286314d.json"
+  ],
+  "datetime": "2025-04-15T03:22:31.530901+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24541",
+  "number": 24541,
+  "title": "8354145: G1GC: keep the CompressedOops same as before when not setting HeapRegionSize explicitly",
+  "head_sha": "f08e41776734a47a57788043ca0bb32e2ce2efab",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14460415769"
+}
