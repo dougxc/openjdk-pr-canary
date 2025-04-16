@@ -1,0 +1,23 @@
+{
+  "artifact_2957076495": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-artur-oracle-6956caff05ee555e128b42a68bae2b18c0021af6)\nOpenJDK 64-Bit Server VM (build 25-internal-artur-oracle-6956caff05ee555e128b42a68bae2b18c0021af6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "134a3264556e8129e1e94a7520816311aa71f295.json",
+    "28f1278629cbabb6f8be20b13e4213dcb85b685c.json",
+    "7a7bb00f45abdc7a5bf4f04d18f7d324b85b45e4.json",
+    "86874f33eb7b44bd01908d4f0685dd79fee48847.json",
+    "8e56207ac7e31c973539e4f395114299c0bc67ba.json",
+    "9d2a7743d69b3df6ff06bfb4e4ffcfdf3ffb6d4e.json",
+    "ce9404dea70330b6b4ebdc891ba496ba0f5516fa.json",
+    "e04bda1031370288e81757990c83fb367f72a526.json"
+  ],
+  "datetime": "2025-04-16T15:44:51.916654+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24425",
+  "number": 24425,
+  "title": "8350807: Certificates using MD5 algorithm that are disabled by default are incorrectly allowed in TLSv1.3 when re-enabled",
+  "head_sha": "6956caff05ee555e128b42a68bae2b18c0021af6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14495323577"
+}
