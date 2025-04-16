@@ -1,0 +1,16 @@
+{
+  "artifact_2957245792": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rkennke-373a5114bf334b1facb773ed5b4a8e775fd711c1)\nOpenJDK 64-Bit Server VM (build 25-internal-rkennke-373a5114bf334b1facb773ed5b4a8e775fd711c1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "16eec1cba484174c45016ec026445da5e85cb2b1.json"
+  ],
+  "datetime": "2025-04-16T16:53:02.957564+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24660",
+  "number": 24660,
+  "title": "8354523: runtime/Monitor/SyncOnValueBasedClassTest.java triggers SIGSEGV",
+  "head_sha": "373a5114bf334b1facb773ed5b4a8e775fd711c1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14496608747"
+}
