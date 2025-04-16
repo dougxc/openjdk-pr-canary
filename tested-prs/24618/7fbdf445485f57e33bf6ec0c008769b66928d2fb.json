@@ -1,0 +1,14 @@
+{
+  "artifact_2954010545": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Anjian-Wen-7fbdf445485f57e33bf6ec0c008769b66928d2fb)\nOpenJDK 64-Bit Server VM (build 25-internal-Anjian-Wen-7fbdf445485f57e33bf6ec0c008769b66928d2fb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-16T15:22:55.446000+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24618",
+  "number": 24618,
+  "title": "8354815: RISC-V: Change type of bitwise rotation shift to iRegIorL2I",
+  "head_sha": "7fbdf445485f57e33bf6ec0c008769b66928d2fb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14495323577"
+}
