@@ -1,0 +1,17 @@
+{
+  "artifact_2956124359": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-marc-chevalier-9f0009901f7b021f72d9f45676ef1df4a7d09ab3)\nOpenJDK 64-Bit Server VM (build 25-internal-marc-chevalier-9f0009901f7b021f72d9f45676ef1df4a7d09ab3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "487b1a64cc4dc3fd1495a1e6ced53f974a8d0a1e.json",
+    "a71abe7df4fbde41f1fa9ca6b154ef51642c2483.json"
+  ],
+  "datetime": "2025-04-16T13:51:14.347444+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24663",
+  "number": 24663,
+  "title": "8344251: C2: remove blackholes with dead control input",
+  "head_sha": "9f0009901f7b021f72d9f45676ef1df4a7d09ab3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14493251676"
+}
