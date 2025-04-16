@@ -1,0 +1,21 @@
+{
+  "artifact_2958345013": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JohnTortugo-1333e4a0d84f337e652b246b39e956fd897c2655)\nOpenJDK 64-Bit Server VM (build 25-internal-JohnTortugo-1333e4a0d84f337e652b246b39e956fd897c2655, mixed mode, sharing)"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/11039",
+    "number": "11039",
+    "revision": "1e8e36092b5ce20bf553035e7980a28145b1ad7c"
+  },
+  "status": "passed",
+  "history": [
+    "ce19dd8d3edc2d559d7854d40073d2a072f5752b.json"
+  ],
+  "datetime": "2025-04-16T19:01:23.318795+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24632",
+  "number": 24632,
+  "title": "8354543: Set more meaningful names for \"get_vm_result\" and \"get_vm_result_2\"",
+  "head_sha": "1333e4a0d84f337e652b246b39e956fd897c2655",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14500072230"
+}
