@@ -1,0 +1,16 @@
+{
+  "artifact_2953101403": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-stuart-marks-37cd3ed250c3de3021e3c18db5c8799454f03e38)\nOpenJDK 64-Bit Server VM (build 25-internal-stuart-marks-37cd3ed250c3de3021e3c18db5c8799454f03e38, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "328fdd27920d5d7825831c148f47cb73f5c8bab6.json"
+  ],
+  "datetime": "2025-04-16T04:55:40.922396+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24607",
+  "number": 24607,
+  "title": "8354464: Additional cleanup setting up native.encoding",
+  "head_sha": "37cd3ed250c3de3021e3c18db5c8799454f03e38",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14484766752"
+}
