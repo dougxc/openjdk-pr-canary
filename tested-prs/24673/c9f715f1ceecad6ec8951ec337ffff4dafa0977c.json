@@ -1,0 +1,14 @@
+{
+  "artifact_2953242127": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sendaoYan-c9f715f1ceecad6ec8951ec337ffff4dafa0977c)\nOpenJDK 64-Bit Server VM (build 25-internal-sendaoYan-c9f715f1ceecad6ec8951ec337ffff4dafa0977c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-16T04:44:56.629244+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24673",
+  "number": 24673,
+  "title": "8354766: Test TestUnexported.java javac build fails",
+  "head_sha": "c9f715f1ceecad6ec8951ec337ffff4dafa0977c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14484766752"
+}
