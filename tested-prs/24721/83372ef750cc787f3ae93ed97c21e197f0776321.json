@@ -1,0 +1,14 @@
+{
+  "artifact_2963436230": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-stefank-83372ef750cc787f3ae93ed97c21e197f0776321)\nOpenJDK 64-Bit Server VM (build 25-internal-stefank-83372ef750cc787f3ae93ed97c21e197f0776321, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-17T13:28:55.540636+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24721",
+  "number": 24721,
+  "title": "8354938: ZGC: Disable UseNUMA when ZFakeNUMA is used",
+  "head_sha": "83372ef750cc787f3ae93ed97c21e197f0776321",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14516133091"
+}
