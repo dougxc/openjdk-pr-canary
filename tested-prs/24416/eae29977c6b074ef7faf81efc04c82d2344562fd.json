@@ -1,0 +1,17 @@
+{
+  "artifact_2964565784": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-frkator-eae29977c6b074ef7faf81efc04c82d2344562fd)\nOpenJDK 64-Bit Server VM (build 25-internal-frkator-eae29977c6b074ef7faf81efc04c82d2344562fd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a20e04ff0f8929c959a183b5a722af4b50306a8b.json",
+    "f6822b82705f5064b0159bf96ba9e941783906cd.json"
+  ],
+  "datetime": "2025-04-17T15:25:10.671727+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24416",
+  "number": 24416,
+  "title": "8351851: Update PmemTest to run on AMD64",
+  "head_sha": "eae29977c6b074ef7faf81efc04c82d2344562fd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14518110394"
+}
