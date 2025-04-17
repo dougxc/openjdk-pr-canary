@@ -1,0 +1,14 @@
+{
+  "artifact_2962256476": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-stefank-ef5158d5effb45388f0d7934c5cf5823d557a21c)\nOpenJDK 64-Bit Server VM (build 25-internal-stefank-ef5158d5effb45388f0d7934c5cf5823d557a21c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-17T12:01:56.399496+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24716",
+  "number": 24716,
+  "title": "8354922: ZGC: Use MAP_FIXED_NOREPLACE when reserving memory",
+  "head_sha": "ef5158d5effb45388f0d7934c5cf5823d557a21c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14514547009"
+}
