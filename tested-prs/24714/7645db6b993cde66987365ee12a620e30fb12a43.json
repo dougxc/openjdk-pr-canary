@@ -1,0 +1,15 @@
+{
+  "artifact_2961910366": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TheShermanTanker-7645db6b993cde66987365ee12a620e30fb12a43)\nOpenJDK 64-Bit Server VM (build 25-internal-TheShermanTanker-7645db6b993cde66987365ee12a620e30fb12a43, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-04-17T08:43:39.766091+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24714",
+  "number": 24714,
+  "title": "8354919: Move HotSpot .editorconfig into the global .editorconfig",
+  "head_sha": "7645db6b993cde66987365ee12a620e30fb12a43",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14511566844"
+}
