@@ -1,0 +1,14 @@
+{
+  "artifact_2962724214": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-myankelev-6496e9d75e7febf4ecaff3a1a730c34517f9ac00)\nOpenJDK 64-Bit Server VM (build 25-internal-myankelev-6496e9d75e7febf4ecaff3a1a730c34517f9ac00, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-17T10:45:04.009139+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24718",
+  "number": 24718,
+  "title": "8183348: Better cleanup for jdk/test/sun/security/pkcs12/P12SecretKey.java",
+  "head_sha": "6496e9d75e7febf4ecaff3a1a730c34517f9ac00",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14513713546"
+}
