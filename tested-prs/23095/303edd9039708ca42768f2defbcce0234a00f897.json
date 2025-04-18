@@ -1,0 +1,18 @@
+{
+  "artifact_2971074570": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-303edd9039708ca42768f2defbcce0234a00f897)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-303edd9039708ca42768f2defbcce0234a00f897, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "27faa8b28e858a62fc1c84cadc63aa183db194d7.json",
+    "5b8629906cb67771a1ab0eb1e436b1dc604b6089.json",
+    "fa36205434753e32ce36064236985bc728bb424e.json"
+  ],
+  "datetime": "2025-04-18T18:24:03.525552+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23095",
+  "number": 23095,
+  "title": "8347471: Provide valid flags and mask in AccessFlag.Location",
+  "head_sha": "303edd9039708ca42768f2defbcce0234a00f897",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14539085405"
+}
