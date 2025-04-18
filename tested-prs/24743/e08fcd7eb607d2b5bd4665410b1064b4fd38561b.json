@@ -1,0 +1,14 @@
+{
+  "artifact_2967142153": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-honkar-jdk-e08fcd7eb607d2b5bd4665410b1064b4fd38561b)\nOpenJDK 64-Bit Server VM (build 25-internal-honkar-jdk-e08fcd7eb607d2b5bd4665410b1064b4fd38561b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-17T22:56:28.713527+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24743",
+  "number": 24743,
+  "title": "JDK-8354532 : Open source JFileChooser Tests - Set 7",
+  "head_sha": "e08fcd7eb607d2b5bd4665410b1064b4fd38561b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14525940556"
+}
