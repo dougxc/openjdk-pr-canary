@@ -1,0 +1,14 @@
+{
+  "artifact_2971345540": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-DamonGuy-3f0a6d8ac48f3eb836531273482c13f78b1a8acf)\nOpenJDK 64-Bit Server VM (build 25-internal-DamonGuy-3f0a6d8ac48f3eb836531273482c13f78b1a8acf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-18T19:33:23.538509+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24758",
+  "number": 24758,
+  "title": "8354695: Open source several swing tests batch7",
+  "head_sha": "3f0a6d8ac48f3eb836531273482c13f78b1a8acf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14540562780"
+}
