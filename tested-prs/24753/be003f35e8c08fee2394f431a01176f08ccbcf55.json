@@ -1,0 +1,15 @@
+{
+  "artifact_2970549887": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dougxc-be003f35e8c08fee2394f431a01176f08ccbcf55)\nOpenJDK 64-Bit Server VM (build 25-internal-dougxc-be003f35e8c08fee2394f431a01176f08ccbcf55, mixed mode, sharing)",
+    "failed_step": "test"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-04-18T16:42:00.961284+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24753",
+  "number": 24753,
+  "title": "8355034: [JVMCI] assert(static_cast<int>(_jvmci_data_size) == align_up(compiler->is_jvmci() ? jvmci_data->size() : 0, oopSize)) failed: failed: 104 != 16777320",
+  "head_sha": "be003f35e8c08fee2394f431a01176f08ccbcf55",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14538375688"
+}
