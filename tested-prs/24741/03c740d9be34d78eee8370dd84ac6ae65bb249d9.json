@@ -1,0 +1,14 @@
+{
+  "artifact_2966620153": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alisenchung-03c740d9be34d78eee8370dd84ac6ae65bb249d9)\nOpenJDK 64-Bit Server VM (build 25-internal-alisenchung-03c740d9be34d78eee8370dd84ac6ae65bb249d9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-17T23:17:18.581309+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24741",
+  "number": 24741,
+  "title": "8354465: Open some JTable bugs 8",
+  "head_sha": "03c740d9be34d78eee8370dd84ac6ae65bb249d9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14525940556"
+}
