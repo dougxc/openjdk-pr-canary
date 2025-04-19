@@ -1,0 +1,17 @@
+{
+  "artifact_2972086609": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexeybakhtin-c555a1250c59bd0d222a2022469a4cbe12cbe3bb)\nOpenJDK 64-Bit Server VM (build 25-internal-alexeybakhtin-c555a1250c59bd0d222a2022469a4cbe12cbe3bb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3ad1f7f7cf00ce2f13f3f6305299c5c09a6b4e25.json",
+    "a49a14da8a21f83ff3634b42995f536aaf77b176.json"
+  ],
+  "datetime": "2025-04-18T23:13:49.135771+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24747",
+  "number": 24747,
+  "title": "8259540: MissingResourceException for key cvc-complex-type.2.4.d.1",
+  "head_sha": "c555a1250c59bd0d222a2022469a4cbe12cbe3bb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14542739704"
+}
