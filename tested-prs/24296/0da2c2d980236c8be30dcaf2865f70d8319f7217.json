@@ -1,0 +1,18 @@
+{
+  "artifact_2973481634": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mgronlun-0da2c2d980236c8be30dcaf2865f70d8319f7217)\nOpenJDK 64-Bit Server VM (build 25-internal-mgronlun-0da2c2d980236c8be30dcaf2865f70d8319f7217, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1015a8c156e27dc8d3a95fea18c1e891d6e8da30.json",
+    "cb6e5aab0c3eba0db8ffcaafd77d8a25487ea9ca.json",
+    "e48905fc43922006829995d9ba9cf07dc65b1a24.json"
+  ],
+  "datetime": "2025-04-19T13:01:09.961529+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24296",
+  "number": 24296,
+  "title": "8352251: Implement Cooperative JFR Sampling",
+  "head_sha": "0da2c2d980236c8be30dcaf2865f70d8319f7217",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14549285709"
+}
