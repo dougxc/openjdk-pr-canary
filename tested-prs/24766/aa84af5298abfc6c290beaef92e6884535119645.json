@@ -1,0 +1,14 @@
+{
+  "artifact_2972429603": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lmesnik-aa84af5298abfc6c290beaef92e6884535119645)\nOpenJDK 64-Bit Server VM (build 25-internal-lmesnik-aa84af5298abfc6c290beaef92e6884535119645, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-19T02:09:12.618830+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24766",
+  "number": 24766,
+  "title": "8355069: Allocation::check_out_of_memory() should support CheckUnhandledOops mode",
+  "head_sha": "aa84af5298abfc6c290beaef92e6884535119645",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14544575946"
+}
