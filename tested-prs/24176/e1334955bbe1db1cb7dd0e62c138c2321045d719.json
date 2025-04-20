@@ -1,0 +1,17 @@
+{
+  "artifact_2975885165": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-retronym-e1334955bbe1db1cb7dd0e62c138c2321045d719)\nOpenJDK 64-Bit Server VM (build 25-internal-retronym-e1334955bbe1db1cb7dd0e62c138c2321045d719, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e0d40f4d1d3f89e033ed9a5c4b8e408a33745810.json",
+    "eee2f61395bae7ec0a13031ec41cf62c42757d8f.json"
+  ],
+  "datetime": "2025-04-20T13:44:16.025682+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24176",
+  "number": 24176,
+  "title": "8352642: Set zipinfo-time=false when constructing zipfs FileSystem in com.sun.tools.javac.file.JavacFileManager$ArchiveContainer for better performance",
+  "head_sha": "e1334955bbe1db1cb7dd0e62c138c2321045d719",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14559983594"
+}
