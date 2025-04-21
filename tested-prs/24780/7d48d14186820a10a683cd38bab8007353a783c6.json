@@ -1,0 +1,14 @@
+{
+  "artifact_2981554921": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-7d48d14186820a10a683cd38bab8007353a783c6)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-7d48d14186820a10a683cd38bab8007353a783c6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-21T22:39:51.737719+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24780",
+  "number": 24780,
+  "title": "8354484: SIGSEGV when supertype of an AOT-cached class is excluded",
+  "head_sha": "7d48d14186820a10a683cd38bab8007353a783c6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14581731637"
+}
