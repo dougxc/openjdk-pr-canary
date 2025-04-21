@@ -1,0 +1,14 @@
+{
+  "artifact_2981785573": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexeysemenyukoracle-95a45098005b1d6b33aa9841a80f2e92ff93a169)\nOpenJDK 64-Bit Server VM (build 25-internal-alexeysemenyukoracle-95a45098005b1d6b33aa9841a80f2e92ff93a169, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-21T23:14:05.782785+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24762",
+  "number": 24762,
+  "title": "8354990: Improve negative tests coverage for jpackage signing",
+  "head_sha": "95a45098005b1d6b33aa9841a80f2e92ff93a169",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14581731637"
+}
