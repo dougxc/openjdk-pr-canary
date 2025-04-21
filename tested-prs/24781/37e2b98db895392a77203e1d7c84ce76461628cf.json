@@ -1,0 +1,14 @@
+{
+  "artifact_2981739423": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lmesnik-37e2b98db895392a77203e1d7c84ce76461628cf)\nOpenJDK 64-Bit Server VM (build 25-internal-lmesnik-37e2b98db895392a77203e1d7c84ce76461628cf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-21T22:28:29.107819+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24781",
+  "number": 24781,
+  "title": "8355228: Improve runtime/CompressedOops/CompressedClassPointersEncodingScheme.java to support JDK build with -XX:+UseCompactObjectHeaders",
+  "head_sha": "37e2b98db895392a77203e1d7c84ce76461628cf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14581731637"
+}
