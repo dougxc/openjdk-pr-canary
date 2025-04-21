@@ -1,0 +1,14 @@
+{
+  "artifact_2980919204": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-naotoj-3b58d5830b89ef4a78a127fbf35bc65dd20b44b3)\nOpenJDK 64-Bit Server VM (build 25-internal-naotoj-3b58d5830b89ef4a78a127fbf35bc65dd20b44b3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-21T20:27:56.877855+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24779",
+  "number": 24779,
+  "title": "8355215: Add @spec tags to Emoji related methods ",
+  "head_sha": "3b58d5830b89ef4a78a127fbf35bc65dd20b44b3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14579849421"
+}
