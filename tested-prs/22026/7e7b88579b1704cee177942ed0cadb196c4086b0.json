@@ -1,0 +1,16 @@
+{
+  "artifact_2980071026": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-TejeshR13-7e7b88579b1704cee177942ed0cadb196c4086b0)\nOpenJDK 64-Bit Server VM (build 24-internal-TejeshR13-7e7b88579b1704cee177942ed0cadb196c4086b0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "113c4a4a19a42c53d63de9f136c316d40c2bd2a1.json"
+  ],
+  "datetime": "2025-04-21T17:38:59.142050+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22026",
+  "number": 22026,
+  "title": "8343977: Convert java/awt/TextArea/TextAreaCursorTest/HoveringAndDraggingTest to main",
+  "head_sha": "7e7b88579b1704cee177942ed0cadb196c4086b0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14577204428"
+}
