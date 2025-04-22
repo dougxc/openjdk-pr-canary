@@ -1,0 +1,16 @@
+{
+  "artifact_2983337939": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TejeshR13-0934eb27dad26aa049164ee273dfb83d056bdf8b)\nOpenJDK 64-Bit Server VM (build 25-internal-TejeshR13-0934eb27dad26aa049164ee273dfb83d056bdf8b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a2c344db61c000b8d0d11095936aa83a2ca39c3a.json"
+  ],
+  "datetime": "2025-04-22T06:16:52.469793+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24684",
+  "number": 24684,
+  "title": "8353957: Open source several AWT ScrollPane tests - Batch 1",
+  "head_sha": "0934eb27dad26aa049164ee273dfb83d056bdf8b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14587466135"
+}
