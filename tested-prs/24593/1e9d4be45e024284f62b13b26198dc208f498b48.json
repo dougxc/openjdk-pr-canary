@@ -1,0 +1,19 @@
+{
+  "artifact_2984704062": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jsikstro-1e9d4be45e024284f62b13b26198dc208f498b48)\nOpenJDK 64-Bit Server VM (build 25-internal-jsikstro-1e9d4be45e024284f62b13b26198dc208f498b48, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "042c0aee6c47aef84b46f2d280f3522287db27ec.json",
+    "0824712cf78c0cdbcbb1c02fddd65cf2e7bceb92.json",
+    "2c0c0b2be2cfea9b106d0f6eaa6e37031c4ff4f8.json",
+    "c1140b867b77304ecdfd85c6b142f49b32765386.json"
+  ],
+  "datetime": "2025-04-22T11:02:12.850281+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24593",
+  "number": 24593,
+  "title": "8354362: Use automatic indentation in CollectedHeap printing",
+  "head_sha": "1e9d4be45e024284f62b13b26198dc208f498b48",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14591478001"
+}
