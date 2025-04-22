@@ -1,0 +1,16 @@
+{
+  "artifact_2985303896": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaikiran-cc0b58f04212429be02b6a0acb81a46a407ebff3)\nOpenJDK 64-Bit Server VM (build 25-internal-jaikiran-cc0b58f04212429be02b6a0acb81a46a407ebff3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "dd6228e9b007218d7f22372b9c7acec2f32ed3f2.json"
+  ],
+  "datetime": "2025-04-22T12:03:23.883267+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24793",
+  "number": 24793,
+  "title": "8355278: Improve debuggability of com/sun/jndi/ldap/LdapPoolTimeoutTest.java test",
+  "head_sha": "cc0b58f04212429be02b6a0acb81a46a407ebff3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14593629942"
+}
