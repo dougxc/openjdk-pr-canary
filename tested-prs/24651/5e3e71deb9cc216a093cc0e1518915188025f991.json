@@ -1,0 +1,14 @@
+{
+  "artifact_2984683553": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-toxaart-5e3e71deb9cc216a093cc0e1518915188025f991)\nOpenJDK 64-Bit Server VM (build 25-internal-toxaart-5e3e71deb9cc216a093cc0e1518915188025f991, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-22T10:50:42.933545+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24651",
+  "number": 24651,
+  "title": "8354453: Don't strcpy in os::strdup, use memcpy instead",
+  "head_sha": "5e3e71deb9cc216a093cc0e1518915188025f991",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14591478001"
+}
