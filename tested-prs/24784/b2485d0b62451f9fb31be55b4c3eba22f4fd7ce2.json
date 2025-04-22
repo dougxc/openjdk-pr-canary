@@ -1,0 +1,14 @@
+{
+  "artifact_2982090150": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vidmik-b2485d0b62451f9fb31be55b4c3eba22f4fd7ce2)\nOpenJDK 64-Bit Server VM (build 25-internal-vidmik-b2485d0b62451f9fb31be55b4c3eba22f4fd7ce2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-21T23:40:44.595882+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24784",
+  "number": 24784,
+  "title": "Draft: 8355235: Clean out old versions from Tools.gmk",
+  "head_sha": "b2485d0b62451f9fb31be55b4c3eba22f4fd7ce2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14583291815"
+}
