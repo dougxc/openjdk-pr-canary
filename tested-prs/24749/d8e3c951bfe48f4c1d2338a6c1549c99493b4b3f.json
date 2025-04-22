@@ -1,0 +1,19 @@
+{
+  "artifact_2986041163": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TejeshR13-d8e3c951bfe48f4c1d2338a6c1549c99493b4b3f)\nOpenJDK 64-Bit Server VM (build 25-internal-TejeshR13-d8e3c951bfe48f4c1d2338a6c1549c99493b4b3f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1b8b80a8313b6053f95923532114972eb4cb4128.json",
+    "46e3848a8a0640770bfdd7f07e86708e211eb1e4.json",
+    "93e1f0ecd29258d49f38a721269c5fe5c838450b.json",
+    "f4d1b134536704a7c790c6d6a4a4e5fff6f3a81b.json"
+  ],
+  "datetime": "2025-04-22T14:07:34.594128+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24749",
+  "number": 24749,
+  "title": "8354248: Open source several AWT GridBagLayout and List tests",
+  "head_sha": "d8e3c951bfe48f4c1d2338a6c1549c99493b4b3f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14596207098"
+}
