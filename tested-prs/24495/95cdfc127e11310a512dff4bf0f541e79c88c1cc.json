@@ -1,0 +1,18 @@
+{
+  "artifact_2982166289": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alisenchung-95cdfc127e11310a512dff4bf0f541e79c88c1cc)\nOpenJDK 64-Bit Server VM (build 25-internal-alisenchung-95cdfc127e11310a512dff4bf0f541e79c88c1cc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "57bb0878acb288c0fe77bbc8c51800bf52272d05.json",
+    "6e4520de5ef97634d158c4dc6b69fdd8f1ea2329.json",
+    "9b36a10fee9730c74aa5b55b564793182f781b0a.json"
+  ],
+  "datetime": "2025-04-22T00:33:39.436632+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24495",
+  "number": 24495,
+  "title": "8352905: Open some JComboBox bugs 1",
+  "head_sha": "95cdfc127e11310a512dff4bf0f541e79c88c1cc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14583291815"
+}
