@@ -1,0 +1,14 @@
+{
+  "artifact_2984184075": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-marc-chevalier-d16518dc379737b81f82c8ebc7b7f97ae0fd9fa5)\nOpenJDK 64-Bit Server VM (build 25-internal-marc-chevalier-d16518dc379737b81f82c8ebc7b7f97ae0fd9fa5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-22T08:47:06.407901+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24792",
+  "number": 24792,
+  "title": "8320909: C2 compilation fails with \"Missed optimization opportunity in PhaseIterGVN\"",
+  "head_sha": "d16518dc379737b81f82c8ebc7b7f97ae0fd9fa5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14590410860"
+}
