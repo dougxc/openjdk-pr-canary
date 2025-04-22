@@ -1,0 +1,17 @@
+{
+  "artifact_2987913354": {
+    "java_home": "extracted/jdk-24",
+    "java_version_output": "openjdk 24-internal 2025-03-18\nOpenJDK Runtime Environment (build 24-internal-dhanalla-8581a24f103b47c563e1deeacb0ddbfbc9a19c62)\nOpenJDK 64-Bit Server VM (build 24-internal-dhanalla-8581a24f103b47c563e1deeacb0ddbfbc9a19c62, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "8cb1e939494933cb5a2120a21ed54df254a106a2.json"
+  ],
+  "datetime": "2025-04-22T18:41:55.420600+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20504",
+  "number": 20504,
+  "title": "8315916: assert(C->live_nodes() <= C->max_node_limit()) failed: Live Node limit exceeded",
+  "head_sha": "8581a24f103b47c563e1deeacb0ddbfbc9a19c62",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14600952015"
+}
