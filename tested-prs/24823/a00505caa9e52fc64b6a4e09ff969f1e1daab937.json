@@ -1,0 +1,14 @@
+{
+  "artifact_2992929601": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-myankelev-a00505caa9e52fc64b6a4e09ff969f1e1daab937)\nOpenJDK 64-Bit Server VM (build 25-internal-myankelev-a00505caa9e52fc64b6a4e09ff969f1e1daab937, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-23T12:21:03.889303+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24823",
+  "number": 24823,
+  "title": "8277424: javax/net/ssl/TLSCommon/TLSTest.java  fails with connection refused",
+  "head_sha": "a00505caa9e52fc64b6a4e09ff969f1e1daab937",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14616961568"
+}
