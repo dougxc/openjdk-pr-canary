@@ -1,0 +1,14 @@
+{
+  "artifact_2996056648": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-e4b72b627567e2586d402b72f6b5a84d04d303c2)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-e4b72b627567e2586d402b72f6b5a84d04d303c2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-23T18:59:58.522223+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24832",
+  "number": 24832,
+  "title": "8355432: Remove CompileTask from SA",
+  "head_sha": "e4b72b627567e2586d402b72f6b5a84d04d303c2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14625645294"
+}
