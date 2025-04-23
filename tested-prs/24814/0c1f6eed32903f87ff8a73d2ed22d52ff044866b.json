@@ -1,0 +1,14 @@
+{
+  "artifact_2991749194": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kstefanj-0c1f6eed32903f87ff8a73d2ed22d52ff044866b)\nOpenJDK 64-Bit Server VM (build 25-internal-kstefanj-0c1f6eed32903f87ff8a73d2ed22d52ff044866b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-23T08:47:36.527855+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24814",
+  "number": 24814,
+  "title": "8353184: ZGC: Simplify and correct tlab_used() tracking",
+  "head_sha": "0c1f6eed32903f87ff8a73d2ed22d52ff044866b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14613687656"
+}
