@@ -1,0 +1,14 @@
+{
+  "artifact_2991078747": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-plummercj-353bb8c8a7925605e792e1f0b4c832be9eff74a7)\nOpenJDK 64-Bit Server VM (build 25-internal-plummercj-353bb8c8a7925605e792e1f0b4c832be9eff74a7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-23T05:42:13.512713+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24812",
+  "number": 24812,
+  "title": "8355214: nsk/jdi/ThreadStartRequest/addThreadFilter/addthreadfilter001.java should use JDIBase superclass",
+  "head_sha": "353bb8c8a7925605e792e1f0b4c832be9eff74a7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14610715552"
+}
