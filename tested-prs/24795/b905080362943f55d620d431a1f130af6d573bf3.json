@@ -1,0 +1,16 @@
+{
+  "artifact_2990499979": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-b905080362943f55d620d431a1f130af6d573bf3)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-b905080362943f55d620d431a1f130af6d573bf3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6f7b62bc15c2a1ce65c453485cd502437a7db070.json"
+  ],
+  "datetime": "2025-04-23T02:46:34.224983+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24795",
+  "number": 24795,
+  "title": "8355301: Simplify the code by using record",
+  "head_sha": "b905080362943f55d620d431a1f130af6d573bf3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14608363991"
+}
