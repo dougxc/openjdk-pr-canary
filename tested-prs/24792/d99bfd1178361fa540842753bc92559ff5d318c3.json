@@ -1,0 +1,16 @@
+{
+  "artifact_2993299835": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-marc-chevalier-d99bfd1178361fa540842753bc92559ff5d318c3)\nOpenJDK 64-Bit Server VM (build 25-internal-marc-chevalier-d99bfd1178361fa540842753bc92559ff5d318c3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d16518dc379737b81f82c8ebc7b7f97ae0fd9fa5.json"
+  ],
+  "datetime": "2025-04-23T12:44:12.669201+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24792",
+  "number": 24792,
+  "title": "8320909: C2: Adapt IGVN's enqueuing logic to match idealization of AndNode with LShift operand",
+  "head_sha": "d99bfd1178361fa540842753bc92559ff5d318c3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14616961568"
+}
