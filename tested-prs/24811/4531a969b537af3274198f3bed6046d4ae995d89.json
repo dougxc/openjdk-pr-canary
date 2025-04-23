@@ -1,0 +1,14 @@
+{
+  "artifact_2990832514": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-plummercj-4531a969b537af3274198f3bed6046d4ae995d89)\nOpenJDK 64-Bit Server VM (build 25-internal-plummercj-4531a969b537af3274198f3bed6046d4ae995d89, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-23T03:56:31.756228+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24811",
+  "number": 24811,
+  "title": "8355211: nsk/jdi/EventRequest/disable/disable001.java should use JDIBase superclass",
+  "head_sha": "4531a969b537af3274198f3bed6046d4ae995d89",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14609503596"
+}
