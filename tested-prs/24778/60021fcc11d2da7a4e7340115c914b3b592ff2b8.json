@@ -1,0 +1,16 @@
+{
+  "artifact_2997389311": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mickleness-60021fcc11d2da7a4e7340115c914b3b592ff2b8)\nOpenJDK 64-Bit Server VM (build 25-internal-mickleness-60021fcc11d2da7a4e7340115c914b3b592ff2b8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b8a0d31de61bafa5f06df04ea69410e56bebf648.json"
+  ],
+  "datetime": "2025-04-23T21:51:04.375132+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24778",
+  "number": 24778,
+  "title": "8355203: [macos] AquaButtonUI and AquaRootPaneUI repaint default button unnecessarily",
+  "head_sha": "60021fcc11d2da7a4e7340115c914b3b592ff2b8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14628469395"
+}
