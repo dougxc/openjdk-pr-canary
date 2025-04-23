@@ -1,0 +1,14 @@
+{
+  "artifact_2990340628": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kdnilsen-af30c0f27c04b62f2d0fd0e63ad3cf44ab3ab777)\nOpenJDK 64-Bit Server VM (build 25-internal-kdnilsen-af30c0f27c04b62f2d0fd0e63ad3cf44ab3ab777, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-23T02:16:02.200476+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24810",
+  "number": 24810,
+  "title": "8355336: GenShen: Resume Old GC even with back-to-back Young GC triggers",
+  "head_sha": "af30c0f27c04b62f2d0fd0e63ad3cf44ab3ab777",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14608363991"
+}
