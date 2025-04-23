@@ -1,0 +1,14 @@
+{
+  "artifact_2997968246": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jianglizhou-c250d65196fc2fdb7fb2ee78d0275c3b48d67de7)\nOpenJDK 64-Bit Server VM (build 25-internal-jianglizhou-c250d65196fc2fdb7fb2ee78d0275c3b48d67de7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-23T23:38:42.313506+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24836",
+  "number": 24836,
+  "title": "8355439: Some hotspot/jtreg/serviceability/sa/* tests fail on static JDK due to explicit checks for shared libraries in process memory map",
+  "head_sha": "c250d65196fc2fdb7fb2ee78d0275c3b48d67de7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14630033635"
+}
