@@ -1,0 +1,14 @@
+{
+  "artifact_2998266415": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-manukumarvs-99b9cfb246c96c4e4ae02194a3581d3e84958efd)\nOpenJDK 64-Bit Server VM (build 25-internal-manukumarvs-99b9cfb246c96c4e4ae02194a3581d3e84958efd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-24T02:26:49.541076+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24837",
+  "number": 24837,
+  "title": "8355441: Remove antipattern from PassFailJFrame.forcePass javadoc",
+  "head_sha": "99b9cfb246c96c4e4ae02194a3581d3e84958efd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14631856876"
+}
