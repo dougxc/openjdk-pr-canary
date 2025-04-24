@@ -1,0 +1,15 @@
+{
+  "artifact_3003508113": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-6678482befe7362cbc6242ee10f47a913ea2271a)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-6678482befe7362cbc6242ee10f47a913ea2271a, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-04-24T16:40:40.288240+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24757",
+  "number": 24757,
+  "title": "8354897: Support Soft/Weak Reference in AOT cache",
+  "head_sha": "6678482befe7362cbc6242ee10f47a913ea2271a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14646859060"
+}
