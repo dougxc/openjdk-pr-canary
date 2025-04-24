@@ -1,0 +1,14 @@
+{
+  "artifact_2999771163": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-marc-chevalier-96efa3eac25c88aa032c8bb8978f984185d63414)\nOpenJDK 64-Bit Server VM (build 25-internal-marc-chevalier-96efa3eac25c88aa032c8bb8978f984185d63414, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-24T08:48:03.277979+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24841",
+  "number": 24841,
+  "title": "8338194: ubsan: mulnode.cpp:862:59: runtime error: shift exponent 64 is too large for 64-bit type 'long unsigned int'",
+  "head_sha": "96efa3eac25c88aa032c8bb8978f984185d63414",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14637189177"
+}
