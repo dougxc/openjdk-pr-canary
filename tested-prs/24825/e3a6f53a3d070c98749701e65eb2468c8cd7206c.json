@@ -1,0 +1,14 @@
+{
+  "artifact_3001896918": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jdksjolen-e3a6f53a3d070c98749701e65eb2468c8cd7206c)\nOpenJDK 64-Bit Server VM (build 25-internal-jdksjolen-e3a6f53a3d070c98749701e65eb2468c8cd7206c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-24T13:10:45.563374+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24825",
+  "number": 24825,
+  "title": "8355481: Clean up MHN_copyOutBootstrapArguments",
+  "head_sha": "e3a6f53a3d070c98749701e65eb2468c8cd7206c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14642175632"
+}
