@@ -1,0 +1,17 @@
+{
+  "artifact_3001392292": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Hamlin-Li-9f666661b772fc5e05d90ea682bee745fb38ef10)\nOpenJDK 64-Bit Server VM (build 25-internal-Hamlin-Li-9f666661b772fc5e05d90ea682bee745fb38ef10, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "632b9b1f109982d7bd98dfa551f24af140d43ef3.json",
+    "eac56a879d77beafe7fa4f5b8d2855b510883910.json"
+  ],
+  "datetime": "2025-04-24T12:16:23.978235+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24797",
+  "number": 24797,
+  "title": "8355293: [TEST] RISC-V: enable more ir tests",
+  "head_sha": "9f666661b772fc5e05d90ea682bee745fb38ef10",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14640428999"
+}
