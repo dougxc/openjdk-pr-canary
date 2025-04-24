@@ -1,0 +1,14 @@
+{
+  "artifact_3000528372": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kevinjwalls-eed5b6ee83b09c7c870d955b6381bf27b78cdb07)\nOpenJDK 64-Bit Server VM (build 25-internal-kevinjwalls-eed5b6ee83b09c7c870d955b6381bf27b78cdb07, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-24T09:48:37.694833+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24843",
+  "number": 24843,
+  "title": "8318730: MonitorVmStartTerminate.java still times out after JDK-8209595",
+  "head_sha": "eed5b6ee83b09c7c870d955b6381bf27b78cdb07",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14638274147"
+}
