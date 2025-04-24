@@ -1,0 +1,17 @@
+{
+  "artifact_2998387821": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mrserb-a1b60f7b014247e2c8e26db60636f6f920825c12)\nOpenJDK 64-Bit Server VM (build 25-internal-mrserb-a1b60f7b014247e2c8e26db60636f6f920825c12, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c37b252a939e42ce2764d1b8d03ca305a300e4d7.json",
+    "ec688da0fcf1abf99bfa96bce8a5adf37b009dc4.json"
+  ],
+  "datetime": "2025-04-24T03:08:32.793907+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20861",
+  "number": 20861,
+  "title": "8339561: The test/jdk/java/awt/Paint/ListRepaint.java may fail after JDK-8327401",
+  "head_sha": "a1b60f7b014247e2c8e26db60636f6f920825c12",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14631856876"
+}
