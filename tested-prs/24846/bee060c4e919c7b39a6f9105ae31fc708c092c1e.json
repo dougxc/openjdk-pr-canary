@@ -1,0 +1,14 @@
+{
+  "artifact_3000713042": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Hamlin-Li-bee060c4e919c7b39a6f9105ae31fc708c092c1e)\nOpenJDK 64-Bit Server VM (build 25-internal-Hamlin-Li-bee060c4e919c7b39a6f9105ae31fc708c092c1e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-24T10:48:04.977816+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24846",
+  "number": 24846,
+  "title": "8355476: RISC-V: using zext_w directly in vector_update_crc32 could trigger assert",
+  "head_sha": "bee060c4e919c7b39a6f9105ae31fc708c092c1e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14639506837"
+}
