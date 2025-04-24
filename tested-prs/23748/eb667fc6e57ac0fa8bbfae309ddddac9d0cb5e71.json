@@ -1,0 +1,23 @@
+{
+  "artifact_3003501378": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Bhavana-Kilambi-eb667fc6e57ac0fa8bbfae309ddddac9d0cb5e71)\nOpenJDK 64-Bit Server VM (build 25-internal-Bhavana-Kilambi-eb667fc6e57ac0fa8bbfae309ddddac9d0cb5e71, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/10762",
+    "number": "10762",
+    "revision": "8fa35338da639087214f2262a6b838c8ab84acdd"
+  },
+  "status": "failed",
+  "history": [
+    "4d69974015e7d30a0da194e90150e16b5795dae9.json",
+    "a608a03553d5ff47b9a10c27c96b5f18dd186110.json"
+  ],
+  "datetime": "2025-04-24T16:55:36.553280+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23748",
+  "number": 23748,
+  "title": "8345125: Aarch64: Add aarch64 backend for Float16 scalar operations",
+  "head_sha": "eb667fc6e57ac0fa8bbfae309ddddac9d0cb5e71",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14646859060"
+}
