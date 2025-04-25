@@ -1,0 +1,14 @@
+{
+  "artifact_3006140643": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kuksenko-9e8c2d6e800a7863888482dc28417eed30b1292b)\nOpenJDK 64-Bit Server VM (build 25-internal-kuksenko-9e8c2d6e800a7863888482dc28417eed30b1292b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-25T02:17:26.639798+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24863",
+  "number": 24863,
+  "title": "8355559: Benchmark modification/extension shouldn't affect the behavior of other benchmarks",
+  "head_sha": "9e8c2d6e800a7863888482dc28417eed30b1292b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14655402817"
+}
