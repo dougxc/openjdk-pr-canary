@@ -1,0 +1,19 @@
+{
+  "artifact_3012588085": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-valeriepeng-ebc635cabcc506d13fafc995278f134b756e52df)\nOpenJDK 64-Bit Server VM (build 25-internal-valeriepeng-ebc635cabcc506d13fafc995278f134b756e52df, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "320c49aa7339ef8c2974eb0097d847eb0e663477.json",
+    "38b2da73de25ae78d1d538a2a25c8a9b6ae356da.json",
+    "cfa422e442aac09cf9fb6fa1aa7b9a1cfdb5daf7.json",
+    "eaa0737ed824ebbdf090a110503092d6821da11c.json"
+  ],
+  "datetime": "2025-04-25T21:46:00.729698+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24393",
+  "number": 24393,
+  "title": "8353578: Refactor existing usage of internal HKDF impl to use the KDF API",
+  "head_sha": "ebc635cabcc506d13fafc995278f134b756e52df",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14672976931"
+}
