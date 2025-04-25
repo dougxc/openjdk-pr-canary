@@ -1,0 +1,21 @@
+{
+  "artifact_3009106377": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-eirbjo-af73727fa2208943e300f0dddf35b5b90ae23ef6)\nOpenJDK 64-Bit Server VM (build 25-internal-eirbjo-af73727fa2208943e300f0dddf35b5b90ae23ef6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "42d676596c601bf7fe9894ab2ae2b4a356d1415b.json",
+    "4982af02f24684177b43e8c2d0a1bf3fd05ee8c2.json",
+    "6b1acfd4351323ef255515f179399ddfa8595e76.json",
+    "748bbe863083e447a360b15e49304187f7a697e9.json",
+    "8be0010f35b6ec0d129d5db53b8f5a7113a2e8d5.json",
+    "a713dac9b142bea8fc2956d9b3f171ad277e44b6.json"
+  ],
+  "datetime": "2025-04-25T13:27:55.838920+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24657",
+  "number": 24657,
+  "title": "8353440: Disable FTP fallback for non-local file URLs by default",
+  "head_sha": "af73727fa2208943e300f0dddf35b5b90ae23ef6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14665099398"
+}
