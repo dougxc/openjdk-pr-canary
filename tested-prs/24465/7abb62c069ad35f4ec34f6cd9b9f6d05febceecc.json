@@ -1,0 +1,17 @@
+{
+  "artifact_3006203856": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-franferrax-7abb62c069ad35f4ec34f6cd9b9f6d05febceecc)\nOpenJDK 64-Bit Server VM (build 25-internal-franferrax-7abb62c069ad35f4ec34f6cd9b9f6d05febceecc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "308479dd767e162e0d8e16018cf19563ff9b6203.json",
+    "a8c5ca745298a7efdef23bc7416bf2aacd284143.json"
+  ],
+  "datetime": "2025-04-25T02:39:47.239851+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24465",
+  "number": 24465,
+  "title": "8352728: InternalError loading java.security due to Windows parent folder permissions",
+  "head_sha": "7abb62c069ad35f4ec34f6cd9b9f6d05febceecc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14655402817"
+}
