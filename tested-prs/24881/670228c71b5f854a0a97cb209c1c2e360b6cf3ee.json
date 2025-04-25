@@ -1,0 +1,14 @@
+{
+  "artifact_3006150985": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-naotoj-670228c71b5f854a0a97cb209c1c2e360b6cf3ee)\nOpenJDK 64-Bit Server VM (build 25-internal-naotoj-670228c71b5f854a0a97cb209c1c2e360b6cf3ee, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-25T17:16:13.034125+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24881",
+  "number": 24881,
+  "title": "8355558: SJIS.java test is always ignored",
+  "head_sha": "670228c71b5f854a0a97cb209c1c2e360b6cf3ee",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14669266305"
+}
