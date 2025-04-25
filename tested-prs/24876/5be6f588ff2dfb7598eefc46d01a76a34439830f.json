@@ -1,0 +1,14 @@
+{
+  "artifact_3010491413": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jsikstro-5be6f588ff2dfb7598eefc46d01a76a34439830f)\nOpenJDK 64-Bit Server VM (build 25-internal-jsikstro-5be6f588ff2dfb7598eefc46d01a76a34439830f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-25T15:52:58.469384+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24876",
+  "number": 24876,
+  "title": "8355616: Incorrect ifdef in compilationMemoryStatistic.cpp",
+  "head_sha": "5be6f588ff2dfb7598eefc46d01a76a34439830f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14668128636"
+}
