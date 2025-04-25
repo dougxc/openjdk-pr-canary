@@ -1,0 +1,14 @@
+{
+  "artifact_3010713607": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-1ea5156fdcd9afba246d85f55f79d4cc966a4d08)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-1ea5156fdcd9afba246d85f55f79d4cc966a4d08, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-25T17:26:50.606528+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24879",
+  "number": 24879,
+  "title": "8355617: Remove historical debug_only macro in favor of DEBUG_ONLY",
+  "head_sha": "1ea5156fdcd9afba246d85f55f79d4cc966a4d08",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14669266305"
+}
