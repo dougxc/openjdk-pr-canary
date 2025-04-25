@@ -1,0 +1,22 @@
+{
+  "artifact_3007079884": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-calvinccheung-4b4d4f505552baa8824349a1e10ef43af3fa213a)\nOpenJDK 64-Bit Server VM (build 25-internal-calvinccheung-4b4d4f505552baa8824349a1e10ef43af3fa213a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0f28e07b1be8b83fca89949845c6e1f37e25bfe7.json",
+    "2ae685f8e45800dddd9a114629b974310e063265.json",
+    "465261f720d94d8dd631a261df0616fce63bd35e.json",
+    "4fa5f8fbef9d2075a0f7e835d57e319da611219f.json",
+    "658a895bb3cc88889d93a09ff8cba00d2296622a.json",
+    "95f2e9c6b3c1c7895075200bf538babd9cfb5681.json",
+    "acb1f5d2536712ced9baf0abbeda2e649da3a6d1.json"
+  ],
+  "datetime": "2025-04-25T05:00:21.211503+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24695",
+  "number": 24695,
+  "title": "8352003: Support --add-opens with -XX:+AOTClassLinking",
+  "head_sha": "4b4d4f505552baa8824349a1e10ef43af3fa213a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14656997422"
+}
