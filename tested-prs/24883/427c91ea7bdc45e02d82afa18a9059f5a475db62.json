@@ -1,0 +1,14 @@
+{
+  "artifact_3011718732": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-bulasevich-427c91ea7bdc45e02d82afa18a9059f5a475db62)\nOpenJDK 64-Bit Server VM (build 25-internal-bulasevich-427c91ea7bdc45e02d82afa18a9059f5a475db62, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-25T23:38:22.872462+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24883",
+  "number": 24883,
+  "title": "8345225: AARCH64: VM crashes with -NearCpool +UseShenandoahGC options",
+  "head_sha": "427c91ea7bdc45e02d82afa18a9059f5a475db62",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14675155616"
+}
