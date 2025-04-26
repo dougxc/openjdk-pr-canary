@@ -1,0 +1,14 @@
+{
+  "artifact_3014901884": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lmesnik-6c333648152360bcd22a5b9a49f1d94e9f76c327)\nOpenJDK 64-Bit Server VM (build 25-internal-lmesnik-6c333648152360bcd22a5b9a49f1d94e9f76c327, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-26T16:44:21.252561+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24896",
+  "number": 24896,
+  "title": "8355649: Missing ResourceMark in ExceptionMark::check_no_pending_exception",
+  "head_sha": "6c333648152360bcd22a5b9a49f1d94e9f76c327",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14683092926"
+}
