@@ -1,0 +1,16 @@
+{
+  "artifact_3016118780": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-989a494af7ce22a6c94b251ee07b8cacab636273)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-989a494af7ce22a6c94b251ee07b8cacab636273, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e60e3e071a91c05779580178460abd3f82b77059.json"
+  ],
+  "datetime": "2025-04-27T04:43:37.975966+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24903",
+  "number": 24903,
+  "title": "8341275: Explicit counter support for Code attribute building",
+  "head_sha": "989a494af7ce22a6c94b251ee07b8cacab636273",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14688424476"
+}
