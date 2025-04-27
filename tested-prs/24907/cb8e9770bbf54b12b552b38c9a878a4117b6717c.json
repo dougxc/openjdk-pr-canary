@@ -1,0 +1,14 @@
+{
+  "artifact_3018147632": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-turbanoff-cb8e9770bbf54b12b552b38c9a878a4117b6717c)\nOpenJDK 64-Bit Server VM (build 25-internal-turbanoff-cb8e9770bbf54b12b552b38c9a878a4117b6717c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-27T22:41:02.219617+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24907",
+  "number": 24907,
+  "title": "[PATCH] Remove unnecessary Map.containsKey from X11GraphicsEnvironment.initDevices",
+  "head_sha": "cb8e9770bbf54b12b552b38c9a878a4117b6717c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14696760209"
+}
