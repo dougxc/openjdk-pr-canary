@@ -157860,6 +157860,9 @@
 		},
 		"aliases": [
 			"jdk-25-2443"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	}
 ]
