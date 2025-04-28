@@ -1,0 +1,14 @@
+{
+  "artifact_3025329130": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-3a86918e99610e6bf9acb4273ac1e9f4d03bfacd)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-3a86918e99610e6bf9acb4273ac1e9f4d03bfacd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-28T21:43:48.659068+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24938",
+  "number": 24938,
+  "title": "8355775: Improve symbolic sharing in dynamic constant pool entries",
+  "head_sha": "3a86918e99610e6bf9acb4273ac1e9f4d03bfacd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14718231213"
+}
