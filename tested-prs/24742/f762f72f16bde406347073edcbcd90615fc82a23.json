@@ -1,0 +1,17 @@
+{
+  "artifact_3022821961": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-f762f72f16bde406347073edcbcd90615fc82a23)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-f762f72f16bde406347073edcbcd90615fc82a23, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "dbf7799c343f7ef6fb73f988b5edff31588ba9a3.json",
+    "f9a0533f6ff101b6c40ee81147fc167280c11e72.json"
+  ],
+  "datetime": "2025-04-28T15:55:41.588891+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24742",
+  "number": 24742,
+  "title": "8354996: Reduce dynamic code generation for a single downcall",
+  "head_sha": "f762f72f16bde406347073edcbcd90615fc82a23",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14711693265"
+}
