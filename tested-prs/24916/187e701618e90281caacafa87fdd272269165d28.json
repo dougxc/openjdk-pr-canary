@@ -1,0 +1,16 @@
+{
+  "artifact_3022287325": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kuaiwei-187e701618e90281caacafa87fdd272269165d28)\nOpenJDK 64-Bit Server VM (build 25-internal-kuaiwei-187e701618e90281caacafa87fdd272269165d28, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b7cbe385779d9d1f08a98b43bec705cbdc2b4d36.json"
+  ],
+  "datetime": "2025-04-28T14:23:08.733426+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24916",
+  "number": 24916,
+  "title": "8355697: Create windows devkit on wsl and msys2",
+  "head_sha": "187e701618e90281caacafa87fdd272269165d28",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14709429226"
+}
