@@ -1,0 +1,22 @@
+{
+  "artifact_3019224371": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-8d0f26d311d4e67ecf3866e40c434dede64f46eb)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-8d0f26d311d4e67ecf3866e40c434dede64f46eb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0532ed3ba5d1a71bd18eb1ee6458dcffeac4d1b0.json",
+    "46666256175e8275a3e8841fd88400a04a59dab8.json",
+    "69583b67b50184817218bf437e008f00b5551a37.json",
+    "70bf236872e9bf86287e4315db8d52d9a791983c.json",
+    "74851320ef0de45f5b22b22d7b42c745b31a4186.json",
+    "ab86b41f3049e7680be3545659bda31069159397.json",
+    "edd195370022bd2f0b9c1ada9b7cfca2b3a0a963.json"
+  ],
+  "datetime": "2025-04-28T04:48:19.495688+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24043",
+  "number": 24043,
+  "title": "8351996: Behavioral updates for ClassValue::remove",
+  "head_sha": "8d0f26d311d4e67ecf3866e40c434dede64f46eb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14700340080"
+}
