@@ -1,0 +1,16 @@
+{
+  "artifact_3024776309": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-plummercj-a95698dfdd9160cb8c5253ec8515639e77d6f716)\nOpenJDK 64-Bit Server VM (build 25-internal-plummercj-a95698dfdd9160cb8c5253ec8515639e77d6f716, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "060c8d3dbb00cbdc81d897da13e28b92dd72edfa.json"
+  ],
+  "datetime": "2025-04-28T21:03:52.940871+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24867",
+  "number": 24867,
+  "title": "8355569: Some nsk/jdi tests can glean the \"main\" thread by using the ClassPrepareEvent for the debuggee main class",
+  "head_sha": "a95698dfdd9160cb8c5253ec8515639e77d6f716",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14717224718"
+}
