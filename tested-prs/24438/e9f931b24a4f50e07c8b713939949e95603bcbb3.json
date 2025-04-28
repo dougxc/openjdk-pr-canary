@@ -1,0 +1,20 @@
+{
+  "artifact_3020503704": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lahodaj-e9f931b24a4f50e07c8b713939949e95603bcbb3)\nOpenJDK 64-Bit Server VM (build 25-internal-lahodaj-e9f931b24a4f50e07c8b713939949e95603bcbb3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "05cc336e8b2f2733c85ee0ddeb4db63727a5a353.json",
+    "33e280df220366cc8edf69446b2ac79fba3e8ddc.json",
+    "483998882072a5fb913e1f24f74d7551423c9843.json",
+    "a5d223e14cadeb0e331d66d9030b780651f0cd64.json",
+    "be8846e095803da10ffcf1d8cd734ad8bdb216cf.json"
+  ],
+  "datetime": "2025-04-28T11:38:25.266952+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24438",
+  "number": 24438,
+  "title": "8344706: Implement JEP 512: Compact Source Files and Instance Main Methods",
+  "head_sha": "e9f931b24a4f50e07c8b713939949e95603bcbb3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14705268995"
+}
