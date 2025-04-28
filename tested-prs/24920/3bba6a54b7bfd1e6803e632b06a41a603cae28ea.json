@@ -1,0 +1,16 @@
+{
+  "artifact_3023382138": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jdksjolen-3bba6a54b7bfd1e6803e632b06a41a603cae28ea)\nOpenJDK 64-Bit Server VM (build 25-internal-jdksjolen-3bba6a54b7bfd1e6803e632b06a41a603cae28ea, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b0855bd4bc45a1396bb26d051430da8a91198467.json"
+  ],
+  "datetime": "2025-04-28T17:23:03.873591+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24920",
+  "number": 24920,
+  "title": "8355711: Fix incorrect overflow check in RawBytecodeStream::raw_next",
+  "head_sha": "3bba6a54b7bfd1e6803e632b06a41a603cae28ea",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14712980394"
+}
