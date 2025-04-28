@@ -1,0 +1,18 @@
+{
+  "artifact_3021475437": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jdksjolen-d1fb4482cfb372dc9bf00f4cafbea02bda6fcb21)\nOpenJDK 64-Bit Server VM (build 25-internal-jdksjolen-d1fb4482cfb372dc9bf00f4cafbea02bda6fcb21, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5507ff4c7cfe3a92a49ad3c2534df2fb10e09cf3.json",
+    "58a4164dad82cf2c68e87bf6495f126003a4eaf9.json",
+    "fc1604ab6eff48456dedae2562f81bbc58344747.json"
+  ],
+  "datetime": "2025-04-28T12:47:37.234794+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24689",
+  "number": 24689,
+  "title": "8354954: Typed static memory for late initialization of static class members in Hotspot",
+  "head_sha": "d1fb4482cfb372dc9bf00f4cafbea02bda6fcb21",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14706441183"
+}
