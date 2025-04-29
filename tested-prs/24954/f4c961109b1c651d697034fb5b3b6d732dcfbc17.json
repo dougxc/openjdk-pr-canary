@@ -1,0 +1,14 @@
+{
+  "artifact_3032728694": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-coleenp-f4c961109b1c651d697034fb5b3b6d732dcfbc17)\nOpenJDK 64-Bit Server VM (build 25-internal-coleenp-f4c961109b1c651d697034fb5b3b6d732dcfbc17, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-29T20:43:37.118455+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24954",
+  "number": 24954,
+  "title": "8355627: Don't use ThreadCritical for EventLog list",
+  "head_sha": "f4c961109b1c651d697034fb5b3b6d732dcfbc17",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14740755046"
+}
