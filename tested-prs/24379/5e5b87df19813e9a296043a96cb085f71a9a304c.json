@@ -1,0 +1,16 @@
+{
+  "artifact_3031687092": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-pabulaner-5e5b87df19813e9a296043a96cb085f71a9a304c)\nOpenJDK 64-Bit Server VM (build 25-internal-pabulaner-5e5b87df19813e9a296043a96cb085f71a9a304c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "65deb15b049e2837cac4197634c8759ca67ac8da.json"
+  ],
+  "datetime": "2025-04-29T17:22:50.619816+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24379",
+  "number": 24379,
+  "title": "8332947: [macos] java.awt.desktop.OpenURIHandler is not receiving events",
+  "head_sha": "5e5b87df19813e9a296043a96cb085f71a9a304c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14736593464"
+}
