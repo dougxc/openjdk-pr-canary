@@ -1,0 +1,22 @@
+{
+  "artifact_3027502785": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vnkozlov-1b0c89f6fb9b0d5acb5d3c000bb026d20e09fbfa)\nOpenJDK 64-Bit Server VM (build 25-internal-vnkozlov-1b0c89f6fb9b0d5acb5d3c000bb026d20e09fbfa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2863a9643c4b6150b02c914dadd42408dd97c920.json",
+    "43517ebff66bfaeebe6dbc458b8ef2a4dc549168.json",
+    "544a4aa896dfe9bd6d69a08271c805b8333a5348.json",
+    "91c37dad5e66ae37b90d79c65610c3bc19ef5d08.json",
+    "ba08626b7a8db7cdc3fafe5501494ea5ca1360cf.json",
+    "e29da02e19830511c7af57c17e3e0cdc1b4418a5.json",
+    "ed37319bdd9a2486cf6b130ea5fb59acbf51ecda.json"
+  ],
+  "datetime": "2025-04-29T07:40:10.273878+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24740",
+  "number": 24740,
+  "title": "8350209: Preserve adapters in AOT cache",
+  "head_sha": "1b0c89f6fb9b0d5acb5d3c000bb026d20e09fbfa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14725748471"
+}
