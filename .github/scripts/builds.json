@@ -158986,6 +158986,9 @@
 		},
 		"aliases": [
 			"jdk-25-2486"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -159011,6 +159014,9 @@
 		},
 		"aliases": [
 			"jdk-25-2487"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	}
 ]
