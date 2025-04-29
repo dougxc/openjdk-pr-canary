@@ -1,0 +1,16 @@
+{
+  "artifact_3028295596": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jerboaa-ddd4139a17936399293d3cfc52060e5f6b3d2802)\nOpenJDK 64-Bit Server VM (build 25-internal-jerboaa-ddd4139a17936399293d3cfc52060e5f6b3d2802, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8868fdfd53e4a4bd0b117e0dff8a6d15cc32bd69.json"
+  ],
+  "datetime": "2025-04-29T10:02:46.698857+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24723",
+  "number": 24723,
+  "title": "8354941: Build failure with glibc 2.42 due to uabs() name collision",
+  "head_sha": "ddd4139a17936399293d3cfc52060e5f6b3d2802",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14727996972"
+}
