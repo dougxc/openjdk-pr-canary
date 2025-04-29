@@ -1,0 +1,16 @@
+{
+  "artifact_3026119935": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-slowhog-384905bcdad2c6b35723b97e11eb38f2077d8161)\nOpenJDK 64-Bit Server VM (build 25-internal-slowhog-384905bcdad2c6b35723b97e11eb38f2077d8161, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "cae7f6a21444f40c71904ffd140557030aafe19f.json"
+  ],
+  "datetime": "2025-04-29T02:38:03.792702+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24430",
+  "number": 24430,
+  "title": "8345431: Detect duplicate entries in jar files with jar --validate",
+  "head_sha": "384905bcdad2c6b35723b97e11eb38f2077d8161",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14721802683"
+}
