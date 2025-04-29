@@ -1,0 +1,16 @@
+{
+  "artifact_3026843537": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexeysemenyukoracle-be25c5ced136aa933376c5fc402a729e18fc87cc)\nOpenJDK 64-Bit Server VM (build 25-internal-alexeysemenyukoracle-be25c5ced136aa933376c5fc402a729e18fc87cc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ec86bb55c2eddff3ef217ce827ea166d4d3cc686.json"
+  ],
+  "datetime": "2025-04-29T14:12:14.559720+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24899",
+  "number": 24899,
+  "title": "8355651: Issues with post-image hook",
+  "head_sha": "be25c5ced136aa933376c5fc402a729e18fc87cc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14732797535"
+}
