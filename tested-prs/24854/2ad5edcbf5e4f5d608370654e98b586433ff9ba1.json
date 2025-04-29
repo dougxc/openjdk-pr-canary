@@ -1,0 +1,18 @@
+{
+  "artifact_3032178304": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mcpowers-2ad5edcbf5e4f5d608370654e98b586433ff9ba1)\nOpenJDK 64-Bit Server VM (build 25-internal-mcpowers-2ad5edcbf5e4f5d608370654e98b586433ff9ba1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "064c847fd50197cb02bfdfa60715c57e665b1626.json",
+    "5d2a01fc6b4df1064ecb9c6e30e4f50627b99e2e.json",
+    "8b111728213ddefb4fc154266045515471a38058.json"
+  ],
+  "datetime": "2025-04-29T18:30:26.102331+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24854",
+  "number": 24854,
+  "title": "8351113: RC2ParameterSpec throws IllegalArgumentException when offset is negative",
+  "head_sha": "2ad5edcbf5e4f5d608370654e98b586433ff9ba1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14737575489"
+}
