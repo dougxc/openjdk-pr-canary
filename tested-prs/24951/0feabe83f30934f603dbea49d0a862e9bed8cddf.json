@@ -1,0 +1,14 @@
+{
+  "artifact_3030584079": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-RogerRiggs-0feabe83f30934f603dbea49d0a862e9bed8cddf)\nOpenJDK 64-Bit Server VM (build 25-internal-RogerRiggs-0feabe83f30934f603dbea49d0a862e9bed8cddf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-29T15:42:25.810918+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24951",
+  "number": 24951,
+  "title": "8351000: StringBuilder getChar and putChar robustness",
+  "head_sha": "0feabe83f30934f603dbea49d0a862e9bed8cddf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14735246335"
+}
