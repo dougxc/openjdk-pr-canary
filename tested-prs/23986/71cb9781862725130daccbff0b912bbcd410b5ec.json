@@ -1,0 +1,21 @@
+{
+  "artifact_3038435465": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaikiran-71cb9781862725130daccbff0b912bbcd410b5ec)\nOpenJDK 64-Bit Server VM (build 25-internal-jaikiran-71cb9781862725130daccbff0b912bbcd410b5ec, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4e3f8e70ae32669f7b97a8ebae83cc3e22639b8b.json",
+    "83ac59fcd292c21bbff4e0ac243a6bf07b4b21dc.json",
+    "935b04ed00522aa92105292baa0693c55b1356ae.json",
+    "9a29b9606059e87c39d36e831ccbcd63bbae9e2e.json",
+    "b9734fa4042a72b8ed66f5c0cfeb8a5549845ee1.json",
+    "d0518e7c71a5c3009b4db0efba441355178537ff.json"
+  ],
+  "datetime": "2025-04-30T14:54:54.555366+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23986",
+  "number": 23986,
+  "title": "8347712: IllegalStateException on multithreaded ZipFile access with non-UTF8 charset",
+  "head_sha": "71cb9781862725130daccbff0b912bbcd410b5ec",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14757137107"
+}
