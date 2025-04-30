@@ -1,0 +1,14 @@
+{
+  "artifact_3037168906": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kevinjwalls-70cd88c37b6dec39869f77f9cade334006e1510d)\nOpenJDK 64-Bit Server VM (build 25-internal-kevinjwalls-70cd88c37b6dec39869f77f9cade334006e1510d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-04-30T13:05:52.676393+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24961",
+  "number": 24961,
+  "title": "8354407: Test com/sun/management/OperatingSystemMXBean/GetProcessCpuLoad.java still fails on Windows",
+  "head_sha": "70cd88c37b6dec39869f77f9cade334006e1510d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14755068474"
+}
