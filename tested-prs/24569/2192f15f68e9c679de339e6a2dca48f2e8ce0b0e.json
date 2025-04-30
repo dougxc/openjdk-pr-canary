@@ -1,0 +1,20 @@
+{
+  "artifact_3036518893": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-djelinski-2192f15f68e9c679de339e6a2dca48f2e8ce0b0e)\nOpenJDK 64-Bit Server VM (build 25-internal-djelinski-2192f15f68e9c679de339e6a2dca48f2e8ce0b0e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "085d6b5fa1889102cab6f342b0f65b368db98c8f.json",
+    "45121f44d576580f86f08efb95448bdcafc2dac7.json",
+    "4c7f30f487401aacda8d397d703a3b9dda747be3.json",
+    "c7b28290b2e229eeaff32e66c0cd752f1c7f5f74.json",
+    "d5c5e8573eaef0fc86c4b94831cf1b1a3f8a0ace.json"
+  ],
+  "datetime": "2025-04-30T11:08:18.751172+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24569",
+  "number": 24569,
+  "title": "8354276: Strict HTTP header validation",
+  "head_sha": "2192f15f68e9c679de339e6a2dca48f2e8ce0b0e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14752556994"
+}
