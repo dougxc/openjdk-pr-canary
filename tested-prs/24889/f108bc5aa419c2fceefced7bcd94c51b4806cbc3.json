@@ -1,0 +1,17 @@
+{
+  "artifact_3034074757": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-calvinccheung-f108bc5aa419c2fceefced7bcd94c51b4806cbc3)\nOpenJDK 64-Bit Server VM (build 25-internal-calvinccheung-f108bc5aa419c2fceefced7bcd94c51b4806cbc3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4d2aa07c416def9c236f62fbd045ec629095970b.json",
+    "75c3165c31e4f1abe00bf9b6cef1b11175400952.json"
+  ],
+  "datetime": "2025-04-30T02:37:11.350123+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24889",
+  "number": 24889,
+  "title": "8327495: Print more warning with -Xshare:auto when CDS fails to use archive",
+  "head_sha": "f108bc5aa419c2fceefced7bcd94c51b4806cbc3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14745158375"
+}
