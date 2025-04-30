@@ -1,0 +1,16 @@
+{
+  "artifact_3035907210": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ferakocz-c5c6449fc24932d2b696453fe42f841170dd533b)\nOpenJDK 64-Bit Server VM (build 25-internal-ferakocz-c5c6449fc24932d2b696453fe42f841170dd533b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4ef7c737c9bb916d14a681d7cab929bad7b9911a.json"
+  ],
+  "datetime": "2025-04-30T08:48:21.845812+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24953",
+  "number": 24953,
+  "title": "8351412: Add AVX-512 intrinsics for ML-KEM",
+  "head_sha": "c5c6449fc24932d2b696453fe42f841170dd533b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14750343581"
+}
