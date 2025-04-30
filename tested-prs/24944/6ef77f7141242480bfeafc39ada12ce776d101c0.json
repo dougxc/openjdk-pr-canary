@@ -1,0 +1,16 @@
+{
+  "artifact_3036815486": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-walulyai-6ef77f7141242480bfeafc39ada12ce776d101c0)\nOpenJDK 64-Bit Server VM (build 25-internal-walulyai-6ef77f7141242480bfeafc39ada12ce776d101c0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "130eda71fa7103bc5ace5011cd80b383fdbda85f.json"
+  ],
+  "datetime": "2025-04-30T11:37:37.777272+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24944",
+  "number": 24944,
+  "title": "8355756: G1HeapSizingPolicy::full_collection_resize_amount should consider allocation size",
+  "head_sha": "6ef77f7141242480bfeafc39ada12ce776d101c0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14753427993"
+}
