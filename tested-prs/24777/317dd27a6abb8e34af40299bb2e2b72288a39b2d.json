@@ -1,0 +1,20 @@
+{
+  "artifact_3041734546": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-317dd27a6abb8e34af40299bb2e2b72288a39b2d)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-317dd27a6abb8e34af40299bb2e2b72288a39b2d, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "24ed1cc18c8a50ce2ba121959a7e714a0736c618.json",
+    "6e8b32548da359797e542956ad792b9fa802f244.json",
+    "d7b652e32807e5f3b670448073610c608e00af0a.json",
+    "e8adab3ce497390ad759a74634b707c3e363d7e8.json"
+  ],
+  "datetime": "2025-04-30T23:56:30.128270+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24777",
+  "number": 24777,
+  "title": "8355223: Improve documentation on @IntrinsicCandidate",
+  "head_sha": "317dd27a6abb8e34af40299bb2e2b72288a39b2d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14766302666"
+}
