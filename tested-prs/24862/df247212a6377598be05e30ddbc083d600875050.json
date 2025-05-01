@@ -1,0 +1,16 @@
+{
+  "artifact_3046681337": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vidmik-df247212a6377598be05e30ddbc083d600875050)\nOpenJDK 64-Bit Server VM (build 25-internal-vidmik-df247212a6377598be05e30ddbc083d600875050, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f6f1eab2e55da221e8191275c45d2393f7d0f7eb.json"
+  ],
+  "datetime": "2025-05-01T21:18:04.475012+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24862",
+  "number": 24862,
+  "title": "8355446: Change to Xcode 15.4 for building on macOS at Oracle",
+  "head_sha": "df247212a6377598be05e30ddbc083d600875050",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14782961420"
+}
