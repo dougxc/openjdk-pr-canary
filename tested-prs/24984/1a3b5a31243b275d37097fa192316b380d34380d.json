@@ -1,0 +1,16 @@
+{
+  "artifact_3046539506": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-1a3b5a31243b275d37097fa192316b380d34380d)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-1a3b5a31243b275d37097fa192316b380d34380d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2c7e215424ae496125de49af975a1941a03ffdf1.json"
+  ],
+  "datetime": "2025-05-01T20:41:49.480630+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24984",
+  "number": 24984,
+  "title": "8356027: Print enhanced compilation timings",
+  "head_sha": "1a3b5a31243b275d37097fa192316b380d34380d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14782961420"
+}
