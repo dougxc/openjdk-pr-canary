@@ -1,0 +1,24 @@
+{
+  "artifact_3043605886": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mkarg-62a6867b66c16f1388746d525356378ac8f09d9f)\nOpenJDK 64-Bit Server VM (build 25-internal-mkarg-62a6867b66c16f1388746d525356378ac8f09d9f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "47fbca7e911a4329c94c11ed127a596e56c6a2d0.json",
+    "60a891b95d0b8af77edc12e9e2a095a0c2067366.json",
+    "884e7dc14c25b47ff6e5056fb663cfccf17f243e.json",
+    "99fcefbdca5650bc8ba38ca621f1f9a083ed91fe.json",
+    "a3c2add9c16e4c7331c5a7c2848f27b6c0330a17.json",
+    "a5d26c5bc143e37520e5f42bcb0299d4e12784b0.json",
+    "cb2a2efbc3ee28df0378fe1894672ae9c53ee11c.json",
+    "d27d1bd85458f02e859a9653805d96ff79473124.json",
+    "d2ccf42cec148a86b17753d160df211925f75858.json"
+  ],
+  "datetime": "2025-05-01T10:15:29.383748+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21730",
+  "number": 21730,
+  "title": "8343110: Add getChars(int, int, char[], int) to CharSequence and CharBuffer",
+  "head_sha": "62a6867b66c16f1388746d525356378ac8f09d9f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14773218499"
+}
