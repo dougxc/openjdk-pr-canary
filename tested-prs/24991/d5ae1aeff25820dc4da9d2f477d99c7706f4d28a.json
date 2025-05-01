@@ -1,0 +1,14 @@
+{
+  "artifact_3047525695": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prrace-d5ae1aeff25820dc4da9d2f477d99c7706f4d28a)\nOpenJDK 64-Bit Server VM (build 25-internal-prrace-d5ae1aeff25820dc4da9d2f477d99c7706f4d28a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-01T23:49:42.188174+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24991",
+  "number": 24991,
+  "title": "8356049: Need a simple way to play back a sound clip",
+  "head_sha": "d5ae1aeff25820dc4da9d2f477d99c7706f4d28a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14785409131"
+}
