@@ -1,0 +1,15 @@
+{
+  "artifact_3042029622": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-a0821e97f6c0e262d08e8504ac5cee0c9c8ab7d9)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-a0821e97f6c0e262d08e8504ac5cee0c9c8ab7d9, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-05-01T02:24:49.026514+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24978",
+  "number": 24978,
+  "title": "8356022: Migrate descriptor parsing from generics to BytecodeDescriptor",
+  "head_sha": "a0821e97f6c0e262d08e8504ac5cee0c9c8ab7d9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14768366901"
+}
