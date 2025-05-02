@@ -1,0 +1,14 @@
+{
+  "artifact_3047345877": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-justin-curtis-lu-c3e77cde5b877f07694b50040f93a69781ad4711)\nOpenJDK 64-Bit Server VM (build 25-internal-justin-curtis-lu-c3e77cde5b877f07694b50040f93a69781ad4711, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-02T16:05:31.548551+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25009",
+  "number": 25009,
+  "title": "8356040: java/util/PluggableLocale/LocaleNameProviderTest.java timed out",
+  "head_sha": "c3e77cde5b877f07694b50040f93a69781ad4711",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14798271265"
+}
