@@ -1,0 +1,14 @@
+{
+  "artifact_3050017232": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-493f7ec1a7f953978569fbbe149cb616477fbb5a)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-493f7ec1a7f953978569fbbe149cb616477fbb5a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-02T13:37:44.612392+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24999",
+  "number": 24999,
+  "title": "FloatingDecimal add final and use record",
+  "head_sha": "493f7ec1a7f953978569fbbe149cb616477fbb5a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14795597838"
+}
