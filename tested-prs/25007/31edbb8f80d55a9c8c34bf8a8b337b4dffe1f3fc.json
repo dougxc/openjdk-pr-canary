@@ -1,0 +1,14 @@
+{
+  "artifact_3051155259": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-chhagedorn-31edbb8f80d55a9c8c34bf8a8b337b4dffe1f3fc)\nOpenJDK 64-Bit Server VM (build 25-internal-chhagedorn-31edbb8f80d55a9c8c34bf8a8b337b4dffe1f3fc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-02T14:35:06.193710+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25007",
+  "number": 25007,
+  "title": "8356084: C2: Data is wrongly rewired to Initialized Assertion Predicates instead of Template Assertion Predicates",
+  "head_sha": "31edbb8f80d55a9c8c34bf8a8b337b4dffe1f3fc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14795597838"
+}
