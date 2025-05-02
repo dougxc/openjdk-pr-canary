@@ -1,0 +1,26 @@
+{
+  "artifact_3051635862": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-3d68f09a46c2be2339ca4ffba7d8ee9e79077168)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-3d68f09a46c2be2339ca4ffba7d8ee9e79077168, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0532ed3ba5d1a71bd18eb1ee6458dcffeac4d1b0.json",
+    "221d51e78a7ee96397c99e874d2fbfaa246a0f14.json",
+    "2292212b0cd73ab3f6a692ccb839dadad63194c9.json",
+    "46666256175e8275a3e8841fd88400a04a59dab8.json",
+    "5ac828643792443b7821aec94537970ba66c4839.json",
+    "69583b67b50184817218bf437e008f00b5551a37.json",
+    "70bf236872e9bf86287e4315db8d52d9a791983c.json",
+    "74851320ef0de45f5b22b22d7b42c745b31a4186.json",
+    "8d0f26d311d4e67ecf3866e40c434dede64f46eb.json",
+    "ab86b41f3049e7680be3545659bda31069159397.json",
+    "edd195370022bd2f0b9c1ada9b7cfca2b3a0a963.json"
+  ],
+  "datetime": "2025-05-02T15:54:39.063380+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24043",
+  "number": 24043,
+  "title": "8351996: Behavioral updates for ClassValue::remove",
+  "head_sha": "3d68f09a46c2be2339ca4ffba7d8ee9e79077168",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14798271265"
+}
