@@ -1,0 +1,14 @@
+{
+  "artifact_3053902613": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mrserb-30008b2c166af1a538256efb445e360b713c0443)\nOpenJDK 64-Bit Server VM (build 25-internal-mrserb-30008b2c166af1a538256efb445e360b713c0443, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-03T03:57:32.541689+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24771",
+  "number": 24771,
+  "title": "8355078: java.awt.Color.createContext() uses unnecessary synchronization",
+  "head_sha": "30008b2c166af1a538256efb445e360b713c0443",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14807167538"
+}
