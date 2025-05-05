@@ -1,0 +1,18 @@
+{
+  "artifact_3062704133": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaikiran-8e329ff64724e583b2691403bdce4df0668212ef)\nOpenJDK 64-Bit Server VM (build 25-internal-jaikiran-8e329ff64724e583b2691403bdce4df0668212ef, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "47dca9cf8a7ce14ca946765b3b45cb99d0b04fdf.json",
+    "5e123087540c60f75e0d6293f2d96388bedb96c0.json",
+    "ad880d50893cfd3db548ce345134a8c2806984c2.json"
+  ],
+  "datetime": "2025-05-05T15:08:16.573529+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25031",
+  "number": 25031,
+  "title": "8356154: Respecify java.net.Socket constructors that allow creating UDP sockets to throw IllegalArgumentException",
+  "head_sha": "8e329ff64724e583b2691403bdce4df0668212ef",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14838990987"
+}
