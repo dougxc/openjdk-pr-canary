@@ -1,0 +1,16 @@
+{
+  "artifact_3060896129": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sarannat-a45e1340fec57a61f9f5ab284f6fda6755a1abc7)\nOpenJDK 64-Bit Server VM (build 25-internal-sarannat-a45e1340fec57a61f9f5ab284f6fda6755a1abc7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8d045cb136757c1afc2db6ef0858bccd7acde4f6.json"
+  ],
+  "datetime": "2025-05-05T11:41:09.191502+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24890",
+  "number": 24890,
+  "title": "8347515: C2: assert(!success || (C->macro_count() == (old_macro_count - 1))) failed: elimination must have deleted one node from macro list",
+  "head_sha": "a45e1340fec57a61f9f5ab284f6fda6755a1abc7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14834476710"
+}
