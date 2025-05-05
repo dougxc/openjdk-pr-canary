@@ -1,0 +1,18 @@
+{
+  "artifact_3064128255": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-RogerRiggs-80992a2084a8a345d041dfb7798e5948e1facde7)\nOpenJDK 64-Bit Server VM (build 25-internal-RogerRiggs-80992a2084a8a345d041dfb7798e5948e1facde7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b59a2e9a1c47c0047ef16533a0c6b1002c2793a0.json",
+    "d2261cd6b7a8db8bcb6ab05b0600ccd329950ced.json",
+    "f50032444fd60e8ef3efbeab1d33cc92ae322939.json"
+  ],
+  "datetime": "2025-05-05T18:30:55.055978+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24967",
+  "number": 24967,
+  "title": "8351443: Improve robustness of StringBuilder",
+  "head_sha": "80992a2084a8a345d041dfb7798e5948e1facde7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14842406829"
+}
