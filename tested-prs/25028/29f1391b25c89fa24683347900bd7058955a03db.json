@@ -1,0 +1,14 @@
+{
+  "artifact_3060876321": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-29f1391b25c89fa24683347900bd7058955a03db)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-29f1391b25c89fa24683347900bd7058955a03db, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-05T11:19:28.551629+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25028",
+  "number": 25028,
+  "title": "8356153: Shenandoah stubs are missing in AOT Code Cache addresses table",
+  "head_sha": "29f1391b25c89fa24683347900bd7058955a03db",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14834476710"
+}
