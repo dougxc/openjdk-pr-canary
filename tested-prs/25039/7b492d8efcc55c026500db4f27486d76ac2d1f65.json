@@ -1,0 +1,14 @@
+{
+  "artifact_3062330906": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-snake66-7b492d8efcc55c026500db4f27486d76ac2d1f65)\nOpenJDK 64-Bit Server VM (build 25-internal-snake66-7b492d8efcc55c026500db4f27486d76ac2d1f65, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-05T14:45:57.820916+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25039",
+  "number": 25039,
+  "title": "8356182: Build fails on aarch64 without ZGC",
+  "head_sha": "7b492d8efcc55c026500db4f27486d76ac2d1f65",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14838990987"
+}
