@@ -1,0 +1,14 @@
+{
+  "artifact_3061069717": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-a7bd6ae1a8d0591715487043ab43da8377c911cd)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-a7bd6ae1a8d0591715487043ab43da8377c911cd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-05T10:57:59.286921+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25030",
+  "number": 25030,
+  "title": "8356122: Client build fails after JDK-8350209",
+  "head_sha": "a7bd6ae1a8d0591715487043ab43da8377c911cd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14834476710"
+}
