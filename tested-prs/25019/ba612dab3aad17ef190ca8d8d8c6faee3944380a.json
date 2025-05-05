@@ -1,0 +1,16 @@
+{
+  "artifact_3065601253": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ashu-mehra-ba612dab3aad17ef190ca8d8d8c6faee3944380a)\nOpenJDK 64-Bit Server VM (build 25-internal-ashu-mehra-ba612dab3aad17ef190ca8d8d8c6faee3944380a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c15ebdb1e3045c806ffdfe1c1259486d9e6f0ef8.json"
+  ],
+  "datetime": "2025-05-05T21:49:26.388825+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25019",
+  "number": 25019,
+  "title": "8354887: Preserve runtime blobs in AOT code cache",
+  "head_sha": "ba612dab3aad17ef190ca8d8d8c6faee3944380a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14846624228"
+}
