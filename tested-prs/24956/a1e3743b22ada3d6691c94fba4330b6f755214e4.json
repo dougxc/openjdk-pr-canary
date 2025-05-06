@@ -1,0 +1,16 @@
+{
+  "artifact_3066322361": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-a1e3743b22ada3d6691c94fba4330b6f755214e4)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-a1e3743b22ada3d6691c94fba4330b6f755214e4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0f6a2e0abced42fddfc051bb5e47425a9ab7fdd1.json"
+  ],
+  "datetime": "2025-05-06T02:55:00.650448+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24956",
+  "number": 24956,
+  "title": "8354890: AOT-initialize j.l.i.MethodHandleImpl and inner classes",
+  "head_sha": "a1e3743b22ada3d6691c94fba4330b6f755214e4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14850224440"
+}
