@@ -1,0 +1,16 @@
+{
+  "artifact_3072775489": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prrace-608deb19f55c1caa993fdd72f2aa9e409387345c)\nOpenJDK 64-Bit Server VM (build 25-internal-prrace-608deb19f55c1caa993fdd72f2aa9e409387345c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1981c8590a69f105fafe850785c83b650ec204ea.json"
+  ],
+  "datetime": "2025-05-06T19:35:44.665893+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25047",
+  "number": 25047,
+  "title": "8356208: Remove obsolete code in PSPrinterJob for plugin printing",
+  "head_sha": "608deb19f55c1caa993fdd72f2aa9e409387345c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14867190852"
+}
