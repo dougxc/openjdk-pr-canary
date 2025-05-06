@@ -1,0 +1,14 @@
+{
+  "artifact_3064210242": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mrserb-c82bc63471cdabb03ab8a5dc132f9868b39e05a8)\nOpenJDK 64-Bit Server VM (build 25-internal-mrserb-c82bc63471cdabb03ab8a5dc132f9868b39e05a8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-06T02:34:26.415276+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25045",
+  "number": 25045,
+  "title": "8356053: Test java/awt/Toolkit/Headless/HeadlessToolkit.java fails by timeout",
+  "head_sha": "c82bc63471cdabb03ab8a5dc132f9868b39e05a8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14850224440"
+}
