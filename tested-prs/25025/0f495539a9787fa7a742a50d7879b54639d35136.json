@@ -1,0 +1,27 @@
+{
+  "artifact_3073447184": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-0f495539a9787fa7a742a50d7879b54639d35136)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-0f495539a9787fa7a742a50d7879b54639d35136, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/11135",
+    "number": "11135",
+    "revision": "c34f0019584eaf2c92b6ba1e3b77ecb9ef818cee"
+  },
+  "status": "failed",
+  "history": [
+    "2ead9d6deebd2364756f2e1c0d006ef44817bce7.json",
+    "450ea11515506938015519931e881f5d2dab049e.json",
+    "806d307b2d0b64b1c2092dbe056f12423b9c0dee.json",
+    "94fca4b40aa7d14ca260e8e2bbb1acd72b05b885.json",
+    "d1598afa6e0357b7af3318a573cb5225017b05ec.json",
+    "fc3e7a807b452242572aca4f8c5662733acd54aa.json"
+  ],
+  "datetime": "2025-05-06T20:45:02.922569+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25025",
+  "number": 25025,
+  "title": "8356126: Duplication handling and optimization of CaptureCallState",
+  "head_sha": "0f495539a9787fa7a742a50d7879b54639d35136",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14869143763"
+}
