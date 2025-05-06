@@ -162017,5 +162017,28 @@
 		"aliases": [
 			"jdk-25-2606"
 		]
+	},
+	{
+		"id": "jdk-25+22-2607",
+		"revisions": {
+			".": [
+				"f1538525c44916f14dbf497679772b3f6b654a05"
+			],
+			"open": [
+				"088825ed889551e6067d46bf77fe4d30a3972da1"
+			],
+			"mx": [
+				"8c2f0c25e8c3b51e2b467af4cf4bcd14850c9b96"
+			],
+			"graal": [
+				"86827fbf750f168393a444490ddcf2e9fdf79847"
+			],
+			"graal-enterprise": [
+				"14bcb5c82ca59b5915e4785acc3d32aaec3beb17"
+			]
+		},
+		"aliases": [
+			"jdk-25-2607"
+		]
 	}
 ]
