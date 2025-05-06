@@ -1,0 +1,16 @@
+{
+  "artifact_3070813967": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-a07ef96df698906be23c3c9ec6f62d5de192730c)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-a07ef96df698906be23c3c9ec6f62d5de192730c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "876708c27903aec04a81b6f055b84f10de18c373.json"
+  ],
+  "datetime": "2025-05-06T15:31:32.531997+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24567",
+  "number": 24567,
+  "title": "8354273: Replace even more Unicode characters with ASCII",
+  "head_sha": "a07ef96df698906be23c3c9ec6f62d5de192730c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14862400229"
+}
