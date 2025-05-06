@@ -1,0 +1,16 @@
+{
+  "artifact_3070611874": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Domest0s-345fb84bd883c4b518eacf0c29740f1d654ac262)\nOpenJDK 64-Bit Server VM (build 25-internal-Domest0s-345fb84bd883c4b518eacf0c29740f1d654ac262, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6a1e3d44083f589032f9d28487c710313e456dbb.json"
+  ],
+  "datetime": "2025-05-06T14:57:16.391597+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25041",
+  "number": 25041,
+  "title": "8356187: TestJcmd.java may incorrectly parse podman version",
+  "head_sha": "345fb84bd883c4b518eacf0c29740f1d654ac262",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14862400229"
+}
