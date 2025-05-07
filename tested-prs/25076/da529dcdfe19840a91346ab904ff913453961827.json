@@ -1,0 +1,14 @@
+{
+  "artifact_3075158671": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mickleness-da529dcdfe19840a91346ab904ff913453961827)\nOpenJDK 64-Bit Server VM (build 25-internal-mickleness-da529dcdfe19840a91346ab904ff913453961827, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-07T03:59:14.085653+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25076",
+  "number": 25076,
+  "title": "8356320: GifImageDecoder can produce wrong image when GCE changes transparent pixel index",
+  "head_sha": "da529dcdfe19840a91346ab904ff913453961827",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14874700965"
+}
