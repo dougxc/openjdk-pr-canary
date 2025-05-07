@@ -1,0 +1,14 @@
+{
+  "artifact_3076912846": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-caspernorrbin-a5180f6d385da2b7b5afd6ff73eed2cecb887e7b)\nOpenJDK 64-Bit Server VM (build 25-internal-caspernorrbin-a5180f6d385da2b7b5afd6ff73eed2cecb887e7b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-07T13:25:15.483050+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25093",
+  "number": 25093,
+  "title": "8354878: File Leak in CgroupSubsystemFactory::determine_type of cgroupSubsystem_linux.cpp:300",
+  "head_sha": "a5180f6d385da2b7b5afd6ff73eed2cecb887e7b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14882179898"
+}
