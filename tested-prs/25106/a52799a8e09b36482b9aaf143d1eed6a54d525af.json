@@ -1,0 +1,14 @@
+{
+  "artifact_3082082392": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-a52799a8e09b36482b9aaf143d1eed6a54d525af)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-a52799a8e09b36482b9aaf143d1eed6a54d525af, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-07T23:06:05.171206+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25106",
+  "number": 25106,
+  "title": "8354278: Revert use of non-POSIX echo -n introduced in JDK-8301197",
+  "head_sha": "a52799a8e09b36482b9aaf143d1eed6a54d525af",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14894513357"
+}
