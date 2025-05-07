@@ -1,0 +1,17 @@
+{
+  "artifact_3080823407": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-b772b3d4ab579fd03ced419050d65f7f2f16bb93)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-b772b3d4ab579fd03ced419050d65f7f2f16bb93, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "15a87cef87de52ce9d2d89d46d3019962e6d3957.json",
+    "43bdeac3f497fba6abfe15fa015d3702dc896fd7.json"
+  ],
+  "datetime": "2025-05-07T19:32:05.007207+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24895",
+  "number": 24895,
+  "title": "8355638: Allow -Xlog:aot to be used as an alias for -Xlog:cds when using AOT cache",
+  "head_sha": "b772b3d4ab579fd03ced419050d65f7f2f16bb93",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14890792820"
+}
