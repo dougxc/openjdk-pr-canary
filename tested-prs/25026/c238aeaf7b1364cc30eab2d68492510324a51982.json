@@ -1,0 +1,17 @@
+{
+  "artifact_3074359315": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-c238aeaf7b1364cc30eab2d68492510324a51982)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-c238aeaf7b1364cc30eab2d68492510324a51982, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6669b8d71e4054e31e1aa746c7bdc706cd829ea3.json",
+    "96bda5fdc7b49adb5adce40714e59209f82380cf.json"
+  ],
+  "datetime": "2025-05-07T02:45:39.556380+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25026",
+  "number": 25026,
+  "title": "8356125: Interned strings are omitted from AOT cache",
+  "head_sha": "c238aeaf7b1364cc30eab2d68492510324a51982",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14873640975"
+}
