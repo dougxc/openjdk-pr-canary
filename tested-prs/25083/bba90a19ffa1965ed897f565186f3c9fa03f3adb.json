@@ -1,0 +1,14 @@
+{
+  "artifact_3076411060": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-bba90a19ffa1965ed897f565186f3c9fa03f3adb)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-bba90a19ffa1965ed897f565186f3c9fa03f3adb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-07T08:50:52.461277+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25083",
+  "number": 25083,
+  "title": "8356335: Remove linux-x86 from jib profiles",
+  "head_sha": "bba90a19ffa1965ed897f565186f3c9fa03f3adb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14878966548"
+}
