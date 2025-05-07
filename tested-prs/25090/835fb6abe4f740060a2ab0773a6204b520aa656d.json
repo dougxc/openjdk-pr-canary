@@ -1,0 +1,14 @@
+{
+  "artifact_3077930578": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-biboudis-835fb6abe4f740060a2ab0773a6204b520aa656d)\nOpenJDK 64-Bit Server VM (build 25-internal-biboudis-835fb6abe4f740060a2ab0773a6204b520aa656d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-07T14:02:53.579671+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25090",
+  "number": 25090,
+  "title": "8354323: Safeguard SwitchBootstraps.typeSwitch when used outside the compiler",
+  "head_sha": "835fb6abe4f740060a2ab0773a6204b520aa656d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14883970410"
+}
