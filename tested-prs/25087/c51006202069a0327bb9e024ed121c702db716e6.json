@@ -1,0 +1,14 @@
+{
+  "artifact_3077641270": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-c51006202069a0327bb9e024ed121c702db716e6)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-c51006202069a0327bb9e024ed121c702db716e6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-07T12:05:02.264323+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25087",
+  "number": 25087,
+  "title": "8356379: Need a proper way to test existence of binary from configure",
+  "head_sha": "c51006202069a0327bb9e024ed121c702db716e6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14882179898"
+}
