@@ -1,0 +1,14 @@
+{
+  "artifact_3075394993": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-1aa9ad32b3ef81cd85a043e5283c3393dd8e02f7)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-1aa9ad32b3ef81cd85a043e5283c3393dd8e02f7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-07T05:02:21.005641+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25078",
+  "number": 25078,
+  "title": "8351313: VM crashes when AOTMode/AOTCache/AOTConfiguration are empty",
+  "head_sha": "1aa9ad32b3ef81cd85a043e5283c3393dd8e02f7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14875224386"
+}
