@@ -1,0 +1,16 @@
+{
+  "artifact_3082175259": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-5c795980fd59b27b132ebb66062330e9cf4621bc)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-5c795980fd59b27b132ebb66062330e9cf4621bc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "bdfed0d5d6f5e7ecd3d98a7d220309f144ef06e6.json"
+  ],
+  "datetime": "2025-05-07T23:17:02.814586+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25104",
+  "number": 25104,
+  "title": "8356407: Part of class verification is skipped in AOT training run",
+  "head_sha": "5c795980fd59b27b132ebb66062330e9cf4621bc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14894513357"
+}
