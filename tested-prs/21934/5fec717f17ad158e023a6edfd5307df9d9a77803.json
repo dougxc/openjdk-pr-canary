@@ -1,0 +1,18 @@
+{
+  "artifact_3076112351": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-AlanBateman-5fec717f17ad158e023a6edfd5307df9d9a77803)\nOpenJDK 64-Bit Server VM (build 25-internal-AlanBateman-5fec717f17ad158e023a6edfd5307df9d9a77803, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2da9b292939d3c2d3f5fa312a3905a6b2389d302.json",
+    "418bc3d3db26525273858f1a188cd1bd01a11c97.json",
+    "de6e1e160d56c640c4484d0b1284e6243d2c3411.json"
+  ],
+  "datetime": "2025-05-07T07:42:52.457342+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21934",
+  "number": 21934,
+  "title": "8342486: Implement JEP 505: Structured Concurrency (Fifth Preview)",
+  "head_sha": "5fec717f17ad158e023a6edfd5307df9d9a77803",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14877671698"
+}
