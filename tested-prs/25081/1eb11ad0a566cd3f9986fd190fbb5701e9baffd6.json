@@ -1,0 +1,16 @@
+{
+  "artifact_3076639543": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kuaiwei-1eb11ad0a566cd3f9986fd190fbb5701e9baffd6)\nOpenJDK 64-Bit Server VM (build 25-internal-kuaiwei-1eb11ad0a566cd3f9986fd190fbb5701e9baffd6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c7054cb7f7d49ae096e10d3059c82e8ffe3951a3.json"
+  ],
+  "datetime": "2025-05-07T10:24:03.577470+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25081",
+  "number": 25081,
+  "title": "8356328: Some C2 IR nodes miss size_of() function",
+  "head_sha": "1eb11ad0a566cd3f9986fd190fbb5701e9baffd6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14880045332"
+}
