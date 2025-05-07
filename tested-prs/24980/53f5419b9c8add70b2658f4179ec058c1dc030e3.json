@@ -1,0 +1,17 @@
+{
+  "artifact_3077116905": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tstuefe-53f5419b9c8add70b2658f4179ec058c1dc030e3)\nOpenJDK 64-Bit Server VM (build 25-internal-tstuefe-53f5419b9c8add70b2658f4179ec058c1dc030e3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4445265a8c2b6cd80f5355469fbb47ac99a64f3d.json",
+    "88aacea1996c64a695e7ac40efe824326816df2e.json"
+  ],
+  "datetime": "2025-05-07T11:06:38.408425+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24980",
+  "number": 24980,
+  "title": "8356025: Provide a PrintVMInfoAtExit diagnostic switch",
+  "head_sha": "53f5419b9c8add70b2658f4179ec058c1dc030e3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14880045332"
+}
