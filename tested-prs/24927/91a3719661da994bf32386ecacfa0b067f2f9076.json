@@ -1,0 +1,14 @@
+{
+  "artifact_3078047557": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-fbredber-91a3719661da994bf32386ecacfa0b067f2f9076)\nOpenJDK 64-Bit Server VM (build 25-internal-fbredber-91a3719661da994bf32386ecacfa0b067f2f9076, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-07T12:51:19.094019+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24927",
+  "number": 24927,
+  "title": "8355646: Optimize ObjectMonitor::exit",
+  "head_sha": "91a3719661da994bf32386ecacfa0b067f2f9076",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14882179898"
+}
