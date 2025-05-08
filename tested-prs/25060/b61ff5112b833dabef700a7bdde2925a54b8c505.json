@@ -1,0 +1,17 @@
+{
+  "artifact_3090099685": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sspitsyn-b61ff5112b833dabef700a7bdde2925a54b8c505)\nOpenJDK 64-Bit Server VM (build 25-internal-sspitsyn-b61ff5112b833dabef700a7bdde2925a54b8c505, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c4d167c4cabf0de6b23e871baeb3a68ce2054ee7.json",
+    "d1ac6b5f08cc6dd7575630edcc8159d1f2bac886.json"
+  ],
+  "datetime": "2025-05-08T22:42:32.111972+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25060",
+  "number": 25060,
+  "title": "8356251: Need minor cleanup for interp_only_mode",
+  "head_sha": "b61ff5112b833dabef700a7bdde2925a54b8c505",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14916495082"
+}
