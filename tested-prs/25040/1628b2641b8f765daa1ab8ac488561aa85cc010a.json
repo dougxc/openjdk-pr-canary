@@ -1,0 +1,21 @@
+{
+  "artifact_3086529530": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-minborg-1628b2641b8f765daa1ab8ac488561aa85cc010a)\nOpenJDK 64-Bit Server VM (build 25-internal-minborg-1628b2641b8f765daa1ab8ac488561aa85cc010a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "33e1779c000ac5aecef0311e2665b8a84e78a83e.json",
+    "4a42b271af522a5993a961bbd385a7684058cf60.json",
+    "52e96c521ed345617ec580570eb41dbf475398cd.json",
+    "83ce9ac1cdf16b2fd3b0f024c594aa214dd4baae.json",
+    "de8e2387b77b18b6291c4ca4d6d96951dff7fe07.json",
+    "e928591aa84a358d4d72c9927bcfad2d0c52606c.json"
+  ],
+  "datetime": "2025-05-08T14:10:03.480306+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25040",
+  "number": 25040,
+  "title": "8356255: Add Stable Field Updaters to allow efficient lazy field evaluations",
+  "head_sha": "1628b2641b8f765daa1ab8ac488561aa85cc010a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14907011248"
+}
