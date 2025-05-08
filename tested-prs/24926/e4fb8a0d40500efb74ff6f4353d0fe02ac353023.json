@@ -1,0 +1,17 @@
+{
+  "artifact_3087562824": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dlunde-e4fb8a0d40500efb74ff6f4353d0fe02ac353023)\nOpenJDK 64-Bit Server VM (build 25-internal-dlunde-e4fb8a0d40500efb74ff6f4353d0fe02ac353023, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3d11b554ee98d2e8e4ebee4e821564fad8af63e7.json",
+    "eceb18e8a2a108bfc30abaea69abf11b2e3392d5.json"
+  ],
+  "datetime": "2025-05-08T16:05:10.993929+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24926",
+  "number": 24926,
+  "title": "8351568: Improve source code documentation for PhaseCFG::insert_anti_dependences",
+  "head_sha": "e4fb8a0d40500efb74ff6f4353d0fe02ac353023",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14909054367"
+}
