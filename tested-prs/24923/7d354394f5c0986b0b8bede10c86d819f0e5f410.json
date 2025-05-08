@@ -1,0 +1,18 @@
+{
+  "artifact_3088418548": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-theRealAph-7d354394f5c0986b0b8bede10c86d819f0e5f410)\nOpenJDK 64-Bit Server VM (build 25-internal-theRealAph-7d354394f5c0986b0b8bede10c86d819f0e5f410, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8f6266176cfb78e8b3d84058f1ca5bcc316b453c.json",
+    "d3f2ff1fb9f8c883e3894f41e27cb84b6fdf0999.json",
+    "ffa3b0f162a1e95f2fe2f9b1feef3b586d7cebb7.json"
+  ],
+  "datetime": "2025-05-08T19:36:02.639984+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24923",
+  "number": 24923,
+  "title": "8355022: Implement JEP 506: Scoped Values",
+  "head_sha": "7d354394f5c0986b0b8bede10c86d819f0e5f410",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14913678002"
+}
