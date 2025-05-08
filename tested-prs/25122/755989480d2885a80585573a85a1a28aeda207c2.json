@@ -1,0 +1,14 @@
+{
+  "artifact_3087261892": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lkorinth-755989480d2885a80585573a85a1a28aeda207c2)\nOpenJDK 64-Bit Server VM (build 25-internal-lkorinth-755989480d2885a80585573a85a1a28aeda207c2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-08T17:02:10.603000+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25122",
+  "number": 25122,
+  "title": "8356171: Increase timeout for testcases as preparation for change of default timeout factor",
+  "head_sha": "755989480d2885a80585573a85a1a28aeda207c2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14911524844"
+}
