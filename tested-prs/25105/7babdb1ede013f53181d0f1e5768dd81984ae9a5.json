@@ -1,0 +1,16 @@
+{
+  "artifact_3088523914": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-cushon-7babdb1ede013f53181d0f1e5768dd81984ae9a5)\nOpenJDK 64-Bit Server VM (build 25-internal-cushon-7babdb1ede013f53181d0f1e5768dd81984ae9a5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d7238c1ddca5758b0516748173915bbab9eb3cf3.json"
+  ],
+  "datetime": "2025-05-08T19:25:03.471241+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25105",
+  "number": 25105,
+  "title": "8356441: IllegalStateException in RichDiagnosticFormatter after JDK-8355065",
+  "head_sha": "7babdb1ede013f53181d0f1e5768dd81984ae9a5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14913678002"
+}
