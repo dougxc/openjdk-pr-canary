@@ -1,0 +1,18 @@
+{
+  "artifact_3095677204": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-bplb-6cb746b20a8082a82cc62bc90c03ce9e8d441e45)\nOpenJDK 64-Bit Server VM (build 25-internal-bplb-6cb746b20a8082a82cc62bc90c03ce9e8d441e45, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "17b674981f294fc9b6976e1c5305acc869100c4e.json",
+    "3814a184551496b01d9f0f44a514c23aa1e094b7.json",
+    "c070fd111ba3829ead3040a9755919ab0170b83b.json"
+  ],
+  "datetime": "2025-05-09T18:45:50.331057+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25107",
+  "number": 25107,
+  "title": "8356127: (fs) UnixFileSystemProvider.implDelete could save a syscall in some cases",
+  "head_sha": "6cb746b20a8082a82cc62bc90c03ce9e8d441e45",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14933499153"
+}
