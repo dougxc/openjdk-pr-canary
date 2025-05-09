@@ -1,0 +1,17 @@
+{
+  "artifact_3093900615": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jdksjolen-56e43e5acad9205e7aafec57c0e49b75a8bd5860)\nOpenJDK 64-Bit Server VM (build 25-internal-jdksjolen-56e43e5acad9205e7aafec57c0e49b75a8bd5860, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "06816db557d96d1e3fca1b9accb1e43b645c25bb.json",
+    "beccef03cd46193c0b52ded3d48ed09d0ec681cf.json"
+  ],
+  "datetime": "2025-05-09T15:20:50.209295+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25092",
+  "number": 25092,
+  "title": "8356390: Rename ResolvedIndyEntry::set_flags to set_has_appendix",
+  "head_sha": "56e43e5acad9205e7aafec57c0e49b75a8bd5860",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14930209711"
+}
