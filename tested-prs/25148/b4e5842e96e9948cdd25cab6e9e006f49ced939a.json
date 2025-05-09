@@ -1,0 +1,14 @@
+{
+  "artifact_3094610489": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-b4e5842e96e9948cdd25cab6e9e006f49ced939a)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-b4e5842e96e9948cdd25cab6e9e006f49ced939a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-09T17:50:04.481029+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25148",
+  "number": 25148,
+  "title": "8356644: Update encoding declaration to UTF-8",
+  "head_sha": "b4e5842e96e9948cdd25cab6e9e006f49ced939a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14933499153"
+}
