@@ -1,0 +1,14 @@
+{
+  "artifact_3095793719": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-afa1c6caf6242b306fdf38fd7d6194a3d5ac5d4f)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-afa1c6caf6242b306fdf38fd7d6194a3d5ac5d4f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-09T19:58:33.270625+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25153",
+  "number": 25153,
+  "title": "8356551: Javac rejects receiver parameter in constructor of local class in early construction context",
+  "head_sha": "afa1c6caf6242b306fdf38fd7d6194a3d5ac5d4f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14936203698"
+}
