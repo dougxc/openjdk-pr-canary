@@ -1,0 +1,14 @@
+{
+  "artifact_3097181146": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-naotoj-6f8101cfa45f8332183bb761b45bfd90463fbfae)\nOpenJDK 64-Bit Server VM (build 25-internal-naotoj-6f8101cfa45f8332183bb761b45bfd90463fbfae, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-09T22:54:32.879790+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25155",
+  "number": 25155,
+  "title": "8356420: Provide examples on wrapping System.in",
+  "head_sha": "6f8101cfa45f8332183bb761b45bfd90463fbfae",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14938809129"
+}
