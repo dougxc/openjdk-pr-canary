@@ -1,0 +1,14 @@
+{
+  "artifact_3097532332": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vidmik-60e9a03b5352be275b34f021177043e0fb10cacb)\nOpenJDK 64-Bit Server VM (build 25-internal-vidmik-60e9a03b5352be275b34f021177043e0fb10cacb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-10T00:17:37.434863+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25160",
+  "number": 25160,
+  "title": "8356657: Use stable source-date for cmp-baseline jib profiles",
+  "head_sha": "60e9a03b5352be275b34f021177043e0fb10cacb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14939386420"
+}
