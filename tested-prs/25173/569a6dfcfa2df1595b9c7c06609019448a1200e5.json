@@ -1,0 +1,14 @@
+{
+  "artifact_3106307523": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-j3graham-569a6dfcfa2df1595b9c7c06609019448a1200e5)\nOpenJDK 64-Bit Server VM (build 25-internal-j3graham-569a6dfcfa2df1595b9c7c06609019448a1200e5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-12T15:45:14.697689+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25173",
+  "number": 25173,
+  "title": "8356709: Avoid redundant String formatting in BigDecimal.valueOf(double)",
+  "head_sha": "569a6dfcfa2df1595b9c7c06609019448a1200e5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14975065260"
+}
