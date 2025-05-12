@@ -1,0 +1,19 @@
+{
+  "artifact_3105166548": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vy-5da9465ce7fea5c97afc01b7b9100040c0fd867d)\nOpenJDK 64-Bit Server VM (build 25-internal-vy-5da9465ce7fea5c97afc01b7b9100040c0fd867d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "121005eed50499db4bd615d2f1b6596d4787bfeb.json",
+    "4d237efa0533f64d43592262c8bd92ccf505271d.json",
+    "ef88b10afced3371a1643742bab03e41a4249953.json",
+    "f0623258e0506c68a274a1e094039bd6d76e3fa6.json"
+  ],
+  "datetime": "2025-05-12T11:01:11.037933+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24982",
+  "number": 24982,
+  "title": "8353197: Document preconditions for JavaLangAccess methods",
+  "head_sha": "5da9465ce7fea5c97afc01b7b9100040c0fd867d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14970049671"
+}
