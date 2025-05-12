@@ -1,0 +1,17 @@
+{
+  "artifact_3104144841": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-minborg-a2826336972afa144131d7be68dd0300de84b56f)\nOpenJDK 64-Bit Server VM (build 25-internal-minborg-a2826336972afa144131d7be68dd0300de84b56f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "116ce16ce02c2ad421be0b78d570e07f42ce0511.json",
+    "3eebd504b071fdbaf16b0929ac7d8e6a438612ba.json"
+  ],
+  "datetime": "2025-05-12T09:12:26.965639+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25004",
+  "number": 25004,
+  "title": "8356080: Address post-integration comments for Stable Values",
+  "head_sha": "a2826336972afa144131d7be68dd0300de84b56f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14967693231"
+}
