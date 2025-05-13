@@ -1,0 +1,16 @@
+{
+  "artifact_3113611265": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TejeshR13-ebe3d9106de416c2e5dbc3f707a3f8c8cca2924f)\nOpenJDK 64-Bit Server VM (build 25-internal-TejeshR13-ebe3d9106de416c2e5dbc3f707a3f8c8cca2924f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7c190fe362554372de95d8eff83fa6bb3b8f1643.json"
+  ],
+  "datetime": "2025-05-13T11:48:39.911584+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24439",
+  "number": 24439,
+  "title": "8139228: JFileChooser renders file names as HTML document",
+  "head_sha": "ebe3d9106de416c2e5dbc3f707a3f8c8cca2924f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14995395125"
+}
