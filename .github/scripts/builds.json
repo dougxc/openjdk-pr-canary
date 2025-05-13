@@ -99305,7 +99305,11 @@
 			]
 		},
 		"aliases": [
-			"jdk-24.0.2-46"
+			"jdk-24.0.2-46",
+			"jdk-24.0.2+7"
+		],
+		"tags": [
+			"PROMOTED"
 		]
 	},
 	{
@@ -166132,6 +166136,29 @@
 		},
 		"aliases": [
 			"jdk-25-2770"
+		]
+	},
+	{
+		"id": "jdk-25+23-2771",
+		"revisions": {
+			"graal-enterprise": [
+				"faa85797fb2b2310ab6a486a6141dbacf3b67580"
+			],
+			".": [
+				"03f4600f59d30beb7f35e29357bd8bd8df9dc177"
+			],
+			"open": [
+				"24d77adee9643c341d27366532c95923e1d97248"
+			],
+			"graal": [
+				"19c70ad2ec61eae4258d5c8bed08824f25c46b1c"
+			],
+			"mx": [
+				"8c2f0c25e8c3b51e2b467af4cf4bcd14850c9b96"
+			]
+		},
+		"aliases": [
+			"jdk-25-2771"
 		]
 	}
 ]
