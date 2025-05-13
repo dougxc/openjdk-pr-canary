@@ -1,0 +1,14 @@
+{
+  "artifact_3110615665": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sashamatveev-63896943fff09cdaad8192b222898fbd49231db2)\nOpenJDK 64-Bit Server VM (build 25-internal-sashamatveev-63896943fff09cdaad8192b222898fbd49231db2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-13T02:27:13.966455+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25196",
+  "number": 25196,
+  "title": "8356819: [macos] MacSign should use \"openssl\" and \"faketime\" from Homebrew by default",
+  "head_sha": "63896943fff09cdaad8192b222898fbd49231db2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14986678498"
+}
