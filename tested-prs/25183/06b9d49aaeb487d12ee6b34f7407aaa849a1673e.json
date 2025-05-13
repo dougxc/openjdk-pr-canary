@@ -1,0 +1,16 @@
+{
+  "artifact_3113075865": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mhaessig-06b9d49aaeb487d12ee6b34f7407aaa849a1673e)\nOpenJDK 64-Bit Server VM (build 25-internal-mhaessig-06b9d49aaeb487d12ee6b34f7407aaa849a1673e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a1b120f668caeec974f51043c86b3afbbf8a4eef.json"
+  ],
+  "datetime": "2025-05-13T10:09:43.200000+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25183",
+  "number": 25183,
+  "title": "8355970: C2: Add command line option to print the compile phases",
+  "head_sha": "06b9d49aaeb487d12ee6b34f7407aaa849a1673e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14993206785"
+}
