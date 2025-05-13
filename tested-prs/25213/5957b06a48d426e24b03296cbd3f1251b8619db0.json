@@ -1,0 +1,14 @@
+{
+  "artifact_3115125203": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Hamlin-Li-5957b06a48d426e24b03296cbd3f1251b8619db0)\nOpenJDK 64-Bit Server VM (build 25-internal-Hamlin-Li-5957b06a48d426e24b03296cbd3f1251b8619db0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-13T15:42:47.071362+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25213",
+  "number": 25213,
+  "title": "8356875: RISC-V: extension flag UseZvfh should depends on UseZfh",
+  "head_sha": "5957b06a48d426e24b03296cbd3f1251b8619db0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/14999424728"
+}
