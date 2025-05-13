@@ -1,0 +1,14 @@
+{
+  "artifact_3112731929": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mrserb-84e2364c01c8b06a9c7198d6fcae87f12db11acc)\nOpenJDK 64-Bit Server VM (build 25-internal-mrserb-84e2364c01c8b06a9c7198d6fcae87f12db11acc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-13T17:50:34.810418+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25202",
+  "number": 25202,
+  "title": "8356844: Missing @Serial annotation for sun.print.CustomOutputBin#serialVersionUID",
+  "head_sha": "84e2364c01c8b06a9c7198d6fcae87f12db11acc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15002032603"
+}
