@@ -1,0 +1,14 @@
+{
+  "artifact_3125933930": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-84fb0903be011c5b64449e88a9d9714c9fbae0db)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-84fb0903be011c5b64449e88a9d9714c9fbae0db, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-14T20:49:00.861431+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25237",
+  "number": 25237,
+  "title": "8356993: ArrayDeque should use Arrays.fill() instead of for() loops",
+  "head_sha": "84fb0903be011c5b64449e88a9d9714c9fbae0db",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15030387267"
+}
