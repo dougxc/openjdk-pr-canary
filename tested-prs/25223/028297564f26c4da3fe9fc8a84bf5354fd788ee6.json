@@ -1,0 +1,14 @@
+{
+  "artifact_3121579269": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-028297564f26c4da3fe9fc8a84bf5354fd788ee6)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-028297564f26c4da3fe9fc8a84bf5354fd788ee6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-14T10:47:32.546722+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25223",
+  "number": 25223,
+  "title": "8356946: x86: Optimize interpreter profile updates",
+  "head_sha": "028297564f26c4da3fe9fc8a84bf5354fd788ee6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15018525207"
+}
