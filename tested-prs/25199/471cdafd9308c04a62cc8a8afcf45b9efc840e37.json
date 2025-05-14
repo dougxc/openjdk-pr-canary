@@ -1,0 +1,17 @@
+{
+  "artifact_3126801543": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-471cdafd9308c04a62cc8a8afcf45b9efc840e37)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-471cdafd9308c04a62cc8a8afcf45b9efc840e37, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "542dc0c2911e5fe7eb03452d4e91e4e02aa7b256.json",
+    "c419b4a3459127c681102cf66f180c56cab77dde.json"
+  ],
+  "datetime": "2025-05-14T23:11:27.723417+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25199",
+  "number": 25199,
+  "title": "8356838: AOT incorrectly sets a cached class's loader type to boot",
+  "head_sha": "471cdafd9308c04a62cc8a8afcf45b9efc840e37",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15032351526"
+}
