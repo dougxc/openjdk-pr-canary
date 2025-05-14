@@ -1,0 +1,16 @@
+{
+  "artifact_3123233526": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lahodaj-f8495d599518bcb730641b661622062bbf67abf9)\nOpenJDK 64-Bit Server VM (build 25-internal-lahodaj-f8495d599518bcb730641b661622062bbf67abf9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "11c949564f8940883a9de2df11e1faf2e71a33ef.json"
+  ],
+  "datetime": "2025-05-14T14:34:12.039208+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25205",
+  "number": 25205,
+  "title": "8348906: InstanceOfTree#getType doesn't specify when it returns null",
+  "head_sha": "f8495d599518bcb730641b661622062bbf67abf9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15022259491"
+}
