@@ -1,0 +1,16 @@
+{
+  "artifact_3126645228": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-honkar-jdk-91f3d409151dd7e489c7754e8d856a3ae41827f4)\nOpenJDK 64-Bit Server VM (build 25-internal-honkar-jdk-91f3d409151dd7e489c7754e8d856a3ae41827f4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f117266277c24789b4620054a4928740afff794c.json"
+  ],
+  "datetime": "2025-05-14T23:00:38.219813+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25217",
+  "number": 25217,
+  "title": "JDK-8354316 : clang/linux build fails with -Wunused-result warning at XToolkit.c:695:9",
+  "head_sha": "91f3d409151dd7e489c7754e8d856a3ae41827f4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15032351526"
+}
