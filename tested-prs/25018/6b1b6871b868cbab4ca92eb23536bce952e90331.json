@@ -1,0 +1,17 @@
+{
+  "artifact_3119274134": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jianglizhou-6b1b6871b868cbab4ca92eb23536bce952e90331)\nOpenJDK 64-Bit Server VM (build 25-internal-jianglizhou-6b1b6871b868cbab4ca92eb23536bce952e90331, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6fd8d7ef2de6f0b4f6bed50e4255e1091834b68b.json",
+    "dd23d7954076d2d5b2bc711de6fdb9ef477a70f5.json"
+  ],
+  "datetime": "2025-05-14T02:46:24.829240+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25018",
+  "number": 25018,
+  "title": "8356102: TestJcmdOutput, JcmdWithNMTDisabled and DumpSharedDictionary hs/tier1 tests fail on static-jdk",
+  "head_sha": "6b1b6871b868cbab4ca92eb23536bce952e90331",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15010740402"
+}
