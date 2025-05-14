@@ -1,0 +1,16 @@
+{
+  "artifact_3125509835": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexmenkov-ee6026a821557882800038ac4c37cf1ffe416203)\nOpenJDK 64-Bit Server VM (build 25-internal-alexmenkov-ee6026a821557882800038ac4c37cf1ffe416203, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "74c68070de4de2f489b3ab80eaaef3c75997c716.json"
+  ],
+  "datetime": "2025-05-14T20:11:42.027796+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25219",
+  "number": 25219,
+  "title": "8356177: Regression after JDK-8352180",
+  "head_sha": "ee6026a821557882800038ac4c37cf1ffe416203",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15029289526"
+}
