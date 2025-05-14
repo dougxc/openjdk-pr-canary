@@ -1,0 +1,14 @@
+{
+  "artifact_3122285509": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-hns-9b062883bbf2909f0c34a53264b71ba03d742b53)\nOpenJDK 64-Bit Server VM (build 25-internal-hns-9b062883bbf2909f0c34a53264b71ba03d742b53, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-14T13:09:07.461453+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25224",
+  "number": 25224,
+  "title": "8355933: Change section title for permanent APIs affected by preview features",
+  "head_sha": "9b062883bbf2909f0c34a53264b71ba03d742b53",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15021287007"
+}
