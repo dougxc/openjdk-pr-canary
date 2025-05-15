@@ -1,0 +1,26 @@
+{
+  "artifact_3130404144": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-4d33a4d528bae4a518807c168f0f446733c9616a)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-4d33a4d528bae4a518807c168f0f446733c9616a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "07a3cae4d32a1a9a53662d8d6e210fbc3d2ef2d1.json",
+    "1cdbed2b92680d9ff2a7581935c81d238d9ab3f6.json",
+    "2ec579ca8b17fd50a1d7b295994844cf705f0d27.json",
+    "33e545ea23ca21f1cd6aafaba401a84215ffd42b.json",
+    "59798bdb81730caf394a6fb150ccf4be317ac06b.json",
+    "91d38ff14e97698b3fc8c79007626831925736a6.json",
+    "9f44cb5c6f5220be27127d5ff1c1653d03aa33a5.json",
+    "baea6cde9b0050ab931ea1ef503a61e19ac80c10.json",
+    "cc8345e94f3cf624f1e80b5180fd003648e41d96.json",
+    "d965fef3ec79f43a13ec81aa2f5b1cd1799c171c.json",
+    "eaf3f14dca069c877346b13cc67139b67fa4a08b.json"
+  ],
+  "datetime": "2025-05-15T11:38:00.938138+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24018",
+  "number": 24018,
+  "title": "8231269: CompileTask::is_unloaded is slow due to JNIHandles type checks",
+  "head_sha": "4d33a4d528bae4a518807c168f0f446733c9616a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15043740713"
+}
