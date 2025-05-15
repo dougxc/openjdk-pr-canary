@@ -1,0 +1,19 @@
+{
+  "artifact_3132887652": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-theRealAph-283b900ee51fdb4c38099f0c498fa1be76bb7738)\nOpenJDK 64-Bit Server VM (build 25-internal-theRealAph-283b900ee51fdb4c38099f0c498fa1be76bb7738, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1078ba8cda5c129bbfa9670f984f5200483d7718.json",
+    "47179d57f176e968de0bfcba36ac4c426e3e2191.json",
+    "87eadb40c249ef7b7220a2b017007ac3524a7b56.json",
+    "e577198893ec795a37f274576f2cbdc4f3d76926.json"
+  ],
+  "datetime": "2025-05-15T16:51:08.936530+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25147",
+  "number": 25147,
+  "title": "8354674: AArch64: Intrinsify Unsafe::setMemory",
+  "head_sha": "283b900ee51fdb4c38099f0c498fa1be76bb7738",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15050456837"
+}
