@@ -1,0 +1,14 @@
+{
+  "artifact_3127699938": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaskarth-a35fbef42aebe6646ee7e7b98c68a05c75fe3d78)\nOpenJDK 64-Bit Server VM (build 25-internal-jaskarth-a35fbef42aebe6646ee7e7b98c68a05c75fe3d78, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-15T02:47:11.403411+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25243",
+  "number": 25243,
+  "title": "8355512: Test compiler/vectorization/TestVectorZeroCount.java times out with -XX:TieredStopAtLevel=3",
+  "head_sha": "a35fbef42aebe6646ee7e7b98c68a05c75fe3d78",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15035089804"
+}
