@@ -1,0 +1,19 @@
+{
+  "artifact_3134535313": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-sormuras-11956f24ac47b32ec4e20eb9ece804c8575d7754)\nOpenJDK 64-Bit Server VM (build 25-internal-sormuras-11956f24ac47b32ec4e20eb9ece804c8575d7754, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "79dde4792adaf568bc905dc37fdd5f99ef42da77.json",
+    "95d1067d7314da1bc1ab29198455eef912433e15.json",
+    "be6cb82b31002b2240a6887bd15927c7f0d11bd6.json",
+    "c921f2c94515fb979070a44c457c6edd760e169e.json"
+  ],
+  "datetime": "2025-05-15T20:55:17.572596+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20193",
+  "number": 20193,
+  "title": "8336470: Source launcher should work with service loader SPI in unnamed module",
+  "head_sha": "11956f24ac47b32ec4e20eb9ece804c8575d7754",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15054628028"
+}
