@@ -1,0 +1,14 @@
+{
+  "artifact_3132741542": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-biboudis-3195b3ad04724f5f074f10e51636d03d625a32e4)\nOpenJDK 64-Bit Server VM (build 25-internal-biboudis-3195b3ad04724f5f074f10e51636d03d625a32e4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-15T18:14:08.809331+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25255",
+  "number": 25255,
+  "title": "8347530: Improve error message with invalid permits clauses",
+  "head_sha": "3195b3ad04724f5f074f10e51636d03d625a32e4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15051428909"
+}
