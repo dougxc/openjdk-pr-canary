@@ -1,0 +1,14 @@
+{
+  "artifact_3134100700": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-naotoj-5112a9666fc71e2c9efe33d3d2957365369b956c)\nOpenJDK 64-Bit Server VM (build 25-internal-naotoj-5112a9666fc71e2c9efe33d3d2957365369b956c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-15T19:47:27.167789+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25257",
+  "number": 25257,
+  "title": "8357075: Remove leftover COMPAT locale data tests",
+  "head_sha": "5112a9666fc71e2c9efe33d3d2957365369b956c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15051428909"
+}
