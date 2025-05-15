@@ -1,0 +1,19 @@
+{
+  "artifact_3127808710": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jianglizhou-252d42c8f6c46b32f01bfb55f3a171e45166ffc6)\nOpenJDK 64-Bit Server VM (build 25-internal-jianglizhou-252d42c8f6c46b32f01bfb55f3a171e45166ffc6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5306dac3a0c5fb10c6d676d0f418dc591ba6741b.json",
+    "a472463adc82fdf97bc05f813e90eca1c0dba91c.json",
+    "dff580a3119360f258b986cbfb8d95f301d902d0.json",
+    "ed292625ed8985d7544f4128a798b1ddbb9d56a0.json"
+  ],
+  "datetime": "2025-05-15T03:09:10.019851+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24992",
+  "number": 24992,
+  "title": "8355452: GHA: Test jtreg tier1 on linux-x64 static-jdk",
+  "head_sha": "252d42c8f6c46b32f01bfb55f3a171e45166ffc6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15035089804"
+}
