@@ -1,0 +1,16 @@
+{
+  "artifact_3132908694": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-offamitkumar-f14a22b9b60a948aba5d156f6d9e7f3e081b276d)\nOpenJDK 64-Bit Server VM (build 25-internal-offamitkumar-f14a22b9b60a948aba5d156f6d9e7f3e081b276d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0f3486ad9863e98994332c4fd63cc6a7631262f6.json"
+  ],
+  "datetime": "2025-05-15T17:27:11.290665+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24869",
+  "number": 24869,
+  "title": "8355570: [s390x] Update -march to z13 generation",
+  "head_sha": "f14a22b9b60a948aba5d156f6d9e7f3e081b276d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15050456837"
+}
