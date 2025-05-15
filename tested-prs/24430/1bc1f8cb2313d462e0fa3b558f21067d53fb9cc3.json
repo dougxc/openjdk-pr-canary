@@ -1,0 +1,21 @@
+{
+  "artifact_3135246678": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-slowhog-1bc1f8cb2313d462e0fa3b558f21067d53fb9cc3)\nOpenJDK 64-Bit Server VM (build 25-internal-slowhog-1bc1f8cb2313d462e0fa3b558f21067d53fb9cc3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1150fb50384a9f87cf2efa8b77947a7cd461aa56.json",
+    "384905bcdad2c6b35723b97e11eb38f2077d8161.json",
+    "cae7f6a21444f40c71904ffd140557030aafe19f.json",
+    "d56eb76ce6cf70b7b617d8857f43f92676ee67e9.json",
+    "e0eff6efdec51b66e5fd4d4deddd4dc136d6d1a2.json",
+    "e38774af7a0c4835672b945f5a616ab0912f2506.json"
+  ],
+  "datetime": "2025-05-15T22:32:16.604917+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24430",
+  "number": 24430,
+  "title": "8345431: Detect duplicate entries in jar files with jar --validate",
+  "head_sha": "1bc1f8cb2313d462e0fa3b558f21067d53fb9cc3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15055557039"
+}
