@@ -1,0 +1,14 @@
+{
+  "artifact_3133274950": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-245740c17910695729cf12314922127575a751cc)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-245740c17910695729cf12314922127575a751cc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-16T02:26:56.443078+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25258",
+  "number": 25258,
+  "title": "8357081: Removed unused methods of HexDigits",
+  "head_sha": "245740c17910695729cf12314922127575a751cc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15059167911"
+}
