@@ -1,0 +1,22 @@
+{
+  "artifact_3142521108": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-igraves-ff23ab5b515e1f94b72c9f87c63c8f7e1ba6a3a9)\nOpenJDK 64-Bit Server VM (build 25-internal-igraves-ff23ab5b515e1f94b72c9f87c63c8f7e1ba6a3a9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "261803ce2a9452bd16d454947ae4526bc079cac4.json",
+    "2c89dcd581bd967e89d3c512504ba7f9d6bffe27.json",
+    "48176284b1e2fcf9b5bba98c554aea42143d131e.json",
+    "70b84e6a360549f5dcb125ab3a6f7bf7a9b2c7c5.json",
+    "7e758850d77daa572760773db8a3d0eeb2eb9b04.json",
+    "80cb87a8b6ae87cb2aa59d22e2c88d5a152eb44b.json",
+    "ea27e0a3e9025f6178d0b6f6f8f4185d67b2b5b2.json"
+  ],
+  "datetime": "2025-05-16T22:04:19.898409+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25075",
+  "number": 25075,
+  "title": "8351993: VectorShuffle access to and from MemorySegments",
+  "head_sha": "ff23ab5b515e1f94b72c9f87c63c8f7e1ba6a3a9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15077750047"
+}
