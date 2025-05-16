@@ -1,0 +1,16 @@
+{
+  "artifact_3139491833": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dougxc-343603318d7be4907cb8d9db581be58729fb41c0)\nOpenJDK 64-Bit Server VM (build 25-internal-dougxc-343603318d7be4907cb8d9db581be58729fb41c0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0e8773e10b0b4f4a8bb624b56b2f083ca8e4a3c7.json"
+  ],
+  "datetime": "2025-05-16T14:09:00.438238+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25240",
+  "number": 25240,
+  "title": "8345826: Do not automatically resolve jdk.internal.vm.ci when libgraal is used",
+  "head_sha": "343603318d7be4907cb8d9db581be58729fb41c0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15069819358"
+}
