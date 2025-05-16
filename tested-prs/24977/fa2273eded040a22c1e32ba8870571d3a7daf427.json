@@ -1,0 +1,19 @@
+{
+  "artifact_3140777381": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-bplb-fa2273eded040a22c1e32ba8870571d3a7daf427)\nOpenJDK 64-Bit Server VM (build 25-internal-bplb-fa2273eded040a22c1e32ba8870571d3a7daf427, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0fef478223ba68ba73d5691aded455ee18b8f9b8.json",
+    "352c54dd8f9373a732aa565262229073d6eaf7cb.json",
+    "84905743a58007e832de3dd5c2e0123d830a5a82.json",
+    "efca3cf44561b84210da79b6ea12e17e7f7e209d.json"
+  ],
+  "datetime": "2025-05-16T17:00:20.895001+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24977",
+  "number": 24977,
+  "title": "8355954: File.delete removes read-only files (win)",
+  "head_sha": "fa2273eded040a22c1e32ba8870571d3a7daf427",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15073183238"
+}
