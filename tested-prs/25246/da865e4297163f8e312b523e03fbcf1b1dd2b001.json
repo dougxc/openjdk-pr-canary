@@ -1,0 +1,17 @@
+{
+  "artifact_3140762200": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-da865e4297163f8e312b523e03fbcf1b1dd2b001)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-da865e4297163f8e312b523e03fbcf1b1dd2b001, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "66f71c582319048b9406769bf1b2220ed346d1b7.json",
+    "ddb44aa8b7ff762ab0daaf8bf1677e4e6f730fa8.json"
+  ],
+  "datetime": "2025-05-16T16:49:00.168058+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25246",
+  "number": 25246,
+  "title": "8357063: Document preconditions for DecimalDigits methods",
+  "head_sha": "da865e4297163f8e312b523e03fbcf1b1dd2b001",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15073183238"
+}
