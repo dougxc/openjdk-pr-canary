@@ -1,0 +1,16 @@
+{
+  "artifact_3137670807": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-marc-chevalier-3adc9d4e80b32e97aac7bbd038984b55ab4ad13f)\nOpenJDK 64-Bit Server VM (build 25-internal-marc-chevalier-3adc9d4e80b32e97aac7bbd038984b55ab4ad13f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "361a77279ffc2fbd2aa6c67cf049c1a4a67929c7.json"
+  ],
+  "datetime": "2025-05-16T08:56:44.533426+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25149",
+  "number": 25149,
+  "title": "8353638: C2: deoptimization and re-execution cycle with StringBuilder",
+  "head_sha": "3adc9d4e80b32e97aac7bbd038984b55ab4ad13f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15064309554"
+}
