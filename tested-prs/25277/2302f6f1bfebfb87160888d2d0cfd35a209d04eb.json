@@ -1,0 +1,14 @@
+{
+  "artifact_3142709073": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vnkozlov-2302f6f1bfebfb87160888d2d0cfd35a209d04eb)\nOpenJDK 64-Bit Server VM (build 25-internal-vnkozlov-2302f6f1bfebfb87160888d2d0cfd35a209d04eb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-16T23:39:12.552870+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25277",
+  "number": 25277,
+  "title": "8357166: Many AOT tests failed with VM crash",
+  "head_sha": "2302f6f1bfebfb87160888d2d0cfd35a209d04eb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15079132580"
+}
