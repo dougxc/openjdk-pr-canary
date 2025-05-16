@@ -1,0 +1,16 @@
+{
+  "artifact_3139422603": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-albertnetymk-8a04d3f204c34b2e7b34b774ac7baa6d76fceabe)\nOpenJDK 64-Bit Server VM (build 25-internal-albertnetymk-8a04d3f204c34b2e7b34b774ac7baa6d76fceabe, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "958d1315003daabbcd72a9529e413ff451fa71cc.json"
+  ],
+  "datetime": "2025-05-16T14:33:21.509824+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25032",
+  "number": 25032,
+  "title": "8356157: Remove retry loop in collect of SerialHeap and ParallelScavengeHeap",
+  "head_sha": "8a04d3f204c34b2e7b34b774ac7baa6d76fceabe",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15069819358"
+}
