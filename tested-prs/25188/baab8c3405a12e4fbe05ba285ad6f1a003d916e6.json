@@ -1,0 +1,16 @@
+{
+  "artifact_3138464108": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-baab8c3405a12e4fbe05ba285ad6f1a003d916e6)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-baab8c3405a12e4fbe05ba285ad6f1a003d916e6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4da9b834ab69e714d8567fcc9ad2f44b666b7136.json"
+  ],
+  "datetime": "2025-05-16T11:18:27.781301+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25188",
+  "number": 25188,
+  "title": "8356778: Compiler add event logging in case of failures",
+  "head_sha": "baab8c3405a12e4fbe05ba285ad6f1a003d916e6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15066513855"
+}
