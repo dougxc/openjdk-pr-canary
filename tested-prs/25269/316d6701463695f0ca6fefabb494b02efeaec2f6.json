@@ -1,0 +1,14 @@
+{
+  "artifact_3140102615": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ashu-mehra-316d6701463695f0ca6fefabb494b02efeaec2f6)\nOpenJDK 64-Bit Server VM (build 25-internal-ashu-mehra-316d6701463695f0ca6fefabb494b02efeaec2f6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-16T15:40:17.802600+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25269",
+  "number": 25269,
+  "title": "8357084: Zero build fails after JDK-8354887",
+  "head_sha": "316d6701463695f0ca6fefabb494b02efeaec2f6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15072010670"
+}
