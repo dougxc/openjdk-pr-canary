@@ -1,0 +1,14 @@
+{
+  "artifact_3131234255": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ArnoZeller-8506932622f713e0a21dda7150128773718d283a)\nOpenJDK 64-Bit Server VM (build 25-internal-ArnoZeller-8506932622f713e0a21dda7150128773718d283a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-16T10:46:36.471472+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25250",
+  "number": 25250,
+  "title": "8357052: java/io/File/GetXSpace.java prints wrong values in exception",
+  "head_sha": "8506932622f713e0a21dda7150128773718d283a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15066513855"
+}
