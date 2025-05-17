@@ -1,0 +1,17 @@
+{
+  "artifact_3143191727": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-stuart-marks-0ad5d0807b9cb01b15764ec2accad7e02f905360)\nOpenJDK 64-Bit Server VM (build 25-internal-stuart-marks-0ad5d0807b9cb01b15764ec2accad7e02f905360, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1750bb20d91cb880ee8fcede0d3eb32004833251.json",
+    "fe35151039870872ba3455658bd8d5103092f588.json"
+  ],
+  "datetime": "2025-05-17T03:01:25.481789+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24990",
+  "number": 24990,
+  "title": "8351230: Collections.synchronizedList returns a list that is not thread-safe",
+  "head_sha": "0ad5d0807b9cb01b15764ec2accad7e02f905360",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15080561258"
+}
