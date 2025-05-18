@@ -1,0 +1,19 @@
+{
+  "artifact_3146775365": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Anjian-Wen-61648e2e87e745d8e29d95d6e578e798fef5cae1)\nOpenJDK 64-Bit Server VM (build 25-internal-Anjian-Wen-61648e2e87e745d8e29d95d6e578e798fef5cae1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2491d1a48b628bc402ddfdd1ca28820de1cedfbb.json",
+    "50df64449e872ccafa98f06d8246a5f18af991f0.json",
+    "918bf5aa5edb0d420c23892d3f1259364c500a1a.json",
+    "f57086b16489704c4799841d6bc6290c997f7dd8.json"
+  ],
+  "datetime": "2025-05-18T13:06:37.662339+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23890",
+  "number": 23890,
+  "title": "8351140: RISC-V: Intrinsify Unsafe::setMemory",
+  "head_sha": "61648e2e87e745d8e29d95d6e578e798fef5cae1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15096129947"
+}
