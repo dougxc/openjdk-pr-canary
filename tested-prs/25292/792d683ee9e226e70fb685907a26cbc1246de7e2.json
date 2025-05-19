@@ -1,0 +1,14 @@
+{
+  "artifact_3148208906": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-792d683ee9e226e70fb685907a26cbc1246de7e2)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-792d683ee9e226e70fb685907a26cbc1246de7e2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-19T02:42:09.177192+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25292",
+  "number": 25292,
+  "title": "8357165: test java/lang/invoke/ClassValueTest.java fails intermittently",
+  "head_sha": "792d683ee9e226e70fb685907a26cbc1246de7e2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15102852414"
+}
