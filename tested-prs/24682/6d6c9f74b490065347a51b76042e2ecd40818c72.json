@@ -1,0 +1,20 @@
+{
+  "artifact_3150247283": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ystradmann-6d6c9f74b490065347a51b76042e2ecd40818c72)\nOpenJDK 64-Bit Server VM (build 25-internal-ystradmann-6d6c9f74b490065347a51b76042e2ecd40818c72, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "14b2b82f9eb7ef12cf4b4b72d1db2d717ff5daf2.json",
+    "25b9718abbb39e864ce7349d4dbdcb1bd68ed3c7.json",
+    "d3051d54532808d47b48a5275a64bffe4e9923ce.json",
+    "d4841a00f97d38c5dbd117b0e0c6ce9e0bd2c117.json",
+    "fede12c6f09e839fbe5254e2a853c485f40fc3e2.json"
+  ],
+  "datetime": "2025-05-19T09:49:25.406208+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24682",
+  "number": 24682,
+  "title": "8354560: Exponentially delay subsequent native thread creation in case of EAGAIN",
+  "head_sha": "6d6c9f74b490065347a51b76042e2ecd40818c72",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15108348834"
+}
