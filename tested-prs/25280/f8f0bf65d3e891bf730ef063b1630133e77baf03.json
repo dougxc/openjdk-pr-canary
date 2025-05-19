@@ -1,0 +1,16 @@
+{
+  "artifact_3148088741": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-liach-f8f0bf65d3e891bf730ef063b1630133e77baf03)\nOpenJDK 64-Bit Server VM (build 25-internal-liach-f8f0bf65d3e891bf730ef063b1630133e77baf03, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "272ee25dd8418a43e084ab78f6b213468fafb827.json"
+  ],
+  "datetime": "2025-05-19T02:53:19.093161+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25280",
+  "number": 25280,
+  "title": "8357178: Simplify Class::componentType",
+  "head_sha": "f8f0bf65d3e891bf730ef063b1630133e77baf03",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15102852414"
+}
