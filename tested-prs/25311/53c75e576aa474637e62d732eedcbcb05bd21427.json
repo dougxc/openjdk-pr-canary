@@ -1,0 +1,16 @@
+{
+  "artifact_3162851699": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-bplb-53c75e576aa474637e62d732eedcbcb05bd21427)\nOpenJDK 64-Bit Server VM (build 25-internal-bplb-53c75e576aa474637e62d732eedcbcb05bd21427, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0b0e86b2b867a86e0ba5d6be4e62e341f230184a.json"
+  ],
+  "datetime": "2025-05-20T19:55:03.219177+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25311",
+  "number": 25311,
+  "title": "8357280: (bf) Remove @requires tag java/nio/Buffer/LimitDirectMemoryNegativeTest.java",
+  "head_sha": "53c75e576aa474637e62d732eedcbcb05bd21427",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15146114231"
+}
