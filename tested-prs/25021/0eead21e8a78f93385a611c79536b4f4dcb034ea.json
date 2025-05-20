@@ -1,0 +1,17 @@
+{
+  "artifact_3163031998": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jatin-bhateja-0eead21e8a78f93385a611c79536b4f4dcb034ea)\nOpenJDK 64-Bit Server VM (build 25-internal-jatin-bhateja-0eead21e8a78f93385a611c79536b4f4dcb034ea, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "127ff6f1045ac0a8cc7a69b3918e37b09c080243.json",
+    "3e0f04104ba76e16b495dfaeecb3bd4b1126c339.json"
+  ],
+  "datetime": "2025-05-20T20:08:28.622226+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25021",
+  "number": 25021,
+  "title": "8351950: C2: AVX512 vector assembler routines causing SIGFPE / no valid evex tuple_table entry",
+  "head_sha": "0eead21e8a78f93385a611c79536b4f4dcb034ea",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15146114231"
+}
