@@ -1,0 +1,16 @@
+{
+  "artifact_3161706651": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-gerard-ziemski-985856eca563acdf73d128e8d2df4af1770ecfc2)\nOpenJDK 64-Bit Server VM (build 25-internal-gerard-ziemski-985856eca563acdf73d128e8d2df4af1770ecfc2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b32dbbec00885e7cfefcab33d51754a6f44b508b.json"
+  ],
+  "datetime": "2025-05-20T16:48:36.592400+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25308",
+  "number": 25308,
+  "title": "8356233: NMT: tty->print_cr should not be used in VirtualMemoryTracker::add_reserved_region()",
+  "head_sha": "985856eca563acdf73d128e8d2df4af1770ecfc2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15141740036"
+}
