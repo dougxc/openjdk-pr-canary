@@ -1,0 +1,14 @@
+{
+  "artifact_3156882607": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-9339f9c399509d24c8f2874bab2b720846104d71)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-9339f9c399509d24c8f2874bab2b720846104d71, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-20T05:17:09.351190+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25238",
+  "number": 25238,
+  "title": "8356998: Convert -Xlog:cds to -Xlog:aot (step 2)",
+  "head_sha": "9339f9c399509d24c8f2874bab2b720846104d71",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15128954545"
+}
