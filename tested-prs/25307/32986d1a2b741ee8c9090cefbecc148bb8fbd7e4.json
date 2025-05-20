@@ -1,0 +1,16 @@
+{
+  "artifact_3159737073": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dougxc-32986d1a2b741ee8c9090cefbecc148bb8fbd7e4)\nOpenJDK 64-Bit Server VM (build 25-internal-dougxc-32986d1a2b741ee8c9090cefbecc148bb8fbd7e4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7eb259b92553669065db57d230476cf465a67d02.json"
+  ],
+  "datetime": "2025-05-20T13:10:33.298177+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25307",
+  "number": 25307,
+  "title": "8357135: java.lang.OutOfMemoryError: Error creating or attaching to libjvmci after JDK-8356447",
+  "head_sha": "32986d1a2b741ee8c9090cefbecc148bb8fbd7e4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15138171260"
+}
