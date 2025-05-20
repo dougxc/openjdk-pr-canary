@@ -1,0 +1,14 @@
+{
+  "artifact_3161406686": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Michael-Mc-Mahon-58cdec19556b259c37b682aa13fd6631b7fe477c)\nOpenJDK 64-Bit Server VM (build 25-internal-Michael-Mc-Mahon-58cdec19556b259c37b682aa13fd6631b7fe477c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-20T16:24:49.944670+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25331",
+  "number": 25331,
+  "title": "8353124: java/lang/Thread/virtual/stress/Skynet.java#Z times out on macosx-x64-debug",
+  "head_sha": "58cdec19556b259c37b682aa13fd6631b7fe477c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15141740036"
+}
