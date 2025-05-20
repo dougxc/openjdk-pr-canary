@@ -1,0 +1,14 @@
+{
+  "artifact_3158384433": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-minborg-9fc5eb8b1b075b76a7b3fb5923a02fa3ac2001f1)\nOpenJDK 64-Bit Server VM (build 25-internal-minborg-9fc5eb8b1b075b76a7b3fb5923a02fa3ac2001f1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-20T10:15:40.142171+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25321",
+  "number": 25321,
+  "title": "8357145: CRC/Inflater/Deflater/Adler32 methods that take a ByteBuffer throw UOE if backed by shared memory segment",
+  "head_sha": "9fc5eb8b1b075b76a7b3fb5923a02fa3ac2001f1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15134027691"
+}
