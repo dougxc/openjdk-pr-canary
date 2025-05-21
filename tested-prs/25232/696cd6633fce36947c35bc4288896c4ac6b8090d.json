@@ -1,0 +1,14 @@
+{
+  "artifact_3165959312": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lahodaj-696cd6633fce36947c35bc4288896c4ac6b8090d)\nOpenJDK 64-Bit Server VM (build 25-internal-lahodaj-696cd6633fce36947c35bc4288896c4ac6b8090d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-21T07:04:18.846152+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25232",
+  "number": 25232,
+  "title": "8356894: Adjust CreateSymbols to properly handle the newly added @jdk.internal.RequiresIdentity",
+  "head_sha": "696cd6633fce36947c35bc4288896c4ac6b8090d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15155346558"
+}
