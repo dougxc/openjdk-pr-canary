@@ -1,0 +1,18 @@
+{
+  "artifact_3167144239": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rwestrel-a6c6c044bb190f317880fa33673f8c67d1fe0ba5)\nOpenJDK 64-Bit Server VM (build 25-internal-rwestrel-a6c6c044bb190f317880fa33673f8c67d1fe0ba5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "71fd8315c0a63c032e0065aaaecdb3b4ea065d3f.json",
+    "a4031f3c21c1f9a6cbda8bcd90276fdb3648ff7b.json",
+    "af8480c06a4655492d682af4e30e2ba35dbc9ff7.json"
+  ],
+  "datetime": "2025-05-21T10:17:35.309949+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24570",
+  "number": 24570,
+  "title": "8327963: C2: fix construction of memory graph around Initialize node to prevent incorrect execution if allocation is removed",
+  "head_sha": "a6c6c044bb190f317880fa33673f8c67d1fe0ba5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15158685153"
+}
