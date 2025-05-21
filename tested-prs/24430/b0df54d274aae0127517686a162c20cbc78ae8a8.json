@@ -1,0 +1,24 @@
+{
+  "artifact_3170180132": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-slowhog-b0df54d274aae0127517686a162c20cbc78ae8a8)\nOpenJDK 64-Bit Server VM (build 25-internal-slowhog-b0df54d274aae0127517686a162c20cbc78ae8a8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0caecfcdbfb8fa65d08716f05ffacac559b36f8a.json",
+    "1150fb50384a9f87cf2efa8b77947a7cd461aa56.json",
+    "1bc1f8cb2313d462e0fa3b558f21067d53fb9cc3.json",
+    "384905bcdad2c6b35723b97e11eb38f2077d8161.json",
+    "cae7f6a21444f40c71904ffd140557030aafe19f.json",
+    "d56eb76ce6cf70b7b617d8857f43f92676ee67e9.json",
+    "da4a9139946dd313368d36fb2a4a38c8aa138720.json",
+    "e0eff6efdec51b66e5fd4d4deddd4dc136d6d1a2.json",
+    "e38774af7a0c4835672b945f5a616ab0912f2506.json"
+  ],
+  "datetime": "2025-05-21T16:26:12.863142+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24430",
+  "number": 24430,
+  "title": "8345431: Improve jar --validate to detect duplicate or invalid entries",
+  "head_sha": "b0df54d274aae0127517686a162c20cbc78ae8a8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15165035087"
+}
