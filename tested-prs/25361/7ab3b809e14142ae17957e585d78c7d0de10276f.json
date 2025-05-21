@@ -1,0 +1,14 @@
+{
+  "artifact_3170229514": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-calvinccheung-7ab3b809e14142ae17957e585d78c7d0de10276f)\nOpenJDK 64-Bit Server VM (build 25-internal-calvinccheung-7ab3b809e14142ae17957e585d78c7d0de10276f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-21T16:54:14.335675+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25361",
+  "number": 25361,
+  "title": "8353504: CDS archives are not found when JVM is in non-variant location",
+  "head_sha": "7ab3b809e14142ae17957e585d78c7d0de10276f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15167741628"
+}
