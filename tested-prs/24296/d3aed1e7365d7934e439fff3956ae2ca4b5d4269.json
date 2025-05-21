@@ -1,0 +1,39 @@
+{
+  "artifact_3168013250": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mgronlun-d3aed1e7365d7934e439fff3956ae2ca4b5d4269)\nOpenJDK 64-Bit Server VM (build 25-internal-mgronlun-d3aed1e7365d7934e439fff3956ae2ca4b5d4269, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0da2c2d980236c8be30dcaf2865f70d8319f7217.json",
+    "1015a8c156e27dc8d3a95fea18c1e891d6e8da30.json",
+    "283862c5f47a50819feb81659820d7da77990aac.json",
+    "447ce8578a25c03e1ea13f37e1579373c411af3b.json",
+    "46566a9bc5a3241452bbc0050255d156b286aef5.json",
+    "5f2351c8d74fa9a3c50cb307c36e2df5882e9327.json",
+    "71c284aed6f4cf8ff01d382089344619f2a752d1.json",
+    "771a397a12a3bcb25af1f508061fd928d8f13c2e.json",
+    "7d4c3e5aab40a309f161258c0bce428ae789daae.json",
+    "92bbfbac7fa5c82befb9db7023343d65c30d4d62.json",
+    "9a179164e389eb65a78029a2bd12bf748ab088b9.json",
+    "b0f9c5e530a5d4da4385eec30819b44d6345f996.json",
+    "c65bc8b61f7f9b1e8d4b45060a8a422dd6e3dcda.json",
+    "cb6e5aab0c3eba0db8ffcaafd77d8a25487ea9ca.json",
+    "d3b2c3eb949a7613b7dbb55c7d4edadeed3824a3.json",
+    "deac50ba652350a1a818d945633ad769b943ba2b.json",
+    "e00ebe40b30376477739c99730b45d6f46306f06.json",
+    "e448090e98eb82a509c68628ea22e63e4fb3095b.json",
+    "e48905fc43922006829995d9ba9cf07dc65b1a24.json",
+    "e4d3f78ba03d34c036d171dcbf8e81a046370256.json",
+    "eb8a40442dc4f0789f8af761c534fc18c8eb96ff.json",
+    "ed57ed9f327729939d6d57108b01ad3972aa0488.json",
+    "f14e1c288e6f54601f5e3ebaff9d82ec433a7ebd.json",
+    "fdefd35e3530fbbb76ec7e87ab671cbebed34524.json"
+  ],
+  "datetime": "2025-05-21T12:13:31.656445+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24296",
+  "number": 24296,
+  "title": "8352251: Implement JEP 518: JFR Cooperative Sampling",
+  "head_sha": "d3aed1e7365d7934e439fff3956ae2ca4b5d4269",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15159966697"
+}
