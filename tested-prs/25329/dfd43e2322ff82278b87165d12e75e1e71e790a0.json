@@ -1,0 +1,16 @@
+{
+  "artifact_3167453848": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-hns-dfd43e2322ff82278b87165d12e75e1e71e790a0)\nOpenJDK 64-Bit Server VM (build 25-internal-hns-dfd43e2322ff82278b87165d12e75e1e71e790a0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1e220061fa31cae838b0cb7179617b683202d2ab.json"
+  ],
+  "datetime": "2025-05-21T11:47:10.811261+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25329",
+  "number": 25329,
+  "title": "8338833: Error on reference not found for a snippet target",
+  "head_sha": "dfd43e2322ff82278b87165d12e75e1e71e790a0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15159966697"
+}
