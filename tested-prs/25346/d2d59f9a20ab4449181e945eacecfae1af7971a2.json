@@ -1,0 +1,14 @@
+{
+  "artifact_3167374043": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-biboudis-d2d59f9a20ab4449181e945eacecfae1af7971a2)\nOpenJDK 64-Bit Server VM (build 25-internal-biboudis-d2d59f9a20ab4449181e945eacecfae1af7971a2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-21T11:27:02.955354+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25346",
+  "number": 25346,
+  "title": "8343580: Type error with inner classes of generic classes in functions generic by outer",
+  "head_sha": "d2d59f9a20ab4449181e945eacecfae1af7971a2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15159966697"
+}
