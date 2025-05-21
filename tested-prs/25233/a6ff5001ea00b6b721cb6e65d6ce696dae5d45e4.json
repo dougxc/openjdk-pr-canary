@@ -1,0 +1,19 @@
+{
+  "artifact_3169237065": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-toxaart-a6ff5001ea00b6b721cb6e65d6ce696dae5d45e4)\nOpenJDK 64-Bit Server VM (build 25-internal-toxaart-a6ff5001ea00b6b721cb6e65d6ce696dae5d45e4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5cf7f9ee5e9803d81c512a137a7198abd02eaccc.json",
+    "5e2b9ac86a7e1729d0245354c17f9d740ce72fe7.json",
+    "a444fa93c1e3583fac7850693c7bcb0a5f905462.json",
+    "f541fd6b41a30dd784665563ef05088e2ff65920.json"
+  ],
+  "datetime": "2025-05-21T16:12:27.503195+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25233",
+  "number": 25233,
+  "title": "8350869: os::stat doesn't follow symlinks on Windows",
+  "head_sha": "a6ff5001ea00b6b721cb6e65d6ce696dae5d45e4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15165035087"
+}
