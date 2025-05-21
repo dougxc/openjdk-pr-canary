@@ -1,0 +1,31 @@
+{
+  "artifact_3171660865": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-bplb-f9c732eb9e8217f7dfdbba8bbdab19cf39e144f2)\nOpenJDK 64-Bit Server VM (build 25-internal-bplb-f9c732eb9e8217f7dfdbba8bbdab19cf39e144f2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0600f9392b4a5d3130dde0293a8e98a2f45a0dfe.json",
+    "0880af293fca443c5f9f6f59360c4df35f06c538.json",
+    "1afba6e631bcf719c4a101046e2f60554f27f1ea.json",
+    "1d8115898a8b363bc289dfe678965516ecf7becb.json",
+    "8b0b9238b6b9877d93f94f3ec5f6ca817eaec91d.json",
+    "98387b0d372714735179ca5b9838d98c91519c37.json",
+    "983aeb500bd81d29f13568af14b485854ce3d573.json",
+    "9fd923565ff18cf0bb02cf34b33fe251d4d305c5.json",
+    "a4cf9224bdaabf2ba1da330d518117705364be99.json",
+    "a86610d06169445a5c4b81a0c60527130a45e045.json",
+    "b5d8266536eb1ea2a67719af9a1a577aefe23ff8.json",
+    "b9424bb45283d9ba14d42d2321bb215fa98b5d27.json",
+    "d35d9ebbb2a2d6e3a0ad4860bd44587208fa6367.json",
+    "db338317439703e106f06f963eb67f06bf150d28.json",
+    "dc84bd1b2d447ee14c111dff24e1152bfa6e1bd7.json",
+    "edb813da0057e78e44543c55000e174456cbe965.json"
+  ],
+  "datetime": "2025-05-21T20:15:14.487872+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24728",
+  "number": 24728,
+  "title": "8354724: Methods in java.io.Reader to read all characters and all lines",
+  "head_sha": "f9c732eb9e8217f7dfdbba8bbdab19cf39e144f2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15170834826"
+}
