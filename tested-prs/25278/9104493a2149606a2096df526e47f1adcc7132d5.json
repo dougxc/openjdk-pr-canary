@@ -1,0 +1,19 @@
+{
+  "artifact_3172080212": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prrace-9104493a2149606a2096df526e47f1adcc7132d5)\nOpenJDK 64-Bit Server VM (build 25-internal-prrace-9104493a2149606a2096df526e47f1adcc7132d5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "21f4cba17a567dd6ca475f87920ee5360bd601df.json",
+    "42242c34ddc0aeb7f97954e956bb2644f83beac2.json",
+    "9bfba3776de4d7a6ecf805e50897ffe29eb5108b.json",
+    "d3d8a1ccb27db34c0ba2fdb041f15dd1c3ad6fd1.json"
+  ],
+  "datetime": "2025-05-21T21:06:28.091603+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25278",
+  "number": 25278,
+  "title": "8357176: java.awt javadoc code examples still use Applet API",
+  "head_sha": "9104493a2149606a2096df526e47f1adcc7132d5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15171993723"
+}
