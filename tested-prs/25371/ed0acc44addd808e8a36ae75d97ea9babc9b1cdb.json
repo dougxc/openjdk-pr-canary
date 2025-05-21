@@ -1,0 +1,14 @@
+{
+  "artifact_3172204172": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-justin-curtis-lu-ed0acc44addd808e8a36ae75d97ea9babc9b1cdb)\nOpenJDK 64-Bit Server VM (build 25-internal-justin-curtis-lu-ed0acc44addd808e8a36ae75d97ea9babc9b1cdb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-21T21:40:59.993527+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25371",
+  "number": 25371,
+  "title": "8357281: sun.util.Locale.LanguageTag should be immutable",
+  "head_sha": "ed0acc44addd808e8a36ae75d97ea9babc9b1cdb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15171993723"
+}
