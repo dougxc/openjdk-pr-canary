@@ -170709,5 +170709,28 @@
 		"aliases": [
 			"jdk-25-2961"
 		]
+	},
+	{
+		"id": "jdk-25+24-2962",
+		"revisions": {
+			"mx": [
+				"a826475fd0451be5c32730506751d8ba1e7bc060"
+			],
+			"graal-enterprise": [
+				"237a6296c9aab47d6df62347a7ebd1472e42a400"
+			],
+			"open": [
+				"2dfbf41d2a3dbcd44f9ed9a58a1b0932d7536977"
+			],
+			".": [
+				"396b1de23071f58b870b7bcfb6a2c02a6a6c9831"
+			],
+			"graal": [
+				"374177001433ed3303d64cef4efa2d02193e1bc9"
+			]
+		},
+		"aliases": [
+			"jdk-25-2962"
+		]
 	}
 ]
