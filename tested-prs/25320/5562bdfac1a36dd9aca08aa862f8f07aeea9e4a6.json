@@ -1,0 +1,14 @@
+{
+  "artifact_3159695802": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tschatzl-5562bdfac1a36dd9aca08aa862f8f07aeea9e4a6)\nOpenJDK 64-Bit Server VM (build 25-internal-tschatzl-5562bdfac1a36dd9aca08aa862f8f07aeea9e4a6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-21T07:40:50.383940+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25320",
+  "number": 25320,
+  "title": "8357306: G1: Remove _gc_succeeded from VM_G1CollectForAllocation because it is always true",
+  "head_sha": "5562bdfac1a36dd9aca08aa862f8f07aeea9e4a6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15156176382"
+}
