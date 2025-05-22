@@ -1,0 +1,14 @@
+{
+  "artifact_3179338604": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dougxc-3b4bf20e686ee7abf897ddbd1e9d70b1e7fb6c9d)\nOpenJDK 64-Bit Server VM (build 25-internal-dougxc-3b4bf20e686ee7abf897ddbd1e9d70b1e7fb6c9d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-22T19:24:54.348759+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25369",
+  "number": 25369,
+  "title": "8357506: [JVMCI] Consolidate eager JVMCI initialization code",
+  "head_sha": "3b4bf20e686ee7abf897ddbd1e9d70b1e7fb6c9d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15193001632"
+}
