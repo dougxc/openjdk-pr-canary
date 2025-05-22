@@ -171508,5 +171508,103 @@
 		"aliases": [
 			"jdk-25-2993"
 		]
+	},
+	{
+		"id": "jdk-25+24-2994",
+		"revisions": {
+			".": [
+				"3edcb2ee3ba31005396ece54c2c7ce900867dfb7"
+			],
+			"mx": [
+				"a826475fd0451be5c32730506751d8ba1e7bc060"
+			],
+			"graal": [
+				"190e996783e483fef8cd5123b5fbb791457567bf",
+				"fb5be8b6e034bf1e880988608971299ba82f93e9",
+				"98140998f93ad99b232328064968d753a8e08fdd"
+			],
+			"graal-enterprise": [
+				"5a8b4307c277e17ca5922b81f532416887b0fa6f",
+				"7ea0cd391449fea9dc969036f1ed6c33d3fb055e",
+				"eea568dfcafb1c3a113a6dcaefd06c78ed5d916b"
+			],
+			"open": [
+				"12efc1fe3322d16f0e703b334912241d80dbaba9"
+			]
+		},
+		"aliases": [
+			"jdk-25-2994"
+		]
+	},
+	{
+		"id": "jdk-25+24-2995",
+		"revisions": {
+			".": [
+				"3edcb2ee3ba31005396ece54c2c7ce900867dfb7"
+			],
+			"mx": [
+				"a826475fd0451be5c32730506751d8ba1e7bc060"
+			],
+			"graal-enterprise": [
+				"cf38ce8078d639cb15ad5597d492473449e3e66d",
+				"5e18ca1b1236fc62e6aa5442ddfdec97675f3ddd"
+			],
+			"graal": [
+				"8e5e9435657c307fb7e7db700d39e49f29799e19",
+				"f7d86743379ff055c032d26d8e9ba111d3fac56d"
+			],
+			"open": [
+				"12efc1fe3322d16f0e703b334912241d80dbaba9"
+			]
+		},
+		"aliases": [
+			"jdk-25-2995"
+		]
+	},
+	{
+		"id": "jdk-25+24-2996",
+		"revisions": {
+			".": [
+				"3edcb2ee3ba31005396ece54c2c7ce900867dfb7"
+			],
+			"mx": [
+				"a826475fd0451be5c32730506751d8ba1e7bc060"
+			],
+			"graal-enterprise": [
+				"cf38ce8078d639cb15ad5597d492473449e3e66d"
+			],
+			"graal": [
+				"8e5e9435657c307fb7e7db700d39e49f29799e19"
+			],
+			"open": [
+				"72e440d06e6a93141e8943f1a62610cd951e22c4"
+			]
+		},
+		"aliases": [
+			"jdk-25-2996"
+		]
+	},
+	{
+		"id": "jdk-25+24-2997",
+		"revisions": {
+			".": [
+				"3edcb2ee3ba31005396ece54c2c7ce900867dfb7"
+			],
+			"mx": [
+				"a826475fd0451be5c32730506751d8ba1e7bc060"
+			],
+			"open": [
+				"16d45511342c32ac8e8f72fb68dc21ce13339dbe"
+			],
+			"graal-enterprise": [
+				"cf38ce8078d639cb15ad5597d492473449e3e66d"
+			],
+			"graal": [
+				"8e5e9435657c307fb7e7db700d39e49f29799e19"
+			]
+		},
+		"aliases": [
+			"jdk-25-2997"
+		]
 	}
 ]
