@@ -171161,6 +171161,107 @@
 		},
 		"aliases": [
 			"jdk-25-2979"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-25+24-2980",
+		"revisions": {
+			".": [
+				"3edcb2ee3ba31005396ece54c2c7ce900867dfb7"
+			],
+			"mx": [
+				"a826475fd0451be5c32730506751d8ba1e7bc060"
+			],
+			"graal-enterprise": [
+				"8d84d4090aa2ae6481a582f0a67ecbfa6933a1e7"
+			],
+			"open": [
+				"8184ce39a8a732352ee841fed09cae905d27643c",
+				"061b5cc6b9939e182f3b2063ad86d042e35f0a91"
+			],
+			"graal": [
+				"92c2c220924b44f8c71331e3809230c78e116991"
+			]
+		},
+		"aliases": [
+			"jdk-25-2980"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-25+24-2981",
+		"revisions": {
+			".": [
+				"3edcb2ee3ba31005396ece54c2c7ce900867dfb7"
+			],
+			"graal-enterprise": [
+				"5f54fd90914dec3c3ddd63cb62c496f30dcd172f",
+				"940f2a9d594ab58c7aef65c300716bc58743b90c"
+			],
+			"mx": [
+				"a826475fd0451be5c32730506751d8ba1e7bc060"
+			],
+			"open": [
+				"8184ce39a8a732352ee841fed09cae905d27643c"
+			],
+			"graal": [
+				"e8efbb986e5eb8d4fa49f911560e98b57f153ac5",
+				"5ddfcb90deda5c95ca3dd2120e227fd4a8c5e487"
+			]
+		},
+		"aliases": [
+			"jdk-25-2981"
+		]
+	},
+	{
+		"id": "jdk-25+24-2982",
+		"revisions": {
+			".": [
+				"3edcb2ee3ba31005396ece54c2c7ce900867dfb7"
+			],
+			"graal-enterprise": [
+				"5f54fd90914dec3c3ddd63cb62c496f30dcd172f"
+			],
+			"mx": [
+				"a826475fd0451be5c32730506751d8ba1e7bc060"
+			],
+			"open": [
+				"a919f6d04e5e1e3ccb123132ad945b240345dcaf"
+			],
+			"graal": [
+				"e8efbb986e5eb8d4fa49f911560e98b57f153ac5"
+			]
+		},
+		"aliases": [
+			"jdk-25-2982"
+		]
+	},
+	{
+		"id": "jdk-25+24-2983",
+		"revisions": {
+			".": [
+				"3edcb2ee3ba31005396ece54c2c7ce900867dfb7"
+			],
+			"graal-enterprise": [
+				"5f54fd90914dec3c3ddd63cb62c496f30dcd172f"
+			],
+			"mx": [
+				"a826475fd0451be5c32730506751d8ba1e7bc060"
+			],
+			"open": [
+				"e348aa071d7d20300062de5830e74fc78143c662"
+			],
+			"graal": [
+				"e8efbb986e5eb8d4fa49f911560e98b57f153ac5"
+			]
+		},
+		"aliases": [
+			"jdk-25-2983"
 		]
 	}
 ]
