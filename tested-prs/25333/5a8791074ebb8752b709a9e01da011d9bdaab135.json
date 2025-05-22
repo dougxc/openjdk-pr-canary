@@ -1,0 +1,17 @@
+{
+  "artifact_3177137670": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-myankelev-5a8791074ebb8752b709a9e01da011d9bdaab135)\nOpenJDK 64-Bit Server VM (build 25-internal-myankelev-5a8791074ebb8752b709a9e01da011d9bdaab135, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "51fffc94f06cc05c46b29d464840993fd184f826.json",
+    "54def0da3f7765151cec4a35c3c84bc0b2536b50.json"
+  ],
+  "datetime": "2025-05-22T13:43:46.577062+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25333",
+  "number": 25333,
+  "title": "8304065: HttpServer.stop should terminate immediately if no exchanges are in progress",
+  "head_sha": "5a8791074ebb8752b709a9e01da011d9bdaab135",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15187206374"
+}
