@@ -1,0 +1,14 @@
+{
+  "artifact_3175684201": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rwestrel-d9ed1f1e57473096c579f345afcae29b6cef05c4)\nOpenJDK 64-Bit Server VM (build 25-internal-rwestrel-d9ed1f1e57473096c579f345afcae29b6cef05c4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-22T10:39:51.677099+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25389",
+  "number": 25389,
+  "title": "8356989: Unexpected null in C2 compiled code",
+  "head_sha": "d9ed1f1e57473096c579f345afcae29b6cef05c4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15183068077"
+}
