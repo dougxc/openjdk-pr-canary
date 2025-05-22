@@ -1,0 +1,14 @@
+{
+  "artifact_3177537039": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-tstuefe-a6f20a0b3a6396222f58a7cb006c8f63997196a9)\nOpenJDK 64-Bit Server VM (build 25-internal-tstuefe-a6f20a0b3a6396222f58a7cb006c8f63997196a9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-22T15:24:55.873706+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/17340",
+  "number": 17340,
+  "title": "8323497: On x64, use 32-bit immediate moves for narrow klass base if possible",
+  "head_sha": "a6f20a0b3a6396222f58a7cb006c8f63997196a9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15187206374"
+}
