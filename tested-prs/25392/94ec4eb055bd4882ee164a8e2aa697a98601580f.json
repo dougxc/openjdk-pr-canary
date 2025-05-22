@@ -1,0 +1,14 @@
+{
+  "artifact_3176987883": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-stefank-94ec4eb055bd4882ee164a8e2aa697a98601580f)\nOpenJDK 64-Bit Server VM (build 25-internal-stefank-94ec4eb055bd4882ee164a8e2aa697a98601580f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-22T18:40:00.995577+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25392",
+  "number": 25392,
+  "title": "8357563: Shenandoah headers leak un-prefixed defines",
+  "head_sha": "94ec4eb055bd4882ee164a8e2aa697a98601580f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15193001632"
+}
