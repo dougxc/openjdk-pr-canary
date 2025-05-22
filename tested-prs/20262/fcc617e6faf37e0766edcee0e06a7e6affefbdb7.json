@@ -1,0 +1,25 @@
+{
+  "artifact_3174113086": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-suchismith1993-fcc617e6faf37e0766edcee0e06a7e6affefbdb7)\nOpenJDK 64-Bit Server VM (build 25-internal-suchismith1993-fcc617e6faf37e0766edcee0e06a7e6affefbdb7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "25c68453b946fef2b01d79328321eceef21e0290.json",
+    "297394abd7497601bd8f9ac1b4fe68e244957147.json",
+    "4aa520c2871858a9bb68063fe90fdc8a93126895.json",
+    "61fd7dffe8d5d25f3c55d4699d298b0bc143a627.json",
+    "77ac7f741fd7cbeac7c188bc7d9848cef8d2a255.json",
+    "7d9ca01bb4f3d061d461b9428dcc68fde2bba860.json",
+    "82bdad2438b07ac731a556db65254f2af65e37be.json",
+    "90db17973bbaeec789e061865cee6c9bd00a14e5.json",
+    "a95958a7091e920c6dc1aa5a6f5619d994d123fe.json",
+    "f2b135cbefa3a4eaab5b2b29d7d5b2a184be2382.json"
+  ],
+  "datetime": "2025-05-22T04:59:58.478019+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20262",
+  "number": 20262,
+  "title": "JDK-8331859 : [PPC64] Remove support for Power7 and older",
+  "head_sha": "fcc617e6faf37e0766edcee0e06a7e6affefbdb7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15178229295"
+}
