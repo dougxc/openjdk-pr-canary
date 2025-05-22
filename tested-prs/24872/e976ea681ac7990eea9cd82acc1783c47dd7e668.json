@@ -1,0 +1,17 @@
+{
+  "artifact_3177813730": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-caspernorrbin-e976ea681ac7990eea9cd82acc1783c47dd7e668)\nOpenJDK 64-Bit Server VM (build 25-internal-caspernorrbin-e976ea681ac7990eea9cd82acc1783c47dd7e668, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ed3670ebb9c8a8291e2c2e56270be1345d50b852.json",
+    "fb53bd4440f3a4b751cd749e08d6c5a142b3e446.json"
+  ],
+  "datetime": "2025-05-22T22:06:19.826867+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24872",
+  "number": 24872,
+  "title": "8241678: Remove PerfData sampling via StatSampler",
+  "head_sha": "e976ea681ac7990eea9cd82acc1783c47dd7e668",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15193001632"
+}
