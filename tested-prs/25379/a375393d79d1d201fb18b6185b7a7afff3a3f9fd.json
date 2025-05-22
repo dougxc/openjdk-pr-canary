@@ -1,0 +1,14 @@
+{
+  "artifact_3174030394": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vnkozlov-a375393d79d1d201fb18b6185b7a7afff3a3f9fd)\nOpenJDK 64-Bit Server VM (build 25-internal-vnkozlov-a375393d79d1d201fb18b6185b7a7afff3a3f9fd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-22T04:47:04.485018+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25379",
+  "number": 25379,
+  "title": "8357514: Disable AOT caching for runtime stubs",
+  "head_sha": "a375393d79d1d201fb18b6185b7a7afff3a3f9fd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15178229295"
+}
