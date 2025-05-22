@@ -1,0 +1,19 @@
+{
+  "artifact_3176697190": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Bhavana-Kilambi-710edeecc1ec2acd5e808f9d5160c81d48976696)\nOpenJDK 64-Bit Server VM (build 25-internal-Bhavana-Kilambi-710edeecc1ec2acd5e808f9d5160c81d48976696, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "080a0ce8d5dff944af0b025e6871b52c77fb90d5.json",
+    "31103f695f1d7d30c656f801ad6017960cad23f4.json",
+    "56edd6df6f0951645f3b19d1d603580a87c2ec7b.json",
+    "bb6235aa5b23d73a480237b0119011ada49dca11.json"
+  ],
+  "datetime": "2025-05-22T14:27:24.078474+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25096",
+  "number": 25096,
+  "title": "8355585: Aarch64: Add aarch64 backend for Float16 vector operations",
+  "head_sha": "710edeecc1ec2acd5e808f9d5160c81d48976696",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15187206374"
+}
