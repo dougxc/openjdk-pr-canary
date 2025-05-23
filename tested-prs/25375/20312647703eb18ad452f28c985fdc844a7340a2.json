@@ -1,0 +1,17 @@
+{
+  "artifact_3181777338": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dean-long-20312647703eb18ad452f28c985fdc844a7340a2)\nOpenJDK 64-Bit Server VM (build 25-internal-dean-long-20312647703eb18ad452f28c985fdc844a7340a2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "52ff78a5fb1974c718691437cf7b4cc3e746f041.json",
+    "f7c149017d882ae45d3a345c32a80156234616de.json"
+  ],
+  "datetime": "2025-05-23T02:25:40.977534+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25375",
+  "number": 25375,
+  "title": "8356648: runtime/Thread/AsyncExceptionTest.java fails with +StressCompiledExceptionHandlers",
+  "head_sha": "20312647703eb18ad452f28c985fdc844a7340a2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15200790724"
+}
