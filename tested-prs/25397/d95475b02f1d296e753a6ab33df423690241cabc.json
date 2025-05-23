@@ -1,0 +1,14 @@
+{
+  "artifact_3179576446": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dougxc-d95475b02f1d296e753a6ab33df423690241cabc)\nOpenJDK 64-Bit Server VM (build 25-internal-dougxc-d95475b02f1d296e753a6ab33df423690241cabc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-22T23:39:19.414582+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25397",
+  "number": 25397,
+  "title": "8357581: [JVMCI] Add HotSpotProfilingInfo",
+  "head_sha": "d95475b02f1d296e753a6ab33df423690241cabc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15198101235"
+}
