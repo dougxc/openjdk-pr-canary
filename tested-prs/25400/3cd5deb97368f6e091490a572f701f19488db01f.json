@@ -1,0 +1,14 @@
+{
+  "artifact_3180218879": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-alexeysemenyukoracle-3cd5deb97368f6e091490a572f701f19488db01f)\nOpenJDK 64-Bit Server VM (build 25-internal-alexeysemenyukoracle-3cd5deb97368f6e091490a572f701f19488db01f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-22T23:29:02.604299+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25400",
+  "number": 25400,
+  "title": "8357171: Test tools/jpackage/windows/WinOSConditionTest.java fails for non administrator",
+  "head_sha": "3cd5deb97368f6e091490a572f701f19488db01f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15198101235"
+}
