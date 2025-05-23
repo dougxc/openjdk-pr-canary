@@ -1,0 +1,16 @@
+{
+  "artifact_3184848006": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jayathirthrao-549f825f63898ca0ede19726887f3f93b1680c4b)\nOpenJDK 64-Bit Server VM (build 25-internal-jayathirthrao-549f825f63898ca0ede19726887f3f93b1680c4b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1e19333954c87c1011178de80623a7f1404f67af.json"
+  ],
+  "datetime": "2025-05-23T13:31:11.045799+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25342",
+  "number": 25342,
+  "title": "8312198: [macos] metal pipeline - window rendering stops after display sleep",
+  "head_sha": "549f825f63898ca0ede19726887f3f93b1680c4b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15210826771"
+}
