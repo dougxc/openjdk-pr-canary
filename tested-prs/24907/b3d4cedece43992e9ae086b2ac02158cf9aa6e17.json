@@ -1,0 +1,16 @@
+{
+  "artifact_3190898152": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-turbanoff-b3d4cedece43992e9ae086b2ac02158cf9aa6e17)\nOpenJDK 64-Bit Server VM (build 25-internal-turbanoff-b3d4cedece43992e9ae086b2ac02158cf9aa6e17, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "cb8e9770bbf54b12b552b38c9a878a4117b6717c.json"
+  ],
+  "datetime": "2025-05-24T17:40:19.440346+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24907",
+  "number": 24907,
+  "title": "8357687: Remove unnecessary Map.containsKey from GraphicsEnvironment implementations",
+  "head_sha": "b3d4cedece43992e9ae086b2ac02158cf9aa6e17",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15229397241"
+}
