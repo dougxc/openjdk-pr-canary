@@ -1,0 +1,16 @@
+{
+  "artifact_3189963147": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-3eb72204d7ef09e7482c4c6e0462fd9c84a3b431)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-3eb72204d7ef09e7482c4c6e0462fd9c84a3b431, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c89694cbd2fdc3867343239a74be425045b902ac.json"
+  ],
+  "datetime": "2025-05-24T08:55:38.343902+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25426",
+  "number": 25426,
+  "title": "8357685: Change the type of Integer::digits from char[] to byte[]",
+  "head_sha": "3eb72204d7ef09e7482c4c6e0462fd9c84a3b431",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15225280941"
+}
