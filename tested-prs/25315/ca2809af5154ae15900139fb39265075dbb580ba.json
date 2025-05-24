@@ -1,0 +1,17 @@
+{
+  "artifact_3188853369": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iwanowww-ca2809af5154ae15900139fb39265075dbb580ba)\nOpenJDK 64-Bit Server VM (build 25-internal-iwanowww-ca2809af5154ae15900139fb39265075dbb580ba, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8d8f2c4568daefbdefa550924e05d32b18a2e031.json",
+    "ad314e05ffca6c33f300ce6755609a1e9f1a027e.json"
+  ],
+  "datetime": "2025-05-23T23:49:49.678976+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25315",
+  "number": 25315,
+  "title": "8290892: C2: Intrinsify Reference.reachabilityFence",
+  "head_sha": "ca2809af5154ae15900139fb39265075dbb580ba",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15220915623"
+}
