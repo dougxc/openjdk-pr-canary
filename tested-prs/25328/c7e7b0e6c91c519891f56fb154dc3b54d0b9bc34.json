@@ -1,0 +1,18 @@
+{
+  "artifact_3198453631": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-lahodaj-c7e7b0e6c91c519891f56fb154dc3b54d0b9bc34)\nOpenJDK 64-Bit Server VM (build 25-internal-lahodaj-c7e7b0e6c91c519891f56fb154dc3b54d0b9bc34, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "759554f660c3e21f966f52c2a851020f4ca4abd4.json",
+    "864a9dcafe17e2b5e1a4604cf11f41bc99fba3e3.json",
+    "9d32c791d5f5de869d9109a6bd5f118e4f32c8a3.json"
+  ],
+  "datetime": "2025-05-26T17:33:45.597360+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25328",
+  "number": 25328,
+  "title": "8356245: stdin.encoding and stdout.encoding in jshell don't respect console code pages",
+  "head_sha": "c7e7b0e6c91c519891f56fb154dc3b54d0b9bc34",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15258555826"
+}
