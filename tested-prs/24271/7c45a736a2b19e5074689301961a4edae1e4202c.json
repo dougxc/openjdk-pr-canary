@@ -1,0 +1,14 @@
+{
+  "artifact_3195551957": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mickleness-7c45a736a2b19e5074689301961a4edae1e4202c)\nOpenJDK 64-Bit Server VM (build 25-internal-mickleness-7c45a736a2b19e5074689301961a4edae1e4202c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-26T11:43:44.819843+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24271",
+  "number": 24271,
+  "title": "8351913: ToolkitImage renders some gifs wrong",
+  "head_sha": "7c45a736a2b19e5074689301961a4edae1e4202c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15250937469"
+}
