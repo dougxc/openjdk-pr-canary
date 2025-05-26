@@ -1,0 +1,14 @@
+{
+  "artifact_3198928200": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-9518cb62d4fb3d374d744d880938d4fad252e76d)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-9518cb62d4fb3d374d744d880938d4fad252e76d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-26T19:03:59.575203+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25452",
+  "number": 25452,
+  "title": "8357797: Use StructuredTaskScopeImpl.ST_NEW for state init",
+  "head_sha": "9518cb62d4fb3d374d744d880938d4fad252e76d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15259301050"
+}
