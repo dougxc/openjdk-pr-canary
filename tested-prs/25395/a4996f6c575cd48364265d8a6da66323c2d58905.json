@@ -1,0 +1,16 @@
+{
+  "artifact_3195451831": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-danielogh-a4996f6c575cd48364265d8a6da66323c2d58905)\nOpenJDK 64-Bit Server VM (build 25-internal-danielogh-a4996f6c575cd48364265d8a6da66323c2d58905, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1ed6dde9e185d3e21e57e449e28c79c7bb85f62b.json"
+  ],
+  "datetime": "2025-05-26T10:27:23.427567+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25395",
+  "number": 25395,
+  "title": "8357105: C2: compilation fails with \"assert(false) failed: empty program detected during loop optimization\"",
+  "head_sha": "a4996f6c575cd48364265d8a6da66323c2d58905",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15250937469"
+}
