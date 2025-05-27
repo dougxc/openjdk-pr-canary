@@ -1,0 +1,19 @@
+{
+  "artifact_3203357301": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-xmas92-8b8d5c89b03b57a4b6b8c159880b98c48155f342)\nOpenJDK 64-Bit Server VM (build 25-internal-xmas92-8b8d5c89b03b57a4b6b8c159880b98c48155f342, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3b215b37317c0cfc4042559a27e319cb1036df1f.json",
+    "43a42685cd198bca077fb06f20e5d0427721fa91.json",
+    "f6069efbd0acd21ce6a273d9eee3c8438605a677.json",
+    "f7619fd700ec6498948e5e84e8051be145683940.json"
+  ],
+  "datetime": "2025-05-27T13:34:12.703584+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25381",
+  "number": 25381,
+  "title": "8357449: ZGC: Multiple medium page sizes",
+  "head_sha": "8b8d5c89b03b57a4b6b8c159880b98c48155f342",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15275919214"
+}
