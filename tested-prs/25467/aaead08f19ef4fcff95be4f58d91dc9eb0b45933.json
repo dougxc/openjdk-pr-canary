@@ -1,0 +1,14 @@
+{
+  "artifact_3204961530": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-hns-aaead08f19ef4fcff95be4f58d91dc9eb0b45933)\nOpenJDK 64-Bit Server VM (build 25-internal-hns-aaead08f19ef4fcff95be4f58d91dc9eb0b45933, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-27T15:44:08.933833+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25467",
+  "number": 25467,
+  "title": "8357869: Remove PreviewNote taglet in its current form",
+  "head_sha": "aaead08f19ef4fcff95be4f58d91dc9eb0b45933",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15279489870"
+}
