@@ -1,0 +1,17 @@
+{
+  "artifact_3201614498": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-DingliZhang-7a0e10df6353db09dae4a7eb0756b74756ae3b30)\nOpenJDK 64-Bit Server VM (build 25-internal-DingliZhang-7a0e10df6353db09dae4a7eb0756b74756ae3b30, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2ee859b5bce47658425af2c6be15ada3f10e30d1.json",
+    "dba658b54e2111d5d5d15c40e7392074c2631da3.json"
+  ],
+  "datetime": "2025-05-27T07:41:05.214535+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25438",
+  "number": 25438,
+  "title": "8357695: RISC-V: Move vector intrinsic condition checks into match_rule_supported_vector",
+  "head_sha": "7a0e10df6353db09dae4a7eb0756b74756ae3b30",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15269228370"
+}
