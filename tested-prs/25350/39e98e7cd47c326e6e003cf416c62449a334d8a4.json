@@ -1,0 +1,18 @@
+{
+  "artifact_3200311885": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-feilongjiang-39e98e7cd47c326e6e003cf416c62449a334d8a4)\nOpenJDK 64-Bit Server VM (build 25-internal-feilongjiang-39e98e7cd47c326e6e003cf416c62449a334d8a4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "54bab0bb5f636c7b35358c7197dee75a4e66a867.json",
+    "5deb71466742aa7fcd84bf849f6af032a35fe637.json",
+    "79e0902375737c5ff62a57a9e4afc47a81a25148.json"
+  ],
+  "datetime": "2025-05-27T02:26:19.439873+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25350",
+  "number": 25350,
+  "title": "8357460: RISC-V: Optimize array fill stub for small size",
+  "head_sha": "39e98e7cd47c326e6e003cf416c62449a334d8a4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15265186797"
+}
