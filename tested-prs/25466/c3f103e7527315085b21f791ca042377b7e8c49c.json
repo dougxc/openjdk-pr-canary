@@ -1,0 +1,14 @@
+{
+  "artifact_3204980703": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-albertnetymk-c3f103e7527315085b21f791ca042377b7e8c49c)\nOpenJDK 64-Bit Server VM (build 25-internal-albertnetymk-c3f103e7527315085b21f791ca042377b7e8c49c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-27T16:06:11.962447+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25466",
+  "number": 25466,
+  "title": "8357854: Parallel: Inline args of PSOldGen::initialize_performance_counters",
+  "head_sha": "c3f103e7527315085b21f791ca042377b7e8c49c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15279489870"
+}
