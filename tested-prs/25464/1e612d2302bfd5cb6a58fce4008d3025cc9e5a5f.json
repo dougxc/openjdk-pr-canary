@@ -1,0 +1,14 @@
+{
+  "artifact_3203779900": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mgronlun-1e612d2302bfd5cb6a58fce4008d3025cc9e5a5f)\nOpenJDK 64-Bit Server VM (build 25-internal-mgronlun-1e612d2302bfd5cb6a58fce4008d3025cc9e5a5f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-27T13:10:43.641761+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25464",
+  "number": 25464,
+  "title": "8357829: Commented out sample limit in JfrSamplerThread::task_stacktrace",
+  "head_sha": "1e612d2302bfd5cb6a58fce4008d3025cc9e5a5f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15275919214"
+}
