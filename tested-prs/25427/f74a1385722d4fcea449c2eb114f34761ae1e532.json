@@ -1,0 +1,16 @@
+{
+  "artifact_3201193680": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Korov-f74a1385722d4fcea449c2eb114f34761ae1e532)\nOpenJDK 64-Bit Server VM (build 25-internal-Korov-f74a1385722d4fcea449c2eb114f34761ae1e532, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4b47074f7978a48f0eee2e9e4c66eba05af921fd.json"
+  ],
+  "datetime": "2025-05-27T06:57:34.798318+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25427",
+  "number": 25427,
+  "title": "8357408: runtime/interpreter/CountBytecodesTest.java should be flagless",
+  "head_sha": "f74a1385722d4fcea449c2eb114f34761ae1e532",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15268388886"
+}
