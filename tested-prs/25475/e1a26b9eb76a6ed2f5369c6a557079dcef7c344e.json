@@ -1,0 +1,14 @@
+{
+  "artifact_3208657961": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-e1a26b9eb76a6ed2f5369c6a557079dcef7c344e)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-e1a26b9eb76a6ed2f5369c6a557079dcef7c344e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-28T02:40:08.847181+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25475",
+  "number": 25475,
+  "title": "8357510: [REDO] RunTest variables should always be assigned",
+  "head_sha": "e1a26b9eb76a6ed2f5369c6a557079dcef7c344e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15289956359"
+}
