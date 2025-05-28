@@ -1,0 +1,14 @@
+{
+  "artifact_3213507052": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dougxc-fb1adbe4d60273637e92ea12c1dde52b7c405470)\nOpenJDK 64-Bit Server VM (build 25-internal-dougxc-fb1adbe4d60273637e92ea12c1dde52b7c405470, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-28T16:04:59.756112+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25494",
+  "number": 25494,
+  "title": "8357979: [JVMCI] jdk.internal.vm.ci should have earlier class file version",
+  "head_sha": "fb1adbe4d60273637e92ea12c1dde52b7c405470",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15304304523"
+}
