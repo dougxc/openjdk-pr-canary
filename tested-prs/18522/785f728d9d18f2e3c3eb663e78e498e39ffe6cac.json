@@ -1,0 +1,14 @@
+{
+  "artifact_3214841479": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-cushon-785f728d9d18f2e3c3eb663e78e498e39ffe6cac)\nOpenJDK 64-Bit Server VM (build 25-internal-cushon-785f728d9d18f2e3c3eb663e78e498e39ffe6cac, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-28T18:03:44.691340+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/18522",
+  "number": 18522,
+  "title": "8328821: Map.of() derived view collection mutators should throw UnsupportedOperationException",
+  "head_sha": "785f728d9d18f2e3c3eb663e78e498e39ffe6cac",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15305659177"
+}
