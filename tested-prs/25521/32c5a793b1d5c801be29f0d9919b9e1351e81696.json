@@ -1,0 +1,14 @@
+{
+  "artifact_3221376649": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-anass-baya-32c5a793b1d5c801be29f0d9919b9e1351e81696)\nOpenJDK 64-Bit Server VM (build 25-internal-anass-baya-32c5a793b1d5c801be29f0d9919b9e1351e81696, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-29T15:43:37.194530+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25521",
+  "number": 25521,
+  "title": "Draft : 8357390 : java/awt/Toolkit/ScreenInsetsTest/ScreenInsetsTest.java Test failing on Ubuntu 24.04 SBR Hosts",
+  "head_sha": "32c5a793b1d5c801be29f0d9919b9e1351e81696",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15327492150"
+}
