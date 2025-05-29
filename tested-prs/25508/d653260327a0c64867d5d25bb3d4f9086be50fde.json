@@ -1,0 +1,14 @@
+{
+  "artifact_3215776923": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-d653260327a0c64867d5d25bb3d4f9086be50fde)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-d653260327a0c64867d5d25bb3d4f9086be50fde, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-28T23:49:02.531595+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25508",
+  "number": 25508,
+  "title": "8357693: AOTCodeCompressedOopsTest.java failed with -XX:+UseLargePages",
+  "head_sha": "d653260327a0c64867d5d25bb3d4f9086be50fde",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15312652244"
+}
