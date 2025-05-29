@@ -175565,6 +175565,9 @@
 		},
 		"aliases": [
 			"jdk-25-3160"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
