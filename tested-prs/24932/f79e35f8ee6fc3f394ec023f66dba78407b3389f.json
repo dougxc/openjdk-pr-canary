@@ -1,0 +1,17 @@
+{
+  "artifact_3228864597": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-archiecobbs-f79e35f8ee6fc3f394ec023f66dba78407b3389f)\nOpenJDK 64-Bit Server VM (build 25-internal-archiecobbs-f79e35f8ee6fc3f394ec023f66dba78407b3389f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5ef9606fc837e30d4463943e871349c2bf59b8a8.json",
+    "65e2679e0ed26bfe58d9c45c40d68556dbe352c1.json"
+  ],
+  "datetime": "2025-05-30T14:16:12.144383+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24932",
+  "number": 24932,
+  "title": "8355753: @SuppressWarnings(\"this-escape\") not respected for indirect leak via field",
+  "head_sha": "f79e35f8ee6fc3f394ec023f66dba78407b3389f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15347290777"
+}
