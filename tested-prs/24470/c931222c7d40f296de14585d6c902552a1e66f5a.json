@@ -1,0 +1,20 @@
+{
+  "artifact_3231331093": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-missa-prime-c931222c7d40f296de14585d6c902552a1e66f5a)\nOpenJDK 64-Bit Server VM (build 25-internal-missa-prime-c931222c7d40f296de14585d6c902552a1e66f5a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "233e0188c7637cdc08bb4bebd8cb4721ccc352d1.json",
+    "3212c6694b28d11e6e6835f55d73a69197a29831.json",
+    "57412f0da091de85f6dc8d4602f3afda9b48f3cf.json",
+    "9cab7b24ee9864265f2d3d0f5686461f56fc010b.json",
+    "ff4d4f22039fd7b58b1ba426834d4fc473ccf7ab.json"
+  ],
+  "datetime": "2025-05-30T21:25:06.422082+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24470",
+  "number": 24470,
+  "title": "8353686: Optimize Math.cbrt for x86 64 bit platforms",
+  "head_sha": "c931222c7d40f296de14585d6c902552a1e66f5a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15355245517"
+}
