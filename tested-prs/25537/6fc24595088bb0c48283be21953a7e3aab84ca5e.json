@@ -1,0 +1,14 @@
+{
+  "artifact_3226002127": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mrserb-6fc24595088bb0c48283be21953a7e3aab84ca5e)\nOpenJDK 64-Bit Server VM (build 25-internal-mrserb-6fc24595088bb0c48283be21953a7e3aab84ca5e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-30T04:47:30.390874+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25537",
+  "number": 25537,
+  "title": "8358107: Rollback JDK-8357299 changeset",
+  "head_sha": "6fc24595088bb0c48283be21953a7e3aab84ca5e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15339294870"
+}
