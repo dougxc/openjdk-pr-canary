@@ -1,0 +1,14 @@
+{
+  "artifact_3228429678": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-viktorklang-ora-68d47396012835096d31e9e881297eeaf0784682)\nOpenJDK 64-Bit Server VM (build 25-internal-viktorklang-ora-68d47396012835096d31e9e881297eeaf0784682, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-30T13:19:42.086994+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25548",
+  "number": 25548,
+  "title": "8358151 : Harden JSR166 Test case testShutdownNow_delayedTasks",
+  "head_sha": "68d47396012835096d31e9e881297eeaf0784682",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15347290777"
+}
