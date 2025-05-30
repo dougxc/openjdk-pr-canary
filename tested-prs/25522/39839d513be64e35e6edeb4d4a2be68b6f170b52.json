@@ -1,0 +1,18 @@
+{
+  "artifact_3224877930": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-iklam-39839d513be64e35e6edeb4d4a2be68b6f170b52)\nOpenJDK 64-Bit Server VM (build 25-internal-iklam-39839d513be64e35e6edeb4d4a2be68b6f170b52, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0182a9884debde3761d9369d552dc8ef0fcaa4e5.json",
+    "52ea7e97c010f2109a776c378dd2b7bb3bad471e.json",
+    "d91a6f37303831f4c14400b46feeabcf2fa0358a.json"
+  ],
+  "datetime": "2025-05-29T23:49:54.175127+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25522",
+  "number": 25522,
+  "title": "8358080: Print thread stack with -Xlog:exceptions+stacktrace",
+  "head_sha": "39839d513be64e35e6edeb4d4a2be68b6f170b52",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15335645368"
+}
