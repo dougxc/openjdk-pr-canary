@@ -1,0 +1,16 @@
+{
+  "artifact_3229964582": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ascarpino-78653485a5331487cb99aa7b5f16c83ff3a3eeb7)\nOpenJDK 64-Bit Server VM (build 25-internal-ascarpino-78653485a5331487cb99aa7b5f16c83ff3a3eeb7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c5b9a9415d3ba5458da6b7bf9ce261f2819bd658.json"
+  ],
+  "datetime": "2025-05-30T17:00:40.872779+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25533",
+  "number": 25533,
+  "title": "8358076: KeyFactory.getInstance(\"EdDSA\").generatePublic(null) throws NPE",
+  "head_sha": "78653485a5331487cb99aa7b5f16c83ff3a3eeb7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15351391776"
+}
