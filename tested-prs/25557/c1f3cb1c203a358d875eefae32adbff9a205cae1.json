@@ -1,0 +1,14 @@
+{
+  "artifact_3231810726": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-plummercj-c1f3cb1c203a358d875eefae32adbff9a205cae1)\nOpenJDK 64-Bit Server VM (build 25-internal-plummercj-c1f3cb1c203a358d875eefae32adbff9a205cae1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-30T21:59:44.713764+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25557",
+  "number": 25557,
+  "title": "8358178: some nsk/jdi tests should be run with includevirtualthreads=y even though they pass without",
+  "head_sha": "c1f3cb1c203a358d875eefae32adbff9a205cae1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15356100810"
+}
