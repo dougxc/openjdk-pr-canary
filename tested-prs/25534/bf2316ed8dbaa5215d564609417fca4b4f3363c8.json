@@ -1,0 +1,16 @@
+{
+  "artifact_3230805869": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-bplb-bf2316ed8dbaa5215d564609417fca4b4f3363c8)\nOpenJDK 64-Bit Server VM (build 25-internal-bplb-bf2316ed8dbaa5215d564609417fca4b4f3363c8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "58cb7c9f6c338085dd22d0414eb3273f241ae477.json"
+  ],
+  "datetime": "2025-05-30T18:51:34.206642+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25534",
+  "number": 25534,
+  "title": "8357425: (fs) SecureDirectoryStream setPermissions should use fchmodat",
+  "head_sha": "bf2316ed8dbaa5215d564609417fca4b4f3363c8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15353444377"
+}
