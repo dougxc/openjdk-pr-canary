@@ -1,0 +1,14 @@
+{
+  "artifact_3227644190": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-864f6cb5098ae859c65204470e45ca0a032ae1aa)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-864f6cb5098ae859c65204470e45ca0a032ae1aa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-30T10:46:04.149306+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25540",
+  "number": 25540,
+  "title": "8358136: Make langtools/jdk/javadoc/doclet/testLinkOption/TestRedirectLinks.java intermittent",
+  "head_sha": "864f6cb5098ae859c65204470e45ca0a032ae1aa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15344857782"
+}
