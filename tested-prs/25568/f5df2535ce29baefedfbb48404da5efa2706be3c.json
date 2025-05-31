@@ -1,0 +1,14 @@
+{
+  "artifact_3234826585": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TheRealMDoerr-f5df2535ce29baefedfbb48404da5efa2706be3c)\nOpenJDK 64-Bit Server VM (build 25-internal-TheRealMDoerr-f5df2535ce29baefedfbb48404da5efa2706be3c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-31T23:38:44.002229+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25568",
+  "number": 25568,
+  "title": "8358231: Template interpreter generator crashes with ShouldNotReachHere on some platforms after 8353686",
+  "head_sha": "f5df2535ce29baefedfbb48404da5efa2706be3c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15368531932"
+}
