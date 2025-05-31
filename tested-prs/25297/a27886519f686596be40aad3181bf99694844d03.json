@@ -1,0 +1,20 @@
+{
+  "artifact_3234064665": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-amaembo-a27886519f686596be40aad3181bf99694844d03)\nOpenJDK 64-Bit Server VM (build 25-internal-amaembo-a27886519f686596be40aad3181bf99694844d03, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "293b2c40f00b80e94f16d8efbc036aeb20d9edd2.json",
+    "2cda59b73f616cfa8de1006ec77a78b2c5521b05.json",
+    "38f9eb718a6144a172e3fe0e8dae3f5c155b1e97.json",
+    "9edc73e2163b4c45f5af34721188b7446174caf0.json",
+    "b750c3faf1e5bafd81d7cc9a4e7601bd05aa1ec7.json"
+  ],
+  "datetime": "2025-05-31T15:04:54.690680+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25297",
+  "number": 25297,
+  "title": "8356995: Provide default methods min(T, T) and max(T, T) in Comparator interface",
+  "head_sha": "a27886519f686596be40aad3181bf99694844d03",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15364607240"
+}
