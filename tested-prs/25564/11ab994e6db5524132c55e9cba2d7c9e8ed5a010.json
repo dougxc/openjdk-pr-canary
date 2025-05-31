@@ -1,0 +1,14 @@
+{
+  "artifact_3233962670": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaikiran-11ab994e6db5524132c55e9cba2d7c9e8ed5a010)\nOpenJDK 64-Bit Server VM (build 25-internal-jaikiran-11ab994e6db5524132c55e9cba2d7c9e8ed5a010, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-05-31T14:41:36.115650+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25564",
+  "number": 25564,
+  "title": "8358218: Problemlist jdk/incubator/vector/PreferredSpeciesTest.java#id0",
+  "head_sha": "11ab994e6db5524132c55e9cba2d7c9e8ed5a010",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15364607240"
+}
