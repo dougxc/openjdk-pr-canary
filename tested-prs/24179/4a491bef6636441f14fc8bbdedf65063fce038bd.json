@@ -1,0 +1,19 @@
+{
+  "artifact_3236866755": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jatin-bhateja-4a491bef6636441f14fc8bbdedf65063fce038bd)\nOpenJDK 64-Bit Server VM (build 25-internal-jatin-bhateja-4a491bef6636441f14fc8bbdedf65063fce038bd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "016f0bc1e287e764dc2c559ec89e8e2d847d70ee.json",
+    "021009c065b75df198667175ea820bf534a23c4b.json",
+    "4a7a519b8f0510e5c5a1a917038e124c28a075d3.json",
+    "b44d62dc0a8df96eea075b1424f6860ad0ab3b79.json"
+  ],
+  "datetime": "2025-06-01T19:00:20.270981+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24179",
+  "number": 24179,
+  "title": "8352635: Improve inferencing of Float16 operations with constant inputs",
+  "head_sha": "4a491bef6636441f14fc8bbdedf65063fce038bd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15378203522"
+}
