@@ -1,0 +1,14 @@
+{
+  "artifact_3239803405": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jsikstro-bb6475e42430f221a0936a570ac306b9aabfce63)\nOpenJDK 64-Bit Server VM (build 25-internal-jsikstro-bb6475e42430f221a0936a570ac306b9aabfce63, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-02T09:59:48.402250+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25580",
+  "number": 25580,
+  "title": "8356880: Backoff in ZLiveMap::reset spin-loop",
+  "head_sha": "bb6475e42430f221a0936a570ac306b9aabfce63",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15387774069"
+}
