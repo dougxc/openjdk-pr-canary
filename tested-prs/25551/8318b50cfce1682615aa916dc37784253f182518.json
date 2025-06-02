@@ -1,0 +1,16 @@
+{
+  "artifact_3240362780": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-marc-chevalier-8318b50cfce1682615aa916dc37784253f182518)\nOpenJDK 64-Bit Server VM (build 25-internal-marc-chevalier-8318b50cfce1682615aa916dc37784253f182518, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "fb8d64d909afb5afb52a7a920a1d8bc2a14e2e26.json"
+  ],
+  "datetime": "2025-06-02T12:04:10.876327+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25551",
+  "number": 25551,
+  "title": "8353266: C2: Wrong execution with Integer.bitCount(int) intrinsic on AArch64",
+  "head_sha": "8318b50cfce1682615aa916dc37784253f182518",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15390114364"
+}
