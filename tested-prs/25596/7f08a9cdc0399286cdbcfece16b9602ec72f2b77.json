@@ -1,0 +1,14 @@
+{
+  "artifact_3243717185": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-veresov-7f08a9cdc0399286cdbcfece16b9602ec72f2b77)\nOpenJDK 64-Bit Server VM (build 25-internal-veresov-7f08a9cdc0399286cdbcfece16b9602ec72f2b77, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-02T19:32:19.087784+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25596",
+  "number": 25596,
+  "title": "8358283: Inconsistent failure mode for MetaspaceObj::operator new(size_t, MemTag)",
+  "head_sha": "7f08a9cdc0399286cdbcfece16b9602ec72f2b77",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15400149221"
+}
