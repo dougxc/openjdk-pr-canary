@@ -1,0 +1,16 @@
+{
+  "artifact_3244015213": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vy-45bdc4fdaa17d0e9579154578cb9e3917e62c5c5)\nOpenJDK 64-Bit Server VM (build 25-internal-vy-45bdc4fdaa17d0e9579154578cb9e3917e62c5c5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d7751294af6f550bef26d9d26e2985b3b0f3468a.json"
+  ],
+  "datetime": "2025-06-02T20:06:46.650250+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25542",
+  "number": 25542,
+  "title": "8357993: Use \"stdin.encoding\" for reading System.in with InputStreamReader/Scanner [hotspot]",
+  "head_sha": "45bdc4fdaa17d0e9579154578cb9e3917e62c5c5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15400149221"
+}
