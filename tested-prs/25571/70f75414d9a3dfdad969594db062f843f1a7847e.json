@@ -1,0 +1,16 @@
+{
+  "artifact_3240559540": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mgronlun-70f75414d9a3dfdad969594db062f843f1a7847e)\nOpenJDK 64-Bit Server VM (build 25-internal-mgronlun-70f75414d9a3dfdad969594db062f843f1a7847e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b48c0635b8ab244adc8a816b00130f2dfc1bc63d.json"
+  ],
+  "datetime": "2025-06-02T11:53:46.959642+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25571",
+  "number": 25571,
+  "title": "8357962: JFR Cooperative Sampling reveals inconsistent interpreter frames as part of JVMTI PopFrame",
+  "head_sha": "70f75414d9a3dfdad969594db062f843f1a7847e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15390114364"
+}
