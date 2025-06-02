@@ -1,0 +1,25 @@
+{
+  "artifact_3240841363": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-parttimenerd-e482ad37f3868c1a8e5d67d6325e90460a067c4e)\nOpenJDK 64-Bit Server VM (build 25-internal-parttimenerd-e482ad37f3868c1a8e5d67d6325e90460a067c4e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "14f1d068bdea138929b09d07b38234fc9359b102.json",
+    "16faa421219c98e4769a76f3609104e42d5a986e.json",
+    "3a10d552f6038fb3e48c655088676f264c515b73.json",
+    "439763a3dbf26773027fdb812c90686592c4329e.json",
+    "4a2cbac30a951d69cd2ed60e54c8843b8b4de68e.json",
+    "adcbec5174579d328498b3f626e3280375719807.json",
+    "ca6debcc9b209e9f912cc21be9da8c5183217d37.json",
+    "d49b0084c81de757e0816d0884e2bc0e48466010.json",
+    "d91f567275209825d2524ad696eb393c0e4ec85d.json",
+    "f64b1dccc3d9861c862eb78c413f1088b542a78b.json"
+  ],
+  "datetime": "2025-06-02T12:25:08.621310+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25302",
+  "number": 25302,
+  "title": "8342818: Implement JEP 509: JFR CPU-Time Profiling",
+  "head_sha": "e482ad37f3868c1a8e5d67d6325e90460a067c4e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15390114364"
+}
