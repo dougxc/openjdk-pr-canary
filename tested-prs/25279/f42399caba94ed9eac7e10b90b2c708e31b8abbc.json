@@ -1,0 +1,19 @@
+{
+  "artifact_3244957246": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-honkar-jdk-f42399caba94ed9eac7e10b90b2c708e31b8abbc)\nOpenJDK 64-Bit Server VM (build 25-internal-honkar-jdk-f42399caba94ed9eac7e10b90b2c708e31b8abbc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "707ed6dfe6a43ca6decc0c84a73e6c5d7201b06f.json",
+    "7c288c91e3ba86e5c13ce100d8d43a80f64c2253.json",
+    "e9c5b3ac60bbf478800d70a431374b25bc587359.json",
+    "ee307064bc3786a2018762c65f0164d6bffbe42e.json"
+  ],
+  "datetime": "2025-06-02T21:44:11.925186+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25279",
+  "number": 25279,
+  "title": "JDK-8357082 : Stabilize and add debug logs to CopyAreaOOB.java",
+  "head_sha": "f42399caba94ed9eac7e10b90b2c708e31b8abbc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15403235675"
+}
