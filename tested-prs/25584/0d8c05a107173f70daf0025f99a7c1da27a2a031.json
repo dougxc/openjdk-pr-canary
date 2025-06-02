@@ -1,0 +1,16 @@
+{
+  "artifact_3243504452": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-0d8c05a107173f70daf0025f99a7c1da27a2a031)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-0d8c05a107173f70daf0025f99a7c1da27a2a031, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b563542086457a712b0cc570d24f285355f83c93.json"
+  ],
+  "datetime": "2025-06-02T18:22:24.786329+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25584",
+  "number": 25584,
+  "title": "8358318: JFR: Tighten up PlatformTracer initialization",
+  "head_sha": "0d8c05a107173f70daf0025f99a7c1da27a2a031",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15398815286"
+}
