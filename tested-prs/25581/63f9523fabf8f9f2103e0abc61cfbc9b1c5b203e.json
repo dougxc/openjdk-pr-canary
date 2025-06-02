@@ -1,0 +1,14 @@
+{
+  "artifact_3240322948": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-shipilev-63f9523fabf8f9f2103e0abc61cfbc9b1c5b203e)\nOpenJDK 64-Bit Server VM (build 25-internal-shipilev-63f9523fabf8f9f2103e0abc61cfbc9b1c5b203e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-02T11:33:00.234694+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25581",
+  "number": 25581,
+  "title": "8358316: PKCS8Key.getEncoded() can throw NPE after JDK-8298420",
+  "head_sha": "63f9523fabf8f9f2103e0abc61cfbc9b1c5b203e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15390114364"
+}
