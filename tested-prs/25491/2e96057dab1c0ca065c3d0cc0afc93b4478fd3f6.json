@@ -1,0 +1,17 @@
+{
+  "artifact_3250121693": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rkennke-2e96057dab1c0ca065c3d0cc0afc93b4478fd3f6)\nOpenJDK 64-Bit Server VM (build 25-internal-rkennke-2e96057dab1c0ca065c3d0cc0afc93b4478fd3f6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3ffeaaee4bd4f9d86172e2cc9400a03c8789cb4a.json",
+    "d189f6002a0b96ef894d225f4ca0e1e509e175f3.json"
+  ],
+  "datetime": "2025-06-03T14:06:47.940354+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25491",
+  "number": 25491,
+  "title": "8355319: Update Manpage for Compact Object Headers (Production)",
+  "head_sha": "2e96057dab1c0ca065c3d0cc0afc93b4478fd3f6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15419037340"
+}
