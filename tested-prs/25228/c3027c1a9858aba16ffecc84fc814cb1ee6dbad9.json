@@ -1,0 +1,17 @@
+{
+  "artifact_3252542100": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-magicus-c3027c1a9858aba16ffecc84fc814cb1ee6dbad9)\nOpenJDK 64-Bit Server VM (build 25-internal-magicus-c3027c1a9858aba16ffecc84fc814cb1ee6dbad9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7184e685b07af11d866c9d7778adea7ecc5fb3d3.json",
+    "9c904992bd3ebfb1fbd0c21b80f323d6fd868f4b.json"
+  ],
+  "datetime": "2025-06-03T19:37:54.418922+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25228",
+  "number": 25228,
+  "title": "8356977: UTF-8 cleanups",
+  "head_sha": "c3027c1a9858aba16ffecc84fc814cb1ee6dbad9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15423948899"
+}
