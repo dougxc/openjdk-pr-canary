@@ -1,0 +1,14 @@
+{
+  "artifact_3245391325": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-naotoj-2ce00332ca941349a0198947e39fd760aad89f93)\nOpenJDK 64-Bit Server VM (build 25-internal-naotoj-2ce00332ca941349a0198947e39fd760aad89f93, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-02T23:41:15.505742+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25601",
+  "number": 25601,
+  "title": "8358158: test/jdk/java/io/Console/CharsetTest.java failing with NoClassDefFoundError: jtreg/SkippedException",
+  "head_sha": "2ce00332ca941349a0198947e39fd760aad89f93",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15404953015"
+}
