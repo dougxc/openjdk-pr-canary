@@ -1,0 +1,21 @@
+{
+  "artifact_3252538410": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-teshull-606f36196a7bd12abfc76c55b141d712cc613f42)\nOpenJDK 64-Bit Server VM (build 25-internal-teshull-606f36196a7bd12abfc76c55b141d712cc613f42, mixed mode, sharing)"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/11320",
+    "number": "11320",
+    "revision": "7ee33c90662b7c8cc13f5d48b0c1bcff16beb093"
+  },
+  "status": "passed",
+  "history": [
+    "ae81d46f8cba3cf12e8abe2d254d70a9707f7702.json"
+  ],
+  "datetime": "2025-06-03T18:56:18.871948+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25498",
+  "number": 25498,
+  "title": "8357987: [JVMCI] Add support for retrieving all methods of a ResolvedJavaType",
+  "head_sha": "606f36196a7bd12abfc76c55b141d712cc613f42",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15423948899"
+}
