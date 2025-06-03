@@ -1,0 +1,22 @@
+{
+  "artifact_3249599641": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-robehn-cc3b8ff743b805ba0c43b55e462c1b3a35e975f5)\nOpenJDK 64-Bit Server VM (build 25-internal-robehn-cc3b8ff743b805ba0c43b55e462c1b3a35e975f5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "27fc528df8f8ce51a1b64b05bd0d344674e8ffef.json",
+    "4e572ee290e02fa0dc832cd572b7bd37f0d6d303.json",
+    "73bed21a3d9e639bc055f42a78fd1608d1e6d8d2.json",
+    "73f419aa7a12fed2c944f8850c9d197c0b0d050c.json",
+    "b496c299e8b77fb912b66f386c87267c19013d9b.json",
+    "bb2bc02f7be040da1b5d874e46f4ce6f80a96c30.json",
+    "c1ccb0ffd6394ad1e63a6dc0f8044aeb5bf2e6ed.json"
+  ],
+  "datetime": "2025-06-03T12:38:36.826758+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25252",
+  "number": 25252,
+  "title": "8356159: RISC-V: Add Zabha",
+  "head_sha": "cc3b8ff743b805ba0c43b55e462c1b3a35e975f5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15416060722"
+}
