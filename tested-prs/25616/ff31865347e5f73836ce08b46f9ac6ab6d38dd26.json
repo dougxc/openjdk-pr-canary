@@ -1,0 +1,14 @@
+{
+  "artifact_3251092943": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-TheRealMDoerr-ff31865347e5f73836ce08b46f9ac6ab6d38dd26)\nOpenJDK 64-Bit Server VM (build 25-internal-TheRealMDoerr-ff31865347e5f73836ce08b46f9ac6ab6d38dd26, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-03T15:58:33.701484+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25616",
+  "number": 25616,
+  "title": "8354636: [PPC64] Clean up comments regarding frame manager",
+  "head_sha": "ff31865347e5f73836ce08b46f9ac6ab6d38dd26",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15421602234"
+}
