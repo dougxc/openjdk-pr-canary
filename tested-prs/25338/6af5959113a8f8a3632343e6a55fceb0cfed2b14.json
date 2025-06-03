@@ -1,0 +1,17 @@
+{
+  "artifact_3253417887": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JohnTortugo-6af5959113a8f8a3632343e6a55fceb0cfed2b14)\nOpenJDK 64-Bit Server VM (build 25-internal-JohnTortugo-6af5959113a8f8a3632343e6a55fceb0cfed2b14, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "933b958d3e6bacd8ff41d10c951dbf7c9ec2b95b.json",
+    "b3bb436522b979c1ee9e721a5f516a6e07c0ed36.json"
+  ],
+  "datetime": "2025-06-03T21:20:19.538850+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25338",
+  "number": 25338,
+  "title": "8357396: Refactor nmethod::make_not_entrant to use Enum instead of \"const char*\"",
+  "head_sha": "6af5959113a8f8a3632343e6a55fceb0cfed2b14",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15426047154"
+}
