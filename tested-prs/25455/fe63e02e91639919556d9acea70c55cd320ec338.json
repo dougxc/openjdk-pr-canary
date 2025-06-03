@@ -1,0 +1,17 @@
+{
+  "artifact_3252343921": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-aivanov-jdk-fe63e02e91639919556d9acea70c55cd320ec338)\nOpenJDK 64-Bit Server VM (build 25-internal-aivanov-jdk-fe63e02e91639919556d9acea70c55cd320ec338, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d6cebfd06146a4d7529fc4f4ab209527cc39e257.json",
+    "f0633abd7eb71e022d21e020506eacb011250725.json"
+  ],
+  "datetime": "2025-06-03T19:06:41.625082+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25455",
+  "number": 25455,
+  "title": "8357799: Improve instructions for JFileChooser/HTMLFileName.java",
+  "head_sha": "fe63e02e91639919556d9acea70c55cd320ec338",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15423948899"
+}
