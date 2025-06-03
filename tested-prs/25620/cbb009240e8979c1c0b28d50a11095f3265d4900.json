@@ -1,0 +1,16 @@
+{
+  "artifact_3254103815": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ascarpino-cbb009240e8979c1c0b28d50a11095f3265d4900)\nOpenJDK 64-Bit Server VM (build 25-internal-ascarpino-cbb009240e8979c1c0b28d50a11095f3265d4900, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8de4469f928d97ab50c25b8c5548d43d8889a79f.json"
+  ],
+  "datetime": "2025-06-03T22:20:35.423466+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25620",
+  "number": 25620,
+  "title": "8358099: PEM spec updates",
+  "head_sha": "cbb009240e8979c1c0b28d50a11095f3265d4900",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15427253057"
+}
