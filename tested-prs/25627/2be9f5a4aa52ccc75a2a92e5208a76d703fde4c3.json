@@ -1,0 +1,14 @@
+{
+  "artifact_3252649855": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JohnTortugo-2be9f5a4aa52ccc75a2a92e5208a76d703fde4c3)\nOpenJDK 64-Bit Server VM (build 25-internal-JohnTortugo-2be9f5a4aa52ccc75a2a92e5208a76d703fde4c3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-03T20:01:49.251590+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25627",
+  "number": 25627,
+  "title": "8358534: Bailout in Conv2B::Ideal when type of cmp input is not supported",
+  "head_sha": "2be9f5a4aa52ccc75a2a92e5208a76d703fde4c3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15426047154"
+}
