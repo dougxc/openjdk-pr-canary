@@ -1,0 +1,17 @@
+{
+  "artifact_3245559667": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-JohnTortugo-2aabfa728e27c7697d7d0f38ee1448120a7506f2)\nOpenJDK 64-Bit Server VM (build 25-internal-JohnTortugo-2aabfa728e27c7697d7d0f38ee1448120a7506f2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ef10a91a333b1d3e1b3b2dd50c0aac97e2e7b78a.json",
+    "f6c647555ff9ad8037b75b3e02766262bdbf3b23.json"
+  ],
+  "datetime": "2025-06-02T23:52:05.082719+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25402",
+  "number": 25402,
+  "title": "8357600: Patch nmethod flushing message to include more details",
+  "head_sha": "2aabfa728e27c7697d7d0f38ee1448120a7506f2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15404953015"
+}
