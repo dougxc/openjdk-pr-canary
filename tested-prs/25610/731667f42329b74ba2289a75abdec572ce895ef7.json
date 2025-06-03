@@ -1,0 +1,14 @@
+{
+  "artifact_3240525325": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-danielogh-731667f42329b74ba2289a75abdec572ce895ef7)\nOpenJDK 64-Bit Server VM (build 25-internal-danielogh-731667f42329b74ba2289a75abdec572ce895ef7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-03T07:33:45.654804+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25610",
+  "number": 25610,
+  "title": "8357822: C2: Multiple string optimization tests are no longer testing string concatenation optimizations",
+  "head_sha": "731667f42329b74ba2289a75abdec572ce895ef7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15410377733"
+}
