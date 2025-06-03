@@ -1,0 +1,14 @@
+{
+  "artifact_3246626904": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Anjian-Wen-3dcba0d22bb3747b6ab3590c42a0b07e80a3555b)\nOpenJDK 64-Bit Server VM (build 25-internal-Anjian-Wen-3dcba0d22bb3747b6ab3590c42a0b07e80a3555b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-03T09:08:27.886011+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25520",
+  "number": 25520,
+  "title": "8358105: RISC-V: Optimize interpreter profile updates",
+  "head_sha": "3dcba0d22bb3747b6ab3590c42a0b07e80a3555b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15412648867"
+}
