@@ -1,0 +1,22 @@
+{
+  "artifact_3247072139": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-xmas92-9ae37064107f7f9353fbde87c6e5c53527b21221)\nOpenJDK 64-Bit Server VM (build 25-internal-xmas92-9ae37064107f7f9353fbde87c6e5c53527b21221, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3585608999a51700de14168cd120e776dd4285f5.json",
+    "43c0795afcb780e679c3b61c5c3e17077f8f62b8.json",
+    "59aaac661c6edb7ecff134d4cd92669563dca2a5.json",
+    "82a87d8d44fd0f07bb4eb54b526574094a405d83.json",
+    "96ce895f54ef6990387bbb05dd4b0766fefdd1e0.json",
+    "9e20eff78854dc319e66e46299b7ca89129816fa.json",
+    "c8b2ab8b20ba5a5169d11d7afd09e6f14ef92d69.json"
+  ],
+  "datetime": "2025-06-03T07:08:53.692855+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25198",
+  "number": 25198,
+  "title": "8356716: ZGC: Cleanup Uncommit Logic",
+  "head_sha": "9ae37064107f7f9353fbde87c6e5c53527b21221",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15410377733"
+}
