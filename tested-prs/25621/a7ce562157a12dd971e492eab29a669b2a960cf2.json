@@ -1,0 +1,16 @@
+{
+  "artifact_3252787104": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-justin-curtis-lu-a7ce562157a12dd971e492eab29a669b2a960cf2)\nOpenJDK 64-Bit Server VM (build 25-internal-justin-curtis-lu-a7ce562157a12dd971e492eab29a669b2a960cf2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4d587501bf2572753faa84e84e93a923aad33f67.json"
+  ],
+  "datetime": "2025-06-03T20:46:30.126918+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25621",
+  "number": 25621,
+  "title": "8358170: Repurpose testCompat in test/jdk/java/util/TimeZone/Bug8167143.java",
+  "head_sha": "a7ce562157a12dd971e492eab29a669b2a960cf2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15426047154"
+}
