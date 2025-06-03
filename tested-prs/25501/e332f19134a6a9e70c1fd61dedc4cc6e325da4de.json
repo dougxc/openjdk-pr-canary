@@ -1,0 +1,18 @@
+{
+  "artifact_3252784737": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jatin-bhateja-e332f19134a6a9e70c1fd61dedc4cc6e325da4de)\nOpenJDK 64-Bit Server VM (build 25-internal-jatin-bhateja-e332f19134a6a9e70c1fd61dedc4cc6e325da4de, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9c2492397aed34cd0bd312d65337001effd434ad.json",
+    "b5f69c8d08c6d214e8faa5ed6b679fbc45bc8979.json",
+    "b79d8e350d5feec4f1b9358d5f99e5313bfa065e.json"
+  ],
+  "datetime": "2025-06-03T18:45:52.662494+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25501",
+  "number": 25501,
+  "title": "8357982: Fix several failing BMI tests with -XX:+UseAPX",
+  "head_sha": "e332f19134a6a9e70c1fd61dedc4cc6e325da4de",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15423948899"
+}
