@@ -1,0 +1,16 @@
+{
+  "artifact_3248205019": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jatin-bhateja-9ec471643ff2c9a56bb38b783a6726d7eae6f499)\nOpenJDK 64-Bit Server VM (build 25-internal-jatin-bhateja-9ec471643ff2c9a56bb38b783a6726d7eae6f499, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c68b74687c0b6745f779aa303fa2cfaf765042bf.json"
+  ],
+  "datetime": "2025-06-03T09:44:42.670516+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25493",
+  "number": 25493,
+  "title": "8351635: C2 ROR/ROL: assert failed: Long constant expected",
+  "head_sha": "9ec471643ff2c9a56bb38b783a6726d7eae6f499",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15412648867"
+}
