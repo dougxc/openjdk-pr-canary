@@ -1,0 +1,14 @@
+{
+  "artifact_3256545458": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jaikiran-546afbb7046421cd3f14e128c305d8bf3d08c1df)\nOpenJDK 64-Bit Server VM (build 25-internal-jaikiran-546afbb7046421cd3f14e128c305d8bf3d08c1df, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-04T07:52:52.713625+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25634",
+  "number": 25634,
+  "title": "8358558: (zipfs) Reorder the listing of accessMode property in the ZIP file system's documentation",
+  "head_sha": "546afbb7046421cd3f14e128c305d8bf3d08c1df",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15436286517"
+}
