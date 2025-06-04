@@ -1,0 +1,14 @@
+{
+  "artifact_3255702647": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-limingliu-ampere-db926eb06fe99a805bf2cc0607a2c1ab1a3d80c4)\nOpenJDK 64-Bit Server VM (build 25-internal-limingliu-ampere-db926eb06fe99a805bf2cc0607a2c1ab1a3d80c4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-04T04:17:36.213276+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25609",
+  "number": 25609,
+  "title": "8358032: Use crypto pmull for CRC32/CRC32C intrinsics on Ampere CPU",
+  "head_sha": "db926eb06fe99a805bf2cc0607a2c1ab1a3d80c4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15433162026"
+}
