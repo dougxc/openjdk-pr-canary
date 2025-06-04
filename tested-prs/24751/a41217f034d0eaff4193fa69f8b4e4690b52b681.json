@@ -1,0 +1,21 @@
+{
+  "artifact_3260607402": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dfuch-a41217f034d0eaff4193fa69f8b4e4690b52b681)\nOpenJDK 64-Bit Server VM (build 25-internal-dfuch-a41217f034d0eaff4193fa69f8b4e4690b52b681, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1a32b194cf09bc41add3b9d9cbe4430516086a4e.json",
+    "4da61bbea6261459c649dd6c61666f91524e5f53.json",
+    "8c27f53c58787f6919a3fc7dd3a81c111770baf7.json",
+    "9156a51e1aaaa0574e485de07847c4669c3a38b4.json",
+    "9c2da664d2875b7e7986831fd716d05b7a8306f4.json",
+    "dfa26044ef470fb513ea357cd9185af5d06bab2d.json"
+  ],
+  "datetime": "2025-06-04T17:08:56.084394+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24751",
+  "number": 24751,
+  "title": "8349910: Implement JEP 517: HTTP/3 for the HTTP Client API",
+  "head_sha": "a41217f034d0eaff4193fa69f8b4e4690b52b681",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15447723705"
+}
