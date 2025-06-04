@@ -1,0 +1,14 @@
+{
+  "artifact_3263074586": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-naotoj-a5b1c576dc06504d96bdcb566d1c31edfb710953)\nOpenJDK 64-Bit Server VM (build 25-internal-naotoj-a5b1c576dc06504d96bdcb566d1c31edfb710953, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-04T22:41:00.812950+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25648",
+  "number": 25648,
+  "title": "8358626: Emit UTF-8 CLDR resources",
+  "head_sha": "a5b1c576dc06504d96bdcb566d1c31edfb710953",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15454062150"
+}
