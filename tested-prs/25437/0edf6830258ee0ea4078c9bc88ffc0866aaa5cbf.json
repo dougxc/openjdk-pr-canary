@@ -1,0 +1,19 @@
+{
+  "artifact_3259238457": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-wenshao-0edf6830258ee0ea4078c9bc88ffc0866aaa5cbf)\nOpenJDK 64-Bit Server VM (build 25-internal-wenshao-0edf6830258ee0ea4078c9bc88ffc0866aaa5cbf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "11e316148a7df075d0941cfdda196dcf036c235c.json",
+    "4e9be2c693a19bb22a1d4499a1472ffc92c30d11.json",
+    "6723b1a9dd8f876a6b05e63059385ca233acbf5b.json",
+    "9b5a430ba01f7df95c5882759e3cb5a2901f2ea8.json"
+  ],
+  "datetime": "2025-06-04T13:57:51.973638+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25437",
+  "number": 25437,
+  "title": "8357913: Add `@Stable` to BigInteger and BigDecimal",
+  "head_sha": "0edf6830258ee0ea4078c9bc88ffc0866aaa5cbf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15442960346"
+}
