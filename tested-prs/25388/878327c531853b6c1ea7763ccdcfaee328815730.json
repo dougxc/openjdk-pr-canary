@@ -1,0 +1,14 @@
+{
+  "artifact_3258471383": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-caspernorrbin-878327c531853b6c1ea7763ccdcfaee328815730)\nOpenJDK 64-Bit Server VM (build 25-internal-caspernorrbin-878327c531853b6c1ea7763ccdcfaee328815730, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-04T12:18:13.637527+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25388",
+  "number": 25388,
+  "title": "8356868: Not all cgroup parameters are made available",
+  "head_sha": "878327c531853b6c1ea7763ccdcfaee328815730",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15441081089"
+}
