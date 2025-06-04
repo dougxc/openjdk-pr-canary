@@ -1,0 +1,18 @@
+{
+  "artifact_3262448932": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mickleness-660028bcc88d3ebd9884e01af6cdd9217c222553)\nOpenJDK 64-Bit Server VM (build 25-internal-mickleness-660028bcc88d3ebd9884e01af6cdd9217c222553, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0c299471bb1eccccbca5f6c3a1800ac9dee9a14c.json",
+    "bdbd51b0728c62d20665cec1cd7ed3aa17241306.json",
+    "fe1b781cf43c19c4290956cfc5a7de4e1d07dfd6.json"
+  ],
+  "datetime": "2025-06-04T20:37:34.271520+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25443",
+  "number": 25443,
+  "title": "8354646: java.awt.TextField allows to identify the spaces in a password when double clicked at the starting and end of the text",
+  "head_sha": "660028bcc88d3ebd9884e01af6cdd9217c222553",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15452045526"
+}
