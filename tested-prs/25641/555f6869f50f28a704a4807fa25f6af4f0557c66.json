@@ -1,0 +1,14 @@
+{
+  "artifact_3259902266": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rgiulietti-555f6869f50f28a704a4807fa25f6af4f0557c66)\nOpenJDK 64-Bit Server VM (build 25-internal-rgiulietti-555f6869f50f28a704a4807fa25f6af4f0557c66, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-04T15:11:15.055186+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25641",
+  "number": 25641,
+  "title": "8358540: Enhance MathUtils in view of FloatingDecimal enhancements",
+  "head_sha": "555f6869f50f28a704a4807fa25f6af4f0557c66",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15445414981"
+}
