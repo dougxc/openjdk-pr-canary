@@ -179407,6 +179407,110 @@
 		},
 		"aliases": [
 			"jdk-25-3319"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-25+26-3320",
+		"revisions": {
+			"open": [
+				"ae1892fb0fb6b7646f9ca60067d6945ccea7f888"
+			],
+			"graal-enterprise": [
+				"2b4ac652f80d167d0b4e487999426ddaa7f81ec4"
+			],
+			"graal": [
+				"6be3c7081b37886412ab9ba1f7e6701c3f815582"
+			],
+			"mx": [
+				"9ff24b5ac4fcbd3dc0f984830b3cd981a181f461"
+			],
+			".": [
+				"348aed9bc7c27ec9a6384e6ed26ec573b93bc88f"
+			]
+		},
+		"aliases": [
+			"jdk-25-3320"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-25+26-3321",
+		"revisions": {
+			".": [
+				"6c2a8468fb0ffe915dd3a3de64a2633f0d7c2df3"
+			],
+			"open": [
+				"a2723d91dfba2850e3070083fa94dc3fecc46a00"
+			],
+			"graal-enterprise": [
+				"2b4ac652f80d167d0b4e487999426ddaa7f81ec4"
+			],
+			"graal": [
+				"6be3c7081b37886412ab9ba1f7e6701c3f815582"
+			],
+			"mx": [
+				"9ff24b5ac4fcbd3dc0f984830b3cd981a181f461"
+			]
+		},
+		"aliases": [
+			"jdk-25-3321"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-25+26-3322",
+		"revisions": {
+			".": [
+				"6c2a8468fb0ffe915dd3a3de64a2633f0d7c2df3"
+			],
+			"graal": [
+				"9316c8dec501da590f651cf5118ab80947c3d644",
+				"2d64c2a4809240a21132eb0841139894ff7f37fe",
+				"d53f96b7eba4c65e14de95d72f5a566d095a668c"
+			],
+			"open": [
+				"4e314cb9e025672b2f7b68cc021fa516ee219ad8"
+			],
+			"mx": [
+				"9ff24b5ac4fcbd3dc0f984830b3cd981a181f461"
+			],
+			"graal-enterprise": [
+				"5051f6e2c7586eaa7b0b5612665ef6c9edb4be45",
+				"5fbd4c18bca57867bf97e3e4adc65339b58b30b1"
+			]
+		},
+		"aliases": [
+			"jdk-25-3322"
+		]
+	},
+	{
+		"id": "jdk-25+26-3323",
+		"revisions": {
+			"open": [
+				"c90921644643bc731cab4c014a5144a74e670df1"
+			],
+			".": [
+				"6c2a8468fb0ffe915dd3a3de64a2633f0d7c2df3"
+			],
+			"graal": [
+				"9316c8dec501da590f651cf5118ab80947c3d644"
+			],
+			"mx": [
+				"9ff24b5ac4fcbd3dc0f984830b3cd981a181f461"
+			],
+			"graal-enterprise": [
+				"5051f6e2c7586eaa7b0b5612665ef6c9edb4be45"
+			]
+		},
+		"aliases": [
+			"jdk-25-3323"
 		]
 	}
 ]
