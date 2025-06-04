@@ -1,0 +1,14 @@
+{
+  "artifact_3247391094": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-bulasevich-a507aa8d25d23d93aa1bd7af9fe0cb103b11709f)\nOpenJDK 64-Bit Server VM (build 25-internal-bulasevich-a507aa8d25d23d93aa1bd7af9fe0cb103b11709f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-04T05:04:00.922857+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25608",
+  "number": 25608,
+  "title": "8358183: [JVMCI] crash accessing nmethod::jvmci_name in CodeCache::aggregate",
+  "head_sha": "a507aa8d25d23d93aa1bd7af9fe0cb103b11709f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15433731154"
+}
