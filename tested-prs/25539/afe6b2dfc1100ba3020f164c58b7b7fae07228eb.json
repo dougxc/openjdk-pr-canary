@@ -1,0 +1,16 @@
+{
+  "artifact_3256992699": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-XiaohongGong-afe6b2dfc1100ba3020f164c58b7b7fae07228eb)\nOpenJDK 64-Bit Server VM (build 25-internal-XiaohongGong-afe6b2dfc1100ba3020f164c58b7b7fae07228eb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "796e96f76b718deac698d216f320b08badef2479.json"
+  ],
+  "datetime": "2025-06-04T08:51:02.249625+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25539",
+  "number": 25539,
+  "title": "8357726: Improve C2 to recognize counted loops with multiple casts in trip counter",
+  "head_sha": "afe6b2dfc1100ba3020f164c58b7b7fae07228eb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15437695945"
+}
