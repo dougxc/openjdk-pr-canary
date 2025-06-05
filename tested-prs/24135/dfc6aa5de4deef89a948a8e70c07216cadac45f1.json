@@ -5,7 +5,7 @@
   },
   "status": "passed",
   "history": [],
-  "datetime": "2025-06-05T19:05:39.119281+00:00",
+  "datetime": "2025-06-05T19:06:50.840861+00:00",
   "url": "https://github.com/openjdk/jdk/pull/24135",
   "number": 24135,
   "title": "8334247: [PPC64] Consider trap based nmethod entry barriers",
