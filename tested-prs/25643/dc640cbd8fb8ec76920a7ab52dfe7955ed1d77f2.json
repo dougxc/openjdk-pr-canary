@@ -1,0 +1,16 @@
+{
+  "artifact_3265188363": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-eme64-dc640cbd8fb8ec76920a7ab52dfe7955ed1d77f2)\nOpenJDK 64-Bit Server VM (build 25-internal-eme64-dc640cbd8fb8ec76920a7ab52dfe7955ed1d77f2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "11d55dc7ff2b2137700248e11492e11d2d748cab.json"
+  ],
+  "datetime": "2025-06-05T07:16:51.285881+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25643",
+  "number": 25643,
+  "title": "8358600: Template-Framework Library: Template for TestFramework test class",
+  "head_sha": "dc640cbd8fb8ec76920a7ab52dfe7955ed1d77f2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15460318889"
+}
