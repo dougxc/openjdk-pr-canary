@@ -1,0 +1,19 @@
+{
+  "artifact_3270509831": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-minborg-0da4c0be80461f2107a55195ff56df33da027ca8)\nOpenJDK 64-Bit Server VM (build 25-internal-minborg-0da4c0be80461f2107a55195ff56df33da027ca8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5c878bbdd6100ee9b8231934075f86477774f53a.json",
+    "9e0d67ec27fd6cb74b87175b5166194f9d766b76.json",
+    "d0cd7bbb16aa59e607e12f45bbdaaa3a58a9a0d2.json",
+    "e9e8d15e3c96844e09349b71bc1a28271e5a0cec.json"
+  ],
+  "datetime": "2025-06-05T20:39:54.613357+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25383",
+  "number": 25383,
+  "title": "8357531: The `SegmentBulkOperations::fill` method can be improved using overlaps",
+  "head_sha": "0da4c0be80461f2107a55195ff56df33da027ca8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15476615391"
+}
