@@ -1,0 +1,16 @@
+{
+  "artifact_3274804710": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-kevinjwalls-e3b46cc6132100c149b1d955fd0d9dc2109f8a65)\nOpenJDK 64-Bit Server VM (build 26-internal-kevinjwalls-e3b46cc6132100c149b1d955fd0d9dc2109f8a65, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "26ffc32ef9f6425efc50e2b91b399900e7ce39fe.json"
+  ],
+  "datetime": "2025-06-06T10:28:49.625146+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25670",
+  "number": 25670,
+  "title": "Remove misleading javax.management.remote API doc wording about JMX spec, and historic link to JMXMP",
+  "head_sha": "e3b46cc6132100c149b1d955fd0d9dc2109f8a65",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15487433354"
+}
