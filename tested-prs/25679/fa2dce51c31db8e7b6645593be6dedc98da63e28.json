@@ -1,0 +1,14 @@
+{
+  "artifact_3278472680": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-openjdk-bot-fa2dce51c31db8e7b6645593be6dedc98da63e28)\nOpenJDK 64-Bit Server VM (build 26-internal-openjdk-bot-fa2dce51c31db8e7b6645593be6dedc98da63e28, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-06T19:36:38.056192+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25679",
+  "number": 25679,
+  "title": "8345414: Google CAInterop test failures",
+  "head_sha": "fa2dce51c31db8e7b6645593be6dedc98da63e28",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15498173510"
+}
