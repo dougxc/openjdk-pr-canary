@@ -1,0 +1,14 @@
+{
+  "artifact_3272984732": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prsadhuk-f79b4ca9172b9af6af4e68834c5274d8b11fa82f)\nOpenJDK 64-Bit Server VM (build 25-internal-prsadhuk-f79b4ca9172b9af6af4e68834c5274d8b11fa82f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-06T04:04:18.285651+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25666",
+  "number": 25666,
+  "title": "8055461: getNextID in ImageIcon class can lead to overflow",
+  "head_sha": "f79b4ca9172b9af6af4e68834c5274d8b11fa82f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15482432351"
+}
