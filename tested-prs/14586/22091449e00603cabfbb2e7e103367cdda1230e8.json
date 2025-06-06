@@ -1,0 +1,14 @@
+{
+  "artifact_3276577600": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rwestrel-22091449e00603cabfbb2e7e103367cdda1230e8)\nOpenJDK 64-Bit Server VM (build 25-internal-rwestrel-22091449e00603cabfbb2e7e103367cdda1230e8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-06T14:55:36.309244+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/14586",
+  "number": 14586,
+  "title": "8275202: C2: optimize out more redundant conditions",
+  "head_sha": "22091449e00603cabfbb2e7e103367cdda1230e8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15493016074"
+}
