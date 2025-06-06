@@ -1,0 +1,17 @@
+{
+  "artifact_3275233353": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-vy-9fce1c3b7634fb9841ea0a82e90e1b1ed8b4dd29)\nOpenJDK 64-Bit Server VM (build 25-internal-vy-9fce1c3b7634fb9841ea0a82e90e1b1ed8b4dd29, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0a7800ab02b200ded937dee4458f1cd6d3931c0a.json",
+    "b5f3c8dc6f49756c99a17a2cce7f647acbe1ae85.json"
+  ],
+  "datetime": "2025-06-06T11:51:47.445178+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25662",
+  "number": 25662,
+  "title": "8358688: HttpClient: Simplify file streaming in RequestPublishers.FilePublisher",
+  "head_sha": "9fce1c3b7634fb9841ea0a82e90e1b1ed8b4dd29",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15489456134"
+}
