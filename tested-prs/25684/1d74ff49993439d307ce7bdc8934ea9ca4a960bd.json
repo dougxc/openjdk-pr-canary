@@ -1,0 +1,14 @@
+{
+  "artifact_3280041006": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-alexmenkov-1d74ff49993439d307ce7bdc8934ea9ca4a960bd)\nOpenJDK 64-Bit Server VM (build 26-internal-alexmenkov-1d74ff49993439d307ce7bdc8934ea9ca4a960bd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-07T02:27:08.753217+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25684",
+  "number": 25684,
+  "title": "8358094: Test vmTestbase/nsk/jvmti/AttachOnDemand/attach045/TestDescription.java still times out after JDK-8357282",
+  "head_sha": "1d74ff49993439d307ce7bdc8934ea9ca4a960bd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15503208019"
+}
