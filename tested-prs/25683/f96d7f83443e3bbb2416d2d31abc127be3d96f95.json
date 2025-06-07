@@ -1,0 +1,14 @@
+{
+  "artifact_3279785238": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-alexmenkov-f96d7f83443e3bbb2416d2d31abc127be3d96f95)\nOpenJDK 64-Bit Server VM (build 26-internal-alexmenkov-f96d7f83443e3bbb2416d2d31abc127be3d96f95, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-07T02:37:46.835435+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25683",
+  "number": 25683,
+  "title": "8358577: Test serviceability/jvmti/thread/GetCurrentContendedMonitor/contmon01/contmon01.java failed: unexpexcted monitor object",
+  "head_sha": "f96d7f83443e3bbb2416d2d31abc127be3d96f95",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15503208019"
+}
