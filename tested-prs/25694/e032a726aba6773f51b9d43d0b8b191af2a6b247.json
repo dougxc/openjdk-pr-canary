@@ -1,0 +1,14 @@
+{
+  "artifact_3288126105": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-kevinjwalls-e032a726aba6773f51b9d43d0b8b191af2a6b247)\nOpenJDK 64-Bit Server VM (build 26-internal-kevinjwalls-e032a726aba6773f51b9d43d0b8b191af2a6b247, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-09T13:59:52.254656+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25694",
+  "number": 25694,
+  "title": "8358970: CounterMonitorMBean.getDerivedGaugeTimeStamp() JavaDoc incorrectly documents null",
+  "head_sha": "e032a726aba6773f51b9d43d0b8b191af2a6b247",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15536007257"
+}
