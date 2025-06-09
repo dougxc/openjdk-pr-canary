@@ -1,0 +1,18 @@
+{
+  "artifact_3291826071": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kdnilsen-8ec6ea066d4ac3e37aaebe43db93d8c6d4edb4f9)\nOpenJDK 64-Bit Server VM (build 25-internal-kdnilsen-8ec6ea066d4ac3e37aaebe43db93d8c6d4edb4f9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3d55a6461a8f0c1dffcba76dfe3fdb711165c4f2.json",
+    "ae8c83c9c0dc54f6d555a7f227c12364ff267ed1.json",
+    "f0afae010c626e9c1523d7038ce8d304c4039f50.json"
+  ],
+  "datetime": "2025-06-09T23:07:56.574882+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25357",
+  "number": 25357,
+  "title": "8357471: GenShen: Share collector reserves between young and old",
+  "head_sha": "8ec6ea066d4ac3e37aaebe43db93d8c6d4edb4f9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15546070923"
+}
