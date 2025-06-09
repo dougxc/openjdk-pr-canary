@@ -1,0 +1,15 @@
+{
+  "artifact_3290237623": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-naotoj-ad5df6ca3d1e51974e0df144137337d2a2f9f050)\nOpenJDK 64-Bit Server VM (build 26-internal-naotoj-ad5df6ca3d1e51974e0df144137337d2a2f9f050, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-06-09T19:30:05.514176+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25699",
+  "number": 25699,
+  "title": "8358734: Remove JavaTimeSupplementary resource bundles",
+  "head_sha": "ad5df6ca3d1e51974e0df144137337d2a2f9f050",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15542806477"
+}
