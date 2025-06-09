@@ -1,0 +1,16 @@
+{
+  "artifact_3291218378": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-anass-baya-783195717b9e2d2cf17f048eeb9db6dc6e5eeb49)\nOpenJDK 64-Bit Server VM (build 26-internal-anass-baya-783195717b9e2d2cf17f048eeb9db6dc6e5eeb49, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "268e79c1b4c51cd6e2e23bed9c9b5439133e118d.json"
+  ],
+  "datetime": "2025-06-09T22:16:01.468828+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25619",
+  "number": 25619,
+  "title": "8346952 : GetGraphicsStressTest.java fails: Native resources unavailable",
+  "head_sha": "783195717b9e2d2cf17f048eeb9db6dc6e5eeb49",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15545035409"
+}
