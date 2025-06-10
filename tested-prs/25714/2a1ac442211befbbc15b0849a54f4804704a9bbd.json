@@ -1,0 +1,14 @@
+{
+  "artifact_3294399162": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-benoitmaillard-2a1ac442211befbbc15b0849a54f4804704a9bbd)\nOpenJDK 64-Bit Server VM (build 26-internal-benoitmaillard-2a1ac442211befbbc15b0849a54f4804704a9bbd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-10T11:18:47.468589+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25714",
+  "number": 25714,
+  "title": "8356751: IGV: clean up redundant field _should_send_method",
+  "head_sha": "2a1ac442211befbbc15b0849a54f4804704a9bbd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15557237253"
+}
