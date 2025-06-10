@@ -1,0 +1,14 @@
+{
+  "artifact_3299282009": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-naotoj-924a71a9ac3f5a553af245ebd7b48f68a90b7954)\nOpenJDK 64-Bit Server VM (build 26-internal-naotoj-924a71a9ac3f5a553af245ebd7b48f68a90b7954, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-10T19:47:51.363896+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25732",
+  "number": 25732,
+  "title": "8358819: The first year is not displayed correctly in Japanese Calendar",
+  "head_sha": "924a71a9ac3f5a553af245ebd7b48f68a90b7954",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15568437488"
+}
