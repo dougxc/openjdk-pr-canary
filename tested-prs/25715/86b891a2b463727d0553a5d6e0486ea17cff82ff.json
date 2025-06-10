@@ -1,0 +1,16 @@
+{
+  "artifact_3298656943": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-minborg-86b891a2b463727d0553a5d6e0486ea17cff82ff)\nOpenJDK 64-Bit Server VM (build 26-internal-minborg-86b891a2b463727d0553a5d6e0486ea17cff82ff, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7e4d4bf3adc49ff48c377e769153caf841eca9f5.json"
+  ],
+  "datetime": "2025-06-10T17:43:36.958682+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25715",
+  "number": 25715,
+  "title": "8345292: Improve javadocs for MemorySegment::getStrings defining word boundary cases",
+  "head_sha": "86b891a2b463727d0553a5d6e0486ea17cff82ff",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15566250202"
+}
