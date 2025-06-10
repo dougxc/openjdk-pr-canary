@@ -1,0 +1,18 @@
+{
+  "artifact_3293855479": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-MBaesken-3f64dffee88217e8d56f27725742853b2ec7e19a)\nOpenJDK 64-Bit Server VM (build 25-internal-MBaesken-3f64dffee88217e8d56f27725742853b2ec7e19a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8b9e3dded439fba83c8f5b97408e8afd07133e55.json",
+    "aa796c8a87939736772a690d427e40f2be775efa.json",
+    "f8458f108890ac535b84149fc13ed89d3e01ab07.json"
+  ],
+  "datetime": "2025-06-10T07:40:45.469168+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25575",
+  "number": 25575,
+  "title": "8357826: Avoid running some jtreg tests when asan is configured",
+  "head_sha": "3f64dffee88217e8d56f27725742853b2ec7e19a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15553314417"
+}
