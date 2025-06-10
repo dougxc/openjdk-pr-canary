@@ -1,0 +1,14 @@
+{
+  "artifact_3296761085": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-AlanBateman-6a51ffc5f0b2e43a68e8e537341b0d260102abb8)\nOpenJDK 64-Bit Server VM (build 26-internal-AlanBateman-6a51ffc5f0b2e43a68e8e537341b0d260102abb8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-10T14:05:26.790193+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25700",
+  "number": 25700,
+  "title": "8358764: (sc) SocketChannel.close when thread blocked in read causes connection to be reset (win)",
+  "head_sha": "6a51ffc5f0b2e43a68e8e537341b0d260102abb8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15560179057"
+}
