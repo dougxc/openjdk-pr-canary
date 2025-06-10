@@ -1,0 +1,16 @@
+{
+  "artifact_3299906071": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-TheRealMDoerr-667d307a1286abc611e894b312fe1b4924f2aba8)\nOpenJDK 64-Bit Server VM (build 26-internal-TheRealMDoerr-667d307a1286abc611e894b312fe1b4924f2aba8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3bcb52772f949d4ceb73872dd7cfeca71d61f52a.json"
+  ],
+  "datetime": "2025-06-10T20:45:13.109980+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25734",
+  "number": 25734,
+  "title": "8359165: AIX build broken after 8358799",
+  "head_sha": "667d307a1286abc611e894b312fe1b4924f2aba8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15569664937"
+}
