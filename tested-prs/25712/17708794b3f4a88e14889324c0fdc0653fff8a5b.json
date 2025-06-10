@@ -1,0 +1,14 @@
+{
+  "artifact_3294125580": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-17708794b3f4a88e14889324c0fdc0653fff8a5b)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-17708794b3f4a88e14889324c0fdc0653fff8a5b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-10T15:07:03.282323+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25712",
+  "number": 25712,
+  "title": "8358171: Additional code coverage for PEM API",
+  "head_sha": "17708794b3f4a88e14889324c0fdc0653fff8a5b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15561217602"
+}
