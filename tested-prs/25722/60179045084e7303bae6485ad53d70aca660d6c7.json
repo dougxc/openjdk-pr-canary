@@ -1,0 +1,14 @@
+{
+  "artifact_3296302009": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-caspernorrbin-60179045084e7303bae6485ad53d70aca660d6c7)\nOpenJDK 64-Bit Server VM (build 26-internal-caspernorrbin-60179045084e7303bae6485ad53d70aca660d6c7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-10T13:11:26.220858+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25722",
+  "number": 25722,
+  "title": "8358891: Remove the PerfDataSamplingIntervalFunc code",
+  "head_sha": "60179045084e7303bae6485ad53d70aca660d6c7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15560179057"
+}
