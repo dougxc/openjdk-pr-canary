@@ -1,0 +1,34 @@
+{
+  "artifact_3299880782": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-rvansa-36510e22b25f1792bc53f867c62b1f0f58a2c8fd)\nOpenJDK 64-Bit Server VM (build 25-internal-rvansa-36510e22b25f1792bc53f867c62b1f0f58a2c8fd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0226f470a2868bd27e24394b28181790661607d9.json",
+    "0a2f968e24f5582ced350a326d051f6123418d3c.json",
+    "148802fba29a8e87d769fef457e2b5b0794ffecf.json",
+    "14e00d0fe604e304a6aa000538fbdc30b5e0f987.json",
+    "14f9bdf7d5be1539d02f949bae1eb97cc1d25d7a.json",
+    "1795e4b9709e0431ef6f88cbe3fc02d4ffdce463.json",
+    "1806d0222572127169d0e7646352dc9f140850d7.json",
+    "5d6463766010e5d905feecd5d8130ec1d6cd0fa5.json",
+    "7d8b4a19cc1272e5214e277972350a9aa0cb33ae.json",
+    "7fb8d340f26e2d0ba7aa02fe1865638206be9e2c.json",
+    "862b264b62e20f0cbf30d55dbbfc5d86af47217d.json",
+    "bd186c4b3fb10bcef028f69c5dba705778f6fb9d.json",
+    "c3730b6e60eca9cf2803bca5d7a534e4beb760b3.json",
+    "c592ea599019d0c5cede8eaaf0c3b883425b4fc9.json",
+    "d75d624082b667f78cd1b4fed29116769f773844.json",
+    "dbee64a7f55c71f8598a1ab9bbaf6c0da2f2092e.json",
+    "e214a8ec14b13d37d051f4faaf8d8051df7e48b6.json",
+    "fde66f350fad7f458f4a069f88bf90c5d35236b3.json",
+    "fe79871040f3098bef182cc8bc50ab62a32fa3c9.json"
+  ],
+  "datetime": "2025-06-10T20:58:06.435960+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24847",
+  "number": 24847,
+  "title": "8352075: Perf regression accessing fields",
+  "head_sha": "36510e22b25f1792bc53f867c62b1f0f58a2c8fd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15569664937"
+}
