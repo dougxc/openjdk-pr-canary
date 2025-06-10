@@ -1,0 +1,14 @@
+{
+  "artifact_3297261763": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-TheRealMDoerr-40a903d729bea3f0396edd34d773e67325ce0c13)\nOpenJDK 64-Bit Server VM (build 26-internal-TheRealMDoerr-40a903d729bea3f0396edd34d773e67325ce0c13, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-10T16:07:45.810178+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25728",
+  "number": 25728,
+  "title": "8359126: [AIX] new test TestImplicitNullChecks.java fails",
+  "head_sha": "40a903d729bea3f0396edd34d773e67325ce0c13",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15563793546"
+}
