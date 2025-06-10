@@ -1,0 +1,14 @@
+{
+  "artifact_3294206740": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-AlanBateman-d7734f91e8b04d233c8086d00e6eb5b6766ac01c)\nOpenJDK 64-Bit Server VM (build 26-internal-AlanBateman-d7734f91e8b04d233c8086d00e6eb5b6766ac01c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-10T09:15:40.461124+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25691",
+  "number": 25691,
+  "title": "8358958: (aio) AsynchronousByteChannel.read/write should throw IAE if buffer is thread-confined",
+  "head_sha": "d7734f91e8b04d233c8086d00e6eb5b6766ac01c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15554761929"
+}
