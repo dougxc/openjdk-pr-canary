@@ -1,0 +1,14 @@
+{
+  "artifact_3297318776": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-archiecobbs-59cebf473b20fba9ae71fed38ab9da7790770759)\nOpenJDK 64-Bit Server VM (build 26-internal-archiecobbs-59cebf473b20fba9ae71fed38ab9da7790770759, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-10T15:47:30.879202+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25730",
+  "number": 25730,
+  "title": "8359131: JShell AbstractStopExecutionTest does not stop reliably",
+  "head_sha": "59cebf473b20fba9ae71fed38ab9da7790770759",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15563793546"
+}
