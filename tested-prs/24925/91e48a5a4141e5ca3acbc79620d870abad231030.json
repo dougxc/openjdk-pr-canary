@@ -1,0 +1,17 @@
+{
+  "artifact_3298215751": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kabutz-91e48a5a4141e5ca3acbc79620d870abad231030)\nOpenJDK 64-Bit Server VM (build 25-internal-kabutz-91e48a5a4141e5ca3acbc79620d870abad231030, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "27b053623c28d3d1908fae8e7500b03d9aed4466.json",
+    "76282a43919566e14819f4af9685d0e1b5be9b4c.json"
+  ],
+  "datetime": "2025-06-10T16:49:48.879848+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24925",
+  "number": 24925,
+  "title": "8355726: LinkedBlockingDeque fixes and improvements",
+  "head_sha": "91e48a5a4141e5ca3acbc79620d870abad231030",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15563793546"
+}
