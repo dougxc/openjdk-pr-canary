@@ -1,0 +1,16 @@
+{
+  "artifact_3300622473": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-sspitsyn-021756c5a4df7f40a1b30792c8c70226a43e6dd5)\nOpenJDK 64-Bit Server VM (build 26-internal-sspitsyn-021756c5a4df7f40a1b30792c8c70226a43e6dd5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ba775955ed3515c9a514fba85a87016ee2035365.json"
+  ],
+  "datetime": "2025-06-10T22:57:28.664745+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25710",
+  "number": 25710,
+  "title": "8358815: Exception event spec has stale reference to catch_klass parameter",
+  "head_sha": "021756c5a4df7f40a1b30792c8c70226a43e6dd5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15571671633"
+}
