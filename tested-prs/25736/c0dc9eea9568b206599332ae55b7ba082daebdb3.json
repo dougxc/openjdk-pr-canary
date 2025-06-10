@@ -1,0 +1,14 @@
+{
+  "artifact_3300835159": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-c0dc9eea9568b206599332ae55b7ba082daebdb3)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-c0dc9eea9568b206599332ae55b7ba082daebdb3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-10T22:45:11.373666+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25736",
+  "number": 25736,
+  "title": "8359170: Add 2 TLS and 2 CS Sectigo roots",
+  "head_sha": "c0dc9eea9568b206599332ae55b7ba082daebdb3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15571671633"
+}
