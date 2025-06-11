@@ -1,0 +1,14 @@
+{
+  "artifact_3300938465": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-calvinccheung-47eda50c23358027af0a2376f3bd54bc52a865a2)\nOpenJDK 64-Bit Server VM (build 26-internal-calvinccheung-47eda50c23358027af0a2376f3bd54bc52a865a2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-10T23:59:33.927474+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25737",
+  "number": 25737,
+  "title": "8357382: runtime/cds/appcds/aotClassLinking/BulkLoaderTest.java#aot fails with Xcomp and C1",
+  "head_sha": "47eda50c23358027af0a2376f3bd54bc52a865a2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15572390732"
+}
