@@ -1,0 +1,16 @@
+{
+  "artifact_3304590799": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-TejeshR13-44328ffc9eb8c121d74182d8ea3ecea3a6d9a8fd)\nOpenJDK 64-Bit Server VM (build 26-internal-TejeshR13-44328ffc9eb8c121d74182d8ea3ecea3a6d9a8fd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "77d8fb61beaec419c30124dea3f287c5ef39119b.json"
+  ],
+  "datetime": "2025-06-11T14:54:12.668292+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25707",
+  "number": 25707,
+  "title": "8358532: JFileChooser in GTK L&F still displays HTML filename",
+  "head_sha": "44328ffc9eb8c121d74182d8ea3ecea3a6d9a8fd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15585555902"
+}
