@@ -182303,5 +182303,31 @@
 		"aliases": [
 			"jdk-26-73"
 		]
+	},
+	{
+		"id": "jdk-26+2-74",
+		"revisions": {
+			"graal": [
+				"fea3bacc62f202224883415295a0315c3b804a2c"
+			],
+			"open": [
+				"5ae32c4c86916120d2a337be9765cb6e14f3f443"
+			],
+			"graal-enterprise": [
+				"e5a4026bd4ac6532a98b085313d6f2fd34a530ed"
+			],
+			".": [
+				"3eb76e529fec51a15af36923d6fd3c7dae44726a"
+			],
+			"mx": [
+				"7e484c4da0e7c94310071dfa10cb5347b357f397"
+			]
+		},
+		"aliases": [
+			"jdk-26-74"
+		],
+		"tags": [
+			"UNUSABLE"
+		]
 	}
 ]
