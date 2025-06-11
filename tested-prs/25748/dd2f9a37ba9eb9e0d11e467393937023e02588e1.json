@@ -1,0 +1,14 @@
+{
+  "artifact_3304931746": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-vy-dd2f9a37ba9eb9e0d11e467393937023e02588e1)\nOpenJDK 64-Bit Server VM (build 26-internal-vy-dd2f9a37ba9eb9e0d11e467393937023e02588e1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-11T14:09:15.552857+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25748",
+  "number": 25748,
+  "title": "8359225: Remove unused test/jdk/javax/script/MyContext.java",
+  "head_sha": "dd2f9a37ba9eb9e0d11e467393937023e02588e1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15585555902"
+}
