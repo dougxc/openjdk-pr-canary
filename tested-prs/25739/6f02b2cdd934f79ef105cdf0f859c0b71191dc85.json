@@ -1,0 +1,14 @@
+{
+  "artifact_3301547430": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-bplb-6f02b2cdd934f79ef105cdf0f859c0b71191dc85)\nOpenJDK 64-Bit Server VM (build 26-internal-bplb-6f02b2cdd934f79ef105cdf0f859c0b71191dc85, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-11T02:30:32.055505+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25739",
+  "number": 25739,
+  "title": "8357286: (bf) Remove obsolete instanceof checks in CharBuffer.append",
+  "head_sha": "6f02b2cdd934f79ef105cdf0f859c0b71191dc85",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15574513347"
+}
