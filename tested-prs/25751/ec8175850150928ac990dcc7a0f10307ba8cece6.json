@@ -1,0 +1,14 @@
+{
+  "artifact_3305120860": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-TobiHartmann-ec8175850150928ac990dcc7a0f10307ba8cece6)\nOpenJDK 64-Bit Server VM (build 26-internal-TobiHartmann-ec8175850150928ac990dcc7a0f10307ba8cece6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-11T13:46:45.179430+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25751",
+  "number": 25751,
+  "title": "8359200: Memory corruption in MStack::push",
+  "head_sha": "ec8175850150928ac990dcc7a0f10307ba8cece6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15585555902"
+}
