@@ -1,0 +1,14 @@
+{
+  "artifact_3305633121": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-djelinski-4f5081578f877d3574c001e306220f27e736e36f)\nOpenJDK 64-Bit Server VM (build 26-internal-djelinski-4f5081578f877d3574c001e306220f27e736e36f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-11T16:53:39.874620+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25754",
+  "number": 25754,
+  "title": "8131136: java/awt/font/JNICheck/JNICheck.sh issue warning on core-libs code",
+  "head_sha": "4f5081578f877d3574c001e306220f27e736e36f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15589212613"
+}
