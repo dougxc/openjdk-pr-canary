@@ -1,0 +1,16 @@
+{
+  "artifact_3304123774": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jatin-bhateja-821be711f6f101e06389dee50e1bac2175c41302)\nOpenJDK 64-Bit Server VM (build 25-internal-jatin-bhateja-821be711f6f101e06389dee50e1bac2175c41302, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "abf83f8482aaecb4e796bc54a1e8db2885fe6620.json"
+  ],
+  "datetime": "2025-06-11T12:08:50.316888+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25586",
+  "number": 25586,
+  "title": "8351645: C2: ExpandBitsNode::Ideal hits assert because of TOP input",
+  "head_sha": "821be711f6f101e06389dee50e1bac2175c41302",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15582612538"
+}
