@@ -1,0 +1,14 @@
+{
+  "artifact_3305891180": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-4e688f22ebac523ed4a0fb8b0c8cabc07bfd6b83)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-4e688f22ebac523ed4a0fb8b0c8cabc07bfd6b83, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-11T16:30:04.537311+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25755",
+  "number": 25755,
+  "title": "8358617: java/net/HttpURLConnection/HttpURLConnectionExpectContinueTest.java fails with 403 due to system proxies",
+  "head_sha": "4e688f22ebac523ed4a0fb8b0c8cabc07bfd6b83",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15589212613"
+}
