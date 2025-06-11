@@ -1,0 +1,14 @@
+{
+  "artifact_3303660227": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-Anjian-Wen-04c7757405e326b8f8b21397d1966e5e80b6ebf7)\nOpenJDK 64-Bit Server VM (build 26-internal-Anjian-Wen-04c7757405e326b8f8b21397d1966e5e80b6ebf7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-11T10:59:42.130935+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25743",
+  "number": 25743,
+  "title": "8359218: RISC-V: Only enable CRC32 intrinsic when AvoidUnalignedAccess == false",
+  "head_sha": "04c7757405e326b8f8b21397d1966e5e80b6ebf7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15582612538"
+}
