@@ -1,0 +1,17 @@
+{
+  "artifact_3307868219": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mur47x111-9d24428ec720ca6034cf29aaae433dac627654bf)\nOpenJDK 64-Bit Server VM (build 26-internal-mur47x111-9d24428ec720ca6034cf29aaae433dac627654bf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b72213ae5adc01ab3649bf0ccdd1392e22d58eea.json",
+    "ef4a4c987f09fbb9a3c103c59ab20716692eff2f.json"
+  ],
+  "datetime": "2025-06-11T18:17:59.445309+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25356",
+  "number": 25356,
+  "title": "8357424: [JVMCI] Avoid incrementing decompilation count for hosted compiled nmethod",
+  "head_sha": "9d24428ec720ca6034cf29aaae433dac627654bf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15589212613"
+}
