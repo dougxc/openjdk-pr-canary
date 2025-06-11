@@ -1,0 +1,16 @@
+{
+  "artifact_3307009684": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mikabl-arm-7ef1c4aec9531914bfae576e01a85edb7e197f1b)\nOpenJDK 64-Bit Server VM (build 26-internal-mikabl-arm-7ef1c4aec9531914bfae576e01a85edb7e197f1b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a904f1c117930fec0036a6526f7b4574584b2390.json"
+  ],
+  "datetime": "2025-06-11T17:41:50.606214+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25702",
+  "number": 25702,
+  "title": "8358329: AArch64: emit direct branches in static stubs for small code caches",
+  "head_sha": "7ef1c4aec9531914bfae576e01a85edb7e197f1b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15589212613"
+}
