@@ -1,0 +1,14 @@
+{
+  "artifact_3313940132": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jatin-bhateja-3ef8584bb6712cd557bcd924c71237da3a521753)\nOpenJDK 64-Bit Server VM (build 26-internal-jatin-bhateja-3ef8584bb6712cd557bcd924c71237da3a521753, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-12T13:10:18.977101+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25780",
+  "number": 25780,
+  "title": "8359327: Incorrect AVX3Threshold results into code buffer overflows on APX targets",
+  "head_sha": "3ef8584bb6712cd557bcd924c71237da3a521753",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15611181062"
+}
