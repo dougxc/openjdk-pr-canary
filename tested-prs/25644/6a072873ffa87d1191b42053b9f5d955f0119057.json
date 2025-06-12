@@ -1,0 +1,18 @@
+{
+  "artifact_3315832215": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-j3graham-6a072873ffa87d1191b42053b9f5d955f0119057)\nOpenJDK 64-Bit Server VM (build 26-internal-j3graham-6a072873ffa87d1191b42053b9f5d955f0119057, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6953dcfc3f1b6d7d001276f273bfd2cabf1cf1ba.json",
+    "a85ddd82cb3ec25db6f0019cdbc1622e248939cb.json",
+    "da9e4aea1492eac67a5fd4f47db73bf3508f4a87.json"
+  ],
+  "datetime": "2025-06-12T16:35:58.575569+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25644",
+  "number": 25644,
+  "title": "8358880: Performance of parsing with DecimalFormat can be improved",
+  "head_sha": "6a072873ffa87d1191b42053b9f5d955f0119057",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15614855638"
+}
