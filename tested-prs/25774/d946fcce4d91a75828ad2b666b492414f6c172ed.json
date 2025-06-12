@@ -1,0 +1,16 @@
+{
+  "artifact_3314231328": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-benoitmaillard-d946fcce4d91a75828ad2b666b492414f6c172ed)\nOpenJDK 64-Bit Server VM (build 26-internal-benoitmaillard-d946fcce4d91a75828ad2b666b492414f6c172ed, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c6a8eb14db23902621163f487b80574959a84cce.json"
+  ],
+  "datetime": "2025-06-12T13:42:59.617578+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25774",
+  "number": 25774,
+  "title": "8357816: Add test from JDK-8350576",
+  "head_sha": "d946fcce4d91a75828ad2b666b492414f6c172ed",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15611181062"
+}
