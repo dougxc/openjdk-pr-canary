@@ -1,0 +1,19 @@
+{
+  "artifact_3316547216": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-Hamlin-Li-eb38253e94144b481a9da1e7fbfa9b22dfc0f24c)\nOpenJDK 64-Bit Server VM (build 25-internal-Hamlin-Li-eb38253e94144b481a9da1e7fbfa9b22dfc0f24c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "423cf1cce79507111525123e245cbfce772c8073.json",
+    "7da631b8d18d5cffb4de250089e468731b8888f2.json",
+    "9848cc28b4e70137e00e62fcf3a2636e3bef008e.json",
+    "e5b06b5621b01dbb557fc21881307c9131f4bb53.json"
+  ],
+  "datetime": "2025-06-12T17:35:33.090664+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25696",
+  "number": 25696,
+  "title": "8358892: RISC-V: jvm crash when running dacapo sunflow after JDK-8352504",
+  "head_sha": "eb38253e94144b481a9da1e7fbfa9b22dfc0f24c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15616259877"
+}
