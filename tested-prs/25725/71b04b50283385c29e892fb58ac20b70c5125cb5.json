@@ -1,0 +1,16 @@
+{
+  "artifact_3312648625": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mhaessig-71b04b50283385c29e892fb58ac20b70c5125cb5)\nOpenJDK 64-Bit Server VM (build 25-internal-mhaessig-71b04b50283385c29e892fb58ac20b70c5125cb5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ccdbdbdcda3ef103715011c8c3b3308717145b6e.json"
+  ],
+  "datetime": "2025-06-12T09:44:20.446983+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25725",
+  "number": 25725,
+  "title": "8357782: JVM JIT Causes Static Initialization Order Issue",
+  "head_sha": "71b04b50283385c29e892fb58ac20b70c5125cb5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15606916572"
+}
