@@ -1,0 +1,23 @@
+{
+  "artifact_3310590469": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-JohnTortugo-1f3c2598aed645af7b5aac1fe936c0ad4c6ffdfe)\nOpenJDK 64-Bit Server VM (build 26-internal-JohnTortugo-1f3c2598aed645af7b5aac1fe936c0ad4c6ffdfe, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/11367",
+    "number": "11367",
+    "revision": "bc4ae51f977942aa02ca2baa334877804d270a84"
+  },
+  "status": "failed",
+  "history": [
+    "5e4b81454001fc078792d34c82ad646ed31e38b3.json",
+    "9478d1de5d8a74571de65747134ecf1a1c2df71a.json"
+  ],
+  "datetime": "2025-06-12T02:44:06.718754+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25706",
+  "number": 25706,
+  "title": "8359064: Expose reason for marking nmethod non-entrant to JVMCI client",
+  "head_sha": "1f3c2598aed645af7b5aac1fe936c0ad4c6ffdfe",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15600043023"
+}
