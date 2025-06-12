@@ -1,0 +1,16 @@
+{
+  "artifact_3314170442": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mhaessig-9f3676e4a1fbb30a934e8507a86eafee13419131)\nOpenJDK 64-Bit Server VM (build 26-internal-mhaessig-9f3676e4a1fbb30a934e8507a86eafee13419131, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "54dbaabf22c6254b7a89490a5a43692bcd80efb6.json"
+  ],
+  "datetime": "2025-06-12T13:32:10.622592+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25778",
+  "number": 25778,
+  "title": "8354196: C2: reorder and capitalize phase definition",
+  "head_sha": "9f3676e4a1fbb30a934e8507a86eafee13419131",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15611181062"
+}
