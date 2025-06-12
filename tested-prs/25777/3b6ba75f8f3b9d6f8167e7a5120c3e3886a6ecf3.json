@@ -1,0 +1,14 @@
+{
+  "artifact_3313167832": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-dougxc-3b6ba75f8f3b9d6f8167e7a5120c3e3886a6ecf3)\nOpenJDK 64-Bit Server VM (build 26-internal-dougxc-3b6ba75f8f3b9d6f8167e7a5120c3e3886a6ecf3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-12T10:48:00.153518+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25777",
+  "number": 25777,
+  "title": "8359293: Make TestNoNULL extensible",
+  "head_sha": "3b6ba75f8f3b9d6f8167e7a5120c3e3886a6ecf3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15608257425"
+}
