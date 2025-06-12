@@ -1,0 +1,20 @@
+{
+  "artifact_3314379937": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-Michael-Mc-Mahon-9a495d7f9a5e9ae86ce71010950f11ce23ee1c2c)\nOpenJDK 64-Bit Server VM (build 26-internal-Michael-Mc-Mahon-9a495d7f9a5e9ae86ce71010950f11ce23ee1c2c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "53d5c25e8e2ae96bf6e7db235e64b2060a08d2e1.json",
+    "b0ab727c652652df504260a0f92bc2f98b3889af.json",
+    "cf25c0555d5e7163c8a3b576be2909bd39927a08.json",
+    "e44ccf9446c1e3768b0b52375193de6246d4a62e.json",
+    "ef9757069b557230563c472a4c3f6491e2f49532.json"
+  ],
+  "datetime": "2025-06-12T14:26:43.297462+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25636",
+  "number": 25636,
+  "title": "8351983: HttpCookie Parser Incorrectly Handles Cookies with Expires Attribute",
+  "head_sha": "9a495d7f9a5e9ae86ce71010950f11ce23ee1c2c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15611181062"
+}
