@@ -1,0 +1,17 @@
+{
+  "artifact_3319097286": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-alisenchung-9aa8201962c2674a90679b252012b173f55e00f1)\nOpenJDK 64-Bit Server VM (build 26-internal-alisenchung-9aa8201962c2674a90679b252012b173f55e00f1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a46b067b895eb46699590d4e0bcf52c81624c2a6.json",
+    "c0cd6e73b716a22ed28f15b3c99fa4064f1f1747.json"
+  ],
+  "datetime": "2025-06-13T03:01:40.787320+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22044",
+  "number": 22044,
+  "title": "8150564: Migrate useful ExtendedRobot methods into awt.Robot",
+  "head_sha": "9aa8201962c2674a90679b252012b173f55e00f1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15624940816"
+}
