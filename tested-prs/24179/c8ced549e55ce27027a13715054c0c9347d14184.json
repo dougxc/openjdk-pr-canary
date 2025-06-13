@@ -1,0 +1,24 @@
+{
+  "artifact_3322168390": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-jatin-bhateja-c8ced549e55ce27027a13715054c0c9347d14184)\nOpenJDK 64-Bit Server VM (build 25-internal-jatin-bhateja-c8ced549e55ce27027a13715054c0c9347d14184, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "016f0bc1e287e764dc2c559ec89e8e2d847d70ee.json",
+    "021009c065b75df198667175ea820bf534a23c4b.json",
+    "18fb6dcb577c4e32dda79c86e58ced8437a478d0.json",
+    "4a491bef6636441f14fc8bbdedf65063fce038bd.json",
+    "4a7a519b8f0510e5c5a1a917038e124c28a075d3.json",
+    "b44d62dc0a8df96eea075b1424f6860ad0ab3b79.json",
+    "b95c51cb5d7c88c3d9ab1512a4dd932782da7f88.json",
+    "dd3262aa0abe161c25aac8029732e26862911ae6.json",
+    "f0f5998ee5ee1a72ac6dd0c190aa4f93c54773ba.json"
+  ],
+  "datetime": "2025-06-13T12:14:14.346165+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24179",
+  "number": 24179,
+  "title": "8352635: Improve inferencing of Float16 operations with constant inputs",
+  "head_sha": "c8ced549e55ce27027a13715054c0c9347d14184",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15633447022"
+}
