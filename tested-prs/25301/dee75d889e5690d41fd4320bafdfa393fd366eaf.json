@@ -1,0 +1,18 @@
+{
+  "artifact_3320419026": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tstuefe-dee75d889e5690d41fd4320bafdfa393fd366eaf)\nOpenJDK 64-Bit Server VM (build 26-internal-tstuefe-dee75d889e5690d41fd4320bafdfa393fd366eaf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0e0d64a62b94fbdfac8d872d9d5b4405db18326e.json",
+    "8543a5ec82db9a7de713e67aa9c23eeabe64e33b.json",
+    "aef4e2bb793c51f49f19f9999efd6c067a6bb37e.json"
+  ],
+  "datetime": "2025-06-13T08:26:13.441166+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25301",
+  "number": 25301,
+  "title": "8210549: Runtime.exec: in closeDescriptors(), use FD_CLOEXEC instead of close()",
+  "head_sha": "dee75d889e5690d41fd4320bafdfa393fd366eaf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15629020844"
+}
