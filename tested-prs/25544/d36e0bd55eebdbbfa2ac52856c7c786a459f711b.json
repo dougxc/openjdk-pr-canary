@@ -1,0 +1,20 @@
+{
+  "artifact_3320994448": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-vy-d36e0bd55eebdbbfa2ac52856c7c786a459f711b)\nOpenJDK 64-Bit Server VM (build 26-internal-vy-d36e0bd55eebdbbfa2ac52856c7c786a459f711b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3da53cc96d958064bf57e348d593a213578c0ebc.json",
+    "78e8de51cb10df3ea48368ae19e3c43f32ef8080.json",
+    "8f8a65754bca0afd840b0fec59693f4c20e4384e.json",
+    "92248bb3a2793a8fb075ca25d48131cbbf39edec.json",
+    "ca96e12be8ebc0e8ecfa59690bb1f65a2dff82c6.json"
+  ],
+  "datetime": "2025-06-13T09:10:01.075313+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25544",
+  "number": 25544,
+  "title": "8357995: Use \"stdin.encoding\" for reading System.in with InputStreamReader/Scanner [core]",
+  "head_sha": "d36e0bd55eebdbbfa2ac52856c7c786a459f711b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15630285809"
+}
