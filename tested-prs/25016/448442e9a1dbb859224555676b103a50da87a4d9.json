@@ -1,0 +1,19 @@
+{
+  "artifact_3323632829": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-artur-oracle-448442e9a1dbb859224555676b103a50da87a4d9)\nOpenJDK 64-Bit Server VM (build 25-internal-artur-oracle-448442e9a1dbb859224555676b103a50da87a4d9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "451e1efd75df15c191d950e91d431261e06e99fe.json",
+    "5c137c143947f82e0b305f7069e252ca9a09524e.json",
+    "75528109f3bcf4f7ab81a92d74fed35f0d5747b3.json",
+    "88cd4016fa9a1657c5ceb4ba7b8d948ea6d3b457.json"
+  ],
+  "datetime": "2025-06-13T16:39:49.144033+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25016",
+  "number": 25016,
+  "title": "8353113: Peer supported certificate signature algorithms are not being checked with default SunX509 key manager",
+  "head_sha": "448442e9a1dbb859224555676b103a50da87a4d9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15638299159"
+}
