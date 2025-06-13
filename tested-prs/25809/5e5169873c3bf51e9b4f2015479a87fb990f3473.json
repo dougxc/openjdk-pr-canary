@@ -1,0 +1,14 @@
+{
+  "artifact_3326143680": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-lawrence-andrew-5e5169873c3bf51e9b4f2015479a87fb990f3473)\nOpenJDK 64-Bit Server VM (build 26-internal-lawrence-andrew-5e5169873c3bf51e9b4f2015479a87fb990f3473, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-13T22:54:27.018826+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25809",
+  "number": 25809,
+  "title": "8359418: Test \"javax/swing/text/GlyphView/bug4188841.java\" failed because the phrase of text pane does not match the instructions",
+  "head_sha": "5e5169873c3bf51e9b4f2015479a87fb990f3473",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15645171707"
+}
