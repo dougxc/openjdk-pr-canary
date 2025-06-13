@@ -1,0 +1,14 @@
+{
+  "artifact_3320424433": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-kimbarrett-9b96ebd1608497aca01240743ede30dbd8f4573e)\nOpenJDK 64-Bit Server VM (build 26-internal-kimbarrett-9b96ebd1608497aca01240743ede30dbd8f4573e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-13T07:40:17.465345+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25791",
+  "number": 25791,
+  "title": "8359227: Code cache/heap size options should be size_t",
+  "head_sha": "9b96ebd1608497aca01240743ede30dbd8f4573e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15629020844"
+}
