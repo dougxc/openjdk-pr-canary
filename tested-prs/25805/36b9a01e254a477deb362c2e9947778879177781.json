@@ -1,0 +1,16 @@
+{
+  "artifact_3326280992": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-rgiulietti-36b9a01e254a477deb362c2e9947778879177781)\nOpenJDK 64-Bit Server VM (build 26-internal-rgiulietti-36b9a01e254a477deb362c2e9947778879177781, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9a5ff7c1673bc213b018c64bc295e3a850d557db.json"
+  ],
+  "datetime": "2025-06-13T23:05:01.647801+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25805",
+  "number": 25805,
+  "title": "8358804: Improve the API Note of BigDecimal.valueOf(double)",
+  "head_sha": "36b9a01e254a477deb362c2e9947778879177781",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15645171707"
+}
