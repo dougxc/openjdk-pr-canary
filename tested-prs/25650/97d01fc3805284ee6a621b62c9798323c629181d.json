@@ -1,0 +1,16 @@
+{
+  "artifact_3325875361": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-mrserb-97d01fc3805284ee6a621b62c9798323c629181d)\nOpenJDK 64-Bit Server VM (build 25-internal-mrserb-97d01fc3805284ee6a621b62c9798323c629181d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "450f35e93821afba2f565875ed314b75a544e6b8.json"
+  ],
+  "datetime": "2025-06-13T21:51:28.876693+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25650",
+  "number": 25650,
+  "title": "8358623: Avoid unnecessary data copying in ICC_Profile",
+  "head_sha": "97d01fc3805284ee6a621b62c9798323c629181d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15644312096"
+}
