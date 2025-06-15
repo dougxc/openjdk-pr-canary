@@ -1,0 +1,16 @@
+{
+  "artifact_3330212670": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-wenshao-9b9bfb1db8c273ea615dac44e63784f1d598dd4e)\nOpenJDK 64-Bit Server VM (build 26-internal-wenshao-9b9bfb1db8c273ea615dac44e63784f1d598dd4e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6f491cedc2311115ab81b479620da3eb71385fc8.json"
+  ],
+  "datetime": "2025-06-15T06:53:12.721170+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/22942",
+  "number": 22942,
+  "title": "8359424: Eliminate table lookup in Integer/Long toHexString",
+  "head_sha": "9b9bfb1db8c273ea615dac44e63784f1d598dd4e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15660447978"
+}
