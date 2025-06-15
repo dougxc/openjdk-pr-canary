@@ -1,0 +1,16 @@
+{
+  "artifact_3331624081": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-egahlin-90ad93252c0fe1ced984b426e73a6e6b7e7ccea2)\nOpenJDK 64-Bit Server VM (build 26-internal-egahlin-90ad93252c0fe1ced984b426e73a6e6b7e7ccea2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7f00bba7068871e1b09302a797aeb02ed2965643.json"
+  ],
+  "datetime": "2025-06-15T19:34:58.359978+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25814",
+  "number": 25814,
+  "title": "8359593: JFR: Instrumentation of java.lang.String corrupts recording",
+  "head_sha": "90ad93252c0fe1ced984b426e73a6e6b7e7ccea2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15666597414"
+}
