@@ -1,0 +1,14 @@
+{
+  "artifact_3337232014": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-benoitmaillard-486ddcb67a3dd317e7084024a133c2b17ce8f88d)\nOpenJDK 64-Bit Server VM (build 26-internal-benoitmaillard-486ddcb67a3dd317e7084024a133c2b17ce8f88d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-16T15:45:50.472220+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25834",
+  "number": 25834,
+  "title": "8356865: C2: Unreasonable values for debug flag FastAllocateSizeLimit can lead to left-shift-overflow, which is UB",
+  "head_sha": "486ddcb67a3dd317e7084024a133c2b17ce8f88d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15685183086"
+}
