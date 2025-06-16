@@ -1,0 +1,19 @@
+{
+  "artifact_3334432049": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-offamitkumar-520e35125c7f50ff66de1b3272f516ba623125c2)\nOpenJDK 64-Bit Server VM (build 26-internal-offamitkumar-520e35125c7f50ff66de1b3272f516ba623125c2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "24511b003aa8cc2cc293f5ff431b14fc161a1981.json",
+    "539b3fe4a428732a4cd50400e0c666ea4ea0d312.json",
+    "55af21fdf1d6d53adee4d04726fefbcb5e232e93.json",
+    "f8fbb4df97ee3605a656e35dd37172072db41a38.json"
+  ],
+  "datetime": "2025-06-16T10:24:04.823798+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25708",
+  "number": 25708,
+  "title": "8358694: VM asserts if CodeCacheSegmentSize is not a power of 2",
+  "head_sha": "520e35125c7f50ff66de1b3272f516ba623125c2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15677204387"
+}
