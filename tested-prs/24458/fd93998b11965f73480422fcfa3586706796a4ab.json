@@ -1,0 +1,20 @@
+{
+  "artifact_3337582370": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tabjy-fd93998b11965f73480422fcfa3586706796a4ab)\nOpenJDK 64-Bit Server VM (build 26-internal-tabjy-fd93998b11965f73480422fcfa3586706796a4ab, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "10635a07c10786bedaa1c1398bcf080ea99189c9.json",
+    "25cfe289a3c26fdbe22906b00912910a3907a7ce.json",
+    "3db745d23ae4a32be094f3c6db4c12f2492909ed.json",
+    "4d7738c8876602e9eb1f56356a48863519435708.json",
+    "b72e7714786ab783395f3c5926ac30d7485c68e5.json"
+  ],
+  "datetime": "2025-06-16T17:29:22.788951+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24458",
+  "number": 24458,
+  "title": "8353290: C2: Refactor PhaseIdealLoop::is_counted_loop()",
+  "head_sha": "fd93998b11965f73480422fcfa3586706796a4ab",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15686653459"
+}
