@@ -1,0 +1,16 @@
+{
+  "artifact_3338175345": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-suchismith1993-419f3d5ffdca0fc2116374f223b658e39b71d296)\nOpenJDK 64-Bit Server VM (build 26-internal-suchismith1993-419f3d5ffdca0fc2116374f223b658e39b71d296, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "cf2d66d598d90f1343d1ad7a4f30607c3374a0f8.json"
+  ],
+  "datetime": "2025-06-16T17:43:06.272669+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25833",
+  "number": 25833,
+  "title": "JDK-8349077 : Rename GenerationCounters::update_all",
+  "head_sha": "419f3d5ffdca0fc2116374f223b658e39b71d296",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15687733811"
+}
