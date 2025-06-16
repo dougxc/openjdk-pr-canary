@@ -1,0 +1,17 @@
+{
+  "artifact_3334998383": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-Bhavana-Kilambi-aa9e53e17623c1df87aac7233ae207bddc37e26a)\nOpenJDK 64-Bit Server VM (build 26-internal-Bhavana-Kilambi-aa9e53e17623c1df87aac7233ae207bddc37e26a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "65bd521d6bc4b93e956987cb3b74ff600dfeafe5.json",
+    "70e884895a7204364b9fcaae0ebaa151910beae3.json"
+  ],
+  "datetime": "2025-06-16T10:49:27.546265+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23570",
+  "number": 23570,
+  "title": "8348868: AArch64: Add backend support for SelectFromTwoVector",
+  "head_sha": "aa9e53e17623c1df87aac7233ae207bddc37e26a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15677204387"
+}
