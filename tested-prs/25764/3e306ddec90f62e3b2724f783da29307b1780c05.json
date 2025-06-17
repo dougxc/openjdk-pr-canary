@@ -1,0 +1,18 @@
+{
+  "artifact_3349312080": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-dean-long-3e306ddec90f62e3b2724f783da29307b1780c05)\nOpenJDK 64-Bit Server VM (build 26-internal-dean-long-3e306ddec90f62e3b2724f783da29307b1780c05, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0950fc5e8769ead225753eafdb7acad319945b39.json",
+    "3ac6dec0641470f1561608c74cf6162988cec78b.json",
+    "c1ebde0999a76e5eb0b6787692555388713c75ce.json"
+  ],
+  "datetime": "2025-06-17T22:19:01.011865+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25764",
+  "number": 25764,
+  "title": "8358821: patch_verified_entry causes problems, use nmethod entry barriers instead",
+  "head_sha": "3e306ddec90f62e3b2724f783da29307b1780c05",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15718440144"
+}
