@@ -1,0 +1,20 @@
+{
+  "artifact_3347482756": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-DamonGuy-8105ad65b6efe29a8cc937c9da17d809b89b0428)\nOpenJDK 64-Bit Server VM (build 26-internal-DamonGuy-8105ad65b6efe29a8cc937c9da17d809b89b0428, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "154574ec9255f33c2e3da096bda2460189271f19.json",
+    "39efefcceed5a15f2d035c77b5e6615db7251e68.json",
+    "467957ac81931a2c1bfa6243eb24708efabfd154.json",
+    "88d9cea1e33bd75f6dc3536793a5809361224061.json",
+    "b2f2fc54580552cd43ad6f62ab7ad776e326cf0e.json"
+  ],
+  "datetime": "2025-06-17T17:43:58.144131+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25705",
+  "number": 25705,
+  "title": "8359061: Update and ProblemList manual test java/awt/Cursor/CursorDragTest/ListDragCursor.java",
+  "head_sha": "8105ad65b6efe29a8cc937c9da17d809b89b0428",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15714153441"
+}
