@@ -1,0 +1,16 @@
+{
+  "artifact_3345891938": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jaikiran-666f29b518411569004536905b985e0dd18240fc)\nOpenJDK 64-Bit Server VM (build 26-internal-jaikiran-666f29b518411569004536905b985e0dd18240fc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6dc368589130fd0099e22122aaafc28deb77e3cc.json"
+  ],
+  "datetime": "2025-06-17T14:33:36.242424+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25844",
+  "number": 25844,
+  "title": "8359709: java.net.HttpURLConnection sends unexpected \"Host\" request header in some cases after JDK-8344190",
+  "head_sha": "666f29b518411569004536905b985e0dd18240fc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15708965713"
+}
