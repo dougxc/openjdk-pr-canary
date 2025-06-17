@@ -1,0 +1,16 @@
+{
+  "artifact_3346059255": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-sarannat-fd734aa9bd8e978010a37d866e822140faf0051f)\nOpenJDK 64-Bit Server VM (build 26-internal-sarannat-fd734aa9bd8e978010a37d866e822140faf0051f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "aacb42450efc1e9ac65ebcdd388cca03f38c02c6.json"
+  ],
+  "datetime": "2025-06-17T15:22:23.154115+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25682",
+  "number": 25682,
+  "title": "8325478: Restructure the macro expansion compiler phase to not include macro elimination",
+  "head_sha": "fd734aa9bd8e978010a37d866e822140faf0051f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15708965713"
+}
