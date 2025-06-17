@@ -1,0 +1,14 @@
+{
+  "artifact_3346023103": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-archiecobbs-8dcea7004f9ad1f3c8ee5e6aeb934ed0518a2a37)\nOpenJDK 64-Bit Server VM (build 26-internal-archiecobbs-8dcea7004f9ad1f3c8ee5e6aeb934ed0518a2a37, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-17T14:45:43.684881+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25840",
+  "number": 25840,
+  "title": "8359596: Behavior change when both -Xlint:options and -Xlint:-options flags are given",
+  "head_sha": "8dcea7004f9ad1f3c8ee5e6aeb934ed0518a2a37",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15708965713"
+}
