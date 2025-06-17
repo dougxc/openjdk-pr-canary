@@ -1,0 +1,17 @@
+{
+  "artifact_3341950745": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-vamsi-parasa-4fe56be6bf1845b305d76c78633780381450190f)\nOpenJDK 64-Bit Server VM (build 26-internal-vamsi-parasa-4fe56be6bf1845b305d76c78633780381450190f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0eca30db2fe14f1c1786752f7c565ddda1c02064.json",
+    "37dede6e7a5b2b253958d3092a6ac9883f77fdc8.json"
+  ],
+  "datetime": "2025-06-17T04:52:48.850032+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25787",
+  "number": 25787,
+  "title": "8359386: Fix incorrect value for max_size of C2CodeStub when APX is used",
+  "head_sha": "4fe56be6bf1845b305d76c78633780381450190f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15698326933"
+}
