@@ -1,0 +1,16 @@
+{
+  "artifact_3348875396": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-alisenchung-93472ae539fe3ff3a506c1929b845a82a933f08d)\nOpenJDK 64-Bit Server VM (build 26-internal-alisenchung-93472ae539fe3ff3a506c1929b845a82a933f08d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ee4ed7be322510c7773b1ed796260e4d12cd7e99.json"
+  ],
+  "datetime": "2025-06-17T20:55:56.562689+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25839",
+  "number": 25839,
+  "title": "8359761: JDK 25 RDP1 L10n resource files update",
+  "head_sha": "93472ae539fe3ff3a506c1929b845a82a933f08d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15717419653"
+}
