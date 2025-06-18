@@ -1,0 +1,16 @@
+{
+  "artifact_3357641847": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-naotoj-278628b05331c5c22b7a59a500e37104d3a70916)\nOpenJDK 64-Bit Server VM (build 26-internal-naotoj-278628b05331c5c22b7a59a500e37104d3a70916, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9d1dbf3a152a83c3fbc2a9c971ae2bea8d25c874.json"
+  ],
+  "datetime": "2025-06-18T19:50:38.018125+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25860",
+  "number": 25860,
+  "title": "8359732: Make standard i/o encoding related system properties `StaticProperty`",
+  "head_sha": "278628b05331c5c22b7a59a500e37104d3a70916",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15741797838"
+}
