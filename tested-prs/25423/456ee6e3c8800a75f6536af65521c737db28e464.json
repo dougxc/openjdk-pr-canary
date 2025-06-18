@@ -1,0 +1,14 @@
+{
+  "artifact_3356541777": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-kdnilsen-456ee6e3c8800a75f6536af65521c737db28e464)\nOpenJDK 64-Bit Server VM (build 25-internal-kdnilsen-456ee6e3c8800a75f6536af65521c737db28e464, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-18T17:47:39.442370+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25423",
+  "number": 25423,
+  "title": "8359947: GenShen: use smaller TLABs by default",
+  "head_sha": "456ee6e3c8800a75f6536af65521c737db28e464",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15739020650"
+}
