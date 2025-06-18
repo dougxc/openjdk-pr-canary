@@ -1,0 +1,15 @@
+{
+  "artifact_3357781462": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-DamonGuy-632556198679b23a4addb3cb5c05f741d215a7e5)\nOpenJDK 64-Bit Server VM (build 26-internal-DamonGuy-632556198679b23a4addb3cb5c05f741d215a7e5, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-06-18T20:36:01.991380+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25883",
+  "number": 25883,
+  "title": "8359430: Test 'javax/swing/plaf/windows/bug4991587.java' automatically failed on Windows 2025 x64 with message \"Failed. Compilation failed: Compilation failed\"",
+  "head_sha": "632556198679b23a4addb3cb5c05f741d215a7e5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15743031152"
+}
