@@ -1,0 +1,15 @@
+{
+  "artifact_3355199421": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mhaessig-66b7ba3c003d8e3fcd1796c2e2766becf655bb82)\nOpenJDK 64-Bit Server VM (build 26-internal-mhaessig-66b7ba3c003d8e3fcd1796c2e2766becf655bb82, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-06-18T16:38:59.444689+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25876",
+  "number": 25876,
+  "title": "8358578: Small -XX:NMethodSizeLimit triggers \"not in CodeBuffer memory\" assert in C1",
+  "head_sha": "66b7ba3c003d8e3fcd1796c2e2766becf655bb82",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15738552187"
+}
