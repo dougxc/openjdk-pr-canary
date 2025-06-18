@@ -454,7 +454,7 @@ def test_pull_request(pr, artifact, failed_pull_requests):
             run_step("clone_mx", ["gh", "repo", "clone", "graalvm/mx", "--", "--quiet", "--branch", "galahad"])
         else:
             # Clean
-            run_step("clean", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
+            run_step("clean", ["JVMCI_VERSION_CHECK=ignore", "mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "clean", "--aggressive"])
 
         if not update_to_match_graal_pr(pr, test_record) and not update_to_match_pr_merge_base(pr):
             test_record["status"] = "failed"
@@ -462,7 +462,7 @@ def test_pull_request(pr, artifact, failed_pull_requests):
             pr["__test_record"] = test_record
         else:
             # Build libgraal
-            run_step("build", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"])
+            run_step("build", ["JVMCI_VERSION_CHECK=ignore", "mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "build"])
 
             # Test libgraal
             tasks = [
@@ -473,7 +473,7 @@ def test_pull_request(pr, artifact, failed_pull_requests):
                 # DaCapo 23.11-MR2-chopin is too large to host on GitHub action
                 # "LibGraal Compiler:DaCapo"
             ]
-            run_step("test", ["mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)])
+            run_step("test", ["JVMCI_VERSION_CHECK=ignore", "mx/mx", "-p", "graal/vm", "--java-home", java_home, "--env", "libgraal", "gate", "--task", ','.join(tasks)])
 
             test_record["status"] = "passed"
     except subprocess.CalledProcessError:
