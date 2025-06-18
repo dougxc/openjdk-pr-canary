@@ -447,9 +447,8 @@ def test_pull_request(pr, artifact, failed_pull_requests):
 
     try:
         # Prevent failures for PRs that straddle a JDK version bump.
-        env = {
-            "JVMCI_VERSION_CHECK": "ignore"
-        }
+        env = os.environ.copy()
+        env["JVMCI_VERSION_CHECK"] = "ignore"
 
         if not Path("graal").exists():
             # Clone graal
