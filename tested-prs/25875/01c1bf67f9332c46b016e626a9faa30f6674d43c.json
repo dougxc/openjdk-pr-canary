@@ -1,0 +1,15 @@
+{
+  "artifact_3355167781": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-albertnetymk-01c1bf67f9332c46b016e626a9faa30f6674d43c)\nOpenJDK 64-Bit Server VM (build 26-internal-albertnetymk-01c1bf67f9332c46b016e626a9faa30f6674d43c, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-06-18T16:40:13.678572+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25875",
+  "number": 25875,
+  "title": "8359924: Deprecate and obsolete ParallelRefProcEnabled",
+  "head_sha": "01c1bf67f9332c46b016e626a9faa30f6674d43c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15738552187"
+}
