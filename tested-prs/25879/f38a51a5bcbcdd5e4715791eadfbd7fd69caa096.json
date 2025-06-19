@@ -1,0 +1,18 @@
+{
+  "artifact_3362616918": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-manukumarvs-f38a51a5bcbcdd5e4715791eadfbd7fd69caa096)\nOpenJDK 64-Bit Server VM (build 26-internal-manukumarvs-f38a51a5bcbcdd5e4715791eadfbd7fd69caa096, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b368eece85852d1edd6a99da491a63720365f21d.json",
+    "b5a3f894fb0f0a5e5fd15da64dc3e963d029ac6f.json",
+    "bdc40569dd8d922b0027bd78d4414cc310fab714.json"
+  ],
+  "datetime": "2025-06-19T13:33:55.540301+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25879",
+  "number": 25879,
+  "title": "8358697: java/awt/font/TextLayout/MyanmarTextTest.java gives false positive result when preconditions not met",
+  "head_sha": "f38a51a5bcbcdd5e4715791eadfbd7fd69caa096",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15758451384"
+}
