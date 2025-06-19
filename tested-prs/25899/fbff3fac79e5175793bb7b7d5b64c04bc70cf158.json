@@ -1,0 +1,14 @@
+{
+  "artifact_3364201477": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-fbff3fac79e5175793bb7b7d5b64c04bc70cf158)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-fbff3fac79e5175793bb7b7d5b64c04bc70cf158, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-19T15:46:43.968072+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25899",
+  "number": 25899,
+  "title": "8359242: JFR: Missing help text for method trace and timing",
+  "head_sha": "fbff3fac79e5175793bb7b7d5b64c04bc70cf158",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15760361823"
+}
