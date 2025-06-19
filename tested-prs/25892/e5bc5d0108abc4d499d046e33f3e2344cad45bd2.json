@@ -1,0 +1,14 @@
+{
+  "artifact_3361027258": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prsadhuk-e5bc5d0108abc4d499d046e33f3e2344cad45bd2)\nOpenJDK 64-Bit Server VM (build 25-internal-prsadhuk-e5bc5d0108abc4d499d046e33f3e2344cad45bd2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-19T08:51:20.362392+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25892",
+  "number": 25892,
+  "title": "8008222: [macosx] selectNextChangeLead is not implemented for Tree in Aqua LAF",
+  "head_sha": "e5bc5d0108abc4d499d046e33f3e2344cad45bd2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15753493706"
+}
