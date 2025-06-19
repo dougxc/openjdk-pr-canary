@@ -1,0 +1,16 @@
+{
+  "artifact_3365897930": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-turbanoff-1cb93d6b918abd5f91d2992c2398e36bcb7e0a13)\nOpenJDK 64-Bit Server VM (build 25-internal-turbanoff-1cb93d6b918abd5f91d2992c2398e36bcb7e0a13, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "83c1e79476a36abe9ea13958fb4ee16b57efe418.json"
+  ],
+  "datetime": "2025-06-19T21:39:55.175046+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24818",
+  "number": 24818,
+  "title": "8359996: Remove unnecessary List.indexOf key from Track.remove",
+  "head_sha": "1cb93d6b918abd5f91d2992c2398e36bcb7e0a13",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15766588902"
+}
