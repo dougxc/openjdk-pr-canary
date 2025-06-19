@@ -1,0 +1,14 @@
+{
+  "artifact_3361567150": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-turbanoff-6d3e11170fa71967fdcd4a07d48e311bcb5a7efe)\nOpenJDK 64-Bit Server VM (build 26-internal-turbanoff-6d3e11170fa71967fdcd4a07d48e311bcb5a7efe, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-19T09:43:58.563504+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25893",
+  "number": 25893,
+  "title": "[PATCH] Make BasicDesktopPaneUI.Actions.MOVE_RESIZE_INCREMENT static",
+  "head_sha": "6d3e11170fa71967fdcd4a07d48e311bcb5a7efe",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15754579783"
+}
