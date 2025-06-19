@@ -1,0 +1,16 @@
+{
+  "artifact_3360249906": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-prsadhuk-d00892d61daccaa91a3bb0e242879f8421f258dd)\nOpenJDK 64-Bit Server VM (build 26-internal-prsadhuk-d00892d61daccaa91a3bb0e242879f8421f258dd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "57eb73ffcfe88d14e2cfa7c6795c8fe5e180e9f7.json"
+  ],
+  "datetime": "2025-06-19T04:56:15.421016+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25864",
+  "number": 25864,
+  "title": "8335986: Test javax/swing/JCheckBox/4449413/bug4449413.java fails on Windows 11 x64 because RBMenuItem's and CBMenuItem's checkmark on the left side are not visible",
+  "head_sha": "d00892d61daccaa91a3bb0e242879f8421f258dd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15749578893"
+}
