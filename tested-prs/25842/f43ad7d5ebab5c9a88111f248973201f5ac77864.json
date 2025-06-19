@@ -1,0 +1,17 @@
+{
+  "artifact_3361873850": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-srmandal-f43ad7d5ebab5c9a88111f248973201f5ac77864)\nOpenJDK 64-Bit Server VM (build 26-internal-srmandal-f43ad7d5ebab5c9a88111f248973201f5ac77864, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "223c0e11e19e0f4a6e67815f27232e6b99155cd3.json",
+    "f61631f07faa3c874fccd328cc8e5593cbc68ba9.json"
+  ],
+  "datetime": "2025-06-19T10:05:30.150312+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25842",
+  "number": 25842,
+  "title": "8359687: Use PassFailJFrame for java/awt/print/Dialog/DialogType.java",
+  "head_sha": "f43ad7d5ebab5c9a88111f248973201f5ac77864",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15754579783"
+}
