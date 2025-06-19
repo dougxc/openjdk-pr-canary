@@ -1,0 +1,14 @@
+{
+  "artifact_3364466145": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-egahlin-baa2d9df0ac684cb58c0b529be86133805d1ce98)\nOpenJDK 64-Bit Server VM (build 26-internal-egahlin-baa2d9df0ac684cb58c0b529be86133805d1ce98, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-19T16:39:12.829499+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25903",
+  "number": 25903,
+  "title": "8360039: JFR: Improve parser logging of constants",
+  "head_sha": "baa2d9df0ac684cb58c0b529be86133805d1ce98",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15761489990"
+}
