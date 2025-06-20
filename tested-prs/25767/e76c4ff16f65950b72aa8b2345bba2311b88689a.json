@@ -1,0 +1,22 @@
+{
+  "artifact_3367360424": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prsadhuk-e76c4ff16f65950b72aa8b2345bba2311b88689a)\nOpenJDK 64-Bit Server VM (build 25-internal-prsadhuk-e76c4ff16f65950b72aa8b2345bba2311b88689a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "43d43c639c690ddd8aaccfec4ace8ae08babd31f.json",
+    "4be55ab39f17bd4c4b49e937530f9de7668ca8f9.json",
+    "6f6320ac5809299ae48e7221c369c82d803547b9.json",
+    "8e1938b64de4237e7edbd0d47c685fd456eec274.json",
+    "bcdef9b469094d08e7586e7ee50080d8026a7dea.json",
+    "d082a35adab8091f6f287407c996dc3a6b10f1ef.json",
+    "f6237741e3941833f6fedfc81e2ebf0f15b7ff8c.json"
+  ],
+  "datetime": "2025-06-20T04:40:20.036056+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25767",
+  "number": 25767,
+  "title": "8159055: ImageIcon.setImage and ImageIcon(Image) constructor can't handle null parameter",
+  "head_sha": "e76c4ff16f65950b72aa8b2345bba2311b88689a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15770837318"
+}
