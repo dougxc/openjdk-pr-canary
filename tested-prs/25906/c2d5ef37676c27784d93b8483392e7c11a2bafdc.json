@@ -1,0 +1,16 @@
+{
+  "artifact_3373436567": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-chadrako-c2d5ef37676c27784d93b8483392e7c11a2bafdc)\nOpenJDK 64-Bit Server VM (build 26-internal-chadrako-c2d5ef37676c27784d93b8483392e7c11a2bafdc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ae31d0fb148b971b6b407ed325f72ce03c2a50b7.json"
+  ],
+  "datetime": "2025-06-20T22:43:58.433981+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25906",
+  "number": 25906,
+  "title": "8358655: AArch64: Simplify Interpreter::profile_taken_branch",
+  "head_sha": "c2d5ef37676c27784d93b8483392e7c11a2bafdc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15788936646"
+}
