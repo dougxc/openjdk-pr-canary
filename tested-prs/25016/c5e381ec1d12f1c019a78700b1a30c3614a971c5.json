@@ -1,0 +1,22 @@
+{
+  "artifact_3372256460": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-artur-oracle-c5e381ec1d12f1c019a78700b1a30c3614a971c5)\nOpenJDK 64-Bit Server VM (build 25-internal-artur-oracle-c5e381ec1d12f1c019a78700b1a30c3614a971c5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "448442e9a1dbb859224555676b103a50da87a4d9.json",
+    "451e1efd75df15c191d950e91d431261e06e99fe.json",
+    "5c137c143947f82e0b305f7069e252ca9a09524e.json",
+    "75528109f3bcf4f7ab81a92d74fed35f0d5747b3.json",
+    "88cd4016fa9a1657c5ceb4ba7b8d948ea6d3b457.json",
+    "a83ea8bde483e29ec670f2f3ed39c2b6856c3a1c.json",
+    "eaf343ad002880bf9d8e60fbcf99762006d4033e.json"
+  ],
+  "datetime": "2025-06-20T18:54:07.800112+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25016",
+  "number": 25016,
+  "title": "8359956: Support algorithm constraints and certificate checks in SunX509 key manager",
+  "head_sha": "c5e381ec1d12f1c019a78700b1a30c3614a971c5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15785595145"
+}
