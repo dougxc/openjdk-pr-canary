@@ -1,0 +1,17 @@
+{
+  "artifact_3380641573": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mhaessig-689b4ea8d9d9db8f7ed38d9f702da5ab345cc0bd)\nOpenJDK 64-Bit Server VM (build 26-internal-mhaessig-689b4ea8d9d9db8f7ed38d9f702da5ab345cc0bd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a05f9bd3d3ce95049522020f93a371bc31a3ae63.json",
+    "c6ab7deed0d254352e2aea169b30d251378a4d71.json"
+  ],
+  "datetime": "2025-06-23T07:44:13.591771+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25872",
+  "number": 25872,
+  "title": "8354727: CompilationPolicy creates too many compiler threads when code cache space is scarce",
+  "head_sha": "689b4ea8d9d9db8f7ed38d9f702da5ab345cc0bd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15818079918"
+}
