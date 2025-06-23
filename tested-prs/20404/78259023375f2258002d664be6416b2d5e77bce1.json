@@ -1,0 +1,28 @@
+{
+  "artifact_3384045278": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dlunde-78259023375f2258002d664be6416b2d5e77bce1)\nOpenJDK 64-Bit Server VM (build 25-internal-dlunde-78259023375f2258002d664be6416b2d5e77bce1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1bec169294b052b1fa58f7b1b580d208583c56e3.json",
+    "2df00458282013fd11274d222c7e319d646b41d3.json",
+    "5be718e8452603bfeff7931b329d7058298fc349.json",
+    "743576213df90e0948d15f0131dd3a7caedcc8c1.json",
+    "76d182e4a55f0f903075d2ced747aa3ffa6425e2.json",
+    "76f6b8f800f5556cc00d887fbc49d9e7fbf48405.json",
+    "9cefa15f50f4b2396e66ae998316362496936256.json",
+    "b20d14e53a158e1504a71c86acfff8d4f4fa0ea1.json",
+    "b7aa03518eeab111622688a4959885cf03fc1942.json",
+    "c41a76b9f31a8be9c3ab5387197abdf01d12b33d.json",
+    "d9e4219de714fcb6523a15c46040c8a6efe151b4.json",
+    "e370f61f944685cbf151ce280017e6ee9af267fb.json",
+    "fbfddb292a0248ed187d28b30f3aa655fc28c0e5.json"
+  ],
+  "datetime": "2025-06-23T15:50:11.975792+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/20404",
+  "number": 20404,
+  "title": "8325467: Support methods with many arguments in C2",
+  "head_sha": "78259023375f2258002d664be6416b2d5e77bce1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15828593178"
+}
