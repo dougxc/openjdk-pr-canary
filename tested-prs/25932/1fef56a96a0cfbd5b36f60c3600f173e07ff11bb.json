@@ -1,0 +1,14 @@
+{
+  "artifact_3381586064": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-albertnetymk-1fef56a96a0cfbd5b36f60c3600f173e07ff11bb)\nOpenJDK 64-Bit Server VM (build 26-internal-albertnetymk-1fef56a96a0cfbd5b36f60c3600f173e07ff11bb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-23T10:22:38.422733+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25932",
+  "number": 25932,
+  "title": "8360220: Deprecate and obsolete ParallelRefProcBalancingEnabled",
+  "head_sha": "1fef56a96a0cfbd5b36f60c3600f173e07ff11bb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15820648297"
+}
