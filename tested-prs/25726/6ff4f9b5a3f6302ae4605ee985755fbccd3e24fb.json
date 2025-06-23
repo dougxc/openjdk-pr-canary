@@ -1,0 +1,16 @@
+{
+  "artifact_3381458364": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-kurashige23-6ff4f9b5a3f6302ae4605ee985755fbccd3e24fb)\nOpenJDK 64-Bit Server VM (build 26-internal-kurashige23-6ff4f9b5a3f6302ae4605ee985755fbccd3e24fb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "45584ba7517c7888072f2d86b95b1d04a9373f68.json"
+  ],
+  "datetime": "2025-06-23T09:46:57.755624+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25726",
+  "number": 25726,
+  "title": "8359120: Improve warning message when fail to load hsdis library",
+  "head_sha": "6ff4f9b5a3f6302ae4605ee985755fbccd3e24fb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15819483201"
+}
