@@ -1,0 +1,14 @@
+{
+  "artifact_3393962549": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-63d7f784d2d932767f58a1957920dee339c976e6)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-63d7f784d2d932767f58a1957920dee339c976e6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-24T16:53:19.308948+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25956",
+  "number": 25956,
+  "title": "8359024: Accessibility bugs in API documentation",
+  "head_sha": "63d7f784d2d932767f58a1957920dee339c976e6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15856352616"
+}
