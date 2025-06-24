@@ -1,0 +1,16 @@
+{
+  "artifact_3394803732": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-phohensee-1b9b31b689ce83e0d691f3ec1cd52992dae0b3d3)\nOpenJDK 64-Bit Server VM (build 26-internal-phohensee-1b9b31b689ce83e0d691f3ec1cd52992dae0b3d3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "201f1f5ec96e73daa8bd5db62e2019eb2238fbd1.json"
+  ],
+  "datetime": "2025-06-24T19:06:25.041743+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25951",
+  "number": 25951,
+  "title": "8279005: sun/tools/jstat tests do not check for test case exit codes after JDK-8245129",
+  "head_sha": "1b9b31b689ce83e0d691f3ec1cd52992dae0b3d3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15858837449"
+}
