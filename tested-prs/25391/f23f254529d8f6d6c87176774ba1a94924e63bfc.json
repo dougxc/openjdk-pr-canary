@@ -1,0 +1,17 @@
+{
+  "artifact_3391258831": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-myankelev-f23f254529d8f6d6c87176774ba1a94924e63bfc)\nOpenJDK 64-Bit Server VM (build 26-internal-myankelev-f23f254529d8f6d6c87176774ba1a94924e63bfc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "09a1ad5dbf96f0114bc8e8cd2bece087191be315.json",
+    "4f36b0f6207b26d5384bf2ac932d8556e5bebf37.json"
+  ],
+  "datetime": "2025-06-24T11:26:24.468771+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25391",
+  "number": 25391,
+  "title": "8357470: src/java.base/share/classes/sun/security/util/Debug.java implement the test for args.toLowerCase",
+  "head_sha": "f23f254529d8f6d6c87176774ba1a94924e63bfc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15848161402"
+}
