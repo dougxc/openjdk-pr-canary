@@ -1,0 +1,16 @@
+{
+  "artifact_3389674533": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-sspitsyn-2d7840f1756c835d74f5d63c81c6122c226161a0)\nOpenJDK 64-Bit Server VM (build 26-internal-sspitsyn-2d7840f1756c835d74f5d63c81c6122c226161a0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "360d911f8420766c9fcf0324fd4c0b58395c5895.json"
+  ],
+  "datetime": "2025-06-24T07:41:29.797981+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25948",
+  "number": 25948,
+  "title": "8225354: serviceability/jvmti/ModuleAwareAgents/ThreadStart failed with Didn't get ThreadStart events in VM early start phase!",
+  "head_sha": "2d7840f1756c835d74f5d63c81c6122c226161a0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15844178845"
+}
