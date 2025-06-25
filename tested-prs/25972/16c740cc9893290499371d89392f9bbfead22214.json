@@ -1,0 +1,14 @@
+{
+  "artifact_3399697393": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-16c740cc9893290499371d89392f9bbfead22214)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-16c740cc9893290499371d89392f9bbfead22214, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-25T09:46:17.523797+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25972",
+  "number": 25972,
+  "title": "8360405: [PPC64] some environments don't support mfdscr instruction",
+  "head_sha": "16c740cc9893290499371d89392f9bbfead22214",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15872796143"
+}
