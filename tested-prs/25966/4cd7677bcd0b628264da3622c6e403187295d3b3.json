@@ -1,0 +1,16 @@
+{
+  "artifact_3398744294": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-prsadhuk-4cd7677bcd0b628264da3622c6e403187295d3b3)\nOpenJDK 64-Bit Server VM (build 26-internal-prsadhuk-4cd7677bcd0b628264da3622c6e403187295d3b3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7e69459947a624df44a04aca4a05e7895bc92c8c.json"
+  ],
+  "datetime": "2025-06-25T08:16:36.070186+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25966",
+  "number": 25966,
+  "title": "8360462: [macosx] row selection not working with Ctrl+Shift+Down/Up in AquaL&F",
+  "head_sha": "4cd7677bcd0b628264da3622c6e403187295d3b3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15870171108"
+}
