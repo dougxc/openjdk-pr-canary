@@ -1,0 +1,16 @@
+{
+  "artifact_3405440556": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-rgithubli-49bda04e1b1835dbc59e8b52d83080ea97c63fc0)\nOpenJDK 64-Bit Server VM (build 26-internal-rgithubli-49bda04e1b1835dbc59e8b52d83080ea97c63fc0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d5dda920a2bdd1fad5847b66900103b20c7ebd4f.json"
+  ],
+  "datetime": "2025-06-25T22:02:36.924686+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25943",
+  "number": 25943,
+  "title": "8358529: GenShen: Heuristics do not respond to changes in SoftMaxHeapSize",
+  "head_sha": "49bda04e1b1835dbc59e8b52d83080ea97c63fc0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15887598522"
+}
