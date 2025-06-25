@@ -1,0 +1,16 @@
+{
+  "artifact_3398815368": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-ProjectD8-9b579b6024d5e8055ffd3ba6ed3e7c6ddd73b667)\nOpenJDK 64-Bit Server VM (build 26-internal-ProjectD8-9b579b6024d5e8055ffd3ba6ed3e7c6ddd73b667, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "886769837ebcbcd8df606b3accd5aa012e87140d.json"
+  ],
+  "datetime": "2025-06-25T08:05:21.579046+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25967",
+  "number": 25967,
+  "title": "8360120: Bundled macOS applications not receiving OpenURL events when launched as subprocess",
+  "head_sha": "9b579b6024d5e8055ffd3ba6ed3e7c6ddd73b667",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15870171108"
+}
