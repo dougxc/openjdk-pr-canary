@@ -1,0 +1,14 @@
+{
+  "artifact_3397367872": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-veresov-0679017e1c01924004a916e75b29f848f656928a)\nOpenJDK 64-Bit Server VM (build 26-internal-veresov-0679017e1c01924004a916e75b29f848f656928a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-25T02:31:56.063517+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25965",
+  "number": 25965,
+  "title": "8359788: Internal Error: assert(get_instanceKlass()->is_loaded()) failed: must be at least loaded",
+  "head_sha": "0679017e1c01924004a916e75b29f848f656928a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15865804096"
+}
