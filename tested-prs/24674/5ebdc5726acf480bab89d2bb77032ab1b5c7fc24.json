@@ -1,0 +1,22 @@
+{
+  "artifact_3400141127": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-erifan-5ebdc5726acf480bab89d2bb77032ab1b5c7fc24)\nOpenJDK 64-Bit Server VM (build 26-internal-erifan-5ebdc5726acf480bab89d2bb77032ab1b5c7fc24, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "001fac0f2a94d56bd3e670762ae5e5d5acc17327.json",
+    "1b9c3b363fcc296956663249ef95d60a26a704d2.json",
+    "34eae981a6a6a388af120ba6597fdc787ca42429.json",
+    "4fbf84e39cfd13413ba188f2d198e1872131d770.json",
+    "ebbcc405018f0261c3a7f860ea6f4f6b54bbd643.json",
+    "f2f71e3467721b88f72efab449efd62a5ecd71b0.json",
+    "f51bf722c3e576d6471e3ba6f2d09726ab1b8bbe.json"
+  ],
+  "datetime": "2025-06-25T11:26:50.385893+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24674",
+  "number": 24674,
+  "title": "8354242: VectorAPI: combine vector not operation with compare",
+  "head_sha": "5ebdc5726acf480bab89d2bb77032ab1b5c7fc24",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15874099817"
+}
