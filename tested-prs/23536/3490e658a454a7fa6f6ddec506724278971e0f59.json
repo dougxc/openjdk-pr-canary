@@ -1,0 +1,22 @@
+{
+  "artifact_3399285751": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ktakakuri-3490e658a454a7fa6f6ddec506724278971e0f59)\nOpenJDK 64-Bit Server VM (build 25-internal-ktakakuri-3490e658a454a7fa6f6ddec506724278971e0f59, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "363c5a39948709389afb0800c482477c105a7a62.json",
+    "64b72c96e8cce9284f35c9b2d83378606d849c4f.json",
+    "890f01350e106d0533e178e7d1c9f83b7d918ea9.json",
+    "aa14bd35feb83e02eb46dd1a7d4861afd9e35d1d.json",
+    "b18bbdac5dce6c42ccea0cfbdc09188c3c1dd1de.json",
+    "b2d8284b547eb9ade047dd303e1c9a908b10562d.json",
+    "d3fc95a7ab8b8d8913bb481e359bd0752fb44a04.json"
+  ],
+  "datetime": "2025-06-25T09:03:14.770486+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23536",
+  "number": 23536,
+  "title": "8349288: runtime/os/windows/TestAvailableProcessors.java fails on localized Windows platform",
+  "head_sha": "3490e658a454a7fa6f6ddec506724278971e0f59",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15870171108"
+}
