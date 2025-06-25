@@ -1,0 +1,18 @@
+{
+  "artifact_3404097590": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-coleenp-b0fe16c9a7cdb0f45124695a0f5256f84385f87f)\nOpenJDK 64-Bit Server VM (build 26-internal-coleenp-b0fe16c9a7cdb0f45124695a0f5256f84385f87f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3654034f802512ae4bbe6b5b9495d47ec6d08d83.json",
+    "6bc1ca593a70aa633f9f50f2776e76f989d6e899.json",
+    "ed342127773f29315fd8fee79e5c0adaf06c7bde.json"
+  ],
+  "datetime": "2025-06-25T19:33:24.017832+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25857",
+  "number": 25857,
+  "title": "8359707: Add classfile modification code to RedefineClassHelper",
+  "head_sha": "b0fe16c9a7cdb0f45124695a0f5256f84385f87f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15884516030"
+}
