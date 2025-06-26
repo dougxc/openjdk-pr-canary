@@ -1,0 +1,17 @@
+{
+  "artifact_3409075897": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-albertnetymk-85a857e7620f4475f071d1a080db6f8db71cbf8e)\nOpenJDK 64-Bit Server VM (build 26-internal-albertnetymk-85a857e7620f4475f071d1a080db6f8db71cbf8e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3216b6ea3c136488a10e77d7c4be57ba46993e01.json",
+    "86b2df4aa8a78ca5c00be30741bd5873c3ce6966.json"
+  ],
+  "datetime": "2025-06-26T10:56:53.192557+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25930",
+  "number": 25930,
+  "title": "8360206: Refactor ReferenceProcessor::balance_queues",
+  "head_sha": "85a857e7620f4475f071d1a080db6f8db71cbf8e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15899599766"
+}
