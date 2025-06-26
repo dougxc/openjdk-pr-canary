@@ -1,0 +1,20 @@
+{
+  "artifact_3409674086": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-coffeys-9d6bbfd4d7be738be931f96a904479bcb6902318)\nOpenJDK 64-Bit Server VM (build 26-internal-coffeys-9d6bbfd4d7be738be931f96a904479bcb6902318, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/11108",
+    "number": "11108",
+    "revision": "738d61ca6334d939e32b352a1616aafbadf868f0"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-06-26T12:04:12.230034+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/18764",
+  "number": 18764,
+  "title": "8044609: javax.net.debug options not working and documented as expected",
+  "head_sha": "9d6bbfd4d7be738be931f96a904479bcb6902318",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15900598047"
+}
