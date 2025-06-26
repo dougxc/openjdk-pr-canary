@@ -1,0 +1,16 @@
+{
+  "artifact_3407808715": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-MBaesken-06efab1889601ecfb05c5b92c51cd38a71ad00a7)\nOpenJDK 64-Bit Server VM (build 26-internal-MBaesken-06efab1889601ecfb05c5b92c51cd38a71ad00a7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "099a2c58ddba9f1922c1968be825dea7cfb1eefd.json"
+  ],
+  "datetime": "2025-06-26T07:41:29.454043+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25978",
+  "number": 25978,
+  "title": "8360478: libjsig related tier3 jtreg tests fail when asan is configured",
+  "head_sha": "06efab1889601ecfb05c5b92c51cd38a71ad00a7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15895736062"
+}
