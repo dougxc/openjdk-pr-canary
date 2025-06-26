@@ -1,0 +1,16 @@
+{
+  "artifact_3409919179": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-walulyai-0ebf48bb0fc85f66c63ca2316389b2fd12b95ef2)\nOpenJDK 64-Bit Server VM (build 26-internal-walulyai-0ebf48bb0fc85f66c63ca2316389b2fd12b95ef2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e4efe8dedaa37393397c125aa38cd1e9729cb68a.json"
+  ],
+  "datetime": "2025-06-26T13:11:22.796982+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25979",
+  "number": 25979,
+  "title": "8360522: G1: Flag constraint functions for G1SATBBufferSize and G1UpdateBufferSize are skipped during argument validation",
+  "head_sha": "0ebf48bb0fc85f66c63ca2316389b2fd12b95ef2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15902524821"
+}
