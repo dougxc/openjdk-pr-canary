@@ -1,0 +1,19 @@
+{
+  "artifact_3410960914": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-walulyai-8781a113b9f84effb1364e05d5ef1696908583a2)\nOpenJDK 64-Bit Server VM (build 26-internal-walulyai-8781a113b9f84effb1364e05d5ef1696908583a2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2d5b7cd1f7b76a54f6db63c91beab66b1f8251b2.json",
+    "657304223dc8338462d1cc41170fac51b75b823b.json",
+    "81a1e189e14cd6ccd53ade0654ad5352eb45db00.json",
+    "df4f7ce5628f1def152dae21f6f71f052d2eb921.json"
+  ],
+  "datetime": "2025-06-26T16:26:24.761780+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25832",
+  "number": 25832,
+  "title": "8238687: Investigate memory uncommit during young collections in G1",
+  "head_sha": "8781a113b9f84effb1364e05d5ef1696908583a2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15906149007"
+}
