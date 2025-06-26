@@ -1,0 +1,14 @@
+{
+  "artifact_3410182927": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-spchee-577e9a20736f31ce6aad94535012505f5a19f478)\nOpenJDK 64-Bit Server VM (build 25-internal-spchee-577e9a20736f31ce6aad94535012505f5a19f478, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-26T16:05:26.199870+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26000",
+  "number": 26000,
+  "title": "8360654: AArch64: Remove redundant dmb from C1 compareAndSet",
+  "head_sha": "577e9a20736f31ce6aad94535012505f5a19f478",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15906149007"
+}
