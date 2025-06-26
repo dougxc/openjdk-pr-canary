@@ -1,0 +1,14 @@
+{
+  "artifact_3415009703": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-calvinccheung-00dfdabfcaa2f774cb72b4f261e7ec9c4ad89ce9)\nOpenJDK 64-Bit Server VM (build 26-internal-calvinccheung-00dfdabfcaa2f774cb72b4f261e7ec9c4ad89ce9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-26T23:40:00.418310+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26007",
+  "number": 26007,
+  "title": "8360743: Enables regeneration of JLI holder classes for CDS static dump",
+  "head_sha": "00dfdabfcaa2f774cb72b4f261e7ec9c4ad89ce9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15914568591"
+}
