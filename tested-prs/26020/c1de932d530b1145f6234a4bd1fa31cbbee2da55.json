@@ -1,0 +1,14 @@
+{
+  "artifact_3420195856": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jerboaa-c1de932d530b1145f6234a4bd1fa31cbbee2da55)\nOpenJDK 64-Bit Server VM (build 26-internal-jerboaa-c1de932d530b1145f6234a4bd1fa31cbbee2da55, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-27T15:42:47.748129+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26020",
+  "number": 26020,
+  "title": "8360651: Create OSContainer API for memory limit",
+  "head_sha": "c1de932d530b1145f6234a4bd1fa31cbbee2da55",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15930052098"
+}
