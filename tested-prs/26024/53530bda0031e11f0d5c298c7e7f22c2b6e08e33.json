@@ -1,0 +1,14 @@
+{
+  "artifact_3421488728": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mhaessig-53530bda0031e11f0d5c298c7e7f22c2b6e08e33)\nOpenJDK 64-Bit Server VM (build 26-internal-mhaessig-53530bda0031e11f0d5c298c7e7f22c2b6e08e33, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-27T19:16:59.775254+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26024",
+  "number": 26024,
+  "title": "8360641: TestCompilerCounts fails after 8354727",
+  "head_sha": "53530bda0031e11f0d5c298c7e7f22c2b6e08e33",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15933557731"
+}
