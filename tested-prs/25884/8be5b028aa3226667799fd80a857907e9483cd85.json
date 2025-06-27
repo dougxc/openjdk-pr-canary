@@ -1,0 +1,16 @@
+{
+  "artifact_3421873705": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-RogerRiggs-8be5b028aa3226667799fd80a857907e9483cd85)\nOpenJDK 64-Bit Server VM (build 26-internal-RogerRiggs-8be5b028aa3226667799fd80a857907e9483cd85, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5fdd61016c9eb73720d5faec513fe68b21c53c43.json"
+  ],
+  "datetime": "2025-06-27T19:51:46.522806+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25884",
+  "number": 25884,
+  "title": "8354872: Clarify java.lang.Process resource cleanup",
+  "head_sha": "8be5b028aa3226667799fd80a857907e9483cd85",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15933557731"
+}
