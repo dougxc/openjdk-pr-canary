@@ -1,0 +1,16 @@
+{
+  "artifact_3420768573": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-iklam-f8222e38e41a26469089351343df45039ddb288f)\nOpenJDK 64-Bit Server VM (build 26-internal-iklam-f8222e38e41a26469089351343df45039ddb288f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "deed0c9d475173d3cf7fe853189280893b3d466a.json"
+  ],
+  "datetime": "2025-06-27T17:00:02.192861+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26008",
+  "number": 26008,
+  "title": "8360164: AOT cache creation crashes in ~ThreadTotalCPUTimeClosure()",
+  "head_sha": "f8222e38e41a26469089351343df45039ddb288f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15931312150"
+}
