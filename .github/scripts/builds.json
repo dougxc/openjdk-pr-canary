@@ -190393,6 +190393,9 @@
 		},
 		"aliases": [
 			"jdk-26-361"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	}
 ]
