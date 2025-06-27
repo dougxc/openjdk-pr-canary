@@ -1,0 +1,17 @@
+{
+  "artifact_3418935737": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-kevinjwalls-d14f5228cec87304ec39f018441ac73972df5324)\nOpenJDK 64-Bit Server VM (build 26-internal-kevinjwalls-d14f5228cec87304ec39f018441ac73972df5324, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "33248d9daf31c5c625ce7790db4d4a2bd9353a84.json",
+    "d8143785ca4e152bc325a05113bcbf8affeff87c.json"
+  ],
+  "datetime": "2025-06-27T13:09:44.892031+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25958",
+  "number": 25958,
+  "title": "8359870: JVM crashes in AccessInternal::PostRuntimeDispatch",
+  "head_sha": "d14f5228cec87304ec39f018441ac73972df5324",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15926867650"
+}
