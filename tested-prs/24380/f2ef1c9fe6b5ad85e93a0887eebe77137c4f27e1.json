@@ -1,0 +1,14 @@
+{
+  "artifact_3420738392": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-magicus-f2ef1c9fe6b5ad85e93a0887eebe77137c4f27e1)\nOpenJDK 64-Bit Server VM (build 26-internal-magicus-f2ef1c9fe6b5ad85e93a0887eebe77137c4f27e1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-27T17:12:34.402781+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24380",
+  "number": 24380,
+  "title": "8346719: Add relaunchers to the static JDK image for missing executables",
+  "head_sha": "f2ef1c9fe6b5ad85e93a0887eebe77137c4f27e1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15931312150"
+}
