@@ -181608,6 +181608,29 @@
 		]
 	},
 	{
+		"id": "jdk-25+30-3407",
+		"revisions": {
+			"open": [
+				"eaaaae5be95c16049f2cf8b50fbc55784f00fdda"
+			],
+			"mx": [
+				"9ff24b5ac4fcbd3dc0f984830b3cd981a181f461"
+			],
+			".": [
+				"59bb173d5c791d7cbb97ec866c500753b48e2906"
+			],
+			"graal-enterprise": [
+				"4baa14a2594f99fa1f6b412bab27f2fb2453a1ae"
+			],
+			"graal": [
+				"7804e627e823722611b555fed72f1efd2dcbe41e"
+			]
+		},
+		"aliases": [
+			"jdk-25-3407"
+		]
+	},
+	{
 		"id": "jdk-25.0.1+1-1",
 		"revisions": {
 			".": [
@@ -190497,6 +190520,79 @@
 		},
 		"aliases": [
 			"jdk-26-365"
+		]
+	},
+	{
+		"id": "jdk-26+5-366",
+		"revisions": {
+			"open": [
+				"12196baf6700d00c244747cfa22767e532a4a963"
+			],
+			"mx": [
+				"6429d9fba2e34a16cbcbe1c3931e61dcd76a98dd"
+			],
+			".": [
+				"6ebd9f44a40aae27be8fa6cc1c660cbe9d5facec"
+			],
+			"graal": [
+				"c957bfe3452b74d1e80703ce7fb109331ecf8b6b"
+			],
+			"graal-enterprise": [
+				"c1df6b80662b2fb9041f60033c1bb72610969a8d",
+				"8f66f07ae4e0a39412eb0325b80a7710c79d1dcf"
+			]
+		},
+		"aliases": [
+			"jdk-26-366"
+		]
+	},
+	{
+		"id": "jdk-26+5-367",
+		"revisions": {
+			"mx": [
+				"6429d9fba2e34a16cbcbe1c3931e61dcd76a98dd"
+			],
+			".": [
+				"6ebd9f44a40aae27be8fa6cc1c660cbe9d5facec"
+			],
+			"graal": [
+				"c957bfe3452b74d1e80703ce7fb109331ecf8b6b"
+			],
+			"open": [
+				"da7080fffb2389465dc9afca6d02e9085fe15302",
+				"4edf791aecd432ecde00652acfaabddf136f4ca7"
+			],
+			"graal-enterprise": [
+				"c1df6b80662b2fb9041f60033c1bb72610969a8d"
+			]
+		},
+		"aliases": [
+			"jdk-26-367"
+		]
+	},
+	{
+		"id": "jdk-26+5-368",
+		"revisions": {
+			".": [
+				"6ebd9f44a40aae27be8fa6cc1c660cbe9d5facec"
+			],
+			"mx": [
+				"d60d7b795b818df4f4538033ea210d7186de1ba1"
+			],
+			"graal": [
+				"84529b8289758e3e8cf4896212ffc8cc6f3d79e5",
+				"58543b2a7edbf36ee392f26e60d3020e2dbf252d"
+			],
+			"open": [
+				"da7080fffb2389465dc9afca6d02e9085fe15302"
+			],
+			"graal-enterprise": [
+				"841b3ae8a595cd74196c949cd4817c0de48063f6",
+				"653e4a869c4ffa190bc52b1d988ec9629eacdbf3"
+			]
+		},
+		"aliases": [
+			"jdk-26-368"
 		]
 	}
 ]
