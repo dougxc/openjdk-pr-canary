@@ -1,0 +1,16 @@
+{
+  "artifact_3423055850": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-valeriepeng-d7335e3d4e9cb7867d3e190423c6b0052ebd79d0)\nOpenJDK 64-Bit Server VM (build 25-internal-valeriepeng-d7335e3d4e9cb7867d3e190423c6b0052ebd79d0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5d2224307d2fc75211c9d7aa723a2bf7273661b8.json"
+  ],
+  "datetime": "2025-06-28T00:01:49.860542+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25632",
+  "number": 25632,
+  "title": "8358451: SunJCE PBEKey impl should throw IllegalStateException when getEncoded() is called",
+  "head_sha": "d7335e3d4e9cb7867d3e190423c6b0052ebd79d0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15937829184"
+}
