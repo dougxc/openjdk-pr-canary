@@ -1,0 +1,14 @@
+{
+  "artifact_3423749668": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mrserb-bdb08a93009bc8d3d84972381727ad031f6f5b1e)\nOpenJDK 64-Bit Server VM (build 26-internal-mrserb-bdb08a93009bc8d3d84972381727ad031f6f5b1e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-28T04:50:51.787337+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25818",
+  "number": 25818,
+  "title": "8359266: Delete the usage of AppContext in the GraphicsDevice",
+  "head_sha": "bdb08a93009bc8d3d84972381727ad031f6f5b1e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15940535523"
+}
