@@ -1,0 +1,16 @@
+{
+  "artifact_3434779852": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-wenshao-f4f97c26025ba40be54693a85a6b84b1143a921f)\nOpenJDK 64-Bit Server VM (build 26-internal-wenshao-f4f97c26025ba40be54693a85a6b84b1143a921f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e1e9e25b3d2f99192fc2706dd7df846016452bae.json"
+  ],
+  "datetime": "2025-06-30T19:14:19.004784+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26022",
+  "number": 26022,
+  "title": "8361018: Re-examine buffering and encoding conversion in BufferedWriter",
+  "head_sha": "f4f97c26025ba40be54693a85a6b84b1143a921f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15981032135"
+}
