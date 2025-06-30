@@ -1,0 +1,14 @@
+{
+  "artifact_3433662563": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jaikiran-46e18afb51f1360300fabe440803d59ad573a2b6)\nOpenJDK 64-Bit Server VM (build 26-internal-jaikiran-46e18afb51f1360300fabe440803d59ad573a2b6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-30T16:25:36.879657+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26049",
+  "number": 26049,
+  "title": "8291652: (ch) java/nio/channels/SocketChannel/VectorIO.java failed with \"Exception: Server 15: Timed out\"",
+  "head_sha": "46e18afb51f1360300fabe440803d59ad573a2b6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15977238536"
+}
