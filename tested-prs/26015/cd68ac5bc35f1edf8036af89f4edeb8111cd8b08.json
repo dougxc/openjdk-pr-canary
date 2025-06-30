@@ -1,0 +1,16 @@
+{
+  "artifact_3429768410": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-MBaesken-cd68ac5bc35f1edf8036af89f4edeb8111cd8b08)\nOpenJDK 64-Bit Server VM (build 26-internal-MBaesken-cd68ac5bc35f1edf8036af89f4edeb8111cd8b08, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8fedbca0213c086e9f53a1f2c986d6c5fa5e53ce.json"
+  ],
+  "datetime": "2025-06-30T07:47:13.449064+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26015",
+  "number": 26015,
+  "title": "8360791: [ubsan] Adjust signal handling when using clang",
+  "head_sha": "cd68ac5bc35f1edf8036af89f4edeb8111cd8b08",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15966697196"
+}
