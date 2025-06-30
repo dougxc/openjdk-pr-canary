@@ -1,0 +1,16 @@
+{
+  "artifact_3431454574": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-albertnetymk-0743d5e5b7469d16a17f4296cf404901bebd1099)\nOpenJDK 64-Bit Server VM (build 26-internal-albertnetymk-0743d5e5b7469d16a17f4296cf404901bebd1099, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6088695a54adfa55cc2f6d0ecbf54273c5e1b5d1.json"
+  ],
+  "datetime": "2025-06-30T13:35:53.859011+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26038",
+  "number": 26038,
+  "title": "8361055: Serial: Inline SerialHeap::process_roots",
+  "head_sha": "0743d5e5b7469d16a17f4296cf404901bebd1099",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15973601823"
+}
