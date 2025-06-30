@@ -1,0 +1,17 @@
+{
+  "artifact_3432228679": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-savoptik-88f1e494cec43cc60e4935c6057f2b1eb78db38f)\nOpenJDK 64-Bit Server VM (build 26-internal-savoptik-88f1e494cec43cc60e4935c6057f2b1eb78db38f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e69c49c82caa8fe108ab059dee8e6238a1cc31bd.json",
+    "ee6a0ff73de5104110cf67df2a8247aa455f0aa9.json"
+  ],
+  "datetime": "2025-06-30T14:35:11.158794+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26002",
+  "number": 26002,
+  "title": "8360664: Null pointer dereference in src/hotspot/share/prims/jvmtiTagMap.cpp in IterateOverHeapObjectClosure::do_object()",
+  "head_sha": "88f1e494cec43cc60e4935c6057f2b1eb78db38f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15973601823"
+}
