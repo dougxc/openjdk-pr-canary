@@ -1,0 +1,14 @@
+{
+  "artifact_3429327605": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-koushikthirupattur-23228fd8db4f99b83fcc9e4b12b5de3245fd21a0)\nOpenJDK 64-Bit Server VM (build 26-internal-koushikthirupattur-23228fd8db4f99b83fcc9e4b12b5de3245fd21a0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-30T07:19:02.325414+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26005",
+  "number": 26005,
+  "title": "8357915: SecureRandom nextLong memory usage",
+  "head_sha": "23228fd8db4f99b83fcc9e4b12b5de3245fd21a0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15965848398"
+}
