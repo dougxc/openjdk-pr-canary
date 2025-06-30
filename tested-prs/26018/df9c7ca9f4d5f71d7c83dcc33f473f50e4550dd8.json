@@ -1,0 +1,17 @@
+{
+  "artifact_3429455688": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jaikiran-df9c7ca9f4d5f71d7c83dcc33f473f50e4550dd8)\nOpenJDK 64-Bit Server VM (build 26-internal-jaikiran-df9c7ca9f4d5f71d7c83dcc33f473f50e4550dd8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "049e43ea5d9ef40d6620a2850879c6736a9bbcfe.json",
+    "d276ad05fd0d0a27690d8ca01c2b960c36d6c9d2.json"
+  ],
+  "datetime": "2025-06-30T07:08:06.127092+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26018",
+  "number": 26018,
+  "title": "8360575: java.util.Properties.list() methods trim each value to 37 characters in the listed output",
+  "head_sha": "df9c7ca9f4d5f71d7c83dcc33f473f50e4550dd8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15965848398"
+}
