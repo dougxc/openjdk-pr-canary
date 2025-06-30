@@ -1,0 +1,14 @@
+{
+  "artifact_3430086942": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-MBaesken-e979e9c875cf15357503f6c4a3dd1f91e78ab0c2)\nOpenJDK 64-Bit Server VM (build 26-internal-MBaesken-e979e9c875cf15357503f6c4a3dd1f91e78ab0c2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-06-30T09:06:03.405445+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26037",
+  "number": 26037,
+  "title": "8361043: [ubsan] os::print_hex_dump runtime error: applying non-zero offset 8 to null pointer",
+  "head_sha": "e979e9c875cf15357503f6c4a3dd1f91e78ab0c2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15968145472"
+}
