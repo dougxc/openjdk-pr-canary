@@ -99482,10 +99482,12 @@
 			]
 		},
 		"aliases": [
-			"jdk-24.0.2-53"
+			"jdk-24.0.2-53",
+			"jdk-24.0.2+11"
 		],
 		"tags": [
-			"LIBGRAAL_BUILD_FAILED"
+			"LIBGRAAL_BUILD_FAILED",
+			"PROMOTED"
 		]
 	},
 	{
