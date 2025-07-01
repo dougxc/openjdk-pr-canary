@@ -1,0 +1,18 @@
+{
+  "artifact_3440915335": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-benoitmaillard-005b28255257f9097ce3d79a386410f5d632d0fa)\nOpenJDK 64-Bit Server VM (build 26-internal-benoitmaillard-005b28255257f9097ce3d79a386410f5d632d0fa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2ac5e725e472578618c5ab47425c52843dc119bb.json",
+    "75de51dff6d9cc3e9764737b29b9358992b488b7.json",
+    "e05eb749ff67a91966ca36130564922eb8a91746.json"
+  ],
+  "datetime": "2025-07-01T14:26:32.728998+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26017",
+  "number": 26017,
+  "title": "8359602: Ideal optimizations depending on input type are missed because of missing notification mechanism from CCP",
+  "head_sha": "005b28255257f9097ce3d79a386410f5d632d0fa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16000056018"
+}
