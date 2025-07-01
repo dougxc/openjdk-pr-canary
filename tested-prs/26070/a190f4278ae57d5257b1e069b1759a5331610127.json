@@ -1,0 +1,14 @@
+{
+  "artifact_3441904019": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-MBaesken-a190f4278ae57d5257b1e069b1759a5331610127)\nOpenJDK 64-Bit Server VM (build 26-internal-MBaesken-a190f4278ae57d5257b1e069b1759a5331610127, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-01T15:58:45.238455+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26070",
+  "number": 26070,
+  "title": "8361198: [AIX] fix misleading error output in thread_cpu_time_unchecked",
+  "head_sha": "a190f4278ae57d5257b1e069b1759a5331610127",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16003741379"
+}
