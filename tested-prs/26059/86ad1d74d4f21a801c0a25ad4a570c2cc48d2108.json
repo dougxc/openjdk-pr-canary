@@ -1,0 +1,14 @@
+{
+  "artifact_3438482853": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-djelinski-86ad1d74d4f21a801c0a25ad4a570c2cc48d2108)\nOpenJDK 64-Bit Server VM (build 26-internal-djelinski-86ad1d74d4f21a801c0a25ad4a570c2cc48d2108, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-01T08:53:50.499609+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26059",
+  "number": 26059,
+  "title": "8361125: Fix typo in onTradAbsence",
+  "head_sha": "86ad1d74d4f21a801c0a25ad4a570c2cc48d2108",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15994316320"
+}
