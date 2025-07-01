@@ -1,0 +1,16 @@
+{
+  "artifact_3439413561": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jaikiran-7f03aa43ab1d5e56af7ec0263f766822cd4b1cf5)\nOpenJDK 64-Bit Server VM (build 26-internal-jaikiran-7f03aa43ab1d5e56af7ec0263f766822cd4b1cf5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "42b86deebba9aee237904d0b4391306ed2416a38.json"
+  ],
+  "datetime": "2025-07-01T10:07:45.370977+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25820",
+  "number": 25820,
+  "title": "8359477: com/sun/net/httpserver/Test12.java appears to have a temp file race",
+  "head_sha": "7f03aa43ab1d5e56af7ec0263f766822cd4b1cf5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15995543074"
+}
