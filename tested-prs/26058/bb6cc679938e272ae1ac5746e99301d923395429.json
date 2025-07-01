@@ -1,0 +1,14 @@
+{
+  "artifact_3438155957": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-bb6cc679938e272ae1ac5746e99301d923395429)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-bb6cc679938e272ae1ac5746e99301d923395429, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-01T07:43:20.054963+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26058",
+  "number": 26058,
+  "title": "8360887: (fs) Files.getFileAttributeView returns unusable FileAttributeView if UserDefinedFileAttributeView unavailable (aix)",
+  "head_sha": "bb6cc679938e272ae1ac5746e99301d923395429",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15992824127"
+}
