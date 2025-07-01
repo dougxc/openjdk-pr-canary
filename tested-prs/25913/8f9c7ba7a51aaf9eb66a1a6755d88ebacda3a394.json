@@ -1,0 +1,16 @@
+{
+  "artifact_3443940839": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-Hamlin-Li-8f9c7ba7a51aaf9eb66a1a6755d88ebacda3a394)\nOpenJDK 64-Bit Server VM (build 26-internal-Hamlin-Li-8f9c7ba7a51aaf9eb66a1a6755d88ebacda3a394, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7b48e4ea832cbcc66bc62430a63bca90919a933d.json"
+  ],
+  "datetime": "2025-07-01T21:04:09.420326+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25913",
+  "number": 25913,
+  "title": "8360090: [TEST] RISC-V: disable some cds tests on qemu",
+  "head_sha": "8f9c7ba7a51aaf9eb66a1a6755d88ebacda3a394",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16009561896"
+}
