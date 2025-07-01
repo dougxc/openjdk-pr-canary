@@ -1,0 +1,14 @@
+{
+  "artifact_3443970381": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-ericcaspole-a2ad30c8bb669bba120e62fca6cce7c4fde68ed7)\nOpenJDK 64-Bit Server VM (build 26-internal-ericcaspole-a2ad30c8bb669bba120e62fca6cce7c4fde68ed7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-01T20:43:25.658924+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26077",
+  "number": 26077,
+  "title": "8361216: Do not fork javac in J2DBench ant build",
+  "head_sha": "a2ad30c8bb669bba120e62fca6cce7c4fde68ed7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16009561896"
+}
