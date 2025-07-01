@@ -1,0 +1,14 @@
+{
+  "artifact_3439620989": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-myankelev-ce6098b0424bdcc3baefe8b9c2293524f23ebc3a)\nOpenJDK 64-Bit Server VM (build 26-internal-myankelev-ce6098b0424bdcc3baefe8b9c2293524f23ebc3a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-01T10:58:13.292212+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26061",
+  "number": 26061,
+  "title": "8359340: KRB5 tests should protect themselves against random proxy selection",
+  "head_sha": "ce6098b0424bdcc3baefe8b9c2293524f23ebc3a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/15996949227"
+}
