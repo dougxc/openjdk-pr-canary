@@ -1,0 +1,14 @@
+{
+  "artifact_3450684809": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-kumarabhi006-1873db3a24987c461c53509ba64dd6653fc20222)\nOpenJDK 64-Bit Server VM (build 26-internal-kumarabhi006-1873db3a24987c461c53509ba64dd6653fc20222, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-02T15:45:11.407998+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26096",
+  "number": 26096,
+  "title": "8361283: [Accessibility,macOS,VoiceOver] VoiceOver announced Tab items of JTabbedPane as RadioButton on macOS",
+  "head_sha": "1873db3a24987c461c53509ba64dd6653fc20222",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16029444373"
+}
