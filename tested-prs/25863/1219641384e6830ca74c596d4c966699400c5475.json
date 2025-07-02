@@ -1,0 +1,24 @@
+{
+  "artifact_3453512489": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-bplb-1219641384e6830ca74c596d4c966699400c5475)\nOpenJDK 64-Bit Server VM (build 26-internal-bplb-1219641384e6830ca74c596d4c966699400c5475, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0ee3f59c67692d7dd16e8635cd59a9720932e460.json",
+    "3e5e4987cff40e7add5e590df6ece88dce8a5c81.json",
+    "47c8bb9746063ebd71c44e98c562779896d94c74.json",
+    "8ccfd542447f41644756964d8a22a65dca21bd26.json",
+    "9eeed767ced6e7b86ac7c2c73fb2d32063d88a7a.json",
+    "ab959dfc0b62a42f90b2249d2ba6e349a066f5cb.json",
+    "c242043231e71f19bc2aa0220419d5101c4b4953.json",
+    "d5abfa450cb3fcd604560833038735e41952bce9.json",
+    "d616c16017393a5485b29ab36f3954989b12eef6.json"
+  ],
+  "datetime": "2025-07-02T22:54:11.531079+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25863",
+  "number": 25863,
+  "title": "8358533: Improve performance of java.io.Reader.readAllLines",
+  "head_sha": "1219641384e6830ca74c596d4c966699400c5475",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16037166598"
+}
