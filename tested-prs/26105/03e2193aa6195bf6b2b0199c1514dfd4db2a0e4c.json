@@ -1,0 +1,14 @@
+{
+  "artifact_3453222271": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-justin-curtis-lu-03e2193aa6195bf6b2b0199c1514dfd4db2a0e4c)\nOpenJDK 64-Bit Server VM (build 26-internal-justin-curtis-lu-03e2193aa6195bf6b2b0199c1514dfd4db2a0e4c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-02T21:41:45.190391+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26105",
+  "number": 26105,
+  "title": "8361303: L10n comment for javac.opt.Xlint.desc.synchronization in javac.properties",
+  "head_sha": "03e2193aa6195bf6b2b0199c1514dfd4db2a0e4c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16036193891"
+}
