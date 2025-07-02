@@ -1,0 +1,16 @@
+{
+  "artifact_3447590479": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-shipilev-dedbcfedd15c2a8e6ee1286d630364c73e315320)\nOpenJDK 64-Bit Server VM (build 26-internal-shipilev-dedbcfedd15c2a8e6ee1286d630364c73e315320, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b16cbabbc70da82ed74540655996c358d0fa47ce.json"
+  ],
+  "datetime": "2025-07-02T10:28:38.826594+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26068",
+  "number": 26068,
+  "title": "8360557: CTW: Inline cold methods to reach more code",
+  "head_sha": "dedbcfedd15c2a8e6ee1286d630364c73e315320",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16021535169"
+}
