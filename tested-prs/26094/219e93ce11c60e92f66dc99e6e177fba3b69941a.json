@@ -1,0 +1,14 @@
+{
+  "artifact_3449038066": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-kevinjwalls-219e93ce11c60e92f66dc99e6e177fba3b69941a)\nOpenJDK 64-Bit Server VM (build 26-internal-kevinjwalls-219e93ce11c60e92f66dc99e6e177fba3b69941a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-02T13:11:28.566762+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26094",
+  "number": 26094,
+  "title": "8305567: serviceability/tmtools/jstat/GcTest01.java failed  utils.JstatGcResults.assertConsistency",
+  "head_sha": "219e93ce11c60e92f66dc99e6e177fba3b69941a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16025813890"
+}
