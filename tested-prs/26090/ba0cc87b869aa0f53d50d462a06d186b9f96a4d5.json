@@ -1,0 +1,14 @@
+{
+  "artifact_3448416350": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-shipilev-ba0cc87b869aa0f53d50d462a06d186b9f96a4d5)\nOpenJDK 64-Bit Server VM (build 26-internal-shipilev-ba0cc87b869aa0f53d50d462a06d186b9f96a4d5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-02T10:55:44.187789+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26090",
+  "number": 26090,
+  "title": "8361255: CTW: Tolerate more NCDFE problems",
+  "head_sha": "ba0cc87b869aa0f53d50d462a06d186b9f96a4d5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16022844597"
+}
