@@ -1,0 +1,18 @@
+{
+  "artifact_3449463224": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jaikiran-711840f3d4d47b97e47cb148abeb3d2ee5fd6a77)\nOpenJDK 64-Bit Server VM (build 26-internal-jaikiran-711840f3d4d47b97e47cb148abeb3d2ee5fd6a77, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7b34255ec737a89c2dd47861d1212f91899d7309.json",
+    "b2ba49ce30bbdcf81145286e72dbff283fb651fc.json",
+    "c8825e0c0a22a1ead81b0ca4bc8160723e93d8ae.json"
+  ],
+  "datetime": "2025-07-02T13:44:40.690490+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26041",
+  "number": 26041,
+  "title": "8361060: Keep track of the origin server against which a jdk.internal.net.http.HttpConnection was constructed",
+  "head_sha": "711840f3d4d47b97e47cb148abeb3d2ee5fd6a77",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16025813890"
+}
