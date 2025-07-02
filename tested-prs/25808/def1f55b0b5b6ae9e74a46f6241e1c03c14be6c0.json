@@ -1,0 +1,18 @@
+{
+  "artifact_3451456946": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-valeriepeng-def1f55b0b5b6ae9e74a46f6241e1c03c14be6c0)\nOpenJDK 64-Bit Server VM (build 26-internal-valeriepeng-def1f55b0b5b6ae9e74a46f6241e1c03c14be6c0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "245bf36193b0ddb31d63b4c33339ede91ed4a4ad.json",
+    "7d9e36b8f2082f08ffe4823ecfafbc1c1acb285b.json",
+    "8d8640c65fd7d4cf40c70481849da56b05c9f1ec.json"
+  ],
+  "datetime": "2025-07-02T17:51:11.605832+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25808",
+  "number": 25808,
+  "title": "8359388: Stricter checking for cipher transformations",
+  "head_sha": "def1f55b0b5b6ae9e74a46f6241e1c03c14be6c0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16030836557"
+}
