@@ -1,0 +1,14 @@
+{
+  "artifact_3453520065": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-liach-f962caa04396d4101298c3329ded2baa85903953)\nOpenJDK 64-Bit Server VM (build 26-internal-liach-f962caa04396d4101298c3329ded2baa85903953, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-02T22:43:34.007747+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26106",
+  "number": 26106,
+  "title": "8360022: ClassRefDupInConstantPoolTest.java fails when running in repeat",
+  "head_sha": "f962caa04396d4101298c3329ded2baa85903953",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16037166598"
+}
