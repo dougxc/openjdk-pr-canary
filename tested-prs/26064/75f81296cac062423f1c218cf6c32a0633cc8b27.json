@@ -1,0 +1,16 @@
+{
+  "artifact_3448428634": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-benoitmaillard-75f81296cac062423f1c218cf6c32a0633cc8b27)\nOpenJDK 64-Bit Server VM (build 26-internal-benoitmaillard-75f81296cac062423f1c218cf6c32a0633cc8b27, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e06b4d532d76d2a104d598a35993f12f590bbc38.json"
+  ],
+  "datetime": "2025-07-02T11:15:44.619891+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26064",
+  "number": 26064,
+  "title": "8361144: Strenghten the Ideal Verification in PhaseIterGVN::verify_Ideal_for by comparing the hash of a node before and after Ideal",
+  "head_sha": "75f81296cac062423f1c218cf6c32a0633cc8b27",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16022844597"
+}
