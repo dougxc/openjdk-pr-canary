@@ -1,0 +1,14 @@
+{
+  "artifact_3451842384": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jankratochvil-09a45c6db900f5cbb78c447602fe242ca27dfb15)\nOpenJDK 64-Bit Server VM (build 26-internal-jankratochvil-09a45c6db900f5cbb78c447602fe242ca27dfb15, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-02T18:52:08.143221+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26098",
+  "number": 26098,
+  "title": "8357579: Compilation error: first argument in call to 'memset' is a pointer to non-trivially copyable type",
+  "head_sha": "09a45c6db900f5cbb78c447602fe242ca27dfb15",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16031865446"
+}
