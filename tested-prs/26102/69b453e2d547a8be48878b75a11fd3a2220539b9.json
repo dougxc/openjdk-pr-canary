@@ -1,0 +1,14 @@
+{
+  "artifact_3451890865": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-iklam-69b453e2d547a8be48878b75a11fd3a2220539b9)\nOpenJDK 64-Bit Server VM (build 26-internal-iklam-69b453e2d547a8be48878b75a11fd3a2220539b9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-02T18:18:13.918287+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26102",
+  "number": 26102,
+  "title": "8361292: Rename ModuleEntry::module() to module_oop()",
+  "head_sha": "69b453e2d547a8be48878b75a11fd3a2220539b9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16031865446"
+}
