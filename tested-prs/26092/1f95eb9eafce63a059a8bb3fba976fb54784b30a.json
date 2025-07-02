@@ -1,0 +1,14 @@
+{
+  "artifact_3448685779": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mhaessig-1f95eb9eafce63a059a8bb3fba976fb54784b30a)\nOpenJDK 64-Bit Server VM (build 26-internal-mhaessig-1f95eb9eafce63a059a8bb3fba976fb54784b30a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-02T13:22:19.439536+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26092",
+  "number": 26092,
+  "title": "8361253: CommandLineOptionTest library should report observed values on failure",
+  "head_sha": "1f95eb9eafce63a059a8bb3fba976fb54784b30a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16025813890"
+}
