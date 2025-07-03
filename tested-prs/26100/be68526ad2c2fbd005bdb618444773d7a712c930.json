@@ -1,0 +1,16 @@
+{
+  "artifact_3457501681": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jankratochvil-be68526ad2c2fbd005bdb618444773d7a712c930)\nOpenJDK 64-Bit Server VM (build 26-internal-jankratochvil-be68526ad2c2fbd005bdb618444773d7a712c930, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "45c41735f22dde377ae1889d0fc44f522f5f5440.json"
+  ],
+  "datetime": "2025-07-03T11:50:12.244010+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26100",
+  "number": 26100,
+  "title": "8361288: Fix build of JTReg: wget exited with exit code 4",
+  "head_sha": "be68526ad2c2fbd005bdb618444773d7a712c930",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16049173194"
+}
