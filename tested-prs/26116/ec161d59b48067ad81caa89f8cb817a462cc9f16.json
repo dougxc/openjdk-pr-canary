@@ -1,0 +1,17 @@
+{
+  "artifact_3460575608": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-dougxc-ec161d59b48067ad81caa89f8cb817a462cc9f16)\nOpenJDK 64-Bit Server VM (build 26-internal-dougxc-ec161d59b48067ad81caa89f8cb817a462cc9f16, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "86b41636451613af5049dc8aecf02f7063fdaa01.json",
+    "b25684f7661f12f858367ce6219fde0cc6de9987.json"
+  ],
+  "datetime": "2025-07-03T19:03:20.214141+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26116",
+  "number": 26116,
+  "title": "8361355: Negative cases of Annotated.getAnnotationData implementations are broken",
+  "head_sha": "ec161d59b48067ad81caa89f8cb817a462cc9f16",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16058182981"
+}
