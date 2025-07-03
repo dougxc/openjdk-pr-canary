@@ -1,0 +1,16 @@
+{
+  "artifact_3460442137": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-calvinccheung-4cbd71fc1d77c3f1ab9992f52918f82c18c2fc9d)\nOpenJDK 64-Bit Server VM (build 26-internal-calvinccheung-4cbd71fc1d77c3f1ab9992f52918f82c18c2fc9d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "19942e19e949fb8d269d82614f9d1c8112262115.json"
+  ],
+  "datetime": "2025-07-03T18:03:34.812334+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26110",
+  "number": 26110,
+  "title": "8361325: Refactor ClassLoaderExt",
+  "head_sha": "4cbd71fc1d77c3f1ab9992f52918f82c18c2fc9d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16056968145"
+}
