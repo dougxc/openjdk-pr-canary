@@ -1,0 +1,16 @@
+{
+  "artifact_3454290706": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-bplb-a98e8dd4e1aa527cb6d631e3ec828daea05a53fa)\nOpenJDK 64-Bit Server VM (build 26-internal-bplb-a98e8dd4e1aa527cb6d631e3ec828daea05a53fa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e9abd20f85ae9bf5dd86427bdf07779496110c2b.json"
+  ],
+  "datetime": "2025-07-03T02:31:48.938285+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26104",
+  "number": 26104,
+  "title": "8361299: (bf) CharBuffer.getChars(int,int,char[],int) violates pre-existing specification",
+  "head_sha": "a98e8dd4e1aa527cb6d631e3ec828daea05a53fa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16040078342"
+}
