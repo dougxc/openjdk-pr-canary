@@ -1,0 +1,14 @@
+{
+  "artifact_3465668782": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-egahlin-c37f94e6f95aefc16a8714a5bcde3c442b903380)\nOpenJDK 64-Bit Server VM (build 26-internal-egahlin-c37f94e6f95aefc16a8714a5bcde3c442b903380, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-04T13:19:23.772338+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26112",
+  "number": 26112,
+  "title": "8361338: JFR: Min and max time in MethodTime event is confusing",
+  "head_sha": "c37f94e6f95aefc16a8714a5bcde3c442b903380",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16074337045"
+}
