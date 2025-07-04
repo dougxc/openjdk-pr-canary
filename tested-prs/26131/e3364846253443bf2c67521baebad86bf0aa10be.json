@@ -1,0 +1,14 @@
+{
+  "artifact_3465675367": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-nizarbenalla-e3364846253443bf2c67521baebad86bf0aa10be)\nOpenJDK 64-Bit Server VM (build 26-internal-nizarbenalla-e3364846253443bf2c67521baebad86bf0aa10be, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-04T13:09:03.970901+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26131",
+  "number": 26131,
+  "title": "8360302: Update --release 25 symbol information for JDK 25 build 29",
+  "head_sha": "e3364846253443bf2c67521baebad86bf0aa10be",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16074337045"
+}
