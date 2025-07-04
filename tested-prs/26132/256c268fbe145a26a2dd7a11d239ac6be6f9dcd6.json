@@ -1,0 +1,14 @@
+{
+  "artifact_3465813938": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-egahlin-256c268fbe145a26a2dd7a11d239ac6be6f9dcd6)\nOpenJDK 64-Bit Server VM (build 26-internal-egahlin-256c268fbe145a26a2dd7a11d239ac6be6f9dcd6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-04T19:36:50.195735+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26132",
+  "number": 26132,
+  "title": "8361175: JFR: Document differences between method sample events",
+  "head_sha": "256c268fbe145a26a2dd7a11d239ac6be6f9dcd6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16079873601"
+}
