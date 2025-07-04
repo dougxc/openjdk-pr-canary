@@ -1,0 +1,16 @@
+{
+  "artifact_3466500214": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-Hamlin-Li-bc05a32ffc432c3340c1c1e8cac4f7c6196aa5f2)\nOpenJDK 64-Bit Server VM (build 26-internal-Hamlin-Li-bc05a32ffc432c3340c1c1e8cac4f7c6196aa5f2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b70493e29ec5ffa68076b0c5352b23ccdcb6a435.json"
+  ],
+  "datetime": "2025-07-04T14:44:42.917116+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26101",
+  "number": 26101,
+  "title": "8360000: RISC-V: implement aot",
+  "head_sha": "bc05a32ffc432c3340c1c1e8cac4f7c6196aa5f2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16076040432"
+}
