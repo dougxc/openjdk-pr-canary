@@ -181959,6 +181959,29 @@
 		]
 	},
 	{
+		"id": "jdk-25+31-3422",
+		"revisions": {
+			"open": [
+				"8707167ef3bb7015d87599387fbbcf17ddf0f291"
+			],
+			"graal": [
+				"64a3558d86fa4390cae9cec32f490f52e846543e"
+			],
+			"mx": [
+				"9ff24b5ac4fcbd3dc0f984830b3cd981a181f461"
+			],
+			"graal-enterprise": [
+				"0476abf89192c29214aaf0095276d6371da5cd4c"
+			],
+			".": [
+				"e56d9647cf27fe55407f760f3ea05b1640f72784"
+			]
+		},
+		"aliases": [
+			"jdk-25-3422"
+		]
+	},
+	{
 		"id": "jdk-25.0.1+1-1",
 		"revisions": {
 			".": [
