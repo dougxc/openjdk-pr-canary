@@ -1,0 +1,14 @@
+{
+  "artifact_3471645959": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-ichttt-dbca36af96f2f5c6a5b57b1f6ef380e3dcc7c4ed)\nOpenJDK 64-Bit Server VM (build 26-internal-ichttt-dbca36af96f2f5c6a5b57b1f6ef380e3dcc7c4ed, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-06T08:46:33.835843+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26143",
+  "number": 26143,
+  "title": "Improve Value() of DivI and DivL for non-constant inputs",
+  "head_sha": "dbca36af96f2f5c6a5b57b1f6ef380e3dcc7c4ed",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16097145654"
+}
