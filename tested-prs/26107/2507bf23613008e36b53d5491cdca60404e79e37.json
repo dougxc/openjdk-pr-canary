@@ -1,0 +1,17 @@
+{
+  "artifact_3479496095": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-liach-2507bf23613008e36b53d5491cdca60404e79e37)\nOpenJDK 64-Bit Server VM (build 26-internal-liach-2507bf23613008e36b53d5491cdca60404e79e37, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "544822b087c3ac299af98e64f943dfde94c4a685.json",
+    "c577875b9cded77f330fa92c37a69f074904298b.json"
+  ],
+  "datetime": "2025-07-07T19:07:31.598407+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26107",
+  "number": 26107,
+  "title": "8357185: Redundant local variables with unconditionally matching primitive patterns",
+  "head_sha": "2507bf23613008e36b53d5491cdca60404e79e37",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16125203995"
+}
