@@ -1,0 +1,14 @@
+{
+  "artifact_3474286566": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-anupamdev20-8a0677a96671b7cfee19705e235c09881ae81863)\nOpenJDK 64-Bit Server VM (build 26-internal-anupamdev20-8a0677a96671b7cfee19705e235c09881ae81863, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-07T06:56:50.743553+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26154",
+  "number": 26154,
+  "title": "8361463: Render method of javax.swing.text.AbstractDocument uses 'currency' instead of 'concurrency'",
+  "head_sha": "8a0677a96671b7cfee19705e235c09881ae81863",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16109862945"
+}
