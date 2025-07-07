@@ -1,0 +1,14 @@
+{
+  "artifact_3476409702": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mcimadamore-2bd99e00d242d7c1a2943a55f47b56de12d1a7dc)\nOpenJDK 64-Bit Server VM (build 26-internal-mcimadamore-2bd99e00d242d7c1a2943a55f47b56de12d1a7dc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-07T13:22:44.748419+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26158",
+  "number": 26158,
+  "title": "8361481: Flexible Constructor Bodies generates a compilation error when compiling a user supplied java.lang.Object class",
+  "head_sha": "2bd99e00d242d7c1a2943a55f47b56de12d1a7dc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16117653640"
+}
