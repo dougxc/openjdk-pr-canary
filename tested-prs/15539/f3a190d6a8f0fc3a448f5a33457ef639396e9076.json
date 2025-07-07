@@ -1,0 +1,21 @@
+{
+  "artifact_3477580529": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-franferrax-f3a190d6a8f0fc3a448f5a33457ef639396e9076)\nOpenJDK 64-Bit Server VM (build 26-internal-franferrax-f3a190d6a8f0fc3a448f5a33457ef639396e9076, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1b2ad21a8aba78f2edc9be4cc8a1de02ac765d26.json",
+    "29e9cba970fdbbd2192c8d2de1e93a03b1b0d1e1.json",
+    "37d3f23a3d6ef729ea715d86048f5c864456cd83.json",
+    "aa2bb3f2a6509bb0a45c3342516a944d4fea4811.json",
+    "bfa95070be5b0b989dcb5d66143659b8cccd0293.json",
+    "f3c5e58029cfe3c36ae920edd196893d244d65c4.json"
+  ],
+  "datetime": "2025-07-07T14:32:13.782072+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/15539",
+  "number": 15539,
+  "title": "8315487: Security Providers Filter",
+  "head_sha": "f3a190d6a8f0fc3a448f5a33457ef639396e9076",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16117653640"
+}
