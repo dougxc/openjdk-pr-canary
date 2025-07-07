@@ -1,0 +1,16 @@
+{
+  "artifact_3475573575": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-shipilev-3eec06a45544e795f414e39b10c843fb3a8704d7)\nOpenJDK 64-Bit Server VM (build 26-internal-shipilev-3eec06a45544e795f414e39b10c843fb3a8704d7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4df91936c98fc7747e64c541196031d76181a211.json"
+  ],
+  "datetime": "2025-07-07T09:46:15.632990+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26127",
+  "number": 26127,
+  "title": "8361397: Rework CompileLog list synchronization",
+  "head_sha": "3eec06a45544e795f414e39b10c843fb3a8704d7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16113341016"
+}
