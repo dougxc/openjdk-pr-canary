@@ -1,0 +1,14 @@
+{
+  "artifact_3473822829": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-DingliZhang-d7ff8e53a1489d28bde03deaadfd074274d85a61)\nOpenJDK 64-Bit Server VM (build 26-internal-DingliZhang-d7ff8e53a1489d28bde03deaadfd074274d85a61, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-07T04:37:54.720474+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26150",
+  "number": 26150,
+  "title": "8361449: RISC-V: Code cleanup for native call",
+  "head_sha": "d7ff8e53a1489d28bde03deaadfd074274d85a61",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16107280209"
+}
