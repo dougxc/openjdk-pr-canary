@@ -1,0 +1,17 @@
+{
+  "artifact_3474282841": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-prsadhuk-1d62e24fbed348def88b1bbd8e032d0e48d8525f)\nOpenJDK 64-Bit Server VM (build 26-internal-prsadhuk-1d62e24fbed348def88b1bbd8e032d0e48d8525f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5283fd20990f1a1a5586e25c4cb645b264ba4cb2.json",
+    "8d0f988780c931dc7afccf1ba0175fa435682866.json"
+  ],
+  "datetime": "2025-07-07T07:07:56.835381+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25907",
+  "number": 25907,
+  "title": "8346753: Test javax/swing/JMenuItem/RightLeftOrientation/RightLeftOrientation.java fails on Windows Server 2025 x64 because the icons of RBMenuItem and CBMenuItem are not visible in Nimbus LookAndFeel",
+  "head_sha": "1d62e24fbed348def88b1bbd8e032d0e48d8525f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16109862945"
+}
