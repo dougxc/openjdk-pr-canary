@@ -1,0 +1,15 @@
+{
+  "artifact_3487943181": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-36c1911b20d36224158b3dfe1bf521623d837336)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-36c1911b20d36224158b3dfe1bf521623d837336, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-07-08T16:25:06.804423+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26191",
+  "number": 26191,
+  "title": "8361214: An anonymous class is erroneously being classify as an abstract class",
+  "head_sha": "36c1911b20d36224158b3dfe1bf521623d837336",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16147696064"
+}
