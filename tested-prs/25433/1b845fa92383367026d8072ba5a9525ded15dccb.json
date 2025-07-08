@@ -1,0 +1,16 @@
+{
+  "artifact_3488841239": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-pecimuth-1b845fa92383367026d8072ba5a9525ded15dccb)\nOpenJDK 64-Bit Server VM (build 26-internal-pecimuth-1b845fa92383367026d8072ba5a9525ded15dccb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c6c3bb62be058852a292d2287aa8e482c473bfb0.json"
+  ],
+  "datetime": "2025-07-08T19:30:45.185427+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25433",
+  "number": 25433,
+  "title": "8357689: Refactor JVMCI to enable replay compilation in Graal",
+  "head_sha": "1b845fa92383367026d8072ba5a9525ded15dccb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16151700643"
+}
