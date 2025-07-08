@@ -1,0 +1,16 @@
+{
+  "artifact_3482545612": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-hgqxjj-6b82418e4f4cdd40dd764d9657c27c6d08e5752e)\nOpenJDK 64-Bit Server VM (build 26-internal-hgqxjj-6b82418e4f4cdd40dd764d9657c27c6d08e5752e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "cb1b2c60a89098b325897a7db7d6c5380d541c27.json"
+  ],
+  "datetime": "2025-07-08T04:30:15.826880+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26114",
+  "number": 26114,
+  "title": "8344548: Incorrect StartAggressiveSweepingAt doc for segmented code cache",
+  "head_sha": "6b82418e4f4cdd40dd764d9657c27c6d08e5752e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16133581319"
+}
