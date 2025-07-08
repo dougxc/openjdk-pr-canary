@@ -1,0 +1,18 @@
+{
+  "artifact_3487476407": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-marc-chevalier-7f18c9f62f04cbea0a58f22101778bca6ac4c51d)\nOpenJDK 64-Bit Server VM (build 26-internal-marc-chevalier-7f18c9f62f04cbea0a58f22101778bca6ac4c51d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "34fd5e9a62b82e468a4ba38735df4251ba7b0760.json",
+    "7028b561434ba98fd62e67a3440d60f55f1266c9.json",
+    "ff0a6b6a6175cb85b7c07ae468c0a96f2ecc35d5.json"
+  ],
+  "datetime": "2025-07-08T16:06:55.041349+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25760",
+  "number": 25760,
+  "title": " 8347901: C2 should remove unused leaf / pure runtime calls",
+  "head_sha": "7f18c9f62f04cbea0a58f22101778bca6ac4c51d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16146253674"
+}
