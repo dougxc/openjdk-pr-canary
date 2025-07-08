@@ -1,0 +1,36 @@
+{
+  "artifact_3484282118": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-rwestrel-bb69cc0293c4a3f90e06f868c0a5b79415c54abc)\nOpenJDK 64-Bit Server VM (build 26-internal-rwestrel-bb69cc0293c4a3f90e06f868c0a5b79415c54abc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "065abb29c5b99bbf025aa8e5f8970515b85377fd.json",
+    "0f1373597816e3bd0e0c867027494a04c1c4bd19.json",
+    "1289e21153b237301fd2593bca66aac7eb673f1b.json",
+    "223c94815a21a61c374fdf5071bb00c45f228dbd.json",
+    "2deb4dbae72ecfe7c923de647169efe893fbe09e.json",
+    "3457186921bb79fd42db44cf2cdfee599b35fe51.json",
+    "3df20871774e9c4d7a77b22dca750f695ec95f56.json",
+    "5ad3f22e74aef2fce023b3d008c2b81a55c16edb.json",
+    "5e29f3643a891951fe6b932c36f808734dca2d87.json",
+    "6100f75745a18034d0a597f4e5139845d88dbd80.json",
+    "66e960aa27610d037bc33d1d4456d698f5233800.json",
+    "74c38342969dfbcc4eb6992d202a44e8369c0e6f.json",
+    "7dd6fde9f0bbb8869c324695256156c9bd7f7076.json",
+    "aa56771736f43e94c8a4da97584cfcf73d7ec493.json",
+    "b1da1b13cfe1e7ca84ef026aee9f093873553725.json",
+    "d409deb4c5968e8b694dba77ca9800aaffadf6a4.json",
+    "e55393ee0a9bdc87c02cfd88cf5f1b79aba1ee26.json",
+    "ed774a562213537aaac2e56d11e2e41681ea0fca.json",
+    "f68a7ca6f46baf0b5de4e16020a408c87cb8ed3b.json",
+    "f740b966f779a43e5a0651c8090968c82ed593a0.json",
+    "fd19ee8492d944b5eed0a1d2b6dfcdfed9a57ef5.json"
+  ],
+  "datetime": "2025-07-08T10:10:27.323853+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21630",
+  "number": 21630,
+  "title": "8342692: C2: long counted loop/long range checks: don't create loop-nest for short running loops",
+  "head_sha": "bb69cc0293c4a3f90e06f868c0a5b79415c54abc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16138348730"
+}
