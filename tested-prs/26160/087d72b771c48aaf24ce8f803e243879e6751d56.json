@@ -1,0 +1,17 @@
+{
+  "artifact_3484186589": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-087d72b771c48aaf24ce8f803e243879e6751d56)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-087d72b771c48aaf24ce8f803e243879e6751d56, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5fd5d6f7e9959a9ed811eb5bc094f42e22c0f874.json",
+    "d601eb4da60e03ba0b7531dd43c0f4af903486ab.json"
+  ],
+  "datetime": "2025-07-08T09:03:48.467846+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26160",
+  "number": 26160,
+  "title": "8361349: Fix visibility of CollectedHeap::stop() and ::print_tracing_info()",
+  "head_sha": "087d72b771c48aaf24ce8f803e243879e6751d56",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16138348730"
+}
