@@ -1,0 +1,26 @@
+{
+  "artifact_3486896265": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-dfuch-f0a4fd3dff30908cfc56b9ac45c84e6b67b0a58d)\nOpenJDK 64-Bit Server VM (build 26-internal-dfuch-f0a4fd3dff30908cfc56b9ac45c84e6b67b0a58d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0229c2152ca96fe5baafebfc3830434b4858946a.json",
+    "1a32b194cf09bc41add3b9d9cbe4430516086a4e.json",
+    "4da61bbea6261459c649dd6c61666f91524e5f53.json",
+    "8c27f53c58787f6919a3fc7dd3a81c111770baf7.json",
+    "9156a51e1aaaa0574e485de07847c4669c3a38b4.json",
+    "9c2da664d2875b7e7986831fd716d05b7a8306f4.json",
+    "9d67d4a60a5056af0f222a6bb426d21d69f0a2ef.json",
+    "a41217f034d0eaff4193fa69f8b4e4690b52b681.json",
+    "a5a0c7f8b6249d7c192baf74e97a8e0bda075982.json",
+    "d4984d5e5aca36fd2bd94a69d549a852fe84d896.json",
+    "dfa26044ef470fb513ea357cd9185af5d06bab2d.json"
+  ],
+  "datetime": "2025-07-08T16:20:31.751891+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24751",
+  "number": 24751,
+  "title": "8349910: Implement JEP 517: HTTP/3 for the HTTP Client API",
+  "head_sha": "f0a4fd3dff30908cfc56b9ac45c84e6b67b0a58d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16146253674"
+}
