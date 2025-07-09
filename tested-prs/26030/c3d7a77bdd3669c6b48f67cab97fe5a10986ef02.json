@@ -1,0 +1,17 @@
+{
+  "artifact_3499856204": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-cost0much-c3d7a77bdd3669c6b48f67cab97fe5a10986ef02)\nOpenJDK 64-Bit Server VM (build 26-internal-cost0much-c3d7a77bdd3669c6b48f67cab97fe5a10986ef02, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "eb63b16238ae24f0a47a3ee356be94a341c3c0fe.json",
+    "ef391ba93a04aeaecc99ed0f4674130840e98eac.json"
+  ],
+  "datetime": "2025-07-09T23:05:54.268376+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26030",
+  "number": 26030,
+  "title": "8341735: Rewrite the build/AbsPathsInImage.java test to not load the entire file at once",
+  "head_sha": "c3d7a77bdd3669c6b48f67cab97fe5a10986ef02",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16181613999"
+}
