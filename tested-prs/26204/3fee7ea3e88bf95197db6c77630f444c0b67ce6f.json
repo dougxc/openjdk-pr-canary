@@ -1,0 +1,16 @@
+{
+  "artifact_3496209701": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-matias9927-3fee7ea3e88bf95197db6c77630f444c0b67ce6f)\nOpenJDK 64-Bit Server VM (build 26-internal-matias9927-3fee7ea3e88bf95197db6c77630f444c0b67ce6f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9835939166c604e1527d50a39f9b746b1d2743e3.json"
+  ],
+  "datetime": "2025-07-09T14:55:27.336969+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26204",
+  "number": 26204,
+  "title": "8344073: Test runtime/cds/appcds/TestParallelGCWithCDS.java#id0 failed",
+  "head_sha": "3fee7ea3e88bf95197db6c77630f444c0b67ce6f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16172277588"
+}
