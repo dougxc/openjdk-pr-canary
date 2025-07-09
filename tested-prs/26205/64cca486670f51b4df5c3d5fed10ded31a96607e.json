@@ -1,0 +1,15 @@
+{
+  "artifact_3491150751": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-bradfordwetmore-64cca486670f51b4df5c3d5fed10ded31a96607e)\nOpenJDK 64-Bit Server VM (build 26-internal-bradfordwetmore-64cca486670f51b4df5c3d5fed10ded31a96607e, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-07-09T02:26:42.604957+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26205",
+  "number": 26205,
+  "title": "8353925: Remove Sun Microsystems JCE Code Signing Root CA",
+  "head_sha": "64cca486670f51b4df5c3d5fed10ded31a96607e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16158794030"
+}
