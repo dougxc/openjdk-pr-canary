@@ -1,0 +1,20 @@
+{
+  "artifact_3499315805": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mickleness-1dbbe45d400546c31d2fbbcfe4008ed124609212)\nOpenJDK 64-Bit Server VM (build 26-internal-mickleness-1dbbe45d400546c31d2fbbcfe4008ed124609212, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "19804549d1cdb8fd75195f904da80fddc84c7c6f.json",
+    "392a9e5fa08cf4bfc353878463b9a593640b91aa.json",
+    "cfa679a8812826889fa1c3d4af5caf516a35c55c.json",
+    "e0546b1a8332fc8f9181566588cfd903884a98ff.json",
+    "e143c8cf9433efaf95cf87b114492002adf610fc.json"
+  ],
+  "datetime": "2025-07-09T22:03:09.268275+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25044",
+  "number": 25044,
+  "title": "8356137: GifImageDecode can produce opaque image when disposal method changes",
+  "head_sha": "1dbbe45d400546c31d2fbbcfe4008ed124609212",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16180608380"
+}
