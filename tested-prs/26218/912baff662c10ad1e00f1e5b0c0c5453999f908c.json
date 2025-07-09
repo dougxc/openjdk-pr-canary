@@ -1,0 +1,14 @@
+{
+  "artifact_3495169641": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-albertnetymk-912baff662c10ad1e00f1e5b0c0c5453999f908c)\nOpenJDK 64-Bit Server VM (build 26-internal-albertnetymk-912baff662c10ad1e00f1e5b0c0c5453999f908c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-09T13:13:01.553020+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26218",
+  "number": 26218,
+  "title": "8361704: Parallel: Simplify logic condition in MutableNUMASpace::initialize",
+  "head_sha": "912baff662c10ad1e00f1e5b0c0c5453999f908c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16170016774"
+}
