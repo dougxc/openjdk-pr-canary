@@ -1,0 +1,14 @@
+{
+  "artifact_3499744728": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-604852049552e6e5cfdd5540b5f9a2e27614fc2f)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-604852049552e6e5cfdd5540b5f9a2e27614fc2f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-09T23:42:11.851403+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26223",
+  "number": 26223,
+  "title": "8360942: [ubsan] aotCache tests trigger runtime error: applying non-zero offset 16 to null pointer in CodeBlob::relocation_end()",
+  "head_sha": "604852049552e6e5cfdd5540b5f9a2e27614fc2f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16182382299"
+}
