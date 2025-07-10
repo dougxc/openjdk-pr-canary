@@ -1,0 +1,14 @@
+{
+  "artifact_3507919657": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-calvinccheung-d4e3c27549666db28cc29a81b2f0ad8cc853fa4d)\nOpenJDK 64-Bit Server VM (build 26-internal-calvinccheung-d4e3c27549666db28cc29a81b2f0ad8cc853fa4d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-10T20:44:04.638989+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26250",
+  "number": 26250,
+  "title": "8361328: cds/appcds/dynamicArchive/TestAutoCreateSharedArchive.java archive timestamps comparison failed",
+  "head_sha": "d4e3c27549666db28cc29a81b2f0ad8cc853fa4d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16205415025"
+}
