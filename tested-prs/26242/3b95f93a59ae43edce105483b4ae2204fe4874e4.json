@@ -1,0 +1,14 @@
+{
+  "artifact_3504341604": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-adinn-3b95f93a59ae43edce105483b4ae2204fe4874e4)\nOpenJDK 64-Bit Server VM (build 26-internal-adinn-3b95f93a59ae43edce105483b4ae2204fe4874e4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-10T13:57:38.876733+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26242",
+  "number": 26242,
+  "title": "8361844: Build without C1 or C2 fails after 8360707",
+  "head_sha": "3b95f93a59ae43edce105483b4ae2204fe4874e4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16196874329"
+}
