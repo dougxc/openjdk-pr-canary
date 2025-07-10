@@ -1,0 +1,14 @@
+{
+  "artifact_3500281067": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-alexmenkov-96b58f1e6e1f5f0ed88a30eccb108a4e5848bbe0)\nOpenJDK 64-Bit Server VM (build 26-internal-alexmenkov-96b58f1e6e1f5f0ed88a30eccb108a4e5848bbe0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-10T02:43:53.017862+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26231",
+  "number": 26231,
+  "title": "8361314: Test serviceability/jvmti/VMEvent/MyPackage/VMEventRecursionTest.java FATAL ERROR in native method: Failed during the GetClassSignature call",
+  "head_sha": "96b58f1e6e1f5f0ed88a30eccb108a4e5848bbe0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16184635691"
+}
