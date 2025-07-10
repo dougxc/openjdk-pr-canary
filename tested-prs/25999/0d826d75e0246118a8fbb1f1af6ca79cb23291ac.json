@@ -1,0 +1,17 @@
+{
+  "artifact_3504748421": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-DarraghClarke-0d826d75e0246118a8fbb1f1af6ca79cb23291ac)\nOpenJDK 64-Bit Server VM (build 26-internal-DarraghClarke-0d826d75e0246118a8fbb1f1af6ca79cb23291ac, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "105631570fe1ae5be6b987fee127f6971f819efe.json",
+    "d6f27780be24554994af7298f6e4ad0a17c5fb16.json"
+  ],
+  "datetime": "2025-07-10T14:34:48.574490+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25999",
+  "number": 25999,
+  "title": "8352502: Response message is null if expect 100 assertion fails with non 100",
+  "head_sha": "0d826d75e0246118a8fbb1f1af6ca79cb23291ac",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16196874329"
+}
