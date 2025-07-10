@@ -1,0 +1,14 @@
+{
+  "artifact_3508641864": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-plummercj-f4e99025b30021759323d04b9c8c87913483a036)\nOpenJDK 64-Bit Server VM (build 26-internal-plummercj-f4e99025b30021759323d04b9c8c87913483a036, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-10T22:58:10.603560+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26254",
+  "number": 26254,
+  "title": "8361905: Problem list serviceability/sa/ClhsdbThreadContext.java on Windows due to JDK-8356704",
+  "head_sha": "f4e99025b30021759323d04b9c8c87913483a036",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16207418357"
+}
