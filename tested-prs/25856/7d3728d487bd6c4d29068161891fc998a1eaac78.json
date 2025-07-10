@@ -1,0 +1,20 @@
+{
+  "artifact_3502340743": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-kevinjwalls-7d3728d487bd6c4d29068161891fc998a1eaac78)\nOpenJDK 64-Bit Server VM (build 26-internal-kevinjwalls-7d3728d487bd6c4d29068161891fc998a1eaac78, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "50904f1076597f81286cd9a021bdfe047f9fea9f.json",
+    "8b36d3e5566929609331bee57524a6f31fdd6587.json",
+    "a2a28ddeeea2cfbff2dfa0b1f018c56b4db7b74f.json",
+    "ab4fef2f76307dd302538a23a9d5741607e43058.json",
+    "afb0543427eba56fc25fbaecf3958459dfc31ebf.json"
+  ],
+  "datetime": "2025-07-10T09:13:52.992543+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25856",
+  "number": 25856,
+  "title": "8359809: AttributeList, RoleList and UnresolvedRoleList should never accept other types of Object",
+  "head_sha": "7d3728d487bd6c4d29068161891fc998a1eaac78",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16190353681"
+}
