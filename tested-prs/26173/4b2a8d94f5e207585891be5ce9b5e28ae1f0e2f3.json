@@ -1,0 +1,16 @@
+{
+  "artifact_3508649845": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-sashamatveev-4b2a8d94f5e207585891be5ce9b5e28ae1f0e2f3)\nOpenJDK 64-Bit Server VM (build 26-internal-sashamatveev-4b2a8d94f5e207585891be5ce9b5e28ae1f0e2f3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "72a1e3a9d249b2f753ba4a319b950686af03a370.json"
+  ],
+  "datetime": "2025-07-10T23:44:09.183801+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26173",
+  "number": 26173,
+  "title": "8351073: [macos] jpackage produces invalid Java runtime DMG bundles",
+  "head_sha": "4b2a8d94f5e207585891be5ce9b5e28ae1f0e2f3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16207418357"
+}
