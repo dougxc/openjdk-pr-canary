@@ -1,0 +1,17 @@
+{
+  "artifact_3508507068": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mickleness-b8a8bf7d3d81372f686d48aec2a1733955ebd545)\nOpenJDK 64-Bit Server VM (build 26-internal-mickleness-b8a8bf7d3d81372f686d48aec2a1733955ebd545, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3750e58ea771d3ec7e0bf5810a2ebce5d8f57102.json",
+    "3d94c4346b4b962b0c8154042ead0fa6679d99bb.json"
+  ],
+  "datetime": "2025-07-10T21:54:16.897443+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25264",
+  "number": 25264,
+  "title": "8357034: GifImageDecoder can produce wrong transparent pixels",
+  "head_sha": "b8a8bf7d3d81372f686d48aec2a1733955ebd545",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16206439197"
+}
