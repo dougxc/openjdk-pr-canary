@@ -1,0 +1,14 @@
+{
+  "artifact_3500849737": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-veresov-e262230bba1a8d3090fc69fd56cd28e6ea3a3039)\nOpenJDK 64-Bit Server VM (build 26-internal-veresov-e262230bba1a8d3090fc69fd56cd28e6ea3a3039, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-10T04:12:32.841719+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26233",
+  "number": 26233,
+  "title": "8358580: Rethink how classes are kept alive in training data",
+  "head_sha": "e262230bba1a8d3090fc69fd56cd28e6ea3a3039",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16185802207"
+}
