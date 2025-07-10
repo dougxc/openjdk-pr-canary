@@ -1,0 +1,14 @@
+{
+  "artifact_3496584943": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-offamitkumar-f01c0e4fbdb1d741cfd2e698f881a60ee012f19e)\nOpenJDK 64-Bit Server VM (build 26-internal-offamitkumar-f01c0e4fbdb1d741cfd2e698f881a60ee012f19e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-10T03:34:19.372557+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26209",
+  "number": 26209,
+  "title": "8361536: [s390x] Saving return_pc at wrong offset",
+  "head_sha": "f01c0e4fbdb1d741cfd2e698f881a60ee012f19e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16184635691"
+}
