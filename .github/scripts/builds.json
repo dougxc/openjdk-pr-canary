@@ -182263,6 +182263,29 @@
 		]
 	},
 	{
+		"id": "jdk-25+31-3434",
+		"revisions": {
+			"graal": [
+				"64a3558d86fa4390cae9cec32f490f52e846543e"
+			],
+			".": [
+				"7ce441ca1fb2f79b4ef6500aa12f4a674fe175d8"
+			],
+			"mx": [
+				"9ff24b5ac4fcbd3dc0f984830b3cd981a181f461"
+			],
+			"graal-enterprise": [
+				"0476abf89192c29214aaf0095276d6371da5cd4c"
+			],
+			"open": [
+				"532b1c732edb2873afead4d12721a938cec8879f"
+			]
+		},
+		"aliases": [
+			"jdk-25-3434"
+		]
+	},
+	{
 		"id": "jdk-25.0.1+1-1",
 		"revisions": {
 			".": [
@@ -196540,6 +196563,29 @@
 		},
 		"aliases": [
 			"jdk-26-584"
+		]
+	},
+	{
+		"id": "jdk-26+6-585",
+		"revisions": {
+			"graal": [
+				"827ca57b05845572c6bde7f54d77b5c5a0eaba46"
+			],
+			".": [
+				"d0bbbd393bc56b10bf04cd7b2b9c348cbc25f9ff"
+			],
+			"graal-enterprise": [
+				"dd214a13e1e6a92ef3ee64f2713309da85ca8b4a"
+			],
+			"mx": [
+				"1fbaca28e1ae5e98f70b7c785ebe53864e4371d0"
+			],
+			"open": [
+				"80662a485af9002d256d18d28a5bfe2a7c30e4d4"
+			]
+		},
+		"aliases": [
+			"jdk-26-585"
 		]
 	}
 ]
