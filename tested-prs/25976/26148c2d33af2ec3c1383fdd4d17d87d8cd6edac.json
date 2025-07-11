@@ -1,0 +1,19 @@
+{
+  "artifact_3512698471": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-feilongjiang-26148c2d33af2ec3c1383fdd4d17d87d8cd6edac)\nOpenJDK 64-Bit Server VM (build 26-internal-feilongjiang-26148c2d33af2ec3c1383fdd4d17d87d8cd6edac, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3a502f8404e10e64d16b9a0bbe7f3a4e09ca460c.json",
+    "445f903be0852ae36ff4eee9d222723ab3bde052.json",
+    "be9804248ad38a943df89685f3d4854002147162.json",
+    "ca628e168c0f2df92f92171e3d220f7f10f27c04.json"
+  ],
+  "datetime": "2025-07-11T13:20:25.580062+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25976",
+  "number": 25976,
+  "title": "8360520: RISC-V: C1: Fix primitive array clone intrinsic regression after JDK-8333154",
+  "head_sha": "26148c2d33af2ec3c1383fdd4d17d87d8cd6edac",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16220632665"
+}
