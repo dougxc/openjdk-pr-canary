@@ -1,0 +1,14 @@
+{
+  "artifact_3512159326": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-cbb690b86bbd6f4950cb0477f9bee3ad4ee7fe7f)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-cbb690b86bbd6f4950cb0477f9bee3ad4ee7fe7f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-11T11:39:28.534725+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26262",
+  "number": 26262,
+  "title": "8361952: Double-checked locking MethodData::extra_data_lock() misses synchronization on reader side",
+  "head_sha": "cbb690b86bbd6f4950cb0477f9bee3ad4ee7fe7f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16218915539"
+}
