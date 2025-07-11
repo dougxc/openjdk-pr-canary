@@ -1,0 +1,18 @@
+{
+  "artifact_3509441853": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-hgqxjj-0e9aa956d7966d81ac81c799ad054016bf78cbba)\nOpenJDK 64-Bit Server VM (build 26-internal-hgqxjj-0e9aa956d7966d81ac81c799ad054016bf78cbba, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2feca6a8c8b3fbdb65622d8b7d407fe6fd7f8ce0.json",
+    "f118400dc906112a8010c7d425c186a1afe981be.json",
+    "fd6f90f5790c691bed0b09a59d4b73f9b9f5b604.json"
+  ],
+  "datetime": "2025-07-11T02:47:47.198299+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26125",
+  "number": 26125,
+  "title": "8361140: Missing OptimizePtrCompare check in ConnectionGraph::reduce_phi_on_cmp",
+  "head_sha": "0e9aa956d7966d81ac81c799ad054016bf78cbba",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16210380076"
+}
