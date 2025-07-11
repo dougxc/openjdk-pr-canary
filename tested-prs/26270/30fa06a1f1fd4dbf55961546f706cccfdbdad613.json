@@ -1,0 +1,14 @@
+{
+  "artifact_3515368757": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-shipilev-30fa06a1f1fd4dbf55961546f706cccfdbdad613)\nOpenJDK 64-Bit Server VM (build 26-internal-shipilev-30fa06a1f1fd4dbf55961546f706cccfdbdad613, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-11T19:15:27.284137+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26270",
+  "number": 26270,
+  "title": "8361380: ARM32: Atomic stubs should be in pre-universe",
+  "head_sha": "30fa06a1f1fd4dbf55961546f706cccfdbdad613",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16227373564"
+}
