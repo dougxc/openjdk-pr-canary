@@ -1,0 +1,16 @@
+{
+  "artifact_3510048676": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-azvegint-db92a1fb2b8ca948d9faf45b92ab12f7713b992a)\nOpenJDK 64-Bit Server VM (build 26-internal-azvegint-db92a1fb2b8ca948d9faf45b92ab12f7713b992a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7096b725b0a611250874292eca302bd3578828d1.json"
+  ],
+  "datetime": "2025-07-11T04:29:48.734237+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26170",
+  "number": 26170,
+  "title": "8360647: [XWayland] [OL10] NumPad keys are not triggered",
+  "head_sha": "db92a1fb2b8ca948d9faf45b92ab12f7713b992a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16211532500"
+}
