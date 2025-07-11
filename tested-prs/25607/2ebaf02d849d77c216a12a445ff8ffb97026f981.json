@@ -1,0 +1,16 @@
+{
+  "artifact_3515678759": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mrserb-2ebaf02d849d77c216a12a445ff8ffb97026f981)\nOpenJDK 64-Bit Server VM (build 26-internal-mrserb-2ebaf02d849d77c216a12a445ff8ffb97026f981, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ff7e64b6e38a1a809d434628f304e49408135697.json"
+  ],
+  "datetime": "2025-07-11T19:58:25.546792+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25607",
+  "number": 25607,
+  "title": "8358468: Enhance code consistency: java.desktop/macos",
+  "head_sha": "2ebaf02d849d77c216a12a445ff8ffb97026f981",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16227373564"
+}
