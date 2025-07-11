@@ -1,0 +1,25 @@
+{
+  "artifact_3511092619": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-biboudis-0e063a56917c6989163f1dda59f11eee4e940356)\nOpenJDK 64-Bit Server VM (build 26-internal-biboudis-0e063a56917c6989163f1dda59f11eee4e940356, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "278aee7a9442b3dd45a33cec3f4f09176b89c98d.json",
+    "46089d7d85a6acdf35587303aefd3ec27b3ac7a9.json",
+    "6016493391a46e17d5a30e9f18317d5f5460edcf.json",
+    "62b16202018686c80103d56794df53d150a60cce.json",
+    "68364b85ed3cc53ab55e6a762caeb7d451180a07.json",
+    "6b0429c3c6d6a9c26cf6450c812c273bb9d891ae.json",
+    "6cec56aadeb08138e6a500b84ba6f1373bc1b41f.json",
+    "cc6523a8d9225afeb98d232d68557b4bfc2d307f.json",
+    "e131c46283bf66760f74dfee39d723dfa3c75387.json",
+    "f33753bfd80450b254ee15c5ee7cc291ecffd16d.json"
+  ],
+  "datetime": "2025-07-11T09:15:30.344203+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25451",
+  "number": 25451,
+  "title": "8357653: Inner classes of type parameters emitted as raw types in signatures",
+  "head_sha": "0e063a56917c6989163f1dda59f11eee4e940356",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16215739147"
+}
