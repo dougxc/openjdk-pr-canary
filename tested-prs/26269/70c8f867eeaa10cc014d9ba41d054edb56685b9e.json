@@ -1,0 +1,14 @@
+{
+  "artifact_3513266668": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-marc-chevalier-70c8f867eeaa10cc014d9ba41d054edb56685b9e)\nOpenJDK 64-Bit Server VM (build 26-internal-marc-chevalier-70c8f867eeaa10cc014d9ba41d054edb56685b9e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-11T17:43:25.916581+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26269",
+  "number": 26269,
+  "title": "8361492: [IR Framework] Has too restrictive regex for load and store",
+  "head_sha": "70c8f867eeaa10cc014d9ba41d054edb56685b9e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16226084854"
+}
