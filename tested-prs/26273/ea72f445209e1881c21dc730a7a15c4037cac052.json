@@ -1,0 +1,14 @@
+{
+  "artifact_3515533687": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-naotoj-ea72f445209e1881c21dc730a7a15c4037cac052)\nOpenJDK 64-Bit Server VM (build 26-internal-naotoj-ea72f445209e1881c21dc730a7a15c4037cac052, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-11T19:04:53.167313+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26273",
+  "number": 26273,
+  "title": "8361613: System.console() should only be available for interactive terminal",
+  "head_sha": "ea72f445209e1881c21dc730a7a15c4037cac052",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16227373564"
+}
