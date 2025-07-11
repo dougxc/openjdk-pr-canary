@@ -197176,5 +197176,30 @@
 		"aliases": [
 			"jdk-26-603"
 		]
+	},
+	{
+		"id": "jdk-26+7-604",
+		"revisions": {
+			"graal-enterprise": [
+				"0c717507933f7aad67c4a93dc125a4fe2b7377c0",
+				"174017c51a115726fe918fba23e63ed4be010bf9"
+			],
+			"graal": [
+				"47c1af160fe5cde801bf4fd8547ae992e0696203",
+				"c5df0c319473ceb21e7d9e9efa6896af496c0006"
+			],
+			".": [
+				"46852f64312bc3e0481592edddaf494f5113f59a"
+			],
+			"open": [
+				"76442f39b9dd583f09a7adebb0fc5f37b6ef88ef"
+			],
+			"mx": [
+				"1fbaca28e1ae5e98f70b7c785ebe53864e4371d0"
+			]
+		},
+		"aliases": [
+			"jdk-26-604"
+		]
 	}
 ]
