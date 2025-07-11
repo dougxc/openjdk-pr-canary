@@ -1,0 +1,14 @@
+{
+  "artifact_3513118703": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-MBaesken-f6ab84a923137695468dddad16cf7ee65666c6da)\nOpenJDK 64-Bit Server VM (build 26-internal-MBaesken-f6ab84a923137695468dddad16cf7ee65666c6da, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-11T13:54:57.843018+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26264",
+  "number": 26264,
+  "title": "8361959: [GCC static analyzer] java_props_md.c  leak of 'temp'  variable is reported",
+  "head_sha": "f6ab84a923137695468dddad16cf7ee65666c6da",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16221538155"
+}
