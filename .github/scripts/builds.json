@@ -197411,5 +197411,30 @@
 		"aliases": [
 			"jdk-26-612"
 		]
+	},
+	{
+		"id": "jdk-26+7-613",
+		"revisions": {
+			"open": [
+				"4a351e3e57274df0adee37c472b62f477f75b7b8"
+			],
+			"graal-enterprise": [
+				"1b6bd37e17c9ed5cece4699dad6c793951de29aa",
+				"26f02cc589023c9fd482481a989a773a70c9939b"
+			],
+			".": [
+				"46852f64312bc3e0481592edddaf494f5113f59a"
+			],
+			"mx": [
+				"1fbaca28e1ae5e98f70b7c785ebe53864e4371d0"
+			],
+			"graal": [
+				"953b8f848fcb828101375e4635a6ce34d5e583dc",
+				"733b4eb36af952cfdf1225acb89e1663ffdb4162"
+			]
+		},
+		"aliases": [
+			"jdk-26-613"
+		]
 	}
 ]
