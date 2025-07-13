@@ -1,0 +1,16 @@
+{
+  "artifact_3520995275": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-yadongw-e22b34ad83596eb9886d4140de8509b37ce2dc9c)\nOpenJDK 64-Bit Server VM (build 26-internal-yadongw-e22b34ad83596eb9886d4140de8509b37ce2dc9c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5b6b5859906a09e4d486d1847953642d2e37e1e8.json"
+  ],
+  "datetime": "2025-07-13T09:43:42.568034+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26249",
+  "number": 26249,
+  "title": "8361892: AArch64: Incorrect matching rule leading to improper oop instruction encoding",
+  "head_sha": "e22b34ad83596eb9886d4140de8509b37ce2dc9c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16247698122"
+}
