@@ -198203,5 +198203,28 @@
 		"aliases": [
 			"jdk-26-639"
 		]
+	},
+	{
+		"id": "jdk-26+7-640",
+		"revisions": {
+			"graal-enterprise": [
+				"1fa88f9ace14f0d84f6eb990532fbe888bb1b65a"
+			],
+			"graal": [
+				"d0d2d115b585612c651a5881edd769054610e372"
+			],
+			"open": [
+				"a10ee46e6dd94a279e0821d431944bb096493664"
+			],
+			".": [
+				"b8fa884297679c278908aea56c7b67e1310d46fd"
+			],
+			"mx": [
+				"1fbaca28e1ae5e98f70b7c785ebe53864e4371d0"
+			]
+		},
+		"aliases": [
+			"jdk-26-640"
+		]
 	}
 ]
