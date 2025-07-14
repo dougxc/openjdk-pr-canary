@@ -1,0 +1,14 @@
+{
+  "artifact_3529916605": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mcpowers-4ca89abd0b4a44669109baa5a4257813c55be8a0)\nOpenJDK 64-Bit Server VM (build 26-internal-mcpowers-4ca89abd0b4a44669109baa5a4257813c55be8a0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-14T20:46:04.853517+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26301",
+  "number": 26301,
+  "title": "8350709: [JMH] test ProtectionDomainBench failed for 2 threads config",
+  "head_sha": "4ca89abd0b4a44669109baa5a4257813c55be8a0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16277253247"
+}
