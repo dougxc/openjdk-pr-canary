@@ -1,0 +1,14 @@
+{
+  "artifact_3526137941": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-6d0fe617c416e78794f25bffb1a8369169b42011)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-6d0fe617c416e78794f25bffb1a8369169b42011, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-14T13:37:44.473420+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26290",
+  "number": 26290,
+  "title": "8362151: Remove unnecessary ClassLoaderDataGraph friend classes",
+  "head_sha": "6d0fe617c416e78794f25bffb1a8369169b42011",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16267586036"
+}
