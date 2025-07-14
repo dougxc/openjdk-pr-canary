@@ -182543,6 +182543,29 @@
 		]
 	},
 	{
+		"id": "jdk-25+32-3446",
+		"revisions": {
+			"graal": [
+				"64a3558d86fa4390cae9cec32f490f52e846543e"
+			],
+			"mx": [
+				"9ff24b5ac4fcbd3dc0f984830b3cd981a181f461"
+			],
+			".": [
+				"41cc307abfd3be6cd672d9675dd3db61d464dd6a"
+			],
+			"open": [
+				"dd82a0922bdf7e3e99edab3246a2a7b5b1cb7bda"
+			],
+			"graal-enterprise": [
+				"0476abf89192c29214aaf0095276d6371da5cd4c"
+			]
+		},
+		"aliases": [
+			"jdk-25-3446"
+		]
+	},
+	{
 		"id": "jdk-25.0.1+1-1",
 		"revisions": {
 			".": [
@@ -197945,6 +197968,77 @@
 		},
 		"aliases": [
 			"jdk-26-631"
+		]
+	},
+	{
+		"id": "jdk-26+7-632",
+		"revisions": {
+			"graal": [
+				"c5960f6d9c6487c45e542a0aca4078eb0f423cdf",
+				"b1ffedbe8b2c51495d66d82ecb97d84498d2a0c3"
+			],
+			".": [
+				"46852f64312bc3e0481592edddaf494f5113f59a"
+			],
+			"graal-enterprise": [
+				"88f30583695919bb83b9ffd6eb2bb091a037049b",
+				"acb2fe2baef875cff10601710444b19aa2ec2447"
+			],
+			"mx": [
+				"1fbaca28e1ae5e98f70b7c785ebe53864e4371d0"
+			],
+			"open": [
+				"99c299f0985c8be63b9b60e589db520d83fd8033"
+			]
+		},
+		"aliases": [
+			"jdk-26-632"
+		]
+	},
+	{
+		"id": "jdk-26+7-633",
+		"revisions": {
+			"open": [
+				"a531c9aece200d27d7870595eee8e14e39e9bd00"
+			],
+			"graal": [
+				"c5960f6d9c6487c45e542a0aca4078eb0f423cdf"
+			],
+			".": [
+				"46852f64312bc3e0481592edddaf494f5113f59a"
+			],
+			"graal-enterprise": [
+				"88f30583695919bb83b9ffd6eb2bb091a037049b"
+			],
+			"mx": [
+				"1fbaca28e1ae5e98f70b7c785ebe53864e4371d0"
+			]
+		},
+		"aliases": [
+			"jdk-26-633"
+		]
+	},
+	{
+		"id": "jdk-26+7-634",
+		"revisions": {
+			"open": [
+				"5edd546585d66f52c2e894ed212ee67945fe0785"
+			],
+			"graal": [
+				"c5960f6d9c6487c45e542a0aca4078eb0f423cdf"
+			],
+			".": [
+				"46852f64312bc3e0481592edddaf494f5113f59a"
+			],
+			"graal-enterprise": [
+				"88f30583695919bb83b9ffd6eb2bb091a037049b"
+			],
+			"mx": [
+				"1fbaca28e1ae5e98f70b7c785ebe53864e4371d0"
+			]
+		},
+		"aliases": [
+			"jdk-26-634"
 		]
 	}
 ]
