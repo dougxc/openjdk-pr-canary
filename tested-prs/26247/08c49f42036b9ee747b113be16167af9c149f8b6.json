@@ -1,0 +1,16 @@
+{
+  "artifact_3537224616": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-myankelev-08c49f42036b9ee747b113be16167af9c149f8b6)\nOpenJDK 64-Bit Server VM (build 26-internal-myankelev-08c49f42036b9ee747b113be16167af9c149f8b6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "64e641c5e03e0d30ab0f54749d8e72209cd1bfa6.json"
+  ],
+  "datetime": "2025-07-15T16:17:27.234240+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26247",
+  "number": 26247,
+  "title": "8360979: Remove use of Thread.stop in krb5/auto/KDC.java",
+  "head_sha": "08c49f42036b9ee747b113be16167af9c149f8b6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16297686297"
+}
