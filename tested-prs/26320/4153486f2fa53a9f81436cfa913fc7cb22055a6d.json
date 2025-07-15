@@ -1,0 +1,14 @@
+{
+  "artifact_3537314923": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-4153486f2fa53a9f81436cfa913fc7cb22055a6d)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-4153486f2fa53a9f81436cfa913fc7cb22055a6d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-15T16:03:05.422561+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26320",
+  "number": 26320,
+  "title": "8358621: Reduce busy waiting in worse case at the synchronization point returning from native in CPU Time Profiler",
+  "head_sha": "4153486f2fa53a9f81436cfa913fc7cb22055a6d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16297686297"
+}
