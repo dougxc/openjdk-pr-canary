@@ -1,0 +1,14 @@
+{
+  "artifact_3534825603": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-benoitmaillard-6eab84718c3b60c2585bc2711c4bc8144472975b)\nOpenJDK 64-Bit Server VM (build 26-internal-benoitmaillard-6eab84718c3b60c2585bc2711c4bc8144472975b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-15T11:00:30.032770+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26310",
+  "number": 26310,
+  "title": "8358573: CompileBroker fails with \"expect failure reason\" assert with -XX:-InstallMethods",
+  "head_sha": "6eab84718c3b60c2585bc2711c4bc8144472975b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16291006881"
+}
