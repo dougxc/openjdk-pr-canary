@@ -1,0 +1,14 @@
+{
+  "artifact_3537848974": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-fitzsim-780a630af938edeab3d8c5c895c92f2243814ede)\nOpenJDK 64-Bit Server VM (build 26-internal-fitzsim-780a630af938edeab3d8c5c895c92f2243814ede, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-15T20:04:23.618753+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26325",
+  "number": 26325,
+  "title": "8361711: Add library name configurability to PKCS11Test.java",
+  "head_sha": "780a630af938edeab3d8c5c895c92f2243814ede",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16302508851"
+}
