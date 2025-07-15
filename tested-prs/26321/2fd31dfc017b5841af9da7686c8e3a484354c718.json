@@ -1,0 +1,15 @@
+{
+  "artifact_3537386917": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-2fd31dfc017b5841af9da7686c8e3a484354c718)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-2fd31dfc017b5841af9da7686c8e3a484354c718, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-07-15T15:52:15.553676+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26321",
+  "number": 26321,
+  "title": "8347051: Test com/sun/jmx/remote/NotificationMarshalVersions/TestSerializationMismatch.java fails",
+  "head_sha": "2fd31dfc017b5841af9da7686c8e3a484354c718",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16297686297"
+}
