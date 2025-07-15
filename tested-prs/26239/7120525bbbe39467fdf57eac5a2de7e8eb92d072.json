@@ -1,0 +1,17 @@
+{
+  "artifact_3534886911": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-DingliZhang-7120525bbbe39467fdf57eac5a2de7e8eb92d072)\nOpenJDK 64-Bit Server VM (build 26-internal-DingliZhang-7120525bbbe39467fdf57eac5a2de7e8eb92d072, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0773a3668caad98e46978d1bd899f6ca5faad206.json",
+    "84d6b25fb5f9d0f4854eb80bb152c8ce18a674a4.json"
+  ],
+  "datetime": "2025-07-15T11:20:55.667041+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26239",
+  "number": 26239,
+  "title": "8361836: RISC-V: Relax min vector length to 32-bit for short vectors",
+  "head_sha": "7120525bbbe39467fdf57eac5a2de7e8eb92d072",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16291006881"
+}
