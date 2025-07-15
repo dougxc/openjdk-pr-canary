@@ -198996,6 +198996,56 @@
 		},
 		"aliases": [
 			"jdk-26-660"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-26+7-661",
+		"revisions": {
+			".": [
+				"f6b327e64ef3cf2cd4e51e96980436e185b825cc"
+			],
+			"open": [
+				"820263e48abf3ddce9506eb19872871aa3ea8b50"
+			],
+			"graal-enterprise": [
+				"95891b0fcebc18d482f2fcc4ed637e3753b09e5b"
+			],
+			"graal": [
+				"e18afcc0a8a6ab292c5eb7c0a4a3a82454dd7ed9"
+			],
+			"mx": [
+				"77dd4a0d913bb75f97804c1789e380df14adae08"
+			]
+		},
+		"aliases": [
+			"jdk-26-661"
+		]
+	},
+	{
+		"id": "jdk-26+7-662",
+		"revisions": {
+			".": [
+				"f6b327e64ef3cf2cd4e51e96980436e185b825cc"
+			],
+			"open": [
+				"820263e48abf3ddce9506eb19872871aa3ea8b50"
+			],
+			"graal-enterprise": [
+				"471f770108a58b2f3d11c9ba2d71749800645043",
+				"10740300a87f41ae830e4e7c42b69c740db1e371"
+			],
+			"graal": [
+				"e18afcc0a8a6ab292c5eb7c0a4a3a82454dd7ed9"
+			],
+			"mx": [
+				"77dd4a0d913bb75f97804c1789e380df14adae08"
+			]
+		},
+		"aliases": [
+			"jdk-26-662"
 		]
 	}
 ]
