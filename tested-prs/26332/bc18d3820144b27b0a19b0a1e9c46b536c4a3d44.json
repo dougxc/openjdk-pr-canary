@@ -1,0 +1,14 @@
+{
+  "artifact_3539992195": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-prrace-bc18d3820144b27b0a19b0a1e9c46b536c4a3d44)\nOpenJDK 64-Bit Server VM (build 26-internal-prrace-bc18d3820144b27b0a19b0a1e9c46b536c4a3d44, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-15T21:42:41.414145+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26332",
+  "number": 26332,
+  "title": "8362291: [macOS] Remove finalize method in CGraphicsEnvironment.java",
+  "head_sha": "bc18d3820144b27b0a19b0a1e9c46b536c4a3d44",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16304761881"
+}
