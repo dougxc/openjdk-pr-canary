@@ -1,0 +1,14 @@
+{
+  "artifact_3531771219": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-dholmes-ora-b839daa136c5649670020dc64b3594ca84987c05)\nOpenJDK 64-Bit Server VM (build 26-internal-dholmes-ora-b839daa136c5649670020dc64b3594ca84987c05, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-15T02:53:47.259901+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26302",
+  "number": 26302,
+  "title": "8356941: AbstractMethodError in HotSpot Due to Incorrect Handling of Private Method",
+  "head_sha": "b839daa136c5649670020dc64b3594ca84987c05",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16282577795"
+}
