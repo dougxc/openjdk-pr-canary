@@ -1,0 +1,14 @@
+{
+  "artifact_3539299408": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-74b7b6484f2e6b21b5a2e1a60ccdfdf4e5177144)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-74b7b6484f2e6b21b5a2e1a60ccdfdf4e5177144, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-15T20:45:12.141648+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26330",
+  "number": 26330,
+  "title": "8362271: G1: Improve G1CollectorState::clearing_bitmap name",
+  "head_sha": "74b7b6484f2e6b21b5a2e1a60ccdfdf4e5177144",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16303733472"
+}
