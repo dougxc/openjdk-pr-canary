@@ -1,0 +1,14 @@
+{
+  "artifact_3537877721": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-walulyai-6094a16ce7995dc7ca7980058e72189ce8b75f07)\nOpenJDK 64-Bit Server VM (build 26-internal-walulyai-6094a16ce7995dc7ca7980058e72189ce8b75f07, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-15T17:44:40.371594+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26323",
+  "number": 26323,
+  "title": "8362278: G1: Consolidate functions for recording pause start time",
+  "head_sha": "6094a16ce7995dc7ca7980058e72189ce8b75f07",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16300212581"
+}
