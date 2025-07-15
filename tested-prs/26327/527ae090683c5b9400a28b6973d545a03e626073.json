@@ -1,0 +1,14 @@
+{
+  "artifact_3538907699": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-527ae090683c5b9400a28b6973d545a03e626073)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-527ae090683c5b9400a28b6973d545a03e626073, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-15T19:53:20.362276+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26327",
+  "number": 26327,
+  "title": "8361587: AssertionError in File.listFiles() when path is empty and -esa is enabled",
+  "head_sha": "527ae090683c5b9400a28b6973d545a03e626073",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16302508851"
+}
