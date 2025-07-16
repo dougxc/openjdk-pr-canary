@@ -1,0 +1,14 @@
+{
+  "artifact_3545910755": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-84da60894f8181a813f979714753f2f81712fcd0)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-84da60894f8181a813f979714753f2f81712fcd0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-16T15:06:09.518882+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26349",
+  "number": 26349,
+  "title": "8361640: JFR: RandomAccessFile::readLine emits events for each character",
+  "head_sha": "84da60894f8181a813f979714753f2f81712fcd0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16322455420"
+}
