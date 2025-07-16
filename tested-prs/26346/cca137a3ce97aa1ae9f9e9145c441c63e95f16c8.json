@@ -1,0 +1,14 @@
+{
+  "artifact_3543612955": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-dougxc-cca137a3ce97aa1ae9f9e9145c441c63e95f16c8)\nOpenJDK 64-Bit Server VM (build 26-internal-dougxc-cca137a3ce97aa1ae9f9e9145c441c63e95f16c8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-16T09:49:20.997504+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26346",
+  "number": 26346,
+  "title": "8362306: HotSpotJVMCIRuntime.getMirror can crash",
+  "head_sha": "cca137a3ce97aa1ae9f9e9145c441c63e95f16c8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16315949628"
+}
