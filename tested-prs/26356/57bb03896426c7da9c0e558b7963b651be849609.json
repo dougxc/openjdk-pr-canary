@@ -1,0 +1,14 @@
+{
+  "artifact_3548072077": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-57bb03896426c7da9c0e558b7963b651be849609)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-57bb03896426c7da9c0e558b7963b651be849609, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-16T18:56:44.663109+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26356",
+  "number": 26356,
+  "title": "8360288: Shenandoah crash at size_given_klass in op_degenerated",
+  "head_sha": "57bb03896426c7da9c0e558b7963b651be849609",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16327688646"
+}
