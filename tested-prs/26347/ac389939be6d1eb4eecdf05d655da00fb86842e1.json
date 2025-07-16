@@ -1,0 +1,14 @@
+{
+  "artifact_3545142423": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-benoitmaillard-ac389939be6d1eb4eecdf05d655da00fb86842e1)\nOpenJDK 64-Bit Server VM (build 26-internal-benoitmaillard-ac389939be6d1eb4eecdf05d655da00fb86842e1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-16T13:14:00.463563+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26347",
+  "number": 26347,
+  "title": "8361700: Missed optimization in PhaseIterGVN for mask and shift patterns due to missing notification in PhaseIterGVN::add_users_of_use_to_worklist",
+  "head_sha": "ac389939be6d1eb4eecdf05d655da00fb86842e1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16320230968"
+}
