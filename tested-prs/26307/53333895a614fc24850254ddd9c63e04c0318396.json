@@ -1,0 +1,16 @@
+{
+  "artifact_3542656606": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-kumarabhi006-53333895a614fc24850254ddd9c63e04c0318396)\nOpenJDK 64-Bit Server VM (build 26-internal-kumarabhi006-53333895a614fc24850254ddd9c63e04c0318396, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d8f6ecc0b1c54832b3975bba650f0290eff4b3a3.json"
+  ],
+  "datetime": "2025-07-16T07:08:09.035812+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26307",
+  "number": 26307,
+  "title": "8338282: javax/swing/JMenuBar/TestMenuMnemonicLinuxAndMac.java test failed on macOS and Ubuntu",
+  "head_sha": "53333895a614fc24850254ddd9c63e04c0318396",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16312440751"
+}
