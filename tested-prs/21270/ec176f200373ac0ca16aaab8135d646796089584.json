@@ -1,0 +1,17 @@
+{
+  "artifact_3541464139": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-dhanalla-ec176f200373ac0ca16aaab8135d646796089584)\nOpenJDK 64-Bit Server VM (build 25-internal-dhanalla-ec176f200373ac0ca16aaab8135d646796089584, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3c56f98d88433a4fada2c7e43147fc2e91df5e89.json",
+    "7947053bed556b3becb686b9a876267edfb4a0cb.json"
+  ],
+  "datetime": "2025-07-16T03:20:36.753394+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/21270",
+  "number": 21270,
+  "title": "8341293: Split field loads through Nested Phis",
+  "head_sha": "ec176f200373ac0ca16aaab8135d646796089584",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16308861020"
+}
