@@ -1,0 +1,14 @@
+{
+  "artifact_3543175582": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-6671e8412265befbc69b728fb70c03b683e4abc9)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-6671e8412265befbc69b728fb70c03b683e4abc9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-16T09:06:29.528624+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26343",
+  "number": 26343,
+  "title": "8361827: [TESTBUG] serviceability/HeapDump/UnmountedVThreadNativeMethodAtTop.java throws OutOfMemoryError",
+  "head_sha": "6671e8412265befbc69b728fb70c03b683e4abc9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16314745777"
+}
