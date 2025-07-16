@@ -1,0 +1,14 @@
+{
+  "artifact_3542619936": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-calvinccheung-2f8ee315023bd9843ea87d57c57aac4748737590)\nOpenJDK 64-Bit Server VM (build 26-internal-calvinccheung-2f8ee315023bd9843ea87d57c57aac4748737590, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-16T06:57:41.914343+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26344",
+  "number": 26344,
+  "title": "8362336: Revert changes in metaspaceShared.cpp done via JDK-8356807",
+  "head_sha": "2f8ee315023bd9843ea87d57c57aac4748737590",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16312440751"
+}
