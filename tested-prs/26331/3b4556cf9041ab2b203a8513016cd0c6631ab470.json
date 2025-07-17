@@ -1,0 +1,16 @@
+{
+  "artifact_3550149499": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-prrace-3b4556cf9041ab2b203a8513016cd0c6631ab470)\nOpenJDK 64-Bit Server VM (build 26-internal-prrace-3b4556cf9041ab2b203a8513016cd0c6631ab470, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "130fdc5ea70bdfaf3658082e6f0621be3ffedd58.json"
+  ],
+  "datetime": "2025-07-16T23:53:25.200100+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26331",
+  "number": 26331,
+  "title": "8362289: [macOS] Remove finalize method in JRSUIControls.java",
+  "head_sha": "3b4556cf9041ab2b203a8513016cd0c6631ab470",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16332493312"
+}
