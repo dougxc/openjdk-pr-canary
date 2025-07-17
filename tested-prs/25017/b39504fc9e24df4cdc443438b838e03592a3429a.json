@@ -1,0 +1,17 @@
+{
+  "artifact_3558139334": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-liach-b39504fc9e24df4cdc443438b838e03592a3429a)\nOpenJDK 64-Bit Server VM (build 26-internal-liach-b39504fc9e24df4cdc443438b838e03592a3429a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "69d941f46c64c60c529930ba337c54d3f8076976.json",
+    "aed4f8d636104c53820d6128adeb09354535ac1a.json"
+  ],
+  "datetime": "2025-07-17T20:14:24.813564+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25017",
+  "number": 25017,
+  "title": "8355536: Create version constants to model preview language and vm features",
+  "head_sha": "b39504fc9e24df4cdc443438b838e03592a3429a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16354161461"
+}
