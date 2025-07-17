@@ -1,0 +1,17 @@
+{
+  "artifact_3551896238": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-vy-abc0eeb3bfc6ac05b589bd32e6db98f7657e3438)\nOpenJDK 64-Bit Server VM (build 26-internal-vy-abc0eeb3bfc6ac05b589bd32e6db98f7657e3438, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6af98646e6528da69e89ce46ca83a0f2e8a3c68f.json",
+    "85f198648a2ef2fc531d847e70a2b18a83fff2e8.json"
+  ],
+  "datetime": "2025-07-17T06:58:22.401326+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25998",
+  "number": 25998,
+  "title": "8361842: Move input validation checks to Java for String-related intrinsics",
+  "head_sha": "abc0eeb3bfc6ac05b589bd32e6db98f7657e3438",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16338192293"
+}
