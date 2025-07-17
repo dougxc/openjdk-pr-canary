@@ -1,0 +1,14 @@
+{
+  "artifact_3555520230": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-Hamlin-Li-da2500bc0018e44f9188a3662dca729db082ab4c)\nOpenJDK 64-Bit Server VM (build 26-internal-Hamlin-Li-da2500bc0018e44f9188a3662dca729db082ab4c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-17T15:47:33.856145+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26370",
+  "number": 26370,
+  "title": "8362515: RISC-V: cleanup NativeFarCall",
+  "head_sha": "da2500bc0018e44f9188a3662dca729db082ab4c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16349467393"
+}
