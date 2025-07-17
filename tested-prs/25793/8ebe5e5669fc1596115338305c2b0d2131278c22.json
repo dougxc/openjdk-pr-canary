@@ -1,0 +1,18 @@
+{
+  "artifact_3553014156": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-erifan-8ebe5e5669fc1596115338305c2b0d2131278c22)\nOpenJDK 64-Bit Server VM (build 26-internal-erifan-8ebe5e5669fc1596115338305c2b0d2131278c22, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "38664b0639cd682ad14ea8eab61c0db7d4ed157e.json",
+    "791e0ab7bf90c6e8d92d322dfc8ea39e40780310.json",
+    "9f07d5c7b837305ae7822f0b43cd42ec5b76c9f9.json"
+  ],
+  "datetime": "2025-07-17T09:59:48.047188+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25793",
+  "number": 25793,
+  "title": "8356760: VectorAPI: Optimize VectorMask.fromLong for all-true/all-false cases",
+  "head_sha": "8ebe5e5669fc1596115338305c2b0d2131278c22",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16341595434"
+}
