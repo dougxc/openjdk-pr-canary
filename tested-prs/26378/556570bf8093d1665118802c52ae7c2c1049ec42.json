@@ -1,0 +1,14 @@
+{
+  "artifact_3560110420": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-egahlin-556570bf8093d1665118802c52ae7c2c1049ec42)\nOpenJDK 64-Bit Server VM (build 26-internal-egahlin-556570bf8093d1665118802c52ae7c2c1049ec42, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-18T02:40:16.009318+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26378",
+  "number": 26378,
+  "title": "8362556: New test jdk/jfr/event/io/TestIOTopFrame.java is failing on all platforms",
+  "head_sha": "556570bf8093d1665118802c52ae7c2c1049ec42",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16360728177"
+}
