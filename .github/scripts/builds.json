@@ -201508,5 +201508,32 @@
 		"aliases": [
 			"jdk-26-738"
 		]
+	},
+	{
+		"id": "jdk-26+8-739",
+		"revisions": {
+			"graal-enterprise": [
+				"0fbcd6626227bc3c920d39e525d0e4432efaeb62",
+				"4994b8f793c9685bc7ff06225598ff900d111b4e",
+				"3417d364e0c34bff065154fe79fa63d0f370d337"
+			],
+			".": [
+				"f4365e1e7dfee1c3c35ff73aebec97ee3740d781"
+			],
+			"graal": [
+				"72ba21c7690565226a77391760a78b5692c1f8f7",
+				"a9086c90025cf0b5505a6537d58f9fa0746ba3b7",
+				"bf93de4ba3f5e673aa179e12cf329ca0a50ca5f0"
+			],
+			"mx": [
+				"77dd4a0d913bb75f97804c1789e380df14adae08"
+			],
+			"open": [
+				"d83346dcff0824575d580ec421476c0ea5c6e783"
+			]
+		},
+		"aliases": [
+			"jdk-26-739"
+		]
 	}
 ]
