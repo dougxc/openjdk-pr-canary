@@ -1,0 +1,17 @@
+{
+  "artifact_3562393537": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-vy-da69840639ec9fda2a78855cd1c2193a3640896f)\nOpenJDK 64-Bit Server VM (build 26-internal-vy-da69840639ec9fda2a78855cd1c2193a3640896f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3af61c5f015db200c12cc6b22e4c6a615f8e94a6.json",
+    "bdeb999b8bde6098a5c3e653e3bc248e61208af7.json"
+  ],
+  "datetime": "2025-07-18T10:20:45.810277+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26155",
+  "number": 26155,
+  "title": "8329829: HttpClient: Add a BodyPublishers.ofFileChannel method",
+  "head_sha": "da69840639ec9fda2a78855cd1c2193a3640896f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16367305676"
+}
