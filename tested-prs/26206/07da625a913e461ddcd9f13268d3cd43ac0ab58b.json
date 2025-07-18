@@ -1,0 +1,16 @@
+{
+  "artifact_3567424642": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-ascarpino-07da625a913e461ddcd9f13268d3cd43ac0ab58b)\nOpenJDK 64-Bit Server VM (build 26-internal-ascarpino-07da625a913e461ddcd9f13268d3cd43ac0ab58b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5509b6fea60f22f00ce4536d2a0167be27806692.json"
+  ],
+  "datetime": "2025-07-18T22:56:06.565345+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26206",
+  "number": 26206,
+  "title": "8333857: Test sun/security/ssl/SSLSessionImpl/ResumeChecksServer.java failed: Existing session was used",
+  "head_sha": "07da625a913e461ddcd9f13268d3cd43ac0ab58b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16381558411"
+}
