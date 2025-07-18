@@ -1,0 +1,17 @@
+{
+  "artifact_3564507409": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-coffeys-e42c2001fbdb38495017b38cc4d79df51306a7e8)\nOpenJDK 64-Bit Server VM (build 26-internal-coffeys-e42c2001fbdb38495017b38cc4d79df51306a7e8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "51eb0f1b6da3356be3a7308b0694cc3155eca54c.json",
+    "9e589a632034a16df80226c0d956acbd67974f84.json"
+  ],
+  "datetime": "2025-07-18T16:09:02.177736+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25934",
+  "number": 25934,
+  "title": "8343395: SSLLogger doesn't work for formatted messages",
+  "head_sha": "e42c2001fbdb38495017b38cc4d79df51306a7e8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16374455818"
+}
