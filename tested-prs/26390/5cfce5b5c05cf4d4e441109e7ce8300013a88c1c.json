@@ -1,0 +1,14 @@
+{
+  "artifact_3565115111": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-coffeys-5cfce5b5c05cf4d4e441109e7ce8300013a88c1c)\nOpenJDK 64-Bit Server VM (build 26-internal-coffeys-5cfce5b5c05cf4d4e441109e7ce8300013a88c1c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-18T16:55:06.215993+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26390",
+  "number": 26390,
+  "title": "8340312: sun.security.ssl.SSLLogger uses incorrect log level ALL for `finest` log events",
+  "head_sha": "5cfce5b5c05cf4d4e441109e7ce8300013a88c1c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16375814084"
+}
