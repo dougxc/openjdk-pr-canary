@@ -1,0 +1,14 @@
+{
+  "artifact_3565422431": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-seanjmullan-dfe0ccaff2fa3ffcb6439c4fe090b454406a9a8d)\nOpenJDK 64-Bit Server VM (build 26-internal-seanjmullan-dfe0ccaff2fa3ffcb6439c4fe090b454406a9a8d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-18T17:47:10.682780+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26392",
+  "number": 26392,
+  "title": "8361964: Remove outdated algorithms from requirements and add PBES2 algorithms",
+  "head_sha": "dfe0ccaff2fa3ffcb6439c4fe090b454406a9a8d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16376748109"
+}
