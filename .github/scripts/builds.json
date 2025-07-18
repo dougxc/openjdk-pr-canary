@@ -200907,5 +200907,28 @@
 		"aliases": [
 			"jdk-26-718"
 		]
+	},
+	{
+		"id": "jdk-26+8-719",
+		"revisions": {
+			"graal-enterprise": [
+				"7ed3a9ec36b6741925150ce2be8d669602371412"
+			],
+			".": [
+				"f4365e1e7dfee1c3c35ff73aebec97ee3740d781"
+			],
+			"graal": [
+				"0b8429a4fecad70e8a27896e01141831f4d4ef6a"
+			],
+			"open": [
+				"cab515962b6940b50b975b12c8f5e99d0430f694"
+			],
+			"mx": [
+				"77dd4a0d913bb75f97804c1789e380df14adae08"
+			]
+		},
+		"aliases": [
+			"jdk-26-719"
+		]
 	}
 ]
