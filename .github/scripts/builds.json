@@ -201535,5 +201535,35 @@
 		"aliases": [
 			"jdk-26-739"
 		]
+	},
+	{
+		"id": "jdk-26+8-740",
+		"revisions": {
+			"graal": [
+				"7bb3858ccdde16c9cca468d80541ded1f0e0243d",
+				"e5cd50a614da7a27526757f7939ec3b283ae7114",
+				"4ba61a9feaf00c5526d7dbed3694cb41e3147409",
+				"a6592f335737c6900f10037189e1568dc8027c11",
+				"f261f4a7d8a68d14af55f68265c5c88686c05f7a"
+			],
+			"graal-enterprise": [
+				"61ac2ff978700ccc2d5f4875cd0d3237420d279c",
+				"b51d72ba4a7b21f14eabc8c871f7168d86938a0d",
+				"468710f989bf582c8dc7da64c6a5cf88b911e526",
+				"8401f18708e46719049ac7057984ddeb5986b7e7"
+			],
+			".": [
+				"f4365e1e7dfee1c3c35ff73aebec97ee3740d781"
+			],
+			"mx": [
+				"77dd4a0d913bb75f97804c1789e380df14adae08"
+			],
+			"open": [
+				"d83346dcff0824575d580ec421476c0ea5c6e783"
+			]
+		},
+		"aliases": [
+			"jdk-26-740"
+		]
 	}
 ]
