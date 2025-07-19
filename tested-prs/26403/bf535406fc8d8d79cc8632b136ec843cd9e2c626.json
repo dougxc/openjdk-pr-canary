@@ -1,0 +1,14 @@
+{
+  "artifact_3569874469": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-Korov-bf535406fc8d8d79cc8632b136ec843cd9e2c626)\nOpenJDK 64-Bit Server VM (build 26-internal-Korov-bf535406fc8d8d79cc8632b136ec843cd9e2c626, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-19T18:52:24.946918+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26403",
+  "number": 26403,
+  "title": "8362611: [GCC static analyzer] memory leak in ps_core.c core_handle_note",
+  "head_sha": "bf535406fc8d8d79cc8632b136ec843cd9e2c626",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16391625278"
+}
