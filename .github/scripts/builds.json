@@ -201613,5 +201613,30 @@
 		"aliases": [
 			"jdk-26-742"
 		]
+	},
+	{
+		"id": "jdk-26+8-743",
+		"revisions": {
+			".": [
+				"f4365e1e7dfee1c3c35ff73aebec97ee3740d781"
+			],
+			"graal-enterprise": [
+				"fd8f9f908e90f9013dd98eac8c33885025ebbb37",
+				"5c6f4e2930ac5e0cc6330a4995560c668bbc7a58"
+			],
+			"graal": [
+				"768cfeaa83255ad269bf3b08d58dd12807c61021",
+				"f67d0bfdec2dd1e41320f44ea0d3040442f7eae2"
+			],
+			"mx": [
+				"77dd4a0d913bb75f97804c1789e380df14adae08"
+			],
+			"open": [
+				"ceb51d44449977ecc142f6af03f93162b98adaf6"
+			]
+		},
+		"aliases": [
+			"jdk-26-743"
+		]
 	}
 ]
