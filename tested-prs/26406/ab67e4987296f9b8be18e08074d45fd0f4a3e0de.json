@@ -1,0 +1,14 @@
+{
+  "artifact_3573569231": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-gustavosimon-ab67e4987296f9b8be18e08074d45fd0f4a3e0de)\nOpenJDK 64-Bit Server VM (build 26-internal-gustavosimon-ab67e4987296f9b8be18e08074d45fd0f4a3e0de, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-20T23:42:03.892373+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26406",
+  "number": 26406,
+  "title": "8355652: Parse ClassFileFormatVersion from ClassFileVersion",
+  "head_sha": "ab67e4987296f9b8be18e08074d45fd0f4a3e0de",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16405384198"
+}
