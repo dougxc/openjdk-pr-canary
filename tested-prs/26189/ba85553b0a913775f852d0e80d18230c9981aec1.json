@@ -1,0 +1,19 @@
+{
+  "artifact_3575358474": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-ba85553b0a913775f852d0e80d18230c9981aec1)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-ba85553b0a913775f852d0e80d18230c9981aec1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "348a7896ac2f32040a6af27bb41dd889212489d5.json",
+    "36b023fb66d3223c1affccc2bda42c9334f8b99c.json",
+    "9b2ea952dabef16c2d2f86945c3ead616080f1db.json",
+    "b3a9fea6a07ba8601980523b91d4594fc80c9202.json"
+  ],
+  "datetime": "2025-07-21T09:30:21.715809+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26189",
+  "number": 26189,
+  "title": "8350621: Code cache stops scheduling GC",
+  "head_sha": "ba85553b0a913775f852d0e80d18230c9981aec1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16412450284"
+}
