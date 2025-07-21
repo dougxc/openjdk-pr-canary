@@ -1,0 +1,16 @@
+{
+  "artifact_3577525306": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-sendaoYan-0e79128dac033d55c9c56fb465b88621f0061d71)\nOpenJDK 64-Bit Server VM (build 26-internal-sendaoYan-0e79128dac033d55c9c56fb465b88621f0061d71, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "bac6b529128bb7a8c37e9e61102b6bac1457dc84.json"
+  ],
+  "datetime": "2025-07-21T13:25:28.573519+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26411",
+  "number": 26411,
+  "title": "8362834: Several runtime/Thread tests should mark as /native",
+  "head_sha": "0e79128dac033d55c9c56fb465b88621f0061d71",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16417770193"
+}
