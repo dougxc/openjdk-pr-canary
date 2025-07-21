@@ -202015,5 +202015,28 @@
 		"aliases": [
 			"jdk-26-759"
 		]
+	},
+	{
+		"id": "jdk-26+8-760",
+		"revisions": {
+			"open": [
+				"f8c8bcf4fd31509fdb40d32e8e16ba4fba1f987d"
+			],
+			"graal-enterprise": [
+				"644bc695803388cadcec024fa81f7df9f5a65a94"
+			],
+			".": [
+				"f4365e1e7dfee1c3c35ff73aebec97ee3740d781"
+			],
+			"mx": [
+				"77dd4a0d913bb75f97804c1789e380df14adae08"
+			],
+			"graal": [
+				"974f752bea3de29d4830cf88de25f757253a3c06"
+			]
+		},
+		"aliases": [
+			"jdk-26-760"
+		]
 	}
 ]
