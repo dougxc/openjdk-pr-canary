@@ -1,0 +1,16 @@
+{
+  "artifact_3577433361": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-myankelev-9f8f1a48a9b737b48a033e44cdb05e5797d9ff28)\nOpenJDK 64-Bit Server VM (build 26-internal-myankelev-9f8f1a48a9b737b48a033e44cdb05e5797d9ff28, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ac4349b48e990daa68d1cea3ebc1fed84c8ad3ce.json"
+  ],
+  "datetime": "2025-07-21T13:15:14.751312+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26412",
+  "number": 26412,
+  "title": "8360562: sun/security/tools/keytool/i18n.java add an ability to add comment for failures",
+  "head_sha": "9f8f1a48a9b737b48a033e44cdb05e5797d9ff28",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16417770193"
+}
