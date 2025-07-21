@@ -1,0 +1,17 @@
+{
+  "artifact_3581563915": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-eastig-57d30a352b66d4b1472b52c96ee824d39b71ab3b)\nOpenJDK 64-Bit Server VM (build 26-internal-eastig-57d30a352b66d4b1472b52c96ee824d39b71ab3b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d47fa11b392d2774eb976267b3a2746ab2075506.json",
+    "e984fdeb10cc91a04860cbdbe45aacb05c4ffd3e.json"
+  ],
+  "datetime": "2025-07-21T21:52:20.226162+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26387",
+  "number": 26387,
+  "title": "8362193: Re-work MacOS/AArch64 SpinPause to handle SB",
+  "head_sha": "57d30a352b66d4b1472b52c96ee824d39b71ab3b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16428611149"
+}
