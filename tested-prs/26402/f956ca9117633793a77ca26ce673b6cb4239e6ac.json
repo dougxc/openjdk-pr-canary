@@ -1,0 +1,16 @@
+{
+  "artifact_3575725317": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-Korov-f956ca9117633793a77ca26ce673b6cb4239e6ac)\nOpenJDK 64-Bit Server VM (build 26-internal-Korov-f956ca9117633793a77ca26ce673b6cb4239e6ac, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "05ebf938b047866a15f7308865a892eef178508b.json"
+  ],
+  "datetime": "2025-07-21T09:08:44.781153+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26402",
+  "number": 26402,
+  "title": "8362532: Test gc/g1/plab/* duplicate command-line options",
+  "head_sha": "f956ca9117633793a77ca26ce673b6cb4239e6ac",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16412450284"
+}
