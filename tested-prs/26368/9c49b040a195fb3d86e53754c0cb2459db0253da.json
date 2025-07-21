@@ -1,0 +1,14 @@
+{
+  "artifact_3575666142": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-benoitmaillard-9c49b040a195fb3d86e53754c0cb2459db0253da)\nOpenJDK 64-Bit Server VM (build 26-internal-benoitmaillard-9c49b040a195fb3d86e53754c0cb2459db0253da, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-21T09:19:33.018140+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26368",
+  "number": 26368,
+  "title": "8359603: Missed optimization in PhaseIterGVN for redundant ConvX2Y->ConvY2X->ConvX2Y sequences due to missing notification in PhaseIterGVN::add_users_of_use_to_worklist",
+  "head_sha": "9c49b040a195fb3d86e53754c0cb2459db0253da",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16412450284"
+}
