@@ -1,0 +1,17 @@
+{
+  "artifact_3591743653": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-ysramakrishna-3fd09b942d277fe8e8981bd6d821abb76dbabd65)\nOpenJDK 64-Bit Server VM (build 26-internal-ysramakrishna-3fd09b942d277fe8e8981bd6d821abb76dbabd65, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "589bde3599619c13ea8c0fe1ab5f3920d2ab0142.json",
+    "645bb879b12353be1e4bbd15a968339a322ae5e5.json"
+  ],
+  "datetime": "2025-07-22T21:55:07.453619+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24002",
+  "number": 24002,
+  "title": "8350050: Shenandoah: Disable and purge allocation pacing support",
+  "head_sha": "3fd09b942d277fe8e8981bd6d821abb76dbabd65",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16455971967"
+}
