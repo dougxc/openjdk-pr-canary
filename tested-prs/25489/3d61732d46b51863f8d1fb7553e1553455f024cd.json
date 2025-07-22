@@ -1,0 +1,16 @@
+{
+  "artifact_3584758779": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-GennadiyKrivoshein-3d61732d46b51863f8d1fb7553e1553455f024cd)\nOpenJDK 64-Bit Server VM (build 26-internal-GennadiyKrivoshein-3d61732d46b51863f8d1fb7553e1553455f024cd, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "05568097a2347441403fd3b2c39c87963c811ec7.json"
+  ],
+  "datetime": "2025-07-22T08:09:48.643731+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25489",
+  "number": 25489,
+  "title": "8251928: [macos] the printer DPI always be 72, cause some content lost when print out",
+  "head_sha": "3d61732d46b51863f8d1fb7553e1553455f024cd",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16437780674"
+}
