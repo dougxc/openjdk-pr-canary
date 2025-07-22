@@ -1,0 +1,17 @@
+{
+  "artifact_3592111380": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-naotoj-93f3a8b340b68e182f0ad909018844dcb6d41d9e)\nOpenJDK 64-Bit Server VM (build 26-internal-naotoj-93f3a8b340b68e182f0ad909018844dcb6d41d9e, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "85d8adfb5c4e69b379aedd99a9664f7eed701045.json"
+  ],
+  "datetime": "2025-07-22T22:53:25.733965+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26419",
+  "number": 26419,
+  "title": "8355522: Remove the `java.locale.useOldISOCodes` system property",
+  "head_sha": "93f3a8b340b68e182f0ad909018844dcb6d41d9e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16456979987"
+}
