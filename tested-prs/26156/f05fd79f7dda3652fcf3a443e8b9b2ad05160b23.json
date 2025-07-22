@@ -1,0 +1,16 @@
+{
+  "artifact_3589307185": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-shipilev-f05fd79f7dda3652fcf3a443e8b9b2ad05160b23)\nOpenJDK 64-Bit Server VM (build 26-internal-shipilev-f05fd79f7dda3652fcf3a443e8b9b2ad05160b23, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "32328a2823f0054776d0a32705834459869a52c9.json"
+  ],
+  "datetime": "2025-07-22T16:56:34.506307+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26156",
+  "number": 26156,
+  "title": "8361478: GHA: Use MSYS2 from GHA runners",
+  "head_sha": "f05fd79f7dda3652fcf3a443e8b9b2ad05160b23",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16450400097"
+}
