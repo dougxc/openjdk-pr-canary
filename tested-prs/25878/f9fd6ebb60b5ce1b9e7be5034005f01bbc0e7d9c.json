@@ -1,0 +1,17 @@
+{
+  "artifact_3584729798": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-minborg-f9fd6ebb60b5ce1b9e7be5034005f01bbc0e7d9c)\nOpenJDK 64-Bit Server VM (build 26-internal-minborg-f9fd6ebb60b5ce1b9e7be5034005f01bbc0e7d9c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d585f712423656cf0e7f062efa55c12a6bec99ff.json",
+    "f4fb53ae2259e47738a4e8c1dd4acaf323245f3c.json"
+  ],
+  "datetime": "2025-07-22T07:57:58.867453+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25878",
+  "number": 25878,
+  "title": "8359936: StableValues can release the underlying function after complete computation",
+  "head_sha": "f9fd6ebb60b5ce1b9e7be5034005f01bbc0e7d9c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16437780674"
+}
