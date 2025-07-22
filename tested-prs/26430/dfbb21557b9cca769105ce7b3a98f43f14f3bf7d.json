@@ -1,0 +1,16 @@
+{
+  "artifact_3590727864": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-coleenp-dfbb21557b9cca769105ce7b3a98f43f14f3bf7d)\nOpenJDK 64-Bit Server VM (build 26-internal-coleenp-dfbb21557b9cca769105ce7b3a98f43f14f3bf7d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c3815d3c5548e68ce3bdc4b6a77e49b47a516058.json"
+  ],
+  "datetime": "2025-07-22T19:39:26.968725+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26430",
+  "number": 26430,
+  "title": "8363816: Refactor array name creation",
+  "head_sha": "dfbb21557b9cca769105ce7b3a98f43f14f3bf7d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16453668254"
+}
