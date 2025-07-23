@@ -1,0 +1,17 @@
+{
+  "artifact_3596160764": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-sarannat-c3a85cd4d1ba7babbd554503d05bb0b299bc9073)\nOpenJDK 64-Bit Server VM (build 26-internal-sarannat-c3a85cd4d1ba7babbd554503d05bb0b299bc9073, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "6a36457dbde30cede0d501159291205ff42cb1c3.json",
+    "a32b6eadaf1c23dfd4fcf6a56198e719d8145fc1.json"
+  ],
+  "datetime": "2025-07-23T11:40:50.099833+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26139",
+  "number": 26139,
+  "title": "8358696: Assert with extreme values for -XX:BciProfileWidth",
+  "head_sha": "c3a85cd4d1ba7babbd554503d05bb0b299bc9073",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16469403462"
+}
