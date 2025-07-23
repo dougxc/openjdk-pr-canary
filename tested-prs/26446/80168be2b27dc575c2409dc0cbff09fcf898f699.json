@@ -1,0 +1,14 @@
+{
+  "artifact_3596635196": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-lahodaj-80168be2b27dc575c2409dc0cbff09fcf898f699)\nOpenJDK 64-Bit Server VM (build 26-internal-lahodaj-80168be2b27dc575c2409dc0cbff09fcf898f699, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-23T15:10:58.203729+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26446",
+  "number": 26446,
+  "title": "8359497: IllegalArgumentException thrown by SourceCodeAnalysisImpl.highlights()",
+  "head_sha": "80168be2b27dc575c2409dc0cbff09fcf898f699",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16473772402"
+}
