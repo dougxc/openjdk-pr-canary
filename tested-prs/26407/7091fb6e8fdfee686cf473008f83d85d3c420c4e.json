@@ -1,0 +1,18 @@
+{
+  "artifact_3602693452": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-prsadhuk-7091fb6e8fdfee686cf473008f83d85d3c420c4e)\nOpenJDK 64-Bit Server VM (build 26-internal-prsadhuk-7091fb6e8fdfee686cf473008f83d85d3c420c4e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0037a482ad452f1671f50f32308ecc5b4951878d.json",
+    "35e0dbad47368009a8d153d14232e9caae390c68.json",
+    "ad6bcc4bfd5d422d8e3dc6f26338abf198f1160b.json"
+  ],
+  "datetime": "2025-07-24T04:18:42.521026+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26407",
+  "number": 26407,
+  "title": "4938801: The popup does not go when the component is removed.",
+  "head_sha": "7091fb6e8fdfee686cf473008f83d85d3c420c4e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16487534657"
+}
