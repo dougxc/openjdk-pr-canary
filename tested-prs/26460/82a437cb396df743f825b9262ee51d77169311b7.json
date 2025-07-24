@@ -1,0 +1,14 @@
+{
+  "artifact_3606714187": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-fandreuz-82a437cb396df743f825b9262ee51d77169311b7)\nOpenJDK 64-Bit Server VM (build 26-internal-fandreuz-82a437cb396df743f825b9262ee51d77169311b7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-24T14:00:37.086876+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26460",
+  "number": 26460,
+  "title": "8364037: Sort share includes: adlc, libadt, metaprogramming",
+  "head_sha": "82a437cb396df743f825b9262ee51d77169311b7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16498735385"
+}
