@@ -1,0 +1,17 @@
+{
+  "artifact_3610367324": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-bplb-899f28cd80abbdb3837684b882019ff8f77932e0)\nOpenJDK 64-Bit Server VM (build 26-internal-bplb-899f28cd80abbdb3837684b882019ff8f77932e0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8f70884767ebc846c8bde97146fcddc1c520bf98.json",
+    "e6e647f383ef1a1e35b86e9f9bfa66b5dcff298e.json"
+  ],
+  "datetime": "2025-07-24T21:43:38.214175+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26435",
+  "number": 26435,
+  "title": "8361495: (fc) Async close of streams connected to uninterruptible FileChannel doesn't throw AsynchronousCloseException in all cases",
+  "head_sha": "899f28cd80abbdb3837684b882019ff8f77932e0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16508288956"
+}
