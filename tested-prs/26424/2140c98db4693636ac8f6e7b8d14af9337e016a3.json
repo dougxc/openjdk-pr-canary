@@ -1,0 +1,16 @@
+{
+  "artifact_3604611656": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-rwestrel-2140c98db4693636ac8f6e7b8d14af9337e016a3)\nOpenJDK 64-Bit Server VM (build 26-internal-rwestrel-2140c98db4693636ac8f6e7b8d14af9337e016a3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8abae076f46dc47e8db64a2b47b7de1d07a714f8.json"
+  ],
+  "datetime": "2025-07-24T09:57:39.153219+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26424",
+  "number": 26424,
+  "title": "8361702: C2: assert(is_dominator(compute_early_ctrl(limit, limit_ctrl), pre_end)) failed: node pinned on loop exit test?",
+  "head_sha": "2140c98db4693636ac8f6e7b8d14af9337e016a3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16493300468"
+}
