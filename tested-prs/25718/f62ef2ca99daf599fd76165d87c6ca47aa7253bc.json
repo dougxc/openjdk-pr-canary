@@ -1,0 +1,17 @@
+{
+  "artifact_3614908745": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mmatti-sw-f62ef2ca99daf599fd76165d87c6ca47aa7253bc)\nOpenJDK 64-Bit Server VM (build 26-internal-mmatti-sw-f62ef2ca99daf599fd76165d87c6ca47aa7253bc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "95c2fa9ef13481a39c5e760c8ea9d62401e6ef09.json",
+    "c4a81e7bc195a600f106baa1f69cff316404dfb3.json"
+  ],
+  "datetime": "2025-07-25T13:43:01.661850+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25718",
+  "number": 25718,
+  "title": "8359114: [s390x] Add z17 detection code",
+  "head_sha": "f62ef2ca99daf599fd76165d87c6ca47aa7253bc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16522627577"
+}
