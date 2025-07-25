@@ -204423,6 +204423,33 @@
 		},
 		"aliases": [
 			"jdk-26-847"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
+		]
+	},
+	{
+		"id": "jdk-26+9-848",
+		"revisions": {
+			"graal": [
+				"4c3538401512907d1545d77a9445b01f98922bc5"
+			],
+			"open": [
+				"e756c0dbbb7d99df0751d71726b173e4eabcc903"
+			],
+			"graal-enterprise": [
+				"f17f54bd7bf8514bdba12b36375350042f7922f8",
+				"7a2d9b50c8ec52c34ca9770f6ba4588fa5a6f6d1"
+			],
+			"mx": [
+				"77dd4a0d913bb75f97804c1789e380df14adae08"
+			],
+			".": [
+				"56ce7660a369ed285be0a04a5816c2cbe6e384df"
+			]
+		},
+		"aliases": [
+			"jdk-26-848"
 		]
 	}
 ]
