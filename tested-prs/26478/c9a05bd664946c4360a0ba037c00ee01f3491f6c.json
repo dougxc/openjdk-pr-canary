@@ -1,0 +1,16 @@
+{
+  "artifact_3616189302": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-Michael-Mc-Mahon-c9a05bd664946c4360a0ba037c00ee01f3491f6c)\nOpenJDK 64-Bit Server VM (build 26-internal-Michael-Mc-Mahon-c9a05bd664946c4360a0ba037c00ee01f3491f6c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "45cb3a461d192db5b5a7e2464f42487fe9fc74a1.json"
+  ],
+  "datetime": "2025-07-25T15:45:52.015199+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26478",
+  "number": 26478,
+  "title": "8362581: Timeouts in java/nio/channels/SocketChannel/OpenLeak.java on UNIX",
+  "head_sha": "c9a05bd664946c4360a0ba037c00ee01f3491f6c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16525800445"
+}
