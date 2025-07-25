@@ -1,0 +1,28 @@
+{
+  "artifact_3612300877": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-prsadhuk-4b5c98c3f2762ff014b5f48aba405b9c822c20f1)\nOpenJDK 64-Bit Server VM (build 25-internal-prsadhuk-4b5c98c3f2762ff014b5f48aba405b9c822c20f1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0b8b04257de3410a92af9f74661b7493470d95c7.json",
+    "340254ecceab48f5a0037b32e477a0e168ab2779.json",
+    "43d43c639c690ddd8aaccfec4ace8ae08babd31f.json",
+    "4be55ab39f17bd4c4b49e937530f9de7668ca8f9.json",
+    "507e8a403f64219c73bea8be45bf7ac0dea8e1f5.json",
+    "6f6320ac5809299ae48e7221c369c82d803547b9.json",
+    "8e1938b64de4237e7edbd0d47c685fd456eec274.json",
+    "bcdef9b469094d08e7586e7ee50080d8026a7dea.json",
+    "c263419ea26b0b954db1efe3c13e74670cfc575c.json",
+    "d082a35adab8091f6f287407c996dc3a6b10f1ef.json",
+    "dbf7edb0a34550c429e62d96fc3b5e793013bea1.json",
+    "e76c4ff16f65950b72aa8b2345bba2311b88689a.json",
+    "f6237741e3941833f6fedfc81e2ebf0f15b7ff8c.json"
+  ],
+  "datetime": "2025-07-25T04:29:44.258364+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25767",
+  "number": 25767,
+  "title": "8159055: ImageIcon.setImage can't handle null parameter",
+  "head_sha": "4b5c98c3f2762ff014b5f48aba405b9c822c20f1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16513523296"
+}
