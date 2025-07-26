@@ -1,0 +1,17 @@
+{
+  "artifact_3621117852": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-DougLea-6b22e247a7eba1df9cc23fbc8ec1df2a254530d3)\nOpenJDK 64-Bit Server VM (build 26-internal-DougLea-6b22e247a7eba1df9cc23fbc8ec1df2a254530d3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "64ba474ae1c7070ac3b25d49b43fbd212610ef68.json",
+    "edd37c0ebe9343a479fb0370c5b567bdcc83db04.json"
+  ],
+  "datetime": "2025-07-26T13:11:05.423490+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26479",
+  "number": 26479,
+  "title": "8360046: Scalability issue when submitting virtual threads with almost empty tasks",
+  "head_sha": "6b22e247a7eba1df9cc23fbc8ec1df2a254530d3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16540056930"
+}
