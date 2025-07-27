@@ -1,0 +1,14 @@
+{
+  "artifact_3622843312": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-CptGit-ab691e1433d12c1fae2d15aae6d366cc46c55cef)\nOpenJDK 64-Bit Server VM (build 26-internal-CptGit-ab691e1433d12c1fae2d15aae6d366cc46c55cef, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-27T05:52:30.163147+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26492",
+  "number": 26492,
+  "title": "XXX: Include acknowledgement to JAttack in README.md",
+  "head_sha": "ab691e1433d12c1fae2d15aae6d366cc46c55cef",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16547773214"
+}
