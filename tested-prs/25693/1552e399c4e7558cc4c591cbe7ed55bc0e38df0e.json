@@ -1,0 +1,24 @@
+{
+  "artifact_3629334560": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jsikstro-1552e399c4e7558cc4c591cbe7ed55bc0e38df0e)\nOpenJDK 64-Bit Server VM (build 26-internal-jsikstro-1552e399c4e7558cc4c591cbe7ed55bc0e38df0e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "09fd3ef95f83ad38dafd9114ceaa382cb59a383d.json",
+    "12a3b140d693a9eb6e168547ab1eaa7950a7c5c4.json",
+    "24489a20caeefc55df5fe0ca5b0a26f1644cfec2.json",
+    "39958186bb4be0ee4e1f77eaf3ad0fbf397b370f.json",
+    "4d33d42992d68a92e9de30105c3c074064cf7e9c.json",
+    "4ef788d7f1c7dcf79b2753084d4274827a9d0aca.json",
+    "54af2098638142bee28e13c804f3cfe18b23a419.json",
+    "9f949d3cfa7da441ae28f7770f89eee7d31c6fad.json",
+    "d2b593174f07628b734f899ea56d7adddf129a0b.json"
+  ],
+  "datetime": "2025-07-28T14:10:41.267310+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25693",
+  "number": 25693,
+  "title": "8358586: ZGC: Combine ZAllocator and ZObjectAllocator",
+  "head_sha": "1552e399c4e7558cc4c591cbe7ed55bc0e38df0e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16569831484"
+}
