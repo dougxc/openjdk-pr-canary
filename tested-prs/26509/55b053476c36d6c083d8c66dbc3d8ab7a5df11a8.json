@@ -1,0 +1,14 @@
+{
+  "artifact_3630751856": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-MBaesken-55b053476c36d6c083d8c66dbc3d8ab7a5df11a8)\nOpenJDK 64-Bit Server VM (build 26-internal-MBaesken-55b053476c36d6c083d8c66dbc3d8ab7a5df11a8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-28T16:41:06.561220+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26509",
+  "number": 26509,
+  "title": "8364199: Enhance list of environment variables printed in hserr/hsinfo file",
+  "head_sha": "55b053476c36d6c083d8c66dbc3d8ab7a5df11a8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16573421514"
+}
