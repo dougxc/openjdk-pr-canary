@@ -1,0 +1,14 @@
+{
+  "artifact_3625727417": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jaskarth-cec931f349f10889f5621b58044daaa378b50564)\nOpenJDK 64-Bit Server VM (build 26-internal-jaskarth-cec931f349f10889f5621b58044daaa378b50564, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-28T04:25:08.171540+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26494",
+  "number": 26494,
+  "title": "8362979: C2 fails with unexpected node in SuperWord truncation: CmpLTMask, RoundF",
+  "head_sha": "cec931f349f10889f5621b58044daaa378b50564",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16559869454"
+}
