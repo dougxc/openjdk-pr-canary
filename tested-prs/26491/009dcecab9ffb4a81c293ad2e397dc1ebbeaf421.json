@@ -1,0 +1,16 @@
+{
+  "artifact_3626335275": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tstuefe-009dcecab9ffb4a81c293ad2e397dc1ebbeaf421)\nOpenJDK 64-Bit Server VM (build 26-internal-tstuefe-009dcecab9ffb4a81c293ad2e397dc1ebbeaf421, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9fef5494bbafe839bfb66045a0e611b7c0992e8a.json"
+  ],
+  "datetime": "2025-07-28T05:55:33.395292+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26491",
+  "number": 26491,
+  "title": "8363998: Implement Compressed Class Pointers for 32-bit",
+  "head_sha": "009dcecab9ffb4a81c293ad2e397dc1ebbeaf421",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16561097251"
+}
