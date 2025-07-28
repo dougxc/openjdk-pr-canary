@@ -1,0 +1,17 @@
+{
+  "artifact_3631447853": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-plummercj-49ca5abbda252783990e9a05b587a55554c01d56)\nOpenJDK 64-Bit Server VM (build 26-internal-plummercj-49ca5abbda252783990e9a05b587a55554c01d56, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "088932e9e12f2c551e81078c1890ef8ef6a29697.json",
+    "4095d6ced7653a92fe5cd7e80e6ff01c479b5eab.json"
+  ],
+  "datetime": "2025-07-28T17:17:51.371860+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26487",
+  "number": 26487,
+  "title": "8361873: [GCC static analyzer] exec_md.c forkedChildProcess potential double 'close' of file descriptor '3'",
+  "head_sha": "49ca5abbda252783990e9a05b587a55554c01d56",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16574964433"
+}
