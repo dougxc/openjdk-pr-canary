@@ -1,0 +1,14 @@
+{
+  "artifact_3629726042": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-RealFYang-01949774bd29a4568fd0396361aa54b29d2bc704)\nOpenJDK 64-Bit Server VM (build 26-internal-RealFYang-01949774bd29a4568fd0396361aa54b29d2bc704, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-28T14:36:43.341019+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26495",
+  "number": 26495,
+  "title": "8364150: RISC-V: Leftover for JDK-8343430 removing old trampoline call",
+  "head_sha": "01949774bd29a4568fd0396361aa54b29d2bc704",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16570887181"
+}
