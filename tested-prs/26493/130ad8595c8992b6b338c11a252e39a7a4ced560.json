@@ -1,0 +1,16 @@
+{
+  "artifact_3631814647": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-marschall-130ad8595c8992b6b338c11a252e39a7a4ced560)\nOpenJDK 64-Bit Server VM (build 26-internal-marschall-130ad8595c8992b6b338c11a252e39a7a4ced560, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "24a83a5b84f7ef2e56c1f43e376e985f273b2061.json"
+  ],
+  "datetime": "2025-07-28T17:46:01.594077+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26493",
+  "number": 26493,
+  "title": "8362893: Improve performance for MemorySegment::getString",
+  "head_sha": "130ad8595c8992b6b338c11a252e39a7a4ced560",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16576023192"
+}
