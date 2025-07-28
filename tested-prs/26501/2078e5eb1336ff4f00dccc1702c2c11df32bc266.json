@@ -1,0 +1,14 @@
+{
+  "artifact_3627941399": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-theaoqi-2078e5eb1336ff4f00dccc1702c2c11df32bc266)\nOpenJDK 64-Bit Server VM (build 26-internal-theaoqi-2078e5eb1336ff4f00dccc1702c2c11df32bc266, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-28T10:53:51.845657+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26501",
+  "number": 26501,
+  "title": "8364177: JDK fails to build due to undefined symbol in libpng on LoongArch64",
+  "head_sha": "2078e5eb1336ff4f00dccc1702c2c11df32bc266",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16566889868"
+}
