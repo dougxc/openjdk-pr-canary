@@ -1,0 +1,18 @@
+{
+  "artifact_3632160513": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-archiecobbs-d4322d92d1fb0ef63678897d13b192446a171c94)\nOpenJDK 64-Bit Server VM (build 26-internal-archiecobbs-d4322d92d1fb0ef63678897d13b192446a171c94, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "91202f7bf54faf0f287860ccdecb8e5846e6aa5d.json",
+    "9432be0deb7f116393e29b89f6795327f184bfb2.json",
+    "ec02990aaf3bcca6df6e24de4eedd919c1f5809f.json"
+  ],
+  "datetime": "2025-07-28T19:10:10.656529+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24584",
+  "number": 24584,
+  "title": "8348611: Eliminate DeferredLintHandler and emit warnings after attribution",
+  "head_sha": "d4322d92d1fb0ef63678897d13b192446a171c94",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16577543334"
+}
