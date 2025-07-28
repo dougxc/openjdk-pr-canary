@@ -1,0 +1,24 @@
+{
+  "artifact_3632725423": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-liach-49f7bd5bb561f0b685a3e3fc77f669564698bd30)\nOpenJDK 64-Bit Server VM (build 26-internal-liach-49f7bd5bb561f0b685a3e3fc77f669564698bd30, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "47c5affa120253beb201878d61cbb8f971f3ccd8.json",
+    "4b3906aadcbfe5831375a613cea290c6a0c90ebb.json",
+    "5403f6026fe04eeb225632fe949682c9b5c4b31b.json",
+    "574273a6ddf3f495b4534050aa8e6b5d482ea4b8.json",
+    "7cb0734006fb18600064a729642619e5d8e97a9d.json",
+    "9ec3d2e3d26e0634cb05e68b8dbe0d3b839c38cf.json",
+    "9f6bbd9c413cac292cbdc5674d0145489c6bac90.json",
+    "d2dd466b5cc902616b6984ca270c073f80d45047.json",
+    "d5a54f5b0cb8a4f0841bddca8dea5db8048de85c.json"
+  ],
+  "datetime": "2025-07-28T21:00:07.342340+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25922",
+  "number": 25922,
+  "title": "8360163: Replace hard-coded checks with AOTRuntimeSetup and AOTSafeClassInitializer",
+  "head_sha": "49f7bd5bb561f0b685a3e3fc77f669564698bd30",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16579714279"
+}
