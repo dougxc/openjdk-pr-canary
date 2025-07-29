@@ -1,0 +1,14 @@
+{
+  "artifact_3637931275": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tstuefe-de2f3bfe9d8de57cb088f2a6cfa0a21210ebde05)\nOpenJDK 64-Bit Server VM (build 26-internal-tstuefe-de2f3bfe9d8de57cb088f2a6cfa0a21210ebde05, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-29T14:49:10.341581+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26523",
+  "number": 26523,
+  "title": "8364202: CDS without G1 gives build error in slowdebug, asserts in fastdebug",
+  "head_sha": "de2f3bfe9d8de57cb088f2a6cfa0a21210ebde05",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16598096952"
+}
