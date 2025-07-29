@@ -1,0 +1,14 @@
+{
+  "artifact_3637687177": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-albertnetymk-d95ce7edf6ee365995d2b729de392651bd224f42)\nOpenJDK 64-Bit Server VM (build 26-internal-albertnetymk-d95ce7edf6ee365995d2b729de392651bd224f42, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-29T10:51:12.812762+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26528",
+  "number": 26528,
+  "title": "8364254: Serial: Remove soft ref policy update in WhiteBox FullGC",
+  "head_sha": "d95ce7edf6ee365995d2b729de392651bd224f42",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16593793432"
+}
