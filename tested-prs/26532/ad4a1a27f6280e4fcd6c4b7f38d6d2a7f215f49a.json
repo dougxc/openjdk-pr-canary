@@ -1,0 +1,16 @@
+{
+  "artifact_3639406212": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-adinn-ad4a1a27f6280e4fcd6c4b7f38d6d2a7f215f49a)\nOpenJDK 64-Bit Server VM (build 26-internal-adinn-ad4a1a27f6280e4fcd6c4b7f38d6d2a7f215f49a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "452f2d867aaeea886be987a3db7c31e5709be32b.json"
+  ],
+  "datetime": "2025-07-29T14:25:47.326936+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26532",
+  "number": 26532,
+  "title": "8364269: Simplify code cache API by storing adapter entry offsets in blob",
+  "head_sha": "ad4a1a27f6280e4fcd6c4b7f38d6d2a7f215f49a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16598096952"
+}
