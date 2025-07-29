@@ -1,0 +1,14 @@
+{
+  "artifact_3642754836": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-rhalade-6c8cb12a1234f960870664d267279ff744754af1)\nOpenJDK 64-Bit Server VM (build 26-internal-rhalade-6c8cb12a1234f960870664d267279ff744754af1, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-29T20:46:33.134042+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26538",
+  "number": 26538,
+  "title": "8361212: Remove AffirmTrust root CAs",
+  "head_sha": "6c8cb12a1234f960870664d267279ff744754af1",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16606866544"
+}
