@@ -1,0 +1,14 @@
+{
+  "artifact_3639178276": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-xmas92-315153c83eed7d7c1b143ed146e76f6eca1282fb)\nOpenJDK 64-Bit Server VM (build 26-internal-xmas92-315153c83eed7d7c1b143ed146e76f6eca1282fb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-29T15:12:01.117873+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26536",
+  "number": 26536,
+  "title": "8361897: gc/z/TestUncommit.java fails with Uncommitted too slow",
+  "head_sha": "315153c83eed7d7c1b143ed146e76f6eca1282fb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16598096952"
+}
