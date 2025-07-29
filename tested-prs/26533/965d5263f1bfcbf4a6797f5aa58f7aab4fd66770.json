@@ -1,0 +1,16 @@
+{
+  "artifact_3640345688": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-nizarbenalla-965d5263f1bfcbf4a6797f5aa58f7aab4fd66770)\nOpenJDK 64-Bit Server VM (build 26-internal-nizarbenalla-965d5263f1bfcbf4a6797f5aa58f7aab4fd66770, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7ec75a408c6d8943b566cebd2aa4f9e3ffa58940.json"
+  ],
+  "datetime": "2025-07-29T15:58:39.887747+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26533",
+  "number": 26533,
+  "title": "8358618: UnsupportedOperationException constructors javadoc is not clear",
+  "head_sha": "965d5263f1bfcbf4a6797f5aa58f7aab4fd66770",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16599377068"
+}
