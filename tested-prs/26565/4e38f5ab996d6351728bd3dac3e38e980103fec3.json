@@ -1,0 +1,14 @@
+{
+  "artifact_3652265022": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-openjdk-bot-4e38f5ab996d6351728bd3dac3e38e980103fec3)\nOpenJDK 64-Bit Server VM (build 25-internal-openjdk-bot-4e38f5ab996d6351728bd3dac3e38e980103fec3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-30T20:46:53.704153+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26565",
+  "number": 26565,
+  "title": "8362564: hotspot/jtreg/compiler/c2/TestLWLockingCodeGen.java fails on static JDK on x86_64 with AVX instruction extensions",
+  "head_sha": "4e38f5ab996d6351728bd3dac3e38e980103fec3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16633152781"
+}
