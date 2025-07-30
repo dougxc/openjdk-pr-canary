@@ -1,0 +1,14 @@
+{
+  "artifact_3651445783": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-shipilev-a309eb59175247cf6b8e59475f8102737abb1419)\nOpenJDK 64-Bit Server VM (build 26-internal-shipilev-a309eb59175247cf6b8e59475f8102737abb1419, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-30T19:09:40.442118+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26559",
+  "number": 26559,
+  "title": "8361211: C2: Final graph reshaping generates unencodeable klass constants",
+  "head_sha": "a309eb59175247cf6b8e59475f8102737abb1419",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16631089115"
+}
