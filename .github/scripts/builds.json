@@ -181053,6 +181053,7 @@
 			"jdk-25+28"
 		],
 		"tags": [
+			"PRECIOUS",
 			"PROMOTED"
 		]
 	},
@@ -205815,6 +205816,29 @@
 		},
 		"aliases": [
 			"jdk-26-899"
+		]
+	},
+	{
+		"id": "jdk-26+9-900",
+		"revisions": {
+			"graal-enterprise": [
+				"1b3cfa0a30f9aa12152d625743da4b68a1c5b67e"
+			],
+			"open": [
+				"1be412dca08028d37a90cff1d4a67007c6b2d690"
+			],
+			"mx": [
+				"77dd4a0d913bb75f97804c1789e380df14adae08"
+			],
+			".": [
+				"9802dd5361cb1732f85191fa367f7d20dc21c6bf"
+			],
+			"graal": [
+				"c7576e4bb7dc75782a00dcc252fd1880a908bf6a"
+			]
+		},
+		"aliases": [
+			"jdk-26-900"
 		]
 	}
 ]
