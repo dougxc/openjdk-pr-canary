@@ -1,0 +1,16 @@
+{
+  "artifact_3646657893": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-marc-chevalier-9117fde8bd0ad59edb55fa1240ca0d574d1be91e)\nOpenJDK 64-Bit Server VM (build 26-internal-marc-chevalier-9117fde8bd0ad59edb55fa1240ca0d574d1be91e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "944a8fe4165cdb346433d61d98b14b6af6de5803.json"
+  ],
+  "datetime": "2025-07-30T09:19:20.868367+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26362",
+  "number": 26362,
+  "title": "8350864: C2: verify structural invariants of the Ideal graph",
+  "head_sha": "9117fde8bd0ad59edb55fa1240ca0d574d1be91e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16617806795"
+}
