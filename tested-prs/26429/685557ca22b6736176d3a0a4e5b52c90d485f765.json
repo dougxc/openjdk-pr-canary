@@ -1,0 +1,14 @@
+{
+  "artifact_3648223822": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mhaessig-685557ca22b6736176d3a0a4e5b52c90d485f765)\nOpenJDK 64-Bit Server VM (build 26-internal-mhaessig-685557ca22b6736176d3a0a4e5b52c90d485f765, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-30T13:31:31.282231+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26429",
+  "number": 26429,
+  "title": "8356176: C2 MemorySegment: missing RCE with byteSize() in Loop Exit Check inside the for Expression",
+  "head_sha": "685557ca22b6736176d3a0a4e5b52c90d485f765",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16623369297"
+}
