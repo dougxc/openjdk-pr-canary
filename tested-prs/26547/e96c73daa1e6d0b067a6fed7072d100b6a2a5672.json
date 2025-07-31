@@ -1,0 +1,17 @@
+{
+  "artifact_3658399947": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-hns-e96c73daa1e6d0b067a6fed7072d100b6a2a5672)\nOpenJDK 64-Bit Server VM (build 26-internal-hns-e96c73daa1e6d0b067a6fed7072d100b6a2a5672, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2c7236d878deb72ca0b00437e586716b47998865.json",
+    "7f038deacd65c8628b4ccab7f78f845547f5a015.json"
+  ],
+  "datetime": "2025-07-31T13:50:34.371100+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26547",
+  "number": 26547,
+  "title": "8294074: Make other specs more discoverable from the API docs",
+  "head_sha": "e96c73daa1e6d0b067a6fed7072d100b6a2a5672",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16649762245"
+}
