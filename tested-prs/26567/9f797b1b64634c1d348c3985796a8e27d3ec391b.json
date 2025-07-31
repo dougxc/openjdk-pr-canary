@@ -1,0 +1,14 @@
+{
+  "artifact_3655231847": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-prsadhuk-9f797b1b64634c1d348c3985796a8e27d3ec391b)\nOpenJDK 64-Bit Server VM (build 26-internal-prsadhuk-9f797b1b64634c1d348c3985796a8e27d3ec391b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-31T05:56:24.172635+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26567",
+  "number": 26567,
+  "title": "4870789: RFE: UIDefaults.getUIError() hides real error",
+  "head_sha": "9f797b1b64634c1d348c3985796a8e27d3ec391b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16640914054"
+}
