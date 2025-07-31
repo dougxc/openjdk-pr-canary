@@ -1,0 +1,19 @@
+{
+  "artifact_3659393690": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-toxaart-22c752c26985fb9cad351530c2480fd2a911ae9b)\nOpenJDK 64-Bit Server VM (build 26-internal-toxaart-22c752c26985fb9cad351530c2480fd2a911ae9b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "372593b4d282da08a67eb1b49bdbde3944d6d033.json",
+    "c994991b27d9d6cff46f9143c6ca54752808bea4.json",
+    "e4698333d57ba2ac4d5f81cbb34eca0eb7bb5ba7.json",
+    "fa09ae33d0f03f8b5f9017e2331e9523a3089348.json"
+  ],
+  "datetime": "2025-07-31T15:35:46.069973+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25450",
+  "number": 25450,
+  "title": "8357086: os::xxx functions returning memory size should return size_t",
+  "head_sha": "22c752c26985fb9cad351530c2480fd2a911ae9b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16652061410"
+}
