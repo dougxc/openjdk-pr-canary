@@ -1,0 +1,16 @@
+{
+  "artifact_3655121732": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-Korov-7a5ff15f74afaa6bbe3e42f4458cd131ba4b8319)\nOpenJDK 64-Bit Server VM (build 26-internal-Korov-7a5ff15f74afaa6bbe3e42f4458cd131ba4b8319, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8e3ddcd7f7e7f05c6d1034b031a1fa084ba05db2.json"
+  ],
+  "datetime": "2025-07-31T06:08:20.938083+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26555",
+  "number": 26555,
+  "title": "8362533: Tests sun/management/jmxremote/bootstrap/* duplicate VM flags",
+  "head_sha": "7a5ff15f74afaa6bbe3e42f4458cd131ba4b8319",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16640914054"
+}
