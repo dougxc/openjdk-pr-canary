@@ -1,0 +1,18 @@
+{
+  "artifact_3662464911": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mgronlun-c73a8f9130416c926d33b58db4e8cdb18f2a2bd3)\nOpenJDK 64-Bit Server VM (build 26-internal-mgronlun-c73a8f9130416c926d33b58db4e8cdb18f2a2bd3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3434343a811b3f9cf6694fc8f4125bde0c399014.json",
+    "8c025caf5c8e36f575c13384a324d9d2679dc8b8.json",
+    "cec818ab40fe002be59e36e90d0ab21cd8a6b075.json"
+  ],
+  "datetime": "2025-07-31T22:46:00.381074+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26558",
+  "number": 26558,
+  "title": "8364258: ThreadGroup constant pool serialization is not normalized",
+  "head_sha": "c73a8f9130416c926d33b58db4e8cdb18f2a2bd3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16661470520"
+}
