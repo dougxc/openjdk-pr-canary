@@ -1,0 +1,14 @@
+{
+  "artifact_3660737411": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-iklam-744c978a0ba534b4c5d91ef3ba09fdf05c82740e)\nOpenJDK 64-Bit Server VM (build 26-internal-iklam-744c978a0ba534b4c5d91ef3ba09fdf05c82740e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-31T18:59:07.308120+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26578",
+  "number": 26578,
+  "title": "8364454: ProblemList runtime/cds/DeterministicDump.java on macos for JDK-8363986",
+  "head_sha": "744c978a0ba534b4c5d91ef3ba09fdf05c82740e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16657351119"
+}
