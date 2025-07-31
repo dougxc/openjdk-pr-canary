@@ -1,0 +1,16 @@
+{
+  "artifact_3660396326": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-e0654633e223941b4d1fbecfbf0270e1a49a83ab)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-e0654633e223941b4d1fbecfbf0270e1a49a83ab, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0704afba01c4a43510322509a822bba62f261fda.json"
+  ],
+  "datetime": "2025-07-31T17:45:44.599740+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26574",
+  "number": 26574,
+  "title": "8364423: G1: Refactor G1UpdateRegionLivenessAndSelectForRebuildTask",
+  "head_sha": "e0654633e223941b4d1fbecfbf0270e1a49a83ab",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16655911414"
+}
