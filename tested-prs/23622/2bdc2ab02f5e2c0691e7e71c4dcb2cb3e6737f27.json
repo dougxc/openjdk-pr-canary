@@ -1,0 +1,18 @@
+{
+  "artifact_3659172452": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-archiecobbs-2bdc2ab02f5e2c0691e7e71c4dcb2cb3e6737f27)\nOpenJDK 64-Bit Server VM (build 26-internal-archiecobbs-2bdc2ab02f5e2c0691e7e71c4dcb2cb3e6737f27, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "344501dae55cc5d9af7ef853ee691d533b2f9af5.json",
+    "8736f3744d43fd9ca0deb88e938ba031f05fdebb.json",
+    "e858bea135e3a24caea517a3a8129db351b25f36.json"
+  ],
+  "datetime": "2025-07-31T15:21:31.780442+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23622",
+  "number": 23622,
+  "title": "8349847: Support configuring individual lint categories as errors",
+  "head_sha": "2bdc2ab02f5e2c0691e7e71c4dcb2cb3e6737f27",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16650869647"
+}
