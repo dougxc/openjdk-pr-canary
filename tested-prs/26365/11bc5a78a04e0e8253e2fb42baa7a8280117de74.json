@@ -1,0 +1,19 @@
+{
+  "artifact_3654820864": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-sspitsyn-11bc5a78a04e0e8253e2fb42baa7a8280117de74)\nOpenJDK 64-Bit Server VM (build 26-internal-sspitsyn-11bc5a78a04e0e8253e2fb42baa7a8280117de74, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1f7b67c377b352fdafd022e4f0375e6105dc800b.json",
+    "a46ef6f57afb57731f4e1ec7c6f0e74d40015887.json",
+    "cd2354607eccb658df56958e2adf982f84e3124e.json",
+    "fde881f0cad87d52461f7e293578323da1eca4f2.json"
+  ],
+  "datetime": "2025-07-31T04:32:34.403798+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26365",
+  "number": 26365,
+  "title": "8306324: StopThread results in thread being marked as interrupted, leading to unexpected InterruptedException",
+  "head_sha": "11bc5a78a04e0e8253e2fb42baa7a8280117de74",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16639622671"
+}
