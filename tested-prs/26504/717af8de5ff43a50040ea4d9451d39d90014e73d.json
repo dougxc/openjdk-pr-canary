@@ -1,0 +1,14 @@
+{
+  "artifact_3656036042": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-marc-chevalier-717af8de5ff43a50040ea4d9451d39d90014e73d)\nOpenJDK 64-Bit Server VM (build 26-internal-marc-chevalier-717af8de5ff43a50040ea4d9451d39d90014e73d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-07-31T11:32:46.247339+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26504",
+  "number": 26504,
+  "title": "8360561: PhaseIdealLoop::create_new_if_for_predicate hits \"must be a uct if pattern\" assert",
+  "head_sha": "717af8de5ff43a50040ea4d9451d39d90014e73d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16646771799"
+}
