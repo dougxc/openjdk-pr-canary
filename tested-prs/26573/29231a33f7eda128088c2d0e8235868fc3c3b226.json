@@ -1,0 +1,16 @@
+{
+  "artifact_3658121122": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-fandreuz-29231a33f7eda128088c2d0e8235868fc3c3b226)\nOpenJDK 64-Bit Server VM (build 26-internal-fandreuz-29231a33f7eda128088c2d0e8235868fc3c3b226, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8a551a1e7bcb3e137f728e4e36e656ae8ae2e0ed.json"
+  ],
+  "datetime": "2025-07-31T13:27:03.047506+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26573",
+  "number": 26573,
+  "title": "8364087: Amend comment in globalDefinitions.hpp on \"classfile_constants.h\" include",
+  "head_sha": "29231a33f7eda128088c2d0e8235868fc3c3b226",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16649762245"
+}
