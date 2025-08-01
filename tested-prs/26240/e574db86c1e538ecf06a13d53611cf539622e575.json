@@ -1,0 +1,18 @@
+{
+  "artifact_3664724344": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mo-beck-e574db86c1e538ecf06a13d53611cf539622e575)\nOpenJDK 64-Bit Server VM (build 26-internal-mo-beck-e574db86c1e538ecf06a13d53611cf539622e575, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "23a732e6957a2f673875450fe4f72463894dfd48.json",
+    "70531f8ee36b967a0a08ac7eca3866adaffcd5d7.json",
+    "70a872fc9dac12e9d40df777bfe45de73f4021b0.json"
+  ],
+  "datetime": "2025-08-01T07:02:20.403892+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26240",
+  "number": 26240,
+  "title": "8357445: G1: Time-Based Heap Uncommit During Idle Periods",
+  "head_sha": "e574db86c1e538ecf06a13d53611cf539622e575",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16668427773"
+}
