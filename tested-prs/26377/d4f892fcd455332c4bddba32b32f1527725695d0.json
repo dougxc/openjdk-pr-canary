@@ -1,0 +1,18 @@
+{
+  "artifact_3663693580": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-valeriepeng-d4f892fcd455332c4bddba32b32f1527725695d0)\nOpenJDK 64-Bit Server VM (build 26-internal-valeriepeng-d4f892fcd455332c4bddba32b32f1527725695d0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "44d95823ac29210bdfa4739d7f867b0e8103365d.json",
+    "81c231c620ef67e5ee9d90bf2fc273baa755e2e7.json",
+    "ee0b9c63bf701536f277134b2b2564d170947332.json"
+  ],
+  "datetime": "2025-08-01T02:55:19.362954+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26377",
+  "number": 26377,
+  "title": "8244336: Restrict algorithms at JCE layer",
+  "head_sha": "d4f892fcd455332c4bddba32b32f1527725695d0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16664920068"
+}
