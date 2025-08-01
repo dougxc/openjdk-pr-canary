@@ -1,0 +1,17 @@
+{
+  "artifact_3670229902": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-naotoj-3682484dc6bc23f8e50f8374a9613e66c12be82e)\nOpenJDK 64-Bit Server VM (build 26-internal-naotoj-3682484dc6bc23f8e50f8374a9613e66c12be82e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "33e99461f41c8f1ca4115e33c8666a6103bb66d6.json",
+    "38f3286f6e8cd7356ca733163e1d6481ce03569a.json"
+  ],
+  "datetime": "2025-08-01T19:51:33.075746+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26580",
+  "number": 26580,
+  "title": "8363972: Loose matching of dash/minusSign in number parsing",
+  "head_sha": "3682484dc6bc23f8e50f8374a9613e66c12be82e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16683485673"
+}
