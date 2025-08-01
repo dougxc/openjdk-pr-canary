@@ -1,0 +1,17 @@
+{
+  "artifact_3668942239": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mikabl-arm-e563a2c37afec669092ad2bc72cf6c8103d35d4d)\nOpenJDK 64-Bit Server VM (build 26-internal-mikabl-arm-e563a2c37afec669092ad2bc72cf6c8103d35d4d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "43ef90ce4bd9bc7e496631bf0b01a434e876b587.json",
+    "5ac22c123d71cd751747f225874b9ee32ebd34bf.json"
+  ],
+  "datetime": "2025-08-01T17:38:41.878941+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25954",
+  "number": 25954,
+  "title": "8359359: AArch64: share trampolines between static calls to the same method",
+  "head_sha": "e563a2c37afec669092ad2bc72cf6c8103d35d4d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16680464223"
+}
