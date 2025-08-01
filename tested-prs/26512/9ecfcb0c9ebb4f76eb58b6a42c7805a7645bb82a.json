@@ -1,0 +1,18 @@
+{
+  "artifact_3669111786": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-bokken-9ecfcb0c9ebb4f76eb58b6a42c7805a7645bb82a)\nOpenJDK 64-Bit Server VM (build 26-internal-bokken-9ecfcb0c9ebb4f76eb58b6a42c7805a7645bb82a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0263f51b53cc3da285ec4d21e4b5bc69b0be6a69.json",
+    "36b6bae78f97b47d517eaf788c4aa705b8b8dfcb.json",
+    "42334abf300517d642d2dd4b3c209868092d9033.json"
+  ],
+  "datetime": "2025-08-01T17:16:31.687726+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26512",
+  "number": 26512,
+  "title": "8364213: (bf) Improve java/nio/Buffer/CharBufferAsCharSequenceTest test comments",
+  "head_sha": "9ecfcb0c9ebb4f76eb58b6a42c7805a7645bb82a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16680464223"
+}
