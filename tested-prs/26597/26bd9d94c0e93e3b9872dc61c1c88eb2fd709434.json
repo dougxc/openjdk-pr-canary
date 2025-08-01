@@ -1,0 +1,16 @@
+{
+  "artifact_3667530839": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-bokken-26bd9d94c0e93e3b9872dc61c1c88eb2fd709434)\nOpenJDK 64-Bit Server VM (build 26-internal-bokken-26bd9d94c0e93e3b9872dc61c1c88eb2fd709434, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "947f9182ea842d6c1aef42258eb97e6b0f2686a7.json"
+  ],
+  "datetime": "2025-08-01T14:11:46.083343+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26597",
+  "number": 26597,
+  "title": "8364320: String encodeUTF8 latin1 with negatives",
+  "head_sha": "26bd9d94c0e93e3b9872dc61c1c88eb2fd709434",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16676772669"
+}
