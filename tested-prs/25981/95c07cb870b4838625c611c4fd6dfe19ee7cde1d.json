@@ -1,0 +1,20 @@
+{
+  "artifact_3669803004": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-slowhog-95c07cb870b4838625c611c4fd6dfe19ee7cde1d)\nOpenJDK 64-Bit Server VM (build 26-internal-slowhog-95c07cb870b4838625c611c4fd6dfe19ee7cde1d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "21df3e62173e14b96010ae4772568fb319017208.json",
+    "29e4753a6a5d2f3c17a91388fd4d83bd5363383b.json",
+    "a76bb214269f9c0296d6199c2f03823bbc44e780.json",
+    "b631d2c5bd212d9619f02d8834516afdae535122.json",
+    "ce0503dc47490c3e5acfbf84de51269fd141e4ec.json"
+  ],
+  "datetime": "2025-08-01T18:49:06.408706+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25981",
+  "number": 25981,
+  "title": "8359174: tools/jlink/JLink20000Packages.java timed out",
+  "head_sha": "95c07cb870b4838625c611c4fd6dfe19ee7cde1d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16681434402"
+}
