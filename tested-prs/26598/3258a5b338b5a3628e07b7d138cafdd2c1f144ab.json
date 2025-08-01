@@ -1,0 +1,14 @@
+{
+  "artifact_3667445714": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-MBaesken-3258a5b338b5a3628e07b7d138cafdd2c1f144ab)\nOpenJDK 64-Bit Server VM (build 26-internal-MBaesken-3258a5b338b5a3628e07b7d138cafdd2c1f144ab, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-01T14:00:29.439779+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26598",
+  "number": 26598,
+  "title": "8364514: [asan] runtime/jni/checked/TestCharArrayReleasing.java heap-buffer-overflow",
+  "head_sha": "3258a5b338b5a3628e07b7d138cafdd2c1f144ab",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16676772669"
+}
