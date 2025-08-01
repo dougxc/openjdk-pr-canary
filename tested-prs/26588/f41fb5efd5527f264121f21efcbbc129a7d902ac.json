@@ -1,0 +1,16 @@
+{
+  "artifact_3666167705": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-albertnetymk-f41fb5efd5527f264121f21efcbbc129a7d902ac)\nOpenJDK 64-Bit Server VM (build 26-internal-albertnetymk-f41fb5efd5527f264121f21efcbbc129a7d902ac, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f32132a70cf131559be4c4aa86f298dd382a929f.json"
+  ],
+  "datetime": "2025-08-01T11:11:42.306304+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26588",
+  "number": 26588,
+  "title": "8364516: Serial: Move class unloading logic inside SerialFullGC::invoke_at_safepoint",
+  "head_sha": "f41fb5efd5527f264121f21efcbbc129a7d902ac",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16672990884"
+}
