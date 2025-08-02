@@ -1,0 +1,14 @@
+{
+  "artifact_3673511393": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-sendaoYan-7b00105fec7b0529d0783a0ee517b42ec3a96b2e)\nOpenJDK 64-Bit Server VM (build 26-internal-sendaoYan-7b00105fec7b0529d0783a0ee517b42ec3a96b2e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-02T15:44:10.081684+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26605",
+  "number": 26605,
+  "title": "8362087: Test containers/docker/ShareTmpDir.java intermittent fails",
+  "head_sha": "7b00105fec7b0529d0783a0ee517b42ec3a96b2e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16695098841"
+}
