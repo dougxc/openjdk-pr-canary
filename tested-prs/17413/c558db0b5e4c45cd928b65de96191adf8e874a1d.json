@@ -1,0 +1,23 @@
+{
+  "artifact_3679924852": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-ygaevsky-c558db0b5e4c45cd928b65de96191adf8e874a1d)\nOpenJDK 64-Bit Server VM (build 25-internal-ygaevsky-c558db0b5e4c45cd928b65de96191adf8e874a1d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0c2fbee98f78e6d8483455707d9c895de1782edc.json",
+    "10cf3582c5e047cc36eb7f00efc065f4b555d013.json",
+    "301eed91dfce6cfd809f9fdd1c975c2cfa7a3bca.json",
+    "4e9ad18fc42787596d9f7109b9940869530e16d9.json",
+    "6daaae6e4ba51a2519be447ab7ddb7359e185a57.json",
+    "712cf05d0b68222227c9b1f5c790d8ac44a54f18.json",
+    "9ba2768618f3f0842d9288250db0e313b72faec7.json",
+    "a64dc26e56b464f77fd558c8f2921db2462bde3d.json"
+  ],
+  "datetime": "2025-08-04T10:01:55.779284+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/17413",
+  "number": 17413,
+  "title": "8322174: RISC-V: C2 VectorizedHashCode RVV Version",
+  "head_sha": "c558db0b5e4c45cd928b65de96191adf8e874a1d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16718415141"
+}
