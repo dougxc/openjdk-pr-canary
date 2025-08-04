@@ -1,0 +1,14 @@
+{
+  "artifact_3677705633": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-alexeysemenyukoracle-ca6010b375fb59906fd51f90ce2a245de390b775)\nOpenJDK 64-Bit Server VM (build 26-internal-alexeysemenyukoracle-ca6010b375fb59906fd51f90ce2a245de390b775, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-04T03:13:08.749841+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26608",
+  "number": 26608,
+  "title": "8308349: missing working directory option for launcher when invoked from shortcuts",
+  "head_sha": "ca6010b375fb59906fd51f90ce2a245de390b775",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16712707266"
+}
