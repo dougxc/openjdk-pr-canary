@@ -1,0 +1,14 @@
+{
+  "artifact_3683871810": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-alexeysemenyukoracle-25c2946b541272dd00e12a7c84a3b20ac01e786f)\nOpenJDK 64-Bit Server VM (build 26-internal-alexeysemenyukoracle-25c2946b541272dd00e12a7c84a3b20ac01e786f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-04T18:00:13.530553+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26626",
+  "number": 26626,
+  "title": "8362352: Fix references to non-existing resource strings",
+  "head_sha": "25c2946b541272dd00e12a7c84a3b20ac01e786f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16730125386"
+}
