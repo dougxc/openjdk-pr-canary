@@ -1,0 +1,14 @@
+{
+  "artifact_3677829487": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jaskarth-7e2072200f783511213e8436b69336a084fe47e9)\nOpenJDK 64-Bit Server VM (build 26-internal-jaskarth-7e2072200f783511213e8436b69336a084fe47e9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-04T02:52:28.774832+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26610",
+  "number": 26610,
+  "title": "8350468: x86: Improve implementation of vectorized numberOfLeadingZeros for int and long",
+  "head_sha": "7e2072200f783511213e8436b69336a084fe47e9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16712707266"
+}
