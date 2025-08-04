@@ -1,0 +1,14 @@
+{
+  "artifact_3683983080": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-minborg-514c531b0c5a3f10cca1b4848555cce8000716c5)\nOpenJDK 64-Bit Server VM (build 26-internal-minborg-514c531b0c5a3f10cca1b4848555cce8000716c5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-04T17:49:31.426413+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26627",
+  "number": 26627,
+  "title": "8364540: Apply @Stable to Shared Secrets",
+  "head_sha": "514c531b0c5a3f10cca1b4848555cce8000716c5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16730125386"
+}
