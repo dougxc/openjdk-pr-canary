@@ -1,0 +1,14 @@
+{
+  "artifact_3679397258": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-johnshajiang-829ad2f267c5624c342994bace061735d0be839e)\nOpenJDK 64-Bit Server VM (build 26-internal-johnshajiang-829ad2f267c5624c342994bace061735d0be839e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-04T08:57:32.132928+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26614",
+  "number": 26614,
+  "title": "8364597: Replace THL A29 Limited with Tencent",
+  "head_sha": "829ad2f267c5624c342994bace061735d0be839e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16718415141"
+}
