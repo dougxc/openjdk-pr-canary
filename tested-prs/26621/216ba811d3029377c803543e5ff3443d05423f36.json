@@ -1,0 +1,16 @@
+{
+  "artifact_3685185412": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-JonasNorlinder-216ba811d3029377c803543e5ff3443d05423f36)\nOpenJDK 64-Bit Server VM (build 26-internal-JonasNorlinder-216ba811d3029377c803543e5ff3443d05423f36, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4f74c2bd179fe0f7e465e8f26b4b646c2e1d53fd.json"
+  ],
+  "datetime": "2025-08-04T20:49:02.971025+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26621",
+  "number": 26621,
+  "title": "8364638: Refactor and make accumulated GC CPU time code generic",
+  "head_sha": "216ba811d3029377c803543e5ff3443d05423f36",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16733656549"
+}
