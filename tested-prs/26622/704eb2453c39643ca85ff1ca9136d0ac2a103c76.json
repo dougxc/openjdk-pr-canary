@@ -1,0 +1,14 @@
+{
+  "artifact_3682950170": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-704eb2453c39643ca85ff1ca9136d0ac2a103c76)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-704eb2453c39643ca85ff1ca9136d0ac2a103c76, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-04T15:48:11.494049+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26622",
+  "number": 26622,
+  "title": "8364642: G1: Remove parameter in G1CollectedHeap::abandon_collection_set()",
+  "head_sha": "704eb2453c39643ca85ff1ca9136d0ac2a103c76",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16727601139"
+}
