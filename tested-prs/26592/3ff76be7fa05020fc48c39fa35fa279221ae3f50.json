@@ -1,0 +1,16 @@
+{
+  "artifact_3679617916": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-3ff76be7fa05020fc48c39fa35fa279221ae3f50)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-3ff76be7fa05020fc48c39fa35fa279221ae3f50, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "fbdc1416b0eb3d1c810a03917d7c2cad1fb2dcb1.json"
+  ],
+  "datetime": "2025-08-04T09:19:03.572709+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26592",
+  "number": 26592,
+  "title": "8364503: gc/g1/TestCodeCacheUnloadDuringConcCycle.java fails because of race printing to stdout",
+  "head_sha": "3ff76be7fa05020fc48c39fa35fa279221ae3f50",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16718415141"
+}
