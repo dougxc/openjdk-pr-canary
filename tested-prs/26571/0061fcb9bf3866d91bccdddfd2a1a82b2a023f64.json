@@ -1,0 +1,16 @@
+{
+  "artifact_3681956656": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-albertnetymk-0061fcb9bf3866d91bccdddfd2a1a82b2a023f64)\nOpenJDK 64-Bit Server VM (build 26-internal-albertnetymk-0061fcb9bf3866d91bccdddfd2a1a82b2a023f64, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "82d02eb44ac93f9ecc29a4c75929ee4d4c79f52a.json"
+  ],
+  "datetime": "2025-08-04T14:04:32.921303+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26571",
+  "number": 26571,
+  "title": "8263476: NMT: Stack guard pages should not be marked as committed",
+  "head_sha": "0061fcb9bf3866d91bccdddfd2a1a82b2a023f64",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16725104663"
+}
