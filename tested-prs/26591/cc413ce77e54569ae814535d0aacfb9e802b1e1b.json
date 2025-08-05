@@ -1,0 +1,20 @@
+{
+  "artifact_3689457010": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-cc413ce77e54569ae814535d0aacfb9e802b1e1b)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-cc413ce77e54569ae814535d0aacfb9e802b1e1b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "66524c8121fd7534d8a2ec5d88ab25d7c3dc4ffa.json",
+    "6c51c94175312342fc556e29c2aa1a36a2846e4c.json",
+    "6f605b70176694e9148337b8857fbbc5bdf8a50f.json",
+    "cb77371dbd41fb2e72f647d1ecbce3c6e01171e0.json",
+    "d1653627e0b3c86b2bf7687457b3f179970a4a9a.json"
+  ],
+  "datetime": "2025-08-05T09:50:53.458704+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26591",
+  "number": 26591,
+  "title": "8364531: G1: Factor out liveness tracing code",
+  "head_sha": "cc413ce77e54569ae814535d0aacfb9e802b1e1b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16746436935"
+}
