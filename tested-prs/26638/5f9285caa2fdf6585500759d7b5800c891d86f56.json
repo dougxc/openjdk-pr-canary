@@ -1,0 +1,14 @@
+{
+  "artifact_3690032188": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-fg1417-5f9285caa2fdf6585500759d7b5800c891d86f56)\nOpenJDK 64-Bit Server VM (build 26-internal-fg1417-5f9285caa2fdf6585500759d7b5800c891d86f56, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-05T11:50:58.814437+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26638",
+  "number": 26638,
+  "title": "8363620: AArch64: reimplement emit_static_call_stub()",
+  "head_sha": "5f9285caa2fdf6585500759d7b5800c891d86f56",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16748788540"
+}
