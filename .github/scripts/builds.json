@@ -209083,5 +209083,51 @@
 		"aliases": [
 			"jdk-26-1021"
 		]
+	},
+	{
+		"id": "jdk-26+10-1022",
+		"revisions": {
+			"mx": [
+				"77dd4a0d913bb75f97804c1789e380df14adae08"
+			],
+			"graal-enterprise": [
+				"82720f97ce03fcc26a37398ab3e4db2728db9248"
+			],
+			"open": [
+				"df736eb5822de2e2465df04972b1afb90334db5e"
+			],
+			".": [
+				"4d8d79ef98c5ef48158edc21d3ead9ec75074afc"
+			],
+			"graal": [
+				"6fce5f4d219642d137ed3585b155322cf9d0563a"
+			]
+		},
+		"aliases": [
+			"jdk-26-1022"
+		]
+	},
+	{
+		"id": "jdk-26+10-1023",
+		"revisions": {
+			"mx": [
+				"77dd4a0d913bb75f97804c1789e380df14adae08"
+			],
+			"graal-enterprise": [
+				"82720f97ce03fcc26a37398ab3e4db2728db9248"
+			],
+			".": [
+				"4d8d79ef98c5ef48158edc21d3ead9ec75074afc"
+			],
+			"graal": [
+				"6fce5f4d219642d137ed3585b155322cf9d0563a"
+			],
+			"open": [
+				"ba0ae4cb28aa520d5244077349e35ef1bb475b61"
+			]
+		},
+		"aliases": [
+			"jdk-26-1023"
+		]
 	}
 ]
