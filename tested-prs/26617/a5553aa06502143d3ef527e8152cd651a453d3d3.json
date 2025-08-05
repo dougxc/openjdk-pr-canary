@@ -1,0 +1,16 @@
+{
+  "artifact_3691914535": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-fandreuz-a5553aa06502143d3ef527e8152cd651a453d3d3)\nOpenJDK 64-Bit Server VM (build 26-internal-fandreuz-a5553aa06502143d3ef527e8152cd651a453d3d3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9ba28dc788f13b2307c5c60206f2eebc1d9d413e.json"
+  ],
+  "datetime": "2025-08-05T14:54:11.465790+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26617",
+  "number": 26617,
+  "title": "8358598: PhaseIterGVN::PhaseIterGVN(PhaseGVN* gvn) doesn't use its parameter",
+  "head_sha": "a5553aa06502143d3ef527e8152cd651a453d3d3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16753357184"
+}
