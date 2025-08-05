@@ -1,0 +1,16 @@
+{
+  "artifact_3695665676": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-2da72ca3aa47897fe0954f543d4be7d670bc6471)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-2da72ca3aa47897fe0954f543d4be7d670bc6471, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f7fcbe8161c121dda617f2165444c5e04d40a670.json"
+  ],
+  "datetime": "2025-08-05T22:59:30.687320+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26595",
+  "number": 26595,
+  "title": "8364532: G1: In liveness tracing, print more significant digits for the liveness value",
+  "head_sha": "2da72ca3aa47897fe0954f543d4be7d670bc6471",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16762864143"
+}
