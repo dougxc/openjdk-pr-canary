@@ -1,0 +1,19 @@
+{
+  "artifact_3695781931": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-188fc81157e636f5a51e13ab73c8b938d1d36867)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-188fc81157e636f5a51e13ab73c8b938d1d36867, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "23aa2c8be1dded792ac1deabd4bc8a9a6435dba3.json",
+    "4b21868a9b34f13584d51cfc56749cbe4bd989ce.json",
+    "5ab928e8037023f3b259ada8e74d766e401858b5.json",
+    "dd836387809a9046b13160c8b3cbba96b645b470.json"
+  ],
+  "datetime": "2025-08-05T23:36:52.713459+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23739",
+  "number": 23739,
+  "title": "8342382: Implementation of JEP G1: Improve Application Throughput with a More Efficient Write-Barrier",
+  "head_sha": "188fc81157e636f5a51e13ab73c8b938d1d36867",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16762864143"
+}
