@@ -1,0 +1,14 @@
+{
+  "artifact_3695469144": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-prrace-edbbbd4fa49220a1e407fe2cb484035eee42b0ce)\nOpenJDK 64-Bit Server VM (build 26-internal-prrace-edbbbd4fa49220a1e407fe2cb484035eee42b0ce, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-05T22:47:53.914828+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26650",
+  "number": 26650,
+  "title": "8277585: Remove the terminally deprecated finalize() method from javax.imageio.stream APIs",
+  "head_sha": "edbbbd4fa49220a1e407fe2cb484035eee42b0ce",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16762864143"
+}
