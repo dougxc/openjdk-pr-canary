@@ -1,0 +1,17 @@
+{
+  "artifact_3692738651": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-liach-4ba1f17cbe24efcb0b32af845aa7ceddba90129d)\nOpenJDK 64-Bit Server VM (build 26-internal-liach-4ba1f17cbe24efcb0b32af845aa7ceddba90129d, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "5735b8026ca07ad6a9dca6fe3dac7d1f3cec4863.json"
+  ],
+  "datetime": "2025-08-05T16:49:02.392357+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26600",
+  "number": 26600,
+  "title": "8364588: Export the NPE backtracking functionality to general null-checking APIs",
+  "head_sha": "4ba1f17cbe24efcb0b32af845aa7ceddba90129d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16755743777"
+}
