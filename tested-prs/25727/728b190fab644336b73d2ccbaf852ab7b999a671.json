@@ -1,0 +1,16 @@
+{
+  "artifact_3689441431": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-minborg-728b190fab644336b73d2ccbaf852ab7b999a671)\nOpenJDK 64-Bit Server VM (build 26-internal-minborg-728b190fab644336b73d2ccbaf852ab7b999a671, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "21a43faa2c74ca133d5033efda76f4b561c9a73d.json"
+  ],
+  "datetime": "2025-08-05T10:01:12.635047+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25727",
+  "number": 25727,
+  "title": "8359119: Change Charset to use StableValue",
+  "head_sha": "728b190fab644336b73d2ccbaf852ab7b999a671",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16746436935"
+}
