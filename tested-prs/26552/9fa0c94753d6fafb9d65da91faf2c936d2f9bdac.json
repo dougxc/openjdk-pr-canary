@@ -1,0 +1,17 @@
+{
+  "artifact_3690987146": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-fbredber-9fa0c94753d6fafb9d65da91faf2c936d2f9bdac)\nOpenJDK 64-Bit Server VM (build 26-internal-fbredber-9fa0c94753d6fafb9d65da91faf2c936d2f9bdac, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2a0521863ba7d9df9b4039e61b2ce6932960cd22.json",
+    "9290d4ad5875f12a69ebe5db58c3c1f2fac48c28.json"
+  ],
+  "datetime": "2025-08-05T13:17:31.699834+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26552",
+  "number": 26552,
+  "title": "8364141: Remove LockingMode related code from x86",
+  "head_sha": "9fa0c94753d6fafb9d65da91faf2c936d2f9bdac",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16750934323"
+}
