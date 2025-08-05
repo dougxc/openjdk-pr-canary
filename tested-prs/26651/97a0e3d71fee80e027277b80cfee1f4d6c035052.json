@@ -1,0 +1,14 @@
+{
+  "artifact_3695825573": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-97a0e3d71fee80e027277b80cfee1f4d6c035052)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-97a0e3d71fee80e027277b80cfee1f4d6c035052, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-05T23:51:20.664093+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26651",
+  "number": 26651,
+  "title": "8364650: G1: Use InvalidCSetIndex instead of UINT_MAX for \"invalid\" sentinel value of young_index_in_cset",
+  "head_sha": "97a0e3d71fee80e027277b80cfee1f4d6c035052",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16763654510"
+}
