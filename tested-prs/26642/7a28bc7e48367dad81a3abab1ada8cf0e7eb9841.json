@@ -1,0 +1,16 @@
+{
+  "artifact_3698980890": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-adinn-7a28bc7e48367dad81a3abab1ada8cf0e7eb9841)\nOpenJDK 64-Bit Server VM (build 26-internal-adinn-7a28bc7e48367dad81a3abab1ada8cf0e7eb9841, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5889ce2b59aa680bd870cc68608365bbb29c7360.json"
+  ],
+  "datetime": "2025-08-06T12:34:18.380672+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26642",
+  "number": 26642,
+  "title": "8364558: Failure to generate compiler stubs from compiler thread should not crash VM when compilation disabled due to full CodeCache",
+  "head_sha": "7a28bc7e48367dad81a3abab1ada8cf0e7eb9841",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16775666796"
+}
