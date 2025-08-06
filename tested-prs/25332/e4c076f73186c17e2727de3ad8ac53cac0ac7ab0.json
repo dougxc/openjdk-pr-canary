@@ -1,0 +1,17 @@
+{
+  "artifact_3702204177": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-suchismith1993-e4c076f73186c17e2727de3ad8ac53cac0ac7ab0)\nOpenJDK 64-Bit Server VM (build 26-internal-suchismith1993-e4c076f73186c17e2727de3ad8ac53cac0ac7ab0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "80a6dba6cc8f24d5bb354d3eb879ec0a0bfd872e.json",
+    "f2ab9d54e8d599f88ebe00db4f464bc15636221f.json"
+  ],
+  "datetime": "2025-08-06T16:04:18.833267+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25332",
+  "number": 25332,
+  "title": "JDK-8030957 - AIX: Implement OperatingSystemMXBean.getSystemCpuLoad() and .getProcessCpuLoad() on AIX",
+  "head_sha": "e4c076f73186c17e2727de3ad8ac53cac0ac7ab0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16781572427"
+}
