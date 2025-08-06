@@ -1,0 +1,20 @@
+{
+  "artifact_3704292377": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-alexmenkov-3cc69d8fe72660ac70c578675d783129ba397bd3)\nOpenJDK 64-Bit Server VM (build 26-internal-alexmenkov-3cc69d8fe72660ac70c578675d783129ba397bd3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "04b2a3832ad4e3cda8cbbeb0db2910ce2d976e66.json",
+    "30275945d3771924b0bea7fd93cd63b79c40a4d3.json",
+    "58c4004eb22632b2a1810d1be129179c54334be0.json",
+    "811db312b1d20987abe90f168eee06455bdce7e6.json",
+    "f4932e4cabd31bc658ddfeaf129583d9162c55e3.json"
+  ],
+  "datetime": "2025-08-06T20:05:36.342529+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26119",
+  "number": 26119,
+  "title": "8361103: java_lang_Thread::async_get_stack_trace does not properly protect JavaThread",
+  "head_sha": "3cc69d8fe72660ac70c578675d783129ba397bd3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16786611276"
+}
