@@ -1,0 +1,18 @@
+{
+  "artifact_3705492250": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-alexeysemenyukoracle-2d31e6a57f5bdb8d0e7936669a8cec6a42f31828)\nOpenJDK 64-Bit Server VM (build 26-internal-alexeysemenyukoracle-2d31e6a57f5bdb8d0e7936669a8cec6a42f31828, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "8d8e7d8f2a69e6cdba42f0ee0502fdfda423e1ed.json",
+    "a95677fffd3acbdb9873147969a48775aab11441.json",
+    "b5da8074c8ca7dda987fc3f31794c7d83b3da0e4.json"
+  ],
+  "datetime": "2025-08-06T22:47:48.634585+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26584",
+  "number": 26584,
+  "title": "8334238: Enhance AddLShortcutTest jpackage test",
+  "head_sha": "2d31e6a57f5bdb8d0e7936669a8cec6a42f31828",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16790236360"
+}
