@@ -1,0 +1,17 @@
+{
+  "artifact_3704474014": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-prrace-41fdf62e17848db7eeacb4cf1cc1e48d3e7e5f4d)\nOpenJDK 64-Bit Server VM (build 26-internal-prrace-41fdf62e17848db7eeacb4cf1cc1e48d3e7e5f4d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e37e57c2b268f80cd16b6985aa9a2218596b0dd9.json",
+    "f423e1d9ad37135abacb8deb2d2151e21768a23e.json"
+  ],
+  "datetime": "2025-08-06T21:31:20.468589+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26519",
+  "number": 26519,
+  "title": "8364230: javax/swing/text/StringContent can be migrated away from using finalize",
+  "head_sha": "41fdf62e17848db7eeacb4cf1cc1e48d3e7e5f4d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16787931440"
+}
