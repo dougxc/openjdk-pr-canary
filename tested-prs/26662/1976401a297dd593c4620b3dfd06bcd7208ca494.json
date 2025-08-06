@@ -1,0 +1,14 @@
+{
+  "artifact_3704486037": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-turbanoff-1976401a297dd593c4620b3dfd06bcd7208ca494)\nOpenJDK 64-Bit Server VM (build 26-internal-turbanoff-1976401a297dd593c4620b3dfd06bcd7208ca494, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-06T20:46:37.488990+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26662",
+  "number": 26662,
+  "title": "[PATCH] Pattern matching of instanceof in java.desktop shared code",
+  "head_sha": "1976401a297dd593c4620b3dfd06bcd7208ca494",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16787931440"
+}
