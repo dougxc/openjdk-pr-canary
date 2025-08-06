@@ -1,0 +1,14 @@
+{
+  "artifact_3699255544": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-reinrich-dbff1108dcd70d7709b3354efb3e97d74f3dd5e6)\nOpenJDK 64-Bit Server VM (build 26-internal-reinrich-dbff1108dcd70d7709b3354efb3e97d74f3dd5e6, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-06T12:23:46.586292+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26643",
+  "number": 26643,
+  "title": "8360219: [AIX] assert(locals_base >= l2) failed: bad placement",
+  "head_sha": "dbff1108dcd70d7709b3354efb3e97d74f3dd5e6",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16775666796"
+}
