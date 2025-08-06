@@ -1,0 +1,14 @@
+{
+  "artifact_3700009872": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-caspernorrbin-a495e291e038b8846989d99e1149873ede38741f)\nOpenJDK 64-Bit Server VM (build 26-internal-caspernorrbin-a495e291e038b8846989d99e1149873ede38741f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-06T12:02:46.633793+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26655",
+  "number": 26655,
+  "title": "8352067: Remove the NMT treap and replace its uses with the utilities red-black tree",
+  "head_sha": "a495e291e038b8846989d99e1149873ede38741f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16775666796"
+}
