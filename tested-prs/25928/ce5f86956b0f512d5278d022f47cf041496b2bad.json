@@ -1,0 +1,22 @@
+{
+  "artifact_3706620529": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-MaxXSoft-ce5f86956b0f512d5278d022f47cf041496b2bad)\nOpenJDK 64-Bit Server VM (build 26-internal-MaxXSoft-ce5f86956b0f512d5278d022f47cf041496b2bad, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0d0bb579d3c86af7a4f26c0ef69c0894d475d48a.json",
+    "0faa2099b060d5bcfd6ca71ff7146f6092fcbe07.json",
+    "1cb931b16f46254ea49154ad3f14c0b07f77ff56.json",
+    "2f9bca68739365eb7bf6cb2616a13806c22c193b.json",
+    "c9051a0bfc9efa45cf52d61c92f524b2003927ce.json",
+    "c965311b164a0234cb1b585e63949e124ccda3b0.json",
+    "da805b035ec9880ad2016900ae08a1bf0d1d6484.json"
+  ],
+  "datetime": "2025-08-07T03:07:29.635885+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25928",
+  "number": 25928,
+  "title": "8360192: C2: Make the type of count leading/trailing zero nodes more precise",
+  "head_sha": "ce5f86956b0f512d5278d022f47cf041496b2bad",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16793626867"
+}
