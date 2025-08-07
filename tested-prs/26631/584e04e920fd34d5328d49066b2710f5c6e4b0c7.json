@@ -1,0 +1,17 @@
+{
+  "artifact_3712487650": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-bplb-584e04e920fd34d5328d49066b2710f5c6e4b0c7)\nOpenJDK 64-Bit Server VM (build 26-internal-bplb-584e04e920fd34d5328d49066b2710f5c6e4b0c7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "60f5315bf8dae75ebdedc47daf9c74247e394b1f.json",
+    "a30e0ce8d5b7e7c08af916cfa7000c36f8dfb2df.json"
+  ],
+  "datetime": "2025-08-07T17:31:47.409933+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26631",
+  "number": 26631,
+  "title": "8364277: (fs) BasicFileAttributes.isDirectory and isOther return true for NTFS directory junctions when links not followed",
+  "head_sha": "584e04e920fd34d5328d49066b2710f5c6e4b0c7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16810506344"
+}
