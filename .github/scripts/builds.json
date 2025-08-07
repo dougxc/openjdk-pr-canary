@@ -210286,6 +210286,9 @@
 		},
 		"aliases": [
 			"jdk-26-1064"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	},
 	{
@@ -210309,6 +210312,9 @@
 		},
 		"aliases": [
 			"jdk-26-1065"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	}
 ]
