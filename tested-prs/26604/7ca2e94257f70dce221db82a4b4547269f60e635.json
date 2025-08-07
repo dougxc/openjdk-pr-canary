@@ -1,0 +1,14 @@
+{
+  "artifact_3712181286": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-alexeysemenyukoracle-7ca2e94257f70dce221db82a4b4547269f60e635)\nOpenJDK 64-Bit Server VM (build 26-internal-alexeysemenyukoracle-7ca2e94257f70dce221db82a4b4547269f60e635, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-07T17:42:55.105667+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26604",
+  "number": 26604,
+  "title": "8364564: Shortcut configuration is not recorded in .jpackage.xml file",
+  "head_sha": "7ca2e94257f70dce221db82a4b4547269f60e635",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16810506344"
+}
