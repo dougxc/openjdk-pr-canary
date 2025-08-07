@@ -1,0 +1,16 @@
+{
+  "artifact_3709221504": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-ygaevsky-0e1d75275ec49b8de244ff8527f002656421b6e0)\nOpenJDK 64-Bit Server VM (build 26-internal-ygaevsky-0e1d75275ec49b8de244ff8527f002656421b6e0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2383d3361078451c88ad7113ad529db77947a413.json"
+  ],
+  "datetime": "2025-08-07T10:45:44.868731+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/17750",
+  "number": 17750,
+  "title": "8324124: RISC-V: implement _vectorizedMismatch intrinsic",
+  "head_sha": "0e1d75275ec49b8de244ff8527f002656421b6e0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16800854767"
+}
