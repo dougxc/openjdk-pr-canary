@@ -209747,5 +209747,30 @@
 		"aliases": [
 			"jdk-26-1042"
 		]
+	},
+	{
+		"id": "jdk-26+10-1043",
+		"revisions": {
+			"open": [
+				"f95af744b07a9ec87e2507b3d584cbcddc827bbd"
+			],
+			"mx": [
+				"77dd4a0d913bb75f97804c1789e380df14adae08"
+			],
+			"graal-enterprise": [
+				"69fe349ba235d570acc427e058741ba242bd3ac9",
+				"b72f24534950b740431cb7976eb3d91a4d549877",
+				"d6110ad44d858a694ed2eb90e65cdbe42bcb8a73"
+			],
+			".": [
+				"9478fbd024d06c2f07de8888c457b5b3d912233e"
+			],
+			"graal": [
+				"f0d758309974a0714190c0571071c2daf9fc86a4"
+			]
+		},
+		"aliases": [
+			"jdk-26-1043"
+		]
 	}
 ]
