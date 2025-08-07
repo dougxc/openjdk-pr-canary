@@ -1,0 +1,14 @@
+{
+  "artifact_3711291578": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-alexeysemenyukoracle-7787ad619d08b58744434b135f3dc2fd008debf0)\nOpenJDK 64-Bit Server VM (build 26-internal-alexeysemenyukoracle-7787ad619d08b58744434b135f3dc2fd008debf0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-07T14:51:30.254447+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26677",
+  "number": 26677,
+  "title": "8364984: Many jpackage tests are failing on Linux after JDK-8334238",
+  "head_sha": "7787ad619d08b58744434b135f3dc2fd008debf0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16807687098"
+}
