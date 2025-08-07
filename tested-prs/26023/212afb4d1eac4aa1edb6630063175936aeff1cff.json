@@ -1,0 +1,18 @@
+{
+  "artifact_3711754639": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mhaessig-212afb4d1eac4aa1edb6630063175936aeff1cff)\nOpenJDK 64-Bit Server VM (build 26-internal-mhaessig-212afb4d1eac4aa1edb6630063175936aeff1cff, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "09e0e58c139dccddb4229377cc5d770e7d916d53.json",
+    "5840cc2e489fdbf55879b185c7afd964db894bbd.json",
+    "d50231f926b7be3782120b228d3e88ee2c73c14c.json"
+  ],
+  "datetime": "2025-08-07T15:57:44.073332+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26023",
+  "number": 26023,
+  "title": "8308094: Add a compilation timeout flag to catch long running compilations",
+  "head_sha": "212afb4d1eac4aa1edb6630063175936aeff1cff",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16809040486"
+}
