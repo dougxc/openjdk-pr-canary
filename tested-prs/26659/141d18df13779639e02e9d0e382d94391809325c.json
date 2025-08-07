@@ -1,0 +1,16 @@
+{
+  "artifact_3704835307": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-141d18df13779639e02e9d0e382d94391809325c)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-141d18df13779639e02e9d0e382d94391809325c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c337716b73ad3fe8e6d494eebc05e7f58e69738a.json"
+  ],
+  "datetime": "2025-08-07T09:19:16.661645+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26659",
+  "number": 26659,
+  "title": "8364925: G1: Improve program flow around incremental collection set building",
+  "head_sha": "141d18df13779639e02e9d0e382d94391809325c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16799633857"
+}
