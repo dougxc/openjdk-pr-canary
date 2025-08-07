@@ -1,0 +1,14 @@
+{
+  "artifact_3712574019": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-liach-2556e54ee94006cc8ead1fa3d66525e66ac22032)\nOpenJDK 64-Bit Server VM (build 26-internal-liach-2556e54ee94006cc8ead1fa3d66525e66ac22032, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-07T16:55:25.269452+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26679",
+  "number": 26679,
+  "title": "8358535: Changes in ClassValue (JDK-8351996) caused a 1-9% regression in Renaissance-PageRank",
+  "head_sha": "2556e54ee94006cc8ead1fa3d66525e66ac22032",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16810506344"
+}
