@@ -1,0 +1,14 @@
+{
+  "artifact_3708449412": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-MBaesken-57203637407072c7aa058b0157fc2a3eb75a2e19)\nOpenJDK 64-Bit Server VM (build 26-internal-MBaesken-57203637407072c7aa058b0157fc2a3eb75a2e19, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-07T08:56:55.397321+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26668",
+  "number": 26668,
+  "title": "8364996: java/awt/font/FontNames/LocaleFamilyNames.java times out on Windows",
+  "head_sha": "57203637407072c7aa058b0157fc2a3eb75a2e19",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16799633857"
+}
