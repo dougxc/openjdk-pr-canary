@@ -1,0 +1,14 @@
+{
+  "artifact_3712683334": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jsikstro-e822f2e0e4594c4c24b236daeeefe752beb9c406)\nOpenJDK 64-Bit Server VM (build 26-internal-jsikstro-e822f2e0e4594c4c24b236daeeefe752beb9c406, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-07T18:19:47.602563+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26680",
+  "number": 26680,
+  "title": "8365050: Too verbose warning in os::commit_memory_limit() on Windows",
+  "head_sha": "e822f2e0e4594c4c24b236daeeefe752beb9c406",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16811610763"
+}
