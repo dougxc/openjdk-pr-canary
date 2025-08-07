@@ -1,0 +1,14 @@
+{
+  "artifact_3712097441": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-weibxiao-085289729cac99d21bb060321f40426c8d6f2392)\nOpenJDK 64-Bit Server VM (build 26-internal-weibxiao-085289729cac99d21bb060321f40426c8d6f2392, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-07T17:53:43.656706+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26566",
+  "number": 26566,
+  "title": "8362268 : NPE thrown from SASL GSSAPI impl on Java 11+ when TLS is used with QOP auth-int against Active Directory",
+  "head_sha": "085289729cac99d21bb060321f40426c8d6f2392",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16810506344"
+}
