@@ -1,0 +1,16 @@
+{
+  "artifact_3715171514": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-RogerRiggs-c04ee6e2caf01eb284543c283ce7c5b8c9496504)\nOpenJDK 64-Bit Server VM (build 26-internal-RogerRiggs-c04ee6e2caf01eb284543c283ce7c5b8c9496504, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "51355da26c6d5db86b700aa612c954f9f35c4e6e.json"
+  ],
+  "datetime": "2025-08-07T22:56:59.493760+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26649",
+  "number": 26649,
+  "title": "8364361: [process] java.lang.Process should implement close and be AutoCloseable",
+  "head_sha": "c04ee6e2caf01eb284543c283ce7c5b8c9496504",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16817356831"
+}
