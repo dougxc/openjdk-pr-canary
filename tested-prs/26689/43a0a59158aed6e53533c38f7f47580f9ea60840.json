@@ -1,0 +1,14 @@
+{
+  "artifact_3718487755": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-afshin-zafari-43a0a59158aed6e53533c38f7f47580f9ea60840)\nOpenJDK 64-Bit Server VM (build 26-internal-afshin-zafari-43a0a59158aed6e53533c38f7f47580f9ea60840, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-08T11:25:38.566036+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26689",
+  "number": 26689,
+  "title": "8364280: NMTCommittedVirtualMemoryTracker.test_committed_virtualmemory_region_vm fails with assertion \"negative distance\"",
+  "head_sha": "43a0a59158aed6e53533c38f7f47580f9ea60840",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16828371867"
+}
