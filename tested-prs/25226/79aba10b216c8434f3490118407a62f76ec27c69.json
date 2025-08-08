@@ -1,0 +1,17 @@
+{
+  "artifact_3719850848": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-afshin-zafari-79aba10b216c8434f3490118407a62f76ec27c69)\nOpenJDK 64-Bit Server VM (build 26-internal-afshin-zafari-79aba10b216c8434f3490118407a62f76ec27c69, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "05ca64d33b246985678821db38e693b845898e7b.json",
+    "b7666c382ba444e395e70b51ee2ffefc9d77614e.json"
+  ],
+  "datetime": "2025-08-08T14:54:55.735509+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25226",
+  "number": 25226,
+  "title": "8353444: NMT: rename 'category' to 'MemTag' in malloc tracker",
+  "head_sha": "79aba10b216c8434f3490118407a62f76ec27c69",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16831152017"
+}
