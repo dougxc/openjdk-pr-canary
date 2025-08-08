@@ -1,0 +1,16 @@
+{
+  "artifact_3715647615": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-justin-curtis-lu-3a1e6ab265b76bb9d90ef415e66e02b3d5df2f86)\nOpenJDK 64-Bit Server VM (build 26-internal-justin-curtis-lu-3a1e6ab265b76bb9d90ef415e66e02b3d5df2f86, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "cc8766c2869788e5f9e0a53e2a8f2dfd136ff1cb.json"
+  ],
+  "datetime": "2025-08-08T02:45:21.616947+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26683",
+  "number": 26683,
+  "title": "8364780: Unicode extension clarifications for NumberFormat/DecimalFormatSymbols",
+  "head_sha": "3a1e6ab265b76bb9d90ef415e66e02b3d5df2f86",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16820485845"
+}
