@@ -1,0 +1,16 @@
+{
+  "artifact_3719874938": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-alexeysemenyukoracle-60b3095320205d576999ab5b7c93ff2c11b208c0)\nOpenJDK 64-Bit Server VM (build 26-internal-alexeysemenyukoracle-60b3095320205d576999ab5b7c93ff2c11b208c0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "358c24e6aeefc32ef4c1a338dbac1253839fe0dc.json"
+  ],
+  "datetime": "2025-08-08T14:16:47.593439+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26682",
+  "number": 26682,
+  "title": "8364129: Rename libwixhelper",
+  "head_sha": "60b3095320205d576999ab5b7c93ff2c11b208c0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16831152017"
+}
