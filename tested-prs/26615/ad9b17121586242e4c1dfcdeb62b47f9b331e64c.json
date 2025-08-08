@@ -1,0 +1,18 @@
+{
+  "artifact_3717026144": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tstuefe-ad9b17121586242e4c1dfcdeb62b47f9b331e64c)\nOpenJDK 64-Bit Server VM (build 26-internal-tstuefe-ad9b17121586242e4c1dfcdeb62b47f9b331e64c, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "38648cb4998437a2a1b7ecef3ce052cfcc164c68.json",
+    "b607b2525057b0db805ad2e3caf0c49505cddd10.json"
+  ],
+  "datetime": "2025-08-08T07:05:33.720282+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26615",
+  "number": 26615,
+  "title": "8364611: (process) Child process SIGPIPE signal disposition should be default",
+  "head_sha": "ad9b17121586242e4c1dfcdeb62b47f9b331e64c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16823972337"
+}
