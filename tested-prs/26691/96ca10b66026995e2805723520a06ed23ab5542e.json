@@ -1,0 +1,14 @@
+{
+  "artifact_3718575174": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tschatzl-96ca10b66026995e2805723520a06ed23ab5542e)\nOpenJDK 64-Bit Server VM (build 26-internal-tschatzl-96ca10b66026995e2805723520a06ed23ab5542e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-08T12:41:11.181869+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26691",
+  "number": 26691,
+  "title": "8365115: G1: Refactor rem set statistics gather code for group",
+  "head_sha": "96ca10b66026995e2805723520a06ed23ab5542e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16829319355"
+}
