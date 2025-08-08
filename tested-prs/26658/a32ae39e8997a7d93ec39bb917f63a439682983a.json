@@ -1,0 +1,16 @@
+{
+  "artifact_3718647325": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-fbredber-a32ae39e8997a7d93ec39bb917f63a439682983a)\nOpenJDK 64-Bit Server VM (build 26-internal-fbredber-a32ae39e8997a7d93ec39bb917f63a439682983a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ea85a52db75ce0de04e78106bf8af76c17228d04.json"
+  ],
+  "datetime": "2025-08-08T11:56:17.062895+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26658",
+  "number": 26658,
+  "title": "8364570: Remove LockingMode related code from riscv64",
+  "head_sha": "a32ae39e8997a7d93ec39bb917f63a439682983a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16828371867"
+}
