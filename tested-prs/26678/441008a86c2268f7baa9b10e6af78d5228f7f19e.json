@@ -1,0 +1,14 @@
+{
+  "artifact_3712363599": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-ruben-arm-441008a86c2268f7baa9b10e6af78d5228f7f19e)\nOpenJDK 64-Bit Server VM (build 26-internal-ruben-arm-441008a86c2268f7baa9b10e6af78d5228f7f19e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-08T11:35:57.610270+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26678",
+  "number": 26678,
+  "title": "8365047: Remove exception handler stub code in C2",
+  "head_sha": "441008a86c2268f7baa9b10e6af78d5228f7f19e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16828371867"
+}
