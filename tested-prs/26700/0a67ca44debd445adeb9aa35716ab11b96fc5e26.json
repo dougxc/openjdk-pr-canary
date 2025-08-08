@@ -1,0 +1,14 @@
+{
+  "artifact_3718776078": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-albertnetymk-0a67ca44debd445adeb9aa35716ab11b96fc5e26)\nOpenJDK 64-Bit Server VM (build 26-internal-albertnetymk-0a67ca44debd445adeb9aa35716ab11b96fc5e26, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-08T15:07:47.692065+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26700",
+  "number": 26700,
+  "title": "8346005: Parallel: Incorrect page size calculation with UseLargePages",
+  "head_sha": "0a67ca44debd445adeb9aa35716ab11b96fc5e26",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16831152017"
+}
