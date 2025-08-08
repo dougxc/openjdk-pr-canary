@@ -1,0 +1,14 @@
+{
+  "artifact_3718477641": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-rsunderbabu-cd44fe490e83f480c902fde69e33c30acdcb19f9)\nOpenJDK 64-Bit Server VM (build 26-internal-rsunderbabu-cd44fe490e83f480c902fde69e33c30acdcb19f9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-08T11:14:38.763972+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26690",
+  "number": 26690,
+  "title": "8313655: sun/tools/jhsdb/HeapDumpTestWithActiveProcess.java frequently fails with SerialGC",
+  "head_sha": "cd44fe490e83f480c902fde69e33c30acdcb19f9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16828371867"
+}
