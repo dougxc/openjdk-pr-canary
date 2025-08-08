@@ -210504,5 +210504,30 @@
 		"tags": [
 			"LIBGRAAL_BUILD_FAILED"
 		]
+	},
+	{
+		"id": "jdk-26+11-1073",
+		"revisions": {
+			"open": [
+				"47017e38642a58fd6425ec68c1fed96f19f39404",
+				"bcca5cee2d788c745bea55388b2844b395519ed0",
+				"198782c957c728ed959d1fd31e2c2ff6cd1a9bb5"
+			],
+			"mx": [
+				"77dd4a0d913bb75f97804c1789e380df14adae08"
+			],
+			"graal-enterprise": [
+				"03cef7d8dd5e209feafe7cca3bdcd76a61b7d987"
+			],
+			".": [
+				"0d971ca2909fe78301d5dbd279745e9e60b914ec"
+			],
+			"graal": [
+				"04821f60911a4d64736cc3eea029fdd764eb4cba"
+			]
+		},
+		"aliases": [
+			"jdk-26-1073"
+		]
 	}
 ]
