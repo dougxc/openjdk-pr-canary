@@ -1,0 +1,15 @@
+{
+  "artifact_3722114499": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-prrace-ffe755a0a9e82f0e642519cfc0f3d698c5cfbafa)\nOpenJDK 64-Bit Server VM (build 26-internal-prrace-ffe755a0a9e82f0e642519cfc0f3d698c5cfbafa, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-08-08T18:58:00.645024+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26703",
+  "number": 26703,
+  "title": "8364768: JDK javax.imageio ImageWriters do not all flush the output stream",
+  "head_sha": "ffe755a0a9e82f0e642519cfc0f3d698c5cfbafa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16838058050"
+}
