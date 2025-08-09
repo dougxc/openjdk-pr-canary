@@ -1,0 +1,17 @@
+{
+  "artifact_3725874651": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jaikiran-f6ff8fa0f14b0d5a9137c217ddfc31ec81083aab)\nOpenJDK 64-Bit Server VM (build 26-internal-jaikiran-f6ff8fa0f14b0d5a9137c217ddfc31ec81083aab, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7b92b0a6cb7e3eac4469b84ae9908324bd078b49.json",
+    "914fde9a4af8aa96857e1d6f956e7c4c9998b0ca.json"
+  ],
+  "datetime": "2025-08-09T13:08:34.415963+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26698",
+  "number": 26698,
+  "title": "8365086: CookieStore.getURIs() and get(URI) should return an immutable List",
+  "head_sha": "f6ff8fa0f14b0d5a9137c217ddfc31ec81083aab",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16849619350"
+}
