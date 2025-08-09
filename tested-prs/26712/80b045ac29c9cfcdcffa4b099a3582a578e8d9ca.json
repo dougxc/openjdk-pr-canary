@@ -1,0 +1,14 @@
+{
+  "artifact_3726785640": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-marschall-80b045ac29c9cfcdcffa4b099a3582a578e8d9ca)\nOpenJDK 64-Bit Server VM (build 26-internal-marschall-80b045ac29c9cfcdcffa4b099a3582a578e8d9ca, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-09T20:43:59.128540+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26712",
+  "number": 26712,
+  "title": "8364281: Reduce JNI usage in Linux attach provider",
+  "head_sha": "80b045ac29c9cfcdcffa4b099a3582a578e8d9ca",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16853430061"
+}
