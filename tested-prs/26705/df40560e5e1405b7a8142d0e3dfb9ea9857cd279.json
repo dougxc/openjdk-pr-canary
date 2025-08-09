@@ -1,0 +1,16 @@
+{
+  "artifact_3724087600": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-justin-curtis-lu-df40560e5e1405b7a8142d0e3dfb9ea9857cd279)\nOpenJDK 64-Bit Server VM (build 26-internal-justin-curtis-lu-df40560e5e1405b7a8142d0e3dfb9ea9857cd279, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "4361aa02b76559dc0a92270fe3cc61591f60dda0.json"
+  ],
+  "datetime": "2025-08-09T02:53:53.143748+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26705",
+  "number": 26705,
+  "title": "8364781: Re-examine DigitList digits resizing during parsing",
+  "head_sha": "df40560e5e1405b7a8142d0e3dfb9ea9857cd279",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16844301694"
+}
