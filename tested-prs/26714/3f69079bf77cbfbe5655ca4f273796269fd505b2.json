@@ -1,0 +1,14 @@
+{
+  "artifact_3727408555": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-liach-3f69079bf77cbfbe5655ca4f273796269fd505b2)\nOpenJDK 64-Bit Server VM (build 26-internal-liach-3f69079bf77cbfbe5655ca4f273796269fd505b2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-10T02:48:01.090489+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26714",
+  "number": 26714,
+  "title": "8364751: ConstantBootstraps.explicitCast contradictory specification for null-to-primitive",
+  "head_sha": "3f69079bf77cbfbe5655ca4f273796269fd505b2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16856357945"
+}
