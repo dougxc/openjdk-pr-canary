@@ -1,0 +1,14 @@
+{
+  "artifact_3733438823": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-albertnetymk-7a8a54ad2369232278f1fa4906625153ed5e1b69)\nOpenJDK 64-Bit Server VM (build 26-internal-albertnetymk-7a8a54ad2369232278f1fa4906625153ed5e1b69, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-11T11:50:20.996243+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26722",
+  "number": 26722,
+  "title": "8365237: Remove unused SoftRefPolicy::_all_soft_refs_clear",
+  "head_sha": "7a8a54ad2369232278f1fa4906625153ed5e1b69",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16878721010"
+}
