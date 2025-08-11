@@ -1,0 +1,14 @@
+{
+  "artifact_3736371738": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jdksjolen-fa1794d0521076126652a44138ca131893f55dd5)\nOpenJDK 64-Bit Server VM (build 26-internal-jdksjolen-fa1794d0521076126652a44138ca131893f55dd5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-11T16:53:56.756447+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26729",
+  "number": 26729,
+  "title": "8365264: Rename ResourceHashtable to HashTable",
+  "head_sha": "fa1794d0521076126652a44138ca131893f55dd5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16886361957"
+}
