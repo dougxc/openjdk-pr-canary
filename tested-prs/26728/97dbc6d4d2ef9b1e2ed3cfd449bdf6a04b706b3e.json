@@ -1,0 +1,14 @@
+{
+  "artifact_3735935240": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-egahlin-97dbc6d4d2ef9b1e2ed3cfd449bdf6a04b706b3e)\nOpenJDK 64-Bit Server VM (build 26-internal-egahlin-97dbc6d4d2ef9b1e2ed3cfd449bdf6a04b706b3e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-11T19:06:15.066316+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26728",
+  "number": 26728,
+  "title": "8364993: JFR: Disable jdk.ModuleExport in default.jfc",
+  "head_sha": "97dbc6d4d2ef9b1e2ed3cfd449bdf6a04b706b3e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16887519873"
+}
