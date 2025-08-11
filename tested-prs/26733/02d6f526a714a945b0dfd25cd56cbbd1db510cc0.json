@@ -1,0 +1,14 @@
+{
+  "artifact_3739283419": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mgronlun-02d6f526a714a945b0dfd25cd56cbbd1db510cc0)\nOpenJDK 64-Bit Server VM (build 26-internal-mgronlun-02d6f526a714a945b0dfd25cd56cbbd1db510cc0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-11T22:46:20.830208+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26733",
+  "number": 26733,
+  "title": "8365199: Use a set instead of a list as the intermediary Klass* storage to reduce typeset processing",
+  "head_sha": "02d6f526a714a945b0dfd25cd56cbbd1db510cc0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16893777428"
+}
