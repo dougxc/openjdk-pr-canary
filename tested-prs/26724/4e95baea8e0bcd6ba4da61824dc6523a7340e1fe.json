@@ -1,0 +1,14 @@
+{
+  "artifact_3734458399": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-minborg-4e95baea8e0bcd6ba4da61824dc6523a7340e1fe)\nOpenJDK 64-Bit Server VM (build 26-internal-minborg-4e95baea8e0bcd6ba4da61824dc6523a7340e1fe, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-11T13:29:15.413108+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26724",
+  "number": 26724,
+  "title": "8365203: defineClass with direct buffer can cause use-after-free",
+  "head_sha": "4e95baea8e0bcd6ba4da61824dc6523a7340e1fe",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16880869177"
+}
