@@ -1,0 +1,18 @@
+{
+  "artifact_3736752462": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-minborg-9c52870b61bced3b41850241b4125180cbe0904b)\nOpenJDK 64-Bit Server VM (build 26-internal-minborg-9c52870b61bced3b41850241b4125180cbe0904b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7d4c788172cbf7210c078198f3234b7e9ab3c111.json",
+    "b60832cef36a57e9f600a474abb32fcbdee93104.json",
+    "c37cd69d16d15dc9ee30f448a5b82d00bad4a900.json"
+  ],
+  "datetime": "2025-08-11T17:25:16.266154+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26672",
+  "number": 26672,
+  "title": "8365017: The SegmentBulkOperations::copy method can be improved using overlaps",
+  "head_sha": "9c52870b61bced3b41850241b4125180cbe0904b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16886361957"
+}
