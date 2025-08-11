@@ -1,0 +1,27 @@
+{
+  "artifact_3735151063": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-vy-9b721bb9feea9962a99483a0d66389e1a3014ca8)\nOpenJDK 64-Bit Server VM (build 26-internal-vy-9b721bb9feea9962a99483a0d66389e1a3014ca8, mixed mode, sharing)"
+  },
+  "graal_pr": {
+    "url": "https://github.com/oracle/graal/pull/11692",
+    "number": "11692",
+    "revision": "e735b59de5294eddb2ad142375b7751e9cc1cc7e"
+  },
+  "status": "passed",
+  "history": [
+    "025c7ef7805202ea67843bb59dd85c2cc2cfb0c1.json",
+    "1d02189fba1d53230b556b1cc0741fc0be56cfd7.json",
+    "6af98646e6528da69e89ce46ca83a0f2e8a3c68f.json",
+    "85f198648a2ef2fc531d847e70a2b18a83fff2e8.json",
+    "abc0eeb3bfc6ac05b589bd32e6db98f7657e3438.json",
+    "c322f0e096baf71c48c680ca806050b552ce7c6e.json",
+    "db1ed388765344423e131e6157f0ab0ebceb9373.json"
+  ],
+  "datetime": "2025-08-11T14:33:35.176775+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25998",
+  "number": 25998,
+  "title": "8361842: Move input validation checks to Java for java.lang.StringCoding intrinsics",
+  "head_sha": "9b721bb9feea9962a99483a0d66389e1a3014ca8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16882013625"
+}
