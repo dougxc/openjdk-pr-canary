@@ -1,0 +1,17 @@
+{
+  "artifact_3736346063": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-YaaZ-62074474cfb49a92268db5c96dbe3b8a8447961b)\nOpenJDK 64-Bit Server VM (build 26-internal-YaaZ-62074474cfb49a92268db5c96dbe3b8a8447961b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "39d150dd225e1da20c2a5f02e05c3875bd69774e.json",
+    "849c74cea4fc0078ae7e0fb0c736bfaf0594eed6.json"
+  ],
+  "datetime": "2025-08-11T17:36:14.154645+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26576",
+  "number": 26576,
+  "title": "8364434: Inconsistent BufferedContext state after GC",
+  "head_sha": "62074474cfb49a92268db5c96dbe3b8a8447961b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16886361957"
+}
