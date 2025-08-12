@@ -1,0 +1,16 @@
+{
+  "artifact_3740967779": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-franferrax-27ed1a311ec34e24afae6cc43d2c71e2620eb0ef)\nOpenJDK 64-Bit Server VM (build 26-internal-franferrax-27ed1a311ec34e24afae6cc43d2c71e2620eb0ef, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "d073e80ac6c0a8d1c7a4d51533e4a68a16163968.json"
+  ],
+  "datetime": "2025-08-12T04:07:37.342120+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26666",
+  "number": 26666,
+  "title": "8364970: Redo JDK-8327381 by updating the CmpU type instead of the Bool type",
+  "head_sha": "27ed1a311ec34e24afae6cc43d2c71e2620eb0ef",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16898516054"
+}
