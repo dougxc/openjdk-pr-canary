@@ -1,0 +1,17 @@
+{
+  "artifact_3744483967": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-vy-f536a341901e2e6aad1503615c4a9647b48a71db)\nOpenJDK 64-Bit Server VM (build 26-internal-vy-f536a341901e2e6aad1503615c4a9647b48a71db, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "1fb8582e3f95fd0cba963ee648b16d59075f4527.json",
+    "5f555a684e2d50519d9b10def137eca16da4b695.json"
+  ],
+  "datetime": "2025-08-12T16:27:20.513632+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26413",
+  "number": 26413,
+  "title": "8356439: Rename JavaLangAccess::*NoRepl methods",
+  "head_sha": "f536a341901e2e6aad1503615c4a9647b48a71db",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16913560531"
+}
