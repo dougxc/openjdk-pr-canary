@@ -1,0 +1,19 @@
+{
+  "artifact_3741730856": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jatin-bhateja-f36ae6dda1f2fc407b9649d094e047aebcb8841e)\nOpenJDK 64-Bit Server VM (build 26-internal-jatin-bhateja-f36ae6dda1f2fc407b9649d094e047aebcb8841e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "04be59a602ee4d17e6b7df42365270e384b941e8.json",
+    "405de56f4402228d06900def9a1a2e4b7abc1536.json",
+    "b2e9343485d6bfb9b9b51a213120f50641d550bb.json",
+    "e7c7374b3a594b9990e8c3167ac7d27c0b17a1f0.json"
+  ],
+  "datetime": "2025-08-12T07:21:57.215648+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24104",
+  "number": 24104,
+  "title": "8303762: Optimize vector slice operation with constant index using VPALIGNR instruction",
+  "head_sha": "f36ae6dda1f2fc407b9649d094e047aebcb8841e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16901201447"
+}
