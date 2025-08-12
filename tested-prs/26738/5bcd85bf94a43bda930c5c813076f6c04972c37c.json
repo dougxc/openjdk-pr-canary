@@ -1,0 +1,14 @@
+{
+  "artifact_3741427639": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-DingliZhang-5bcd85bf94a43bda930c5c813076f6c04972c37c)\nOpenJDK 64-Bit Server VM (build 26-internal-DingliZhang-5bcd85bf94a43bda930c5c813076f6c04972c37c, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-12T06:58:12.716675+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26738",
+  "number": 26738,
+  "title": "8365302: RISC-V: compiler/loopopts/superword/TestAlignVector.java fails when vlen=128",
+  "head_sha": "5bcd85bf94a43bda930c5c813076f6c04972c37c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16901201447"
+}
