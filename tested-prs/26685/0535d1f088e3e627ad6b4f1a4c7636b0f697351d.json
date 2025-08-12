@@ -1,0 +1,17 @@
+{
+  "artifact_3744445522": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-danielogh-0535d1f088e3e627ad6b4f1a4c7636b0f697351d)\nOpenJDK 64-Bit Server VM (build 26-internal-danielogh-0535d1f088e3e627ad6b4f1a4c7636b0f697351d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "129929849ea0175009f21684452f9849c0091b71.json",
+    "69596e61c9a19c3ee9dd5ec9ee5aa7444f8354f5.json"
+  ],
+  "datetime": "2025-08-12T13:35:00.404241+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26685",
+  "number": 26685,
+  "title": "8362394: C2: Repeated stacked string concatenation fails with \"Hit MemLimit\" and other resourcing errors",
+  "head_sha": "0535d1f088e3e627ad6b4f1a4c7636b0f697351d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16909634652"
+}
