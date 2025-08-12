@@ -1,0 +1,15 @@
+{
+  "artifact_3745661013": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-shipilev-5a994a7592222234ba78de4a52759064b9b98b1f)\nOpenJDK 64-Bit Server VM (build 26-internal-shipilev-5a994a7592222234ba78de4a52759064b9b98b1f, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-08-12T15:36:56.785281+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26746",
+  "number": 26746,
+  "title": "8365229: ARM32: c2i_no_clinit_check_entry assert failed after JDK-8364269",
+  "head_sha": "5a994a7592222234ba78de4a52759064b9b98b1f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16913560531"
+}
