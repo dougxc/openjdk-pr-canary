@@ -1,0 +1,18 @@
+{
+  "artifact_3747090585": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-eme64-4a2402269f838a535f9f48cfe11a5cb03824e4b2)\nOpenJDK 64-Bit Server VM (build 26-internal-eme64-4a2402269f838a535f9f48cfe11a5cb03824e4b2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "238342aea5018429977f06680cbf0bf14e97a9ad.json",
+    "2e353a51b01ae1769d4dbcfe29ac0884b6b7fa7a.json",
+    "8f1f93290d331e2f3d0d4d21e48052247f9e101a.json"
+  ],
+  "datetime": "2025-08-12T18:38:10.682411+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/24278",
+  "number": 24278,
+  "title": "8324751: C2 SuperWord: Aliasing Analysis runtime check",
+  "head_sha": "4a2402269f838a535f9f48cfe11a5cb03824e4b2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16916282499"
+}
