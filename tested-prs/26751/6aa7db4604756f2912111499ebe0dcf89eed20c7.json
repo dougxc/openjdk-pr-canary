@@ -1,0 +1,14 @@
+{
+  "artifact_3748297121": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-prrace-6aa7db4604756f2912111499ebe0dcf89eed20c7)\nOpenJDK 64-Bit Server VM (build 26-internal-prrace-6aa7db4604756f2912111499ebe0dcf89eed20c7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-12T19:37:46.469768+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26751",
+  "number": 26751,
+  "title": "8365291: Remove finalize() method from sun/awt/X11InputMethodBase.java",
+  "head_sha": "6aa7db4604756f2912111499ebe0dcf89eed20c7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16918784974"
+}
