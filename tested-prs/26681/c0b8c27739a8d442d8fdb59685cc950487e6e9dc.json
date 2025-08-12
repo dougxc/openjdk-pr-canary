@@ -1,0 +1,21 @@
+{
+  "artifact_3744370725": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-fandreuz-c0b8c27739a8d442d8fdb59685cc950487e6e9dc)\nOpenJDK 64-Bit Server VM (build 26-internal-fandreuz-c0b8c27739a8d442d8fdb59685cc950487e6e9dc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "5c8179d86a75ea1fc89f23d90a2df2a211e470da.json",
+    "71950aedacb3bf523c461b76ca1db2bed5816348.json",
+    "9e0cb7e816bb723ddd5120618b7bd21ec76fd248.json",
+    "a75494f10f47a032f01e7e967c3b937166d8780d.json",
+    "be25d3413b432b56e9789eae55920f1862008911.json",
+    "d6cd068bf6535b532f1d190c86a49e0ad1a8659b.json"
+  ],
+  "datetime": "2025-08-12T13:45:26.959728+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26681",
+  "number": 26681,
+  "title": "8365053: Refresh hotspot precompiled.hpp with headers based on current frequency",
+  "head_sha": "c0b8c27739a8d442d8fdb59685cc950487e6e9dc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16909634652"
+}
