@@ -1,0 +1,18 @@
+{
+  "artifact_3745141657": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-lahodaj-5462926cc014cd176a588c96b50c001ee6a572d5)\nOpenJDK 64-Bit Server VM (build 26-internal-lahodaj-5462926cc014cd176a588c96b50c001ee6a572d5, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "358378db4e1bb3e31c849d77f35786ea68cfc377.json",
+    "8651514ccc5d6300b3a2fa1e32cd3a60e3f3ed5b.json",
+    "d7a3a057f08d3a1bb13c3993c0b7463aac302978.json"
+  ],
+  "datetime": "2025-08-12T15:57:10.765520+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26694",
+  "number": 26694,
+  "title": "8341342: Elements.getAllModuleElements() does not work properly before JavacTask.analyze()",
+  "head_sha": "5462926cc014cd176a588c96b50c001ee6a572d5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16913560531"
+}
