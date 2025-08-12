@@ -1,0 +1,16 @@
+{
+  "artifact_3743847384": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-myankelev-9666e50c1d327a892e237763c1a9d7d78b0549e9)\nOpenJDK 64-Bit Server VM (build 26-internal-myankelev-9666e50c1d327a892e237763c1a9d7d78b0549e9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "37e82f60015e6a19bb07a8c4a3752fef45c0a3c2.json"
+  ],
+  "datetime": "2025-08-12T11:17:34.117671+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23590",
+  "number": 23590,
+  "title": "8349535: Refactor ./pkcs11/Provider/MultipleLogins.sh to java test",
+  "head_sha": "9666e50c1d327a892e237763c1a9d7d78b0549e9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16906349835"
+}
