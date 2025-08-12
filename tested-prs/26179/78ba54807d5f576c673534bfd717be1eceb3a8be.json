@@ -1,0 +1,17 @@
+{
+  "artifact_3747274542": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mrserb-78ba54807d5f576c673534bfd717be1eceb3a8be)\nOpenJDK 64-Bit Server VM (build 26-internal-mrserb-78ba54807d5f576c673534bfd717be1eceb3a8be, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "4278a0b867f8cdb9559eedc3f822bdec4ccf8338.json"
+  ],
+  "datetime": "2025-08-12T18:25:01.619783+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26179",
+  "number": 26179,
+  "title": "8359380: Rework deferral profile logic after JDK-8346465",
+  "head_sha": "78ba54807d5f576c673534bfd717be1eceb3a8be",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16916282499"
+}
