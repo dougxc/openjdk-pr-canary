@@ -211849,6 +211849,9 @@
 		},
 		"aliases": [
 			"jdk-26-1124"
+		],
+		"tags": [
+			"LIBGRAAL_BUILD_FAILED"
 		]
 	}
 ]
