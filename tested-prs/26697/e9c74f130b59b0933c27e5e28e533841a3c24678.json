@@ -1,0 +1,17 @@
+{
+  "artifact_3745117025": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-fbredber-e9c74f130b59b0933c27e5e28e533841a3c24678)\nOpenJDK 64-Bit Server VM (build 26-internal-fbredber-e9c74f130b59b0933c27e5e28e533841a3c24678, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "e909d06db10e36a78bd88a4e4b21f34fb5f61e58.json"
+  ],
+  "datetime": "2025-08-12T14:38:43.586252+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26697",
+  "number": 26697,
+  "title": "8365146: Remove LockingMode related code from ppc64",
+  "head_sha": "e9c74f130b59b0933c27e5e28e533841a3c24678",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16912117003"
+}
