@@ -1,0 +1,17 @@
+{
+  "artifact_3746442965": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-sarannat-31c645de0a63504e49358fe7614403f0f4844b7b)\nOpenJDK 64-Bit Server VM (build 26-internal-sarannat-31c645de0a63504e49358fe7614403f0f4844b7b, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0089ba259d2a0a4071cca9d0c890fb1eae9c90d5.json",
+    "767f4e87bd8d43916e9feda892f4fd8dd627ca42.json"
+  ],
+  "datetime": "2025-08-12T16:07:12.427309+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26640",
+  "number": 26640,
+  "title": "8358781: C2 fails with assert \"bad profile data type\" when TypeProfileCasts is disabled",
+  "head_sha": "31c645de0a63504e49358fe7614403f0f4844b7b",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16913560531"
+}
