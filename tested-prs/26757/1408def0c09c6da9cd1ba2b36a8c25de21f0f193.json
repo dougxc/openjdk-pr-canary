@@ -1,0 +1,14 @@
+{
+  "artifact_3754851161": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-david-beaumont-1408def0c09c6da9cd1ba2b36a8c25de21f0f193)\nOpenJDK 64-Bit Server VM (build 26-internal-david-beaumont-1408def0c09c6da9cd1ba2b36a8c25de21f0f193, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-13T13:24:52.177151+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26757",
+  "number": 26757,
+  "title": "8365467: Fix multiple issues in ExplodedImage",
+  "head_sha": "1408def0c09c6da9cd1ba2b36a8c25de21f0f193",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16938025745"
+}
