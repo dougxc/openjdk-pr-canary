@@ -1,0 +1,16 @@
+{
+  "artifact_3757049411": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-veresov-0aeea89edeabae7cc3a1dded89dad619c603c49f)\nOpenJDK 64-Bit Server VM (build 26-internal-veresov-0aeea89edeabae7cc3a1dded89dad619c603c49f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ab06c1bcd6e0648a6c88f04e5c52e1fa37946c99.json"
+  ],
+  "datetime": "2025-08-13T16:46:22.421900+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26750",
+  "number": 26750,
+  "title": "8362530: VM crash with -XX:+PrintTieredEvents when collecting AOT profiling",
+  "head_sha": "0aeea89edeabae7cc3a1dded89dad619c603c49f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16941899811"
+}
