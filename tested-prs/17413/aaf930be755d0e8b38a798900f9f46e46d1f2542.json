@@ -1,0 +1,32 @@
+{
+  "artifact_3754702349": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-ygaevsky-aaf930be755d0e8b38a798900f9f46e46d1f2542)\nOpenJDK 64-Bit Server VM (build 26-internal-ygaevsky-aaf930be755d0e8b38a798900f9f46e46d1f2542, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "0c2fbee98f78e6d8483455707d9c895de1782edc.json",
+    "10cf3582c5e047cc36eb7f00efc065f4b555d013.json",
+    "223e0a3dd7a02966e6b5f598ce2a2b7ed80df991.json",
+    "301eed91dfce6cfd809f9fdd1c975c2cfa7a3bca.json",
+    "44491863c09899832d805b559aa14ecd4d1bee4d.json",
+    "4e9ad18fc42787596d9f7109b9940869530e16d9.json",
+    "60b2d815a3b442dfaab5fbce053a3e155bb74926.json",
+    "6c976c0cabbb5861fc83ad66eb2f7fc03472840d.json",
+    "6daaae6e4ba51a2519be447ab7ddb7359e185a57.json",
+    "712cf05d0b68222227c9b1f5c790d8ac44a54f18.json",
+    "7c5f24aab1494c2b048857a8070bdede7cf11449.json",
+    "9ba2768618f3f0842d9288250db0e313b72faec7.json",
+    "a64dc26e56b464f77fd558c8f2921db2462bde3d.json",
+    "c558db0b5e4c45cd928b65de96191adf8e874a1d.json",
+    "e14cc8e284e0ba01b7c3ae39a8d91b96fd7a2542.json",
+    "e7fac6c752696ea4c4cda9c02f2dc8c8af6e8b21.json",
+    "ffaba3d011ff013744dedd97eabdb48b942eecaa.json"
+  ],
+  "datetime": "2025-08-13T14:21:46.018274+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/17413",
+  "number": 17413,
+  "title": "8322174: RISC-V: C2 VectorizedHashCode RVV Version",
+  "head_sha": "aaf930be755d0e8b38a798900f9f46e46d1f2542",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16938025745"
+}
