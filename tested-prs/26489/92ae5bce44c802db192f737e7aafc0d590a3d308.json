@@ -1,0 +1,16 @@
+{
+  "artifact_3750445016": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-valeriepeng-92ae5bce44c802db192f737e7aafc0d590a3d308)\nOpenJDK 64-Bit Server VM (build 26-internal-valeriepeng-92ae5bce44c802db192f737e7aafc0d590a3d308, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "2bedc41d4857ad1c6b4a9b75abba59e11294658b.json"
+  ],
+  "datetime": "2025-08-13T03:03:05.720771+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26489",
+  "number": 26489,
+  "title": "8360463: Ambiguity in Cipher.getInstance() specification between NoSuchAlgorithmException and NoSuchPaddingException",
+  "head_sha": "92ae5bce44c802db192f737e7aafc0d590a3d308",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16925768911"
+}
