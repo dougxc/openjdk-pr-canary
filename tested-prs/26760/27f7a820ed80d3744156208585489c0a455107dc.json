@@ -1,0 +1,14 @@
+{
+  "artifact_3755462536": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-MBaesken-27f7a820ed80d3744156208585489c0a455107dc)\nOpenJDK 64-Bit Server VM (build 26-internal-MBaesken-27f7a820ed80d3744156208585489c0a455107dc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-13T14:51:14.742712+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26760",
+  "number": 26760,
+  "title": "8365487: [asan] some oops (mode) related tests fail",
+  "head_sha": "27f7a820ed80d3744156208585489c0a455107dc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16939169115"
+}
