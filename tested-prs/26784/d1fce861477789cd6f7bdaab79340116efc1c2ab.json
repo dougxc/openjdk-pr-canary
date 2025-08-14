@@ -1,0 +1,14 @@
+{
+  "artifact_3767873154": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-prrace-d1fce861477789cd6f7bdaab79340116efc1c2ab)\nOpenJDK 64-Bit Server VM (build 26-internal-prrace-d1fce861477789cd6f7bdaab79340116efc1c2ab, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-14T19:08:33.805075+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26784",
+  "number": 26784,
+  "title": "8365569: Remove finalize from JavaSoundAudioClip.java",
+  "head_sha": "d1fce861477789cd6f7bdaab79340116efc1c2ab",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16973840694"
+}
