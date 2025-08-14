@@ -1,0 +1,16 @@
+{
+  "artifact_3766972850": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-hgqxjj-6077719cd9151d9badbb7b4416c0ae002c3670e9)\nOpenJDK 64-Bit Server VM (build 26-internal-hgqxjj-6077719cd9151d9badbb7b4416c0ae002c3670e9, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "207cc2924cf77ae655bc4ccfd12a5c3b8b5231d6.json"
+  ],
+  "datetime": "2025-08-14T17:01:18.518171+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26771",
+  "number": 26771,
+  "title": "8365296: Build failure with Clang due to -Wformat warning after JDK-8364611",
+  "head_sha": "6077719cd9151d9badbb7b4416c0ae002c3670e9",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16969703694"
+}
