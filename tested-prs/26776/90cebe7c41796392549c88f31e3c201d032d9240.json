@@ -1,0 +1,14 @@
+{
+  "artifact_3763899675": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jaikiran-90cebe7c41796392549c88f31e3c201d032d9240)\nOpenJDK 64-Bit Server VM (build 26-internal-jaikiran-90cebe7c41796392549c88f31e3c201d032d9240, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-14T10:47:10.895537+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26776",
+  "number": 26776,
+  "title": "8365533: Remove outdated jdk.internal.javac package export to several modules from java.base",
+  "head_sha": "90cebe7c41796392549c88f31e3c201d032d9240",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16961474845"
+}
