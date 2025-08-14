@@ -1,0 +1,14 @@
+{
+  "artifact_3762278802": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jyukutyo-d26d191c4cbcf132728fa43bf9f99a5fcd8b29a0)\nOpenJDK 64-Bit Server VM (build 26-internal-jyukutyo-d26d191c4cbcf132728fa43bf9f99a5fcd8b29a0, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-14T07:42:06.902687+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26770",
+  "number": 26770,
+  "title": "8356324: JVM crash (SIGSEGV at ClassListParser::resolve_indy_impl) during -Xshare:dump starting from 21.0.5",
+  "head_sha": "d26d191c4cbcf132728fa43bf9f99a5fcd8b29a0",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16958828151"
+}
