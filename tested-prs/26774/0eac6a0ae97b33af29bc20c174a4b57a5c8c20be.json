@@ -1,0 +1,14 @@
+{
+  "artifact_3763643584": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-david-beaumont-0eac6a0ae97b33af29bc20c174a4b57a5c8c20be)\nOpenJDK 64-Bit Server VM (build 26-internal-david-beaumont-0eac6a0ae97b33af29bc20c174a4b57a5c8c20be, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-14T11:13:34.222142+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26774",
+  "number": 26774,
+  "title": "8365436: ImageReaderTest fails when jmods directory not present",
+  "head_sha": "0eac6a0ae97b33af29bc20c174a4b57a5c8c20be",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16962831137"
+}
