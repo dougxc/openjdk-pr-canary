@@ -1,0 +1,16 @@
+{
+  "artifact_3761712142": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-iklam-4cc90093da8d28dc7aa7435f92dd9317a884385f)\nOpenJDK 64-Bit Server VM (build 26-internal-iklam-4cc90093da8d28dc7aa7435f92dd9317a884385f, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "dab6f6ae70c49e34417285314a4dbde086dc0f37.json"
+  ],
+  "datetime": "2025-08-14T05:48:09.520472+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26514",
+  "number": 26514,
+  "title": "8362566: Use -Xlog:aot+map to print contents of existing AOT cache",
+  "head_sha": "4cc90093da8d28dc7aa7435f92dd9317a884385f",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16956806816"
+}
