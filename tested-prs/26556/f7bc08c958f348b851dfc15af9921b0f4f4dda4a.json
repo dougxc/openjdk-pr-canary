@@ -1,0 +1,16 @@
+{
+  "artifact_3764193454": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-dafedafe-f7bc08c958f348b851dfc15af9921b0f4f4dda4a)\nOpenJDK 64-Bit Server VM (build 26-internal-dafedafe-f7bc08c958f348b851dfc15af9921b0f4f4dda4a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ac003e6d543fcdde97f3e9f234f8a1a556bca595.json"
+  ],
+  "datetime": "2025-08-14T11:40:38.887022+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26556",
+  "number": 26556,
+  "title": "8360031: C2 compilation asserts in MemBarNode::remove",
+  "head_sha": "f7bc08c958f348b851dfc15af9921b0f4f4dda4a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16963879669"
+}
