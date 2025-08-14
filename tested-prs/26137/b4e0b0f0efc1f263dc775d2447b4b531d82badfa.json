@@ -1,0 +1,17 @@
+{
+  "artifact_3763090108": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-lahodaj-b4e0b0f0efc1f263dc775d2447b4b531d82badfa)\nOpenJDK 64-Bit Server VM (build 26-internal-lahodaj-b4e0b0f0efc1f263dc775d2447b4b531d82badfa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "54eed125f92aeb016502a8c06b2f284d4e4d4ded.json",
+    "ec2dcb897a2e0c0f36b917206871b8006263aca9.json"
+  ],
+  "datetime": "2025-08-14T09:19:16.504483+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26137",
+  "number": 26137,
+  "title": "8177650: JShell tool: packages in classpath don't appear in completions",
+  "head_sha": "b4e0b0f0efc1f263dc775d2447b4b531d82badfa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16960312265"
+}
