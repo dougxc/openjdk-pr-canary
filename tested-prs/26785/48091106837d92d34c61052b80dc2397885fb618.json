@@ -1,0 +1,14 @@
+{
+  "artifact_3767993824": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-earthling-amzn-48091106837d92d34c61052b80dc2397885fb618)\nOpenJDK 64-Bit Server VM (build 26-internal-earthling-amzn-48091106837d92d34c61052b80dc2397885fb618, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-14T18:57:24.152636+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26785",
+  "number": 26785,
+  "title": "8365571: GenShen: PLAB promotions may remain disabled for evacuation threads",
+  "head_sha": "48091106837d92d34c61052b80dc2397885fb618",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16973840694"
+}
