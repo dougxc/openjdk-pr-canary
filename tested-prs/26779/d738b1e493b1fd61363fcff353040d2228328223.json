@@ -1,0 +1,14 @@
+{
+  "artifact_3765753004": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-albertnetymk-d738b1e493b1fd61363fcff353040d2228328223)\nOpenJDK 64-Bit Server VM (build 26-internal-albertnetymk-d738b1e493b1fd61363fcff353040d2228328223, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-14T15:07:40.763278+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26779",
+  "number": 26779,
+  "title": "8365557: Parallel: Refactor ParallelScavengeHeap::mem_allocate_work",
+  "head_sha": "d738b1e493b1fd61363fcff353040d2228328223",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16968242635"
+}
