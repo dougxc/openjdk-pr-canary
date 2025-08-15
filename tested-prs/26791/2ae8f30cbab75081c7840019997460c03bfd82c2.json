@@ -1,0 +1,16 @@
+{
+  "artifact_3775159516": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-swesonga-2ae8f30cbab75081c7840019997460c03bfd82c2)\nOpenJDK 64-Bit Server VM (build 26-internal-swesonga-2ae8f30cbab75081c7840019997460c03bfd82c2, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "164bef5f0211796d74968dce4a4f044fdc5d2ee7.json"
+  ],
+  "datetime": "2025-08-15T17:00:06.436199+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26791",
+  "number": 26791,
+  "title": "8365579: ml64.exe is not the right assembler for Windows aarch64",
+  "head_sha": "2ae8f30cbab75081c7840019997460c03bfd82c2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16994624889"
+}
