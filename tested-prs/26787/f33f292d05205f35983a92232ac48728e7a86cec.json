@@ -1,0 +1,16 @@
+{
+  "artifact_3774990067": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-adinn-f33f292d05205f35983a92232ac48728e7a86cec)\nOpenJDK 64-Bit Server VM (build 26-internal-adinn-f33f292d05205f35983a92232ac48728e7a86cec, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "9a0f0cf00993c7b4a9b99ae65a632710ccf21414.json"
+  ],
+  "datetime": "2025-08-15T17:11:52.661747+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26787",
+  "number": 26787,
+  "title": "8365558: Fix stub entry init and blob creation on Zero",
+  "head_sha": "f33f292d05205f35983a92232ac48728e7a86cec",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16994624889"
+}
