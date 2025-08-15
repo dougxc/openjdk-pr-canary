@@ -1,0 +1,14 @@
+{
+  "artifact_3772852553": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-fbredber-0072dd8230910c58411c671c742a070c13cb8352)\nOpenJDK 64-Bit Server VM (build 26-internal-fbredber-0072dd8230910c58411c671c742a070c13cb8352, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-15T13:19:00.901463+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26795",
+  "number": 26795,
+  "title": "8365189: Remove LockingMode related code from arm32",
+  "head_sha": "0072dd8230910c58411c671c742a070c13cb8352",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16990455184"
+}
