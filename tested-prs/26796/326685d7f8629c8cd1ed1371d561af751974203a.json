@@ -1,0 +1,14 @@
+{
+  "artifact_3773237617": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-myankelev-326685d7f8629c8cd1ed1371d561af751974203a)\nOpenJDK 64-Bit Server VM (build 26-internal-myankelev-326685d7f8629c8cd1ed1371d561af751974203a, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-15T11:38:20.499847+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26796",
+  "number": 26796,
+  "title": "8360373: src/java.base/share/classes/sun/security/util/Debug.java implement negative testing",
+  "head_sha": "326685d7f8629c8cd1ed1371d561af751974203a",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16989019158"
+}
