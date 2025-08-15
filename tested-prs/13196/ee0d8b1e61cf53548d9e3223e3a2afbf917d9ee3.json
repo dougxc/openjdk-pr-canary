@@ -1,0 +1,14 @@
+{
+  "artifact_3775646991": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mickleness-ee0d8b1e61cf53548d9e3223e3a2afbf917d9ee3)\nOpenJDK 64-Bit Server VM (build 26-internal-mickleness-ee0d8b1e61cf53548d9e3223e3a2afbf917d9ee3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-15T21:48:21.030233+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/13196",
+  "number": 13196,
+  "title": "8303904: [macos]Transparent Windows Paint Wrong (Opaque, Pixelated) w/o Volatile Buffering",
+  "head_sha": "ee0d8b1e61cf53548d9e3223e3a2afbf917d9ee3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16999728891"
+}
