@@ -1,0 +1,14 @@
+{
+  "artifact_3770245423": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-anass-baya-94bab37292d06e94d0a285a411e5c62125109145)\nOpenJDK 64-Bit Server VM (build 26-internal-anass-baya-94bab37292d06e94d0a285a411e5c62125109145, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-15T02:54:03.553423+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26790",
+  "number": 26790,
+  "title": "8361606 : ConsumeNextMnemonicKeyTypedTest.java fails on Windows: character typed with VK_A: a",
+  "head_sha": "94bab37292d06e94d0a285a411e5c62125109145",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16981356983"
+}
