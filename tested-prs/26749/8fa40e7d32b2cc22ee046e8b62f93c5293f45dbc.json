@@ -1,0 +1,17 @@
+{
+  "artifact_3773528175": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-lkorinth-8fa40e7d32b2cc22ee046e8b62f93c5293f45dbc)\nOpenJDK 64-Bit Server VM (build 26-internal-lkorinth-8fa40e7d32b2cc22ee046e8b62f93c5293f45dbc, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "ac47dbdc341fc46c742ff43111723cbb3564ba7f.json",
+    "dbe42964371a38b2c6cd9e842c5b28ca4ac15506.json"
+  ],
+  "datetime": "2025-08-15T13:29:20.214918+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26749",
+  "number": 26749,
+  "title": "8260555: Change the default TIMEOUT_FACTOR from 4 to 1",
+  "head_sha": "8fa40e7d32b2cc22ee046e8b62f93c5293f45dbc",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16990455184"
+}
