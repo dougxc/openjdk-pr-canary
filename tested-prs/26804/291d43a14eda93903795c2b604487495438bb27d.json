@@ -1,0 +1,14 @@
+{
+  "artifact_3775789639": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-myankelev-291d43a14eda93903795c2b604487495438bb27d)\nOpenJDK 64-Bit Server VM (build 26-internal-myankelev-291d43a14eda93903795c2b604487495438bb27d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-15T17:49:34.404804+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26804",
+  "number": 26804,
+  "title": "8365608: Test is skipped without skip exception /test/jdk/security/infra/java/security/cert/CertPathValidator/certification/ValidatePathWithParams.java",
+  "head_sha": "291d43a14eda93903795c2b604487495438bb27d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16995592533"
+}
