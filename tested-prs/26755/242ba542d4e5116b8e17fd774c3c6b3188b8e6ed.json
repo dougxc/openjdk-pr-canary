@@ -1,0 +1,16 @@
+{
+  "artifact_3774476294": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-fg1417-242ba542d4e5116b8e17fd774c3c6b3188b8e6ed)\nOpenJDK 64-Bit Server VM (build 26-internal-fg1417-242ba542d4e5116b8e17fd774c3c6b3188b8e6ed, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "e8bfe2b5704506eaf54dc00017c861bbf07b3036.json"
+  ],
+  "datetime": "2025-08-15T15:05:47.971323+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26755",
+  "number": 26755,
+  "title": "8365312: GCC 12 cannot compile SVE on aarch64 with auto-var-init pattern",
+  "head_sha": "242ba542d4e5116b8e17fd774c3c6b3188b8e6ed",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/16992230701"
+}
