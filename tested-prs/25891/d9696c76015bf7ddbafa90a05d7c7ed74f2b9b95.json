@@ -1,0 +1,17 @@
+{
+  "artifact_3778828526": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-tstuefe-d9696c76015bf7ddbafa90a05d7c7ed74f2b9b95)\nOpenJDK 64-Bit Server VM (build 26-internal-tstuefe-d9696c76015bf7ddbafa90a05d7c7ed74f2b9b95, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "58ed42d79f4761bc473c526ee649c5c5d3042f49.json",
+    "8f8efe22d67a381eb59070665420b7b8883d871b.json"
+  ],
+  "datetime": "2025-08-16T06:54:49.057152+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25891",
+  "number": 25891,
+  "title": "8340297: Use-after-free recognition for metaspace and class space",
+  "head_sha": "d9696c76015bf7ddbafa90a05d7c7ed74f2b9b95",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17005463063"
+}
