@@ -1,0 +1,14 @@
+{
+  "artifact_3782031420": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-afshin-zafari-aeea52adc773eb68bc6f0cd1049411c2c9ccc683)\nOpenJDK 64-Bit Server VM (build 26-internal-afshin-zafari-aeea52adc773eb68bc6f0cd1049411c2c9ccc683, mixed mode, sharing)"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-08-17T07:28:27.554502+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26809",
+  "number": 26809,
+  "title": "8365163: [ubsan] left-shift issue in globalDefinitions.hpp",
+  "head_sha": "aeea52adc773eb68bc6f0cd1049411c2c9ccc683",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17018302726"
+}
