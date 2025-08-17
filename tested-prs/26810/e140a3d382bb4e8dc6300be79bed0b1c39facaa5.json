@@ -1,0 +1,14 @@
+{
+  "artifact_3782687635": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-egahlin-e140a3d382bb4e8dc6300be79bed0b1c39facaa5)\nOpenJDK 64-Bit Server VM (build 26-internal-egahlin-e140a3d382bb4e8dc6300be79bed0b1c39facaa5, mixed mode, sharing)"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-08-17T19:35:55.299514+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26810",
+  "number": 26810,
+  "title": "8365614: JFR: Improve PrettyWriter::printValue",
+  "head_sha": "e140a3d382bb4e8dc6300be79bed0b1c39facaa5",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17024953097"
+}
