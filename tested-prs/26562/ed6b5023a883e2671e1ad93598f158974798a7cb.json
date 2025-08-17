@@ -1,0 +1,17 @@
+{
+  "artifact_3782260029": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-theRealAph-ed6b5023a883e2671e1ad93598f158974798a7cb)\nOpenJDK 64-Bit Server VM (build 26-internal-theRealAph-ed6b5023a883e2671e1ad93598f158974798a7cb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "b82d150059f44cd5f0f6b44db55a1f629d3086e7.json",
+    "df402a452fc98898a837c6f12beb7480b2023f78.json"
+  ],
+  "datetime": "2025-08-17T09:43:09.176811+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26562",
+  "number": 26562,
+  "title": "8328306: AArch64: MacOS lazy JIT \"write xor execute\" switching",
+  "head_sha": "ed6b5023a883e2671e1ad93598f158974798a7cb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17019408830"
+}
