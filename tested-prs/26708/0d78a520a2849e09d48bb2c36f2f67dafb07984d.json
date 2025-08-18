@@ -1,0 +1,18 @@
+{
+  "artifact_3792071315": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-naotoj-0d78a520a2849e09d48bb2c36f2f67dafb07984d)\nOpenJDK 64-Bit Server VM (build 26-internal-naotoj-0d78a520a2849e09d48bb2c36f2f67dafb07984d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "7523e34412b539b602b9791f444c679ef64c4308.json",
+    "7fc267a37adbc75db4861796d59e7ab1df39cf12.json",
+    "fa198b882880058cbf50454cd53849089d0b1b25.json"
+  ],
+  "datetime": "2025-08-18T20:56:05.425104+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26708",
+  "number": 26708,
+  "title": "8364752: Class java.time.Instant cannot parse all ISO 8601 date formats",
+  "head_sha": "0d78a520a2849e09d48bb2c36f2f67dafb07984d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17051765326"
+}
