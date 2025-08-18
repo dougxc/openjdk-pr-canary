@@ -1,0 +1,16 @@
+{
+  "artifact_3786528281": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-mhaessig-0bd8c6a76301d318df49548854d7304cc972afaa)\nOpenJDK 64-Bit Server VM (build 26-internal-mhaessig-0bd8c6a76301d318df49548854d7304cc972afaa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "57b3afed1ec7137bdbc571c13f2bc340afd645cf.json"
+  ],
+  "datetime": "2025-08-18T09:16:32.350602+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26762",
+  "number": 26762,
+  "title": "8365262: [IR-Framework] Add simple way to add cross-product of flags",
+  "head_sha": "0bd8c6a76301d318df49548854d7304cc972afaa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17035614348"
+}
