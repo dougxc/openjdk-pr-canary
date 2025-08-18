@@ -281,7 +281,9 @@ def update_to_match_graal_pr(openjdk_pr, test_record):
             git(["reset", "--quiet", "--hard", rev], repo="mx")
             info(f"  updated mx to revision {rev} based on graal/common.json")
             return True
-    return False
+    # Temporary fix until we reconstruct mapping from OpenJDK to Graal code bases
+    # return False
+    return True
 
 def libgraal_ok(build):
     """
