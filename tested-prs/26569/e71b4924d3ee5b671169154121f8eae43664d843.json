@@ -1,0 +1,16 @@
+{
+  "artifact_3787257732": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jdksjolen-e71b4924d3ee5b671169154121f8eae43664d843)\nOpenJDK 64-Bit Server VM (build 26-internal-jdksjolen-e71b4924d3ee5b671169154121f8eae43664d843, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "c5ea4184e6dfca0cb5adb2f8b27d021e7cf2e868.json"
+  ],
+  "datetime": "2025-08-18T10:47:41.275650+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26569",
+  "number": 26569,
+  "title": "8365256: RelocIterator should use indexes instead of pointers",
+  "head_sha": "e71b4924d3ee5b671169154121f8eae43664d843",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17036843841"
+}
