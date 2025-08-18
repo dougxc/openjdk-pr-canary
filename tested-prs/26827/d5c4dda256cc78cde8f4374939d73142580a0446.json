@@ -1,0 +1,14 @@
+{
+  "artifact_3790763065": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-jaskarth-d5c4dda256cc78cde8f4374939d73142580a0446)\nOpenJDK 64-Bit Server VM (build 26-internal-jaskarth-d5c4dda256cc78cde8f4374939d73142580a0446, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-18T17:59:39.473546+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26827",
+  "number": 26827,
+  "title": "8365570: C2 fails assert(false) failed: Unexpected node in SuperWord truncation: CastII",
+  "head_sha": "d5c4dda256cc78cde8f4374939d73142580a0446",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17047896603"
+}
