@@ -1,0 +1,15 @@
+{
+  "artifact_3790198593": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-anass-baya-079622653508df376dbc40d778fa244af6786960)\nOpenJDK 64-Bit Server VM (build 26-internal-anass-baya-079622653508df376dbc40d778fa244af6786960, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [],
+  "datetime": "2025-08-18T16:56:05.706115+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26824",
+  "number": 26824,
+  "title": "8361387 : Test bug4655513.java fails intermittently on Windows platform.",
+  "head_sha": "079622653508df376dbc40d778fa244af6786960",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17046742419"
+}
