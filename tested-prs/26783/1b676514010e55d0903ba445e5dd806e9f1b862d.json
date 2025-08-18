@@ -1,0 +1,16 @@
+{
+  "artifact_3792063693": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-prrace-1b676514010e55d0903ba445e5dd806e9f1b862d)\nOpenJDK 64-Bit Server VM (build 26-internal-prrace-1b676514010e55d0903ba445e5dd806e9f1b862d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a1f59db142a73995117fba43de33567c7b359f27.json"
+  ],
+  "datetime": "2025-08-18T20:43:30.459672+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26783",
+  "number": 26783,
+  "title": "8365389: Remove static color fields from SwingUtilities3 and WindowsMenuItemUI",
+  "head_sha": "1b676514010e55d0903ba445e5dd806e9f1b862d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17051765326"
+}
