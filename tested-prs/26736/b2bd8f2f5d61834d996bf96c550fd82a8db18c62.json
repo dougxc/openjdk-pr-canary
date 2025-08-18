@@ -1,0 +1,21 @@
+{
+  "artifact_3793171959": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-bplb-b2bd8f2f5d61834d996bf96c550fd82a8db18c62)\nOpenJDK 64-Bit Server VM (build 26-internal-bplb-b2bd8f2f5d61834d996bf96c550fd82a8db18c62, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "1aac01aa8ec1ef5098af610f8bfcb97fac89b778.json",
+    "29491bf903065537966638f11d5004283bb53647.json",
+    "8b85dfd735e3fe752c27e9b4a14fe7bbb3f66c5c.json",
+    "a7a8b41661302ebd9c54bb07500104e48d7135f3.json",
+    "f25a3725ce81a8bf7953730a7c8523a61bf3dd2d.json"
+  ],
+  "datetime": "2025-08-18T22:46:41.028233+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26736",
+  "number": 26736,
+  "title": "8154364: (fs) Files.isSameFile() throws NoSuchFileException with broken symbolic links",
+  "head_sha": "b2bd8f2f5d61834d996bf96c550fd82a8db18c62",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17054123505"
+}
