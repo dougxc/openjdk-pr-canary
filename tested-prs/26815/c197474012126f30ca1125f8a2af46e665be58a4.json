@@ -1,0 +1,14 @@
+{
+  "artifact_3786436444": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-johnyjose30-c197474012126f30ca1125f8a2af46e665be58a4)\nOpenJDK 64-Bit Server VM (build 26-internal-johnyjose30-c197474012126f30ca1125f8a2af46e665be58a4, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-18T09:05:32.870086+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26815",
+  "number": 26815,
+  "title": "8365398: TEST_BUG: java/rmi/transport/checkLeaseInfoLeak/CheckLeaseLeak.java failing intermittently",
+  "head_sha": "c197474012126f30ca1125f8a2af46e665be58a4",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17035614348"
+}
