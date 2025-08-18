@@ -1,0 +1,14 @@
+{
+  "artifact_3788027951": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-MBaesken-5c34851f09a7711860879d0241c4f16385af9721)\nOpenJDK 64-Bit Server VM (build 26-internal-MBaesken-5c34851f09a7711860879d0241c4f16385af9721, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-18T13:23:55.547040+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26820",
+  "number": 26820,
+  "title": "8364352: Some tests fail when using a limited number of pregenerated .jsa CDS archives",
+  "head_sha": "5c34851f09a7711860879d0241c4f16385af9721",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17041392465"
+}
