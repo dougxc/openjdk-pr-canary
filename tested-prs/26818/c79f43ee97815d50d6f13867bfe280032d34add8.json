@@ -1,0 +1,14 @@
+{
+  "artifact_3786648390": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-fandreuz-c79f43ee97815d50d6f13867bfe280032d34add8)\nOpenJDK 64-Bit Server VM (build 26-internal-fandreuz-c79f43ee97815d50d6f13867bfe280032d34add8, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-18T10:14:31.723326+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26818",
+  "number": 26818,
+  "title": "8365661: oops/resolvedMethodEntry.hpp could use default copy constructor",
+  "head_sha": "c79f43ee97815d50d6f13867bfe280032d34add8",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17036843841"
+}
