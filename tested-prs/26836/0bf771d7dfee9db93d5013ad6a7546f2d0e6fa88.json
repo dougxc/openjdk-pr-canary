@@ -1,0 +1,14 @@
+{
+  "artifact_3796101822": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-lahodaj-0bf771d7dfee9db93d5013ad6a7546f2d0e6fa88)\nOpenJDK 64-Bit Server VM (build 26-internal-lahodaj-0bf771d7dfee9db93d5013ad6a7546f2d0e6fa88, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-19T09:01:01.456533+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26836",
+  "number": 26836,
+  "title": "8365689: Elements.getFileObjectOf fails with a NullPointerException when an erroneous Element is passed in",
+  "head_sha": "0bf771d7dfee9db93d5013ad6a7546f2d0e6fa88",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17064243534"
+}
