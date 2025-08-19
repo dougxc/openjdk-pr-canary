@@ -1,0 +1,16 @@
+{
+  "artifact_3798999545": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-simonis-ba3e50b2f205a869c0481e1ee1ffbadfc0078619)\nOpenJDK 64-Bit Server VM (build 26-internal-simonis-ba3e50b2f205a869c0481e1ee1ffbadfc0078619, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "a52916b2866a4b625fe967203bf8dfb803addc36.json"
+  ],
+  "datetime": "2025-08-19T14:45:22.869038+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26825",
+  "number": 26825,
+  "title": "8361381: GlyphLayout behavior differs on JDK 11+ compared to JDK 8",
+  "head_sha": "ba3e50b2f205a869c0481e1ee1ffbadfc0078619",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17072876989"
+}
