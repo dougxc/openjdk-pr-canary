@@ -1,0 +1,16 @@
+{
+  "artifact_3797639652": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-fg1417-3540e45d1589c40738b5127e57233feeeb996acf)\nOpenJDK 64-Bit Server VM (build 26-internal-fg1417-3540e45d1589c40738b5127e57233feeeb996acf, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "3ca70c87b5a3857a00e4cd3ffa64c6b2e6c4b866.json"
+  ],
+  "datetime": "2025-08-19T11:58:31.328403+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26653",
+  "number": 26653,
+  "title": "8362504: AArch64: Replace MOVZ+MOVK+MOVK with ADRP+ADD",
+  "head_sha": "3540e45d1589c40738b5127e57233feeeb996acf",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17068114733"
+}
