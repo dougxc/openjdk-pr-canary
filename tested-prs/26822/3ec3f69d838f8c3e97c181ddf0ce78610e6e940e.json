@@ -1,0 +1,14 @@
+{
+  "artifact_3790245905": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-RogerRiggs-3ec3f69d838f8c3e97c181ddf0ce78610e6e940e)\nOpenJDK 64-Bit Server VM (build 26-internal-RogerRiggs-3ec3f69d838f8c3e97c181ddf0ce78610e6e940e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-19T16:24:34.926902+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26822",
+  "number": 26822,
+  "title": "8365703: Refactor ZipCoder to use common JLA.uncheckedNewStringNoRepl",
+  "head_sha": "3ec3f69d838f8c3e97c181ddf0ce78610e6e940e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17074413514"
+}
