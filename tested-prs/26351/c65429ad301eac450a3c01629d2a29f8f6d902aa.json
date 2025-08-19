@@ -1,0 +1,16 @@
+{
+  "artifact_3798612800": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-walulyai-c65429ad301eac450a3c01629d2a29f8f6d902aa)\nOpenJDK 64-Bit Server VM (build 26-internal-walulyai-c65429ad301eac450a3c01629d2a29f8f6d902aa, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "f94681223002334863ca18d6a0157f74e92001d4.json"
+  ],
+  "datetime": "2025-08-19T14:05:46.496742+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26351",
+  "number": 26351,
+  "title": "8359348: G1: Improve cpu usage measurements for heap sizing",
+  "head_sha": "c65429ad301eac450a3c01629d2a29f8f6d902aa",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17071415108"
+}
