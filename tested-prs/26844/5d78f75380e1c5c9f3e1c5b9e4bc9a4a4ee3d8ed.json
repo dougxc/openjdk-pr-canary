@@ -1,0 +1,14 @@
+{
+  "artifact_3799627854": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-phohensee-5d78f75380e1c5c9f3e1c5b9e4bc9a4a4ee3d8ed)\nOpenJDK 64-Bit Server VM (build 26-internal-phohensee-5d78f75380e1c5c9f3e1c5b9e4bc9a4a4ee3d8ed, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-19T15:42:40.797234+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26844",
+  "number": 26844,
+  "title": "8364382: Remove sun/tools/jstat/jstatLineCountsX.sh from ProblemList on linux-ppc64le and aix due to JDK-8248691",
+  "head_sha": "5d78f75380e1c5c9f3e1c5b9e4bc9a4a4ee3d8ed",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17074413514"
+}
