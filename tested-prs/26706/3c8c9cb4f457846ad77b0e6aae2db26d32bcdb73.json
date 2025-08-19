@@ -1,0 +1,17 @@
+{
+  "artifact_3801105680": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-prrace-3c8c9cb4f457846ad77b0e6aae2db26d32bcdb73)\nOpenJDK 64-Bit Server VM (build 26-internal-prrace-3c8c9cb4f457846ad77b0e6aae2db26d32bcdb73, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "fc422aa03f17ea4c839c954264ce8e9922431784.json"
+  ],
+  "datetime": "2025-08-19T17:46:09.609848+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26706",
+  "number": 26706,
+  "title": "8365180: Remove sun.awt.windows.WInputMethod.finalize()",
+  "head_sha": "3c8c9cb4f457846ad77b0e6aae2db26d32bcdb73",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17077163615"
+}
