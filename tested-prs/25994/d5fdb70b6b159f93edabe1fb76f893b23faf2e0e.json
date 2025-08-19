@@ -1,0 +1,17 @@
+{
+  "artifact_3796210814": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-nelanbu-d5fdb70b6b159f93edabe1fb76f893b23faf2e0e)\nOpenJDK 64-Bit Server VM (build 26-internal-nelanbu-d5fdb70b6b159f93edabe1fb76f893b23faf2e0e, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "22c33b714cd43b20e1ab01ae7bbcef799e85ebbb.json",
+    "f16b9a57e4725d765159d270ec82a4f5a4e63ddb.json"
+  ],
+  "datetime": "2025-08-19T09:19:57.191607+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25994",
+  "number": 25994,
+  "title": "8358748: Large page size initialization fails with assert \"page_size must be a power of 2\"",
+  "head_sha": "d5fdb70b6b159f93edabe1fb76f893b23faf2e0e",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17064243534"
+}
