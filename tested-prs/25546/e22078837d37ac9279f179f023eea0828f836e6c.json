@@ -1,0 +1,17 @@
+{
+  "artifact_3798994558": {
+    "java_home": "extracted/jdk-25",
+    "java_version_output": "openjdk 25-internal 2025-09-16\nOpenJDK Runtime Environment (build 25-internal-DarraghClarke-e22078837d37ac9279f179f023eea0828f836e6c)\nOpenJDK 64-Bit Server VM (build 25-internal-DarraghClarke-e22078837d37ac9279f179f023eea0828f836e6c, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "4878d558b4bb5ff3b65b9817eaf76b47dbfef944.json"
+  ],
+  "datetime": "2025-08-19T14:08:49.981390+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/25546",
+  "number": 25546,
+  "title": "8360025: (se) Convert kqueue Selector Implementation to use FFM APIs",
+  "head_sha": "e22078837d37ac9279f179f023eea0828f836e6c",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17071415108"
+}
