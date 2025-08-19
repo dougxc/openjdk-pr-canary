@@ -1,0 +1,16 @@
+{
+  "artifact_3797128956": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-toxaart-ad96db958d2f114d0822e01a69dfc2a5a53599c3)\nOpenJDK 64-Bit Server VM (build 26-internal-toxaart-ad96db958d2f114d0822e01a69dfc2a5a53599c3, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "bf872c079737833d8602b9c341955523273ecf21.json"
+  ],
+  "datetime": "2025-08-19T10:58:48.465344+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26794",
+  "number": 26794,
+  "title": "8365556: ObjectMonitor::try_lock_or_add_to_entry_list() returns true with the wrong state of the node",
+  "head_sha": "ad96db958d2f114d0822e01a69dfc2a5a53599c3",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17067004394"
+}
