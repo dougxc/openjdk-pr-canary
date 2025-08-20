@@ -1,0 +1,16 @@
+{
+  "artifact_3806990377": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-wenshao-823ecb13da73961988099b6d0fd468b530e3af3d)\nOpenJDK 64-Bit Server VM (build 26-internal-wenshao-823ecb13da73961988099b6d0fd468b530e3af3d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "98031970985b15a2016df3e23299a909603678c1.json"
+  ],
+  "datetime": "2025-08-20T09:24:47.028498+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/23311",
+  "number": 23311,
+  "title": "8365832: Refactor FloatingDecimal",
+  "head_sha": "823ecb13da73961988099b6d0fd468b530e3af3d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17093141296"
+}
