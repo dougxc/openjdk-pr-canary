@@ -1,0 +1,14 @@
+{
+  "artifact_3805145228": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-sendaoYan-81ce931b68fb5e372b000cb33ff12323ce3c46e7)\nOpenJDK 64-Bit Server VM (build 26-internal-sendaoYan-81ce931b68fb5e372b000cb33ff12323ce3c46e7, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [],
+  "datetime": "2025-08-20T04:57:47.996861+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26852",
+  "number": 26852,
+  "title": "8365834: Mark java/net/httpclient/ManyRequests.java  as intermittent",
+  "head_sha": "81ce931b68fb5e372b000cb33ff12323ce3c46e7",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17088632667"
+}
