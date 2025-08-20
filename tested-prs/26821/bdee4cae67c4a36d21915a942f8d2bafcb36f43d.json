@@ -1,0 +1,17 @@
+{
+  "artifact_3806445644": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-vy-bdee4cae67c4a36d21915a942f8d2bafcb36f43d)\nOpenJDK 64-Bit Server VM (build 26-internal-vy-bdee4cae67c4a36d21915a942f8d2bafcb36f43d, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "91acc87af33954ef0b08d35fce88dac33811e4f6.json",
+    "c320f2584e6f5f8b7eb29f4bcd81d87fc564de74.json"
+  ],
+  "datetime": "2025-08-20T09:10:11.978921+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26821",
+  "number": 26821,
+  "title": "8362243: Devkit creation for Fedora base OS is broken",
+  "head_sha": "bdee4cae67c4a36d21915a942f8d2bafcb36f43d",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17093141296"
+}
