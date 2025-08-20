@@ -1,0 +1,19 @@
+{
+  "artifact_3804004879": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-lmesnik-32b08587086de81f5c78391d4e8281983af1b839)\nOpenJDK 64-Bit Server VM (build 26-internal-lmesnik-32b08587086de81f5c78391d4e8281983af1b839, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "255c0ba808d912fb06faef866c9bd9ffc80ccbed.json",
+    "47a32e8c4dbe0e028c2f68ee51c20422ebac146b.json",
+    "7cce73e34aba47be83bd3cc39a7351609f11119c.json",
+    "d9d21af656d990add52a2934edc976296230db3c.json"
+  ],
+  "datetime": "2025-08-20T02:48:45.518216+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26713",
+  "number": 26713,
+  "title": "8365192: post_meth_exit should be in vm state when calling get_jvmti_thread_state",
+  "head_sha": "32b08587086de81f5c78391d4e8281983af1b839",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17086560639"
+}
