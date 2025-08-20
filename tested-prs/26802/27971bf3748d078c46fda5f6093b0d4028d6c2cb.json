@@ -1,0 +1,17 @@
+{
+  "artifact_3804606325": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-hgqxjj-27971bf3748d078c46fda5f6093b0d4028d6c2cb)\nOpenJDK 64-Bit Server VM (build 26-internal-hgqxjj-27971bf3748d078c46fda5f6093b0d4028d6c2cb, mixed mode, sharing)"
+  },
+  "status": "passed",
+  "history": [
+    "79fe33eb5894010f2ddde127b5234812153e1578.json",
+    "95db25dbf37b056c7ef48cbbda0a0c4ebd7d23f2.json"
+  ],
+  "datetime": "2025-08-20T02:28:40.745762+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26802",
+  "number": 26802,
+  "title": "8328874: Class::forName0 should validate the class name length early",
+  "head_sha": "27971bf3748d078c46fda5f6093b0d4028d6c2cb",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17086560639"
+}
