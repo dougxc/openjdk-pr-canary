@@ -1,0 +1,18 @@
+{
+  "artifact_3805577943": {
+    "java_home": "extracted/jdk-26",
+    "java_version_output": "openjdk 26-internal 2026-03-17\nOpenJDK Runtime Environment (build 26-internal-anass-baya-3e893a08c5d2ce47cc47671300f857a7986766c2)\nOpenJDK 64-Bit Server VM (build 26-internal-anass-baya-3e893a08c5d2ce47cc47671300f857a7986766c2, mixed mode, sharing)",
+    "failed_step": "build"
+  },
+  "status": "failed",
+  "history": [
+    "9cfd22da94fdb262d4b6fd198f421c25c304212b.json",
+    "f33a72299b5c2413df04dbef66fd417572706bb2.json"
+  ],
+  "datetime": "2025-08-20T05:47:01.286094+00:00",
+  "url": "https://github.com/openjdk/jdk/pull/26298",
+  "number": 26298,
+  "title": "8361521 : BogusFocusableWindowState.java fails with StackOverflowError on Linux",
+  "head_sha": "3e893a08c5d2ce47cc47671300f857a7986766c2",
+  "run_url": "https://github.com/dougxc/openjdk-pr-canary/actions/runs/17089485642"
+}
